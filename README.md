@@ -9,6 +9,7 @@ A few thoughts on this test:
 
 * It feels reasonably snappy to use, even with 330+ sessions. There is a bit of lag when switching between panes, and the search function in the "All" tab isn't *quite* as fast as it would be with fewer sessions. There are probably some optimizations to be found that weren't needed previously.
 * A bigger concern: SRCCON has 40-50 sessions over two days, and the UI was designed with that in mind. Whether usability is still good at 6-7x the number of sessions is worth a hard look.
+* SRCCON did not have a need to filter sessions by "space" or "pathway," but MozFest likely will. I have some thoughts on how that might be fit into the UI, but again, this is worth a hard look.
 
 Design notes:
 
