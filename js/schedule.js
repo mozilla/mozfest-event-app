@@ -13,7 +13,6 @@ function Schedule(options) {
         // TODO: determine list of unique tab names and dates
         // after loadSessions() gets actual session data
         schedule.tabList = [
-            { name: 'Friday', tabDate: new Date(2014,9,26) },
             { name: 'Saturday', tabDate: new Date(2014,9,25) },
             { name: 'Sunday', tabDate: new Date(2014,9,26) },
             { name: 'All' }
@@ -236,7 +235,7 @@ function Schedule(options) {
     // add fav stars that tap to store session ID values in localStorage
     schedule.addStars = function(containerClass) {
         if (Modernizr.localstorage) {
-            $(containerClass+':not(.session-everyone)').append('<span class="favorite"><i class="fa fa-heart-o"></i></span>');
+            $(containerClass+':not(.session-everyone)').append('<span class="favorite"><i class="fa fa-star"></i></span>');
             // if any sessions have been faved, make sure their star is lit
             _.each(schedule.savedSessionIDs, function(i) {
                 $('[data-session="' + i + '"]').find('.favorite').addClass('favorite-active');
@@ -248,7 +247,7 @@ function Schedule(options) {
     schedule.addToggles = function() {
         if (Modernizr.localstorage) {
             // only add "Favorites" tab if browser supports localStorage
-            schedule.tabList.push({ name: '<3' });
+            schedule.tabList.splice(schedule.tabList.length-1, 0, { name: 'Favorites' });
         }
         
         // set toggle width as percentage based on total number of tabs
