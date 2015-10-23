@@ -7,8 +7,8 @@
         <meta name="description" content="Test schedule for MozFest 2015, Nov. 7 & 8 in London.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/schedule.css">
-        <link rel="shortcut icon" href="img/favicon.ico" />
-        <link rel="apple-touch-icon-precomposed" href="img/touch-icon-144x144.png" sizes="144x144" />
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon.png">
+        <link rel="apple-touch-icon-precomposed" href="img/favicon/apple-touch-icon-180x180" sizes="180x180" />
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -20,14 +20,21 @@
         <script src="js/modernizr.js"></script>
     </head>
     <body>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <a href="/"><img src="img/logo-mozilla-festival.svg" alt="MozFest"></a>
+                </div>
+                <div class="page-links">
+                    <a href="">Spaces</a>
+                    <a href="">Pathways</a>
+                </div>
+            </div>
+        </nav> 
+
         <div class="container">
-            <header>
-                <h1><a href="/"><img src="img/mozfest-header.png" alt="MozFest"> 2015 Test Schedule</a></h1>
-                <p>
-                    Nov. 7 &amp; 8 &bull; <a href="https://goo.gl/maps/17N7P">Ravensbourne</a>, London
-                </p>
-            </header>
-            
+            <h1>2015 Mozfest Schedule</h1>
+            <h2>November 6-8  ·  Ravensbourne, London</h2>
             <div id="schedule-controls"></div>
             <article id="schedule"></article>
         </div>
@@ -109,7 +116,7 @@
         <div id="session-detail-wrapper">
             <div class="container">
                 <header>
-                    <h1><a href="/"><img src="img/mozfest-header.png" alt="MozFest"> 2015 Test Schedule</a></h1>
+                    <a href="/"><img src="img/mozfest-header.png" alt="MozFest"> 2015 Test Schedule</a></h1>
                 </header>
                 <article id="schedule">
                     <div id="session-detail-<%= session.id %>" class="session-detail" data-session="<%= session.id %>">
