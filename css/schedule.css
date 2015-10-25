@@ -81,7 +81,7 @@ a {
 
 nav {
     background: #F5F5F5;
-    padding: 2.5rem 0;
+    padding: 1rem 0;
     overflow: hidden;
 }
 
@@ -163,7 +163,8 @@ header a {
 #schedule-controls a {
     text-align: center;
     display: block;
-    padding: 3rem 0;
+    /*padding: 3rem 0;*/
+    padding: 1.5rem 0;
     color: #fff;
     background-color: #D1D3D3;
     text-decoration: none;
@@ -180,19 +181,29 @@ header a {
 }
 
 .schedule-tab h3 {
-    font-weight: 400;
+    position: relative;
+    font-weight: 500;
     text-transform: uppercase;
-    border-bottom: 1px solid #B94D60;
     margin: 7rem 0 5rem 0;
+    text-align: center;
+    z-index: 1;
 }
 .schedule-tab h3 span {
     font-family: "Open Sans", sans-serif;
     color: #B94D60;
     background-color: #fff;
-    font-size: 3.5rem;
-    margin-top: -2.5rem;
-    padding-right: 1.5rem;
-    float: left;
+    padding: 0 2rem;
+    /*font-size: 3.5rem;*/
+    font-size: 3rem;
+}
+.schedule-tab h3:before {
+    content: "";
+    border-top: 1px solid #B94D60;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    z-index: -1;
 }
 
 #session-detail-wrapper {
@@ -248,7 +259,8 @@ header a {
 .session-list-item h4 {
     margin: 0 0 2rem 6rem;
     line-height: 1.2;
-    font-size: 4.2rem;
+    /*font-size: 4.2rem;*/
+    font-size: 3rem;
     font-weight: 800;
 }
 
@@ -301,10 +313,10 @@ header a {
 
 .favorite {
     color: #B94D60;
-    font-size: 4.2rem;
+    font-size: 3.5rem;
     position: absolute;
     cursor: pointer;
-    top: 4rem;
+    top: 3.5rem;
     left: 4rem;
     line-height: 1;
     margin-top: .7rem;
@@ -344,6 +356,10 @@ header a {
 .session-everyone,
 .open-block {
 
+}
+
+.session-everyone h4 {
+    margin-left: 0;
 }
 
 .session-ghost {
