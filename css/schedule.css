@@ -60,20 +60,20 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
+html {
+    font-size: 62.5%;
+}
 body {
     color: #55565A;
-    font-size: 18px;
+    font-size: 1.8rem;
     background-color: #fff;
     font-family: "Open Sans", sans-serif;
     margin: 0;
 }
 .container {
     position: relative;
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
-    padding-left: 1em;
-    padding-right: 1em;
 }
 a {
     color: #184774;
@@ -81,7 +81,7 @@ a {
 
 nav {
     background: #F5F5F5;
-    padding: 25px 0;
+    padding: 2.5rem 0;
     overflow: hidden;
 }
 
@@ -93,12 +93,12 @@ nav .logo {
 nav .page-links {
     display: inline-block;
     float: right;
-    margin-top: 30px;
+    margin-top: 3rem;
 }
 
 nav .page-links a {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 2rem;
     text-transform: uppercase;
     color: #55565A;
     font-weight: 700;
@@ -107,14 +107,14 @@ nav .page-links a {
 
 h1 {
     text-align: center;
-    font-size: 42px;
+    font-size: 4.2rem;
     font-weight: 800;
     margin-bottom: 0;
 }
 
 h2 {
     text-align: center;
-    font-size: 35px;
+    font-size: 3.5rem;
     color: #B94D60;
     margin-top: 0;
 }
@@ -124,17 +124,17 @@ header a {
 }
 
 #schedule {
-    margin: 50px 0 100px 0;
+    margin: 5rem 0 10rem 0;
 }
 
 #schedule-controls {
     clear: both;
     font-family: "Open Sans", sans-serif;
-    margin: 2em auto 2em auto;
+    margin: 3rem auto;
 }
 
 #schedule-controls ul {
-    font-size: 31px;
+    font-size: 3.1rem;
     padding: 0;
     list-style: none;
     width: 100%;
@@ -163,7 +163,7 @@ header a {
 #schedule-controls a {
     text-align: center;
     display: block;
-    padding: 30px 0;
+    padding: 3rem 0;
     color: #fff;
     background-color: #D1D3D3;
     text-decoration: none;
@@ -176,22 +176,22 @@ header a {
 
 .schedule-tab,
 .page-block {
-    margin: 0 0 2em;
+
 }
 
 .schedule-tab h3 {
     font-weight: 400;
     text-transform: uppercase;
     border-bottom: 1px solid #B94D60;
-    margin: 70px 0 50px 0;
+    margin: 7rem 0 5rem 0;
 }
 .schedule-tab h3 span {
     font-family: "Open Sans", sans-serif;
     color: #B94D60;
     background-color: #fff;
-    font-size: 35px;
-    margin-top: -.75em;
-    padding-right: 1em;
+    font-size: 3.5rem;
+    margin-top: -2.5rem;
+    padding-right: 1.5rem;
     float: left;
 }
 
@@ -210,26 +210,20 @@ header a {
     position: relative;
 }
 .session-detail .header {
-    padding: 40px;
+    padding: 4rem;
     position: relative;
 }
 .session-detail .meta {
     background-color: #F5F5F5;
-    padding: 15px;
+    padding: 1.5rem;
 }
 .session-detail h2 {
-    margin: 0 0 .5em 2em;
+    margin: 0 0 .5rem 6rem;
     line-height: 1.2;
-    font-size: 42px;
+    font-size: 4.2rem;
     font-weight: 800;
     text-align: left;
     color: #55565A;
-}
-.session-detail h3 {
-    margin-top: 2em;
-}
-.session-detail li {
-    margin-bottom: .5em;
 }
 
 .session-list-item,
@@ -238,8 +232,8 @@ header a {
     clear: both;
     position: relative;.
     cursor: pointer;
-    padding: 40px;
-    margin: 0 0 1em 0;
+    padding: 4rem;
+    margin: 0 0 3rem 0;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
@@ -252,29 +246,23 @@ header a {
 }
 
 .session-list-item h4 {
-    margin: 0 0 .5em 2em;
+    margin: 0 0 2rem 6rem;
     line-height: 1.2;
-    font-size: 42px;
+    font-size: 4.2rem;
     font-weight: 800;
 }
 
 .session-list-item p {
-    font-size: .83em;
-    margin: 0;
-    position: absolute;
-    bottom: 1em;
 }
 
 .all-sessions .session-list-item {
-    padding: 40px;
+    padding: 4rem;
     background-color: #fff;
     border-bottom: 1px solid Gainsboro;
 }
 
 .all-sessions .session-list-item p {
-    position: relative;
-    margin: 0 0 .67em;
-    bottom: auto;
+    
 }
 
 .all-sessions .session-description {
@@ -282,11 +270,9 @@ header a {
 }
 
 #show-descriptions {
-    font-size: .83em;
-    padding: 2em 0 0;
+    padding: 2.5rem 0 0;
     display: block;
     text-decoration: none;
-    color: #111;
     margin-right: 2%;
     float: right;
 }
@@ -295,8 +281,6 @@ header a {
 }
 
 #filter-form {
-    font-size: .83em;
-    margin: 1em 0 2em;
     padding: 0;
     width: 50%;
     float: left;
@@ -305,26 +289,25 @@ header a {
 #filter-form input {
     display: block;
     width: 100%;
-    font-size: 1em;
-    margin-top: .25em;
+    margin-top: .5rem;
 }
 #no-results {
-    font-size: .83em;
+
 }
 
 .session-description ul {
-    font-size: .83em;
+
 }
 
 .favorite {
     color: #B94D60;
-    font-size: 42px;
+    font-size: 4.2rem;
     position: absolute;
     cursor: pointer;
-    top: 40px;
-    left: 40px;
+    top: 4rem;
+    left: 4rem;
     line-height: 1;
-    margin-top: 7px;
+    margin-top: .7rem;
     text-align: center;
 
 }
@@ -371,14 +354,11 @@ header a {
     cursor: default;
     pointer-events: none;
     text-align: center;
-    padding-top: 2.5em;
-    color: Silver;
 }
 
 .overline {
     clear: both;
     font-family: "Open Sans", sans-serif;
-    font-size: .83em;
     font-weight: 400;
 }
 .overline a {
@@ -391,17 +371,17 @@ header a {
 }
 
 .session-time {
-    margin-right: 1em;
+
 }
 .session-space {
-    margin-left: 1em;
+
 }
 
 #show-full-schedule {
     display: block;
-    font-size: 34px;
+    font-size: 3.4rem;
     color: #B94D60;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .hidden {
@@ -424,41 +404,21 @@ header a {
     *zoom: 1;
 }
 
-@media screen and (max-width: 1020px) {
-    header {
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 940px) {
-    #schedule-controls ul {
-        float: none;
-        padding-right: 1.5em;
-        margin: 3em 0 0;
-        width: 100%;
-    }
-    #schedule-controls a {
-        padding: .5em 0;
-    }
-    header {
-        background-size: cover;
-    }
-}
-
-@media only screen and (min-width: 900px) {
-    .session-length-short {
-        min-height: 110px;
-    }
-}
 
 @media only screen and (max-width: 767px) {
+    html {
+        font-size: 5px;
+    }
+    body {
+        font-size: 3rem;
+    }
     .schedule-tab h3 span {
         width: auto;
         margin-left: 0;
         text-align: left;
     }
     .container {
-        padding: 0;
+        padding: 0 4rem;
     }
     .schedule-tab h3,
     .session-list-item {
@@ -476,83 +436,26 @@ header a {
     }
     #filter-form {
         width: 100%;
-        margin-bottom: 1em;
     }
     #show-descriptions {
         display: inline-block;
         padding: 0;
         margin: 0 0 2em 0;
     }
-    #headbox {
-        right: auto;
-        width: 100%;
-        margin: 1em;
-        font-size: 1em;
-    }
 }
 
-@media only screen and (max-width: 640px) {
-    header {
-        height: 180px;
-        margin-bottom: 30px;
-    }
-    #headbox {
-        padding-top: 50px;
-    }
-    #headbox h3 {
-        display: none;
-    }
-}
 
 @media only screen and (max-width: 540px) {
-    header h1 {
-        font-size: 2em;
-    }
-    header h1 img {
-        display: block;
-        height: 2.5em;
-        margin: 0 auto .5em;
-    }
-    header p {
-        font-size: .75em;
-    }
+
     .session-detail .session-room {
         display: block;
-        margin-top: 1em;
     }
 }
 
 @media only screen and (max-width: 480px) {
-    header {
-        height: 150px;
-    }
-    header nav {
-        font-size: .9em;
-    }
-    header nav ul {
-        margin-top: .33em;
-    }
-    header a#cornerlogo img {
-        width: 100px;
-        top: 10px;
-        left: -25px;
-    }
-    #headertop {
-        height: 40px;
-    }
-    #headbox {
-        margin: 1em 0;
-    }
+
 }
 
 @media only screen and (max-width: 420px) {
-    header h1 {
-        font-size: 1.8em;
-    }
-    header h1 img {
-        height: 2em;
-    }
-    #schedule-controls {
-        font-size: .75em;
-    }
+
 }
