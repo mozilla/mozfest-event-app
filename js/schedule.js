@@ -131,7 +131,8 @@ function Schedule(options) {
             sessionID: sessionItem.id,
             sessionClass: sessionItem.everyone ? 'everyone' : sessionItem.length == '1 hour' ? 'length-short' : 'length-long',
             showDay: false,
-            showLeaders: false,
+            // showLeaders: false,
+            showLeaders: true,
             smartypants: schedule.smartypants
         }
         // some templates need to show expanded data

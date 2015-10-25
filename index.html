@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/schedule.css">
         <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon.png">
-        <link rel="apple-touch-icon-precomposed" href="img/favicon/apple-touch-icon-180x180" sizes="180x180" />
+        <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -93,13 +93,13 @@
 
         <script type="text/template" id="session-card-template">
         <a href="#_session-<%= sessionID %>" id="session-<%= sessionID %>" class="session-list-item session-<%= sessionClass %>" data-session="<%= sessionID.replace('-ghost','') %>">
-            <h4><%= smartypants(session.title) %></h3>
-            <% if (showLeaders) { %><p class="session-leaders"><%= smartypants(session.facilitators) %></p><% } %>
-            <p>
-                <span class="session-time"><% if (showDay) { %><%= session.day %>, <% } %><%= session.start %></span>
-                <span class="session-room"><%= smartypants(session.location) %></span>
-                <span class="session-space"><%= session.space %></span>
-            </p>
+            <h4><%= smartypants(session.title) %></h4>
+            <div>
+            <% if (showLeaders) { %>[Facilitators] <span class="session-leaders"><%= smartypants(session.facilitators) %></span><% } %>
+                <div class="session-time">[Time] <% if (showDay) { %><%= session.day %>, <% } %><%= session.start %></div>
+                <div class="session-room">[Location] <%= smartypants(session.location) %></div>
+                <div class="session-space">[Space] <%= session.space %></div>
+            </div>
         </a>
         </script>
 
