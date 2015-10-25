@@ -20,20 +20,23 @@
         <script src="js/modernizr.js"></script>
     </head>
     <body>
-        <nav>
-            <div class="container">
-                <div class="logo">
-                    <a href="/"><img src="img/logo-mozilla-festival.svg" alt="MozFest"></a>
-                </div>
-                <div class="page-links">
-                    <a href="">Spaces</a>
-                    <a href="">Pathways</a>
-                </div>
-            </div>
-        </nav> 
 
+        <header>
+            <nav>
+                <div class="container">
+                    <div class="logo">
+                        <a href=""><img src="img/logo-mozilla-festival.svg" alt="MozFest"></a>
+                    </div>
+                    <div class="page-links">
+                        <a href="">Spaces</a>
+                        <a href="">Pathways</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+            
         <div class="container">
-            <h1>2015 Mozfest Schedule</h1>
+            <h1>2015 Mozfest Schedule (sample data)</h1>
             <h2>November 6-8  ·  Ravensbourne, London</h2>
             <div id="schedule-controls"></div>
             <article id="schedule"></article>
@@ -114,24 +117,20 @@
 
         <script type="text/template" id="session-detail-template">
         <div id="session-detail-wrapper">
-            <div class="container">
-                <header>
-                    <a href="/"><img src="img/mozfest-header.png" alt="MozFest"> 2015 Test Schedule</a></h1>
-                </header>
-                <article id="schedule">
-                    <div id="session-detail-<%= session.id %>" class="session-detail" data-session="<%= session.id %>">
-                        <a id="show-full-schedule" href="/">&larr; Back to full schedule</a>
-                        <h2><%= smartypants(session.title) %></h2>
-                        <% if (session.leader) { %><p class="session-leaders"><strong>Session leader(s):</strong> <%= smartypants(session.facilitators) %></p><% } %>
-                        <% if (session.day || session.start || session.location) { %>
-                        <p>
-                            <span class="session-time"><strong>Day & Time:</strong> <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %></span>
-                            <% if (session.location) { %><span class="session-room"><strong>Room:</strong> <%= smartypants(session.location) %></span><% } %>
-                        </p>
-                        <% } %>
-                        <% if (session.description) { %><%= marked(session.description) %><% } %>
-                    </div>
-                </article>
+            <a id="show-full-schedule" href="/">Back to full schedule</a>
+            <div id="session-detail-<%= session.id %>" class="session-detail" data-session="<%= session.id %>">
+                <div class="header">
+                    <h2><%= smartypants(session.title) %></h2>
+                </div>
+                <div class="meta">
+                    <% if (session.leader) { %><p class="session-leaders"><strong>Session leader(s):</strong> <%= smartypants(session.facilitators) %></p><% } %>
+                    <% if (session.day || session.start || session.location) { %>
+                        <div class="session-time"><strong>Day & Time:</strong> <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %></div>
+                        <% if (session.location) { %><div class="session-room"><strong>Room:</strong> <%= smartypants(session.location) %></div><% } %>
+
+                </div>
+                <% } %>
+                <% if (session.description) { %><%= marked(session.description) %><% } %>
             </div>
         </div>
         </script>
