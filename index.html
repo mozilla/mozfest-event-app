@@ -86,9 +86,9 @@
             <h4><%= smartypants(session.title) %></h3>
             <% if (showLeaders) { %><p class="session-leaders"><%= smartypants(session.facilitators) %></p><% } %>
             <p>
-                <span class="session-time"><% if (showDay) { %><%= session.day %>, <% } %><%= session.start %></span>
-                <span class="session-room"><%= smartypants(session.location) %></span>
-                <span class="session-space"><%= session.space %></span>
+                <% if (session.start) { %><span class="session-time"><% if (showDay) { %><%= session.day %>, <% } %><%= session.start %></span><% } %>
+                <% if (session.location) { %><span class="session-room"><%= smartypants(session.location) %></span><% } %>
+                <% if (session.space) { %><span class="session-space"><%= session.space %></span><% } %>
             </p>
         </a>
         </script>
@@ -98,8 +98,8 @@
             <h4><%= smartypants(session.title) %></h3>
             <% if (showLeaders) { %><p class="session-leaders"><%= smartypants(session.facilitators) %></p><% } %>
             <p>
-                <span class="session-time"><% if (showDay) { %><%= session.day %>, <% } %><%= session.start %></span>
-                <span class="session-room"><%= smartypants(session.location) %></span>
+                <% if (session.start) { %><span class="session-time"><% if (showDay) { %><%= session.day %>, <% } %><%= session.start %></span><% } %>
+                <% if (session.location) { %><span class="session-room"><%= smartypants(session.location) %></span><% } %>
             </p>
             <div class="hidden session-description"><% if (session.description) { %><%= marked(session.description.replace('http://','').replace('https://','')) %><% } %></div>
         </a>

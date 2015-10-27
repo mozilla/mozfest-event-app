@@ -553,6 +553,7 @@ function Schedule(options) {
 
     // utility function to pass into templates for nice typography
     schedule.smartypants = function(str) {
+        if (!str) { return }
         return str
             // em dashes
             .replace(/--/g, '\u2014')
