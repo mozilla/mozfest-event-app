@@ -6,16 +6,17 @@ function Schedule(options) {
         // when you create a Schedule() instance on the page
         schedule.sourceJSON = 'sessions.json';
         schedule.$container = $('#schedule');
-        schedule.$toggles = $('<ul>').appendTo('#schedule-controls').hide();
+        schedule.$toggles = $('<ul>').appendTo('#schedule-controls');
         // if true, avoids using history.back(), which doesn't work offline
         schedule.offlineMode = false;
 
         // TODO: determine list of unique tab names and dates
         // after loadSessions() gets actual session data
         schedule.tabList = [
-            { name: 'Saturday', tabDate: new Date(2014,9,25) },
-            { name: 'Sunday', tabDate: new Date(2014,9,26) },
-            { name: 'All' }
+            { name: 'Friday', displayName: 'Fri', tabDate: new Date(2015,10,6) },
+            { name: 'Saturday', displayName: 'Sat', tabDate: new Date(2015,10,7) },
+            { name: 'Sunday', displayName: 'Sun', tabDate: new Date(2015,10,8) },
+            { name: 'All', displayName: 'All' }
         ];
         schedule.sessionList = [];
         
@@ -129,7 +130,7 @@ function Schedule(options) {
             sessionID: sessionItem.id,
             sessionClass: sessionItem.everyone ? 'everyone' : sessionItem.length == '1 hour' ? 'length-short' : 'length-long',
             showDay: false,
-            showLeaders: false,
+            showLeaders: true,
             smartypants: schedule.smartypants
         }
         // some templates need to show expanded data
@@ -186,8 +187,10 @@ function Schedule(options) {
                 session: session,
                 smartypants: schedule.smartypants // context function for nice typography
             }
+            // clear selected tab from "schedule-controls"
+            schedule.$toggles.find('a').removeClass('active');
 
-            schedule.$container.append(schedule.sessionDetailTemplate(templateData));
+            schedule.$container.html(schedule.sessionDetailTemplate(templateData));
             // allowing faving from detail page too
             schedule.addStars('.session-detail');
         } else {
@@ -247,17 +250,17 @@ function Schedule(options) {
     schedule.addToggles = function() {
         if (Modernizr.localstorage) {
             // only add "Favorites" tab if browser supports localStorage
-            schedule.tabList.splice(schedule.tabList.length-1, 0, { name: 'Favorites' });
+            schedule.tabList.splice(schedule.tabList.length-1, 0, { name: 'Favorites', displayName: '<i class="fa fa-heart"></i>' });
         }
         
         // set toggle width as percentage based on total number of tabs
         var toggleWidth = (1 / schedule.tabList.length) * 100;
 
         // add the toggle links
-        _.each(_.pluck(schedule.tabList, 'name'), function(i) {
+        _.each(schedule.tabList, function(tab) {
             schedule.$toggles.append(
                 $('<li>').css('width', toggleWidth+'%').append(
-                    $('<a>').text(i).attr('href', '#').attr('id', 'show-'+i.toLowerCase())
+                    $('<a>').html(tab.displayName).attr('href', '#').attr('id', 'show-'+tab.name.toLowerCase())
                 )
             );
         });
@@ -307,7 +310,7 @@ function Schedule(options) {
             // handle standard tabs like "Thursday" or "Friday"
             schedule.$container.removeClass().hide().empty();
             schedule.addCaptionOverline();
-            schedule.$container.append(schedule.sessionListTemplate);
+            schedule.$container.html(schedule.sessionListTemplate);
             schedule.loadSessions(schedule.addSessionsToSchedule);
             schedule.transitionElementIn(schedule.$container);
             
@@ -408,7 +411,7 @@ function Schedule(options) {
     // showFavorites() handles display when someone chooses the "Favorites" tab
     schedule.showFavorites = function() {
         // provide some user instructions at top of page
-        schedule.$container.hide().empty().append('<p class="overline">Star sessions to store a list on this device</p>').append(schedule.sessionListTemplate);
+        schedule.$container.hide().empty().append('<p class="overline">Favorite sessions to store a list on this device</p>').append(schedule.sessionListTemplate);
         // use savedSessionList IDs to render favorited sessions to page
         schedule.addSessionsToSchedule(schedule.savedSessionList);
         schedule.transitionElementIn(schedule.$container);

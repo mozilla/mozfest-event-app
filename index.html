@@ -7,8 +7,8 @@
         <meta name="description" content="Test schedule for MozFest 2015, Nov. 7 & 8 in London.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/schedule.css">
-        <link rel="shortcut icon" href="img/favicon.ico" />
-        <link rel="apple-touch-icon-precomposed" href="img/touch-icon-144x144.png" sizes="144x144" />
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon.png">
+        <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -20,111 +20,128 @@
         <script src="js/modernizr.js"></script>
     </head>
     <body>
-        <div class="container">
-            <header>
-                <h1><a href="/"><img src="img/mozfest-header.png" alt="MozFest"> 2015 Test Schedule</a></h1>
-                <p>
-                    Nov. 7 &amp; 8 &bull; <a href="https://goo.gl/maps/17N7P">Ravensbourne</a>, London
-                </p>
-            </header>
+
+        <header>
+            <nav>
+                <div class="container">
+                    <div class="logo">
+                        <a href=""><img src="img/logo-mozilla-festival.svg" alt="MozFest"></a>
+                    </div>
+                    <div class="page-links">
+                        <a href="https://2015.mozillafestival.org/tickets">Tickets</a>
+                        <a href="">Spaces</a>
+                        <a href="">Pathways</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
             
+        <div class="container">
+            <h1>2015 Mozfest Schedule (DRAFT)</h1>
+            <h2>November 6-8  ·  Ravensbourne, London</h2>
             <div id="schedule-controls"></div>
             <article id="schedule"></article>
         </div>
 
-
         <script type="text/template" id="session-list-template">
         <div id="saturday" class="schedule-tab">
-            <h3><span>Saturday 9 AM</span></h3>
-            <div id="saturday-morning" class="page-block"><div class="open-block">OPEN</div></div>
+            <h3><span>Saturday 9:00 AM</span></h3>
+            <div id="saturday-opening-circle" class="page-block"><div class="open-block">OPEN</div></div>
 
-            <h3><span>Saturday 11 AM</span></h3>
-            <div id="saturday-am-1" class="page-block"><div class="open-block">OPEN</div></div>
+            <h3><span>Saturday 10:45 AM</span></h3>
+            <div id="saturday-session-block-1" class="page-block"><div class="open-block">OPEN</div></div>
 
-            <h3><span>Saturday 12:30 PM</span></h3>
-            <div id="saturday-am-2" class="page-block"><div class="open-block">OPEN</div></div>
+            <h3><span>Saturday 12 PM</span></h3>
+            <div id="saturday-session-block-2" class="page-block"><div class="open-block">OPEN</div></div>
 
-            <h3><span>Saturday 1:30 PM</span></h3>
+            <h3><span>Saturday Lunch</span></h3>
             <div id="saturday-lunch" class="page-block"><div class="open-block">OPEN</div></div>
 
-            <h3><span>Saturday 3 PM</span></h3>
-            <div id="saturday-pm-1" class="page-block"><div class="open-block">OPEN</div></div>
+            <h3><span>Saturday 2:15 PM</span></h3>
+            <div id="saturday-session-block-3" class="page-block"><div class="open-block">OPEN</div></div>
 
-            <h3><span>Saturday 4:30 PM</span></h3>
-            <div id="saturday-pm-2" class="page-block"><div class="open-block">OPEN</div></div>
+            <h3><span>Saturday 3:30 PM</span></h3>
+            <div id="saturday-session-block-4" class="page-block"><div class="open-block">OPEN</div></div>
 
-            <h3><span>Saturday 5:30 PM</span></h3>
-            <div id="saturday-evening" class="page-block"><div class="open-block">OPEN</div></div>
+            <h3><span>Saturday Evening Main Stage</span></h3>
+            <div id="saturday-evening-main-stage" class="page-block"><div class="open-block">OPEN</div></div>
+
+            <h3><span>Saturday Party</span></h3>
+            <div id="saturday-evening-main-stage" class="page-block"><div class="open-block">OPEN</div></div>
+
         </div>
         
         <div id="sunday" class="schedule-tab">
-            <h3><span>Sunday 10 AM</span></h3>
-            <div id="sunday-morning" class="page-block"><div class="open-block">OPEN</div></div>
+            <h3><span>Sunday Opening Circle</span></h3>
+            <div id="sunday-opening-circle" class="page-block"><div class="open-block">OPEN</div></div>
+            
+            <h3><span>Sunday 11:30 AM</span></h3>
+            <div id="sunday-session-block-5" class="page-block"><div class="open-block">OPEN</div></div>
 
-            <h3><span>Sunday 11 AM</span></h3>
-            <div id="sunday-am-1" class="page-block"><div class="open-block">OPEN</div></div>
+            <h3><span>Sunday 12:45 PM</span></h3>
+            <div id="sunday-session-block-6" class="page-block"><div class="open-block">OPEN</div></div>
 
-            <h3><span>Sunday 12:30 PM</span></h3>
-            <div id="sunday-am-2" class="page-block"><div class="open-block">OPEN</div></div>
-
-            <h3><span>Sunday 1:30 PM</span></h3>
+            <h3><span>Sunday Lunch</span></h3>
             <div id="sunday-lunch" class="page-block"><div class="open-block">OPEN</div></div>
 
-            <h3><span>Sunday 3 PM</span></h3>
-            <div id="sunday-pm-1" class="page-block"><div class="open-block">OPEN</div></div>
+            <h3><span>Sunday 2:45 PM</span></h3>
+            <div id="sunday-session-block-7" class="page-block"><div class="open-block">OPEN</div></div>
 
-            <h3><span>Sunday 4:30 PM</span></h3>
-            <div id="sunday-pm-2" class="page-block"><div class="open-block">OPEN</div></div>
+            <h3><span>Sunday 4 PM</span></h3>
+            <div id="sunday-session-block-8" class="page-block"><div class="open-block">OPEN</div></div>
 
             <h3><span>Sunday 5:30 PM</span></h3>
             <div id="sunday-evening" class="page-block"><div class="open-block">OPEN</div></div>
+
+            <h3><span>Sunday Demo Party</span></h3>
+            <div id="sunday-demo-party" class="page-block"><div class="open-block">OPEN</div></div>
         </div>
         </script>
 
         <script type="text/template" id="session-card-template">
         <a href="#_session-<%= sessionID %>" id="session-<%= sessionID %>" class="session-list-item session-<%= sessionClass %>" data-session="<%= sessionID.replace('-ghost','') %>">
-            <h4><%= smartypants(session.title) %></h3>
-            <% if (showLeaders) { %><p class="session-leaders"><%= smartypants(session.facilitators) %></p><% } %>
-            <p>
-                <% if (session.start) { %><span class="session-time"><% if (showDay) { %><%= session.day %>, <% } %><%= session.start %></span><% } %>
-                <% if (session.location) { %><span class="session-room"><%= smartypants(session.location) %></span><% } %>
-                <% if (session.space) { %><span class="session-space"><%= session.space %></span><% } %>
-            </p>
+            <h4><%= smartypants(session.title) %></h4>
+            <div>
+            <% if (showLeaders && session.facilitators.length > 0) { %><div class="session-leaders"><%= smartypants(session.facilitators) %></div><% } %>
+                <div class="session-time"><% if (showDay) { %><%= session.day %>, <% } %><%= session.start %></div>
+                <div class="session-space-and-location">
+                    <% if (session.space) { %>
+                        <%= session.space %>
+                    <% } %>
+                    <% if (session.location) { %>
+                        , <%= smartypants(session.location) %>
+                    <% } %>
+                </div>
+            </div>
         </a>
         </script>
 
         <script type="text/template" id="session-list-item-template">
         <a href="#_session-<%= sessionID %>" id="session-<%= sessionID %>" class="session-list-item" data-session="<%= sessionID.replace('-ghost','') %>">
             <h4><%= smartypants(session.title) %></h3>
-            <% if (showLeaders) { %><p class="session-leaders"><%= smartypants(session.facilitators) %></p><% } %>
-            <p>
-                <% if (session.start) { %><span class="session-time"><% if (showDay) { %><%= session.day %>, <% } %><%= session.start %></span><% } %>
-                <% if (session.location) { %><span class="session-room"><%= smartypants(session.location) %></span><% } %>
-            </p>
+            <% if (showLeaders && session.facilitators.length > 0) { %><p class="session-leaders"><%= smartypants(session.facilitators) %></p><% } %>
+            <p class="session-time"><% if (showDay) { %><%= session.day %>, <% } %><%= session.start %></p>
+            <p class="session-room"><%= smartypants(session.location) %></p>
             <div class="hidden session-description"><% if (session.description) { %><%= marked(session.description.replace('http://','').replace('https://','')) %><% } %></div>
         </a>
         </script>
 
         <script type="text/template" id="session-detail-template">
         <div id="session-detail-wrapper">
-            <div class="container">
-                <header>
-                    <h1><a href="/"><img src="img/mozfest-header.png" alt="MozFest"> 2015 Test Schedule</a></h1>
-                </header>
-                <article id="schedule">
-                    <div id="session-detail-<%= session.id %>" class="session-detail" data-session="<%= session.id %>">
-                        <a id="show-full-schedule" href="/">&larr; Back to full schedule</a>
-                        <h2><%= smartypants(session.title) %></h2>
-                        <% if (session.leader) { %><p class="session-leaders"><strong>Session leader(s):</strong> <%= smartypants(session.facilitators) %></p><% } %>
-                        <% if (session.day || session.start || session.location) { %>
-                        <p>
-                            <span class="session-time"><strong>Day & Time:</strong> <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %></span>
-                            <% if (session.location) { %><span class="session-room"><strong>Room:</strong> <%= smartypants(session.location) %></span><% } %>
-                        </p>
-                        <% } %>
-                        <% if (session.description) { %><%= marked(session.description) %><% } %>
-                    </div>
-                </article>
+            <a id="show-full-schedule" href="/">Back to full schedule</a>
+            <div id="session-detail-<%= session.id %>" class="session-detail" data-session="<%= session.id %>">
+                <div class="header">
+                    <h2><%= smartypants(session.title) %></h2>
+                </div>
+                <div class="meta">
+                    <% if (session.leader) { %><p class="session-leaders"><strong>Session leader(s):</strong> <%= smartypants(session.facilitators) %></p><% } %>
+                    <% if (session.day || session.start || session.location) { %>
+                        <div class="session-time"><strong>Day & Time:</strong> <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %></div>
+                        <% if (session.location) { %><div class="session-room"><strong>Room:</strong> <%= smartypants(session.location) %></div><% } %>
+
+                </div>
+                <% } %>
+                <% if (session.description) { %><%= marked(session.description) %><% } %>
             </div>
         </div>
         </script>

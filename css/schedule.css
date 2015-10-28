@@ -39,8 +39,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.fa-star:before {
-  content: "\f005";
+.fa-heart:before {
+  content: "\f004";
+}
+.fa-heart-o:before {
+  content: "\f08a";
 }
 .fa-plus-circle:before {
   content: "\f055";
@@ -57,70 +60,84 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
+html {
+    font-size: 62.5%;
+}
 body {
-    color: #111;
-    font-size: 18px;
+    color: #55565A;
+    font-size: 1.8rem;
     background-color: #fff;
     font-family: "Open Sans", sans-serif;
     margin: 0;
 }
 .container {
     position: relative;
-    background: #fff;
-    max-width: 1140px;
-    margin: 2em auto;
-    padding-left: 10em;
-    padding-right: 1em;
+    max-width: 800px;
+    margin: 0 auto;
 }
 a {
     color: #184774;
 }
 
-header {
-    margin: 0 0 3em -6em;
+nav {
+    background: #F5F5F5;
+    padding: 1rem 0;
+    overflow: hidden;
 }
 
-header h1 {
-    font-weight: bold;
-    font-size: 3em;
-    line-height: 1.2em;
-    margin-bottom: .5em;
+nav .logo {
+    display: inline-block;
+    float: left;
 }
-header h1 a {
+
+nav .page-links {
+    display: inline-block;
+    float: right;
+    margin-top: 3rem;
+}
+
+nav .page-links a {
+    display: inline-block;
+    margin-left: 2rem;
+    text-transform: uppercase;
+    color: #55565A;
+    font-weight: 700;
     text-decoration: none;
-    color: #111;
 }
 
-header h1 img {
-    display: inline;
-    height: 1.2em;
-    vertical-align: bottom;
-    margin-right: .25em;
-}
-
-header h1,
-header p {
-    clear: both;
+h1 {
     text-align: center;
+    font-size: 4.2rem;
+    font-weight: 800;
+    margin-bottom: 0;
 }
 
-header p a {
+h2 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #B94D60;
+    margin-top: 0;
+}
+
+header a {
     white-space: nowrap;
+}
+
+#schedule {
+    margin: 5rem 0 10rem 0;
 }
 
 #schedule-controls {
     clear: both;
-    margin: 0 0 3em -6em;
     font-family: "Open Sans", sans-serif;
+    margin: 3rem auto;
 }
 
 #schedule-controls ul {
-    font-size: .83em;
-    margin: 2em auto;
+    font-size: 3.1rem;
     padding: 0;
     list-style: none;
-    width: 50%;
+    width: 100%;
 }
 
 #schedule-controls li {
@@ -146,43 +163,51 @@ header p a {
 #schedule-controls a {
     text-align: center;
     display: block;
-    padding: .33em 0 .5em;
-    color: LightSlateGray;
-    background-color: WhiteSmoke;
+    /*padding: 3rem 0;*/
+    padding: 1.5rem 0;
+    color: #fff;
+    background-color: #D1D3D3;
     text-decoration: none;
-    border-right: 1px solid Gainsboro;
+    border-right: 2px solid #fff;
+    text-transform: uppercase;
 }
 #schedule-controls a.active {
-    color: #000;
-    font-weight: bold;
-    background-color: Silver;
+    background-color: #D93F5F;
 }
 
 .schedule-tab,
 .page-block {
-    margin: 0 0 2em;
+
 }
 
 .schedule-tab h3 {
-    font-weight: 400;
+    position: relative;
+    font-weight: 500;
     text-transform: uppercase;
-    border-bottom: 1px solid Gainsboro;
-    margin: 1em 1em 1em 0;
+    margin: 7rem 0 5rem 0;
+    text-align: center;
+    z-index: 1;
 }
 .schedule-tab h3 span {
     font-family: "Open Sans", sans-serif;
+    color: #B94D60;
     background-color: #fff;
-    font-size: .67em;
-    margin-top: -.75em;
-    padding-right: 1em;
-    float: left;
-    width: 12em;
-    margin-left: -12em;
-    text-align: right;
+    padding: 0 2rem;
+    /*font-size: 3.5rem;*/
+    font-size: 3rem;
+}
+.schedule-tab h3:before {
+    content: "";
+    border-top: 1px solid #B94D60;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    z-index: -1;
 }
 
 #session-detail-wrapper {
-    background-color: #fff;
+    /*background-color: #fff;
     position: fixed;
     top: 0;
     left: 0;
@@ -190,58 +215,66 @@ header p a {
     width: 100%;
     height: 100%;
     overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;*/
 }
 .session-detail {
     position: relative;
 }
-.session-detail h3 {
-    margin-top: 2em;
+.session-detail .header {
+    padding: 4rem;
+    position: relative;
 }
-.session-detail li {
-    margin-bottom: .5em;
+.session-detail .meta {
+    background-color: #F5F5F5;
+    padding: 1.5rem;
+}
+.session-detail h2 {
+    margin: 0 0 .5rem 6rem;
+    line-height: 1.2;
+    font-size: 4.2rem;
+    font-weight: 800;
+    text-align: left;
+    color: #55565A;
 }
 
 .session-list-item,
 .open-block {
     display: block;
     clear: both;
-    position: relative;
+    position: relative;.
     cursor: pointer;
-    padding: 1em 2.5em 2.5em 1em;
-    margin: 0 2% 1em 0;
+    padding: 4rem;
+    margin: 0 0 3rem 0;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
+    background: #F5F5F5;
 }
 
 .session-list-item {
-    color: #111;
+    color: #55565A;
     text-decoration: none;
 }
 
 .session-list-item h4 {
-    margin: 0 0 .5em;
-    line-height: 1.5;
+    margin: 0 0 2rem 6rem;
+    line-height: 1.2;
+    /*font-size: 4.2rem;*/
+    font-size: 3rem;
+    font-weight: 800;
 }
 
 .session-list-item p {
-    font-size: .83em;
-    margin: 0;
-    position: absolute;
-    bottom: 1em;
 }
 
 .all-sessions .session-list-item {
-    padding: .5em 2.5em 1em 0;
+    padding: 4rem;
     background-color: #fff;
     border-bottom: 1px solid Gainsboro;
 }
 
 .all-sessions .session-list-item p {
-    position: relative;
-    margin: 0 0 .67em;
-    bottom: auto;
+    
 }
 
 .all-sessions .session-description {
@@ -249,11 +282,9 @@ header p a {
 }
 
 #show-descriptions {
-    font-size: .83em;
-    padding: 2em 0 0;
+    padding: 2.5rem 0 0;
     display: block;
     text-decoration: none;
-    color: #111;
     margin-right: 2%;
     float: right;
 }
@@ -262,8 +293,6 @@ header p a {
 }
 
 #filter-form {
-    font-size: .83em;
-    margin: 1em 0 2em;
     padding: 0;
     width: 50%;
     float: left;
@@ -272,58 +301,85 @@ header p a {
 #filter-form input {
     display: block;
     width: 100%;
-    font-size: 1em;
-    margin-top: .25em;
+    margin-top: .5rem;
 }
 #no-results {
-    font-size: .83em;
+
 }
 
 .session-description ul {
-    font-size: .83em;
+
 }
 
 .favorite {
-    color: #fff;
-    font-size: 1.2em;
+    color: #B94D60;
+    font-size: 3.5rem;
     position: absolute;
     cursor: pointer;
-    top: 0;
-    right: 0;
+    top: 3.5rem;
+    left: 4rem;
     line-height: 1;
-    width: 2.5em;
-    height: 2.5em;
-    padding: 0.7em 0 0 0.2em;
+    margin-top: .7rem;
     text-align: center;
-    text-shadow:
-     -1px -1px 1px rgba(0, 0, 0, 0.1),
-      1px -1px 1px rgba(0, 0, 0, 0.1),
-      -1px 1px 1px rgba(0, 0, 0, 0.1),
-       1px 1px 1px rgba(0, 0, 0, 0.1);
+
 }
 
 .session-detail .favorite,
 .all-sessions .favorite {
-    line-height: 1;
-    background-color: #ffd0b6;
-    width: 1.8em;
-    height: 1.6em;
-    padding: 0.33em;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
+    
 }
 
-.favorite-active {
-    color: #fc6e1f;
+.favorite-active .fa-heart-o:before {
+    content: "\f004";
 }
 
 .session-detail .favorite-active {
-    background-color: #fff;
+
+}
+
+.session-leaders,
+.session-time,
+.session-space-and-location,
+.session-pathway {
+    position: relative;
+    padding-left: 2.5rem;
+}
+
+.session-leaders:before,
+.session-time:before,
+.session-space-and-location:before,
+.session-pathway:before {
+    display: block;
+    content: "";
+    background-size: 20px auto;
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.session-leaders:before {
+    background-image: url(../img/icon-facilitator.svg);
+    top: 4px;
+}
+
+.session-time:before {
+    background-image: url(../img/icon-clock.svg);
+    top: 5px;
+}
+
+.session-space-and-location:before {
+    background-image: url(../img/icon-space.svg);
+    top: 5px;
+}
+
+.session-pathway:before {
+    background-image: url(../img/icon-pathway.svg);
+    top: 5px;
 }
 
 .session-length-short {
-    background-color: PapayaWhip;
+
 }
 
 .favorites .session-length-short,
@@ -335,12 +391,16 @@ header p a {
 }
 
 .session-length-long {
-    background-color: PowderBlue;
+    
 }
 
 .session-everyone,
 .open-block {
-    background-color: WhiteSmoke;
+
+}
+
+.session-everyone h4 {
+    margin-left: 0;
 }
 
 .session-ghost {
@@ -351,14 +411,11 @@ header p a {
     cursor: default;
     pointer-events: none;
     text-align: center;
-    padding-top: 2.5em;
-    color: Silver;
 }
 
 .overline {
     clear: both;
     font-family: "Open Sans", sans-serif;
-    font-size: .83em;
     font-weight: 400;
 }
 .overline a {
@@ -371,14 +428,17 @@ header p a {
 }
 
 .session-time {
-    margin-right: 1em;
+
 }
-.session-space {
-    margin-left: 1em;
+.session-space-and-location {
+
 }
 
 #show-full-schedule {
-    font-size: .83em;
+    display: block;
+    font-size: 3.4rem;
+    color: #B94D60;
+    margin-bottom: 2rem;
 }
 
 .hidden {
@@ -401,51 +461,21 @@ header p a {
     *zoom: 1;
 }
 
-@media screen and (max-width: 1020px) {
-    header {
-        width: 100%;
-    }
-    .header-container  {
-        margin: 0 2em;
-    }
-}
-
-@media only screen and (max-width: 940px) {
-    #schedule-controls ul {
-        float: none;
-        padding-right: 1.5em;
-        margin: 3em 0 0;
-        width: 100%;
-    }
-    #schedule-controls a {
-        padding: .5em 0;
-    }
-    header {
-        background-size: cover;
-    }
-}
-
-@media only screen and (min-width: 900px) {
-    .session-length-short {
-        float: left;
-        clear: none;
-        width: 48%;
-        min-height: 110px;
-    }
-    .session-length-short:nth-child(2n+1) {
-        clear: left;
-    }
-}
 
 @media only screen and (max-width: 767px) {
+    html {
+        font-size: 5px;
+    }
+    body {
+        font-size: 3rem;
+    }
     .schedule-tab h3 span {
         width: auto;
         margin-left: 0;
         text-align: left;
     }
     .container {
-        padding: 0;
-        margin: 2em 1em;
+        padding: 0 4rem;
     }
     .schedule-tab h3,
     .session-list-item {
@@ -463,83 +493,26 @@ header p a {
     }
     #filter-form {
         width: 100%;
-        margin-bottom: 1em;
     }
     #show-descriptions {
         display: inline-block;
         padding: 0;
         margin: 0 0 2em 0;
     }
-    #headbox {
-        right: auto;
-        width: 100%;
-        margin: 1em;
-        font-size: 1em;
-    }
 }
 
-@media only screen and (max-width: 640px) {
-    header {
-        height: 180px;
-        margin-bottom: 30px;
-    }
-    #headbox {
-        padding-top: 50px;
-    }
-    #headbox h3 {
-        display: none;
-    }
-}
 
 @media only screen and (max-width: 540px) {
-    header h1 {
-        font-size: 2em;
-    }
-    header h1 img {
-        display: block;
-        height: 2.5em;
-        margin: 0 auto .5em;
-    }
-    header p {
-        font-size: .75em;
-    }
+
     .session-detail .session-room {
         display: block;
-        margin-top: 1em;
     }
 }
 
 @media only screen and (max-width: 480px) {
-    header {
-        height: 150px;
-    }
-    header nav {
-        font-size: .9em;
-    }
-    header nav ul {
-        margin-top: .33em;
-    }
-    header a#cornerlogo img {
-        width: 100px;
-        top: 10px;
-        left: -25px;
-    }
-    #headertop {
-        height: 40px;
-    }
-    #headbox {
-        margin: 1em 0;
-    }
+
 }
 
 @media only screen and (max-width: 420px) {
-    header h1 {
-        font-size: 1.8em;
-    }
-    header h1 img {
-        height: 2em;
-    }
-    #schedule-controls {
-        font-size: .75em;
-    }
+
 }
