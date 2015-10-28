@@ -6,7 +6,6 @@ function Schedule(options) {
         // when you create a Schedule() instance on the page
         schedule.sourceJSON = 'sessions.json';
         schedule.$container = $('#schedule');
-        // schedule.$toggles = $('<ul>').appendTo('#schedule-controls').hide();
         schedule.$toggles = $('<ul>').appendTo('#schedule-controls');
         // if true, avoids using history.back(), which doesn't work offline
         schedule.offlineMode = false;
