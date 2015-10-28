@@ -74,6 +74,7 @@ body {
     position: relative;
     max-width: 800px;
     margin: 0 auto;
+    padding:  0 2rem;
 }
 a {
     color: #184774;
@@ -107,14 +108,14 @@ nav .page-links a {
 
 h1 {
     text-align: center;
-    font-size: 4.2rem;
+    font-size: 3.5rem;
     font-weight: 800;
     margin-bottom: 0;
 }
 
 h2 {
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     color: #B94D60;
     margin-top: 0;
 }
@@ -134,7 +135,7 @@ header a {
 }
 
 #schedule-controls ul {
-    font-size: 3.1rem;
+    font-size: 2.5rem;
     padding: 0;
     list-style: none;
     width: 100%;
@@ -163,8 +164,7 @@ header a {
 #schedule-controls a {
     text-align: center;
     display: block;
-    /*padding: 3rem 0;*/
-    padding: 1.5rem 0;
+    padding: 1rem 0;
     color: #fff;
     background-color: #D1D3D3;
     text-decoration: none;
@@ -221,17 +221,21 @@ header a {
     position: relative;
 }
 .session-detail .header {
-    padding: 4rem;
+    padding: 1.5rem;
     position: relative;
+}
+.session-detail .favorite {
+    top: 1.5rem;
+    left: 1.5rem;
 }
 .session-detail .meta {
     background-color: #F5F5F5;
     padding: 1.5rem;
 }
 .session-detail h2 {
-    margin: 0 0 .5rem 6rem;
+    margin: 0 0 .5rem 5rem;
     line-height: 1.2;
-    font-size: 4.2rem;
+    font-size: 3.2rem;
     font-weight: 800;
     text-align: left;
     color: #55565A;
@@ -262,19 +266,6 @@ header a {
     /*font-size: 4.2rem;*/
     font-size: 3rem;
     font-weight: 800;
-}
-
-.session-list-item p {
-}
-
-.all-sessions .session-list-item {
-    padding: 4rem;
-    background-color: #fff;
-    border-bottom: 1px solid Gainsboro;
-}
-
-.all-sessions .session-list-item p {
-    
 }
 
 .all-sessions .session-description {
@@ -340,15 +331,15 @@ header a {
 .session-leaders,
 .session-time,
 .session-space-and-location,
-.session-pathway {
+.session-pathways {
     position: relative;
-    padding-left: 2.5rem;
+    padding-left: 25px;
 }
 
 .session-leaders:before,
 .session-time:before,
 .session-space-and-location:before,
-.session-pathway:before {
+.session-pathways:before {
     display: block;
     content: "";
     background-size: 20px auto;
@@ -365,17 +356,17 @@ header a {
 
 .session-time:before {
     background-image: url(../img/icon-clock.svg);
-    top: 5px;
+    top: 4px;
 }
 
 .session-space-and-location:before {
     background-image: url(../img/icon-space.svg);
-    top: 5px;
+    top: 6px;
 }
 
-.session-pathway:before {
+.session-pathways:before {
     background-image: url(../img/icon-pathway.svg);
-    top: 5px;
+    top: 4px;
 }
 
 .session-length-short {
@@ -436,7 +427,7 @@ header a {
 
 #show-full-schedule {
     display: block;
-    font-size: 3.4rem;
+    font-size: 2rem;
     color: #B94D60;
     margin-bottom: 2rem;
 }
@@ -477,20 +468,6 @@ header a {
     .container {
         padding: 0 4rem;
     }
-    .schedule-tab h3,
-    .session-list-item {
-        margin-right: 0;
-    }
-    header {
-        margin-left: 0;
-    }
-    #schedule-controls {
-        width: 100%;
-        margin: 0 0 3em 0;
-    }
-    #schedule-controls ul {
-        padding-right: 0;
-    }
     #filter-form {
         width: 100%;
     }
@@ -499,18 +476,50 @@ header a {
         padding: 0;
         margin: 0 0 2em 0;
     }
-}
+    .favorite {
+        top: 1rem;
+        left: 2rem;
+        font-size: 4.5rem;
+    }
+    .session-list-item,
+    .session-detail .header {
+        padding: 2rem;
+    }
+    .session-leaders:before {
+        top: 2px;
+    }
 
+    .session-time:before {
+        top: 2px;
+    }
 
-@media only screen and (max-width: 540px) {
+    .session-space-and-location:before {
+        top: 3px;
+    }
 
-    .session-detail .session-room {
-        display: block;
+    .session-pathways:before {
+        top: 2px;
     }
 }
 
 @media only screen and (max-width: 480px) {
-
+    .container {
+        padding: 0 2rem;
+    }
+    nav {
+        text-align: center;
+    }
+    nav .logo {
+        float: none;
+    }
+    nav .page-links {
+        float: none;
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+    .session-description {
+        line-height: 1.4;
+    }
 }
 
 @media only screen and (max-width: 420px) {
