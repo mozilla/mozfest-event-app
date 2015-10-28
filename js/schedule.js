@@ -238,7 +238,7 @@ function Schedule(options) {
     // add fav stars that tap to store session ID values in localStorage
     schedule.addStars = function(containerClass) {
         if (Modernizr.localstorage) {
-            $(containerClass+':not(.session-everyone)').append('<span class="favorite"><i class="fa fa-star"></i></span>');
+            $(containerClass+':not(.session-everyone)').append('<span class="favorite"><i class="fa fa-heart-o"></i></span>');
             // if any sessions have been faved, make sure their star is lit
             _.each(schedule.savedSessionIDs, function(i) {
                 $('[data-session="' + i + '"]').find('.favorite').addClass('favorite-active');
