@@ -337,6 +337,47 @@ header a {
 
 }
 
+.session-leaders,
+.session-time,
+.session-space-and-location,
+.session-pathway {
+    position: relative;
+    padding-left: 2.5rem;
+}
+
+.session-leaders:before,
+.session-time:before,
+.session-space-and-location:before,
+.session-pathway:before {
+    display: block;
+    content: "";
+    background-size: 20px auto;
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.session-leaders:before {
+    background-image: url(../img/icon-facilitator.svg);
+    top: 4px;
+}
+
+.session-time:before {
+    background-image: url(../img/icon-clock.svg);
+    top: 5px;
+}
+
+.session-space-and-location:before {
+    background-image: url(../img/icon-space.svg);
+    top: 5px;
+}
+
+.session-pathway:before {
+    background-image: url(../img/icon-pathway.svg);
+    top: 5px;
+}
+
 .session-length-short {
 
 }
@@ -389,7 +430,7 @@ header a {
 .session-time {
 
 }
-.session-space {
+.session-space-and-location {
 
 }
 
