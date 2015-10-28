@@ -112,6 +112,11 @@
                         , <%= smartypants(session.location) %>
                     <% } %>
                 </div>
+                <% if (session.pathways) { %>
+                <div class="session-pathways">
+                    <%= session.pathways %>
+                </div>
+                <% } %>
             </div>
         </a>
         </script>
@@ -136,12 +141,16 @@
                 <div class="meta">
                     <% if (session.leader) { %><p class="session-leaders"><strong>Session leader(s):</strong> <%= smartypants(session.facilitators) %></p><% } %>
                     <% if (session.day || session.start || session.location) { %>
-                        <div class="session-time"><strong>Day & Time:</strong> <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %></div>
+                        <div class="session-time"><% if (session.day) { %><%= session.day %>, <% } %><%= session.start %></div>
                         <% if (session.location) { %><div class="session-room"><strong>Room:</strong> <%= smartypants(session.location) %></div><% } %>
 
                 </div>
                 <% } %>
-                <% if (session.description) { %><%= marked(session.description) %><% } %>
+                <% if (session.description) { %>
+                <div class="session-description">
+                    <%= marked(session.description) %>
+                </div>
+                <% } %>
             </div>
         </div>
         </script>
