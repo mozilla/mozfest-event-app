@@ -28,6 +28,7 @@
                         <a href=""><img src="img/logo-mozilla-festival.svg" alt="MozFest"></a>
                     </div>
                     <div class="page-links">
+                        <a href="https://2015.mozillafestival.org/tickets">Tickets</a>
                         <a href="">Spaces</a>
                         <a href="">Pathways</a>
                     </div>
@@ -95,10 +96,16 @@
         <a href="#_session-<%= sessionID %>" id="session-<%= sessionID %>" class="session-list-item session-<%= sessionClass %>" data-session="<%= sessionID.replace('-ghost','') %>">
             <h4><%= smartypants(session.title) %></h4>
             <div>
-            <% if (showLeaders) { %>[Facilitators] <span class="session-leaders"><%= smartypants(session.facilitators) %></span><% } %>
-                <div class="session-time">[Time] <% if (showDay) { %><%= session.day %>, <% } %><%= session.start %></div>
-                <div class="session-room">[Location] <%= smartypants(session.location) %></div>
-                <div class="session-space">[Space] <%= session.space %></div>
+            <% if (showLeaders && session.facilitators.length > 0) { %><div class="session-leaders"><%= smartypants(session.facilitators) %></div><% } %>
+                <div class="session-time"><% if (showDay) { %><%= session.day %>, <% } %><%= session.start %></div>
+                <div class="session-space-and-location">
+                    <% if (session.space) { %>
+                        <%= session.space %>
+                    <% } %>
+                    <% if (session.location) { %>
+                        , <%= smartypants(session.location) %>
+                    <% } %>
+                </div>
             </div>
         </a>
         </script>
@@ -106,11 +113,9 @@
         <script type="text/template" id="session-list-item-template">
         <a href="#_session-<%= sessionID %>" id="session-<%= sessionID %>" class="session-list-item" data-session="<%= sessionID.replace('-ghost','') %>">
             <h4><%= smartypants(session.title) %></h3>
-            <% if (showLeaders) { %><p class="session-leaders"><%= smartypants(session.facilitators) %></p><% } %>
-            <p>
-                <span class="session-time"><% if (showDay) { %><%= session.day %>, <% } %><%= session.start %></span>
-                <span class="session-room"><%= smartypants(session.location) %></span>
-            </p>
+            <% if (showLeaders && session.facilitators.length > 0) { %><p class="session-leaders"><%= smartypants(session.facilitators) %></p><% } %>
+            <p class="session-time"><% if (showDay) { %><%= session.day %>, <% } %><%= session.start %></p>
+            <p class="session-room"><%= smartypants(session.location) %></p>
             <div class="hidden session-description"><% if (session.description) { %><%= marked(session.description.replace('http://','').replace('https://','')) %><% } %></div>
         </a>
         </script>
