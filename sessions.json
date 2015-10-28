@@ -2660,16 +2660,16 @@
         "title": "We Begin By Listening"
     }, 
     {
-        "description": "This session is aimed at creatively engaging children to use a variety of talents towards a common goal.  Children will add to an activity course for the Sphero or Arduino robot, to create a colourful, interactive end result by the end of the weekend.\nExample:\nA child (or adult) might decide to make a tunnel or see-saw bridge etc... to add to the course then attach a MakeyMakey or Arduino and program it using Scratch, S4A or Mind+ etc... to code a response to an input for example a noise of some sort or traffic lights to change at another section.\nThe aim is to demonstrate how many skills come together to create a great end result and to realise how all skills are valuable.  i.e. a child may choose to create and decorate a tunnel without any coding.\nSkills:\nArt, design, craft, coding, electronics, collaboration etc...", 
+        "description": "Calling all creative youth and spirited adults - we need you to use a variety of talents towards a common goal. Join us by adding to an activity course for the Sphero, to create a colourful, interactive end result by the end of the weekend. For example, you might decide to make a tunnel or see-saw bridge etc... to add to the course attach a MakeyMakey, Raspberry Pi and Arduino and program it using Scratch, S4A or Mind+ etc... to code a response to an input for example a noise of some sort or traffic lights to change at another section. The possibilities are endless and the final product will be a mystery (until the end!). Come be apart of a live-making exercise where all skills are valued.", 
         "facilitator_array": [
             "Su Adams"
         ], 
         "facilitators": "Su Adams", 
         "id": "52", 
         "location": "", 
-        "pathways": "Youth Learning", 
+        "pathways": "Participation Travel Stipend, [MLN] Teaching Web Literacy with Mozilla Clubs", 
         "scheduleblock": "", 
-        "space": "", 
+        "space": "Mozilla Learning Networks", 
         "title": "Run the Gauntlet"
     }, 
     {
