@@ -49,7 +49,7 @@ function Schedule(options) {
             schedule.makeSchedule();
         } else {
             // otherwise determine relevant detail page and call route()
-            var hashArray = window.location.hash.substring(1).split('-');
+            var hashArray = window.location.hash.substring(1).split(/-(.+)?/);
             schedule.route(hashArray[0], hashArray[1]);
         }
     }
@@ -74,6 +74,11 @@ function Schedule(options) {
                 schedule.displaySpacesList();
                 break;
             case "_space":
+                // show sessions in a pathway based on pathway slug in URL
+                schedule.showFilteredSessions("space", pageID);
+            case "_pathway":
+                // show sessions in a pathway based on pathway slug in URL
+                schedule.showFilteredSessions("pathways", pageID);
                 break;
         }
     }
@@ -320,6 +325,29 @@ function Schedule(options) {
         }
     }
     
+    // given a JSON key name `filterKey`, find session objects
+    // with values that contain the string `filterValue`
+    schedule.showFilteredSessions = function(filterKey, filterValue) {
+        schedule.clearHighlightedPage();
+        // store values in case we get routed back here by loadSessions()
+        schedule.filterKey = filterKey || schedule.filterKey;
+        schedule.filterValue = filterValue || schedule.filterValue;
+
+        if (!schedule.sessionList.length) {
+            // this is first page load so fetch session data
+            schedule.loadSessions(schedule.showFilteredSessions);
+        }
+        if (!!schedule.filterKey) {
+            schedule.filteredList = _.filter(schedule.sessionList, function(v, k) {
+                return (schedule.slugify(v[schedule.filterKey]).indexOf(schedule.filterValue) >= 0);
+            });
+        }
+
+        schedule.$container.html(schedule.sessionListTemplate);
+        schedule.addSessionsToSchedule(schedule.filteredList);
+        schedule.transitionElementIn(schedule.$container);
+    }
+
     // based on the value of chosenTab, render the proper session list
     schedule.loadChosenTab = function() {
         // clear currently highlighted tab/page link
