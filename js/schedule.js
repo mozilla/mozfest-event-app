@@ -466,7 +466,8 @@ console.log(pageType, pageID);
                 var templateData = {
                     space: {
                         name: v.name,
-                        description: v.description
+                        description: v.description,
+                        iconSrc: v.iconSrc
                     }
                 };
                 schedule.$container.append(schedule.spacesListTemplate(templateData));
