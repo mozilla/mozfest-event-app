@@ -130,13 +130,13 @@ function Schedule(options) {
             sessionID: sessionItem.id,
             sessionClass: sessionItem.everyone ? 'everyone' : sessionItem.length == '1 hour' ? 'length-short' : 'length-long',
             showDay: false,
-            showLeaders: true,
+            showFacilitators: true,
             smartypants: schedule.smartypants
         }
         // some templates need to show expanded data
         if (expanded) {
             templatedata.showDay = true;
-            templatedata.showLeaders = true;
+            templatedata.showFacilitators = true;
         }
         
         return templatedata;
@@ -356,7 +356,7 @@ function Schedule(options) {
         schedule.addCaptionOverline();
         
         var filterForm = '<div id="filter-form">\
-                <label for="list-filter">Search names, leaders and descriptions</label>\
+                <label for="list-filter">Search names, facilitators and descriptions</label>\
                 <input class="filter" type="text" id="list-filter" />\
             </div>';
         $(filterForm).appendTo(schedule.$container);

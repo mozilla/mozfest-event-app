@@ -285,6 +285,7 @@ header a {
 
 #filter-form {
     padding: 0;
+    margin-bottom: 3rem;
     width: 50%;
     float: left;
 }
@@ -328,7 +329,7 @@ header a {
 
 }
 
-.session-leaders,
+.session-facilitators,
 .session-time,
 .session-space-and-location,
 .session-pathways {
@@ -336,7 +337,7 @@ header a {
     padding-left: 25px;
 }
 
-.session-leaders:before,
+.session-facilitators:before,
 .session-time:before,
 .session-space-and-location:before,
 .session-pathways:before {
@@ -349,7 +350,7 @@ header a {
     height: 20px;
 }
 
-.session-leaders:before {
+.session-facilitators:before {
     background-image: url(../img/icon-facilitator.svg);
     top: 4px;
 }
@@ -485,7 +486,7 @@ header a {
     .session-detail .header {
         padding: 2rem;
     }
-    .session-leaders:before {
+    .session-facilitators:before {
         top: 2px;
     }
 
