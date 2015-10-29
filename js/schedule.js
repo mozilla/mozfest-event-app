@@ -74,11 +74,12 @@ function Schedule(options) {
                 schedule.displaySpacesList();
                 break;
             case "_space":
-                // show sessions in a pathway based on pathway slug in URL
-                schedule.showFilteredSessions("space", pageID);
+                // show sessions in a space based on space slug in URL
+                schedule.getFilteredSessions("space", pageID);
+                break;
             case "_pathway":
                 // show sessions in a pathway based on pathway slug in URL
-                schedule.showFilteredSessions("pathways", pageID);
+                schedule.getFilteredSessions("pathways", pageID);
                 break;
         }
     }
@@ -328,16 +329,19 @@ function Schedule(options) {
     // given a JSON key name `filterKey`, find session objects with values
     // that contain the string `filterValue`. This is a substring comparison
     // based on slugified versions of key and value, e.g. "my-great-pathway"
-    schedule.showFilteredSessions = function(filterKey, filterValue) {
-        schedule.clearHighlightedPage();
-        // store values in case we get routed back here by loadSessions()
+    schedule.getFilteredSessions = function(filterKey, filterValue) {
         schedule.filterKey = filterKey || schedule.filterKey;
         schedule.filterValue = filterValue || schedule.filterValue;
 
         if (!schedule.sessionList.length) {
             // this is first page load so fetch session data
             schedule.loadSessions(schedule.showFilteredSessions);
+        } else {
+            schedule.showFilteredSessions();
         }
+    }
+    schedule.showFilteredSessions = function() {
+        schedule.clearHighlightedPage();
         if (!!schedule.filterKey) {
             schedule.filteredList = _.filter(schedule.sessionList, function(v, k) {
                 return (schedule.slugify(v[schedule.filterKey]).indexOf(schedule.slugify(schedule.filterValue)) >= 0);
