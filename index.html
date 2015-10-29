@@ -29,7 +29,7 @@
                     </div>
                     <div class="page-links">
                         <a href="https://2015.mozillafestival.org/tickets">Tickets</a>
-                        <a href="">Spaces</a>
+                        <a href="#_spaces" id="spaces-page-link">Spaces</a>
                         <a href="">Pathways</a>
                     </div>
                 </div>
@@ -213,7 +213,20 @@
             </div>
         </div>
         </script>
-        
+
+        <script type="text/template" id="spaces-list-template">
+            <div class="space-list-item">
+                <h3>
+                    <%= space.name %>
+                </h3>
+                <div>
+                    <% space.description.forEach(function(p) { %>
+                        <%= marked(p) %>
+                    <% }) %>
+                </div>
+            </div>
+        </script>
+
         <script src="js/jquery-2.1.0.min.js"></script>
         <script src="js/underscore-min.js"></script>
         <script src="js/marked.min.js"></script>

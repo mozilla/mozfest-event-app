@@ -5,6 +5,7 @@ function Schedule(options) {
         // TODO: make these configurable, passed in as options
         // when you create a Schedule() instance on the page
         schedule.sourceJSON = 'sessions.json';
+        schedule.spacesJSON = 'spaces.json';
         schedule.$container = $('#schedule');
         schedule.$toggles = $('<ul>').appendTo('#schedule-controls');
         // if true, avoids using history.back(), which doesn't work offline
@@ -19,6 +20,7 @@ function Schedule(options) {
             { name: 'All', displayName: 'All' }
         ];
         schedule.sessionList = [];
+        schedule.spaceList = [];
         
         // check for saved sessions in localStorage. Because localStorage only
         // takes strings, split on commas so we get an array of session IDs
@@ -47,7 +49,7 @@ function Schedule(options) {
         } else {
             // otherwise determine relevant detail page and call route()
             var hashArray = window.location.hash.substring(1).split('-');
-            schedule.route(hashArray[0], hashArray[1])
+            schedule.route(hashArray[0], hashArray[1]);
         }
     }
     
@@ -56,6 +58,7 @@ function Schedule(options) {
         // currently this app supports two types of detail pages:
         // 1) _session (which gets a detail page for a given session)
         // 2) _show (which gets a session list for a specific tab)
+console.log(pageType, pageID);
         switch(pageType) {
             case "_session":
                 // get session details based on ID value from the URL
@@ -66,13 +69,17 @@ function Schedule(options) {
                 schedule.chosenTab = pageID;
                 schedule.makeSchedule();
                 break;
+            case "_spaces":
+                schedule.displaySpacesList();
+                break;
+            case "_space":
+                break;
         }
     }
 
     // call makeSchedule() to display the selected list of sessions
     schedule.makeSchedule = function() {
         schedule.loadChosenTab();
-        schedule.$toggles.show();
     }
 
     // loadSessions() gets session data and sorts it for display. Checks
@@ -93,6 +100,27 @@ function Schedule(options) {
                     schedule.sortSessionGroups(results);
                     // update savedSessionList with any new data
                     schedule.updateSavedSessionList();
+                    if (callback) {
+                        callback();
+                    }
+                });
+        }
+    }
+
+    // loadSpaces() gets Spaces data and sorts it for display. Checks
+    // for local data first, then falls back to ajax call to spacesJSON file.
+    // An optional callback function can be passed in.
+    schedule.loadSpaces = function(callback) {
+        if (schedule.spaceList.length) {
+            // if the app already has collected Spaces data, fire the callback
+            if (callback) {
+                callback();
+            }
+        } else {
+            // if there's no Spaces data yet, fetch from JSON
+            $.getJSON(schedule.spacesJSON)
+                .done(function(results) {
+                    schedule.spaceList = results;
                     if (callback) {
                         callback();
                     }
@@ -429,8 +457,30 @@ function Schedule(options) {
         });
     }
     
+    // display the list of Spaces and their descriptions
+    schedule.displaySpacesList = function() {
+        schedule.loadSpaces(function() {
+            schedule.$container.html("");
+            _.each(schedule.spaceList, function(v, k) {
+                // prep the Space data for the template
+                var templateData = {
+                    space: {
+                        name: v.name,
+                        description: v.description
+                    }
+                };
+                schedule.$container.append(schedule.spacesListTemplate(templateData));
+            });
+        });
+    }
+
     // add the standard listeners for various user interactions
     schedule.addListeners = function() {
+        // clicking on the "Spaces" link on the nav bar displays the list of Spaces
+        schedule.$container.on('click', '#spaces-page-link', function(e) {
+            schedule.displaySpacesList();
+        });
+
         // clicking on session "card" in a list opens session detail view
         schedule.$container.on('click', '.session-list-item', function(e) {
             e.preventDefault();
@@ -590,6 +640,10 @@ function Schedule(options) {
 
     schedule.sessionDetailTemplate = _.template(
         $("script#session-detail-template").html()
+    );
+
+    schedule.spacesListTemplate = _.template(
+        $("script#spaces-list-template").html()
     );
 
     // fight me
