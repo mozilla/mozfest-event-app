@@ -216,9 +216,12 @@
 
         <script type="text/template" id="spaces-list-template">
             <div class="space-list-item">
-                <h3>
+                <div class="space-icon-container">
+                    <img src=<%= space.iconSrc %>>
+                </div>
+                <h4>
                     <%= space.name %>
-                </h3>
+                </h4>
                 <div>
                     <% space.description.forEach(function(p) { %>
                         <%= marked(p) %>
