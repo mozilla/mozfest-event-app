@@ -23,8 +23,8 @@ function Schedule(options) {
         // check for saved sessions in localStorage. Because localStorage only
         // takes strings, split on commas so we get an array of session IDs
         if (Modernizr.localstorage) {
-            localStorage['srccon_saved_sessions'] = localStorage['srccon_saved_sessions'] || '';
-            schedule.savedSessionIDs = _.compact(localStorage['srccon_saved_sessions'].split(',')) || [];
+            localStorage['mozfest2015_saved_sessions'] = localStorage['mozfest2015_saved_sessions'] || '';
+            schedule.savedSessionIDs = _.compact(localStorage['mozfest2015_saved_sessions'].split(',')) || [];
         }
 
         // add UI elements
@@ -369,10 +369,13 @@ function Schedule(options) {
             var filterVal = $(this).val();
             if (filterVal) {
                 // compare current value of search input across session data,
-                // matching against titles, session leader names, descriptions
+                // matching against titles, session leader names, descriptions,
+                // pathways and spaces
                 var filteredSessions = _.filter(schedule.sessionList, function(v, k) {
                     return (v.title.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                            || (v.facilitators.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
+                           || (v.pathways.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
+                           || (v.space.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                            || (v.description.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0);
                 });
                 // get the IDs of the matching sessions ...
@@ -511,7 +514,7 @@ function Schedule(options) {
                 }
             }
             // stash the list as a string in localStorage
-            localStorage['srccon_saved_sessions'] = schedule.savedSessionIDs.join();
+            localStorage['mozfest2015_saved_sessions'] = schedule.savedSessionIDs.join();
             // update the data associated with this user's favorites
             schedule.updateSavedSessionList();
         });
