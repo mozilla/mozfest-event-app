@@ -194,9 +194,10 @@
                         <% } %>
                     </div>
                     <% } %>
-                    <% if (session.pathways) { %>
+                    <% if (session.pathwayArray) { %>
                     <div class="session-pathways">
-                        <%= session.pathways %>
+                        <% session.pathwayArray.forEach(function(name, index) { %><% if (index > 0) { %>, <% } %>
+                            <a href="#_pathway-<%= slugify(name) %>"><%= name %></a><% }) %>
                     </div>
                     <% } %>
                     <% if (session.facilitators) { %>
