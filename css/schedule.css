@@ -91,19 +91,23 @@ nav .logo {
     float: left;
 }
 
-nav .page-links {
+#page-links {
     display: inline-block;
     float: right;
     margin-top: 3rem;
 }
 
-nav .page-links a {
+#page-links a {
     display: inline-block;
     margin-left: 2rem;
     text-transform: uppercase;
     color: #55565A;
     font-weight: 700;
     text-decoration: none;
+}
+
+#page-links a.active {
+    color: #D93F5F;
 }
 
 h1 {
@@ -540,7 +544,7 @@ header a {
     nav .logo {
         float: none;
     }
-    nav .page-links {
+    #page-links {
         float: none;
         margin-top: 0;
         margin-bottom: 2rem;
