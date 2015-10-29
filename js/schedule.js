@@ -325,8 +325,9 @@ function Schedule(options) {
         }
     }
     
-    // given a JSON key name `filterKey`, find session objects
-    // with values that contain the string `filterValue`
+    // given a JSON key name `filterKey`, find session objects with values
+    // that contain the string `filterValue`. This is a substring comparison
+    // based on slugified versions of key and value, e.g. "my-great-pathway"
     schedule.showFilteredSessions = function(filterKey, filterValue) {
         schedule.clearHighlightedPage();
         // store values in case we get routed back here by loadSessions()
@@ -339,7 +340,7 @@ function Schedule(options) {
         }
         if (!!schedule.filterKey) {
             schedule.filteredList = _.filter(schedule.sessionList, function(v, k) {
-                return (schedule.slugify(v[schedule.filterKey]).indexOf(schedule.filterValue) >= 0);
+                return (schedule.slugify(v[schedule.filterKey]).indexOf(schedule.slugify(schedule.filterValue)) >= 0);
             });
         }
 
