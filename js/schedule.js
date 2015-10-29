@@ -59,7 +59,7 @@ function Schedule(options) {
         // currently this app supports two types of detail pages:
         // 1) _session (which gets a detail page for a given session)
         // 2) _show (which gets a session list for a specific tab)
-console.log(pageType, pageID);
+        //console.log(pageType, pageID);
         switch(pageType) {
             case "_session":
                 // get session details based on ID value from the URL
@@ -214,8 +214,14 @@ console.log(pageType, pageID);
             // if sessionList has a session matching chosen ID, render it
             var templateData = {
                 session: session,
+                slugify: schedule.slugify, // context function for string-matching
                 smartypants: schedule.smartypants // context function for nice typography
             }
+            // add pathway array for individual links
+            templateData.session.pathwayArray = _.each(session.pathways.split(','), function(i) {
+                schedule.trim(i);
+            })
+            
             // clear currently highlighted tab/page link
             schedule.clearHighlightedPage();
 
@@ -491,7 +497,7 @@ console.log(pageType, pageID);
     schedule.addListeners = function() {
         // clicking on the "Spaces" link on the nav bar displays the list of Spaces
         schedule.$pageLinks.on('click', 'a', function(e) {
-            console.log("page link clicked");
+            //console.log("page link clicked");
             schedule.displaySpacesList();
         });
 
@@ -637,6 +643,54 @@ console.log(pageType, pageID);
             .replace(/"/g, '\u201d')
             // ellipses
             .replace(/\.{3}/g, '\u2026');
+    }
+    
+    // underscore.string formatters
+    schedule.escapeRegExp = function(str) {
+        if (str == null) return '';
+        return String(str).replace(/([.*+?^=!:${}()|[\]\/\\])/g, '\\$1');
+    }
+    schedule.defaultToWhiteSpace = function(characters) {
+        if (characters == null)
+            return '\\s';
+        else if (characters.source)
+            return characters.source;
+        else
+            return '[' + escapeRegExp(characters) + ']';
+    }
+    schedule.nativeTrim = String.prototype.trim;
+    schedule.trim = function(str, characters) {
+        if (str == null) return '';
+        if (!characters && schedule.nativeTrim) return schedule.nativeTrim.call(str);
+        characters = schedule.defaultToWhiteSpace(characters);
+        return String(str).replace(new RegExp('\^' + characters + '+|' + characters + '+$', 'g'), '');
+    }
+    schedule.defaultToWhiteSpace = function(characters) {
+        if (characters == null)
+            return '\\s';
+        else if (characters.source)
+            return characters.source;
+        else
+            return '[' + schedule.escapeRegExp(characters) + ']';
+    }
+    schedule.dasherize = function(str) {
+      return schedule.trim(str).replace(/([A-Z])/g, '-$1').replace(/[-_\s]+/g, '-').toLowerCase();
+    }
+    
+    // utility function to turn strings into "slugs" for easier matching
+    // e.g. "My Great Pathway" -> "my-great-pathway"
+    schedule.slugify = function(str) {
+        if (!str) { return '' }
+        var from = "ąàáäâãåæăćęèéëêìíïîłńòóöôõøśșțùúüûñçżź",
+            to = "aaaaaaaaaceeeeeiiiilnoooooosstuuuunczz",
+            regex = new RegExp(schedule.defaultToWhiteSpace(from), 'g');
+
+        str = String(str).toLowerCase().replace(regex, function(c){
+          var index = from.indexOf(c);
+          return to.charAt(index) || '-';
+        });
+
+        return schedule.dasherize(str.replace(/[^\w\s-]/g, ''));
     }
 
     // compile the Underscore templates
