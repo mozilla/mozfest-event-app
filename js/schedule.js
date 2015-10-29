@@ -6,24 +6,25 @@ function Schedule(options) {
         // when you create a Schedule() instance on the page
         schedule.sourceJSON = 'sessions.json';
         schedule.$container = $('#schedule');
-        schedule.$toggles = $('<ul>').appendTo('#schedule-controls').hide();
+        schedule.$toggles = $('<ul>').appendTo('#schedule-controls');
         // if true, avoids using history.back(), which doesn't work offline
         schedule.offlineMode = false;
 
         // TODO: determine list of unique tab names and dates
         // after loadSessions() gets actual session data
         schedule.tabList = [
-            { name: 'Saturday', tabDate: new Date(2014,9,25) },
-            { name: 'Sunday', tabDate: new Date(2014,9,26) },
-            { name: 'All' }
+            { name: 'Friday', displayName: 'Fri', tabDate: new Date(2015,10,6) },
+            { name: 'Saturday', displayName: 'Sat', tabDate: new Date(2015,10,7) },
+            { name: 'Sunday', displayName: 'Sun', tabDate: new Date(2015,10,8) },
+            { name: 'All', displayName: 'All' }
         ];
         schedule.sessionList = [];
         
         // check for saved sessions in localStorage. Because localStorage only
         // takes strings, split on commas so we get an array of session IDs
         if (Modernizr.localstorage) {
-            localStorage['srccon_saved_sessions'] = localStorage['srccon_saved_sessions'] || '';
-            schedule.savedSessionIDs = _.compact(localStorage['srccon_saved_sessions'].split(',')) || [];
+            localStorage['mozfest2015_saved_sessions'] = localStorage['mozfest2015_saved_sessions'] || '';
+            schedule.savedSessionIDs = _.compact(localStorage['mozfest2015_saved_sessions'].split(',')) || [];
         }
 
         // add UI elements
@@ -129,13 +130,13 @@ function Schedule(options) {
             sessionID: sessionItem.id,
             sessionClass: sessionItem.everyone ? 'everyone' : sessionItem.length == '1 hour' ? 'length-short' : 'length-long',
             showDay: false,
-            showLeaders: false,
+            showFacilitators: true,
             smartypants: schedule.smartypants
         }
         // some templates need to show expanded data
         if (expanded) {
             templatedata.showDay = true;
-            templatedata.showLeaders = true;
+            templatedata.showFacilitators = true;
         }
         
         return templatedata;
@@ -186,8 +187,10 @@ function Schedule(options) {
                 session: session,
                 smartypants: schedule.smartypants // context function for nice typography
             }
+            // clear selected tab from "schedule-controls"
+            schedule.$toggles.find('a').removeClass('active');
 
-            schedule.$container.append(schedule.sessionDetailTemplate(templateData));
+            schedule.$container.html(schedule.sessionDetailTemplate(templateData));
             // allowing faving from detail page too
             schedule.addStars('.session-detail');
         } else {
@@ -235,7 +238,7 @@ function Schedule(options) {
     // add fav stars that tap to store session ID values in localStorage
     schedule.addStars = function(containerClass) {
         if (Modernizr.localstorage) {
-            $(containerClass+':not(.session-everyone)').append('<span class="favorite"><i class="fa fa-star"></i></span>');
+            $(containerClass+':not(.session-everyone)').append('<span class="favorite"><i class="fa fa-heart-o"></i></span>');
             // if any sessions have been faved, make sure their star is lit
             _.each(schedule.savedSessionIDs, function(i) {
                 $('[data-session="' + i + '"]').find('.favorite').addClass('favorite-active');
@@ -247,17 +250,17 @@ function Schedule(options) {
     schedule.addToggles = function() {
         if (Modernizr.localstorage) {
             // only add "Favorites" tab if browser supports localStorage
-            schedule.tabList.splice(schedule.tabList.length-1, 0, { name: 'Favorites' });
+            schedule.tabList.splice(schedule.tabList.length-1, 0, { name: 'Favorites', displayName: '<i class="fa fa-heart"></i>' });
         }
         
         // set toggle width as percentage based on total number of tabs
         var toggleWidth = (1 / schedule.tabList.length) * 100;
 
         // add the toggle links
-        _.each(_.pluck(schedule.tabList, 'name'), function(i) {
+        _.each(schedule.tabList, function(tab) {
             schedule.$toggles.append(
                 $('<li>').css('width', toggleWidth+'%').append(
-                    $('<a>').text(i).attr('href', '#').attr('id', 'show-'+i.toLowerCase())
+                    $('<a>').html(tab.displayName).attr('href', '#').attr('id', 'show-'+tab.name.toLowerCase())
                 )
             );
         });
@@ -307,7 +310,7 @@ function Schedule(options) {
             // handle standard tabs like "Thursday" or "Friday"
             schedule.$container.removeClass().hide().empty();
             schedule.addCaptionOverline();
-            schedule.$container.append(schedule.sessionListTemplate);
+            schedule.$container.html(schedule.sessionListTemplate);
             schedule.loadSessions(schedule.addSessionsToSchedule);
             schedule.transitionElementIn(schedule.$container);
             
@@ -353,7 +356,7 @@ function Schedule(options) {
         schedule.addCaptionOverline();
         
         var filterForm = '<div id="filter-form">\
-                <label for="list-filter">Search names, leaders and descriptions</label>\
+                <label for="list-filter">Search names, facilitators and descriptions</label>\
                 <input class="filter" type="text" id="list-filter" />\
             </div>';
         $(filterForm).appendTo(schedule.$container);
@@ -366,10 +369,13 @@ function Schedule(options) {
             var filterVal = $(this).val();
             if (filterVal) {
                 // compare current value of search input across session data,
-                // matching against titles, session leader names, descriptions
+                // matching against titles, session leader names, descriptions,
+                // pathways and spaces
                 var filteredSessions = _.filter(schedule.sessionList, function(v, k) {
                     return (v.title.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                            || (v.facilitators.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
+                           || (v.pathways.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
+                           || (v.space.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                            || (v.description.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0);
                 });
                 // get the IDs of the matching sessions ...
@@ -408,7 +414,7 @@ function Schedule(options) {
     // showFavorites() handles display when someone chooses the "Favorites" tab
     schedule.showFavorites = function() {
         // provide some user instructions at top of page
-        schedule.$container.hide().empty().append('<p class="overline">Star sessions to store a list on this device</p>').append(schedule.sessionListTemplate);
+        schedule.$container.hide().empty().append('<p class="overline">Favorite sessions to store a list on this device</p>').append(schedule.sessionListTemplate);
         // use savedSessionList IDs to render favorited sessions to page
         schedule.addSessionsToSchedule(schedule.savedSessionList);
         schedule.transitionElementIn(schedule.$container);
@@ -508,7 +514,7 @@ function Schedule(options) {
                 }
             }
             // stash the list as a string in localStorage
-            localStorage['srccon_saved_sessions'] = schedule.savedSessionIDs.join();
+            localStorage['mozfest2015_saved_sessions'] = schedule.savedSessionIDs.join();
             // update the data associated with this user's favorites
             schedule.updateSavedSessionList();
         });
@@ -553,6 +559,7 @@ function Schedule(options) {
 
     // utility function to pass into templates for nice typography
     schedule.smartypants = function(str) {
+        if (!str) { return }
         return str
             // em dashes
             .replace(/--/g, '\u2014')
