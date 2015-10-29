@@ -369,10 +369,13 @@ function Schedule(options) {
             var filterVal = $(this).val();
             if (filterVal) {
                 // compare current value of search input across session data,
-                // matching against titles, session leader names, descriptions
+                // matching against titles, session leader names, descriptions,
+                // pathways and spaces
                 var filteredSessions = _.filter(schedule.sessionList, function(v, k) {
                     return (v.title.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                            || (v.facilitators.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
+                           || (v.pathways.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
+                           || (v.space.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                            || (v.description.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0);
                 });
                 // get the IDs of the matching sessions ...
