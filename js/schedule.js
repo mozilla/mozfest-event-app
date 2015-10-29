@@ -8,6 +8,7 @@ function Schedule(options) {
         schedule.spacesJSON = 'spaces.json';
         schedule.$container = $('#schedule');
         schedule.$toggles = $('<ul>').appendTo('#schedule-controls');
+        schedule.$pageLinks = $('#page-links');
         // if true, avoids using history.back(), which doesn't work offline
         schedule.offlineMode = false;
 
@@ -215,8 +216,8 @@ console.log(pageType, pageID);
                 session: session,
                 smartypants: schedule.smartypants // context function for nice typography
             }
-            // clear selected tab from "schedule-controls"
-            schedule.$toggles.find('a').removeClass('active');
+            // clear currently highlighted tab/page link
+            schedule.clearHighlightedPage();
 
             schedule.$container.html(schedule.sessionDetailTemplate(templateData));
             // allowing faving from detail page too
@@ -315,8 +316,9 @@ console.log(pageType, pageID);
     
     // based on the value of chosenTab, render the proper session list
     schedule.loadChosenTab = function() {
-        // make sure the selected tab is lit
-        schedule.$toggles.find('a').removeClass('active');
+        // clear currently highlighted tab/page link
+        // and make sure the selected tab is lit
+        schedule.clearHighlightedPage();
         $('#show-'+schedule.chosenTab).addClass('active');
         
         if (schedule.chosenTab == 'favorites') {
@@ -379,6 +381,13 @@ console.log(pageType, pageID);
         //schedule.$container.append('<p class="overline"><i class="fa fa-cc"></i> icon indicates sessions with <a href="http://srccon.org/transcription/">live captions</a> available to stream on your laptop or device</p>');
     }
     
+    schedule.clearHighlightedPage = function() {
+        // clear currently highlighted tab (if any) from "schedule-controls"
+        schedule.$toggles.find('a').removeClass('active');
+        // clear highlighted page link (if any) from "page-links" on the nav bar
+        schedule.$pageLinks.find('a').removeClass('active');
+    }
+
     // adds search filter and expanded data toggle to top of "All" sessions list
     schedule.addListControls = function() {
         schedule.addCaptionOverline();
@@ -459,6 +468,9 @@ console.log(pageType, pageID);
     
     // display the list of Spaces and their descriptions
     schedule.displaySpacesList = function() {
+        schedule.clearHighlightedPage();
+        schedule.$pageLinks.find('#spaces-page-link').addClass('active');
+
         schedule.loadSpaces(function() {
             schedule.$container.html("");
             _.each(schedule.spaceList, function(v, k) {
@@ -478,7 +490,8 @@ console.log(pageType, pageID);
     // add the standard listeners for various user interactions
     schedule.addListeners = function() {
         // clicking on the "Spaces" link on the nav bar displays the list of Spaces
-        schedule.$container.on('click', '#spaces-page-link', function(e) {
+        schedule.$pageLinks.on('click', 'a', function(e) {
+            console.log("page link clicked");
             schedule.displaySpacesList();
         });
 
