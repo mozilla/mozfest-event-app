@@ -187,7 +187,7 @@
                     <% if (session.space || session.location) { %>
                     <div class="session-space-and-location">
                         <% if (session.space) { %>
-                            <%= session.space %>
+                            <a href="#_space-<%= slugify(session.space) %>"><%= session.space %></a>
                         <% } %>
                         <% if (session.location) { %>
                             , <%= smartypants(session.location) %>
