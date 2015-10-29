@@ -61,19 +61,6 @@
         "title": "Appmaker in a Box"
     }, 
     {
-        "description": "Democracy Street is an interactive digital arts and learning project, developed and curated by the artist Jon Adams. Commissioned by the Houses of Parliament and Arts Council England, and created in collaboration with Mozilla and Si digital, Democracy Street aims to raise awareness of the power of democracy and the importance of free and open information.\nWe do this by engaging the public in the generation of a Digital Interactive Map that gives insight into the people and events that shaped our political landscape since the sealing of Magna Carta.\nWe have created a mobile web app and website for users to discover the history of the people behind the names of their local streets - and how they contributed to democracy.\nDuring the session participants can engage with the project directly via smartphones and mobile devices, seeing their discoveries adding data to the Interactive Map in real-time.", 
-        "facilitator_array": [
-            "Joseph Cavalla"
-        ], 
-        "facilitators": "Joseph Cavalla", 
-        "id": "61", 
-        "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Democracy Street - Gamifying and Learning from Open Data"
-    }, 
-    {
         "description": "During our sessions we'll talk about the importance of work in our lives, how to discover what you're good at, where to find the people who are like you, and how to find your way in an increasingly fragmented and entrepreneurial culture of work where strict job titles and roles are becoming increasingly irrelevant.", 
         "facilitator_array": [
             "Duncan Gough"
@@ -280,17 +267,6 @@
         "title": "Espruino Pico and IoT"
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "189", 
-        "location": "", 
-        "pathways": "[Pathway] Mapping Your MozFest Learning Journey", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Community Co-Creation Pathways"
-    }, 
-    {
         "description": "The Webmaker app for Android is great for people who do not want to write code to create a project. However this also results in a backlash from coding-minded users who want to utilize their coding capabilities to create projects.\nBy using the Thimble app for Android, those coding-minded users will be able to add HTML, CSS, JavaScript code to create their makes, projects, website, etc.", 
         "facilitator_array": [
             "Muhammed Hasan Ahmed"
@@ -315,17 +291,6 @@
         "scheduleblock": "", 
         "space": "", 
         "title": "Internet and Web Privacy- Web Literacy 101 "
-    }, 
-    {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "387", 
-        "location": "", 
-        "pathways": "[Pathway] Mapping Your MozFest Learning Journey", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Democracy Street"
     }, 
     {
         "description": "It will allow users to create custom Web content easily and quickly, no coding required. Its practical, fun, and a key building block for teaching and improving Web literacy. It’s also a tool for empowering individuals and strengthening the open Web.\nGoals:-\n> Make active users of web!\n> Allow users to create using their imagination.\n> Increase interest in users for making the web!", 
@@ -415,17 +380,6 @@
         "scheduleblock": "", 
         "space": "", 
         "title": "Change the world through code: how to meet the person you need in your team to do so"
-    }, 
-    {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "372", 
-        "location": "", 
-        "pathways": "[Pathway] Mapping Your MozFest Learning Journey", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Charting Achievement: Using Open Badges to Design Learning Playlists"
     }, 
     {
         "description": "The purpose of this session is to challenge current thinking about the role of African tech hubs in society by sharing insights from research on hubs as creative spaces—institutions that engage in complex problem solving. There are at least 90 African tech hubs that serve as infrastructure to catalyze technology, entrepreneurship, and innovation. Not only do they act as physical infrastructure, providing access to power, internet, and space, but they also offer access to human, financial and social capital. By distributing these resources more efficiently, hubs make it easier to build start-ups, develop tech, and foster innovation.\nBut can hubs also create better solutions to complex social problems? Many tech hubs are engaged in developing tech solutions for education, health, and governance challenges. However, there is an opportunity to push past “there's an app for that” thinking and reconceive tech hubs as creative spaces that foster tech-enabled, innovative problem solving.", 
@@ -597,9 +551,11 @@
         "title": "Leadership Games! "
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "Open Badges can be used to build bridges between learners and employers. There is increasing demand for evidence of soft as well as hard skills for employment but these are not always presented in verifiable ways or linked to careers, apprenticeships or further learning. We will introduce how Open Badges can capture and communicate skills and provide social tools to help participants learn about and make badge-based pathways towards destination points such as careers, apprenticeships or further learning. Examples of badge-based pathways to employment will be provided.", 
+        "facilitator_array": [
+            "Grainne Hamilton"
+        ], 
+        "facilitators": "Grainne Hamilton", 
         "id": "284", 
         "location": "", 
         "pathways": "Scaling Participatory Learning Experiences, [PARTICIPATION] Accepted, [Pathway] Mapping Your MozFest Learning Journey", 
@@ -1205,9 +1161,11 @@
         "title": "Living Light with WebGL - A Collaborative Art Experience"
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "Each hour will be themed around a topic surrounding diversity (my initial thoughts are home, work and society). There will be discussions on these topics lead by myself and including the attendees. We will then ideate a real life solutions to the problems discussed. The idea being that these outcomes can be put onto an online platform and turned into a manifesto for positive change and diversity in each subject area.", 
+        "facilitator_array": [
+            "Vimla Appadoo"
+        ], 
+        "facilitators": "Vimla Appadoo", 
         "id": "571", 
         "location": "", 
         "pathways": "Global Village Athena Library, Inclusive Communities", 
@@ -1216,9 +1174,13 @@
         "title": "Diversity in the new economy"
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "To allow for the varying skills of the participants we will have two strands of activity to the workshop. The first will explore the capabilities of the Perceptive Media API and how adaptive stories can be created using the new Perceptive Radio as a platform. The second strand will use paper based story creation tools to allow participants to develop adaptive storytelling ideas that could be developed for the Perceptive Radio - http://www.bbc.co.uk/news/technology-22637945", 
+        "facilitator_array": [
+            "Adrian Gradinar", 
+            "Dan Burnett", 
+            "Paul Coulton"
+        ], 
+        "facilitators": "Adrian Gradinar, Dan Burnett, Paul Coulton", 
         "id": "559", 
         "location": "", 
         "pathways": "Global Village Athena Library", 
@@ -1266,9 +1228,12 @@
         "title": "Crowdsourcing the Next Gigabit Cities: An Engagement Platform for Municipal Broadband"
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "The BBC want to deliver new media experiences of the future - in doing so we want to use a mix of sensors and personal data to drive these experiences. This session is to understand people's attitudes in relation to acceptable and unacceptable uses of personal data as well as ideate around how best to communicate the use of personal data in everyday activities.", 
+        "facilitator_array": [
+            "Lianne Kerlin", 
+            "Mia Roscoe"
+        ], 
+        "facilitators": "Lianne Kerlin, Mia Roscoe", 
         "id": "575", 
         "location": "", 
         "pathways": "Global Village Kitchen", 
@@ -1277,9 +1242,11 @@
         "title": "Experiences of the Future Home"
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "To understand what is dyslexia and its causes. Then to discuss how education and specifically IT and web inclusion is problematic for dyslexics.\nTo highlight the benefits of greater IT and web inclusion for dyslexic individuals.\nTo discuss how greater IT and web inclusion can be brought about, by working together with Mozilla.\nTo make a plan as to how these ideas can be implemented.", 
+        "facilitator_array": [
+            "Roger Broadbent"
+        ], 
+        "facilitators": "Roger Broadbent", 
         "id": "555", 
         "location": "", 
         "pathways": "Global Village Athena Library, Inclusive Communities, [youthZone] Links with us", 
@@ -1288,9 +1255,13 @@
         "title": "The web through the eyes of a dyslexic  "
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "Let’s attract your inner Zombie (Yes, we are using the Z-word)…\nSet in a world overrun by the undead, you get to choose which characters can best face the apocalypse and survive, using only what nature and circumstance has given them.", 
+        "facilitator_array": [
+            "Melanie Grant", 
+            "Leena Haque", 
+            "Samina Rafiq"
+        ], 
+        "facilitators": "Melanie Grant, Leena Haque, Samina Rafiq", 
         "id": "554", 
         "location": "", 
         "pathways": "Global Village Athena Library, Inclusive Communities", 
@@ -1623,16 +1594,18 @@
         "title": "Example Session for Schedule Migration"
     }, 
     {
-        "description": "DigitalME are pioneers in Open Badge design, implementation and consultation. Our recent research project BadgeLAB Leeds explored the use of Open Badges for arts engagement, at artist led sessions in schools, programmes for NEET young people and young people with learning difficulties, and at large scale public events.\n\nWe will discuss findings from the report by Sheffield Hallam University, the key themes and how they are shaping our approach to Open Badge design for arts and city wide learning. The session will be open and informal - we aim to unearth experiences, compare approaches and share tools and resources with participants.", 
+        "day": "Saturday", 
+        "description": "DigitalME are pioneers in Open Badge design, implementation and consultation. Learn how to make a digital badge and how badges have been applied for arts engagement, in BadgeLAB Leeds. \n\nWe will discuss how the programme engaged with NEET young people, young people with learning difficulties, and large scale public events. We will share findings from the report by Sheffield Hallam University and how what we have learned is shaping our approach to Open Badge design for arts and city wide learning. The session will be open and informal - we aim to unearth experiences, compare approaches and share tools and resources with participants.", 
         "facilitator_array": [
-            "Alison Smith, DigialMe"
+            "Alison Smith, DigitalMe"
         ], 
         "facilitators": "Alison Smith", 
         "id": "207", 
         "location": "", 
-        "pathways": "[Pathway] Mapping Your MozFest Learning Journey", 
-        "scheduleblock": "", 
+        "pathways": "Mapping Your MozFest Learning Journey", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "", 
+        "start": "10:45 AM", 
         "title": "BadgeLAB Leeds: Testing open badges for arts engagement"
     }, 
     {
@@ -1649,6 +1622,7 @@
         "title": "The Research Gallery"
     }, 
     {
+        "day": "Saturday", 
         "description": "CoderDojo has integrated Open Badges into their new community platform as a rewarding system. Find out about the badges and how they have encouraged people to take part at their local Dojo and how you could use badges to reward participation in clubs, classes or schools.", 
         "facilitator_array": [
             "Pete O'Shea"
@@ -1656,41 +1630,48 @@
         "facilitators": "Pete O'Shea", 
         "id": "420", 
         "location": "", 
-        "pathways": "[Pathway] Mapping Your MozFest Learning Journey", 
-        "scheduleblock": "", 
+        "pathways": "Mapping Your MozFest Learning Journey", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "", 
+        "start": "12:00 PM", 
         "title": "Coderdojo and Open Badges"
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "Drop by the DigitalMe stand to get some help to navigate MozFest. We'll ask you to pick a Persona so we can help identify what paths through the festival might work best for you.", 
+        "facilitator_array": [
+            "DigitalMe, @digitalme_"
+        ], 
+        "facilitators": "DigitalMe", 
         "id": "36", 
         "location": "", 
-        "pathways": "[Pathway] Mapping Your MozFest Learning Journey", 
-        "scheduleblock": "", 
+        "pathways": "Mapping Your MozFest Learning Journey", 
+        "scheduleblock": "all-weekend", 
         "space": "", 
         "title": "Choose a persona"
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "There is a lot going on at MozFest and a lot to engage with. Come to see us for help mapping your optimal MozFest learning journey and to learn about Open Badges and how these can help you to evidence and communicate your learning across the web. We will issue you with badges if you submit evidence of your learning at MozFest, which you can share with your social networks and employers!", 
+        "facilitator_array": [
+            "DigitalMe, @digitalme_"
+        ], 
+        "facilitators": "DigitalMe", 
         "id": "37", 
         "location": "", 
-        "pathways": "[Pathway] Mapping Your MozFest Learning Journey", 
-        "scheduleblock": "", 
+        "pathways": "Mapping Your MozFest Learning Journey", 
+        "scheduleblock": "all-weekend", 
         "space": "", 
         "title": "Choose your Mozfest Pathway with Badges"
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "We will support people to identify their motivators for engaging with MozFest by providing tools and experiences. We will also recognise your learning and achievements with Open Badges.", 
+        "facilitator_array": [
+            "DigitalMe, @digitalme_"
+        ], 
+        "facilitators": "DigitalMe", 
         "id": "38", 
         "location": "", 
-        "pathways": "[Pathway] Mapping Your MozFest Learning Journey", 
-        "scheduleblock": "", 
+        "pathways": "Mapping Your MozFest Learning Journey", 
+        "scheduleblock": "all-weekend", 
         "space": "", 
         "title": "Gain a Badge"
     }, 
@@ -1708,6 +1689,69 @@
         "title": "Learning from 10 artists using Webmaker "
     }, 
     {
+        "day": "Saturday", 
+        "description": "Democracy Street is an interactive digital arts and learning project, developed and curated by the artist Jon Adams. Commissioned by the Houses of Parliament and Arts Council England, and created in collaboration with Mozilla and Si digital, Democracy Street aims to raise awareness of the power of democracy and the importance of free and open information.\nWe do this by engaging the public in the generation of a Digital Interactive Map that gives insight into the people and events that shaped our political landscape since the sealing of Magna Carta.\nWe have created a mobile web app and website for users to discover the history of the people behind the names of their local streets - and how they contributed to democracy.\nDuring the session participants can engage with the project directly via smartphones and mobile devices, seeing their discoveries adding data to the Interactive Map in real-time.", 
+        "facilitator_array": [
+            "Joseph Cavalla", 
+            "Jon Adams"
+        ], 
+        "facilitators": "Joseph Cavalla, Jon Adams", 
+        "id": "61", 
+        "location": "", 
+        "pathways": "Mapping Your MozFest Learning Journey", 
+        "scheduleblock": "saturday-session-block-4", 
+        "space": "", 
+        "start": "03:30 PM", 
+        "title": "Democracy Street - Gamifying and Learning from Open Data"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "What are the spaces, places and people essential to the success of community-based, open-source tech projects? Let’s create an open-standard taxonomy for the roles and the entry points to help empower local change-makers to establish when, where and how to best engage various community stakeholders in co-created solutions for challenges at home. Learn about how Mozilla’s Hive Networks have powered community involvement in the open co-creation of tech solutions like RideW/Me, a Chicago youth transportation app (http://ridewit.me). We want to hear from you too! Share local examples of community-based projects to improve our design.", 
+        "facilitator_array": [
+            "Robert Friedman"
+        ], 
+        "facilitators": "Robert Friedman", 
+        "id": "189", 
+        "location": "", 
+        "pathways": "Mapping Your MozFest Learning Journey", 
+        "scheduleblock": "sunday-session-block-5", 
+        "space": "", 
+        "start": "11:30 AM", 
+        "title": "Community Co-Creation Pathways"
+    }, 
+    {
+        "day": "Saturday", 
+        "description": "This session will empower participants to explore open badges and the development of interest-driven learning playlists, especially for youth. We will use participatory facilitation strategies, 40% learning and sharing, 60% designing and making, to accomplish 3 goals: (1) learn about open badges, (2) design local engagement strategies, and (3) visualize learning playlists. Open badges recognize learning wherever and whenever it happens. A badge is a digital representation of an achieved competency that includes details of the learning experience and evidence. Playlists are a group of learning experiences that share a theme and are structured towards a specific outcome.", 
+        "facilitator_array": [
+            "Dustin Stiver", 
+            "Margaret Black"
+        ], 
+        "facilitators": "Dustin Stiver, Margaret Black", 
+        "id": "372", 
+        "location": "", 
+        "pathways": "Mapping Your MozFest Learning Journey", 
+        "scheduleblock": "saturday-session-block-3", 
+        "space": "", 
+        "start": "02:15 PM", 
+        "title": "Charting Achievement: Using Open Badges to Design Learning Playlists"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "Open Badges can be used to build bridges between learners and employers. There is increasing demand for evidence of soft as well as hard skills for employment but these are not always presented in verifiable ways or linked to careers, apprenticeships or further learning. We will introduce how Open Badges can capture and communicate skills and provide social tools to help participants learn about and make badge-based pathways towards destination points such as careers, apprenticeships or further learning. Examples of badge-based pathways to employment will be provided.", 
+        "facilitator_array": [
+            "Grainne Hamilton, @grainnehamilton, DigitalMe"
+        ], 
+        "facilitators": "Grainne Hamilton", 
+        "id": "284", 
+        "location": "", 
+        "pathways": "Mapping Your MozFest Learning Journey", 
+        "scheduleblock": "sunday-session-block-6", 
+        "space": "Building Participation", 
+        "start": "12:45 PM", 
+        "title": "Building badge-based pathways to employment"
+    }, 
+    {
+        "day": "Sunday", 
         "description": "This session will introduce people to the different ways animation can enhance data visualizations and then teach participants how to use with Snap.svg (a JavaScript library for creating, animating, and interacting with SVG in modern browsers) in their data-driven projects.", 
         "facilitator_array": [
             "Julia Smith"
@@ -1716,11 +1760,13 @@
         "id": "511", 
         "location": "", 
         "pathways": "Mobile and Accessibility, New Technologies for Participation -- Challenge", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "Journalism", 
+        "start": "11:30 AM", 
         "title": "Data in Motion: SVG Animation for Information Visualization"
     }, 
     {
+        "day": "Sunday", 
         "description": "Creating a safe space for attendees is paramount for any organizer wanting to hold inclusive, humane, and supportive events. We'll discuss codes of conduct as well as the enforcement and safety response plans to back it up. Help make your attendess feel comfortable so they can focus on learning and participating at your event.\n\n**Agenda**\n\nThe session will be broken into three sections.\n\n* \"Codes of conduct\"\n\t* We'll have a brief discussion on the current state of codes of conduct.\n\t* We'll discuss the problems often cited regarding CoCs, and practical ways to resolve them.\n\t* We'll walk through the creation and necessary components of a \"code of conduct\"—or whatever you choose to call it—including the content, enforcement, and publicness of the document.\t\n\t\n* Enforcement and Safety Response Plans\n\t* We'll talk about creating a safety response plan, from taking reports though enforcement.\n\t\n\n* Ideation and Resources\n\t* We'll share resources, experiences, and discuss new ideas for helping create safe spaces at events.\n\t\n\n**Participants**\n\nUp until probably 30 participants, we can probably stay together as one group. Beyond that we'll just split into smaller groups to do any necessary discussion. Each section of the agenda will have some group discussion and interaction.", 
         "facilitator_array": [
             "Erik Westra"
@@ -1729,11 +1775,13 @@
         "id": "573", 
         "location": "", 
         "pathways": "Healthy Events and Networks", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-8", 
         "space": "Journalism", 
+        "start": "04:00 PM", 
         "title": "Creating safe spaces for healthy and humane events"
     }, 
     {
+        "day": "Sunday", 
         "description": "Goals: Over 1,600,000 minutes of video are aired every hour on broadcast networks around the world. This session is about learning to hack with video. Come to get down and dirty with audio fingerprinting, transcription, closed captions, analysis techniques to bring this massive video corpus into the age of the app.\n\nAgenda: Over the course of two hours we will experiment with tools to ingest, analyze, and present video. Come armed with a laptop and a good way to take notes, we’ll provide the software and video samples from the 2016 US elections.\n\nWe will start by working with tools for accessing TV and closed captions. Then we will learn how to manipulate, clean, categorize, and extract information from the collected content. Finally we will explore how to use this information.\n\nThe format will be workshop-style (small groups of 3-5 people in each group), with the tools and recommended experiments provided by the facilitators for each of the three pipeline phases we will be targeting.\n\nTo show you a working larger system using most all the tools in this toolkit, we'll go over the TV News Political Ads project at Internet Archive.\n\nWe will break folks into 3-5 person groups (targeting groups of 5) which will make it easy to replicate across any number of participants.\n\nOutcomes:\n\n* Participants will walk away understanding how to use cutting edge tools and techniques for collecting, manipulating, presenting, and working with video.\n", 
         "facilitator_array": [
             "Dan Schultz", 
@@ -1743,11 +1791,13 @@
         "id": "576", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-8", 
         "space": "Journalism", 
+        "start": "04:00 PM", 
         "title": "Hacking Television"
     }, 
     {
+        "day": "Sunday", 
         "description": "People will learn how to get sense of multi-dimensional (more then 3 variables) data sets in a visual way, with a help of a browser and JavaScript based web tools.\nSpecifically we will learn how to search for patterns, correlations, exceptional values. We will use such a methods as scatterplot matrices, interactive tables, and dimensionality reduction algorithms. We will work with example data sets to make a practical exercises.", 
         "facilitator_array": [
             "Anatoly Bondarenko"
@@ -1756,11 +1806,13 @@
         "id": "451", 
         "location": "", 
         "pathways": "Tools and Analysis", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-7", 
         "space": "Journalism", 
+        "start": "02:45 PM", 
         "title": "Breaking the curse (of dimensionality)"
     }, 
     {
+        "day": "Sunday", 
         "description": "Attendees will learn core machine learning techniques and basic data analysis skills, how to apply them with popular Python packages like scikit-learn and pandas, and the pitfalls and ethical dilemmas that can occur.", 
         "facilitator_array": [
             "Francis Tseng"
@@ -1769,11 +1821,13 @@
         "id": "454", 
         "location": "", 
         "pathways": "New Technologies for Participation -- Challenge, Tools and Analysis", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-6", 
         "space": "Journalism", 
+        "start": "12:45 PM", 
         "title": "Machine Learning 101"
     }, 
     {
+        "day": "Saturday", 
         "description": "It's time we treat the mobile web as first class and desktop experiences as secondary.\nIn this session, we will discuss and design data visualization techniques that are mobile specific. Rather than design visuals for desktop that scale down, we'll design for mobile and scale up. Mobile interaction is an open field, so how can we use tap, shake, and rotate as tools for storytelling and visualization?\nLet's think about how both the mobile web and the devices themselves can illustrate data in ways a desktop browser or app cannot.", 
         "facilitator_array": [
             "Aaron Williams"
@@ -1782,11 +1836,13 @@
         "id": "458", 
         "location": "", 
         "pathways": "Mobile and Accessibility", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "Journalism", 
+        "start": "02:15 PM", 
         "title": "Crafting new visualization techniques for the mobile web"
     }, 
     {
+        "day": "Sunday", 
         "description": "The Tech Lady Hackathon is a civic hackathon and training day with hundreds of women from many different backgrounds. (See for yourself, check out #techlady on instagram, etc.) I have organized it annually for three years now, and it has had a significant impact on diversifying the tech scene in Washington DC. Making this happen isn't easy, but it's *not* rocket science. There are a few significant (and a lot of small) reasons why this works, and I want to share those at MozFest. This will be an interactive workshop where participants learn those important lessons and share ideas from their own experiences about what makes a hackathon more (or less) inclusive and successful. (Advice on structuring this is very welcome.)", 
         "facilitator_array": [
             "Leah Bannon"
@@ -1795,11 +1851,13 @@
         "id": "390", 
         "location": "", 
         "pathways": "Healthy Events and Networks", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "Journalism", 
+        "start": "11:30 AM", 
         "title": "Organize Better, More Inclusive Hackathons: It's Easier Than You Think"
     }, 
     {
+        "day": "Sunday", 
         "description": "How to prove negligence and corruption using data. Linking the corruption to the impact on the citizen and make those responsible to start caring. Present the data in friendly formats online through news apps and interactive mobile platforms customised for the users. Then allow users the ability to query the data, compare and make their own independent conclusions. It will be interactive and rich in personal experiences.", 
         "facilitator_array": [
             "Paul Wafula"
@@ -1808,8 +1866,9 @@
         "id": "464", 
         "location": "", 
         "pathways": "Data and Impact", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-8", 
         "space": "Journalism", 
+        "start": "04:00 PM", 
         "title": "Fixing Indifference and Corruption in the Public Service Delivery: Leveraging Data to Get to those Responsible "
     }, 
     {
@@ -1828,17 +1887,20 @@
         "title": "Make your own choose your own adventure news game with twine"
     }, 
     {
+        "day": "Saturday", 
         "description": "Datasets and excel sheets are cool but let’s try to see data of our surroundings. We can find data in every street we pass, in every building we enter and in every issue we face. During the session we will discuss the creative and unusual ways of finding data and dealing with it. The aim of the session is the creation of a space where numbers and creative ideas will interact.\n\nThis session will make people to understand how serious issues can be raised by very simple and alternative way. For example, to show the health care level of one city it is enough to enter the toilet of each public health institution and to make photos showing the sanitary conditions. Data about the sanitary situation collected from all the toilets can become an indicator for understanding the level of health care service in that city.", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "476", 
         "location": "", 
         "pathways": "Data and Impact", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "Journalism", 
+        "start": "02:15 PM", 
         "title": "Data is everywhere, let’s see it!"
     }, 
     {
+        "day": "Sunday", 
         "description": "To explore how to articulate goals and objectives for journalism pieces on the web and how to assess them, including which measures and indicators to use along with what appropriate tracking mechanisms.", 
         "facilitator_array": [
             "Livia Labate"
@@ -1847,11 +1909,13 @@
         "id": "496", 
         "location": "", 
         "pathways": "Data and Impact", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "Journalism", 
+        "start": "11:30 AM", 
         "title": "Measuring What Matters: Measuring Success For Online Journalism"
     }, 
     {
+        "day": "Saturday", 
         "description": "Most newsrooms don't have resources for a fully staffed data team but they have an audience eager for data. Civic hackers have lots of fantastic data but no audience. Unfortunately, often just bringing the groups together at a Hacks/Hackers meetings isn't quite enough to give birth to amazing data journalism collaborations. We'll talk about project-driven examples where civic hackers and journalists have successfully collaborated to produce data journalism all around the world. We'll evaluate those projects to formulate a methodology to maximize chances of success and brainstorm potential partnerships among journalists and hackers who attend.", 
         "facilitator_array": [
             "Eva Constantaras"
@@ -1860,11 +1924,13 @@
         "id": "600", 
         "location": "", 
         "pathways": "Data and Impact, Science communication", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "Journalism", 
+        "start": "10:45 AM", 
         "title": "Rent (or Adopt) A Unicorn"
     }, 
     {
+        "day": "Sunday", 
         "description": "In our session, we'll consider how far we've come from the days when iPods were the bomb and informed the name of what's now the hot new medium. Gone are the days when audio file downloads needed to be scheduled overnight. Are we ready to move beyond MP3 files?  And how can we do all of this with open standards? By the time we're done, we'll have descriptions of one or more possible evolutions of podcasting. Some of the ideas may even become fodder for future projects at Northwestern University Knight Lab.", 
         "facilitator_array": [
             "Joe Germuska"
@@ -1872,12 +1938,14 @@
         "facilitators": "Joe Germuska", 
         "id": "326", 
         "location": "", 
-        "pathways": "Global Village Kitchen", 
-        "scheduleblock": "", 
+        "pathways": "", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "Journalism", 
+        "start": "11:30 AM", 
         "title": "Neither Pod nor Cast: designing the future of podcasting"
     }, 
     {
+        "day": "Sunday", 
         "description": "It will allow people to explore how offline communities can benefit from online data journalism. The session will discuss how the expertise of academics and professionals can be merged with journalism focused on data and investigative reporting; how public data can be interpreted with professional expertise and investigative reporting and\nfinally disseminated via social media. The ultimate aim is to find ways to cater to an elite policy audience as well as the average twitter user, with final benefits being delivered to larger public groups that do not have Internet access.", 
         "facilitator_array": [
             "Samar Halarnkar"
@@ -1886,11 +1954,13 @@
         "id": "499", 
         "location": "", 
         "pathways": "Data and Impact", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-7", 
         "space": "Journalism", 
+        "start": "02:45 PM", 
         "title": "Data journalism in the interest of an offline public"
     }, 
     {
+        "day": "Saturday", 
         "description": "This workshop will start from sratch around the D3 visualization library. D3 is an awesome library but the learning curve can become steep if you do not learn some basic concepts. On this session we will try to get those concepts deep into your brain so that you can continue learning afterwards\nBasic previous Javascript, HTML and CSS is needed to profit from the workshop", 
         "facilitator_array": [
             "Juan Elosua"
@@ -1899,24 +1969,13 @@
         "id": "502", 
         "location": "", 
         "pathways": "Tools and Analysis, Science communication", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "Journalism", 
+        "start": "12:00 PM", 
         "title": "Introduction to D3js"
     }, 
     {
-        "description": "Whether produced on a quick turnaround for breaking news, or over a longer term for an in-depth investigation, news interactives such as immersive pieces, interactive maps and stories and visualizations are at the forefront of engaging storytelling opening up stories to new audiences. They also offer a huge potential for creative inclusive design for wide audiences, including older users, people with disabilities, assistive technology users and people accessing news on-the-go through their phones. This session will explain some common Web accessibility techniques and principles as they can be applied to the development of news interactives.", 
-        "facilitator_array": [
-            "Alison Benjamin"
-        ], 
-        "facilitators": "Alison Benjamin", 
-        "id": "503", 
-        "location": "", 
-        "pathways": "Mobile and Accessibility", 
-        "scheduleblock": "", 
-        "space": "Journalism", 
-        "title": "Improve the accessibility of your interactive"
-    }, 
-    {
+        "day": "Sunday", 
         "description": "This session will explore the convergence of educational practices and design frameworks, drawn from a range of content area foci and program types, that can help foster youth-led, production-centered learning environments. Participants in the session will identify how these practices and frameworks can be applied to their current learning programs whether they be online, in-person, or a combination of the two.\nThe session seeks to bring together educators, technologists, game designers and players to identify challenges and success with current educational techniques while exploring explore game-based learning and its convergence with scientific inquiry and other domains. Together with educators and program designers from Game Changer Chicago Design Lab at The University of Chicago and Chicago Academy of Sciences/Peggy Notebaert Nature Museum, session participants will explore, create and share game-based tools for education. Participants will identify games and game design as effective tools for student learning and assessment.", 
         "facilitator_array": [
             "Ashlyn  Sparrow"
@@ -1925,11 +1984,13 @@
         "id": "446", 
         "location": "", 
         "pathways": "Games and Understanding", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "Journalism", 
+        "start": "11:30 AM", 
         "title": "Science Inquiry and Game Design, A Harmonic Convergence"
     }, 
     {
+        "day": "Saturday", 
         "description": "Anonymity is a controversial issue in the post-Snowden world. While serving as a vehicle for criminalization of various cultures, many communities experiment with concepts that try to resolve the destructive potential of anonymity (i.e. The Coral Project). How to create common sense and a healthy “we” with regard to anonymity?\nIn my session “Are We Ready For Anonymity?” I will present a storytelling project of the same name that will be created by a group of international journalists in Oct 2015.\nThe project I present tackles the world of online forums in the field of journalism and will foster a discussion among participating journalists, activists and coders.", 
         "facilitator_array": [
             "Magdalena Taube"
@@ -1938,11 +1999,13 @@
         "id": "272", 
         "location": "", 
         "pathways": "Building Online Communities", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "Journalism", 
+        "start": "12:00 PM", 
         "title": "Are We Ready For Anonymity?"
     }, 
     {
+        "day": "Sunday", 
         "description": "Often complex ideas in a story don't get the attention they deserve because, let’s face it, you are allowed only one lede. Short animated videos are a great way to remedy this. They can bubble up interesting content in an easily shareable form that works on most devices. In this session, learn to create and publish your own animated video from scratch. We will also explore Adobe Expressions, a javascript like language, for coding your animation behaviors in a video.\nThis session is good for beginners new to making videos as well as for people with some experience in video production looking to add animation to your skill set.\n*Prerequisites:*  A working installation of Adobe After Effects and Adobe Photoshop. You can get a free 30-day trial from Adobe Creative Cloud at http://www.adobe.com/creativecloud/desktop-app.html. Instructions for installing After Effects and Photoshop are here: https://helpx.adobe.com/creative-cloud/help/manage-apps-services-desktop.html. It would be great for participants to already have software installed when they come to this session!", 
         "facilitator_array": [
             "Kavya Sukumar"
@@ -1951,11 +2014,13 @@
         "id": "512", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-6", 
         "space": "Journalism", 
+        "start": "12:45 PM", 
         "title": "Storytelling with animated video"
     }, 
     {
+        "day": "Sunday", 
         "description": "A collective game session in which all the participants in the session play Atlantis, a multiplayer game, together using their phones as a controller. The game itself is shown on the projector. Participants must work together against a system, in teams (though they might not know who their team members are), and individually to accomplish goals in real time. Afterward, they’ll be group discussions about their experience, what types of things they were able to learn, and what topics are particularly suited to being taught with mass participation. Participants will also get some resources to help them create games like this on their own.", 
         "facilitator_array": [
             "Clay Ewing"
@@ -1964,11 +2029,13 @@
         "id": "515", 
         "location": "", 
         "pathways": "Games and Understanding, Leading and Building Community Through Participation", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-7", 
         "space": "Journalism", 
+        "start": "02:45 PM", 
         "title": "Massive Multiplayer ... In Person Games!"
     }, 
     {
+        "day": "Saturday", 
         "description": "Journalists and civic hackers will walk out of this session with a story ready to go in your hands. Find, obtain and analyze data ready to pitch or share with your community, whether you’re completely unfamiliar with data or are just looking for new tools for your repertoire. We’ll learn not only the tenets of data reporting - publishing data that will benefit and inform an audience - but the techniques, like accessing the data behind a webpage or finding a story in a data dump. Absolute beginners are welcome, as are non-journalists. If you have a laptop with you, be sure to bring it.", 
         "facilitator_array": [
             "Samantha Sunne", 
@@ -1978,11 +2045,13 @@
         "id": "246", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "Journalism", 
+        "start": "12:00 PM", 
         "title": "Hacking for Journalists/Journalism for Hackers 101"
     }, 
     {
+        "day": "Saturday", 
         "description": "The field of computational sociology is growing in exciting ways. This session will introduce folks to some of the resources, tools, and ideas that computational sociologists are working with. We'll talk about the increased visibility and interest in conducting research on online communities and online harassment and what that might look like with a computational sociology lens. The session will also touch on similarities between computational sociology and data journalism.", 
         "facilitator_array": [
             "Tara Adiseshan"
@@ -1991,11 +2060,13 @@
         "id": "521", 
         "location": "", 
         "pathways": "Building Online Communities", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "Journalism", 
+        "start": "02:15 PM", 
         "title": "Computational Sociology (and Online Communities)"
     }, 
     {
+        "day": "Saturday", 
         "description": "Worldwide, $9.5 trillion dollars are spent in government contracts on things such as roads, medicine, and paperclips. But some of these trillions, 13% of global GDP, also flow into cognac, over-priced products and services, and fake medicines.\nThe session will focus on the benefits and opportunities for government, citizens and business coming from opening up this data on government contracts through the open source Open Contracting Data Standard. The objective of the session is to develop clear use cases for this contracts data. Ideas for use cases span creating platforms and apps for the web that allow for timely access on business opportunities, ensure civic participation by tracking and monitoring existing developments, or dashboards that track specific elements in government contracting such as efficiency, timeliness, or fairness. It will present existing data sources (EU Tenders, state of public contracting data globally) and some early examples.", 
         "facilitator_array": [
             "Georg Neumann", 
@@ -2005,11 +2076,13 @@
         "id": "434", 
         "location": "", 
         "pathways": "Data and Impact", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "Journalism", 
+        "start": "12:00 PM", 
         "title": "Opening up secret deals: Opportunities for business and citizens from open contracting data "
     }, 
     {
+        "day": "Saturday", 
         "description": "We all have colleagues who are smart, talented, award winning perhaps, but with little understanding of the digital foundation of their livelihood. They have accepted that apps and platforms can deliver content faster than their own bloated invasive websites. They forget the core purpose of the Web was to efficiently deliver text and media to a networked readership.\nAnd who could blame them?\nConsider an article of 40KB in text takes 2.5MB to deliver with auto-play ads, and 15s to load on a broadband connection on a publisher website. Imagine Facebook Instant Articles, Pocket, Apple News, or Flipboard and the inverse experience.\nTo preserve the publisher web site as something of relevance and within the control of publishers we need to rethink everything from content, ads, paywalls, and experience.\nThe goal is to determine whether to relinquish control and syndicate our content and continue a meaningful relationship with our audience.", 
         "facilitator_array": [
             "Michael Donohoe", 
@@ -2020,11 +2093,13 @@
         "id": "525", 
         "location": "", 
         "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "Journalism", 
+        "start": "03:30 PM", 
         "title": "Romance is Dying: How Platforms are Killing the Open Web"
     }, 
     {
+        "day": "Sunday", 
         "description": "In the last year journalism it was invaded by two technological devices Virtual Reality. In this workshop we will show concrete examples and play a bit to understand how this technology sets the pace for the telepresence, immersion and understanding of situations.\nWe will try to see ways of telling stories that may occur using this technology. Each person may apply in their stories or articles otes using technologies.", 
         "facilitator_array": [
             "Martin Nahuel Rabaglia"
@@ -2033,11 +2108,13 @@
         "id": "441", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-7", 
         "space": "Journalism", 
+        "start": "02:45 PM", 
         "title": "How to tell stories with VR, Drones and Telepresence?"
     }, 
     {
+        "day": "Saturday", 
         "description": "There are a large number of Hacks/Hackers and other Journalism and Technology related groups scattered around Europe. Each group tackles local issues when organising events to facilitate their community needs, as well as trying to address the wider issues faced with technology and access to information within Journalism. Allowing groups to suggest ideas most relevant to their community group, as well as trying to address broader questions associated with the Hacks/Hackers movement and related movements both in their geographic region and globally, my hope is to tease out common threads and solutions.\nEssentially what do these communities need and how to address this?", 
         "facilitator_array": [
             "Annabel Church", 
@@ -2047,11 +2124,13 @@
         "id": "528", 
         "location": "", 
         "pathways": "Healthy Events and Networks", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "Journalism", 
+        "start": "02:15 PM", 
         "title": "Getting to the roots of the Hacks/Hackers movement"
     }, 
     {
+        "day": "Saturday", 
         "description": "We'll take your existing desktop HTML/CSS/JS skills and learn the extras you need to make the most of mobile. Bring your phone and laptop with you, and we'll walk through device debugging, meta tags, viewport-based CSS units and some mobile JavaScript APIs.\nWe'll go through a guided coding session, then you'll be free to play with the code and make whatever you want.", 
         "facilitator_array": [
             "Alastair Coote"
@@ -2060,11 +2139,13 @@
         "id": "227", 
         "location": "", 
         "pathways": "Mobile and Accessibility", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "Journalism", 
+        "start": "10:45 AM", 
         "title": "Bring your web development skills to mobile"
     }, 
     {
+        "day": "Sunday", 
         "description": "Participants will learn and share best practices for engaging with online communities in a structured and meaningful way. Including how the Guardian uses tools like Guardian Witness to achieve this. As well as coming up with ideas for how this could be done better in the future!", 
         "facilitator_array": [
             "Gideon Goldberg"
@@ -2073,11 +2154,13 @@
         "id": "225", 
         "location": "", 
         "pathways": "Building Online Communities", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-8", 
         "space": "Journalism", 
+        "start": "04:00 PM", 
         "title": "Flattening the ivory tower: harnessing the knowledge of readers for Open Journalism"
     }, 
     {
+        "day": "Sunday", 
         "description": "We will share lessons learned in building Vox Media's large communities, specifically SB Nation and The Verge. Folks will learn technology, design and community strategies that worked and some that failed.", 
         "facilitator_array": [
             "Trei Brundrett"
@@ -2086,11 +2169,13 @@
         "id": "529", 
         "location": "", 
         "pathways": "Building Online Communities", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-7", 
         "space": "Journalism", 
+        "start": "02:45 PM", 
         "title": "What we learned at Vox Media about how we build community and why it's important"
     }, 
     {
+        "day": "Saturday", 
         "description": "Get introduced to some of the best newsgames that have come out of journalism so far, and learn about what really makes a game both fun and educational.", 
         "facilitator_array": [
             "Sisi Wei"
@@ -2099,11 +2184,13 @@
         "id": "553", 
         "location": "", 
         "pathways": "Games and Understanding", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "Journalism", 
+        "start": "10:45 AM", 
         "title": "The Biggest and Baddest in Newsgames So Far, and What They Can Teach Us"
     }, 
     {
+        "day": "Saturday", 
         "description": "Data simultaneously reveals and conceals. And no matter how diligent journalists are, we can never be certain that our numbers are truly bullet proof - and some stories are by nature unethical if conveyed solely through data. We will discuss the various ways a journalist can unintentionally misrepresent a story through data, and brainstorm questions to ask ourselves before determining whether a story can be ethically represented through data. With these questions we will create a Hippocratic Oath for data journalists to adhere by when working with data. This session is inspired by the book \"How to Lie with Statistics.\"", 
         "facilitator_array": [
             "Anne Li"
@@ -2112,11 +2199,13 @@
         "id": "205", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "Journalism", 
+        "start": "02:15 PM", 
         "title": "No Good Number Goes Unpunished"
     }, 
     {
+        "day": "Saturday", 
         "description": "What are the tools and rules of data sonification? How do we translate what makes a good graphic into good music that tells a story with data? Many of the core concepts of charting work perfectly well for sound, and there's even shared language: charts, scales, ticks, etc. Music also opens up whole new possibilities for what kinds of data can be easily understood. But working with sound also brings new ways to get it wrong or be misunderstood. Let's play some sounds, look at code, and draw to see if we can make some progress on a musical theory of data.", 
         "facilitator_array": [
             "Michael Corey", 
@@ -2126,11 +2215,13 @@
         "id": "578", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "Journalism", 
+        "start": "10:45 AM", 
         "title": "Tufte: The Musical"
     }, 
     {
+        "day": "Saturday", 
         "description": "How are groups formed? How can the group document, recognize and ultimately work productively through various dynamics. Using Tuckman's theory of group psychology as a basis, The Coral Project will workshop stages of group development and documentation. Participants will perform activities, learn basic group formation theory, and devise best practices for keeping records of projects, stories, and processes according to open standards.", 
         "facilitator_array": [
             "Sydette Harry"
@@ -2139,8 +2230,9 @@
         "id": "572", 
         "location": "", 
         "pathways": "Building Online Communities", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "Journalism", 
+        "start": "10:45 AM", 
         "title": "How do communities come together?"
     }, 
     {
@@ -2749,7 +2841,7 @@
         "facilitators": "Jacob Tomlinson", 
         "id": "279", 
         "location": "", 
-        "pathways": "[Pathway] Citizen Science", 
+        "pathways": "Citizen Science", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "Open Science", 
         "start": "03:30 PM", 
@@ -2779,7 +2871,7 @@
         "facilitators": "Alissa Nedossekina", 
         "id": "493", 
         "location": "", 
-        "pathways": "[Pathway] Citizen Science, [Pathway] Science communication", 
+        "pathways": "Citizen Science, Science communication", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Open Science", 
         "start": "11:30 AM", 
@@ -2805,9 +2897,9 @@
         "description": "Researchers from different disciplines have different software requirements. However, even across domains, similar patterns of requirements appear and it is often the case that the first thought is to buy closed software in that fulfil needs but often does not promote or allow open interoperability. This session will allow people to help build a toolbox of free/open source software needed to transition an existing “black box” research laboratory (that doesn’t share or collaborate on anything) into one that is more “open”. This can be used as a model/base for young researchers that want to encourage their lab to open up, but don’t know how to.", 
         "facilitator_array": [
             "Billy Meinke", 
-            "Roby Davey"
+            "Rob Davey"
         ], 
-        "facilitators": "Billy Meinke, Roby Davey", 
+        "facilitators": "Billy Meinke, Rob Davey", 
         "id": "532", 
         "location": "", 
         "pathways": "", 
@@ -2820,9 +2912,10 @@
         "day": "Saturday", 
         "description": "In our session, we will build an IoT stack for schools.\nThe Internet of Things provides a fantastic opportunity for school children to acquire STEM skills while learning more about their immediate environment as well.\nBut there are a lot of IoT tools out there—so many, in fact, that it’s hard to know where to start.\nIn this workshop we will look at how to assemble an IoT stack for schools. This includes everything from hardware, and calibration, to data aggregation and coding tools.\nThe idea of this workshop is to share our knowledge with one another about tools and especially about gaps in the tool chain, from the point of view of parents, teachers and students. Participants will get hands-on experience of an IoT stack, with hardware provided by us. The goal will be to come up with a wish-list and suggestions about how Mozilla Science can help.", 
         "facilitator_array": [
-            "Brian Fuchs"
+            "Brian Fuchs", 
+            "Margaret Gold"
         ], 
-        "facilitators": "Brian Fuchs", 
+        "facilitators": "Brian Fuchs, Margaret Gold", 
         "id": "535", 
         "location": "", 
         "pathways": "", 
@@ -2840,7 +2933,7 @@
         "facilitators": "Daniel Dobos", 
         "id": "342", 
         "location": "", 
-        "pathways": "[SCIENCE] Under Consideration, [Pathway ] Open Research Accelerator", 
+        "pathways": "Open Research Accelerator", 
         "scheduleblock": "sunday-session-block-8", 
         "space": "Open Science", 
         "start": "04:00 PM", 
@@ -2855,7 +2948,7 @@
         "facilitators": "Bruno Vieira", 
         "id": "341", 
         "location": "", 
-        "pathways": "[SCIENCE] Under Consideration", 
+        "pathways": "", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Open Science", 
         "start": "12:45 PM", 
@@ -2869,7 +2962,7 @@
         "facilitators": "Gabriella Azzopardi", 
         "id": "260", 
         "location": "", 
-        "pathways": "[SCIENCE] Under Consideration", 
+        "pathways": "", 
         "scheduleblock": "", 
         "space": "Open Science", 
         "title": "Open Cosmics: cosmic-ray physics for everyone"
@@ -2908,9 +3001,10 @@
         "day": "Saturday", 
         "description": "This session introduces newcomers to the essentials of Git and GitHub. Our goal is to give everyone an approachable and hands on experience with the tools as well as the common practices and social nuances in open source, gaining confidence to get involved themselves.", 
         "facilitator_array": [
-            "Jessica Lord"
+            "Jessica Lord", 
+            "Mu-An Chiou"
         ], 
-        "facilitators": "Jessica Lord", 
+        "facilitators": "Jessica Lord, Mu-An Chiou", 
         "id": "256", 
         "location": "", 
         "pathways": "Tools and Analysis", 
@@ -2923,12 +3017,14 @@
         "day": "Sunday", 
         "description": "Hypothesis is building an open platform for discussion on the web. Hypothesis leverages annotation to enable sentence-level critique or note-taking on top of any page: news, blogs, scientific articles, books, terms of service, legislation and more. From simply taking notes to adding critical knowledge, an open annotation layer engineered for the web provides a powerful technology for improving information flow in science. Hypothesis can be installed via a simple browser extension for individual use, proxied through a URL on any page, or  incorporated directly into platforms.  Current uses include pre- and post-publication peer review, making science more understandable, and tagging key concepts in the literature.  In this sprint, we will provide an introduction to web-based annotation, and hands-on tutorials directed towards both end interested in annotation and developers who want to incorporate it into their platforms.", 
         "facilitator_array": [
-            "Maryann Martone"
+            "Dan Whaley", 
+            "Lena Gunn", 
+            "Robert Knight"
         ], 
-        "facilitators": "Maryann Martone", 
+        "facilitators": "Dan Whaley, Lena Gunn, Robert Knight", 
         "id": "254", 
         "location": "", 
-        "pathways": "[Pathway] Science communication, [SCIENCE] Under Consideration", 
+        "pathways": "Science communication", 
         "scheduleblock": "sunday-session-block-8", 
         "space": "Open Science", 
         "start": "04:00 PM", 
@@ -2969,12 +3065,12 @@
         "day": "Saturday", 
         "description": "The session will inspire participants to create their own study groups in their communities.", 
         "facilitator_array": [
-            "Anita Raichand"
+            "Amy Lee"
         ], 
-        "facilitators": "Anita Raichand", 
+        "facilitators": "Amy Lee", 
         "id": "168", 
         "location": "", 
-        "pathways": "[Pathway] Citizen Science", 
+        "pathways": "Citizen Science", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Open Science", 
         "start": "12:00 PM", 
@@ -2989,7 +3085,7 @@
         "facilitators": "Francois Grey", 
         "id": "300", 
         "location": "", 
-        "pathways": "[Pathway] Citizen Science", 
+        "pathways": "Citizen Science", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Open Science", 
         "start": "11:30 AM", 
@@ -2999,9 +3095,10 @@
         "day": "Sunday", 
         "description": "We will provide an opportunity to reproduce the results of a prominent academic publication. The goal of our workshop would be for attendees to be able to find a suitable publication, locate and download the original data from the Internet, reproduce the original results, and extend the analysis to probe the robustness of the published findings.\nThis would require that the participants have some statistical knowledge, as well as programming ability (R preferably, since it is available free, but also possibly Stata, SPSS, SAS, etc. if students have that software themselves).  However, by using a relatively simple randomized trial (such as “Are Emily and Greg More Employable than Lakisha and Jamal?” by Marianne Bertrand and Sendhil Mullainathan, 2004  just to name one possible example) on an important and easily understood topic (racial discrimination in employment), and by having attendees work in small groups, even beginners should be able to benefit.", 
         "facilitator_array": [
-            "Garret Christensen"
+            "Garret Christensen", 
+            "Nicole Janz"
         ], 
-        "facilitators": "Garret Christensen", 
+        "facilitators": "Garret Christensen, Nicole Janz", 
         "id": "165", 
         "location": "", 
         "pathways": "", 
@@ -3047,7 +3144,7 @@
         "facilitators": "Sven Schade", 
         "id": "290", 
         "location": "", 
-        "pathways": "[Pathway] Citizen Science, [Pathway ] Open Research Accelerator", 
+        "pathways": "Citizen Science, Open Research Accelerator", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "Open Science", 
         "start": "02:45 PM", 
@@ -3057,9 +3154,11 @@
         "day": "Sunday", 
         "description": "Maps are popular visualizations applied to all scientific disciplines. Likewise, learning how to best apply cartographic tools to spatial problems is an important component to making sense of our world visually and physicially. At all scales, this skill can provide complex information with spatial clarity: where orbital maps drive an understanding subatomic dynamics at one zoom, and help us understand interactions in our cosmos at another. Still, sometimes the tools to build maps can be as obscure and proprietary as the data we are trying to parse.\nThis session will be a brief intro to open source mapping tools, a tutorial in map-making for science, and a drop in clinic to play with, manage, and map geospatial data. Participants will make maps with sample science data, or test /troubleshoot their own with open source software.", 
         "facilitator_array": [
-            "Aurelia Moser"
+            "Aurelia Moser", 
+            "Dave Riordan", 
+            "Stuart Lynn"
         ], 
-        "facilitators": "Aurelia Moser", 
+        "facilitators": "Aurelia Moser, Dave Riordan, Stuart Lynn", 
         "id": "91", 
         "location": "", 
         "pathways": "Tools and Analysis", 
@@ -3090,7 +3189,7 @@
         "facilitators": "Daniel Craigmile", 
         "id": "524", 
         "location": "", 
-        "pathways": "New Technologies for Participation -- Challenge, Tools and Analysis, [JOURNALISM] Under Consideration, [PARTICIPATION] Accepted,", 
+        "pathways": "New Technologies for Participation -- Challenge, Tools and Analysis", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "Open Science", 
         "start": "02:45 PM", 
@@ -3120,7 +3219,7 @@
         "facilitators": "Bastian Greshake", 
         "id": "126", 
         "location": "", 
-        "pathways": "[Pathway] Citizen Science", 
+        "pathways": "Citizen Science", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Open Science", 
         "start": "11:30 AM", 
@@ -3160,12 +3259,13 @@
         "day": "Sunday", 
         "description": "This session will focus on new technologies that make science and research faster, more open, more discoverable and accessible to everyone. We can improve scientific collaboration and communication to increase efficiency in the accumulation of knowledge – and to best achieve this, science should look to improve technologies to document and connect the entire lifecycle of research projects. What are these research technologies and how are they best used to increase the accumulation of knowledge? This session will gather information from the group and discover how others are using these technologies, which are working best and what gains are being made through their use.", 
         "facilitator_array": [
-            "Mary Anne Baynes"
+            "Tim Alby", 
+            "Al Hyndman"
         ], 
-        "facilitators": "Mary Anne Baynes", 
+        "facilitators": "Tim Alby, Al Hyndman", 
         "id": "361", 
         "location": "", 
-        "pathways": "[Pathway] Citizen Science", 
+        "pathways": "Citizen Science", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Open Science", 
         "start": "12:45 PM", 
@@ -3175,9 +3275,9 @@
         "day": "Saturday", 
         "description": "Introduce and demonstrate pdf processing tools and toolkits, including Tabula, DocumentCloud's docsplit, and other common pdf processing tools.  Participants should depart the session with an understanding of how to extract basic components from PDFs.", 
         "facilitator_array": [
-            "Ted Han"
+            "Mike Tigas"
         ], 
-        "facilitators": "Ted Han", 
+        "facilitators": "Mike Tigas", 
         "id": "527", 
         "location": "", 
         "pathways": "Tools and Analysis", 
@@ -3195,13 +3295,14 @@
         "facilitators": "Max Franz", 
         "id": "240", 
         "location": "", 
-        "pathways": "[Pathway] Science communication", 
+        "pathways": "Science communication", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "Open Science", 
         "start": "03:30 PM", 
         "title": "Analysing and visualising network data"
     }, 
     {
+        "day": "Saturday", 
         "description": "Innovation is too often seen as a business imperative rather than a means to improve lives.\nThe growing use of Open Innovation, co-creation and user centred design by businesses, and the public sector will enable more citizens than ever before to participate in shaping the future, not only of the web but all the products and services they experience.\nIn the session we shall take a few existing ideas and innovations and try to make them better using these approaches. We’re not looking for expertise, but passion to see and make a better future.\nBetter how? Well it could be a new audience, or solve an existing problem in a novel way. Our primary tool will be the ‘hacker ethic’ - access, freedom of information, and improvement to quality of life.\nYou’ll get to help design better weather warnings, or bring a problem of your own and share it.", 
         "facilitator_array": [
             "Michael Saunby, @msaunby, Met Office", 
@@ -3211,8 +3312,9 @@
         "id": "462", 
         "location": "", 
         "pathways": "Global Village Garden", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "Voices of Diverse Leaders", 
+        "start": "03:30 PM", 
         "title": "Innovating in the open for better lives (and better products)"
     }, 
     {
