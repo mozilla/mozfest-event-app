@@ -1,79 +1,11 @@
 [
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "207", 
-        "location": "", 
-        "pathways": "[Pathway] Mapping Your MozFest Learning Journey", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "BadgeLAB Leeds: Testing open badges for arts engagement"
-    }, 
-    {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "36", 
-        "location": "", 
-        "pathways": "[Pathway] Mapping Your MozFest Learning Journey", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Choose a persona"
-    }, 
-    {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "37", 
-        "location": "", 
-        "pathways": "[Pathway] Mapping Your MozFest Learning Journey", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Choose your Mozfest Pathway with Badges"
-    }, 
-    {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "38", 
-        "location": "", 
-        "pathways": "[Pathway] Mapping Your MozFest Learning Journey", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Gain a Badge"
-    }, 
-    {
-        "description": "", 
-        "facilitator_array": [
-            "Laura De Reynal. Mozilla Foundation"
-        ], 
-        "facilitators": "Laura De Reynal. Mozilla Foundation", 
-        "id": "39", 
-        "location": "", 
-        "pathways": "Research", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "The Research Gallery"
-    }, 
-    {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "40", 
-        "location": "", 
-        "pathways": "Research", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Learning from 10 artists using Webmaker "
-    }, 
-    {
-        "description": "", 
+        "description": "Disaster aid takes time to reach the people who need it. Stockpiled and flown in, even getting it through customs, the aid can be hugely expensive. The aim of Communitere is to create shared space for relief organizations and locals, with the aim of sharing resources and fostering communication and collaboration. Lessons learned from the spaces in Haiti and the Philippines, as well as the new Resource Center in Nepal will be presented and ways to innovate disaster relief through small scale manufacturing, space sharing and other simple means to disrupt traditional aid supply chains will be discussed.", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "588", 
         "location": "", 
-        "pathways": "Global Innovation Network", 
+        "pathways": "Global Innovation Network, Garbage Disposal Room", 
         "scheduleblock": "", 
         "space": "", 
         "title": "Innovative Disaster Relief – Examples from Haiti and Nepal "
@@ -190,17 +122,6 @@
         "scheduleblock": "", 
         "space": "", 
         "title": "Design Thinking for Participation "
-    }, 
-    {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "420", 
-        "location": "", 
-        "pathways": "[Pathway] Mapping Your MozFest Learning Journey", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Coderdojo and Open Badges"
     }, 
     {
         "description": "Understanding how memes convey opinions and how their spread relates to the spread of rhetorics behind those opinions but also to the spread of fake information, and intox in general is the overall goal of the session. We follow the way politically-charged information spreads online and can go viral. To this end, we track the spread of memes online using image search platforms, network reconstruction and mapping the changes in their rhetoric across their lifetime.", 
@@ -1702,6 +1623,91 @@
         "title": "Example Session for Schedule Migration"
     }, 
     {
+        "description": "DigitalME are pioneers in Open Badge design, implementation and consultation. Our recent research project BadgeLAB Leeds explored the use of Open Badges for arts engagement, at artist led sessions in schools, programmes for NEET young people and young people with learning difficulties, and at large scale public events.\n\nWe will discuss findings from the report by Sheffield Hallam University, the key themes and how they are shaping our approach to Open Badge design for arts and city wide learning. The session will be open and informal - we aim to unearth experiences, compare approaches and share tools and resources with participants.", 
+        "facilitator_array": [
+            "Alison Smith, DigialMe"
+        ], 
+        "facilitators": "Alison Smith", 
+        "id": "207", 
+        "location": "", 
+        "pathways": "[Pathway] Mapping Your MozFest Learning Journey", 
+        "scheduleblock": "", 
+        "space": "", 
+        "title": "BadgeLAB Leeds: Testing open badges for arts engagement"
+    }, 
+    {
+        "description": "", 
+        "facilitator_array": [
+            "Laura De Reynal. Mozilla Foundation"
+        ], 
+        "facilitators": "Laura De Reynal. Mozilla Foundation", 
+        "id": "39", 
+        "location": "", 
+        "pathways": "Research", 
+        "scheduleblock": "", 
+        "space": "", 
+        "title": "The Research Gallery"
+    }, 
+    {
+        "description": "CoderDojo has integrated Open Badges into their new community platform as a rewarding system. Find out about the badges and how they have encouraged people to take part at their local Dojo and how you could use badges to reward participation in clubs, classes or schools.", 
+        "facilitator_array": [
+            "Pete O'Shea"
+        ], 
+        "facilitators": "Pete O'Shea", 
+        "id": "420", 
+        "location": "", 
+        "pathways": "[Pathway] Mapping Your MozFest Learning Journey", 
+        "scheduleblock": "", 
+        "space": "", 
+        "title": "Coderdojo and Open Badges"
+    }, 
+    {
+        "description": "", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "36", 
+        "location": "", 
+        "pathways": "[Pathway] Mapping Your MozFest Learning Journey", 
+        "scheduleblock": "", 
+        "space": "", 
+        "title": "Choose a persona"
+    }, 
+    {
+        "description": "", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "37", 
+        "location": "", 
+        "pathways": "[Pathway] Mapping Your MozFest Learning Journey", 
+        "scheduleblock": "", 
+        "space": "", 
+        "title": "Choose your Mozfest Pathway with Badges"
+    }, 
+    {
+        "description": "", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "38", 
+        "location": "", 
+        "pathways": "[Pathway] Mapping Your MozFest Learning Journey", 
+        "scheduleblock": "", 
+        "space": "", 
+        "title": "Gain a Badge"
+    }, 
+    {
+        "description": "", 
+        "facilitator_array": [
+            "Laura Reynal"
+        ], 
+        "facilitators": "Laura Reynal", 
+        "id": "40", 
+        "location": "", 
+        "pathways": "Research", 
+        "scheduleblock": "", 
+        "space": "", 
+        "title": "Learning from 10 artists using Webmaker "
+    }, 
+    {
         "description": "This session will introduce people to the different ways animation can enhance data visualizations and then teach participants how to use with Snap.svg (a JavaScript library for creating, animating, and interacting with SVG in modern browsers) in their data-driven projects.", 
         "facilitator_array": [
             "Julia Smith"
@@ -1818,7 +1824,7 @@
         "pathways": "Games and Understanding", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Journalism", 
-        "start": "12:00", 
+        "start": "12:00 PM", 
         "title": "Make your own choose your own adventure news game with twine"
     }, 
     {
@@ -2212,7 +2218,7 @@
         "pathways": "[MLN] Learning & Leading", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Mozilla Learning Networks", 
-        "start": "11:30", 
+        "start": "11:30 AM", 
         "title": "Hacking Games for Web Literacy"
     }, 
     {
@@ -2262,7 +2268,7 @@
         "pathways": "[MLN] Teaching Web Literacy with Mozilla Clubs", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Mozilla Learning Networks", 
-        "start": "12:45", 
+        "start": "12:45 PM", 
         "title": "From Participation to Collaboration"
     }, 
     {
@@ -2321,7 +2327,7 @@
         "pathways": "[MLN] Learning & Leading", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Mozilla Learning Networks", 
-        "start": "12:00", 
+        "start": "12:00 PM", 
         "title": "Privacy and Libraries"
     }, 
     {
@@ -2358,7 +2364,7 @@
         "pathways": "[MLN] Learning & Leading", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "Mozilla Learning Networks", 
-        "start": "14:15", 
+        "start": "02:15 PM", 
         "title": "Making with Mozilla: Learning and Teaching"
     }, 
     {
@@ -2373,7 +2379,7 @@
         "pathways": "[MLN] Learning & Leading", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "Mozilla Learning Networks", 
-        "start": "14:45", 
+        "start": "02:45 PM", 
         "title": "Game On! A Playbook for Building Learning Innovation Networks"
     }, 
     {
@@ -2445,7 +2451,7 @@
         "pathways": "[MLN] Learning & Leading", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Mozilla Learning Networks", 
-        "start": "10:45", 
+        "start": "10:45 AM", 
         "title": "Hack the Backpack! "
     }, 
     {
@@ -2460,7 +2466,7 @@
         "pathways": "[MLN] Learning & Leading", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "Mozilla Learning Networks", 
-        "start": "15:30", 
+        "start": "03:30 PM", 
         "title": "Regenerate Neighborhoods"
     }, 
     {
@@ -2530,7 +2536,7 @@
         "pathways": "Scaling Participatory Learning Experiences, [MLN] Learning & Leading, [PARTICIPATION] Accepted", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "Mozilla Learning Networks", 
-        "start": "14:15", 
+        "start": "02:15 PM", 
         "title": "Hack a Design Challenge to Use With Your Students"
     }, 
     {
@@ -2545,7 +2551,7 @@
         "pathways": "[MLN] Learning & Leading", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Mozilla Learning Networks", 
-        "start": "10:45", 
+        "start": "10:45 AM", 
         "title": "Learning & Leading Digital Literacy Focus Group"
     }, 
     {
@@ -2584,7 +2590,7 @@
         "pathways": "[MLN] Learning & Leading, [SCIENCE] Under Consideration", 
         "scheduleblock": "sunday-session-block-8", 
         "space": "Mozilla Learning Networks", 
-        "start": "16:00", 
+        "start": "04:00 PM", 
         "title": "This is Not a Map: Building Interactive Maps with Creative Themes and Geometries"
     }, 
     {
@@ -2599,7 +2605,7 @@
         "pathways": "[MLN] Learning & Leading", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "Mozilla Learning Networks", 
-        "start": "14:45", 
+        "start": "02:45 PM", 
         "title": "Teaching the Web with the New Thimble"
     }, 
     {
@@ -2674,6 +2680,68 @@
     }, 
     {
         "day": "Saturday", 
+        "description": "In this session, we introduce Learning Circles, a methodology for building face-to-face communities around online learning, and explore the question of how to reach learners who are not “typical online learners” \n", 
+        "facilitator_array": [
+            "Bekka Kahn, @rebamex, P2PU"
+        ], 
+        "facilitators": "Bekka Kahn", 
+        "id": "615", 
+        "location": "", 
+        "pathways": "Scaling Participatory Learning Experiences, Online Learning Done F2F", 
+        "scheduleblock": "saturday-session-block-1", 
+        "space": "Online Learning Done Face-to-Face", 
+        "start": "10:45 AM", 
+        "title": "Tell the World! Evangelise for Online Learning Done Face To Face"
+    }, 
+    {
+        "day": "Saturday", 
+        "description": " In this session, we introduce Learning Circles, a methodology for building face-to-face communities around online learning, and explore how to identify, evaluate and modify open courses hosted online to make them LC appropriate, or, if those can’t be found, how to build you own.", 
+        "facilitator_array": [
+            "Grif Peterson, @grifpeterson, P2PU"
+        ], 
+        "facilitators": "Grif Peterson", 
+        "id": "616", 
+        "location": "", 
+        "pathways": "Scaling Participatory Learning Experiences, Online Learning Done F2F", 
+        "scheduleblock": "saturday-session-block-3", 
+        "space": "Online Learning Done Face-to-Face", 
+        "start": "02:15 PM", 
+        "title": "Looking to Learn:  How to Identify Open Courses for Learning Circles (or build your own)"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "In this session, we introduce Learning Circles, a methodology for building face-to-face communities around online learning, and offer a crash-course on what it takes to host and facilitate a learning circle, using the LC methodology (how meta!)", 
+        "facilitator_array": [
+            "Mark Andersen, Chicago Public Library", 
+            "Bekka Kahn, @rebamex, P2PU"
+        ], 
+        "facilitators": "Mark Andersen, Bekka Kahn", 
+        "id": "617", 
+        "location": "", 
+        "pathways": "Scaling Participatory Learning Experiences, Online Learning Done F2F", 
+        "scheduleblock": "sunday-session-block-5", 
+        "space": "Online Learning Done Face-to-Face", 
+        "start": "11:30 AM", 
+        "title": "Come on In: How to Host & Facilitate a Learning Circle"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "In this session, we introduce Learning Circles, a methodology for building face-to-face communities around online learning, and work with participants to develop a toolkit to empower them to run their own LCs in their community contexts.", 
+        "facilitator_array": [
+            "Carl Ruppin, P2PU", 
+            "Bekka Kahn, @rebamex, P2PU"
+        ], 
+        "facilitators": "Carl Ruppin, Bekka Kahn", 
+        "id": "618", 
+        "location": "", 
+        "pathways": "Scaling Participatory Learning Experiences, Online Learning Done F2F", 
+        "scheduleblock": "sunday-session-block-7", 
+        "space": "Online Learning Done Face-to-Face", 
+        "start": "02:45 PM", 
+        "title": " If you build it... How to create a Learning Circles Kit  "
+    }, 
+    {
+        "day": "Saturday", 
         "description": "Together we will design and create small JavaScript browser applications (or Firefox OS applications) which will mix multiple open data sets together to create useful information. The takeaway thoughts will be that data is useful, but combining multiple data sets together is even better!", 
         "facilitator_array": [
             "Jacob Tomlinson"
@@ -2684,7 +2752,7 @@
         "pathways": "[Pathway] Citizen Science", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "Open Science", 
-        "start": "15:30", 
+        "start": "03:30 PM", 
         "title": "Your data is good, my data is good, OUR data is incredible!"
     }, 
     {
@@ -2699,7 +2767,7 @@
         "pathways": "", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Open Science", 
-        "start": "12:45", 
+        "start": "12:45 PM", 
         "title": "Building citation lists using ORCID records and DOI metadata"
     }, 
     {
@@ -2714,7 +2782,7 @@
         "pathways": "[Pathway] Citizen Science, [Pathway] Science communication", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Open Science", 
-        "start": "11:30", 
+        "start": "11:30 AM", 
         "title": "UX Design Challenge in Scientific Software"
     }, 
     {
@@ -2729,7 +2797,7 @@
         "pathways": "", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Open Science", 
-        "start": "10:45", 
+        "start": "10:45 AM", 
         "title": "Content Mining for Transparency of Drug Research"
     }, 
     {
@@ -2745,7 +2813,7 @@
         "pathways": "", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Open Science", 
-        "start": "12:00", 
+        "start": "12:00 PM", 
         "title": "Open Science Help Desk"
     }, 
     {
@@ -2760,7 +2828,7 @@
         "pathways": "", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Open Science", 
-        "start": "12:00", 
+        "start": "12:00 PM", 
         "title": "An Open IoT Stack for Schools"
     }, 
     {
@@ -2775,7 +2843,7 @@
         "pathways": "[SCIENCE] Under Consideration, [Pathway ] Open Research Accelerator", 
         "scheduleblock": "sunday-session-block-8", 
         "space": "Open Science", 
-        "start": "16:00", 
+        "start": "04:00 PM", 
         "title": "W6-assess"
     }, 
     {
@@ -2790,7 +2858,7 @@
         "pathways": "[SCIENCE] Under Consideration", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Open Science", 
-        "start": "12:45", 
+        "start": "12:45 PM", 
         "title": "Bionode - Modular and Universal Bioinformatics"
     }, 
     {
@@ -2818,7 +2886,7 @@
         "pathways": "Tools and Analysis", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "Open Science", 
-        "start": "15:30", 
+        "start": "03:30 PM", 
         "title": "Jupyter notebooks and Python data analysis"
     }, 
     {
@@ -2833,7 +2901,7 @@
         "pathways": "", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Open Science", 
-        "start": "12:00", 
+        "start": "12:00 PM", 
         "title": "Using open source tools to analyze police data"
     }, 
     {
@@ -2848,7 +2916,7 @@
         "pathways": "Tools and Analysis", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Open Science", 
-        "start": "10:45", 
+        "start": "10:45 AM", 
         "title": "GitHub 101"
     }, 
     {
@@ -2863,7 +2931,7 @@
         "pathways": "[Pathway] Science communication, [SCIENCE] Under Consideration", 
         "scheduleblock": "sunday-session-block-8", 
         "space": "Open Science", 
-        "start": "16:00", 
+        "start": "04:00 PM", 
         "title": "Annotation on the Web with Hypothes.is"
     }, 
     {
@@ -2878,7 +2946,7 @@
         "pathways": "", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Open Science", 
-        "start": "10:45", 
+        "start": "10:45 AM", 
         "title": "Critical Care Datathon: Answering clinically relevant questions with the MIMIC Critical Care Dataset"
     }, 
     {
@@ -2894,7 +2962,7 @@
         "pathways": "", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Open Science", 
-        "start": "11:30", 
+        "start": "11:30 AM", 
         "title": "Science in the Browser with WebGL"
     }, 
     {
@@ -2909,7 +2977,7 @@
         "pathways": "[Pathway] Citizen Science", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Open Science", 
-        "start": "12:00", 
+        "start": "12:00 PM", 
         "title": "Start an open science study group"
     }, 
     {
@@ -2924,7 +2992,7 @@
         "pathways": "[Pathway] Citizen Science", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Open Science", 
-        "start": "11:30", 
+        "start": "11:30 AM", 
         "title": "Tackling Sustainable Development with Citizen Science on the Web"
     }, 
     {
@@ -2939,7 +3007,7 @@
         "pathways": "", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Open Science", 
-        "start": "11:30", 
+        "start": "11:30 AM", 
         "title": "Research Reproducibility: Hands-on Experience with Replication"
     }, 
     {
@@ -2967,7 +3035,7 @@
         "pathways": "", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "Open Science", 
-        "start": "14:15", 
+        "start": "02:15 PM", 
         "title": "Tools to fulfill your wildest data dreams"
     }, 
     {
@@ -2982,7 +3050,7 @@
         "pathways": "[Pathway] Citizen Science, [Pathway ] Open Research Accelerator", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "Open Science", 
-        "start": "14:45", 
+        "start": "02:45 PM", 
         "title": "European Citizen Science via the Web: potentials, expectations and way ahead"
     }, 
     {
@@ -2997,7 +3065,7 @@
         "pathways": "Tools and Analysis", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Open Science", 
-        "start": "11:30", 
+        "start": "11:30 AM", 
         "title": "Mapping the Matrix: Open Cartography with Scientific and Spatial Data"
     }, 
     {
@@ -3010,7 +3078,7 @@
         "pathways": "", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Open Science", 
-        "start": "12:45", 
+        "start": "12:45 PM", 
         "title": "Data is beautiful. What’s Wikidata and why does it matter to me?"
     }, 
     {
@@ -3025,7 +3093,7 @@
         "pathways": "New Technologies for Participation -- Challenge, Tools and Analysis, [JOURNALISM] Under Consideration, [PARTICIPATION] Accepted,", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "Open Science", 
-        "start": "14:45", 
+        "start": "02:45 PM", 
         "title": "Diving into Docker: Developing a Darn Fast, Repeatable Workflow"
     }, 
     {
@@ -3040,7 +3108,7 @@
         "pathways": "", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "Open Science", 
-        "start": "14:15", 
+        "start": "02:15 PM", 
         "title": "Full Moon Academy"
     }, 
     {
@@ -3055,7 +3123,7 @@
         "pathways": "[Pathway] Citizen Science", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Open Science", 
-        "start": "11:30", 
+        "start": "11:30 AM", 
         "title": "The Genome in the Machine – the Ethics of Open Data Meeting Very Personal Data "
     }, 
     {
@@ -3070,7 +3138,7 @@
         "pathways": "", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Open Science", 
-        "start": "10:45", 
+        "start": "10:45 AM", 
         "title": "YA3C : Yet another 3D Controller"
     }, 
     {
@@ -3085,7 +3153,7 @@
         "pathways": "", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Open Science", 
-        "start": "10:45", 
+        "start": "10:45 AM", 
         "title": "Putting the world in its place: Geocoders, their promise and pitfalls."
     }, 
     {
@@ -3100,7 +3168,7 @@
         "pathways": "[Pathway] Citizen Science", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Open Science", 
-        "start": "12:45", 
+        "start": "12:45 PM", 
         "title": "New Technology for Open & Collaborative Research"
     }, 
     {
@@ -3115,7 +3183,7 @@
         "pathways": "Tools and Analysis", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "Open Science", 
-        "start": "14:15", 
+        "start": "02:15 PM", 
         "title": "Disassembling the world's worst data wrapper: PDFs"
     }, 
     {
@@ -3130,7 +3198,7 @@
         "pathways": "[Pathway] Science communication", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "Open Science", 
-        "start": "15:30", 
+        "start": "03:30 PM", 
         "title": "Analysing and visualising network data"
     }, 
     {
@@ -3194,7 +3262,7 @@
         "pathways": "Educator focused, Inclusive Communities, Youth Learning, [youthZone] accepted session, [youthZone] Leading session, [youthZone] Pathway - News to me!", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "10:45", 
+        "start": "10:45 AM", 
         "title": "What the heck are 'Jobs in tech'?"
     }, 
     {
@@ -3209,7 +3277,7 @@
         "pathways": "Participation Travel Stipend, [youthZone] accepted session", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "14:15", 
+        "start": "02:15 PM", 
         "title": "HTML Puzzle Box Challenge"
     }, 
     {
@@ -3224,7 +3292,7 @@
         "pathways": "[youthZone] Pathway - News to me!", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "10:45", 
+        "start": "10:45 AM", 
         "title": "Using open community support as a community building tool"
     }, 
     {
@@ -3239,7 +3307,7 @@
         "pathways": "Participation Travel Stipend, [youthZone] accepted session, [youthZone] Pathway Tech - What else you can do with it", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "12:45", 
+        "start": "12:45 PM", 
         "title": "Bringing VR to the masses with your story! on the Web"
     }, 
     {
@@ -3254,7 +3322,7 @@
         "pathways": "Participation Travel Stipend, [youthZone] accepted session, [youthZone] Pathway Tech - What else you can do with it", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "14:15", 
+        "start": "02:15 PM", 
         "title": "Bringing VR to the masses with your story! on the Web"
     }, 
     {
@@ -3282,7 +3350,7 @@
         "pathways": "[Pathway] Mapping Your MozFest Learning Journey, [youthZone] accepted session, [youthZone] Pathway Craft - Bridging your digital divide", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "11:30", 
+        "start": "11:30 AM", 
         "title": " Physical Computing with the Raspberry Pi"
     }, 
     {
@@ -3297,7 +3365,7 @@
         "pathways": "Backdoors + Cryptowars, Don't Feed the Trolls, Youth Learning, [youthZone] accepted session", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "12:45", 
+        "start": "12:45 PM", 
         "title": "Teaching the Basics of Privacy"
     }, 
     {
@@ -3312,7 +3380,7 @@
         "pathways": "[youthZone] accepted session, [youthZone] Pathway Tech - What else you can do with it", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "14:15", 
+        "start": "02:15 PM", 
         "title": "Algorithms are ancient and not so scary. Let's write one with crayons. "
     }, 
     {
@@ -3327,7 +3395,7 @@
         "pathways": "[youthZone] accepted session, [youthZone] Pathway Craft - Bridging your digital divide", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "14:15", 
+        "start": "02:15 PM", 
         "title": "The Maker Cart: a hands on introduction to Maker Education"
     }, 
     {
@@ -3355,7 +3423,7 @@
         "pathways": "[youthZone] accepted session, [youthZone] Pathway - News to me!", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "14:45", 
+        "start": "02:45 PM", 
         "title": "Allow me re-introduce myself, my name is .... (tools to teach the web)"
     }, 
     {
@@ -3370,7 +3438,7 @@
         "pathways": "[youthZone] accepted session, [youthZone] Pathway Craft - Bridging your digital divide", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "14:15", 
+        "start": "02:15 PM", 
         "title": "Create your own projection mapping with Parapara Animation"
     }, 
     {
@@ -3385,7 +3453,7 @@
         "pathways": "Don't Feed the Trolls, [youthZone] accepted session, [youthZone] Leading session, [youthZone] Pathway - News to me!", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "11:30", 
+        "start": "11:30 AM", 
         "title": "Parenting and Web Censorship"
     }, 
     {
@@ -3400,7 +3468,7 @@
         "pathways": "[youthZone] accepted session, [youthZone] Pathway - News to me!, [youthZone] Teaching kit", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "10:45", 
+        "start": "10:45 AM", 
         "title": "Embracing the chaos of 21st Century learning"
     }, 
     {
@@ -3415,7 +3483,7 @@
         "pathways": "Participation Travel Stipend, [youthZone] accepted session", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "14:15", 
+        "start": "02:15 PM", 
         "title": "MozFest Pandeiro Orchestra"
     }, 
     {
@@ -3430,7 +3498,7 @@
         "pathways": "[youthZone] accepted session, [youthZone] Pathway Craft - Bridging your digital divide", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "14:15", 
+        "start": "02:15 PM", 
         "title": "Build your custom Sumobot"
     }, 
     {
@@ -3458,7 +3526,7 @@
         "pathways": "[youthZone] accepted session, [youthZone] Pathway Tech - What else you can do with it", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "14:15", 
+        "start": "02:15 PM", 
         "title": "Programming without code"
     }, 
     {
@@ -3484,7 +3552,7 @@
         "pathways": "Participation Travel Stipend, [youthZone] accepted session", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "14:15", 
+        "start": "02:15 PM", 
         "title": "Hacking Flexagons"
     }, 
     {
@@ -3499,7 +3567,7 @@
         "pathways": "[youthZone] accepted session, [youthZone] Pathway Craft - Bridging your digital divide", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "12:45", 
+        "start": "12:45 PM", 
         "title": "LEGO2NANO: an Open Atomic Force Microscope Project"
     }, 
     {
@@ -3514,7 +3582,7 @@
         "pathways": "[youthZone] accepted session, [youthZone] Pathway Craft - Bridging your digital divide", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "14:15", 
+        "start": "02:15 PM", 
         "title": "LEGO2NANO: an Open Atomic Force Microscope Project"
     }, 
     {
@@ -3555,7 +3623,7 @@
         "pathways": "Scaling Participatory Learning Experiences, [PARTICIPATION] Accepted, [youthZone] accepted session", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "12:00", 
+        "start": "12:00 PM", 
         "title": "Encouraging Contributions from Young Developers"
     }, 
     {
@@ -3570,7 +3638,7 @@
         "pathways": "Participation Travel Stipend, [youthZone] accepted session, [youthZone] Pathway Tech - What else you can do with it", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "14:15", 
+        "start": "02:15 PM", 
         "title": "WebVR - Make virtual reality games in your browser!"
     }, 
     {
@@ -3611,7 +3679,7 @@
         "pathways": "[youthZone] accepted session, [youthZone] Pathway - News to me!", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "12:45", 
+        "start": "12:45 PM", 
         "title": "Music - 50% of software engineers are instrumentalist."
     }, 
     {
@@ -3626,7 +3694,7 @@
         "pathways": "Get project assistance for your research, [youthZone] accepted session, [youthZone] Leading session, [youthZone] Pathway - News to me!, [youthZone] Teaching kit", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "12:00", 
+        "start": "12:00 PM", 
         "title": "Calling all Minecraft Builders! Using Minecraft to foster civic engagement, self-efficacy & agency"
     }
 ]
