@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>MozFest 2015 Test Schedule</title>
+        <title>MozFest 2015 Schedule</title>
         <meta name="description" content="Test schedule for MozFest 2015, Nov. 7 & 8 in London.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/schedule.css">
@@ -216,14 +216,13 @@
         </script>
 
         <script type="text/template" id="spaces-list-template">
-            <div class="space-list-item">
+            <div class="space-list-item" data-space="<%= space.slugify(space.name) %>">
                 <div class="space-icon-container">
                     <img src=<%= space.iconSrc %>>
                 </div>
-                <h4>
-                    <%= space.name %>
-                </h4>
+                <h4><%= space.name %></h4>
                 <div>
+                    <a class="see-all-events-in-this-space" href="#_space-<%= space.slugify(space.name) %>">See all events in this Space</a>
                     <% space.description.forEach(function(p) { %>
                         <%= marked(p) %>
                     <% }) %>
