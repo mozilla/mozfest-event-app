@@ -571,7 +571,9 @@ function Schedule(options) {
         if ( schedule.pathwayMap.length == 0 ) {
             var pathwaysArray = [];
             _.each(schedule.sessionList, function(session) {
-                pathwaysArray.push(session.pathways.split(","));
+                _.each(session.pathways.split(","), function(p) {
+                    pathwaysArray.push(p.trim());
+                });
             });
             schedule.pathwayMap = _.countBy(_.flatten(pathwaysArray));
         }
@@ -602,10 +604,10 @@ function Schedule(options) {
         });
 
         // clicking on "See all events in this Space" shows all sessions within that particular Space
-        schedule.$container.on('click', '.pathway-list-item h4 a', function(e) {
+        schedule.$container.on('click', '.pathway-list-item', function(e) {
             e.preventDefault();
 
-            var pathway_slug = $(this).parents(".pathway-list-item").data("pathway");
+            var pathway_slug = $(this).data("pathway");
             schedule.updateHash('pathway-'+pathway_slug);
             schedule.getFilteredSessions("pathways", pathway_slug);
         });

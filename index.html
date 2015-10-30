@@ -237,12 +237,10 @@
 
         <script type="text/template" id="pathways-list-template">
             <% if (name) { %>
-            <div class="pathway-list-item" data-pathway="<%= slugify(name) %>">
-                <h4>
-                    <a href="#_pathway-<%= slugify(name) %>"><%= name %></a>: 
-                    <%= numSessions %> session<% if (numSessions >1) { %>s<% } %>
-                </h4>
-            </div>
+            <a href="#_pathway-<%= slugify(name) %>" class="pathway-list-item" data-pathway="<%= slugify(name) %>">
+                <h4><%= name %></h4>
+                <p><%= numSessions %> session<% if (numSessions >1) { %>s<% } %></p>
+            </a>
             <% } %>
         </script>
 
