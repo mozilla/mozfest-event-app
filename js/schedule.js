@@ -59,7 +59,6 @@ function Schedule(options) {
         // currently this app supports two types of detail pages:
         // 1) _session (which gets a detail page for a given session)
         // 2) _show (which gets a session list for a specific tab)
-        //console.log(pageType, pageID);
         switch(pageType) {
             case "_session":
                 // get session details based on ID value from the URL
@@ -540,12 +539,17 @@ function Schedule(options) {
     schedule.addListeners = function() {
         // clicking on the "Spaces" link on the nav bar displays the list of Spaces
         schedule.$pageLinks.on('click', 'a', function(e) {
+            schedule.updateHash('space');
             schedule.displaySpacesList();
         });
 
         // clicking on "See all events in this Space" shows all sessions within that particular Space
         schedule.$container.on('click', '.see-all-events-in-this-space', function(e) {
-            schedule.displaySessionsOfSpace($(this).parents(".space-list-item").data("space"));
+            e.preventDefault();
+
+            var space_slug = $(this).parents(".space-list-item").data("space");
+            schedule.updateHash('space_'+space_slug);
+            schedule.displaySessionsOfSpace(space_slug);
         });
 
         // clicking on session "card" in a list opens session detail view
