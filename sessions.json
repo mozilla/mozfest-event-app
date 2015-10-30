@@ -3624,9 +3624,10 @@
         "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
         "scheduleblock": "all-weekend", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "CoderDojo"
+        "title": "CoderDojo (Room 211, 2nd floor)"
     }, 
     {
+        "day": "Saturday", 
         "description": "The Mozilla tools to teach the web have evolved - some new, some updated and some are the same old gems. Participants will learn about the changes and how to continue to use the tools to teach core Web Literacy skills. This includes X-Ray Goggles, Thimble and Webmaker.\n", 
         "facilitator_array": [
             "Hannah Kane"
@@ -3635,9 +3636,10 @@
         "id": "455", 
         "location": "", 
         "pathways": " [youthZone] Pathway - News to me!", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "Allow me re-introduce myself, my name is .... (tools to teach the web)"
+        "start": "02:15 PM", 
+        "title": "Allow me re-introduce myself, my name is .... (tools to teach the web) (Room 213, 2nd floor)"
     }, 
     {
         "description": "This session provides a projection mapping workshop. In the workshop, participants will make objects with paper clay and draw animation to project on them. Animation will be made with customized version of parapara animation (http://parapara.mozlabs.jp/). Through the workshop, participants will learn the mechanism of how animation and projection mappings are made and by making their own. The experience are of making objects are related to making 3D items on computers. Also, mapping animation on their objects are very first stage of mixing computing world into the real world. The goal of this session is participants to feel and understand that the Web can be a part of our real life, and computers are the tools to make it happen.\nAlso, the activity is designed by university students for teenager to learn IT technology. Target age and level of skill for this activity is elementary school students or beginners.", 
@@ -3651,21 +3653,6 @@
         "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
         "title": "Create your own projection mapping with Parapara Animation"
-    }, 
-    {
-        "day": "Sunday", 
-        "description": "This sessions goal is to introduce people to the idea of parental controls online - and how they don't look like parental controls in the traditional sense, and what that means in the context of internet censorship and privacy. Attendees will ask the question \"How do I balance protecting my child with maintaining the freedom and openness of the internet?\" by evaluating the \"profile\" of a child, and then building a corresponding \"ideal internet\" on paper - what's there, what isn't (if anything)? It's meant to be subjective, no right or wrong answer - just asking a question and enabling participants to walk away with \"food for thought.\"", 
-        "facilitator_array": [
-            "Jake Brown"
-        ], 
-        "facilitators": "Jake Brown", 
-        "id": "404", 
-        "location": "", 
-        "pathways": "Don't Feed the Trolls, [youthZone] Leading session, [youthZone] Pathway - News to me!", 
-        "scheduleblock": "sunday-session-block-5", 
-        "space": "youthZone - Through the lens of youths", 
-        "start": "11:30 AM", 
-        "title": "Parenting and Web Censorship"
     }, 
     {
         "day": "Saturday", 
@@ -3746,6 +3733,7 @@
         "title": "Tech for Social Impact  ‘No one is better than all of US :) finding  Glo-Cal solutions from a Hype local perspective!"
     }, 
     {
+        "day": "Saturday", 
         "description": "Flexagons are fun paper toys or according to Wikipedia \"Flat models, constructed by folding strips of paper that can be flexed or folded in certain ways to reveal faces besides the two that were originally on the back and front.\": https://www.youtube.com/watch?v=VIVIegSt81k\nIn our maker party in Canada we decided to make flexagons with our own photos! I started this project from scratch and used customized flexagons as a fun tool to teach the web to students and the result was amazing! http://smansoury.github.io/Flexigon/\nThe main goal of this session is to enjoy making creative flexagons while teaching simple HTML, CSS to participants. The participants will be encouraged to come up with interesting ideas for designing flexagons and use the web tools to create their design while practicing team work. Here is how a potential result may look like: http://tinyurl.com/flexigon.\nFinally, we will talk about ways to participate in this project: https://github.com/smansoury/Flexigon", 
         "facilitator_array": [
             "Sara Mansouri"
@@ -3754,9 +3742,10 @@
         "id": "92", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "Hacking Flexagons"
+        "start": "03:30 PM", 
+        "title": "Hacking Flexagons (Room 213, 2nd floor)"
     }, 
     {
         "description": "Imagine an open source microscope that is powerful and cheap enough for school children to study the nano world, the world of atoms and molecules that is 1000 times smaller than what traditional optical microscopes can see. That is the objective of the LEGO2NANO project. This workshop will introduce to you the hardware and software developed so far for the world's first open source atomic force microscope. We'll also introduce how we are documenting this project on the Web, how we are involving Chinese school children in building and using the microscope, and sharing data from the microscope for crowdsourced analysis in Web-based citizen science projects. LEGO2NANO is in an international summer school in China, involving students and mentors from University College London, Tsinghua University, Peking University, Academia Sinica, MIT, Tufts University and University of Geneva. http://www.openafm.com", 
@@ -3798,6 +3787,7 @@
         "title": "Mini Minecraft HackJam on Raspberry Pi"
     }, 
     {
+        "day": "Saturday", 
         "description": "Webmaker App can be used as “A Digital Lo-Fi, No-Fi! Teaching Kit” for people who want to teach the web offline. Access to computers, projector or any other digital devices may be an issue sometimes. But we can overcome that if replace those digital devices with our smart phones. Majority of the organizers have smart phones so they can use the WEBMAKER APP to create integrative learning apps and teach the kids.\nText, Images and navigation buttons can be easily added in the app. That will help us create interactive learning application.\nDemo app on the topic:  What are computers?\nApp Link: https://beta.webmaker.org/#/project?user=57508&project=22177\nDemo app on topic: How Email works?\nApp link: https://beta.webmaker.org/#/project?user=57508&project=21438", 
         "facilitator_array": [
             "Mayur Patil"
@@ -3806,9 +3796,10 @@
         "id": "316", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "Webmaker App \"A Digital Lo-Fi, No-Fi! Teaching Kit\""
+        "start": "03:30 PM", 
+        "title": "Webmaker App \"A Digital Lo-Fi, No-Fi! Teaching Kit\" (Room 213, 2nd floor)"
     }, 
     {
         "day": "Saturday", 
@@ -3893,6 +3884,7 @@
         "title": "Calling all Minecraft Builders! Using Minecraft to foster civic engagement, self-efficacy & agency (Room 213, 2nd floor)"
     }, 
     {
+        "day": "Saturday", 
         "description": "Learn a little bit of HTML and CSS, whilst saving kittens in the process. In Erase All Kittens (https://eraseallkittens.com/), players must explore a fantasy Internet universe, using code to change the world around them, in order to defeat the evil Operation E.A.K. - Erase All Kittens.\nE.A.K. is aimed at anyone aged 7+, but kids much younger than that have enjoyed learning with E.A.K. too.", 
         "facilitator_array": [
             "Joe Dytrych"
@@ -3901,8 +3893,24 @@
         "id": "140", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
+        "start": "02:15 PM", 
         "title": "E.A.K. Walk-In - Save Kittens, Learn HTML!"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "This sessions goal is to introduce people to the idea of parental controls online - and how they don't look like parental controls in the traditional sense, and what that means in the context of internet censorship and privacy. Attendees will ask the question \"How do I balance protecting my child with maintaining the freedom and openness of the internet?\" by evaluating the \"profile\" of a child, and then building a corresponding \"ideal internet\" on paper - what's there, what isn't (if anything)? It's meant to be subjective, no right or wrong answer - just asking a question and enabling participants to walk away with \"food for thought.\"", 
+        "facilitator_array": [
+            "Jake Brown"
+        ], 
+        "facilitators": "Jake Brown", 
+        "id": "404", 
+        "location": "", 
+        "pathways": "Don't Feed the Trolls, [youthZone] Leading session, [youthZone] Pathway - News to me!", 
+        "scheduleblock": "sunday-session-block-5", 
+        "space": "youthZone - Through the lens of youths", 
+        "start": "11:30 AM", 
+        "title": "Parenting and Web Censorship"
     }
 ]
