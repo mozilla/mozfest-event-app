@@ -184,6 +184,10 @@ header a {
 
 }
 
+.page-caption h2 {
+    text-transform: uppercase;
+}
+
 .schedule-tab h3,
 .page-caption h3 {
     position: relative;
