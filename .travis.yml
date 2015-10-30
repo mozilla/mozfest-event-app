@@ -8,7 +8,7 @@ branches:
 script:
 - echo "Nothing to build, no tests to run"
 notifications:
-  irc: irc.mozilla.org#communityit
+  irc: irc.mozilla.org#communityops
 deploy:
 - provider: s3
   access_key_id:
