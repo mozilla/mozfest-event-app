@@ -1,16 +1,5 @@
 [
     {
-        "description": "Disaster aid takes time to reach the people who need it. Stockpiled and flown in, even getting it through customs, the aid can be hugely expensive. The aim of Communitere is to create shared space for relief organizations and locals, with the aim of sharing resources and fostering communication and collaboration. Lessons learned from the spaces in Haiti and the Philippines, as well as the new Resource Center in Nepal will be presented and ways to innovate disaster relief through small scale manufacturing, space sharing and other simple means to disrupt traditional aid supply chains will be discussed.", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "588", 
-        "location": "", 
-        "pathways": "Global Innovation Network, Garbage Disposal Room", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Innovative Disaster Relief – Examples from Haiti and Nepal "
-    }, 
-    {
         "description": "\"Music is a moral law. It gives soul to the universe, wings to the mind, flight to the imagination, and charm and gaiety to life and to everything.Where words fail, music speaks. \" this quote impacts me to propose a session .Most of us like Music . Keeping the point of view and to attract participants for Mozfest i prepared a plan to MozJukebox- its a place where participants can dedicate their special songs to their beloved ones and this session makes different from others and as well as participant's will learn how open web and music related to each other and by the way the can perform their own activity . we are here to make them aware of this.", 
         "facilitator_array": [
             "Sandeep kapalawai"
@@ -22,17 +11,6 @@
         "scheduleblock": "", 
         "space": "", 
         "title": "Juke Mozilla"
-    }, 
-    {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "581", 
-        "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Digital Identities: the landscape, the future, and legal hacking"
     }, 
     {
         "description": "The session is built upon the idea of turning ordinary objects into connected web aware devices. The participants of this workshop will learn how the Web of Things might be used to provide a standardised approach for connecting objects to the web.\nThe participants will choose an object and then apply 'Web of Things' thinking to make the object become a Web Thing (WT).\nA Web Thing (WT) is an intelligent sensor (or sensor array) that can recognise an event, understand its own state and take action depending on the input.\nThrough active participation the people can learn about the Web of Things in new and fun ways.", 
@@ -81,7 +59,7 @@
         "facilitators": "Meghraj Suthar", 
         "id": "67", 
         "location": "", 
-        "pathways": "Participation Travel Stipend", 
+        "pathways": "", 
         "scheduleblock": "", 
         "space": "", 
         "title": "Localize The Web"
@@ -94,7 +72,7 @@
         "facilitators": "Joyce Nalwadda", 
         "id": "94", 
         "location": "", 
-        "pathways": "Participation Travel Stipend", 
+        "pathways": "", 
         "scheduleblock": "", 
         "space": "", 
         "title": " WOMOZ - Women in Mozilla. "
@@ -111,19 +89,6 @@
         "title": "Design Thinking for Participation "
     }, 
     {
-        "description": "Understanding how memes convey opinions and how their spread relates to the spread of rhetorics behind those opinions but also to the spread of fake information, and intox in general is the overall goal of the session. We follow the way politically-charged information spreads online and can go viral. To this end, we track the spread of memes online using image search platforms, network reconstruction and mapping the changes in their rhetoric across their lifetime.", 
-        "facilitator_array": [
-            "Rayna Stamboliyska"
-        ], 
-        "facilitators": "Rayna Stamboliyska", 
-        "id": "419", 
-        "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "\"How does information spreads online? Memes explain\""
-    }, 
-    {
         "description": "My session will be based on ‘Webmaker for Android’ and the main target would be women (especially young ones). However, guys can join as well. People will be able to know about the WoMoz program and Mozilla while creating contents about them. They will be given some specific topics to create content which will be related to Mozilla, open web and online privacy. My main goals are: people will learn about open web, online privacy, Mozilla and the WoMoz program while using the application. They will surf on the internet about the topics and know in more efficient way. From web users they will become web makers. Since young people learn fast it will be great opportunity to work with them.", 
         "facilitator_array": [
             "Tanha Islam"
@@ -131,36 +96,10 @@
         "facilitators": "Tanha Islam", 
         "id": "414", 
         "location": "", 
-        "pathways": "Participation Travel Stipend", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Webmaker and WoMoz"
-    }, 
-    {
-        "description": "This session will be centered around video content on the web. It will focus generally around mozilla/popcorn-editor which is a modular javascript library which allows users to implement the editor from popcorn.webmaker.org. While this session is primarily discussion based I will also go over a simple tutorial of implementing the editor on a website and then dive into creating additional plugins into the editor. For instance, for the demo we will go over implementing an index plugin which allows users to associate specific keywords with events in the video and then store this data in the project metadata.", 
-        "facilitator_array": [
-            "Mike Nolan"
-        ], 
-        "facilitators": "Mike Nolan", 
-        "id": "411", 
-        "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Collaboritive Video Editing on The Web"
-    }, 
-    {
-        "description": "Learn a little bit of HTML and CSS, whilst saving kittens in the process. In Erase All Kittens (https://eraseallkittens.com/), players must explore a fantasy Internet universe, using code to change the world around them, in order to defeat the evil Operation E.A.K. - Erase All Kittens.\nE.A.K. is aimed at anyone aged 7+, but kids much younger than that have enjoyed learning with E.A.K. too.", 
-        "facilitator_array": [
-            "Joe Dytrych"
-        ], 
-        "facilitators": "Joe Dytrych", 
-        "id": "140", 
-        "location": "", 
         "pathways": "", 
         "scheduleblock": "", 
         "space": "", 
-        "title": "E.A.K. Walk-In - Save Kittens, Learn HTML!"
+        "title": "Webmaker and WoMoz"
     }, 
     {
         "description": "The goal of this session is to explore how the maker-centric learning environment itself can be used as a tool for creating more opportunities to teach others. By harnessing the potential of our community, we can increase access to opportunities for making and sharing.\nHow can we, as educators or parents, inspire kids (and other adults!) to make with us, and empower them to take their new knowledge and skills to share with their family, friends or classmates?\nWhat levels of engagement and understanding are required to make us feel as though we are able to take what we have learned and show it to someone else? How can we design workshops that empower participants to do that?\nWith these goals in mind, we will learn how to make a small project, and then share our new knowledge and skills by teaching another group how to make it too.", 
@@ -183,7 +122,7 @@
         "facilitators": "Sumanth  Damarla", 
         "id": "158", 
         "location": "", 
-        "pathways": "Participation Travel Stipend", 
+        "pathways": "", 
         "scheduleblock": "", 
         "space": "", 
         "title": "Securing the Web"
@@ -209,23 +148,10 @@
         "facilitators": "John Baptist Ochieng", 
         "id": "167", 
         "location": "", 
-        "pathways": "Participation Travel Stipend", 
+        "pathways": "", 
         "scheduleblock": "", 
         "space": "", 
         "title": "Enhancing Open Web Experience"
-    }, 
-    {
-        "description": "1. To provide a comprehensive view of the iHub ecosystem and how balance is maintained\n2. To showcase how iHub has evolved towards sustainability\n3. To highlight ever-present sustainability challenges iHub faces\n4. To openly brainstorm with the audience on how to overcome challenges", 
-        "facilitator_array": [
-            "Evans Campbell"
-        ], 
-        "facilitators": "Evans Campbell", 
-        "id": "179", 
-        "location": "", 
-        "pathways": "Global Innovation Network", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Sustaining an Innovation Hub: Lessons from the iHub"
     }, 
     {
         "description": "Understanding privacy is very important. Many adults think that they have lost control over their personal information , which is used by the online companies. This session will help them put their data in control. Mozilla has implemented a number of privacy features in their products and this session will promote those features.\nPrivacy Security booths can have series of booths:\n1) Password Booth (How to make your password strong)\n2) Tracking Booth (See how websites track you)\n3) Firefox Features Booth (How Firefox can help you)\nEg: Lightbeam,Private Browsing,Forget Button,etc\n4) Firefox + DuckDuckGo Booth\n(demonstrate why Firefox with DuckDuckGo is a better choice)\n5) Firefox for Phones Booth\n6) Firefox OS (The only Mobile OS to have DO NOT TRACK feature)\n7) Installation Booth (help attendees install privacy products on their personal laptops and phones )\n8) Net Neutrality Booth (Spread awareness about)\n*Differential pricing\n*Surveillance\n*Zero platforms", 
@@ -235,23 +161,10 @@
         "facilitators": "Mayur  Patil", 
         "id": "186", 
         "location": "", 
-        "pathways": "Participation Travel Stipend", 
+        "pathways": "", 
         "scheduleblock": "", 
         "space": "", 
         "title": " Privacy and Security booths at Makerparties"
-    }, 
-    {
-        "description": "Inspired by the Things Network in Amsterdam, this session looks at crowd sourcing a free, open and distributed Internet of Things infrastructure for the benefit of everyone. The session looks at how using off the shelf Long Range Wide Area Network (LoRaWAN) components we can build city-wide IoT infrastructure that is community owned.", 
-        "facilitator_array": [
-            "Julian Tait"
-        ], 
-        "facilitators": "Julian Tait", 
-        "id": "540", 
-        "location": "", 
-        "pathways": "Global Village Garage", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "IoT is too important for big IT"
     }, 
     {
         "description": "People will learn how to use JavaScript for IoT projects with this incredibly small board. They will learn the basics of the components, how to make it run, modify and learn something new. It's all about imagination.", 
@@ -261,7 +174,7 @@
         "facilitators": "Giovanny Andres Gongora Granada", 
         "id": "393", 
         "location": "", 
-        "pathways": "Participation Travel Stipend", 
+        "pathways": "", 
         "scheduleblock": "", 
         "space": "", 
         "title": "Espruino Pico and IoT"
@@ -274,7 +187,7 @@
         "facilitators": "Muhammed Hasan Ahmed", 
         "id": "388", 
         "location": "", 
-        "pathways": "Participation Travel Stipend", 
+        "pathways": "", 
         "scheduleblock": "", 
         "space": "", 
         "title": "Thimble for Android"
@@ -287,7 +200,7 @@
         "facilitators": "Asma  Islam", 
         "id": "208", 
         "location": "", 
-        "pathways": "Participation Travel Stipend", 
+        "pathways": "", 
         "scheduleblock": "", 
         "space": "", 
         "title": "Internet and Web Privacy- Web Literacy 101 "
@@ -300,36 +213,10 @@
         "facilitators": "Umesh Agarwal", 
         "id": "229", 
         "location": "", 
-        "pathways": "Participation Travel Stipend", 
+        "pathways": "", 
         "scheduleblock": "", 
         "space": "", 
         "title": "Webmaker for Android Hans-on!"
-    }, 
-    {
-        "description": "In the session I aim to get participants using Scratch (a fun interactive block based programming language) with Scratch extensions both created by myself and others. These extensions allow you to do many different things with Scratch but in the session we will focus on connecting Scratch to the outside world using hardware such as as Arduinos or mobile phones and the open source extensions I have developed. If there is time we will also look at several other different Scratch extensions that others have produced that I've found interesting and also briefly detail how participants can make their own extensions.", 
-        "facilitator_array": [
-            "Thomas Preece"
-        ], 
-        "facilitators": "Thomas Preece", 
-        "id": "233", 
-        "location": "", 
-        "pathways": "Global Village Garden", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Connecting everything but the kitchen sink to Scratch"
-    }, 
-    {
-        "description": "The idea of this panel is to share experiences on the creation and sustainability of innovation and community-run spaces like hackerspaces, makerspaces and fablabs, with a special focus on the 3rd world and its specific challenges.\nIn other words, that means that every participant will be able to learn from others and share their own experiences about innovation/hacking/making community-run spaces from their own perspectives.\nA consequence of this is building stronger connections betwwen communities and spaces in the underdeveloped and developing world.", 
-        "facilitator_array": [
-            "Rodrigo Rodrigues da Silva"
-        ], 
-        "facilitators": "Rodrigo Rodrigues da Silva", 
-        "id": "238", 
-        "location": "", 
-        "pathways": "Global Innovation Network, Global Village Garage", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "From Garoa Hacker Clube to Olabi: 5 years of hackerspaces, makerspaces, hardware startups and creative hubs in Brazil"
     }, 
     {
         "description": "It can be a little overwhelming to receive an email asking you to give a talk, run a training session, or co-organize a hackathon if you’ve never done it before.  Fellows who collaborate with Mozilla across science, journalism, learning and advocacy need resources to assist them to effectively engage the public in a variety of situations.  This open hack sessions aims to create a space at MozFest to compile and co-create resources to assist Mozilla fellows, as well as other leaders, to engage the public.", 
@@ -358,69 +245,6 @@
         "title": "Self-publishing on the web - how to host your own website"
     }, 
     {
-        "description": "From cave walls to Facebook walls we have always embraced visual communication With the changing media landscape, our streams, memes, and zines have exploded with imagery, ushering in a need for visual literacy skills. We are quickly moving from images as decoration and augmentation to images as sole content and communication tool. Technology has affected knowledge in such a way as to diminish the value of “raw” information and increase the value of sense-making, as well as chip away at attention spans, sparking a need for distillation of complex ideas. Images can essentialize the cumbersome in beautiful ways. They have a “stickiness” for the viewer and challenge the critical thinking of the creator.\nThis hands-on session offer participants an opportunity to tinker and play with:\nmetaphorical thinking, iconography, pictograms, emoji, typography, sketchnotes and photography.\nWe’ll experiment with ways to use visual language for critical thinking, social interaction and creative expression", 
-        "facilitator_array": [
-            "Amy  Burvall"
-        ], 
-        "facilitators": "Amy  Burvall", 
-        "id": "516", 
-        "location": "", 
-        "pathways": "Seeing–Drawing–Producing Smilies", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Image is Everything: Visual Thinking"
-    }, 
-    {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "468", 
-        "location": "", 
-        "pathways": "New Technologies for Participation -- Challenge, [Pathway] Storytellers & coders united: together we can change the world!", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Change the world through code: how to meet the person you need in your team to do so"
-    }, 
-    {
-        "description": "The purpose of this session is to challenge current thinking about the role of African tech hubs in society by sharing insights from research on hubs as creative spaces—institutions that engage in complex problem solving. There are at least 90 African tech hubs that serve as infrastructure to catalyze technology, entrepreneurship, and innovation. Not only do they act as physical infrastructure, providing access to power, internet, and space, but they also offer access to human, financial and social capital. By distributing these resources more efficiently, hubs make it easier to build start-ups, develop tech, and foster innovation.\nBut can hubs also create better solutions to complex social problems? Many tech hubs are engaged in developing tech solutions for education, health, and governance challenges. However, there is an opportunity to push past “there's an app for that” thinking and reconceive tech hubs as creative spaces that foster tech-enabled, innovative problem solving.", 
-        "facilitator_array": [
-            "Tayo Akinyemi"
-        ], 
-        "facilitators": "Tayo Akinyemi", 
-        "id": "371", 
-        "location": "", 
-        "pathways": "Global Innovation Network", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Tech Hubs 2.0: What is a Tech Hub's Role in Society?"
-    }, 
-    {
-        "description": "Idea of workshop is to present concrete examples (from technology, medicine...) where harm is done to the end user in the name of Intellectual property. Also, libertarian view on that matter will be presented and similarities with open source and free software movement.\nAll of the participants will have opportunity to present their examples or discuss similar related matters that bothers them throughout workshop.\nGoal of the workshop is to build blog where all the reports can be presented and where people can ask for advice on matter of IP or dubious regulations in their countries. All of that is affecting free and open Internet and individual liberties.", 
-        "facilitator_array": [
-            "Dejan Strbad"
-        ], 
-        "facilitators": "Dejan Strbad", 
-        "id": "306", 
-        "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Corporatism and Intellectual property: where private ends and rent begins"
-    }, 
-    {
-        "description": "We’ll facilitate a fun, playful, interactive workshop, guiding participants through a paper-based storytelling game. Participants will collaboratively remix a new creative work from bits + pieces of media we provide, related to a fictional narrative, found scattered across many digital services + platforms.\nOur goal is to explore how a holistic, digital system based on these interactions + principles might work, and to uncover its potential social + data privacy implications.\nWe’re also hoping these ideas inspire our participants to join our community of contributors, early adopters and testers, interested in the potential of our vision: a tool helping storytellers unlock their creativity. Please see:\nhttps://vimeo.com/136997295 (video)\nhttps://makeparallels.herokuapp.com (live demo)", 
-        "facilitator_array": [
-            "Steven Dale"
-        ], 
-        "facilitators": "Steven Dale", 
-        "id": "362", 
-        "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Make Parallels"
-    }, 
-    {
         "description": "Web articles lead people on long journeys of hyperlinks and tab accumulation. This spreads the information out and can hurt your ability to see how it all connects. The session will focus on the discussion of these information networks and how they can be visualized. There will also be a group oriented activity that will have people working together to design a tool/UI that can be used to aid in this process.", 
         "facilitator_array": [
             "Michael Martinez"
@@ -441,7 +265,7 @@
         "facilitators": "Shagufta Gurmukhdas", 
         "id": "324", 
         "location": "", 
-        "pathways": "Participation Travel Stipend", 
+        "pathways": "", 
         "scheduleblock": "", 
         "space": "", 
         "title": "Mine your space"
@@ -460,19 +284,36 @@
         "title": "Draw your own election adventure, beyond official boundaries"
     }, 
     {
-        "description": "With a Raspberry Pi, a bit of wire, and a phone, learn how to convert your Pi into an FM transmitter for your house-share of community cafe, and load it with audio content that everybody in range can edit and playlist.", 
+        "day": "Sunday", 
+        "description": "Chocolate is one of life’s sweet delights but there’s more to chocolate than you might expect. Beyond what we see on the supermarket shelves is a complexity that rivals that of wine. There is so much more to discover about chocolate and this session will take you through it.  \nFrom a milk chocolate made in Madagascar from beans growing there to a Guatemalan dark chocolate and beyond, we will learn where chocolate comes from, how to taste chocolate and a bit about the dark side of chocolate including where child slavery is still prevalent and how to avoid it.", 
         "facilitator_array": [
-            "Basile Simon"
+            "Judith Lewis, @MostlyAboutChoc"
         ], 
-        "facilitators": "Basile Simon", 
-        "id": "349", 
+        "facilitators": "Judith Lewis", 
+        "id": "619", 
         "location": "", 
-        "pathways": "Global Village Garage", 
-        "scheduleblock": "", 
+        "pathways": "", 
+        "scheduleblock": "sunday-session-block-6", 
         "space": "", 
-        "title": "Build your own FM radio station for $25 and control it from your phone"
+        "start": "12:45 PM", 
+        "title": "Chocolate - Tasting & Talk"
     }, 
     {
+        "description": "In this session, we will be showcasing how 3D printing works through the use of Desktop 3D printers such as Makerbots and the ultimakers. and talking about the benefits of 3D printing and how as designers, we can take advantage of this technology", 
+        "facilitator_array": [
+            "Benjamin Moody", 
+            "Samuel Jones"
+        ], 
+        "facilitators": "Benjamin Moody, Samuel Jones", 
+        "id": "620", 
+        "location": "", 
+        "pathways": "", 
+        "scheduleblock": "", 
+        "space": "", 
+        "title": "Ravensbourne 3D printing"
+    }, 
+    {
+        "day": "Saturday", 
         "description": "The goal of the FlyWeb session is to promote, intrigue, and encourage feedback from attendees. We want to be able to engage users by showcasing our Fennec addon prototype and let their imagination do the rest because at the end of the day, FlyWeb has unlimited possibilities. We will also have tutorial materials and a full demo to showcase some popular use cases. We want to walk our attendees through the concept of advertising and consuming nearby services\non their phone. Lastly, we want our attendees to have the opportunity to see what we have been working on first hand and play with our prototype.", 
         "facilitator_array": [
             "Nicole Yee"
@@ -481,11 +322,13 @@
         "id": "539", 
         "location": "", 
         "pathways": "New Technologies for Participation -- Challenge", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "Building Participation", 
+        "start": "02:15 PM", 
         "title": "FlyWeb"
     }, 
     {
+        "day": "Saturday", 
         "description": "[Here’s the session in a nutshell: https://raw.githubusercontent.com/phillipadsmith/2014.phillipadsmith.com/master/files/colonize-github-100px.jpg ]\nWhat would it take to simplify and unlock the collaborative power Github for all?\nToday, Github is virtually everywhere. It’s become a part of most developers’ daily lives, and is increasingly spreading to the lives of non-developers too. From civic hackers, researchers and policymakers to educators, journalists and project managers, it seems like the whole world is “going Github.”\nThe problem is: Github is still surprisingly hard for most everyday users to unlock. Non-technical users hit big barriers when trying to understand what Github is all about. And even experienced users struggle to keep up with all the new features, integrations, and innovations.\nThe goal of this session will be to brainstorm and hack on solutions to that problem.\nWe’ll map out Github’s territory, ask the question “What if…?,” and explore what’s possible in this new world of open, networked, co-creation.", 
         "facilitator_array": [
             "Phillip Smith"
@@ -494,11 +337,13 @@
         "id": "325", 
         "location": "", 
         "pathways": "Scaling Participatory Learning Experiences", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "Building Participation", 
-        "title": "Github Gitdown: unlocking the potential of the world’s largest co-creation platform"
+        "start": "10:45 AM", 
+        "title": "Getting down with GitHub"
     }, 
     {
+        "day": "Sunday", 
         "description": "As volunteer community leaders with little to no resources, how do we maximize resources in our community in order to achieve our goals?  This workshop allows community leaders (from novice to expert) to identify challenges in their communities, and apply Design Thinking process to come up with innovative solutions to maximize existing resources in order to achieve radical participation.  Participants will get a crash course on the Design Thinking problem solving process in a hands-on participatory exercise.", 
         "facilitator_array": [
             "Helen Lee"
@@ -506,12 +351,14 @@
         "facilitators": "Helen Lee", 
         "id": "506", 
         "location": "", 
-        "pathways": "Leading and Building Community Through Participation, Participation Travel Stipend", 
-        "scheduleblock": "", 
+        "pathways": "Leading and Building Community Through Participation", 
+        "scheduleblock": "sunday-session-block-6", 
         "space": "Building Participation", 
+        "start": "12:45 PM", 
         "title": "Design Thinking - Maximizing Resources in Your Community"
     }, 
     {
+        "day": "Sunday", 
         "description": "Our session will focus on the idea of open-sourcing educational projects to target educators themselves to encourage their work with educational organizations. Using the example of a professional development calendar, created to support teacher-learning with civic and cultural institutions and organizations, we would like to showcase the benefits of open-sourcing an educational project within a community.", 
         "facilitator_array": [
             "Julie Koslowsky"
@@ -520,11 +367,13 @@
         "id": "365", 
         "location": "", 
         "pathways": "Scaling Participatory Learning Experiences", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-6", 
         "space": "Building Participation", 
+        "start": "12:45 PM", 
         "title": "Open - Sourcing Collaborative Educational Projects"
     }, 
     {
+        "day": "Sunday", 
         "description": "Learn about the successful Mozilla program 'Tech Speakers' which has trained and empowered a small group of community leaders as technical speakers in 2015.  Then help us imagine what it would look like to scale the program to hundreds of community leaders in 2016!", 
         "facilitator_array": [
             "George Roter"
@@ -533,11 +382,13 @@
         "id": "607", 
         "location": "", 
         "pathways": "Scaling Participatory Learning Experiences", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-7", 
         "space": "Building Participation", 
+        "start": "02:45 PM", 
         "title": "Scaling The Tech Speakers Program at Mozilla"
     }, 
     {
+        "day": "Saturday", 
         "description": "Will be a kit of Leadership paper games that will test and improve the ability to make fast decisions, based on strong arguments and quick voting decisions. Will be quick fun games. A couple of paper games and one game based on the London's Tube! The session's goals are: to develop Leadership and improve the skills to make fast and fair decisions.", 
         "facilitator_array": [
             "Adriano Cupello"
@@ -545,12 +396,14 @@
         "facilitators": "Adriano Cupello", 
         "id": "510", 
         "location": "", 
-        "pathways": "Leading and Building Community Through Participation, Participation Travel Stipend", 
-        "scheduleblock": "", 
+        "pathways": "Leading and Building Community Through Participation", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "Building Participation", 
+        "start": "10:45 AM", 
         "title": "Leadership Games! "
     }, 
     {
+        "day": "Saturday", 
         "description": "Open Badges can be used to build bridges between learners and employers. There is increasing demand for evidence of soft as well as hard skills for employment but these are not always presented in verifiable ways or linked to careers, apprenticeships or further learning. We will introduce how Open Badges can capture and communicate skills and provide social tools to help participants learn about and make badge-based pathways towards destination points such as careers, apprenticeships or further learning. Examples of badge-based pathways to employment will be provided.", 
         "facilitator_array": [
             "Grainne Hamilton"
@@ -559,11 +412,13 @@
         "id": "284", 
         "location": "", 
         "pathways": "Scaling Participatory Learning Experiences, [Pathway] Mapping Your MozFest Learning Journey", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "Building Participation", 
+        "start": "03:30 PM", 
         "title": "Building badge-based pathways to employment"
     }, 
     {
+        "day": "Saturday", 
         "description": "This session will provide resources, recommendations, and tools, to build foundations for inclusion and diversity in your project, team, group, club, or class, and to grow participation from diverse voices.  Attention will be paid to how to understand and work on specific issues including unconscious bias, working as an ally (or needing allies), impostor syndrome, intersectionality, and more.", 
         "facilitator_array": [
             "Larissa Brown Shapiro"
@@ -572,11 +427,13 @@
         "id": "261", 
         "location": "", 
         "pathways": "Leading and Building Community Through Participation", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "Building Participation", 
+        "start": "12:00 PM", 
         "title": "Tools for growing an inclusive diverse project"
     }, 
     {
+        "day": "Sunday", 
         "description": "This session is about challenging existing factual web narrative structures and inventing whole new ways to bring the user inside the reality that we want to change with our stories. You will work on real stories that are looking to be produced soon!", 
         "facilitator_array": [
             "Sandra Gaudenzi", 
@@ -586,24 +443,29 @@
         "id": "467", 
         "location": "", 
         "pathways": "Leading and Building Community Through Participation, [Pathway] Storytellers & coders united: together we can change the world!", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "Building Participation", 
+        "start": "11:30 AM", 
         "title": "Use your skills to actually change the world!"
     }, 
     {
+        "day": "Saturday", 
         "description": "This session shares all the ways in which you can utilize GitHub’s free hosting for all repositories and accounts. Attendees will learn how to set up static websites and blogs for their projects or documentation.", 
         "facilitator_array": [
-            "Jessica Lord"
+            "Jessica Lord", 
+            "Mu-An Chiou"
         ], 
-        "facilitators": "Jessica Lord", 
+        "facilitators": "Jessica Lord, Mu-An Chiou", 
         "id": "259", 
         "location": "", 
         "pathways": "New Technologies for Participation -- Challenge", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "Building Participation", 
+        "start": "03:30 PM", 
         "title": "Publishing and Hosting on GitHub"
     }, 
     {
+        "day": "Saturday", 
         "description": "Design a participation model, how to address the challenge of educating & enabling the collective humanity about the future of rapid and exponential growth of technology (and its projected pros and cons - relating to privacy, AI, mortality etc.), which so far, is only a concern for very selective few futurists.", 
         "facilitator_array": [
             "Soumya Deb"
@@ -611,13 +473,15 @@
         "facilitators": "Soumya Deb", 
         "id": "217", 
         "location": "", 
-        "pathways": "Participation Travel Stipend, Scaling Participatory Learning Experiences", 
-        "scheduleblock": "", 
+        "pathways": " Scaling Participatory Learning Experiences", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "Building Participation", 
+        "start": "03:30 PM", 
         "title": "Digital Literacy in the World of Accelerating Returns"
     }, 
     {
-        "description": "Scaling the leading & learning program for Participation at Mozilla!  Join us in imagining and prototyping educational experiences, and opportunities for community leadership in the next year!", 
+        "day": "Sunday", 
+        "description": "Scaling the leading & learning program for Participation at Mozilla!  Join us in imagining and prototyping educational experiences  and opportunities for community leadership in the next year!", 
         "facilitator_array": [
             "Emma Irwin"
         ], 
@@ -625,11 +489,13 @@
         "id": "606", 
         "location": "", 
         "pathways": "Scaling Participatory Learning Experiences", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "Building Participation", 
+        "start": "11:30 AM", 
         "title": "Scaling the leading & learning program for Participation at Mozilla"
     }, 
     {
+        "day": "Sunday", 
         "description": "This session will explore the ongoing challenge for community-based programs, non-profit organizations, and NGOs to make the best use of professional volunteers to achieve an impactful outcome. Participants in the session will identify the most scalable contributions to an open-source technology project (in particular) and co-construct a framework for engaging professional volunteers.\nThe perfect balance between a volunteer’s skills, availability and interests, and an organization’s needs is a tricky target to strike. When it is done successfully, there is a great mutual benefit to everyone involved. However, the most impactful contributions are those that provide a sustainable structure and enable an organization or project to scale.\nTogether with Mozilla designers experienced in limited-contribution, professional volunteer experiences and Mozilla educators experienced with community-based projects, participants will create an open, shared standard for structuring a professional volunteer engagements to maximize the success, impact, sustainability and scalability of a professional volunteer contribution.", 
         "facilitator_array": [
             "Robert Friedman"
@@ -638,11 +504,13 @@
         "id": "314", 
         "location": "", 
         "pathways": "Leading and Building Community Through Participation", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-6", 
         "space": "Building Participation", 
+        "start": "12:45 PM", 
         "title": "Open Practices for Scalable, Professional Contributions in Community-based Projects"
     }, 
     {
+        "day": "Saturday", 
         "description": "We will explain the iceberg model from Otto Scharmer's Theory-U.\nFollowing that there will be a discussion on how to apply his theory in our community work.", 
         "facilitator_array": [
             "Henrik  Mitsch"
@@ -651,11 +519,13 @@
         "id": "397", 
         "location": "", 
         "pathways": "Leading and Building Community Through Participation", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "Building Participation", 
+        "start": "02:15 PM", 
         "title": "The Iceberg Model"
     }, 
     {
+        "day": "Sunday", 
         "description": "Participants will learn to build their own Firefox OS app or game, ready to publish in the market! The session will allow them to build an app of their choice while getting help from other participants.", 
         "facilitator_array": [
             "Errietta Kostala"
@@ -663,12 +533,14 @@
         "facilitators": "Errietta Kostala", 
         "id": "154", 
         "location": "", 
-        "pathways": "New Technologies for Participation -- Challenge, Participation Travel Stipend", 
-        "scheduleblock": "", 
+        "pathways": "New Technologies for Participation -- Challenge", 
+        "scheduleblock": "sunday-session-block-7", 
         "space": "Building Participation", 
+        "start": "02:45 PM", 
         "title": "Firefox OS app-building workshop"
     }, 
     {
+        "day": "Saturday", 
         "description": "This session will gather folks interested in delivering organized learning experiences on the web.  We will brainstorm different tools that Mozillians can use to create a distributed learning experience. Given the number of respondents to the Pledge to Teach CTA who asked for professional development from MLN we will need to level up the instructional design of RCs, CCs, and metnors. We will focus on building classes that use open source tools and empower learners to develop their own content and learning pathways.", 
         "facilitator_array": [
             "Greg McVerry"
@@ -677,24 +549,28 @@
         "id": "409", 
         "location": "", 
         "pathways": "Scaling Participatory Learning Experiences", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "Building Participation", 
+        "start": "02:15 PM", 
         "title": "Building Federated Learning with Open Source Tools"
     }, 
     {
+        "day": "Sunday", 
         "description": "Ever dreamt of hacking your mobile device to really suits your needs? This session will get you started on creating add-ons for Firefox OS to customise your device and get a truly tailored experience.\nBring your laptop and your Firefox OS device if you have one.", 
         "facilitator_array": [
-            "Guillaume Marty"
+            "Francisco Jordano "
         ], 
-        "facilitators": "Guillaume Marty", 
+        "facilitators": "Francisco Jordano ", 
         "id": "139", 
         "location": "", 
         "pathways": "New Technologies for Participation -- Challenge", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "Building Participation", 
-        "title": "Hands on on Firefox OS add-ons"
+        "start": "11:30 AM", 
+        "title": "Hands on - Firefox OS add-ons"
     }, 
     {
+        "day": "Saturday", 
         "description": "My session will allow people to learn how to get started with open source contributions. Sometimes getting started can be daunting and this workshop hopes to lessen the learning curve. In a nutshell people would be walked through the steps on how to get started contributing to open source from the ground up. Raging from things as opportunities to translate, coding, close captioning, documentation and much more. Having a list of beginner friendly projects of Mozilla that are in need of contributors will be a great addition to the program, as then we can promote opportunities within Mozilla in addition to other open source projects.", 
         "facilitator_array": [
             "Gloria Dwomoh"
@@ -703,8 +579,9 @@
         "id": "452", 
         "location": "", 
         "pathways": "Scaling Participatory Learning Experiences", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "Building Participation", 
+        "start": "12:00 PM", 
         "title": "Getting Started with Open Source Contributions "
     }, 
     {
@@ -715,12 +592,13 @@
         "facilitators": "Nick Weinbegr", 
         "id": "423", 
         "location": "", 
-        "pathways": "Inclusive Communities, New Technologies for Participation -- Challenge", 
+        "pathways": "New Technologies for Participation -- Challenge", 
         "scheduleblock": "", 
         "space": "Building Participation", 
         "title": "Connecting online + in person communities"
     }, 
     {
+        "day": "Sunday", 
         "description": "Cynefin Lego Game is a playful way to learn and experience four of the five domains of the Cynefin Framework (https://en.wikipedia.org/wiki/Cynefin), a leader’s framework for decision making which can be used to understand situations in organisations and in teamwork, and to decide how to approach them. By going through different exercises in which the problem to solve and the context will change, the attendees will learn the challenges behind each domain, and why we have to tackle them in very different ways. The game will let attendees experience the domains of Dave Snowden’s Cynefin framework, teamwork and the decision-making process in different scenarios. And have fun with Lego bricks of course :)", 
         "facilitator_array": [
             "Francesco Iovine"
@@ -729,22 +607,629 @@
         "id": "428", 
         "location": "", 
         "pathways": "Leading and Building Community Through Participation", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-6", 
         "space": "Building Participation", 
+        "start": "12:45 PM", 
         "title": "Cultivating leadership by having fun: the Cynefin Lego Game"
     }, 
     {
-        "description": "This is the kick-off session for the Pathway 'New Technologies for Participation - Challenge!' which asks you techie, story teller, maker, inventor to go out into Mozfest  - to learn,  hack and ultimately bring back new ideas for Participation at Mozilla.  If you can get away with it, bring the technology back with you as well.  This session will layout the challenge for Demo on Sunday!", 
+        "day": "Saturday", 
+        "description": "This is the kick-off session for the Pathway 'New Technologies for Participation - Challenge!' which asks you techie, storyteller, maker, inventor to go out into Mozfest  - to learn,  hack and ultimately bring back new ideas for Participation at Mozilla.  If you can get away with it, bring the technology back with you as well.  This session will layout the challenge for Demo on Sunday!", 
         "facilitator_array": [
-            "Emma Irwin"
+            "Emma Irwin, @sunnydeveloper", 
+            "George Roter, @geroter"
         ], 
-        "facilitators": "Emma Irwin", 
+        "facilitators": "Emma Irwin, George Roter", 
         "id": "608", 
         "location": "", 
         "pathways": "New Technologies for Participation -- Challenge", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "Building Participation", 
+        "start": "10:45 AM", 
         "title": "Mozilla Participation - Tech Challange!"
+    }, 
+    {
+        "day": "Saturday", 
+        "description": "", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "468", 
+        "location": "", 
+        "pathways": "New Technologies for Participation -- Challenge, [Pathway] Storytellers & coders united: together we can change the world!", 
+        "scheduleblock": "saturday-session-block-2", 
+        "space": "Building Participation", 
+        "start": "12:00 PM", 
+        "title": "Change the world through code: how to meet the person you need in your team to do so"
+    }, 
+    {
+        "description": "Participants will collaborate on a shared WebGL experience taking \"living light\" from a central server and creating individualized experiences. This project will illustrate the importance of opening up low-level APIs to the web, and how such technologies can empower transformative experiences.", 
+        "facilitator_array": [
+            "Greg Tatum"
+        ], 
+        "facilitators": "Greg Tatum", 
+        "id": "103", 
+        "location": "", 
+        "pathways": "Global Village Garden", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Living Light with WebGL - A Collaborative Art Experience"
+    }, 
+    {
+        "description": "Each hour will be themed around a topic surrounding diversity (my initial thoughts are home, work and society). There will be discussions on these topics lead by myself and including the attendees. We will then ideate a real life solutions to the problems discussed. The idea being that these outcomes can be put onto an online platform and turned into a manifesto for positive change and diversity in each subject area.", 
+        "facilitator_array": [
+            "Vimla Appadoo"
+        ], 
+        "facilitators": "Vimla Appadoo", 
+        "id": "571", 
+        "location": "", 
+        "pathways": "Global Village Athena Library, Inclusive Communities", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Diversity in the new economy"
+    }, 
+    {
+        "description": "To allow for the varying skills of the participants we will have two strands of activity to the workshop. The first will explore the capabilities of the Perceptive Media API and how adaptive stories can be created using the new Perceptive Radio as a platform. The second strand will use paper based story creation tools to allow participants to develop adaptive storytelling ideas that could be developed for the Perceptive Radio - http://www.bbc.co.uk/news/technology-22637945", 
+        "facilitator_array": [
+            "Adrian Gradinar", 
+            "Dan Burnett", 
+            "Paul Coulton"
+        ], 
+        "facilitators": "Adrian Gradinar, Dan Burnett, Paul Coulton", 
+        "id": "559", 
+        "location": "", 
+        "pathways": "Global Village Athena Library", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Creating adaptive storytelling content for the future of radio"
+    }, 
+    {
+        "description": "From documentation to storytelling, the Open Web offers both the content and tools required to make beautiful books. Groups of authors can be together in one room at Mozfest or spread across the globe.\nThere are now a variety of closed-cloud platforms which can be used to create books and ebooks. Booktype is the fully open source alternative, which can be installed on your own web server for complete independence.\nThis will be a hands-on session introducing authors to collaborative, browser-based book authoring, taking them from first draft to print PDF, EPUB and more.", 
+        "facilitator_array": [
+            "Daniel James"
+        ], 
+        "facilitators": "Daniel James", 
+        "id": "80", 
+        "location": "", 
+        "pathways": "Global Village Athena Library", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "How to make real books on the Open Web"
+    }, 
+    {
+        "description": "Teach the use of story as a tool to build community. If a story is well told, the idea contained within it can take in every listener that hears it. If we see something that can change for the better then, irrespective of our position, we can be a leader - but we need the tools to inspire and motivate.", 
+        "facilitator_array": [
+            "Rob Grundel"
+        ], 
+        "facilitators": "Rob Grundel", 
+        "id": "74", 
+        "location": "", 
+        "pathways": "Global Village Athena Library", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Story to Build Community"
+    }, 
+    {
+        "description": "We are building a world-class engagement platform offering tools to push forward municipal broadband in communities across Canada. And at MozFest, we want to share this platform, and the importance of municipal broadband, with the world. Pioneering cities and towns have taken it upon themselves to close the digital divide by ensuring affordable, city-wide Internet access through municipal broadband networks. Our platform will build on the successes of these often disparate and isolated communities, and kickstart a new mass movement for municipal broadband initiatives that can be replicated anywhere. In the U.S. alone, over 100 communities have pledged to develop their own fibre, highlighting the role municipal networks can play in galvanizing the digital divide. Participants will receive a preview of our engagement platform to empower not just individuals, but entire communities, to organize in distributed, local groups, and address the digital deficits their cities and towns face.", 
+        "facilitator_array": [
+            "Josh Tabish"
+        ], 
+        "facilitators": "Josh Tabish", 
+        "id": "151", 
+        "location": "", 
+        "pathways": "Global Village Athena Library", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Crowdsourcing the Next Gigabit Cities: An Engagement Platform for Municipal Broadband"
+    }, 
+    {
+        "description": "The BBC want to deliver new media experiences of the future - in doing so we want to use a mix of sensors and personal data to drive these experiences. This session is to understand people's attitudes in relation to acceptable and unacceptable uses of personal data as well as ideate around how best to communicate the use of personal data in everyday activities.", 
+        "facilitator_array": [
+            "Lianne Kerlin", 
+            "Mia Roscoe"
+        ], 
+        "facilitators": "Lianne Kerlin, Mia Roscoe", 
+        "id": "575", 
+        "location": "", 
+        "pathways": "Global Village Kitchen", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Experiences of the Future Home"
+    }, 
+    {
+        "description": "To understand what is dyslexia and its causes. Then to discuss how education and specifically IT and web inclusion is problematic for dyslexics.\nTo highlight the benefits of greater IT and web inclusion for dyslexic individuals.\nTo discuss how greater IT and web inclusion can be brought about, by working together with Mozilla.\nTo make a plan as to how these ideas can be implemented.", 
+        "facilitator_array": [
+            "Roger Broadbent"
+        ], 
+        "facilitators": "Roger Broadbent", 
+        "id": "555", 
+        "location": "", 
+        "pathways": "Global Village Athena Library, Inclusive Communities, [youthZone] Links with us", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "The web through the eyes of a dyslexic  "
+    }, 
+    {
+        "description": "Let’s attract your inner Zombie (Yes, we are using the Z-word)…\nSet in a world overrun by the undead, you get to choose which characters can best face the apocalypse and survive, using only what nature and circumstance has given them.", 
+        "facilitator_array": [
+            "Melanie Grant", 
+            "Leena Haque", 
+            "Samina Rafiq"
+        ], 
+        "facilitators": "Melanie Grant, Leena Haque, Samina Rafiq", 
+        "id": "554", 
+        "location": "", 
+        "pathways": "Global Village Athena Library, Inclusive Communities", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "The reality of diversity: The working dead"
+    }, 
+    {
+        "description": "We are currently developing new technologies that will support novel methods of interaction with Internet of Things sensors in the home. The traditional model for IOT sensors and services sees a myriad of sensed personal data pushed out of the home and into the cloud. This is often done without the people to whom the data pertains really understanding what this data can say about them.\n\nAs an initial point of investigation into how we might change this model; we have developed a low fidelity prototype and we are interested in understanding what the public perception of this type of system might be. Our prototype system makes use of an IoT Home Hub which looks after personal data from home. The hub requires that 3rd parties make requests for only the data that they need for only the time that they need it and that their requests and data transactions are mediated through IoT ‘brokers'. Home users are then able to accept or deny such requests and may revoke access at any time instantly. What types of data, from our future connected world would you be willing to share and what would you want in return? What do you think of the old model of data sharing and how would you like us to think about changing this?", 
+        "facilitator_array": [
+            "James Colley"
+        ], 
+        "facilitators": "James Colley", 
+        "id": "550", 
+        "location": "", 
+        "pathways": "Global Village Garage, Space Hacking", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "The IoT Home Hub"
+    }, 
+    {
+        "description": "", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "580", 
+        "location": "", 
+        "pathways": "Global Village Garden", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Placeholder session for animal/environmental data & a/v content"
+    }, 
+    {
+        "description": "", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "582", 
+        "location": "", 
+        "pathways": "Global Innovation Network, Garbage Disposal Room", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Garbage Disposal Room"
+    }, 
+    {
+        "description": "A diverse group of artists/industry practitioners will come together to develop a web-based interactive lighting system.\nA collaboration between Ravensbourne's Design & Coding and Product Design courses and Goldsmith's Creative Computing Department to develop a workshop on interactive lighting/gaming/web-based/physical computing, a hack session to show the tool-kit developed in order to invite students/industry to hack them. The project aims to develop 3D printed lights to install around the building which would be networked through the web.", 
+        "facilitator_array": [
+            "Evan Raskob"
+        ], 
+        "facilitators": "Evan Raskob", 
+        "id": "54", 
+        "location": "", 
+        "pathways": "Global Village Kitchen", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Switched On(line) Lighting"
+    }, 
+    {
+        "description": "What is an album on the web? Is this a place for research? Is this a place for memories? Is this a place for creative and visual making? Using the 'Albums' digital web platform from the Tate (www.tate.org.uk/art/albums), participants will be able to create their own artistic digital platforms. The Tate Albums feature is a way to pull together data, curate Tate artworks, research items and archive all user created content. The session will have an engaging learning curve around digital making and web literacy, allowing creative thinking and reflection. With both an individual and participatory group approach, the activity calls participants to start their own digital albums and share their personal interests, identities, art and more!", 
+        "facilitator_array": [
+            "Luca Margherita Damiani"
+        ], 
+        "facilitators": "Luca Margherita Damiani", 
+        "id": "172", 
+        "location": "", 
+        "pathways": "Global Village Athena Library", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Tate Digital Learning - 'Albums, Sketches, Etc..!'"
+    }, 
+    {
+        "description": "We will give participants free packs of Know Cards (worth $140) to learn how to invent the next generation products they want to see in their local John Lewis.  A lot of smart product ideas can emerge from knowing what the building blocks are and Know Cards does that in a visual and accessible way. From inputs, outputs, power and connectors participants will get a chance to learn how to use the cards and brainstorm product ideas that could be built.", 
+        "facilitator_array": [
+            "Alexandra Deschamps-Sonsino"
+        ], 
+        "facilitators": "Alexandra Deschamps-Sonsino", 
+        "id": "173", 
+        "location": "", 
+        "pathways": "Global Village Kitchen", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "The Invention Shop (with Know Cards)"
+    }, 
+    {
+        "description": "People will learn how to use free 3D modeling software to create 3D printed objects. In the workshop you’ll create the right models that are suitable for 3D printing, and start with printing a small humanoid robot.", 
+        "facilitator_array": [
+            "Bram Geenen"
+        ], 
+        "facilitators": "Bram Geenen", 
+        "id": "177", 
+        "location": "", 
+        "pathways": "Global Village Garage, [youthZone] Links with us", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Learn 3D modeling and print a robot."
+    }, 
+    {
+        "description": "Several Silicon Valley companies recently released the diversity figures of their workforces, giving hard demographic data to the well-worn tale of racial and gender under-representation we know all too well.\n\nThis brittle monoculture is also reflected at the grassroots - in the code clubs, unconferences and hackerspaces. If, as Apple state, “inclusion inspires innovation”, what can we do to grow computing communities that unlock the rich-but-neglected talent in our urban localities - and how does this benefit our digital ecosystem?", 
+        "facilitator_array": [
+            "Ikem Nzeribe"
+        ], 
+        "facilitators": "Ikem Nzeribe", 
+        "id": "544", 
+        "location": "", 
+        "pathways": "Global Village Athena Library", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Hip-hop, Hypertext & Hackerspace - Diversity Is Important, But Not For The Reasons You Think"
+    }, 
+    {
+        "description": "We’ll explore the opportunity, and urgency, for all of us to shape our shared future, through co-creation by designers, technologist and all who use the web.\nIt's not necessary for everyone to understand the details of, say climate change, to act now and do something about it.  There's a parallel with technology here as anyone can use the web, without knowing all the detail of how it works. User, and consumers, shape its future just as much as those who design build and design.  Fashion is like this too, consumers determine the future as much as designers.\nHelen Storey and Michael Saunby will lead an exploration of how we can use the web to share visions of the future and calls to action, whether it be to ensure the freedom of the web or protection of the environment.", 
+        "facilitator_array": [
+            "Helen Storey", 
+            "Michael Saunby, @msaunby, Met Office"
+        ], 
+        "facilitators": "Helen Storey, Michael Saunby", 
+        "id": "444", 
+        "location": "", 
+        "pathways": "Global Village Garden, [youthZone] Links with us", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Learning not to fear the future by sharing what we know"
+    }, 
+    {
+        "description": "The goal of the session is to teach participants how to educate, engage and empower individuals, local communities & organizations to make impact through a collaborative platform.\nHelp create/ identify various ways to support hackers, makers, startups and creative people. Promote experiential learning, co-creation and collaboration through the interests of people.\nThe aim is to bring in various communities together to work on the things they like, connect, share, teach and build.\nThe activity will focus on benefits of embracing the Open Practices. Understanding a few case studies and hands-on workshop to build the structure for various scenarios.\nThe participants will learn how research, knowledge exchange, learning and mentoring with each other can be driven.\nA part of the session will be focused around discussing what a open and inclusive space is to them.\nLearn how to make these spaces sustainable so they can continue make impact in long run.", 
+        "facilitator_array": [
+            "Vineel Reddy  Pindi"
+        ], 
+        "facilitators": "Vineel Reddy  Pindi", 
+        "id": "215", 
+        "location": "", 
+        "pathways": "Global Village Athena Library", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Collaborative Community Spaces"
+    }, 
+    {
+        "description": "In the ‘Modular frequencies’ workshop we’ll create a spacial audio installation! The HearUsHere app (location based audio) combined with iBeacons allows us to create a new sonic experience. Every iBeacon is a frequency that carriers a sound, when you get closer to one of these frequencies the audio will automatically fade in and cross fade with others. Using the speakers of our phones, we’ll create a collective audio experience. This results in unique and constantly changing soundscape created by the visitors and their navigation in the space.\nWithin the workshop you won’t only experience these modular frequencies. You’ll learn about frequencies, location based audio and you’ll hack the beacons to create your own ‘pirate radio’! (No coding skills required).", 
+        "facilitator_array": [
+            "Klasien van de Zandschulp"
+        ], 
+        "facilitators": "Klasien van de Zandschulp", 
+        "id": "230", 
+        "location": "", 
+        "pathways": "Global Village Recycling", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Modular frequencies - HearUsHere soundlab"
+    }, 
+    {
+        "description": "Today's society can be isolating and difficult to connect with other people around us. Were glued to our screens (ambient intimacy) and fear looking people in the eye incase they get the wrong or a different idea (fear of rejection). Calling on Sherry Turkle's book Alone Together and Aziz Ansari's Modern Romance", 
+        "facilitator_array": [
+            "Ian Forrester", 
+            "Jennifer Geacone-Cruz", 
+            "Laura Gordon"
+        ], 
+        "facilitators": "Ian Forrester, Jennifer Geacone-Cruz, Laura Gordon", 
+        "id": "591", 
+        "location": "", 
+        "pathways": "Global Village Athena Library", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Eye contact experiments"
+    }, 
+    {
+        "description": "This is a durational workshop hacking session free for people to drop in and out of. There will be an hour where we will explore the BBC Microbit, and its place in the digital DIY ecosystem. We will look at and hack with examples of a traditional game such as ping pong and table football. Then enhanced/connect them with the Micro:Bit, along with other sensors and outputs.", 
+        "facilitator_array": [
+            "Spencer Marsden"
+        ], 
+        "facilitators": "Spencer Marsden", 
+        "id": "592", 
+        "location": "", 
+        "pathways": "Global Village Garage", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Connecting old games with the BBC Micro:Bit"
+    }, 
+    {
+        "description": "The vast technology penetration in emerging countries (such as Indonesia) led to a lot of people become online. The problem arises when they don't care or aware about online privacy which can lead to criminal activities such as fraud, scam, kidnapping, etc. There are a lot of tools that can enhance privacy in online world. But the main problem is online behavior. This session will discuss how to make people change their online behavior.", 
+        "facilitator_array": [
+            "Andi Darmawan"
+        ], 
+        "facilitators": "Andi Darmawan", 
+        "id": "286", 
+        "location": "", 
+        "pathways": "Global Village Recycling", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Online (Behavior) Privacy Awareness"
+    }, 
+    {
+        "description": "Mental health is an ignored corner of the tech world for far too many of us. We know it's an essential part of our personal and working lives, yet so little attention is paid to it due to stigma or lack of awareness. We all have some level of personal experience with it, whether we realise it or not.\nThis session will be addressing the changing place that mental health occupies in tech. We will discuss the past and current state of mental health and emotional wellness, factors that exist that affect it, and ways that we can change views and create a more supportive space for the growth of mental health in our community. Personal, cultural, political, economic and technological influences will be examined and combined in discussion and exercises to facilitate ideas about how to hack mental health in tech.", 
+        "facilitator_array": [
+            "Jennifer Geacone-Cruz"
+        ], 
+        "facilitators": "Jennifer Geacone-Cruz", 
+        "id": "303", 
+        "location": "", 
+        "pathways": "Global Village Athena Library", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Hacking Mental Health: Changing Views in Tech"
+    }, 
+    {
+        "description": "Rapidly-changing digital policies across the world are contributing to the decline of the democratizing power of the hyperlink and its ability to create the interconnected information space that was imagined by Tim Berners-Lee. One such example is the ancillary copyright law implemented in Spain in 2014–a proposal that was rejected EuroParl for EU-wide implementation, but threatens to return with the drafting of updates to the Copyright Directive. To fight back against these policies, an international network of over 90 digital rights organizations, businesses, journalists and Internet users from 30 countries have convened under the banner of “SaveTheLink” to catalogue and push back against sustained threats to the link. In this session, participants will learn about new policies that make it easier for governments and corporations to demand and implement link censorship, and will help identify threats and brainstorm tactics/solutions to address these threats to the link in an interactive workshop.", 
+        "facilitator_array": [
+            "Meghan  Sali"
+        ], 
+        "facilitators": "Meghan  Sali", 
+        "id": "330", 
+        "location": "", 
+        "pathways": "Global Village Athena Library, What's your policy?", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Is the hyperlink dead?"
+    }, 
+    {
+        "description": "Come and explore some of the best interactive factual narratives that have been recently released. This is an opportunity for you to experience factual interactive narratives, be inspired by them and maybe change the way you understand and perceive the world!", 
+        "facilitator_array": [
+            "Sandra Gaudenzi ", 
+            "Mike Robbins"
+        ], 
+        "facilitators": "Sandra Gaudenzi , Mike Robbins", 
+        "id": "469", 
+        "location": "", 
+        "pathways": "Global Village Recycling, [Pathway] Storytellers & coders united: together we can change the world!", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Inspiration time: explore recent projects that will change the way you understand the world"
+    }, 
+    {
+        "description": "Discussion about the happiness and how it relates to the  digital era.\nOutcomes - every participant to fell inspired and empowered to create positive interactions in their work and life.\nAwareness of the role of the individual, the media and technological impact on individual and community psychology.\nIdeas for how to create trust and positivity in their communities.", 
+        "facilitator_array": [
+            "Laura Gordon"
+        ], 
+        "facilitators": "Laura Gordon", 
+        "id": "450", 
+        "location": "", 
+        "pathways": "Global Village Athena Library", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Happiness in the Digital Era"
+    }, 
+    {
+        "description": "Our session will introduce participants to the process of AI design in a human-centric and empathetic way. Participants will have the opportunity to design the system rules for their own AI and will the co-create some potential societal impact scenarios that these designed AIs will have on relationships we have with each other, technology and the world at large.", 
+        "facilitator_array": [
+            "Nathan Miller"
+        ], 
+        "facilitators": "Nathan Miller", 
+        "id": "400", 
+        "location": "", 
+        "pathways": "Global Village Garage", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "How will artificial intelligence change our interactions with each other?"
+    }, 
+    {
+        "description": "The Local Web will explore options for local communication when the wider internet is not available. This will include self-hosting, community and mesh networks, device-to-device communication, delay tolerant networking, service discovery, and more. This workshop will explore possibilities for using the web and other internet technologies on a local, rather than global, scale.", 
+        "facilitator_array": [
+            "Josh King"
+        ], 
+        "facilitators": "Josh King", 
+        "id": "456", 
+        "location": "", 
+        "pathways": "Global Village Garden, Inclusive Communities", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "The Local Web"
+    }, 
+    {
+        "description": "A picture says a thousand words - and it’s never been easier to create images that can have real impact.\nIf you’d asked me a couple of years ago - “Can you draw?” I’d have said “Not really - I’m a programmer”. However, creating visual thoughts is now central to everything I do.\nThis session will aim to illustrate how a visual thought can be captured, created and shared and if this wasn’t just a lowly text form, I’d put a few examples in to show what I mean.\nUnfortunately, visual thoughts are limited by your ability to think…", 
+        "facilitator_array": [
+            "Bryan Mathers"
+        ], 
+        "facilitators": "Bryan Mathers", 
+        "id": "202", 
+        "location": "", 
+        "pathways": "Global Village Athena Library", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Capturing a visual thought"
+    }, 
+    {
+        "description": "Participants will design 'services' to improve crowdsourced and collaborative coverage of festivals.\nThis could be anything from a 'Mozilla Webmaker' for live content aggregation to Internet of Things-based services or even something entirely paper-based that doesn't use any electronic/computer tech.\nWe are especially interested in creating services that connect people together, both on-site and off-site.", 
+        "facilitator_array": [
+            "Raphael Velt"
+        ], 
+        "facilitators": "Raphael Velt", 
+        "id": "438", 
+        "location": "", 
+        "pathways": "Global Village Athena Library", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Supporting collaborative festival coverage"
+    }, 
+    {
+        "description": "Co-creation is collaboration between diverse stakeholders to identify, define, clarify, make sense, create and realize visions that provide value in a deeper sense and for a greater good.\n\nIndia has huge socio-economic-cultural diversity. People from all the different strata are coexisting within the same framework. Frugality and co-creation is what people in India have been practicing since ages. And because of this co-creation and knowledge sharing a lot of systems have emerged which are in sync with surroundings and nature. A lot can be learnt from these systems at the same time they can improve a lot with intervention brought out by outside perspective.", 
+        "facilitator_array": [
+            "Mayank Loonkar"
+        ], 
+        "facilitators": "Mayank Loonkar", 
+        "id": "594", 
+        "location": "", 
+        "pathways": "Global Village Garage", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "20 new ways of sharing: learning co-creation through community engagements"
+    }, 
+    {
+        "description": "n an industrial society the designer, maker, distributor and user got separated, each looking at his own aspect in isolation. Hence, most industrial societies live in construct of these isolated fragments. And the Designer / Maker shared a Top-down relationship with user.\n\nHowever, in rural India members of community live together by cooperative interactions of getting and giving. They balance the getting and giving with natural and physical surrounding. The reciprocal relationship of give and take also becomes the opportunity to interact, collaborate and co-create.\n\nAs against fast paced ethnographic probes, Slow, long lasting cooperative living would lead to multi sensory, reflective and collaborative learning and insights. By learning from each other we can re-establish our human potential, dignity, compassion and self –rule.", 
+        "facilitator_array": [
+            "Praveen Nahar"
+        ], 
+        "facilitators": "Praveen Nahar", 
+        "id": "593", 
+        "location": "", 
+        "pathways": "Global Village Garage", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Slow ethnography as a tool for co-creation"
+    }, 
+    {
+        "description": "Join the Seven Seconds Ago team as we delve into a world of 360 virtual reality experiences, connected to the wild! We'll explore the concept of near-realtime virtual presence, the technologies needed, our progress so far and a demo of our Google Cardboard meerkat experiment.", 
+        "facilitator_array": [
+            "Adrian Cockle, @ade ", 
+            "Alasdair Davies, @al2ka", 
+            "Tim Brooke, @timtwit"
+        ], 
+        "facilitators": "Adrian Cockle, Alasdair Davies, Tim Brooke", 
+        "id": "614", 
+        "location": "", 
+        "pathways": "", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "sevensecondsago "
+    }, 
+    {
+        "description": "Disaster aid takes time to reach the people who need it. Stockpiled and flown in, even getting it through customs, the aid can be hugely expensive. The aim of Communitere is to create shared space for relief organizations and locals, with the aim of sharing resources and fostering communication and collaboration. Lessons learned from the spaces in Haiti and the Philippines, as well as the new Resource Center in Nepal will be presented and ways to innovate disaster relief through small scale manufacturing, space sharing and other simple means to disrupt traditional aid supply chains will be discussed.", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "588", 
+        "location": "", 
+        "pathways": "Global Innovation Network, Garbage Disposal Room", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Innovative Disaster Relief – Examples from Haiti and Nepal "
+    }, 
+    {
+        "description": "Understanding how memes convey opinions and how their spread relates to the spread of rhetorics behind those opinions but also to the spread of fake information, and intox in general is the overall goal of the session. We follow the way politically-charged information spreads online and can go viral. To this end, we track the spread of memes online using image search platforms, network reconstruction and mapping the changes in their rhetoric across their lifetime.", 
+        "facilitator_array": [
+            "Rayna Stamboliyska"
+        ], 
+        "facilitators": "Rayna Stamboliyska", 
+        "id": "419", 
+        "location": "", 
+        "pathways": "Global Village Athena Library", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "\"How does information spreads online? Memes explain\""
+    }, 
+    {
+        "description": "This session will be centered around video content on the web. It will focus generally around mozilla/popcorn-editor which is a modular javascript library which allows users to implement the editor from popcorn.webmaker.org. While this session is primarily discussion based I will also go over a simple tutorial of implementing the editor on a website and then dive into creating additional plugins into the editor. For instance, for the demo we will go over implementing an index plugin which allows users to associate specific keywords with events in the video and then store this data in the project metadata.", 
+        "facilitator_array": [
+            "Mike Nolan"
+        ], 
+        "facilitators": "Mike Nolan", 
+        "id": "411", 
+        "location": "", 
+        "pathways": "Global Village Athena Library", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Collaboritive Video Editing on The Web"
+    }, 
+    {
+        "description": "1. To provide a comprehensive view of the iHub ecosystem and how balance is maintained\n2. To showcase how iHub has evolved towards sustainability\n3. To highlight ever-present sustainability challenges iHub faces\n4. To openly brainstorm with the audience on how to overcome challenges", 
+        "facilitator_array": [
+            "Evans Campbell"
+        ], 
+        "facilitators": "Evans Campbell", 
+        "id": "179", 
+        "location": "", 
+        "pathways": "Garbage Disposal Room", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Sustaining an Innovation Hub: Lessons from the iHub"
+    }, 
+    {
+        "description": "Inspired by the Things Network in Amsterdam, this session looks at crowd sourcing a free, open and distributed Internet of Things infrastructure for the benefit of everyone. The session looks at how using off the shelf Long Range Wide Area Network (LoRaWAN) components we can build city-wide IoT infrastructure that is community owned.", 
+        "facilitator_array": [
+            "Julian Tait"
+        ], 
+        "facilitators": "Julian Tait", 
+        "id": "540", 
+        "location": "", 
+        "pathways": "Global Village Garage", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "IoT is too important for big IT"
+    }, 
+    {
+        "description": "In the session I aim to get participants using Scratch (a fun interactive block based programming language) with Scratch extensions both created by myself and others. These extensions allow you to do many different things with Scratch but in the session we will focus on connecting Scratch to the outside world using hardware such as as Arduinos or mobile phones and the open source extensions I have developed. If there is time we will also look at several other different Scratch extensions that others have produced that I've found interesting and also briefly detail how participants can make their own extensions.", 
+        "facilitator_array": [
+            "Thomas Preece"
+        ], 
+        "facilitators": "Thomas Preece", 
+        "id": "233", 
+        "location": "", 
+        "pathways": "Global Village Garden", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Connecting everything but the kitchen sink to Scratch"
+    }, 
+    {
+        "description": "The idea of this panel is to share experiences on the creation and sustainability of innovation and community-run spaces like hackerspaces, makerspaces and fablabs, with a special focus on the 3rd world and its specific challenges.\nIn other words, that means that every participant will be able to learn from others and share their own experiences about innovation/hacking/making community-run spaces from their own perspectives.\nA consequence of this is building stronger connections betwwen communities and spaces in the underdeveloped and developing world.", 
+        "facilitator_array": [
+            "Rodrigo Rodrigues da Silva"
+        ], 
+        "facilitators": "Rodrigo Rodrigues da Silva", 
+        "id": "238", 
+        "location": "", 
+        "pathways": "Global Innovation Network, Global Village Garage", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "From Garoa Hacker Clube to Olabi: 5 years of hackerspaces, makerspaces, hardware startups and creative hubs in Brazil"
+    }, 
+    {
+        "description": "The purpose of this session is to challenge current thinking about the role of African tech hubs in society by sharing insights from research on hubs as creative spaces—institutions that engage in complex problem solving. There are at least 90 African tech hubs that serve as infrastructure to catalyze technology, entrepreneurship, and innovation. Not only do they act as physical infrastructure, providing access to power, internet, and space, but they also offer access to human, financial and social capital. By distributing these resources more efficiently, hubs make it easier to build start-ups, develop tech, and foster innovation.\nBut can hubs also create better solutions to complex social problems? Many tech hubs are engaged in developing tech solutions for education, health, and governance challenges. However, there is an opportunity to push past “there's an app for that” thinking and reconceive tech hubs as creative spaces that foster tech-enabled, innovative problem solving.", 
+        "facilitator_array": [
+            "Tayo Akinyemi"
+        ], 
+        "facilitators": "Tayo Akinyemi", 
+        "id": "371", 
+        "location": "", 
+        "pathways": "Global Innovation Network", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Tech Hubs 2.0: What is a Tech Hub's Role in Society?"
+    }, 
+    {
+        "description": "Idea of workshop is to present concrete examples (from technology, medicine...) where harm is done to the end user in the name of Intellectual property. Also, libertarian view on that matter will be presented and similarities with open source and free software movement.\nAll of the participants will have opportunity to present their examples or discuss similar related matters that bothers them throughout workshop.\nGoal of the workshop is to build blog where all the reports can be presented and where people can ask for advice on matter of IP or dubious regulations in their countries. All of that is affecting free and open Internet and individual liberties.", 
+        "facilitator_array": [
+            "Dejan Strbad"
+        ], 
+        "facilitators": "Dejan Strbad", 
+        "id": "306", 
+        "location": "", 
+        "pathways": "Global Village Athena Library", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Corporatism and Intellectual property: where private ends and rent begins"
+    }, 
+    {
+        "description": "We’ll facilitate a fun, playful, interactive workshop, guiding participants through a paper-based storytelling game. Participants will collaboratively remix a new creative work from bits + pieces of media we provide, related to a fictional narrative, found scattered across many digital services + platforms.\nOur goal is to explore how a holistic, digital system based on these interactions + principles might work, and to uncover its potential social + data privacy implications.\nWe’re also hoping these ideas inspire our participants to join our community of contributors, early adopters and testers, interested in the potential of our vision: a tool helping storytellers unlock their creativity. Please see:\nhttps://vimeo.com/136997295 (video)\nhttps://makeparallels.herokuapp.com (live demo)", 
+        "facilitator_array": [
+            "Steven Dale"
+        ], 
+        "facilitators": "Steven Dale", 
+        "id": "362", 
+        "location": "", 
+        "pathways": "Global Village Athena Library", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Make Parallels"
+    }, 
+    {
+        "description": "With a Raspberry Pi, a bit of wire, and a phone, learn how to convert your Pi into an FM transmitter for your house-share of community cafe, and load it with audio content that everybody in range can edit and playlist.", 
+        "facilitator_array": [
+            "Basile Simon"
+        ], 
+        "facilitators": "Basile Simon", 
+        "id": "349", 
+        "location": "", 
+        "pathways": "Global Village Garage", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Build your own FM radio station for $25 and control it from your phone"
     }, 
     {
         "description": "Today's activist campaigns are innovative and connected, leveraging the web to build collective voice. Open source practice could amplify the power of contemporary activism by sharing resources and learning outcomes openly between movements. In this session we will use GitHub to codesign a framework for planning activist campaigns. It won't be too technical - if you can use a web browser you can learn to use GitHub during the session! We'll create a template to guide new movements with the benefit of your past experiences and together start to build a community-led repository for open source activism.", 
@@ -881,7 +1366,7 @@
         "location": "", 
         "pathways": "Backdoors + Cryptowars", 
         "scheduleblock": "", 
-        "space": "", 
+        "space": "Digital Citizenship", 
         "title": "Privacy Lab #1"
     }, 
     {
@@ -897,7 +1382,7 @@
         "location": "", 
         "pathways": "Backdoors + Cryptowars", 
         "scheduleblock": "", 
-        "space": "", 
+        "space": "Digital Citizenship", 
         "title": "Privacy Lab #2"
     }, 
     {
@@ -913,7 +1398,7 @@
         "location": "", 
         "pathways": "Backdoors + Cryptowars", 
         "scheduleblock": "", 
-        "space": "", 
+        "space": "Digital Citizenship", 
         "title": "Privacy Lab #3"
     }, 
     {
@@ -966,7 +1451,7 @@
         "facilitators": "Diwanshi Pandey", 
         "id": "242", 
         "location": "", 
-        "pathways": "Backdoors + Cryptowars, Participation Travel Stipend", 
+        "pathways": "Backdoors + Cryptowars", 
         "scheduleblock": "", 
         "space": "Digital Citizenship", 
         "title": "Have you Measured your Information Footprint? \"Its Larger Than You Think!!!\""
@@ -986,7 +1471,7 @@
         "title": "Engaging Stakeholders on Net Neutrality & Impact on Youth Start-Ups /Innovation in Developing Countries "
     }, 
     {
-        "description": "Measurement Lab (M-Lab) has a number of tools for measuring network state and performance, and we're looking for help on digital campaign to promote our new Measure app. We’ll demo our “Measure App” and talk about ideas participants have on how their communities might use it. People will be able to install and use the app.\nAlso: In countries with growing Internet censorship policies, it is expected that heavier information controls will be imposed around political events such as elections. This workshop will look at current efforts by researchers and civil society actors to document and report on information controls, and to reduce disruption to online information and communications by proactively developing alternative modes of connectivity via circumvention technologies in response to various scenarios that could be induced by the authorities in Iran.", 
+        "description": "Making a free and open Internet requires effective communication about often complex data. We want inform, educate and activate audiences about the Internet, but data alone can’t accomplish that. Using a small group collaborative design process we’ll explore the issues and contexts of communicating and visualizing Internet measurement data.", 
         "facilitator_array": [
             "Chris Ritzo, M-Lab", 
             "Fereidoon Bashar, ASL19"
@@ -1146,441 +1631,6 @@
         "scheduleblock": "", 
         "space": "Digital Citizenship", 
         "title": "Ending Online Tracking - Do Not Track And Beyond"
-    }, 
-    {
-        "description": "Participants will collaborate on a shared WebGL experience taking \"living light\" from a central server and creating individualized experiences. This project will illustrate the importance of opening up low-level APIs to the web, and how such technologies can empower transformative experiences.", 
-        "facilitator_array": [
-            "Greg Tatum"
-        ], 
-        "facilitators": "Greg Tatum", 
-        "id": "103", 
-        "location": "", 
-        "pathways": "Global Village Garden", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Living Light with WebGL - A Collaborative Art Experience"
-    }, 
-    {
-        "description": "Each hour will be themed around a topic surrounding diversity (my initial thoughts are home, work and society). There will be discussions on these topics lead by myself and including the attendees. We will then ideate a real life solutions to the problems discussed. The idea being that these outcomes can be put onto an online platform and turned into a manifesto for positive change and diversity in each subject area.", 
-        "facilitator_array": [
-            "Vimla Appadoo"
-        ], 
-        "facilitators": "Vimla Appadoo", 
-        "id": "571", 
-        "location": "", 
-        "pathways": "Global Village Athena Library, Inclusive Communities", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Diversity in the new economy"
-    }, 
-    {
-        "description": "To allow for the varying skills of the participants we will have two strands of activity to the workshop. The first will explore the capabilities of the Perceptive Media API and how adaptive stories can be created using the new Perceptive Radio as a platform. The second strand will use paper based story creation tools to allow participants to develop adaptive storytelling ideas that could be developed for the Perceptive Radio - http://www.bbc.co.uk/news/technology-22637945", 
-        "facilitator_array": [
-            "Adrian Gradinar", 
-            "Dan Burnett", 
-            "Paul Coulton"
-        ], 
-        "facilitators": "Adrian Gradinar, Dan Burnett, Paul Coulton", 
-        "id": "559", 
-        "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Creating adaptive storytelling content for the future of radio"
-    }, 
-    {
-        "description": "From documentation to storytelling, the Open Web offers both the content and tools required to make beautiful books. Groups of authors can be together in one room at Mozfest or spread across the globe.\nThere are now a variety of closed-cloud platforms which can be used to create books and ebooks. Booktype is the fully open source alternative, which can be installed on your own web server for complete independence.\nThis will be a hands-on session introducing authors to collaborative, browser-based book authoring, taking them from first draft to print PDF, EPUB and more.", 
-        "facilitator_array": [
-            "Daniel James"
-        ], 
-        "facilitators": "Daniel James", 
-        "id": "80", 
-        "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "How to make real books on the Open Web"
-    }, 
-    {
-        "description": "Teach the use of story as a tool to build community. If a story is well told, the idea contained within it can take in every listener that hears it. If we see something that can change for the better then, irrespective of our position, we can be a leader - but we need the tools to inspire and motivate.", 
-        "facilitator_array": [
-            "Rob Grundel"
-        ], 
-        "facilitators": "Rob Grundel", 
-        "id": "74", 
-        "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Story to Build Community"
-    }, 
-    {
-        "description": "We are building a world-class engagement platform offering tools to push forward municipal broadband in communities across Canada. And at MozFest, we want to share this platform, and the importance of municipal broadband, with the world. Pioneering cities and towns have taken it upon themselves to close the digital divide by ensuring affordable, city-wide Internet access through municipal broadband networks. Our platform will build on the successes of these often disparate and isolated communities, and kickstart a new mass movement for municipal broadband initiatives that can be replicated anywhere. In the U.S. alone, over 100 communities have pledged to develop their own fibre, highlighting the role municipal networks can play in galvanizing the digital divide. Participants will receive a preview of our engagement platform to empower not just individuals, but entire communities, to organize in distributed, local groups, and address the digital deficits their cities and towns face.", 
-        "facilitator_array": [
-            "Josh Tabish"
-        ], 
-        "facilitators": "Josh Tabish", 
-        "id": "151", 
-        "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Crowdsourcing the Next Gigabit Cities: An Engagement Platform for Municipal Broadband"
-    }, 
-    {
-        "description": "The BBC want to deliver new media experiences of the future - in doing so we want to use a mix of sensors and personal data to drive these experiences. This session is to understand people's attitudes in relation to acceptable and unacceptable uses of personal data as well as ideate around how best to communicate the use of personal data in everyday activities.", 
-        "facilitator_array": [
-            "Lianne Kerlin", 
-            "Mia Roscoe"
-        ], 
-        "facilitators": "Lianne Kerlin, Mia Roscoe", 
-        "id": "575", 
-        "location": "", 
-        "pathways": "Global Village Kitchen", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Experiences of the Future Home"
-    }, 
-    {
-        "description": "To understand what is dyslexia and its causes. Then to discuss how education and specifically IT and web inclusion is problematic for dyslexics.\nTo highlight the benefits of greater IT and web inclusion for dyslexic individuals.\nTo discuss how greater IT and web inclusion can be brought about, by working together with Mozilla.\nTo make a plan as to how these ideas can be implemented.", 
-        "facilitator_array": [
-            "Roger Broadbent"
-        ], 
-        "facilitators": "Roger Broadbent", 
-        "id": "555", 
-        "location": "", 
-        "pathways": "Global Village Athena Library, Inclusive Communities, [youthZone] Links with us", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "The web through the eyes of a dyslexic  "
-    }, 
-    {
-        "description": "Let’s attract your inner Zombie (Yes, we are using the Z-word)…\nSet in a world overrun by the undead, you get to choose which characters can best face the apocalypse and survive, using only what nature and circumstance has given them.", 
-        "facilitator_array": [
-            "Melanie Grant", 
-            "Leena Haque", 
-            "Samina Rafiq"
-        ], 
-        "facilitators": "Melanie Grant, Leena Haque, Samina Rafiq", 
-        "id": "554", 
-        "location": "", 
-        "pathways": "Global Village Athena Library, Inclusive Communities", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "The reality of diversity: The working dead"
-    }, 
-    {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "550", 
-        "location": "", 
-        "pathways": "Global Village Garage, Space Hacking", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "The IoT Home Hub"
-    }, 
-    {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "580", 
-        "location": "", 
-        "pathways": "Global Village Garden", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Placeholder session for animal/environmental data & a/v content"
-    }, 
-    {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "582", 
-        "location": "", 
-        "pathways": "Global Innovation Network, Global Village Recycling", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Garbage Disposal Room"
-    }, 
-    {
-        "description": "A diverse group of artists/industry practitioners will come together to develop a web-based interactive lighting system.\nA collaboration between Ravensbourne's Design & Coding and Product Design courses and Goldsmith's Creative Computing Department to develop a workshop on interactive lighting/gaming/web-based/physical computing, a hack session to show the tool-kit developed in order to invite students/industry to hack them. The project aims to develop 3D printed lights to install around the building which would be networked through the web.", 
-        "facilitator_array": [
-            "Evan Raskob"
-        ], 
-        "facilitators": "Evan Raskob", 
-        "id": "54", 
-        "location": "", 
-        "pathways": "Global Village Kitchen", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Switched On(line) Lighting"
-    }, 
-    {
-        "description": "What is an album on the web? Is this a place for research? Is this a place for memories? Is this a place for creative and visual making? Using the 'Albums' digital web platform from the Tate (www.tate.org.uk/art/albums), participants will be able to create their own artistic digital platforms. The Tate Albums feature is a way to pull together data, curate Tate artworks, research items and archive all user created content. The session will have an engaging learning curve around digital making and web literacy, allowing creative thinking and reflection. With both an individual and participatory group approach, the activity calls participants to start their own digital albums and share their personal interests, identities, art and more!", 
-        "facilitator_array": [
-            "Luca Margherita Damiani"
-        ], 
-        "facilitators": "Luca Margherita Damiani", 
-        "id": "172", 
-        "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Tate Digital Learning - 'Albums, Sketches, Etc..!'"
-    }, 
-    {
-        "description": "We will give participants free packs of Know Cards (worth $140) to learn how to invent the next generation products they want to see in their local John Lewis.  A lot of smart product ideas can emerge from knowing what the building blocks are and Know Cards does that in a visual and accessible way. From inputs, outputs, power and connectors participants will get a chance to learn how to use the cards and brainstorm product ideas that could be built.", 
-        "facilitator_array": [
-            "Alexandra Deschamps-Sonsino"
-        ], 
-        "facilitators": "Alexandra Deschamps-Sonsino", 
-        "id": "173", 
-        "location": "", 
-        "pathways": "Global Village Kitchen", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "The Invention Shop (with Know Cards)"
-    }, 
-    {
-        "description": "People will learn how to use free 3D modeling software to create 3D printed objects. In the workshop you’ll create the right models that are suitable for 3D printing, and start with printing a small humanoid robot.", 
-        "facilitator_array": [
-            "Bram Geenen"
-        ], 
-        "facilitators": "Bram Geenen", 
-        "id": "177", 
-        "location": "", 
-        "pathways": "Global Village Garage, [youthZone] Links with us", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Learn 3D modeling and print a robot."
-    }, 
-    {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "544", 
-        "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Hip-hop, Hypertext & Hackerspace - Diversity Is Important, But Not For The Reasons You Think"
-    }, 
-    {
-        "description": "We’ll explore the opportunity, and urgency, for all of us to shape our shared future, through co-creation by designers, technologist and all who use the web.\nIt's not necessary for everyone to understand the details of, say climate change, to act now and do something about it.  There's a parallel with technology here as anyone can use the web, without knowing all the detail of how it works. User, and consumers, shape its future just as much as those who design build and design.  Fashion is like this too, consumers determine the future as much as designers.\nHelen Storey and Michael Saunby will lead an exploration of how we can use the web to share visions of the future and calls to action, whether it be to ensure the freedom of the web or protection of the environment.", 
-        "facilitator_array": [
-            "Helen Storey", 
-            "Michael Saunby, @msaunby, Met Office"
-        ], 
-        "facilitators": "Helen Storey, Michael Saunby", 
-        "id": "444", 
-        "location": "", 
-        "pathways": "Global Village Garden, [youthZone] Links with us", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Learning not to fear the future by sharing what we know"
-    }, 
-    {
-        "description": "The goal of the session is to teach participants how to educate, engage and empower individuals, local communities & organizations to make impact through a collaborative platform.\nHelp create/ identify various ways to support hackers, makers, startups and creative people. Promote experiential learning, co-creation and collaboration through the interests of people.\nThe aim is to bring in various communities together to work on the things they like, connect, share, teach and build.\nThe activity will focus on benefits of embracing the Open Practices. Understanding a few case studies and hands-on workshop to build the structure for various scenarios.\nThe participants will learn how research, knowledge exchange, learning and mentoring with each other can be driven.\nA part of the session will be focused around discussing what a open and inclusive space is to them.\nLearn how to make these spaces sustainable so they can continue make impact in long run.", 
-        "facilitator_array": [
-            "Vineel Reddy  Pindi"
-        ], 
-        "facilitators": "Vineel Reddy  Pindi", 
-        "id": "215", 
-        "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Collaborative Community Spaces"
-    }, 
-    {
-        "description": "In the ‘Modular frequencies’ workshop we’ll create a spacial audio installation! The HearUsHere app (location based audio) combined with iBeacons allows us to create a new sonic experience. Every iBeacon is a frequency that carriers a sound, when you get closer to one of these frequencies the audio will automatically fade in and cross fade with others. Using the speakers of our phones, we’ll create a collective audio experience. This results in unique and constantly changing soundscape created by the visitors and their navigation in the space.\nWithin the workshop you won’t only experience these modular frequencies. You’ll learn about frequencies, location based audio and you’ll hack the beacons to create your own ‘pirate radio’! (No coding skills required).", 
-        "facilitator_array": [
-            "Klasien van de Zandschulp"
-        ], 
-        "facilitators": "Klasien van de Zandschulp", 
-        "id": "230", 
-        "location": "", 
-        "pathways": "Global Village Recycling", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Modular frequencies - HearUsHere soundlab"
-    }, 
-    {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "591", 
-        "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Eye contact experiments"
-    }, 
-    {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "592", 
-        "location": "", 
-        "pathways": "Global Village Garage", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Connecting old games with the BBC Micro:Bit"
-    }, 
-    {
-        "description": "The vast technology penetration in emerging countries (such as Indonesia) led to a lot of people become online. The problem arises when they don't care or aware about online privacy which can lead to criminal activities such as fraud, scam, kidnapping, etc. There are a lot of tools that can enhance privacy in online world. But the main problem is online behavior. This session will discuss how to make people change their online behavior.", 
-        "facilitator_array": [
-            "Andi Darmawan"
-        ], 
-        "facilitators": "Andi Darmawan", 
-        "id": "286", 
-        "location": "", 
-        "pathways": "Global Village Recycling", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Online (Behavior) Privacy Awareness"
-    }, 
-    {
-        "description": "Mental health is an ignored corner of the tech world for far too many of us. We know it's an essential part of our personal and working lives, yet so little attention is paid to it due to stigma or lack of awareness. We all have some level of personal experience with it, whether we realise it or not.\nThis session will be addressing the changing place that mental health occupies in tech. We will discuss the past and current state of mental health and emotional wellness, factors that exist that affect it, and ways that we can change views and create a more supportive space for the growth of mental health in our community. Personal, cultural, political, economic and technological influences will be examined and combined in discussion and exercises to facilitate ideas about how to hack mental health in tech.", 
-        "facilitator_array": [
-            "Jennifer Geacone-Cruz"
-        ], 
-        "facilitators": "Jennifer Geacone-Cruz", 
-        "id": "303", 
-        "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Hacking Mental Health: Changing Views in Tech"
-    }, 
-    {
-        "description": "Rapidly-changing digital policies across the world are contributing to the decline of the democratizing power of the hyperlink and its ability to create the interconnected information space that was imagined by Tim Berners-Lee. One such example is the ancillary copyright law implemented in Spain in 2014–a proposal that was rejected EuroParl for EU-wide implementation, but threatens to return with the drafting of updates to the Copyright Directive. To fight back against these policies, an international network of over 90 digital rights organizations, businesses, journalists and Internet users from 30 countries have convened under the banner of “SaveTheLink” to catalogue and push back against sustained threats to the link. In this session, participants will learn about new policies that make it easier for governments and corporations to demand and implement link censorship, and will help identify threats and brainstorm tactics/solutions to address these threats to the link in an interactive workshop.", 
-        "facilitator_array": [
-            "Meghan  Sali"
-        ], 
-        "facilitators": "Meghan  Sali", 
-        "id": "330", 
-        "location": "", 
-        "pathways": "Global Village Athena Library, What's your policy?", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Is the hyperlink dead?"
-    }, 
-    {
-        "description": "Come and explore some of the best interactive factual narratives that have been recently released. This is an opportunity for you to experience factual interactive narratives, be inspired by them and maybe change the way you understand and perceive the world!", 
-        "facilitator_array": [
-            "Sandra Gaudenzi ", 
-            "Mike Robbins"
-        ], 
-        "facilitators": "Sandra Gaudenzi , Mike Robbins", 
-        "id": "469", 
-        "location": "", 
-        "pathways": "Global Village Recycling, [Pathway] Storytellers & coders united: together we can change the world!", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Inspiration time: explore recent projects that will change the way you understand the world"
-    }, 
-    {
-        "description": "Discussion about the happiness and how it relates to the  digital era.\nOutcomes - every participant to fell inspired and empowered to create positive interactions in their work and life.\nAwareness of the role of the individual, the media and technological impact on individual and community psychology.\nIdeas for how to create trust and positivity in their communities.", 
-        "facilitator_array": [
-            "Laura Gordon"
-        ], 
-        "facilitators": "Laura Gordon", 
-        "id": "450", 
-        "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Happiness in the Digital Era"
-    }, 
-    {
-        "description": "Our session will introduce participants to the process of AI design in a human-centric and empathetic way. Participants will have the opportunity to design the system rules for their own AI and will the co-create some potential societal impact scenarios that these designed AIs will have on relationships we have with each other, technology and the world at large.", 
-        "facilitator_array": [
-            "Nathan Miller"
-        ], 
-        "facilitators": "Nathan Miller", 
-        "id": "400", 
-        "location": "", 
-        "pathways": "Global Village Garage", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "How will artificial intelligence change our interactions with each other?"
-    }, 
-    {
-        "description": "The Local Web will explore options for local communication when the wider internet is not available. This will include self-hosting, community and mesh networks, device-to-device communication, delay tolerant networking, service discovery, and more. This workshop will explore possibilities for using the web and other internet technologies on a local, rather than global, scale.", 
-        "facilitator_array": [
-            "Josh King"
-        ], 
-        "facilitators": "Josh King", 
-        "id": "456", 
-        "location": "", 
-        "pathways": "Global Village Garden, Inclusive Communities", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "The Local Web"
-    }, 
-    {
-        "description": "A picture says a thousand words - and it’s never been easier to create images that can have real impact.\nIf you’d asked me a couple of years ago - “Can you draw?” I’d have said “Not really - I’m a programmer”. However, creating visual thoughts is now central to everything I do.\nThis session will aim to illustrate how a visual thought can be captured, created and shared and if this wasn’t just a lowly text form, I’d put a few examples in to show what I mean.\nUnfortunately, visual thoughts are limited by your ability to think…", 
-        "facilitator_array": [
-            "Bryan Mathers"
-        ], 
-        "facilitators": "Bryan Mathers", 
-        "id": "202", 
-        "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Capturing a visual thought"
-    }, 
-    {
-        "description": "Participants will design 'services' to improve crowdsourced and collaborative coverage of festivals.\nThis could be anything from a 'Mozilla Webmaker' for live content aggregation to Internet of Things-based services or even something entirely paper-based that doesn't use any electronic/computer tech.\nWe are especially interested in creating services that connect people together, both on-site and off-site.", 
-        "facilitator_array": [
-            "Raphael Velt"
-        ], 
-        "facilitators": "Raphael Velt", 
-        "id": "438", 
-        "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Supporting collaborative festival coverage"
-    }, 
-    {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "594", 
-        "location": "", 
-        "pathways": "Global Village Garage", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "20 new ways of sharing: learning co-creation through community engagements"
-    }, 
-    {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "593", 
-        "location": "", 
-        "pathways": "Global Village Garage", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Slow ethnography as a tool for co-creation"
-    }, 
-    {
-        "description": "Join the Seven Seconds Ago team as we delve into a world of 360 virtual reality experiences, connected to the wild! We'll explore the concept of near-realtime virtual presence, the technologies needed, our progress so far and a demo of our Google Cardboard meerkat experiment.", 
-        "facilitator_array": [
-            "Adrian Cockle, @ade ", 
-            "Alasdair Davies, @al2ka", 
-            "Tim Brooke, @timtwit"
-        ], 
-        "facilitators": "Adrian Cockle, Alasdair Davies, Tim Brooke", 
-        "id": "615", 
-        "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "sevensecondsago "
     }, 
     {
         "description": "This is where you can write your session description. Ideally it will be 50 words or less (if longer, we'll automatically truncate it) and without any fancy formatting. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.", 
@@ -1758,11 +1808,11 @@
         ], 
         "facilitators": "Julia Smith", 
         "id": "511", 
-        "location": "", 
+        "location": "7 - 703", 
         "pathways": "Mobile and Accessibility, New Technologies for Participation -- Challenge", 
-        "scheduleblock": "sunday-session-block-5", 
+        "scheduleblock": "sunday-session-block-6", 
         "space": "Journalism", 
-        "start": "11:30 AM", 
+        "start": "12:45 PM", 
         "title": "Data in Motion: SVG Animation for Information Visualization"
     }, 
     {
@@ -1773,7 +1823,7 @@
         ], 
         "facilitators": "Erik Westra", 
         "id": "573", 
-        "location": "", 
+        "location": "7 - 702", 
         "pathways": "Healthy Events and Networks", 
         "scheduleblock": "sunday-session-block-8", 
         "space": "Journalism", 
@@ -1784,12 +1834,13 @@
         "day": "Sunday", 
         "description": "Goals: Over 1,600,000 minutes of video are aired every hour on broadcast networks around the world. This session is about learning to hack with video. Come to get down and dirty with audio fingerprinting, transcription, closed captions, analysis techniques to bring this massive video corpus into the age of the app.\n\nAgenda: Over the course of two hours we will experiment with tools to ingest, analyze, and present video. Come armed with a laptop and a good way to take notes, we’ll provide the software and video samples from the 2016 US elections.\n\nWe will start by working with tools for accessing TV and closed captions. Then we will learn how to manipulate, clean, categorize, and extract information from the collected content. Finally we will explore how to use this information.\n\nThe format will be workshop-style (small groups of 3-5 people in each group), with the tools and recommended experiments provided by the facilitators for each of the three pipeline phases we will be targeting.\n\nTo show you a working larger system using most all the tools in this toolkit, we'll go over the TV News Political Ads project at Internet Archive.\n\nWe will break folks into 3-5 person groups (targeting groups of 5) which will make it easy to replicate across any number of participants.\n\nOutcomes:\n\n* Participants will walk away understanding how to use cutting edge tools and techniques for collecting, manipulating, presenting, and working with video.\n", 
         "facilitator_array": [
+            "Mark Boas", 
             "Dan Schultz", 
-            "Mark Boas"
+            "Tracy Jaquith"
         ], 
-        "facilitators": "Dan Schultz, Mark Boas", 
+        "facilitators": "Mark Boas, Dan Schultz, Tracy Jaquith", 
         "id": "576", 
-        "location": "", 
+        "location": "7 - 700", 
         "pathways": "", 
         "scheduleblock": "sunday-session-block-8", 
         "space": "Journalism", 
@@ -1804,11 +1855,11 @@
         ], 
         "facilitators": "Anatoly Bondarenko", 
         "id": "451", 
-        "location": "", 
+        "location": "7 - 706", 
         "pathways": "Tools and Analysis", 
-        "scheduleblock": "sunday-session-block-7", 
+        "scheduleblock": "sunday-session-block-8", 
         "space": "Journalism", 
-        "start": "02:45 PM", 
+        "start": "04:00 PM", 
         "title": "Breaking the curse (of dimensionality)"
     }, 
     {
@@ -1819,7 +1870,7 @@
         ], 
         "facilitators": "Francis Tseng", 
         "id": "454", 
-        "location": "", 
+        "location": "7 - 706", 
         "pathways": "New Technologies for Participation -- Challenge, Tools and Analysis", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Journalism", 
@@ -1834,7 +1885,7 @@
         ], 
         "facilitators": "Aaron Williams", 
         "id": "458", 
-        "location": "", 
+        "location": "7 - 702", 
         "pathways": "Mobile and Accessibility", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "Journalism", 
@@ -1849,7 +1900,7 @@
         ], 
         "facilitators": "Leah Bannon", 
         "id": "390", 
-        "location": "", 
+        "location": "7 - 706", 
         "pathways": "Healthy Events and Networks", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Journalism", 
@@ -1864,7 +1915,7 @@
         ], 
         "facilitators": "Paul Wafula", 
         "id": "464", 
-        "location": "", 
+        "location": "7 - 703", 
         "pathways": "Data and Impact", 
         "scheduleblock": "sunday-session-block-8", 
         "space": "Journalism", 
@@ -1879,7 +1930,7 @@
         ], 
         "facilitators": "Linda Sandvik", 
         "id": "463", 
-        "location": "", 
+        "location": "7 - 702", 
         "pathways": "Games and Understanding", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Journalism", 
@@ -1889,14 +1940,16 @@
     {
         "day": "Saturday", 
         "description": "Datasets and excel sheets are cool but let’s try to see data of our surroundings. We can find data in every street we pass, in every building we enter and in every issue we face. During the session we will discuss the creative and unusual ways of finding data and dealing with it. The aim of the session is the creation of a space where numbers and creative ideas will interact.\n\nThis session will make people to understand how serious issues can be raised by very simple and alternative way. For example, to show the health care level of one city it is enough to enter the toilet of each public health institution and to make photos showing the sanitary conditions. Data about the sanitary situation collected from all the toilets can become an indicator for understanding the level of health care service in that city.", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "facilitator_array": [
+            "Ani Hovhannisyan"
+        ], 
+        "facilitators": "Ani Hovhannisyan", 
         "id": "476", 
-        "location": "", 
+        "location": "7 - 706", 
         "pathways": "Data and Impact", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "Journalism", 
-        "start": "02:15 PM", 
+        "start": "12:00 PM", 
         "title": "Data is everywhere, let’s see it!"
     }, 
     {
@@ -1907,7 +1960,7 @@
         ], 
         "facilitators": "Livia Labate", 
         "id": "496", 
-        "location": "", 
+        "location": "7 - 703", 
         "pathways": "Data and Impact", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Journalism", 
@@ -1922,7 +1975,7 @@
         ], 
         "facilitators": "Eva Constantaras", 
         "id": "600", 
-        "location": "", 
+        "location": "7 - 706", 
         "pathways": "Data and Impact, Science communication", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Journalism", 
@@ -1937,7 +1990,7 @@
         ], 
         "facilitators": "Joe Germuska", 
         "id": "326", 
-        "location": "", 
+        "location": "7 - 700", 
         "pathways": "", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Journalism", 
@@ -1952,7 +2005,7 @@
         ], 
         "facilitators": "Samar Halarnkar", 
         "id": "499", 
-        "location": "", 
+        "location": "7 - 706", 
         "pathways": "Data and Impact", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "Journalism", 
@@ -1967,7 +2020,7 @@
         ], 
         "facilitators": "Juan Elosua", 
         "id": "502", 
-        "location": "", 
+        "location": "7 - 700", 
         "pathways": "Tools and Analysis, Science communication", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Journalism", 
@@ -1978,11 +2031,12 @@
         "day": "Sunday", 
         "description": "This session will explore the convergence of educational practices and design frameworks, drawn from a range of content area foci and program types, that can help foster youth-led, production-centered learning environments. Participants in the session will identify how these practices and frameworks can be applied to their current learning programs whether they be online, in-person, or a combination of the two.\nThe session seeks to bring together educators, technologists, game designers and players to identify challenges and success with current educational techniques while exploring explore game-based learning and its convergence with scientific inquiry and other domains. Together with educators and program designers from Game Changer Chicago Design Lab at The University of Chicago and Chicago Academy of Sciences/Peggy Notebaert Nature Museum, session participants will explore, create and share game-based tools for education. Participants will identify games and game design as effective tools for student learning and assessment.", 
         "facilitator_array": [
-            "Ashlyn  Sparrow"
+            "Ashlyn  Sparrow", 
+            "David Bild"
         ], 
-        "facilitators": "Ashlyn  Sparrow", 
+        "facilitators": "Ashlyn  Sparrow, David Bild", 
         "id": "446", 
-        "location": "", 
+        "location": "7 - 702", 
         "pathways": "Games and Understanding", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Journalism", 
@@ -1993,11 +2047,12 @@
         "day": "Saturday", 
         "description": "Anonymity is a controversial issue in the post-Snowden world. While serving as a vehicle for criminalization of various cultures, many communities experiment with concepts that try to resolve the destructive potential of anonymity (i.e. The Coral Project). How to create common sense and a healthy “we” with regard to anonymity?\nIn my session “Are We Ready For Anonymity?” I will present a storytelling project of the same name that will be created by a group of international journalists in Oct 2015.\nThe project I present tackles the world of online forums in the field of journalism and will foster a discussion among participating journalists, activists and coders.", 
         "facilitator_array": [
-            "Magdalena Taube"
+            "Magdalena Taube", 
+            "Francis Tseng"
         ], 
-        "facilitators": "Magdalena Taube", 
+        "facilitators": "Magdalena Taube, Francis Tseng", 
         "id": "272", 
-        "location": "", 
+        "location": "7 - 703", 
         "pathways": "Building Online Communities", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Journalism", 
@@ -2012,7 +2067,7 @@
         ], 
         "facilitators": "Kavya Sukumar", 
         "id": "512", 
-        "location": "", 
+        "location": "7 - 700", 
         "pathways": "", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Journalism", 
@@ -2027,7 +2082,7 @@
         ], 
         "facilitators": "Clay Ewing", 
         "id": "515", 
-        "location": "", 
+        "location": "7 - 702", 
         "pathways": "Games and Understanding, Leading and Building Community Through Participation", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "Journalism", 
@@ -2043,11 +2098,11 @@
         ], 
         "facilitators": "Samantha Sunne, Judith Morales", 
         "id": "246", 
-        "location": "", 
+        "location": "7 - 700", 
         "pathways": "", 
-        "scheduleblock": "saturday-session-block-2", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "Journalism", 
-        "start": "12:00 PM", 
+        "start": "02:15 PM", 
         "title": "Hacking for Journalists/Journalism for Hackers 101"
     }, 
     {
@@ -2058,11 +2113,11 @@
         ], 
         "facilitators": "Tara Adiseshan", 
         "id": "521", 
-        "location": "", 
+        "location": "7 - 700", 
         "pathways": "Building Online Communities", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "Journalism", 
-        "start": "02:15 PM", 
+        "start": "03:30 PM", 
         "title": "Computational Sociology (and Online Communities)"
     }, 
     {
@@ -2074,11 +2129,11 @@
         ], 
         "facilitators": "Georg Neumann, Tim Davies", 
         "id": "434", 
-        "location": "", 
+        "location": "7 - 703", 
         "pathways": "Data and Impact", 
-        "scheduleblock": "saturday-session-block-2", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "Journalism", 
-        "start": "12:00 PM", 
+        "start": "02:15 PM", 
         "title": "Opening up secret deals: Opportunities for business and citizens from open contracting data "
     }, 
     {
@@ -2091,7 +2146,7 @@
         ], 
         "facilitators": "Michael Donohoe, Matt Dennewitz, Trei Brundrett", 
         "id": "525", 
-        "location": "", 
+        "location": "7 - 702", 
         "pathways": "Global Village Athena Library", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "Journalism", 
@@ -2106,7 +2161,7 @@
         ], 
         "facilitators": "Martin Nahuel Rabaglia", 
         "id": "441", 
-        "location": "", 
+        "location": "7 - 700", 
         "pathways": "", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "Journalism", 
@@ -2122,7 +2177,7 @@
         ], 
         "facilitators": "Annabel Church, Peter MacRobert", 
         "id": "528", 
-        "location": "", 
+        "location": "7 - 706", 
         "pathways": "Healthy Events and Networks", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "Journalism", 
@@ -2137,7 +2192,7 @@
         ], 
         "facilitators": "Alastair Coote", 
         "id": "227", 
-        "location": "", 
+        "location": "7 - 700", 
         "pathways": "Mobile and Accessibility", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Journalism", 
@@ -2148,15 +2203,16 @@
         "day": "Sunday", 
         "description": "Participants will learn and share best practices for engaging with online communities in a structured and meaningful way. Including how the Guardian uses tools like Guardian Witness to achieve this. As well as coming up with ideas for how this could be done better in the future!", 
         "facilitator_array": [
-            "Gideon Goldberg"
+            "Gideon Goldberg", 
+            "James Gorrie"
         ], 
-        "facilitators": "Gideon Goldberg", 
+        "facilitators": "Gideon Goldberg, James Gorrie", 
         "id": "225", 
-        "location": "", 
+        "location": "7 - 702", 
         "pathways": "Building Online Communities", 
-        "scheduleblock": "sunday-session-block-8", 
+        "scheduleblock": "sunday-session-block-6", 
         "space": "Journalism", 
-        "start": "04:00 PM", 
+        "start": "12:45 PM", 
         "title": "Flattening the ivory tower: harnessing the knowledge of readers for Open Journalism"
     }, 
     {
@@ -2167,7 +2223,7 @@
         ], 
         "facilitators": "Trei Brundrett", 
         "id": "529", 
-        "location": "", 
+        "location": "7 - 703", 
         "pathways": "Building Online Communities", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "Journalism", 
@@ -2182,7 +2238,7 @@
         ], 
         "facilitators": "Sisi Wei", 
         "id": "553", 
-        "location": "", 
+        "location": "7 - 702", 
         "pathways": "Games and Understanding", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Journalism", 
@@ -2197,11 +2253,11 @@
         ], 
         "facilitators": "Anne Li", 
         "id": "205", 
-        "location": "", 
+        "location": "7 - 706", 
         "pathways": "", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "Journalism", 
-        "start": "02:15 PM", 
+        "start": "03:30 PM", 
         "title": "No Good Number Goes Unpunished"
     }, 
     {
@@ -2213,11 +2269,11 @@
         ], 
         "facilitators": "Michael Corey, Julia Smith", 
         "id": "578", 
-        "location": "", 
+        "location": "7 - 703", 
         "pathways": "", 
-        "scheduleblock": "saturday-session-block-1", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "Journalism", 
-        "start": "10:45 AM", 
+        "start": "03:30 PM", 
         "title": "Tufte: The Musical"
     }, 
     {
@@ -2228,7 +2284,7 @@
         ], 
         "facilitators": "Sydette Harry", 
         "id": "572", 
-        "location": "", 
+        "location": "7 - 703", 
         "pathways": "Building Online Communities", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Journalism", 
@@ -2295,7 +2351,7 @@
         "location": "", 
         "pathways": "Seeing–Drawing–Producing Smilies", 
         "scheduleblock": "", 
-        "space": "", 
+        "space": "Localization", 
         "title": "Digitalise Smiley Icon"
     }, 
     {
@@ -2325,7 +2381,7 @@
         "title": "What does being participatory & playful in a learning setting look like?"
     }, 
     {
-        "description": "", 
+        "description": "It will give them an overview on how it is possible to integrate technology and innovation with Social Values and Ethics. Some guidelines how what does being a social innovator means and why they should consider this as the best time and opportunity to make a difference and embrace a social activities into their company culture.", 
         "facilitator_array": [
             "Maurizio Gioli"
         ], 
@@ -2338,6 +2394,7 @@
         "title": "Link Technology to Social Innovation"
     }, 
     {
+        "day": "Sunday", 
         "description": "Cristol Kapp, a TeacherPreneur, completely transformed the Clifton Hills Elementary School Library into a library makerspace. She has created a space that offers students the opportunity to explore, make, learn, and share at their pace. In this session you will learn how to use Design Thinking to reimagine your context. Together, we’ll create a design board centered around the challenge of redesigning a space to allow participants to soar.", 
         "facilitator_array": [
             "Cristol  Kapp, Librarian, Clifton Hills Elementary School, @mrs_kapp"
@@ -2346,8 +2403,9 @@
         "id": "270", 
         "location": "", 
         "pathways": "[MLN] Learning & Leading, [youthZone] Pathway - News to me!", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-6", 
         "space": "Mozilla Learning Networks", 
+        "start": "12:45 PM", 
         "title": "Redesigning your Context: A Design Thinking Approach"
     }, 
     {
@@ -2364,9 +2422,11 @@
         "title": "From Participation to Collaboration"
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "Government agencies, learning institutions, international organizations and other stakeholders have sought to leverage digital learning environments to promote youth leadership and civic engagement. While some of these platforms have been successfully employed, cultivating genuine youth participation often comes with challenges.This interactive workshop is designed to provide participants with the opportunity to contribute to an open educational resource for authentic youth leadership.", 
+        "facilitator_array": [
+            "Ariam Mogos, @aamogos, Global Kids "
+        ], 
+        "facilitators": "Ariam Mogos", 
         "id": "366", 
         "location": "", 
         "pathways": "Youth Learning, [MLN] Voices of Diverse Leaders", 
@@ -2386,24 +2446,30 @@
         "title": "Using Digital Fabrication Techniques to Make DIY Activist Gear"
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "he Sessions’ goal is to learn the strategy and approach of how women are represented in the developed countries and how the blueprint can be used to make a ground plan for the change process in developing countries.This will be an interactive activity that will divide participants in groups of 3-4 people, each team will be expected to brainstorm and note down the challenges, achievements, impacts, opportunities and the potential of women in technology and the workforce scenario", 
+        "facilitator_array": [
+            "Alifiyah Ganijee, @alifyaganijee, Mozilla Mombasa "
+        ], 
+        "facilitators": "Alifiyah Ganijee", 
         "id": "247", 
         "location": "", 
-        "pathways": "Participation Travel Stipend, Scaling Participatory Learning Experiences, [MLN] Voices of Diverse Leaders", 
+        "pathways": " Scaling Participatory Learning Experiences, [MLN] Voices of Diverse Leaders", 
         "scheduleblock": "", 
         "space": "Mozilla Learning Networks", 
         "title": "Fostering inclusivity and diversity in the Technology space"
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "day": "Sunday", 
+        "description": "Grab your lunch and join us in the Mozilla Learning Network space during the lunch block to hear from the leading Gigabit cities of Chattanooga, Tennessee and Kansas City about how high-speed networks can be leveraged via the Hive model to impact learning and to bridge the digital divide.", 
+        "facilitator_array": [
+            "Aaron Deacon, @aarondeacon, Kansas City Digital Drive", 
+            "Michael Baskin, City of Chattanooga"
+        ], 
+        "facilitators": "Aaron Deacon, Michael Baskin", 
         "id": "604", 
         "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
+        "pathways": "[MLN] Learning & Leading, [MLN] Teaching Web Literacy with Mozilla Clubs, [MLN] Voices of Diverse Leaders", 
+        "scheduleblock": "all-sunday", 
         "space": "Mozilla Learning Networks", 
         "title": "MLN Sunday Lunchtime Learning"
     }, 
@@ -2423,9 +2489,12 @@
         "title": "Privacy and Libraries"
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "Participates will learn about the mission and vision of our Center and the need for serving underrepresented girls and women in science, technology, engineering, and mathematics (STEM). Attendees will develop and execute a personalized social media message and create a global call to action.", 
+        "facilitator_array": [
+            "Kimberly A. Scott, Ed.D., @cgest_asu, Center for Gender Equity in Science and Technology, Arizona State University", 
+            "Robin Baskin McNulty, M.Ed., @cgest_asu, Center for Gender Equity in Science and Technology, Arizona State University"
+        ], 
+        "facilitators": "Kimberly A. Scott, Robin Baskin McNulty", 
         "id": "357", 
         "location": "", 
         "pathways": "[MLN] Voices of Diverse Leaders", 
@@ -2483,7 +2552,7 @@
         "pathways": "", 
         "scheduleblock": "", 
         "space": "Mozilla Learning Networks", 
-        "title": "MLN Web Literacy Feedback"
+        "title": "MLN Web Literacy Feedback Station"
     }, 
     {
         "description": "Hosting and running a club isn't easy, neither is dealing with the costs. Need help reaching out to local partners to help fund parts of the event or supply resources? Want to build a microfundraising site where people can donate to your club? Find out how you can fundraise to help support your clubs. This session aims at empowering individuals and groups with the know-how and essential understanding of basic tips and methods of fundraising for their clubs or programs.", 
@@ -2491,7 +2560,7 @@
         "facilitators": "", 
         "id": "226", 
         "location": "", 
-        "pathways": "Participation Travel Stipend, [MLN] Teaching Web Literacy with Mozilla Clubs", 
+        "pathways": " [MLN] Teaching Web Literacy with Mozilla Clubs", 
         "scheduleblock": "", 
         "space": "Mozilla Learning Networks", 
         "title": "Tips, tools and resources to help fund your local club, program or group"
@@ -2510,9 +2579,11 @@
         "title": "Locating and collecting geospatial data to empower youth and communities"
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "This workshop will showcase some of the innovative work Chayn has been doing with openly licensed toolkits, platforms and hackathons to tackle violence against women from India, Pakistan to UK & Lebanon. In our experience, the empowerment movement is not making the impact possible because charities are reluctant to use, distribute or create openly licensed work. The latter part of the workshop will be a session of creative collaboration to brainstorm ways to push the use of open source materials that we or other organisations have produced with a focus on humanitarian work.", 
+        "facilitator_array": [
+            "Hera Hussein, @chaynorg, Chayn"
+        ], 
+        "facilitators": "Hera Hussein", 
         "id": "384", 
         "location": "", 
         "pathways": "[MLN] Voices of Diverse Leaders", 
@@ -2573,13 +2644,16 @@
         "title": "MLN Friday Opening Meetup"
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "day": "Saturday", 
+        "description": "Grab your lunch and join us in the Mozilla Learning Network space during the lunch block to hear about the New York City Department of Education's Software Engineering Education pilot and about teaching web literacy skills in formal education settings", 
+        "facilitator_array": [
+            "Don Miller, New York City Department of Education"
+        ], 
+        "facilitators": "Don Miller", 
         "id": "603", 
         "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
+        "pathways": "[MLN] Learning & Leading, [MLN] Teaching Web Literacy with Mozilla Clubs, [MLN] Voices of Diverse Leaders", 
+        "scheduleblock": "all-saturday", 
         "space": "Mozilla Learning Networks", 
         "title": "MLN Saturday Lunchtime Learning"
     }, 
@@ -2589,30 +2663,30 @@
         "facilitators": "", 
         "id": "504", 
         "location": "", 
-        "pathways": "Participation Travel Stipend, [MLN] Teaching Web Literacy with Mozilla Clubs", 
+        "pathways": " [MLN] Teaching Web Literacy with Mozilla Clubs", 
         "scheduleblock": "", 
         "space": "Mozilla Learning Networks", 
         "title": "How to increase digital literacy with women globally through on-going programs"
     }, 
     {
-        "description": "", 
+        "description": "Come share your experiences at MozFest with other participants and with those who can't be here! Write a blog post, share a tweet, or draw a picture - this MLN hub station is all all about helping to capture your time at MozFest. Operating all weekend.", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "584", 
         "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
+        "pathways": "[MLN] Learning & Leading, [MLN] Teaching Web Literacy with Mozilla Clubs, [MLN] Voices of Diverse Leaders", 
+        "scheduleblock": "all-weekend", 
         "space": "Mozilla Learning Networks", 
         "title": "MLN Documentation Station"
     }, 
     {
-        "description": "", 
+        "description": "How do I start a Mozilla Club in my city? What's a Hive? What is Mozilla doing with curriculum? Come to the MLN Hub Help Desk to learn more about the MLN Space pathways or to get your questions about Hive, Clubs, or other Mozilla Learning Network programs answered.", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "583", 
         "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
+        "pathways": "[MLN] Learning & Leading, [MLN] Teaching Web Literacy with Mozilla Clubs, [MLN] Voices of Diverse Leaders", 
+        "scheduleblock": "all-weekend", 
         "space": "Mozilla Learning Networks", 
         "title": "MLN Help Desk"
     }, 
@@ -2725,9 +2799,12 @@
         "title": "Retaining and growing communities online and offline. "
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "Participants will learn about online resources for advocacy work and how to connect them in order to create online platform to serve their communities. This will be a hand-on workshop where participants will identify non-technical advocacy users, user technical needs and free or low cost technical solutions that do not require high-technical skill for installation or implementation.", 
+        "facilitator_array": [
+            "Tiffany Andrews, @TiffiAndrews, Code for America", 
+            "Nikki Zeichner, @nikzei, Code for America"
+        ], 
+        "facilitators": "Tiffany Andrews, Nikki Zeichner", 
         "id": "375", 
         "location": "", 
         "pathways": "[MLN] Voices of Diverse Leaders", 
@@ -2736,9 +2813,11 @@
         "title": "No Stack for Social Justice: How can we remove barriers to tech for those advocates on the ground?"
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "Participants in this session will be able to identify obstacles that they encounter working with diverse learners on both ends of the academic spectrum, discuss solutions to engage diverse learners in digital learning and learn about best practices that have been used to engage students on both ends of the academic spectrum. The group will then work on how to set goals for implementation into each participants individual programs and develop a community of educators seeking to engage diverse learners that can support each other in the future.", 
+        "facilitator_array": [
+            "Gina  Tesoriero, @STEMsuccessEDU,  New York City Department of Education (NYC DOE)"
+        ], 
+        "facilitators": "Gina  Tesoriero", 
         "id": "105", 
         "location": "", 
         "pathways": "[MLN] Voices of Diverse Leaders", 
@@ -2747,9 +2826,11 @@
         "title": "Digital Learning for Diverse Learners (on both ends of the academic spectrum)"
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "This workshop dives into decentralized organizing practices and principles that help answer these questions and explore what it means to begin by listening. Through a mixture of interactive activities and presentations, members of Allied Media Projects, a Detroit based non-profit, will share what they’ve learned over 18 years of organizing community-centered media and technology projects. Together we will explore how the practice of listening strengthens our capacities to design transformative technology projects.", 
+        "facilitator_array": [
+            "Dian Nucera, @Allied_Media, Allied Media Projects"
+        ], 
+        "facilitators": "Dian Nucera", 
         "id": "590", 
         "location": "", 
         "pathways": "[MLN] Voices of Diverse Leaders", 
@@ -2765,7 +2846,7 @@
         "facilitators": "Su Adams", 
         "id": "52", 
         "location": "", 
-        "pathways": "Participation Travel Stipend, [MLN] Teaching Web Literacy with Mozilla Clubs", 
+        "pathways": " [MLN] Teaching Web Literacy with Mozilla Clubs", 
         "scheduleblock": "", 
         "space": "Mozilla Learning Networks", 
         "title": "Run the Gauntlet"
@@ -2867,10 +2948,9 @@
         "day": "Sunday", 
         "description": "There is a growing challenge of effective storage, sharing, management and analysis of large multifaceted scientific data. In this session we will share our experience in building a collaborative system for managing complex research data and discuss the ongoing and emerging challenges in data management from the user experience point of view. We will share what we learned as developers at HUBzero, a well established open source web platform for scientific research, learning, and collaboration serving communities of close to 500,000 users across a variety of disciplines, including nanotechnology, manufacturing, climate modeling and medical research. We will brainstorm on new ways to explore scientific data on the web and how we can design better web systems and interfaces to help researchers with their complex data needs.", 
         "facilitator_array": [
-            "Alissa Nedossekina", 
-            "David Lomas"
+            "Alissa Nedossekina"
         ], 
-        "facilitators": "Alissa Nedossekina, David Lomas", 
+        "facilitators": "Alissa Nedossekina", 
         "id": "493", 
         "location": "", 
         "pathways": "Citizen Science, Science communication", 
@@ -3038,10 +3118,10 @@
         "description": "In September 2015 our lab, the MIT Lab of Computational Physiology, will be publicly releasing MIMIC-II, the latest version of a unique, publicly accessible critical care database. The data comprises detailed information on ~60,000 patient stays in critical care.\nIn the workshop we will work with participants to carry out an analysis of the dataset using SQL and Python. Our aims include (1) emphasise the value of open health data (2) teach analysis and computing skills (3) create teams who will go on to publish research studies using MIMIC (4) and ultimately lead us towards better patient care and outcomes.\nThe workshop would be based on the \"MIT Critical Care Datathons\" that we have held at MIT: http://criticaldata.mit.edu", 
         "facilitator_array": [
             "Tom Pollard", 
-            "Alistair Johnson", 
-            "Justin Salciccioli"
+            "Matthieu Komorowski", 
+            "Alistair Johnson, Justin Salciccioli"
         ], 
-        "facilitators": "Tom Pollard, Alistair Johnson, Justin Salciccioli", 
+        "facilitators": "Tom Pollard, Matthieu Komorowski, Alistair Johnson", 
         "id": "396", 
         "location": "", 
         "pathways": "", 
@@ -3354,15 +3434,17 @@
         "title": "African perspectives on music for the open web"
     }, 
     {
-        "description": "", 
+        "day": "Saturday", 
+        "description": "Two specially adapted Raspberry Pis will be travelling to the International Space Station with astronaut Tim Peake in December. This session introduces you to the Astro Pi project, how to set it up and how to use the many features of this genuine piece of space certified hardware and how you can link to this amazing project in your home and schools.", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "556", 
         "location": "", 
         "pathways": " [youthZone] Pathway Tech - What else you can do with it, [youthZone] Teaching kit", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "Astro Pi workshop with a UK space agency element"
+        "start": "10:45 AM", 
+        "title": "Astro Pi - Your Code in Space (Room 209/10 2nd floor)"
     }, 
     {
         "day": "Saturday", 
@@ -3386,7 +3468,7 @@
         "facilitators": "Yofie Setiawan", 
         "id": "59", 
         "location": "", 
-        "pathways": "Participation Travel Stipend", 
+        "pathways": "", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
         "start": "02:15 PM", 
@@ -3416,7 +3498,7 @@
         "facilitators": "Rabimba Karanjai", 
         "id": "378", 
         "location": "", 
-        "pathways": "Participation Travel Stipend, [youthZone] Pathway Tech - What else you can do with it", 
+        "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "youthZone - Through the lens of youths", 
         "start": "12:45 PM", 
@@ -3431,7 +3513,7 @@
         "facilitators": "Rabimba Karanjai", 
         "id": "378", 
         "location": "", 
-        "pathways": "Participation Travel Stipend, [youthZone] Pathway Tech - What else you can do with it", 
+        "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
         "start": "02:15 PM", 
@@ -3592,7 +3674,7 @@
         "facilitators": "Adriano  Cupello", 
         "id": "392", 
         "location": "", 
-        "pathways": "Participation Travel Stipend", 
+        "pathways": "", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
         "start": "02:15 PM", 
@@ -3661,7 +3743,7 @@
         "facilitators": "Sara Mansouri", 
         "id": "92", 
         "location": "", 
-        "pathways": "Participation Travel Stipend", 
+        "pathways": "", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
         "start": "02:15 PM", 
@@ -3718,7 +3800,7 @@
         "facilitators": "Mayur Patil", 
         "id": "316", 
         "location": "", 
-        "pathways": "Participation Travel Stipend", 
+        "pathways": "", 
         "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
         "title": "Webmaker App \"A Digital Lo-Fi, No-Fi! Teaching Kit\""
@@ -3747,7 +3829,7 @@
         "facilitators": "Rabimba Karanjai", 
         "id": "71", 
         "location": "", 
-        "pathways": "Participation Travel Stipend, [youthZone] Pathway Tech - What else you can do with it", 
+        "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
         "start": "02:15 PM", 
@@ -3808,5 +3890,18 @@
         "space": "youthZone - Through the lens of youths", 
         "start": "12:00 PM", 
         "title": "Calling all Minecraft Builders! Using Minecraft to foster civic engagement, self-efficacy & agency"
+    }, 
+    {
+        "description": "Learn a little bit of HTML and CSS, whilst saving kittens in the process. In Erase All Kittens (https://eraseallkittens.com/), players must explore a fantasy Internet universe, using code to change the world around them, in order to defeat the evil Operation E.A.K. - Erase All Kittens.\nE.A.K. is aimed at anyone aged 7+, but kids much younger than that have enjoyed learning with E.A.K. too.", 
+        "facilitator_array": [
+            "Joe Dytrych"
+        ], 
+        "facilitators": "Joe Dytrych", 
+        "id": "140", 
+        "location": "", 
+        "pathways": "", 
+        "scheduleblock": "", 
+        "space": "youthZone - Through the lens of youths", 
+        "title": "E.A.K. Walk-In - Save Kittens, Learn HTML!"
     }
 ]
