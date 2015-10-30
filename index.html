@@ -109,10 +109,7 @@
                 <% } %>
                 <% if (session.start) { %>
                 <div class="session-time">
-                    <% if (session.day) { %>
-                    <%= session.day %>, 
-                    <% } %>
-                    <%= session.start %>
+                    <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %>
                 </div>
                 <% } %>
                 <% if (session.space || session.location) { %>
@@ -134,10 +131,7 @@
             <h4><%= smartypants(session.title) %></h4>
             <% if (session.start) { %>
             <div class="session-time">
-                <% if (session.day) { %>
-                <%= session.day %>, 
-                <% } %>
-                <%= session.start %>
+                <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %>
             </div>
             <% } %>
             <% if (session.space || session.location) { %>
@@ -168,10 +162,7 @@
                 <div class="meta">
                     <% if (session.start) { %>
                     <div class="session-time">
-                        <% if (session.day) { %>
-                        <%= session.day %>, 
-                        <% } %>
-                        <%= session.start %>
+                        <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %>
                     </div>
                     <% } %>
                     <% if (session.space || session.location) { %>
