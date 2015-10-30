@@ -5,8 +5,10 @@ function Schedule(options) {
         // TODO: make these configurable, passed in as options
         // when you create a Schedule() instance on the page
         schedule.sourceJSON = 'sessions.json';
+        schedule.spacesJSON = 'spaces.json';
         schedule.$container = $('#schedule');
         schedule.$toggles = $('<ul>').appendTo('#schedule-controls');
+        schedule.$pageLinks = $('#page-links');
         // if true, avoids using history.back(), which doesn't work offline
         schedule.offlineMode = false;
 
@@ -19,12 +21,14 @@ function Schedule(options) {
             { name: 'All', displayName: 'All' }
         ];
         schedule.sessionList = [];
+        schedule.spaceList = [];
+        schedule.pathwayMap = [];
         
         // check for saved sessions in localStorage. Because localStorage only
         // takes strings, split on commas so we get an array of session IDs
         if (Modernizr.localstorage) {
-            localStorage['srccon_saved_sessions'] = localStorage['srccon_saved_sessions'] || '';
-            schedule.savedSessionIDs = _.compact(localStorage['srccon_saved_sessions'].split(',')) || [];
+            localStorage['mozfest2015_saved_sessions'] = localStorage['mozfest2015_saved_sessions'] || '';
+            schedule.savedSessionIDs = _.compact(localStorage['mozfest2015_saved_sessions'].split(',')) || [];
         }
 
         // add UI elements
@@ -46,8 +50,8 @@ function Schedule(options) {
             schedule.makeSchedule();
         } else {
             // otherwise determine relevant detail page and call route()
-            var hashArray = window.location.hash.substring(1).split('-');
-            schedule.route(hashArray[0], hashArray[1])
+            var hashArray = window.location.hash.substring(1).split(/-(.+)?/);
+            schedule.route(hashArray[0], hashArray[1]);
         }
     }
     
@@ -66,13 +70,28 @@ function Schedule(options) {
                 schedule.chosenTab = pageID;
                 schedule.makeSchedule();
                 break;
+            case "_spaces":
+                // shows list of Spaces and their description
+                schedule.displaySpacesList();
+                break;
+            case "_space":
+                // show sessions in a space based on space slug in URL
+                schedule.displaySessionsOfSpace(pageID);
+                break;
+            case "_pathways": 
+                // shows list of all pathways
+                schedule.displayPathwaysList();
+                break;
+            case "_pathway":
+                // show sessions in a pathway based on pathway slug in URL
+                schedule.getFilteredSessions("pathways", pageID);
+                break;
         }
     }
 
     // call makeSchedule() to display the selected list of sessions
     schedule.makeSchedule = function() {
         schedule.loadChosenTab();
-        schedule.$toggles.show();
     }
 
     // loadSessions() gets session data and sorts it for display. Checks
@@ -100,6 +119,27 @@ function Schedule(options) {
         }
     }
 
+    // loadSpaces() gets Spaces data and sorts it for display. Checks
+    // for local data first, then falls back to ajax call to spacesJSON file.
+    // An optional callback function can be passed in.
+    schedule.loadSpaces = function(callback) {
+        if (schedule.spaceList.length) {
+            // if the app already has collected Spaces data, fire the callback
+            if (callback) {
+                callback();
+            }
+        } else {
+            // if there's no Spaces data yet, fetch from JSON
+            $.getJSON(schedule.spacesJSON)
+                .done(function(results) {
+                    schedule.spaceList = results;
+                    if (callback) {
+                        callback();
+                    }
+                });
+        }
+    }
+
     // sortSessionGroups() performs basic sorting so session lists
     // are rendered in proper order
     // TODO: pass in a sorting function rather than hard-code it here
@@ -107,7 +147,8 @@ function Schedule(options) {
         schedule.sessionList = _.sortBy(data, function(i) {
             // simple way to divide sessions into groups by length
             return i.length != '1 hour';
-        })
+        });
+        schedule.getPathwaysCountMap();
     }
 
     // writeSession() renders session data into a template fragment.
@@ -185,10 +226,16 @@ function Schedule(options) {
             // if sessionList has a session matching chosen ID, render it
             var templateData = {
                 session: session,
+                slugify: schedule.slugify, // context function for string-matching
                 smartypants: schedule.smartypants // context function for nice typography
             }
-            // clear selected tab from "schedule-controls"
-            schedule.$toggles.find('a').removeClass('active');
+            // add pathway array for individual links
+            templateData.session.pathwayArray = _.each(session.pathways.split(','), function(i) {
+                schedule.trim(i);
+            })
+            
+            // clear currently highlighted tab/page link
+            schedule.clearHighlightedPage();
 
             schedule.$container.html(schedule.sessionDetailTemplate(templateData));
             // allowing faving from detail page too
@@ -285,10 +332,40 @@ function Schedule(options) {
         }
     }
     
+    // given a JSON key name `filterKey`, find session objects with values
+    // that contain the string `filterValue`. This is a substring comparison
+    // based on slugified versions of key and value, e.g. "my-great-pathway"
+    schedule.getFilteredSessions = function(filterKey, filterValue) {
+        schedule.filterKey = filterKey || schedule.filterKey;
+        schedule.filterValue = filterValue || schedule.filterValue;
+
+        if (!schedule.sessionList.length) {
+            // this is first page load so fetch session data
+            schedule.loadSessions(schedule.showFilteredSessions);
+        } else {
+            schedule.showFilteredSessions();
+        }
+    }
+    schedule.showFilteredSessions = function() {
+        schedule.clearHighlightedPage();
+
+        if (!!schedule.filterKey) {
+            schedule.filteredList = _.filter(schedule.sessionList, function(v, k) {
+                return (schedule.slugify(v[schedule.filterKey]).indexOf(schedule.slugify(schedule.filterValue)) >= 0);
+            });
+        }
+
+        schedule.$container.html(schedule.sessionListTemplate);
+        schedule.addCaptionOverline("<h2>" + schedule.filterKey + ": " + schedule.filterValue.replace(/-/g," ") + "</h2>");
+        schedule.addSessionsToSchedule(schedule.filteredList);
+        schedule.transitionElementIn(schedule.$container);
+    }
+
     // based on the value of chosenTab, render the proper session list
     schedule.loadChosenTab = function() {
-        // make sure the selected tab is lit
-        schedule.$toggles.find('a').removeClass('active');
+        // clear currently highlighted tab/page link
+        // and make sure the selected tab is lit
+        schedule.clearHighlightedPage();
         $('#show-'+schedule.chosenTab).addClass('active');
         
         if (schedule.chosenTab == 'favorites') {
@@ -346,11 +423,18 @@ function Schedule(options) {
     }
     
     // provide some user instructions at top of page
-    schedule.addCaptionOverline = function() {
-        // provide some user instructions at top of page
-        //schedule.$container.append('<p class="overline"><i class="fa fa-cc"></i> icon indicates sessions with <a href="http://srccon.org/transcription/">live captions</a> available to stream on your laptop or device</p>');
+    schedule.addCaptionOverline = function(captionHTML) {
+        schedule.$container.prepend("<div class='page-caption'></div>");
+        schedule.$container.find('.page-caption').html(captionHTML);
     }
     
+    schedule.clearHighlightedPage = function() {
+        // clear currently highlighted tab (if any) from "schedule-controls"
+        schedule.$toggles.find('a').removeClass('active');
+        // clear highlighted page link (if any) from "page-links" on the nav bar
+        schedule.$pageLinks.find('a').removeClass('active');
+    }
+
     // adds search filter and expanded data toggle to top of "All" sessions list
     schedule.addListControls = function() {
         schedule.addCaptionOverline();
@@ -369,10 +453,13 @@ function Schedule(options) {
             var filterVal = $(this).val();
             if (filterVal) {
                 // compare current value of search input across session data,
-                // matching against titles, session leader names, descriptions
+                // matching against titles, session leader names, descriptions,
+                // pathways and spaces
                 var filteredSessions = _.filter(schedule.sessionList, function(v, k) {
                     return (v.title.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                            || (v.facilitators.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
+                           || (v.pathways.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
+                           || (v.space.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                            || (v.description.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0);
                 });
                 // get the IDs of the matching sessions ...
@@ -426,8 +513,103 @@ function Schedule(options) {
         });
     }
     
+    // display the list of Spaces and their descriptions
+    schedule.displaySpacesList = function() {
+        schedule.clearHighlightedPage();
+        schedule.$pageLinks.find('#spaces-page-link').addClass('active');
+        schedule.$container.html("");
+        schedule.addCaptionOverline("<h3><span>Spaces</span></h3>");
+
+        schedule.loadSpaces(function() {
+            _.each(schedule.spaceList, function(v, k) {
+                // prep the Space data for the template
+                var templateData = {
+                    space: {
+                        name: v.name,
+                        description: v.description,
+                        iconSrc: v.iconSrc,
+                        slugify: schedule.slugify
+                    }
+                };
+                schedule.$container.append(schedule.spacesListTemplate(templateData));
+            });
+        });
+    }
+
+    // display all sessions of a particular Space
+    schedule.displaySessionsOfSpace = function(space_slug) {
+        schedule.getFilteredSessions("space", space_slug);
+    }
+
+    // display the list of Spaces and their descriptions
+    schedule.displayPathwaysList = function() {
+        if (!schedule.sessionList.length) {
+            schedule.loadSessions(schedule.appendPathwayListItems);
+        } else {
+            schedule.appendPathwayListItems();
+        }
+    }
+
+    schedule.appendPathwayListItems = function() {
+        schedule.clearHighlightedPage();
+        schedule.$pageLinks.find('#pathways-page-link').addClass('active');
+        schedule.$container.html("");
+        schedule.addCaptionOverline("<h3><span>Pathways</span></h3>");
+
+        _.each(_.sortBy(_.keys(schedule.pathwayMap)), function(v, k) {
+            // prep the Pathway data for the template
+            var templateData = {
+                name: v,
+                numSessions: schedule.pathwayMap[v],
+                slugify: schedule.slugify
+            };
+            schedule.$container.append(schedule.pathwayMapTemplate(templateData));
+        });
+    }
+
+    schedule.getPathwaysCountMap = function() {
+        if ( schedule.pathwayMap.length == 0 ) {
+            var pathwaysArray = [];
+            _.each(schedule.sessionList, function(session) {
+                pathwaysArray.push(session.pathways.split(","));
+            });
+            schedule.pathwayMap = _.countBy(_.flatten(pathwaysArray));
+        }
+    }
+
+
     // add the standard listeners for various user interactions
     schedule.addListeners = function() {
+        // clicking on the "Spaces" link on the nav bar displays the list of Spaces
+        schedule.$pageLinks.on('click', '#spaces-page-link', function(e) {
+            schedule.updateHash('spaces');
+            schedule.displaySpacesList();
+        });
+
+        // clicking on the "Spaces" link on the nav bar displays the list of Spaces
+        schedule.$pageLinks.on('click', '#pathways-page-link', function(e) {
+            schedule.updateHash('pathways');
+            schedule.displayPathwaysList();
+        });
+
+        // clicking on "See all events in this Space" shows all sessions within that particular Space
+        schedule.$container.on('click', '.see-all-events-in-this-space', function(e) {
+            e.preventDefault();
+
+            var space_slug = $(this).parents(".space-list-item").data("space");
+            schedule.updateHash('space-'+space_slug);
+            schedule.displaySessionsOfSpace(space_slug);
+        });
+
+        // clicking on "See all events in this Space" shows all sessions within that particular Space
+        schedule.$container.on('click', '.pathway-list-item h4 a', function(e) {
+            e.preventDefault();
+
+            var pathway_slug = $(this).parents(".pathway-list-item").data("pathway");
+            schedule.updateHash('pathway-'+pathway_slug);
+            schedule.getFilteredSessions("pathways", pathway_slug);
+        });
+
         // clicking on session "card" in a list opens session detail view
         schedule.$container.on('click', '.session-list-item', function(e) {
             e.preventDefault();
@@ -511,7 +693,7 @@ function Schedule(options) {
                 }
             }
             // stash the list as a string in localStorage
-            localStorage['srccon_saved_sessions'] = schedule.savedSessionIDs.join();
+            localStorage['mozfest2015_saved_sessions'] = schedule.savedSessionIDs.join();
             // update the data associated with this user's favorites
             schedule.updateSavedSessionList();
         });
@@ -571,6 +753,54 @@ function Schedule(options) {
             // ellipses
             .replace(/\.{3}/g, '\u2026');
     }
+    
+    // underscore.string formatters
+    schedule.escapeRegExp = function(str) {
+        if (str == null) return '';
+        return String(str).replace(/([.*+?^=!:${}()|[\]\/\\])/g, '\\$1');
+    }
+    schedule.defaultToWhiteSpace = function(characters) {
+        if (characters == null)
+            return '\\s';
+        else if (characters.source)
+            return characters.source;
+        else
+            return '[' + escapeRegExp(characters) + ']';
+    }
+    schedule.nativeTrim = String.prototype.trim;
+    schedule.trim = function(str, characters) {
+        if (str == null) return '';
+        if (!characters && schedule.nativeTrim) return schedule.nativeTrim.call(str);
+        characters = schedule.defaultToWhiteSpace(characters);
+        return String(str).replace(new RegExp('\^' + characters + '+|' + characters + '+$', 'g'), '');
+    }
+    schedule.defaultToWhiteSpace = function(characters) {
+        if (characters == null)
+            return '\\s';
+        else if (characters.source)
+            return characters.source;
+        else
+            return '[' + schedule.escapeRegExp(characters) + ']';
+    }
+    schedule.dasherize = function(str) {
+      return schedule.trim(str).replace(/([A-Z])/g, '-$1').replace(/[-_\s]+/g, '-').toLowerCase();
+    }
+    
+    // utility function to turn strings into "slugs" for easier matching
+    // e.g. "My Great Pathway" -> "my-great-pathway"
+    schedule.slugify = function(str) {
+        if (!str) { return '' }
+        var from = "ąàáäâãåæăćęèéëêìíïîłńòóöôõøśșțùúüûñçżź",
+            to = "aaaaaaaaaceeeeeiiiilnoooooosstuuuunczz",
+            regex = new RegExp(schedule.defaultToWhiteSpace(from), 'g');
+
+        str = String(str).toLowerCase().replace(regex, function(c){
+          var index = from.indexOf(c);
+          return to.charAt(index) || '-';
+        });
+
+        return schedule.dasherize(str.replace(/[^\w\s-]/g, ''));
+    }
 
     // compile the Underscore templates
     schedule.sessionListTemplate = _.template(
@@ -587,6 +817,14 @@ function Schedule(options) {
 
     schedule.sessionDetailTemplate = _.template(
         $("script#session-detail-template").html()
+    );
+
+    schedule.spacesListTemplate = _.template(
+        $("script#spaces-list-template").html()
+    );
+
+    schedule.pathwayMapTemplate = _.template(
+        $("script#pathways-list-template").html()
     );
 
     // fight me

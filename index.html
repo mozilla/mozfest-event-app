@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>MozFest 2015 Test Schedule</title>
+        <title>MozFest 2015 Schedule</title>
         <meta name="description" content="Test schedule for MozFest 2015, Nov. 7 & 8 in London.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/schedule.css">
@@ -27,10 +27,10 @@
                     <div class="logo">
                         <a href=""><img src="img/logo-mozilla-festival.svg" alt="MozFest"></a>
                     </div>
-                    <div class="page-links">
+                    <div id="page-links">
                         <a href="https://2015.mozillafestival.org/tickets">Tickets</a>
-                        <a href="">Spaces</a>
-                        <a href="">Pathways</a>
+                        <a href="#_spaces" id="spaces-page-link">Spaces</a>
+                        <a href="#_pathways" id="pathways-page-link">Pathways</a>
                     </div>
                 </div>
             </nav>
@@ -155,6 +155,11 @@
                 <% } %>
             </div>
             <% } %>
+             <% if (session.pathways) { %>
+            <div class="session-pathways">
+                <%= session.pathways %>
+            </div>
+            <% } %>
             <% if (showFacilitators && session.facilitators.length > 0) { %>
             <div class="session-facilitators">
                 <%= smartypants(session.facilitators) %>
@@ -170,7 +175,7 @@
 
         <script type="text/template" id="session-detail-template">
         <div id="session-detail-wrapper">
-            <a id="show-full-schedule" href="/">Back to full schedule</a>
+            <a id="show-full-schedule" href="/">Back to previous page</a>
             <div id="session-detail-<%= session.id %>" class="session-detail" data-session="<%= session.id %>">
                 <div class="header">
                     <h2><%= smartypants(session.title) %></h2>
@@ -187,16 +192,17 @@
                     <% if (session.space || session.location) { %>
                     <div class="session-space-and-location">
                         <% if (session.space) { %>
-                            <%= session.space %>
+                            <a href="#_space-<%= slugify(session.space) %>"><%= session.space %></a>
                         <% } %>
                         <% if (session.location) { %>
                             , <%= smartypants(session.location) %>
                         <% } %>
                     </div>
                     <% } %>
-                    <% if (session.pathways) { %>
+                    <% if (session.pathwayArray) { %>
                     <div class="session-pathways">
-                        <%= session.pathways %>
+                        <% session.pathwayArray.forEach(function(name, index) { %><% if (index > 0) { %>, <% } %>
+                            <a href="#_pathway-<%= slugify(name) %>"><%= name %></a><% }) %>
                     </div>
                     <% } %>
                     <% if (session.facilitators) { %>
@@ -213,7 +219,33 @@
             </div>
         </div>
         </script>
-        
+
+        <script type="text/template" id="spaces-list-template">
+            <div class="space-list-item" data-space="<%= space.slugify(space.name) %>">
+                <div class="space-icon-container">
+                    <img src=<%= space.iconSrc %>>
+                </div>
+                <h4><%= space.name %></h4>
+                <div>
+                    <a class="see-all-events-in-this-space" href="#_space-<%= space.slugify(space.name) %>">See all events in this Space</a>
+                    <% space.description.forEach(function(p) { %>
+                        <%= marked(p) %>
+                    <% }) %>
+                </div>
+            </div>
+        </script>
+
+        <script type="text/template" id="pathways-list-template">
+            <% if (name) { %>
+            <div class="pathway-list-item" data-pathway="<%= slugify(name) %>">
+                <h4>
+                    <a href="#_pathway-<%= slugify(name) %>"><%= name %></a>: 
+                    <%= numSessions %> session<% if (numSessions >1) { %>s<% } %>
+                </h4>
+            </div>
+            <% } %>
+        </script>
+
         <script src="js/jquery-2.1.0.min.js"></script>
         <script src="js/underscore-min.js"></script>
         <script src="js/marked.min.js"></script>

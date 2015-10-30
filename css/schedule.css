@@ -91,19 +91,23 @@ nav .logo {
     float: left;
 }
 
-nav .page-links {
+#page-links {
     display: inline-block;
     float: right;
     margin-top: 3rem;
 }
 
-nav .page-links a {
+#page-links a {
     display: inline-block;
     margin-left: 2rem;
     text-transform: uppercase;
     color: #55565A;
     font-weight: 700;
     text-decoration: none;
+}
+
+#page-links a.active {
+    color: #D93F5F;
 }
 
 h1 {
@@ -180,7 +184,12 @@ header a {
 
 }
 
-.schedule-tab h3 {
+.page-caption h2 {
+    text-transform: uppercase;
+}
+
+.schedule-tab h3,
+.page-caption h3 {
     position: relative;
     font-weight: 500;
     text-transform: uppercase;
@@ -188,15 +197,16 @@ header a {
     text-align: center;
     z-index: 1;
 }
-.schedule-tab h3 span {
+.schedule-tab h3 span,
+.page-caption h3 span {
     font-family: "Open Sans", sans-serif;
     color: #B94D60;
     background-color: #fff;
     padding: 0 2rem;
-    /*font-size: 3.5rem;*/
     font-size: 3rem;
 }
-.schedule-tab h3:before {
+.schedule-tab h3:before,
+.page-caption h3:before {
     content: "";
     border-top: 1px solid #B94D60;
     position: absolute;
@@ -206,17 +216,6 @@ header a {
     z-index: -1;
 }
 
-#session-detail-wrapper {
-    /*background-color: #fff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 99;
-    width: 100%;
-    height: 100%;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;*/
-}
 .session-detail {
     position: relative;
 }
@@ -260,10 +259,10 @@ header a {
     text-decoration: none;
 }
 
-.session-list-item h4 {
+.session-list-item h4,
+.space-list-item h4 {
     margin: 0 0 2rem 6rem;
     line-height: 1.2;
-    /*font-size: 4.2rem;*/
     font-size: 3rem;
     font-weight: 800;
 }
@@ -433,6 +432,33 @@ header a {
     margin-bottom: 2rem;
 }
 
+.space-list-item {
+    padding: 4rem;
+}
+
+.space-list-item h4 {
+    margin-left: 0;
+}
+
+.space-list-item .space-icon-container {
+    float: left;
+    padding-left: 1rem;
+    padding-right: 2rem;
+}
+
+.space-list-item .space-icon-container img {
+    width: 12rem;
+    height: auto;
+}
+
+.space-list-item:nth-child(2n+1) {
+    background: #f5f5f5;
+}
+
+.space-list-item p:last-child {
+    margin-bottom: 0;
+}
+
 .hidden {
     display: none;
 }
@@ -513,7 +539,7 @@ header a {
     nav .logo {
         float: none;
     }
-    nav .page-links {
+    #page-links {
         float: none;
         margin-top: 0;
         margin-bottom: 2rem;

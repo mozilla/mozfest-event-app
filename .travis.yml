@@ -1,0 +1,23 @@
+language: node_js
+node_js:
+- '4.1'
+sudo: false
+branches:
+  only:
+  - master
+script:
+- echo "Nothing to build, no tests to run"
+notifications:
+  irc: irc.mozilla.org#communityit
+deploy:
+- provider: s3
+  access_key_id:
+    secure: "fzYEauPe8i723EtEtWM9a2642FcZE3VvlV+bR6DD5UTvWgGA/ztN2gp0xh87gJV5x4MdpihxCMBgUgNS2Drx4nVqOA4ZSL000QwX6zB8SKmvTtjshIuS7wMU0vrWcM1WyCNomQVI2Jvs3kfprJRNPJRrXA7txz4BmEnCax+nMAOQOpKYVSs5n2ULgtox9bD4fOwWrJmrWRMwknTJ/1czGzXO7o4VWiVIQDtVeroYEEmWVKICa8Sbr3BdOfnYGlMoQVUMXeFtE+d5fLI0HgVaTaAdKkBHRqrHZp/S4Y1vVFEfhSN5SykLmICbEjebmJlIJ2nugjBQ92J9MkGS1V2YZng0S9NvOvUAramW7gLonPbbRIV9XcdVFOXX3c2QXPqj9JPPa+8U3ZRAKztIu46JtSLE/vL/FIakF1PxIKId8ect81zrm6Jx9yQhqQJwFkn1IfT6ay/q9r4HjE/q6FaIIo43XG4XPDj7o8LIeZfucXkzVPg+ZbfGJ6oAhThVPbUC68I9uQRwm4NStISGubdY8Y5NFCY3ApvGFOIAOzXZ/ai9m+LAjpQXQLIQpEKNpUcTqBhE0Li/MgtQZEzW/AwVj/7E9MMPLnBesurDRtM1JwFO9cf+Pndxs3JmqQ+6wa3sGYZegKVd33RP4oyMn4yKVMxoA+zoCcyJBg2U12hLBtg="
+  secret_access_key:
+    secure: "aLnrEFujSFcvCxv1+ECa7mDFZqeFlTlvD3rxw3aK2nBstSltaDd0wdrDc+0wff+OqIv1yYorDOASVgFUxknYvOYEX6wGPWUAMZv5uXotd6mAxO7Ew6bH1Zb3KGxqoSdEFQXMSUt1I5F2OFEbTuFQItD/O3d1t4K7UJfbeb39xvqFQ/IYyBFQT3Vh1yXFo6exBYQoucvEiGxk4j1KoGbIfksqAuG7oKJXPMNW7iUmZdj2ppEgGnOMQFty7EIhs34C4y/yXVnRkq1i5fDKU2hXbHxdW6/ns1Iue0vtPAnK1Vsmr6klF/QwMkgiqB8gk/jQmSCPGEdoR96HVC8d4ykZrt5e8Kgm6Juz8H8DXgrrQwEbMrcSeEHNkLJQdJN4ughLXsMIq0PXbV9kg7h/W7fdqnu4wfP7T2Tybe2lvKOXjWbka/7y7/ciIJ2jk6uoyQzjvt8cFc7nxzQ11vL1ThZCIj5lzVTH77K0dpkZRdyKwe3XLF3Xy6iugQFXTDovgZnl6xEKYNrQiz+9fmm2RVCfh8Pr1/oCHjg07Dhg8LpBiA5ZBzFJ9URrXsKV+o9TWX+dUUzWIpwr1cajibKWCltO4YSBkB4Px/OIoS6UerpBy+Dh/lCW8i36g05sLd40TgooljrjDKGeaW462gX5DnNBxf//N7D+L9kKn+p4v9G4zvI="
+  bucket: mozfest-schedule-production-s3bucket-1flj9zeah5jat
+  skip_cleanup: true
+  detect_encoding: true
+  on:
+    repo: mozilla/mozfest-schedule-app
+    branch: master
