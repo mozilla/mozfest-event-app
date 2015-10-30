@@ -331,9 +331,10 @@
         "day": "Saturday", 
         "description": "What would it take to unlock the collaborative power GitHub for everyone? For researchers, policymakers, educators, and journalists? The whole world is “going GitHub,” and yet GitHub is still surprisingly hard for most everyday users to use. Join us to map out the territory and build solutions; to explore what’s possible in this new world of open, networked, co-creation.", 
         "facilitator_array": [
-            "Phillip Smith"
+            "Phillip Smith, @phillipadsmith", 
+            "Matth Thompson, @openmatt"
         ], 
-        "facilitators": "Phillip Smith", 
+        "facilitators": "Phillip Smith, Matth Thompson", 
         "id": "325", 
         "location": "", 
         "pathways": "Scaling Participatory Learning Experiences", 
@@ -374,18 +375,19 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "Learn about the successful Mozilla program 'Tech Speakers' which has trained and empowered a small group of community leaders as technical speakers in 2015.  Then help us imagine what it would look like to scale the program to hundreds of community leaders in 2016!", 
+        "description": "The Mozilla Tech Speakers program is an experiment. There are two simple elements to scaling it: you and a small circle of friends. We've focused on developers speaking to developers, but you don't have to. Know what you want to your listeners to take away, and what action you'd like them to take. Practice storytelling basics. Give and receive constructive feedback. With Kaustav Das Modak and Szmozsánsky István.", 
         "facilitator_array": [
-            "George Roter"
+            "Havid Hoffman, @freshelectrons, Mozilla", 
+            "Dietrich Ayala, @dietrich, Mozilla"
         ], 
-        "facilitators": "George Roter", 
+        "facilitators": "Havid Hoffman, Dietrich Ayala", 
         "id": "607", 
         "location": "", 
         "pathways": "Scaling Participatory Learning Experiences", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "Building Participation", 
         "start": "02:45 PM", 
-        "title": "Scaling The Tech Speakers Program at Mozilla"
+        "title": "Scaling by Doing: Tech Speakers Starts With You"
     }, 
     {
         "day": "Saturday", 
@@ -421,7 +423,7 @@
         "day": "Saturday", 
         "description": "This session will provide resources, recommendations, and tools, to build foundations for inclusion and diversity in your project, team, group, club, or class, and to grow participation from diverse voices.  Attention will be paid to how to understand and work on specific issues including unconscious bias, working as an ally (or needing allies), impostor syndrome, intersectionality, and more.", 
         "facilitator_array": [
-            "Larissa Brown Shapiro"
+            "Larissa Brown Shapiro, @larissashapiro, Mozilla"
         ], 
         "facilitators": "Larissa Brown Shapiro", 
         "id": "261", 
