@@ -599,7 +599,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "Cynefin Lego Game is a playful way to learn and experience four of the five domains of the Cynefin Framework (https://en.wikipedia.org/wiki/Cynefin), a leader’s framework for decision making which can be used to understand situations in organisations and in teamwork, and to decide how to approach them. By going through different exercises in which the problem to solve and the context will change, the attendees will learn the challenges behind each domain, and why we have to tackle them in very different ways. The game will let attendees experience the domains of Dave Snowden’s Cynefin framework, teamwork and the decision-making process in different scenarios. And have fun with Lego bricks of course :)", 
+        "description": "Play with Lego bricks and learn how to be a better leader. Cynefin Lego Game is a playful way to learn the Cynefin Framework, a leader’s framework for decision-making used to understand and approach situations in teamwork, communities and organisations.", 
         "facilitator_array": [
             "Francesco Iovine"
         ], 
@@ -1808,7 +1808,7 @@
         ], 
         "facilitators": "Julia Smith", 
         "id": "511", 
-        "location": "7 - 703", 
+        "location": "Floor 7 - 703", 
         "pathways": "Mobile and Accessibility, New Technologies for Participation -- Challenge", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Journalism", 
@@ -1823,7 +1823,7 @@
         ], 
         "facilitators": "Erik Westra", 
         "id": "573", 
-        "location": "7 - 702", 
+        "location": "Floor 7 - 702", 
         "pathways": "Healthy Events and Networks", 
         "scheduleblock": "sunday-session-block-8", 
         "space": "Journalism", 
@@ -1840,7 +1840,7 @@
         ], 
         "facilitators": "Mark Boas, Dan Schultz, Tracy Jaquith", 
         "id": "576", 
-        "location": "7 - 700", 
+        "location": "Floor 7 - 700", 
         "pathways": "", 
         "scheduleblock": "sunday-session-block-8", 
         "space": "Journalism", 
@@ -1855,7 +1855,7 @@
         ], 
         "facilitators": "Anatoly Bondarenko", 
         "id": "451", 
-        "location": "7 - 706", 
+        "location": "Floor 7 - 706", 
         "pathways": "Tools and Analysis", 
         "scheduleblock": "sunday-session-block-8", 
         "space": "Journalism", 
@@ -1870,7 +1870,7 @@
         ], 
         "facilitators": "Francis Tseng", 
         "id": "454", 
-        "location": "7 - 706", 
+        "location": "Floor 7 - 706", 
         "pathways": "New Technologies for Participation -- Challenge, Tools and Analysis", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Journalism", 
@@ -1885,7 +1885,7 @@
         ], 
         "facilitators": "Aaron Williams", 
         "id": "458", 
-        "location": "7 - 702", 
+        "location": "Floor 7 - 702", 
         "pathways": "Mobile and Accessibility", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "Journalism", 
@@ -1900,7 +1900,7 @@
         ], 
         "facilitators": "Leah Bannon", 
         "id": "390", 
-        "location": "7 - 706", 
+        "location": "Floor 7 - 706", 
         "pathways": "Healthy Events and Networks", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Journalism", 
@@ -1915,7 +1915,7 @@
         ], 
         "facilitators": "Paul Wafula", 
         "id": "464", 
-        "location": "7 - 703", 
+        "location": "Floor 7 - 703", 
         "pathways": "Data and Impact", 
         "scheduleblock": "sunday-session-block-8", 
         "space": "Journalism", 
@@ -1930,7 +1930,7 @@
         ], 
         "facilitators": "Linda Sandvik", 
         "id": "463", 
-        "location": "7 - 702", 
+        "location": "Floor 7 - 702", 
         "pathways": "Games and Understanding", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Journalism", 
@@ -1945,7 +1945,7 @@
         ], 
         "facilitators": "Ani Hovhannisyan", 
         "id": "476", 
-        "location": "7 - 706", 
+        "location": "Floor 7 - 706", 
         "pathways": "Data and Impact", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Journalism", 
@@ -1960,7 +1960,7 @@
         ], 
         "facilitators": "Livia Labate", 
         "id": "496", 
-        "location": "7 - 703", 
+        "location": "Floor 7 - 703", 
         "pathways": "Data and Impact", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Journalism", 
@@ -1975,7 +1975,7 @@
         ], 
         "facilitators": "Eva Constantaras", 
         "id": "600", 
-        "location": "7 - 706", 
+        "location": "Floor 7 - 706", 
         "pathways": "Data and Impact, Science communication", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Journalism", 
@@ -1990,7 +1990,7 @@
         ], 
         "facilitators": "Joe Germuska", 
         "id": "326", 
-        "location": "7 - 700", 
+        "location": "Floor 7 - 700", 
         "pathways": "", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Journalism", 
@@ -2005,7 +2005,7 @@
         ], 
         "facilitators": "Samar Halarnkar", 
         "id": "499", 
-        "location": "7 - 706", 
+        "location": "Floor 7 - 706", 
         "pathways": "Data and Impact", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "Journalism", 
@@ -2020,7 +2020,7 @@
         ], 
         "facilitators": "Juan Elosua", 
         "id": "502", 
-        "location": "7 - 700", 
+        "location": "Floor 7 - 700", 
         "pathways": "Tools and Analysis, Science communication", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Journalism", 
@@ -2036,7 +2036,7 @@
         ], 
         "facilitators": "Ashlyn  Sparrow, David Bild", 
         "id": "446", 
-        "location": "7 - 702", 
+        "location": "Floor 7 - 702", 
         "pathways": "Games and Understanding", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Journalism", 
@@ -2052,7 +2052,7 @@
         ], 
         "facilitators": "Magdalena Taube, Francis Tseng", 
         "id": "272", 
-        "location": "7 - 703", 
+        "location": "Floor 7 - 703", 
         "pathways": "Building Online Communities", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Journalism", 
@@ -2067,7 +2067,7 @@
         ], 
         "facilitators": "Kavya Sukumar", 
         "id": "512", 
-        "location": "7 - 700", 
+        "location": "Floor 7 - 700", 
         "pathways": "", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Journalism", 
@@ -2082,7 +2082,7 @@
         ], 
         "facilitators": "Clay Ewing", 
         "id": "515", 
-        "location": "7 - 702", 
+        "location": "Floor 7 - 702", 
         "pathways": "Games and Understanding, Leading and Building Community Through Participation", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "Journalism", 
@@ -2098,7 +2098,7 @@
         ], 
         "facilitators": "Samantha Sunne, Judith Morales", 
         "id": "246", 
-        "location": "7 - 700", 
+        "location": "Floor 7 - 700", 
         "pathways": "", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "Journalism", 
@@ -2113,7 +2113,7 @@
         ], 
         "facilitators": "Tara Adiseshan", 
         "id": "521", 
-        "location": "7 - 700", 
+        "location": "Floor 7 - 700", 
         "pathways": "Building Online Communities", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "Journalism", 
@@ -2129,7 +2129,7 @@
         ], 
         "facilitators": "Georg Neumann, Tim Davies", 
         "id": "434", 
-        "location": "7 - 703", 
+        "location": "Floor 7 - 703", 
         "pathways": "Data and Impact", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "Journalism", 
@@ -2146,7 +2146,7 @@
         ], 
         "facilitators": "Michael Donohoe, Matt Dennewitz, Trei Brundrett", 
         "id": "525", 
-        "location": "7 - 702", 
+        "location": "Floor 7 - 702", 
         "pathways": "Global Village Athena Library", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "Journalism", 
@@ -2161,7 +2161,7 @@
         ], 
         "facilitators": "Martin Nahuel Rabaglia", 
         "id": "441", 
-        "location": "7 - 700", 
+        "location": "Floor 7 - 700", 
         "pathways": "", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "Journalism", 
@@ -2177,7 +2177,7 @@
         ], 
         "facilitators": "Annabel Church, Peter MacRobert", 
         "id": "528", 
-        "location": "7 - 706", 
+        "location": "Floor 7 - 706", 
         "pathways": "Healthy Events and Networks", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "Journalism", 
@@ -2192,7 +2192,7 @@
         ], 
         "facilitators": "Alastair Coote", 
         "id": "227", 
-        "location": "7 - 700", 
+        "location": "Floor 7 - 700", 
         "pathways": "Mobile and Accessibility", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Journalism", 
@@ -2208,7 +2208,7 @@
         ], 
         "facilitators": "Gideon Goldberg, James Gorrie", 
         "id": "225", 
-        "location": "7 - 702", 
+        "location": "Floor 7 - 702", 
         "pathways": "Building Online Communities", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Journalism", 
@@ -2223,7 +2223,7 @@
         ], 
         "facilitators": "Trei Brundrett", 
         "id": "529", 
-        "location": "7 - 703", 
+        "location": "Floor 7 - 703", 
         "pathways": "Building Online Communities", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "Journalism", 
@@ -2238,7 +2238,7 @@
         ], 
         "facilitators": "Sisi Wei", 
         "id": "553", 
-        "location": "7 - 702", 
+        "location": "Floor 7 - 702", 
         "pathways": "Games and Understanding", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Journalism", 
@@ -2253,7 +2253,7 @@
         ], 
         "facilitators": "Anne Li", 
         "id": "205", 
-        "location": "7 - 706", 
+        "location": "Floor 7 - 706", 
         "pathways": "", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "Journalism", 
@@ -2269,7 +2269,7 @@
         ], 
         "facilitators": "Michael Corey, Julia Smith", 
         "id": "578", 
-        "location": "7 - 703", 
+        "location": "Floor 7 - 703", 
         "pathways": "", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "Journalism", 
@@ -2284,7 +2284,7 @@
         ], 
         "facilitators": "Sydette Harry", 
         "id": "572", 
-        "location": "7 - 703", 
+        "location": "Floor 7 - 703", 
         "pathways": "Building Online Communities", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Journalism", 
@@ -3486,10 +3486,9 @@
         "scheduleblock": "saturday-session-block-1", 
         "space": "youthZone - Through the lens of youths", 
         "start": "10:45 AM", 
-        "title": "What the heck are 'Jobs in tech'?"
+        "title": "What the heck are 'Jobs in tech'? (Room 212 2nd floor) "
     }, 
     {
-        "day": "Saturday", 
         "description": "I created this HTML Puzzle Box which people can easily create because it's basically a papertoy, that you can print and craft by yourself. This boxes means to teach people, which has no knowledge about HTML basic languages, in a more fun way. Beside of teaching how to craft, we can play a HTML Puzzle Box Challenge which challenging how fast you can stack the boxes in right orders.", 
         "facilitator_array": [
             "Yofie Setiawan"
@@ -3498,9 +3497,8 @@
         "id": "59", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "02:15 PM", 
         "title": "HTML Puzzle Box Challenge"
     }, 
     {
@@ -3513,10 +3511,10 @@
         "id": "289", 
         "location": "", 
         "pathways": "[youthZone] Pathway - News to me!", 
-        "scheduleblock": "saturday-session-block-1", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "10:45 AM", 
-        "title": "Using open community support as a community building tool"
+        "start": "12:00 PM", 
+        "title": "Using open community support as a community building tool (Room 205, 2nd floor) "
     }, 
     {
         "day": "Sunday", 
@@ -3557,12 +3555,11 @@
         "id": "538", 
         "location": "", 
         "pathways": " [youthZone] Pathway - News to me!", 
-        "scheduleblock": "", 
+        "scheduleblock": "all-weekend", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "Arts Award - Individual Pathway creator in schools and youth centres"
+        "title": "Arts Award - Individual Pathway creator in schools and youth centres (Open space, 2nd floor) "
     }, 
     {
-        "day": "Sunday", 
         "description": "The session will introduce people to the awesomeness of the Raspberry Pi, electric circuits and coding with Scratch and Python.  They will learn about using the command line, setting up electronic circuits safely, what the GPIO pins are used for and just having a bit of fun with blinking LEDs and resisters. It will also introduce them to Computational thinking and problem solving.", 
         "facilitator_array": [
             "Femi Owolade-Coombes"
@@ -3571,9 +3568,8 @@
         "id": "410", 
         "location": "", 
         "pathways": "[Pathway] Mapping Your MozFest Learning Journey, [youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "sunday-session-block-5", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "11:30 AM", 
         "title": " Physical Computing with the Raspberry Pi"
     }, 
     {
@@ -3589,10 +3585,9 @@
         "scheduleblock": "sunday-session-block-6", 
         "space": "youthZone - Through the lens of youths", 
         "start": "12:45 PM", 
-        "title": "Teaching the Basics of Privacy"
+        "title": "Teaching the Basics of Privacy (Room 213, 2nd floor)"
     }, 
     {
-        "day": "Saturday", 
         "description": "People often hear the word \"algorithm\" and think that it entails complicated math or heavy computer programming. At it's core, though, an algorithm is a simple set of rules that are relatively easy to understand. You can write an algorithm for almost anything — making a sandwich, deciding what to make for dinner, doing long division, naming children, and more. This session seeks above all to take away the mystery of a concept that influences our lives each day. It will help people understand how algorithms work and will allow participants to explore the concept of algorithms using simple English and no code.", 
         "facilitator_array": [
             "Ryan  Graff"
@@ -3601,13 +3596,11 @@
         "id": "184", 
         "location": "", 
         "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "02:15 PM", 
         "title": "Algorithms are ancient and not so scary. Let's write one with crayons. "
     }, 
     {
-        "day": "Saturday", 
         "description": "This session will introduce participants to the Maker Cart and the Maker   Movement. The Maker Cart is a mobile cost and space saving mobile unit that   contains the main ingredients to start a Makerspace and Maker Programme. It   consists of a 3d printer, digital cutter, electronics, micro-controllers and   robotics. The Maker Cart has been designed for schools, libraries and youth   centres but can also be use at home!  People will learn about the Maker movement, the tools and machinery   associated and the kind of projects that can be developed with the Maker   Cart.  People will have a chance to make something using some of the tools and   machines in the Maker Cart.", 
         "facilitator_array": [
             "Carlos  Izsak"
@@ -3616,9 +3609,8 @@
         "id": "182", 
         "location": "", 
         "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "02:15 PM", 
         "title": "The Maker Cart: a hands on introduction to Maker Education"
     }, 
     {
@@ -3635,7 +3627,6 @@
         "title": "CoderDojo"
     }, 
     {
-        "day": "Sunday", 
         "description": "The Mozilla tools to teach the web have evolved - some new, some updated and some are the same old gems. Participants will learn about the changes and how to continue to use the tools to teach core Web Literacy skills. This includes X-Ray Goggles, Thimble and Webmaker.\n", 
         "facilitator_array": [
             "Hannah Kane"
@@ -3644,13 +3635,11 @@
         "id": "455", 
         "location": "", 
         "pathways": " [youthZone] Pathway - News to me!", 
-        "scheduleblock": "sunday-session-block-7", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "02:45 PM", 
         "title": "Allow me re-introduce myself, my name is .... (tools to teach the web)"
     }, 
     {
-        "day": "Saturday", 
         "description": "This session provides a projection mapping workshop. In the workshop, participants will make objects with paper clay and draw animation to project on them. Animation will be made with customized version of parapara animation (http://parapara.mozlabs.jp/). Through the workshop, participants will learn the mechanism of how animation and projection mappings are made and by making their own. The experience are of making objects are related to making 3D items on computers. Also, mapping animation on their objects are very first stage of mixing computing world into the real world. The goal of this session is participants to feel and understand that the Web can be a part of our real life, and computers are the tools to make it happen.\nAlso, the activity is designed by university students for teenager to learn IT technology. Target age and level of skill for this activity is elementary school students or beginners.", 
         "facilitator_array": [
             "Noriatsu Kudo"
@@ -3659,9 +3648,8 @@
         "id": "252", 
         "location": "", 
         "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "02:15 PM", 
         "title": "Create your own projection mapping with Parapara Animation"
     }, 
     {
@@ -3692,10 +3680,9 @@
         "scheduleblock": "saturday-session-block-1", 
         "space": "youthZone - Through the lens of youths", 
         "start": "10:45 AM", 
-        "title": "Embracing the chaos of 21st Century learning"
+        "title": "Embracing the chaos of 21st Century learning (Room 205, 2nd floor)"
     }, 
     {
-        "day": "Saturday", 
         "description": "This session will enable people to learn a digital musical instrument version of a traditional Samba instrument called pandeiro, using a webapp similar to the 80`s game Simon. They will be able to record their own creations and share them with others to improve their technique. After the session they will also capable to actually play the real instrument. We'll form a digital pandeiro orchestra during mozFest and exchange original songs with one another.", 
         "facilitator_array": [
             "Adriano  Cupello"
@@ -3704,13 +3691,11 @@
         "id": "392", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "02:15 PM", 
         "title": "MozFest Pandeiro Orchestra"
     }, 
     {
-        "day": "Saturday", 
         "description": "We are going to build custom sumobots (http://sumobotkit.com/) and learn how to control them with Javascript.", 
         "facilitator_array": [
             "Giovanny Andres Gongra Granada"
@@ -3719,9 +3704,8 @@
         "id": "99", 
         "location": "", 
         "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "02:15 PM", 
         "title": "Build your custom Sumobot"
     }, 
     {
@@ -3735,10 +3719,9 @@
         "pathways": "Youth Learning, [youthZone] Pathway Tech - What else you can do with it, [youthZone] Teaching kit", 
         "scheduleblock": "all-weekend", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "Raspberry Pi youth section workshops"
+        "title": "Raspberry Pi youth section workshops ((Room 209, 2nd floor)"
     }, 
     {
-        "day": "Saturday", 
         "description": "The goal of this session is to teach people how to think about programming. Most \"learn to program\" sessions get caught up in syntax and language choices, when, in reality, programming's central necessary skill is structured thought. But the concepts behind writing code are, at their core, logical constructs.  We will start with basic concepts like variable assignment, if statements, and loops. If time allows, we will work through some more complex problems that require putting together multiple programming concepts.", 
         "facilitator_array": [
             "Heather Billings"
@@ -3747,9 +3730,8 @@
         "id": "317", 
         "location": "", 
         "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "02:15 PM", 
         "title": "Programming without code"
     }, 
     {
@@ -3764,7 +3746,6 @@
         "title": "Tech for Social Impact  ‘No one is better than all of US :) finding  Glo-Cal solutions from a Hype local perspective!"
     }, 
     {
-        "day": "Saturday", 
         "description": "Flexagons are fun paper toys or according to Wikipedia \"Flat models, constructed by folding strips of paper that can be flexed or folded in certain ways to reveal faces besides the two that were originally on the back and front.\": https://www.youtube.com/watch?v=VIVIegSt81k\nIn our maker party in Canada we decided to make flexagons with our own photos! I started this project from scratch and used customized flexagons as a fun tool to teach the web to students and the result was amazing! http://smansoury.github.io/Flexigon/\nThe main goal of this session is to enjoy making creative flexagons while teaching simple HTML, CSS to participants. The participants will be encouraged to come up with interesting ideas for designing flexagons and use the web tools to create their design while practicing team work. Here is how a potential result may look like: http://tinyurl.com/flexigon.\nFinally, we will talk about ways to participate in this project: https://github.com/smansoury/Flexigon", 
         "facilitator_array": [
             "Sara Mansouri"
@@ -3773,13 +3754,11 @@
         "id": "92", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "02:15 PM", 
         "title": "Hacking Flexagons"
     }, 
     {
-        "day": "Sunday", 
         "description": "Imagine an open source microscope that is powerful and cheap enough for school children to study the nano world, the world of atoms and molecules that is 1000 times smaller than what traditional optical microscopes can see. That is the objective of the LEGO2NANO project. This workshop will introduce to you the hardware and software developed so far for the world's first open source atomic force microscope. We'll also introduce how we are documenting this project on the Web, how we are involving Chinese school children in building and using the microscope, and sharing data from the microscope for crowdsourced analysis in Web-based citizen science projects. LEGO2NANO is in an international summer school in China, involving students and mentors from University College London, Tsinghua University, Peking University, Academia Sinica, MIT, Tufts University and University of Geneva. http://www.openafm.com", 
         "facilitator_array": [
             "Joe Bailey"
@@ -3788,13 +3767,11 @@
         "id": "292", 
         "location": "", 
         "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "sunday-session-block-6", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "12:45 PM", 
         "title": "LEGO2NANO: an Open Atomic Force Microscope Project"
     }, 
     {
-        "day": "Saturday", 
         "description": "Imagine an open source microscope that is powerful and cheap enough for school children to study the nano world, the world of atoms and molecules that is 1000 times smaller than what traditional optical microscopes can see. That is the objective of the LEGO2NANO project. This workshop will introduce to you the hardware and software developed so far for the world's first open source atomic force microscope. We'll also introduce how we are documenting this project on the Web, how we are involving Chinese school children in building and using the microscope, and sharing data from the microscope for crowdsourced analysis in Web-based citizen science projects. LEGO2NANO is in an international summer school in China, involving students and mentors from University College London, Tsinghua University, Peking University, Academia Sinica, MIT, Tufts University and University of Geneva. http://www.openafm.com", 
         "facilitator_array": [
             "Joe Bailey"
@@ -3803,9 +3780,8 @@
         "id": "292", 
         "location": "", 
         "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "02:15 PM", 
         "title": "LEGO2NANO: an Open Atomic Force Microscope Project"
     }, 
     {
@@ -3847,10 +3823,9 @@
         "scheduleblock": "saturday-session-block-2", 
         "space": "youthZone - Through the lens of youths", 
         "start": "12:00 PM", 
-        "title": "Encouraging Contributions from Young Developers"
+        "title": "Encouraging Contributions from Young Developers (Room 213, 2nd floor)"
     }, 
     {
-        "day": "Saturday", 
         "description": "The purpose of the session is to show the capability of WebVR and how MozVR can help them make interactive immersive content!\nThe goals include\n- Showing them the capability of VR, then make them realize the potential about WebVR/MozVR\n- Tech them to actually create immersive content. So the goal would be after the session they should not how to shoot 360/180 degree videos with commercial camera and make it work with MozVR\n- Teach them to hack on demos we already have. Goal is they should be able to hack into the building blocks of our presently available code", 
         "facilitator_array": [
             "Rabimba Karanjai"
@@ -3859,9 +3834,8 @@
         "id": "71", 
         "location": "", 
         "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "02:15 PM", 
         "title": "WebVR - Make virtual reality games in your browser!"
     }, 
     {
@@ -3891,7 +3865,6 @@
         "title": "Craft - Bridging your digital divide"
     }, 
     {
-        "day": "Sunday", 
         "description": "This is a rolling session for youths that explores the link between youth instrumentalist (players of a musical instrument) as a pathway into engineering and tech support roles through developing a passion for all things music technology and as an instrumentalist.", 
         "facilitator_array": [
             "Luke Mayell - Musician"
@@ -3900,9 +3873,8 @@
         "id": "537", 
         "location": "", 
         "pathways": " [youthZone] Pathway - News to me!", 
-        "scheduleblock": "sunday-session-block-6", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "12:45 PM", 
         "title": "Music - 50% of software engineers are instrumentalist."
     }, 
     {
@@ -3915,10 +3887,10 @@
         "id": "367", 
         "location": "", 
         "pathways": "Get project assistance for your research, [youthZone] Leading session, [youthZone] Pathway - News to me!, [youthZone] Teaching kit", 
-        "scheduleblock": "saturday-session-block-2", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "12:00 PM", 
-        "title": "Calling all Minecraft Builders! Using Minecraft to foster civic engagement, self-efficacy & agency"
+        "start": "10:45 AM", 
+        "title": "Calling all Minecraft Builders! Using Minecraft to foster civic engagement, self-efficacy & agency (Room 213, 2nd floor)"
     }, 
     {
         "description": "Learn a little bit of HTML and CSS, whilst saving kittens in the process. In Erase All Kittens (https://eraseallkittens.com/), players must explore a fantasy Internet universe, using code to change the world around them, in order to defeat the evil Operation E.A.K. - Erase All Kittens.\nE.A.K. is aimed at anyone aged 7+, but kids much younger than that have enjoyed learning with E.A.K. too.", 
