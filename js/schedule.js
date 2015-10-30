@@ -49,7 +49,7 @@ function Schedule(options) {
             schedule.makeSchedule();
         } else {
             // otherwise determine relevant detail page and call route()
-            var hashArray = window.location.hash.substring(1).split('-');
+            var hashArray = window.location.hash.substring(1).split(/-(.+)?/);
             schedule.route(hashArray[0], hashArray[1]);
         }
     }
@@ -59,7 +59,6 @@ function Schedule(options) {
         // currently this app supports two types of detail pages:
         // 1) _session (which gets a detail page for a given session)
         // 2) _show (which gets a session list for a specific tab)
-console.log(pageType, pageID);
         switch(pageType) {
             case "_session":
                 // get session details based on ID value from the URL
@@ -71,9 +70,16 @@ console.log(pageType, pageID);
                 schedule.makeSchedule();
                 break;
             case "_spaces":
+                // shows list of Spaces and their description
                 schedule.displaySpacesList();
                 break;
             case "_space":
+                // show sessions in a space based on space slug in URL
+                schedule.displaySessionsOfSpace(pageID);
+                break;
+            case "_pathway":
+                // show sessions in a pathway based on pathway slug in URL
+                schedule.getFilteredSessions("pathways", pageID);
                 break;
         }
     }
@@ -214,8 +220,14 @@ console.log(pageType, pageID);
             // if sessionList has a session matching chosen ID, render it
             var templateData = {
                 session: session,
+                slugify: schedule.slugify, // context function for string-matching
                 smartypants: schedule.smartypants // context function for nice typography
             }
+            // add pathway array for individual links
+            templateData.session.pathwayArray = _.each(session.pathways.split(','), function(i) {
+                schedule.trim(i);
+            })
+            
             // clear currently highlighted tab/page link
             schedule.clearHighlightedPage();
 
@@ -314,6 +326,35 @@ console.log(pageType, pageID);
         }
     }
     
+    // given a JSON key name `filterKey`, find session objects with values
+    // that contain the string `filterValue`. This is a substring comparison
+    // based on slugified versions of key and value, e.g. "my-great-pathway"
+    schedule.getFilteredSessions = function(filterKey, filterValue) {
+        schedule.filterKey = filterKey || schedule.filterKey;
+        schedule.filterValue = filterValue || schedule.filterValue;
+
+        if (!schedule.sessionList.length) {
+            // this is first page load so fetch session data
+            schedule.loadSessions(schedule.showFilteredSessions);
+        } else {
+            schedule.showFilteredSessions();
+        }
+    }
+    schedule.showFilteredSessions = function() {
+        schedule.clearHighlightedPage();
+
+        if (!!schedule.filterKey) {
+            schedule.filteredList = _.filter(schedule.sessionList, function(v, k) {
+                return (schedule.slugify(v[schedule.filterKey]).indexOf(schedule.slugify(schedule.filterValue)) >= 0);
+            });
+        }
+
+        schedule.$container.html(schedule.sessionListTemplate);
+        schedule.addCaptionOverline("<h2>" + schedule.filterKey + ": " + schedule.filterValue.replace(/-/g," ") + "</h2>");
+        schedule.addSessionsToSchedule(schedule.filteredList);
+        schedule.transitionElementIn(schedule.$container);
+    }
+
     // based on the value of chosenTab, render the proper session list
     schedule.loadChosenTab = function() {
         // clear currently highlighted tab/page link
@@ -376,9 +417,9 @@ console.log(pageType, pageID);
     }
     
     // provide some user instructions at top of page
-    schedule.addCaptionOverline = function() {
-        // provide some user instructions at top of page
-        //schedule.$container.append('<p class="overline"><i class="fa fa-cc"></i> icon indicates sessions with <a href="http://srccon.org/transcription/">live captions</a> available to stream on your laptop or device</p>');
+    schedule.addCaptionOverline = function(captionHTML) {
+        schedule.$container.prepend("<div class='page-caption'></div>");
+        schedule.$container.find('.page-caption').html(captionHTML);
     }
     
     schedule.clearHighlightedPage = function() {
@@ -393,7 +434,7 @@ console.log(pageType, pageID);
         schedule.addCaptionOverline();
         
         var filterForm = '<div id="filter-form">\
-                <label for="list-filter">Search names, facilitators and descriptions</label>\
+                <label for="list-filter">Search names, facilitators, spaces, pathways, and descriptions</label>\
                 <input class="filter" type="text" id="list-filter" />\
             </div>';
         $(filterForm).appendTo(schedule.$container);
@@ -470,16 +511,18 @@ console.log(pageType, pageID);
     schedule.displaySpacesList = function() {
         schedule.clearHighlightedPage();
         schedule.$pageLinks.find('#spaces-page-link').addClass('active');
+        schedule.$container.html("");
+        schedule.addCaptionOverline("<h3><span>Spaces</span></h3>");
 
         schedule.loadSpaces(function() {
-            schedule.$container.html("");
             _.each(schedule.spaceList, function(v, k) {
                 // prep the Space data for the template
                 var templateData = {
                     space: {
                         name: v.name,
                         description: v.description,
-                        iconSrc: v.iconSrc
+                        iconSrc: v.iconSrc,
+                        slugify: schedule.slugify
                     }
                 };
                 schedule.$container.append(schedule.spacesListTemplate(templateData));
@@ -487,12 +530,26 @@ console.log(pageType, pageID);
         });
     }
 
+    // display all sessions of a particular Space
+    schedule.displaySessionsOfSpace = function(space_slug) {
+        schedule.getFilteredSessions("space", space_slug);
+    }
+
     // add the standard listeners for various user interactions
     schedule.addListeners = function() {
         // clicking on the "Spaces" link on the nav bar displays the list of Spaces
         schedule.$pageLinks.on('click', 'a', function(e) {
-            console.log("page link clicked");
+            schedule.updateHash('spaces');
             schedule.displaySpacesList();
+        });
+
+        // clicking on "See all events in this Space" shows all sessions within that particular Space
+        schedule.$container.on('click', '.see-all-events-in-this-space', function(e) {
+            e.preventDefault();
+
+            var space_slug = $(this).parents(".space-list-item").data("space");
+            schedule.updateHash('space-'+space_slug);
+            schedule.displaySessionsOfSpace(space_slug);
         });
 
         // clicking on session "card" in a list opens session detail view
@@ -637,6 +694,54 @@ console.log(pageType, pageID);
             .replace(/"/g, '\u201d')
             // ellipses
             .replace(/\.{3}/g, '\u2026');
+    }
+    
+    // underscore.string formatters
+    schedule.escapeRegExp = function(str) {
+        if (str == null) return '';
+        return String(str).replace(/([.*+?^=!:${}()|[\]\/\\])/g, '\\$1');
+    }
+    schedule.defaultToWhiteSpace = function(characters) {
+        if (characters == null)
+            return '\\s';
+        else if (characters.source)
+            return characters.source;
+        else
+            return '[' + escapeRegExp(characters) + ']';
+    }
+    schedule.nativeTrim = String.prototype.trim;
+    schedule.trim = function(str, characters) {
+        if (str == null) return '';
+        if (!characters && schedule.nativeTrim) return schedule.nativeTrim.call(str);
+        characters = schedule.defaultToWhiteSpace(characters);
+        return String(str).replace(new RegExp('\^' + characters + '+|' + characters + '+$', 'g'), '');
+    }
+    schedule.defaultToWhiteSpace = function(characters) {
+        if (characters == null)
+            return '\\s';
+        else if (characters.source)
+            return characters.source;
+        else
+            return '[' + schedule.escapeRegExp(characters) + ']';
+    }
+    schedule.dasherize = function(str) {
+      return schedule.trim(str).replace(/([A-Z])/g, '-$1').replace(/[-_\s]+/g, '-').toLowerCase();
+    }
+    
+    // utility function to turn strings into "slugs" for easier matching
+    // e.g. "My Great Pathway" -> "my-great-pathway"
+    schedule.slugify = function(str) {
+        if (!str) { return '' }
+        var from = "ąàáäâãåæăćęèéëêìíïîłńòóöôõøśșțùúüûñçżź",
+            to = "aaaaaaaaaceeeeeiiiilnoooooosstuuuunczz",
+            regex = new RegExp(schedule.defaultToWhiteSpace(from), 'g');
+
+        str = String(str).toLowerCase().replace(regex, function(c){
+          var index = from.indexOf(c);
+          return to.charAt(index) || '-';
+        });
+
+        return schedule.dasherize(str.replace(/[^\w\s-]/g, ''));
     }
 
     // compile the Underscore templates
