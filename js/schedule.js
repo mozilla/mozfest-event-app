@@ -71,11 +71,12 @@ function Schedule(options) {
                 schedule.makeSchedule();
                 break;
             case "_spaces":
+                // shows list of Spaces and their description
                 schedule.displaySpacesList();
                 break;
             case "_space":
                 // show sessions in a space based on space slug in URL
-                schedule.getFilteredSessions("space", pageID);
+                schedule.displaySessionsOfSpace(pageID);
                 break;
             case "_pathway":
                 // show sessions in a pathway based on pathway slug in URL
@@ -415,9 +416,9 @@ function Schedule(options) {
     }
     
     // provide some user instructions at top of page
-    schedule.addCaptionOverline = function() {
-        // provide some user instructions at top of page
-        //schedule.$container.append('<p class="overline"><i class="fa fa-cc"></i> icon indicates sessions with <a href="http://srccon.org/transcription/">live captions</a> available to stream on your laptop or device</p>');
+    schedule.addCaptionOverline = function(captionHTML) {
+        schedule.$container.prepend("<div class='page-caption'></div>");
+        schedule.$container.find('.page-caption').html(captionHTML);
     }
     
     schedule.clearHighlightedPage = function() {
@@ -509,16 +510,18 @@ function Schedule(options) {
     schedule.displaySpacesList = function() {
         schedule.clearHighlightedPage();
         schedule.$pageLinks.find('#spaces-page-link').addClass('active');
+        schedule.$container.html("");
+        schedule.addCaptionOverline("<h3><span>Spaces</span></h3>");
 
         schedule.loadSpaces(function() {
-            schedule.$container.html("");
             _.each(schedule.spaceList, function(v, k) {
                 // prep the Space data for the template
                 var templateData = {
                     space: {
                         name: v.name,
                         description: v.description,
-                        iconSrc: v.iconSrc
+                        iconSrc: v.iconSrc,
+                        slugify: schedule.slugify
                     }
                 };
                 schedule.$container.append(schedule.spacesListTemplate(templateData));
@@ -526,12 +529,21 @@ function Schedule(options) {
         });
     }
 
+    // display all sessions of a particular Space
+    schedule.displaySessionsOfSpace = function(space_slug) {
+        schedule.getFilteredSessions("space", space_slug);
+    }
+
     // add the standard listeners for various user interactions
     schedule.addListeners = function() {
         // clicking on the "Spaces" link on the nav bar displays the list of Spaces
         schedule.$pageLinks.on('click', 'a', function(e) {
-            //console.log("page link clicked");
             schedule.displaySpacesList();
+        });
+
+        // clicking on "See all events in this Space" shows all sessions within that particular Space
+        schedule.$container.on('click', '.see-all-events-in-this-space', function(e) {
+            schedule.displaySessionsOfSpace($(this).parents(".space-list-item").data("space"));
         });
 
         // clicking on session "card" in a list opens session detail view
