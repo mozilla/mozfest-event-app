@@ -344,7 +344,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "As volunteer community leaders with little to no resources, how do we maximize resources in our community in order to achieve our goals?  This workshop allows community leaders (from novice to expert) to identify challenges in their communities, and apply Design Thinking process to come up with innovative solutions to maximize existing resources in order to achieve radical participation.  Participants will get a crash course on the Design Thinking problem solving process in a hands-on participatory exercise.", 
+        "description": "As volunteer community leaders, how do we maximize resources to achieve our goals? This workshop allows you to identify challenges and apply Design Thinking to come up with innovative solutions. Participants will get a crash course on the Design Thinking problem solving process in a hands-on participatory exercise.", 
         "facilitator_array": [
             "Helen Lee"
         ], 
@@ -434,7 +434,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "This session is about challenging existing factual web narrative structures and inventing whole new ways to bring the user inside the reality that we want to change with our stories. You will work on real stories that are looking to be produced soon!", 
+        "description": "Code like you give a damn! Why not using your skills to co-design interactive stories that can change the world? Today, coders and storytellers rarely work together from day one. Join this session to be part of the solution and meet storytellers and coders you'll want to work with!", 
         "facilitator_array": [
             "Sandra Gaudenzi", 
             "Philo van Kemenade"
@@ -640,6 +640,19 @@
         "space": "Building Participation", 
         "start": "12:00 PM", 
         "title": "Change the world through code: how to meet the person you need in your team to do so"
+    }, 
+    {
+        "day": "Saturday", 
+        "description": "Imagine a student starting their first day in college. Along the journey to graduation, they meet Mozilla for the first time. How will they become friends? How will they change the world, together? Come envision and build the next pathway for student participation at Mozilla with us!", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "624", 
+        "location": "", 
+        "pathways": "Leading and Building Community Through Participation", 
+        "scheduleblock": "saturday-session-block-3", 
+        "space": "Building Participation", 
+        "start": "02:15 PM", 
+        "title": "Mozilla Campus: What's Your Dream For Student Participation?"
     }, 
     {
         "description": "Participants will collaborate on a shared WebGL experience taking \"living light\" from a central server and creating individualized experiences. This project will illustrate the importance of opening up low-level APIs to the web, and how such technologies can empower transformative experiences.", 
