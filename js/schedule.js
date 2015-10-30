@@ -539,7 +539,7 @@ function Schedule(options) {
     schedule.addListeners = function() {
         // clicking on the "Spaces" link on the nav bar displays the list of Spaces
         schedule.$pageLinks.on('click', 'a', function(e) {
-            schedule.updateHash('space');
+            schedule.updateHash('spaces');
             schedule.displaySpacesList();
         });
 
@@ -548,7 +548,7 @@ function Schedule(options) {
             e.preventDefault();
 
             var space_slug = $(this).parents(".space-list-item").data("space");
-            schedule.updateHash('space_'+space_slug);
+            schedule.updateHash('space-'+space_slug);
             schedule.displaySessionsOfSpace(space_slug);
         });
 
