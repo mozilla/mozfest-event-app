@@ -346,7 +346,7 @@
         "day": "Sunday", 
         "description": "As volunteer community leaders, how do we maximize resources to achieve our goals? This workshop allows you to identify challenges and apply Design Thinking to come up with innovative solutions. Participants will get a crash course on the Design Thinking problem solving process in a hands-on participatory exercise.", 
         "facilitator_array": [
-            "Helen Lee"
+            "Helen Lee, @heli_tomato"
         ], 
         "facilitators": "Helen Lee", 
         "id": "506", 
@@ -434,10 +434,10 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "Code like you give a damn! Why not using your skills to co-design interactive stories that can change the world? Today, coders and storytellers rarely work together from day one. Join this session to be part of the solution and meet storytellers and coders you'll want to work with!", 
+        "description": "This session is about challenging existing factual web narrative structures and inventing whole new ways to bring the user inside the reality that we want to change with our stories. You will work on real stories that are looking to be produced soon!", 
         "facilitator_array": [
-            "Sandra Gaudenzi", 
-            "Philo van Kemenade"
+            "Sandra Gaudenzi, @sgaudenzi", 
+            "Philo van Kemenade, @phivk"
         ], 
         "facilitators": "Sandra Gaudenzi, Philo van Kemenade", 
         "id": "467", 
@@ -452,8 +452,8 @@
         "day": "Saturday", 
         "description": "This session shares all the ways in which you can utilize GitHub’s free hosting for all repositories and accounts. Attendees will learn how to set up static websites and blogs for their projects or documentation.", 
         "facilitator_array": [
-            "Jessica Lord", 
-            "Mu-An Chiou"
+            "Jessica Lord, @jllord, Github", 
+            "Mu-An Chiou, @muanchiou, Github"
         ], 
         "facilitators": "Jessica Lord, Mu-An Chiou", 
         "id": "259", 
@@ -483,7 +483,7 @@
         "day": "Sunday", 
         "description": "Scaling the leading & learning program for Participation at Mozilla!  Join us in imagining and prototyping educational experiences  and opportunities for community leadership in the next year!", 
         "facilitator_array": [
-            "Emma Irwin"
+            "Emma Irwin, @sunnydeveloper, Mozilla"
         ], 
         "facilitators": "Emma Irwin", 
         "id": "606", 
@@ -585,25 +585,13 @@
         "title": "Getting Started with Open Source Contributions "
     }, 
     {
-        "description": "Building a strong online and in person community:\nCommunities can exist online, in person and many times, both. When communities live successfully online and in person, they can really compliment one another. However, at times, they can feel very disconnected and like two separate communities. How can we bridge the gap between the online and in person, to ultimately create a more integrated community that builds momentum? How do you engage these two different types of communities in a way that gets them connecting with one another and breaking down that digital barrier?", 
-        "facilitator_array": [
-            "Nick Weinbegr"
-        ], 
-        "facilitators": "Nick Weinbegr", 
-        "id": "423", 
-        "location": "", 
-        "pathways": "New Technologies for Participation -- Challenge", 
-        "scheduleblock": "", 
-        "space": "Building Participation", 
-        "title": "Connecting online + in person communities"
-    }, 
-    {
         "day": "Sunday", 
         "description": "Play with Lego bricks and learn how to be a better leader. Cynefin Lego Game is a playful way to learn the Cynefin Framework, a leader’s framework for decision-making used to understand and approach situations in teamwork, communities and organisations.", 
         "facilitator_array": [
-            "Francesco Iovine"
+            "Francesco Iovine, @franciov", 
+            "Maurizio Pedriale, @mpedriale"
         ], 
-        "facilitators": "Francesco Iovine", 
+        "facilitators": "Francesco Iovine, Maurizio Pedriale", 
         "id": "428", 
         "location": "", 
         "pathways": "Leading and Building Community Through Participation", 
@@ -630,7 +618,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "", 
+        "description": "Code like you give a damn! Why not using your skills to co-design interactive stories that can change the world? Today, coders and storytellers rarely work together from day one. Join this session to be part of the solution and meet storytellers and coders you'll want to work with!", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "468", 
@@ -644,8 +632,11 @@
     {
         "day": "Saturday", 
         "description": "Imagine a student starting their first day in college. Along the journey to graduation, they meet Mozilla for the first time. How will they become friends? How will they change the world, together? Come envision and build the next pathway for student participation at Mozilla with us!", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "facilitator_array": [
+            "Ting Jung (TJ) Lee, @CupofTJ", 
+            "George Roter, @geroter"
+        ], 
+        "facilitators": "Ting Jung (TJ) Lee, George Roter", 
         "id": "624", 
         "location": "", 
         "pathways": "Leading and Building Community Through Participation", 
