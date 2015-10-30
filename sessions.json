@@ -329,7 +329,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "[Here’s the session in a nutshell: https://raw.githubusercontent.com/phillipadsmith/2014.phillipadsmith.com/master/files/colonize-github-100px.jpg ]\nWhat would it take to simplify and unlock the collaborative power Github for all?\nToday, Github is virtually everywhere. It’s become a part of most developers’ daily lives, and is increasingly spreading to the lives of non-developers too. From civic hackers, researchers and policymakers to educators, journalists and project managers, it seems like the whole world is “going Github.”\nThe problem is: Github is still surprisingly hard for most everyday users to unlock. Non-technical users hit big barriers when trying to understand what Github is all about. And even experienced users struggle to keep up with all the new features, integrations, and innovations.\nThe goal of this session will be to brainstorm and hack on solutions to that problem.\nWe’ll map out Github’s territory, ask the question “What if…?,” and explore what’s possible in this new world of open, networked, co-creation.", 
+        "description": "What would it take to unlock the collaborative power GitHub for everyone? For researchers, policymakers, educators, and journalists? The whole world is “going GitHub,” and yet GitHub is still surprisingly hard for most everyday users to use. Join us to map out the territory and build solutions; to explore what’s possible in this new world of open, networked, co-creation.", 
         "facilitator_array": [
             "Phillip Smith"
         ], 
