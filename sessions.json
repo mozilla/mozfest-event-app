@@ -3637,6 +3637,21 @@
         "title": "The Maker Cart: a hands on introduction to Maker Education"
     }, 
     {
+        "day": "Saturday", 
+        "description": "This session will introduce participants to the Maker Cart and the Maker   Movement. The Maker Cart is a mobile cost and space saving mobile unit that   contains the main ingredients to start a Makerspace and Maker Programme. It   consists of a 3d printer, digital cutter, electronics, micro-controllers and   robotics. The Maker Cart has been designed for schools, libraries and youth   centres but can also be use at home!  People will learn about the Maker movement, the tools and machinery   associated and the kind of projects that can be developed with the Maker   Cart.  People will have a chance to make something using some of the tools and   machines in the Maker Cart.", 
+        "facilitator_array": [
+            "Carlos  Izsak"
+        ], 
+        "facilitators": "Carlos  Izsak", 
+        "id": "182", 
+        "location": "", 
+        "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
+        "scheduleblock": "saturday-session-block-4", 
+        "space": "youthZone - Through the lens of youths", 
+        "start": "03:30 PM", 
+        "title": "The Maker Cart: a hands on introduction to Maker Education"
+    }, 
+    {
         "description": "CoderDojo will provide environment for kids to learn to code using a range of Mozilla and Open Source Languages, The sessions will be open learning delivered by youth mentors in peer to peer sessions. Adults will be present to supervise and support youth mentors, if required", 
         "facilitator_array": [
             "Johnny Claffey"
@@ -3744,7 +3759,7 @@
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
         "start": "02:15 PM", 
-        "title": "Programming without code"
+        "title": "Programming without code (Room 205, 2nd floor)"
     }, 
     {
         "description": "The session will be designed and co created by young people and core industry partners and tech and ideation specialists. Our main co creators are Hyper Island, wearedotdotdot, Erica Neve Limited, The YP Collective (links below) and young people. Using the weardotdotdot hyperlocal network of digital training providers and tech city businesses, we have brought together a team of adults and young people to co create and run the workshop.\nThe young people leading the session are weardotdotdot ambassadors and apprentices in Tech City.  We’d also bring along young people to Mozfest from our network, outreach work and partnerships.\n**What the session looks like\nThe session will use Hyper Island tool boxes (see link below) to give the participants the opportunities to try tools and techniques to learn new ways to ideate and come up with exciting ideas that enable them to come up with proof of concepts and prototypes rapidly.  This will give them something to take away and also enable them to answer a civic challenge brief, using the tool boxes, the mentors and work shop session.\nIn small teams, the participants will come up with a pitch and a very simple business canvas for a tech solution for a civic challenge of their choosing. The session will enable the participants to develop an idea and prototype, equally working on 3 areas:\n•\tAddressing a (civic) challenge or issue\no\tHow significant is the civic problem?\no\tHow impactful is the solution?\no\tWhat difference will this make in people’s lives?\n•\tDeciding on the technology:\no\tHow innovative and creative is the solution?\no\tMaking good use of technology ?\no\tHow well does the idea  work from a tech perspective?\n•\tLeadership and Entrepreneurship:\no\tIs this project practical from a business perspective?\no\tWould there be consumer demand for this project? Is it scalable?\nOutputs –\n•\tA (very) simple business canvas\n•\tUp to 3 minute video pitch\n•\tAn opportunity to be part of a Teen Tech Global’s civic hackathon  and  Youth Summit (as a participant, mentor or supporter.\nThis workshops would fit really well into wearedotdot’s wider work with Teen Tech Global.\nWearedotdotdot are UK Global partners with Teen Tech Global. We are organising and supporting others to organise Civic Hackathons in Oct- Nov 2015.\nWhilst we are hosting a UK Teentech Youth Summit on 5th December alongside the main Youth Summit and live streaming with the US at 16.00 on the day of the summit, with our Civic Hackathon teams presenting their pitches.", 
