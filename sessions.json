@@ -907,7 +907,7 @@
         "pathways": "Global Village Recycling", 
         "scheduleblock": "", 
         "space": "The Global Village", 
-        "title": "Modular frequencies - HearUsHere soundlab"
+        "title": "Modular frequencies - HearUsHere soundlab (Note this is also in the youthZone on an AM sunday B1&2 slot) "
     }, 
     {
         "description": "Today's society can be isolating and difficult to connect with other people around us. Were glued to our screens (ambient intimacy) and fear looking people in the eye incase they get the wrong or a different idea (fear of rejection). Calling on Sherry Turkle's book Alone Together and Aziz Ansari's Modern Romance", 
@@ -3990,5 +3990,18 @@
         "scheduleblock": "all-weekend", 
         "space": "youthZone - Through the lens of youths", 
         "title": "Java CodeAcademy Lunch session"
+    }, 
+    {
+        "description": "In the ‘Modular frequencies’ workshop we’ll create a spacial audio installation! The HearUsHere app (location based audio) combined with iBeacons allows us to create a new sonic experience. Every iBeacon is a frequency that carriers a sound, when you get closer to one of these frequencies the audio will automatically fade in and cross fade with others. Using the speakers of our phones, we’ll create a collective audio experience. This results in unique and constantly changing soundscape created by the visitors and their navigation in the space.\nWithin the workshop you won’t only experience these modular frequencies. You’ll learn about frequencies, location based audio and you’ll hack the beacons to create your own ‘pirate radio’! (No coding skills required).", 
+        "facilitator_array": [
+            "Klasien van de Zandschulp"
+        ], 
+        "facilitators": "Klasien van de Zandschulp", 
+        "id": "230", 
+        "location": "", 
+        "pathways": "Global Village Recycling", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Modular frequencies - HearUsHere soundlab (Note this is also in the youthZone on an AM sunday B1&2 slot) "
     }
 ]
