@@ -3997,7 +3997,7 @@
         "facilitators": "Joe Dytrych, Dee Saigal, Leonie Van Der Linde", 
         "id": "140", 
         "location": "", 
-        "pathways": "", 
+        "pathways": "[youthZone] Pathway Tech - What else you can do with it", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
         "start": "02:15 PM", 
@@ -4057,5 +4057,16 @@
         "space": "youthZone - Through the lens of youths", 
         "start": "12:45 PM", 
         "title": "Youth Physical computing \"Play date\" come play with us! (Open space, 2nd floor)"
+    }, 
+    {
+        "description": "", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "442", 
+        "location": "", 
+        "pathways": "[youthZone] UK Mozilla community pathway [youthZone] Pathway Craft - Bridging your digital divide", 
+        "scheduleblock": "all-weekend", 
+        "space": "youthZone - Through the lens of youths", 
+        "title": "Dot to Dot - Pi Minecraft Art with conductive ink (Outside room 209, 2nd floor)"
     }
 ]
