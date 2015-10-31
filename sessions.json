@@ -4107,17 +4107,6 @@
         "title": "Hacking Minecraft Pi with Python"
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "442", 
-        "location": "", 
-        "pathways": "[youthZone] Pathway Tech - What else you can do with it", 
-        "scheduleblock": "", 
-        "space": "youthZone - Through the lens of youths", 
-        "title": "Getting started with Pi for adults"
-    }, 
-    {
         "day": "Sunday", 
         "description": "", 
         "facilitator_array": [], 
@@ -4129,5 +4118,44 @@
         "space": "youthZone - Through the lens of youths", 
         "start": "11:30 AM", 
         "title": "Building stories with code"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "442", 
+        "location": "", 
+        "pathways": "[youthZone] Pathway Tech - What else you can do with it", 
+        "scheduleblock": "sunday-session-block-6", 
+        "space": "youthZone - Through the lens of youths", 
+        "start": "12:45 PM", 
+        "title": "Scratch-ing the Surface with GPIO"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "442", 
+        "location": "", 
+        "pathways": "[youthZone] Pathway Tech - What else you can do with it", 
+        "scheduleblock": "sunday-session-block-6", 
+        "space": "youthZone - Through the lens of youths", 
+        "start": "12:45 PM", 
+        "title": "Hacking Minecraft Pi with Python"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "442", 
+        "location": "", 
+        "pathways": "[youthZone] Pathway Tech - What else you can do with it", 
+        "scheduleblock": "sunday-session-block-8", 
+        "space": "youthZone - Through the lens of youths", 
+        "start": "04:00 PM", 
+        "title": "Getting started with Pi for adults"
     }
 ]
