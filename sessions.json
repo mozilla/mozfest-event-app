@@ -633,7 +633,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "Imagine a student starting their first day in college. Along the journey to graduation, they meet Mozilla for the first time. How will they become friends? How will they change the world, together? Come envision and build the next pathway for student participation at Mozilla with us!", 
+        "description": "", 
         "facilitator_array": [
             "Ting Jung (TJ) Lee, @CupofTJ", 
             "George Roter, @geroter"
@@ -4078,7 +4078,7 @@
         "pathways": "[youthZone] Pathway Tech - What else you can do with it, [youthZone] Pathway Craft - Bridging your digital divide", 
         "scheduleblock": "all-weekend", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "Musical fruit with the Explorer HAT"
+        "title": "Musical fruit with the Explorer HAT (Room 209, 2nd floor)"
     }, 
     {
         "day": "Saturday", 
@@ -4091,7 +4091,7 @@
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
         "start": "02:15 PM", 
-        "title": "Scratch-ing the surface of space"
+        "title": "Scratch-ing the surface of space (Room 209, 2nd floor)"
     }, 
     {
         "day": "Saturday", 
@@ -4104,7 +4104,7 @@
         "scheduleblock": "saturday-session-block-4", 
         "space": "youthZone - Through the lens of youths", 
         "start": "03:30 PM", 
-        "title": "Hacking Minecraft Pi with Python"
+        "title": "Hacking Minecraft Pi with Python (Room 209, 2nd floor)"
     }, 
     {
         "day": "Sunday", 
@@ -4117,7 +4117,7 @@
         "scheduleblock": "sunday-session-block-5", 
         "space": "youthZone - Through the lens of youths", 
         "start": "11:30 AM", 
-        "title": "Building stories with code"
+        "title": "Building stories with code (Room 209, 2nd floor)"
     }, 
     {
         "day": "Sunday", 
@@ -4130,7 +4130,7 @@
         "scheduleblock": "sunday-session-block-6", 
         "space": "youthZone - Through the lens of youths", 
         "start": "12:45 PM", 
-        "title": "Scratch-ing the Surface with GPIO"
+        "title": "Scratch-ing the Surface with GPIO (Room 209, 2nd floor)"
     }, 
     {
         "day": "Sunday", 
@@ -4143,7 +4143,7 @@
         "scheduleblock": "sunday-session-block-6", 
         "space": "youthZone - Through the lens of youths", 
         "start": "12:45 PM", 
-        "title": "Hacking Minecraft Pi with Python"
+        "title": "Hacking Minecraft Pi with Python (Room 209, 2nd floor)"
     }, 
     {
         "day": "Sunday", 
@@ -4156,6 +4156,6 @@
         "scheduleblock": "sunday-session-block-8", 
         "space": "youthZone - Through the lens of youths", 
         "start": "04:00 PM", 
-        "title": "Getting started with Pi for adults"
+        "title": "Getting started with Pi for adults (Room 209, 2nd floor)"
     }
 ]
