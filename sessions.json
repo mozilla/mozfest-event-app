@@ -3593,6 +3593,7 @@
         "title": "Arts Award - Individual Pathway creator in schools and youth centres (Open space, 2nd floor) "
     }, 
     {
+        "day": "Sunday", 
         "description": "The session will introduce people to the awesomeness of the Raspberry Pi, electric circuits and coding with Scratch and Python.  They will learn about using the command line, setting up electronic circuits safely, what the GPIO pins are used for and just having a bit of fun with blinking LEDs and resisters. It will also introduce them to Computational thinking and problem solving.", 
         "facilitator_array": [
             "Femi Owolade-Coombes", 
@@ -3602,9 +3603,10 @@
         "id": "410", 
         "location": "", 
         "pathways": "[Pathway] Mapping Your MozFest Learning Journey, [youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-6", 
         "space": "youthZone - Through the lens of youths", 
-        "title": " Physical Computing with the Raspberry Pi"
+        "start": "12:45 PM", 
+        "title": " Physical Computing with the Raspberry Pi (Open space, 2nd floor)"
     }, 
     {
         "day": "Sunday", 
@@ -3623,6 +3625,7 @@
         "title": "Teaching the Basics of Privacy (Room 213, 2nd floor)"
     }, 
     {
+        "day": "Sunday", 
         "description": "People often hear the word \"algorithm\" and think that it entails complicated math or heavy computer programming. At it's core, though, an algorithm is a simple set of rules that are relatively easy to understand. You can write an algorithm for almost anything — making a sandwich, deciding what to make for dinner, doing long division, naming children, and more. This session seeks above all to take away the mystery of a concept that influences our lives each day. It will help people understand how algorithms work and will allow participants to explore the concept of algorithms using simple English and no code.", 
         "facilitator_array": [
             "Ryan  Graff, @rcgraff, Knight Lab"
@@ -3631,9 +3634,10 @@
         "id": "184", 
         "location": "", 
         "pathways": "[youthZone] Pathway Tech - What else you can do with it", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-6", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "Algorithms are ancient and not so scary. Let's write one with crayons. "
+        "start": "12:45 PM", 
+        "title": "Algorithms are ancient and not so scary. Let's write one with crayons. (Open space, 2nd floor)"
     }, 
     {
         "day": "Sunday", 
@@ -3926,6 +3930,7 @@
         "title": "Encouraging Contributions from Young Developers (Room 213, 2nd floor)"
     }, 
     {
+        "day": "Sunday", 
         "description": "Introducing MLS project to volunteers\nThe Mozilla Location Service (MLS) is an open service which lets devices determine their location based on network infrastructure like WiFi access points and cell towers.", 
         "facilitator_array": [
             "Harsha  Bandaru, @harsshhaa, Google"
@@ -3934,9 +3939,10 @@
         "id": "70", 
         "location": "", 
         "pathways": "\n", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-6", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "Mozilla Location Services"
+        "start": "12:45 PM", 
+        "title": "Mozilla Location Services (Open space, 2nd floor)"
     }, 
     {
         "description": "This is a roiling session in the craft area of the youthZone, the aim is to help parents explore how crafting is aligned to making as a concept and thus extendable into the digital, from paper crafting to friendship bracelet making.", 
@@ -3949,7 +3955,7 @@
         "pathways": "[youthZone] Pathway Craft - Bridging your digital divide", 
         "scheduleblock": "all-weekend", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "Craft - Bridging your digital divide"
+        "title": "Craft - Bridging your digital divide (Open space, 2nd floor)"
     }, 
     {
         "description": "This is a rolling session for youths that explores the link between youth instrumentalist (players of a musical instrument) as a pathway into engineering and tech support roles through developing a passion for all things music technology and as an instrumentalist.", 
@@ -4050,6 +4056,6 @@
         "scheduleblock": "sunday-session-block-6", 
         "space": "youthZone - Through the lens of youths", 
         "start": "12:45 PM", 
-        "title": "Youth Physical computing \"Play date\" come play with us!"
+        "title": "Youth Physical computing \"Play date\" come play with us! (Open space, 2nd floor)"
     }
 ]
