@@ -3710,20 +3710,6 @@
         "title": "Create your own projection mapping with Parapara Animation (Room 205, 2nd floor)"
     }, 
     {
-        "day": "Sunday", 
-        "description": "This session provides a projection mapping workshop. In the workshop, participants will make objects with paper clay and draw animation to project on them. Animation will be made with customized version of parapara animation (http://parapara.mozlabs.jp/). Through the workshop, participants will learn the mechanism of how animation and projection mappings are made and by making their own. The experience are of making objects are related to making 3D items on computers. Also, mapping animation on their objects are very first stage of mixing computing world into the real world. The goal of this session is participants to feel and understand that the Web can be a part of our real life, and computers are the tools to make it happen.\nAlso, the activity is designed by university students for teenager to learn IT technology. Target age and level of skill for this activity is elementary school students or beginners.", 
-        "facilitator_array": [
-            "Noriatsu Kudo"
-        ], 
-        "facilitators": "Noriatsu Kudo", 
-        "id": "252", 
-        "location": "", 
-        "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "all-sunday", 
-        "space": "youthZone - Through the lens of youths", 
-        "title": "Create your own projection mapping with Parapara Animation (Room 205, 2nd floor)"
-    }, 
-    {
         "day": "Saturday", 
         "description": "In 2014, I completely re-imagined my school library by creating the first elementary school library makerspace in my district by collaborating with the Chattanooga Public Library, the PEF, Leadership Chattanooga, and HiveCha. Initially, I wanted to provide my students with access to technology.  The makerspace is essential to the development of 21st Century Skills because it provides a space for students to explore, make, share, and grow as independent learners.\nMake: Create a design journal.  My journal is the catalyst for change.  Here, I curate ideas, record my learning, reflect on the process, and celebrate success and failures.\nLearn: Disrupting the status-quo often brings chaos. To make progress in reaching dreams and goals you have to get comfortable with the chaos that comes with the process.  Chaos promotes questions: Is it really not working? Is this a failure or is it a pathway to future success?\nDo: Advocate for change.", 
         "facilitator_array": [
@@ -3752,6 +3738,7 @@
         "title": "MozFest Pandeiro Orchestra"
     }, 
     {
+        "day": "Saturday", 
         "description": "We are going to build custom sumobots (http://sumobotkit.com/) and learn how to control them with Javascript.", 
         "facilitator_array": [
             "Giovanny Andres Gongra Granada"
@@ -3760,9 +3747,10 @@
         "id": "99", 
         "location": "", 
         "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "Build your custom Sumobot"
+        "start": "02:15 PM", 
+        "title": "Build your custom Sumobot (Open space, 2nd floor)"
     }, 
     {
         "description": "In our sessions young people will learn an introduction to creative programming and basic electronics through workshops in making music with Sonic Pi, hacking Minecraft Pi with Python, playing with electronics with Python and ScratchGPIO and creating games with Scratch.", 
@@ -3819,6 +3807,7 @@
         "title": "Hacking Flexagons (Room 213, 2nd floor)"
     }, 
     {
+        "day": "Sunday", 
         "description": "Imagine an open source microscope that is powerful and cheap enough for school children to study the nano world, the world of atoms and molecules that is 1000 times smaller than what traditional optical microscopes can see. That is the objective of the LEGO2NANO project. This workshop will introduce to you the hardware and software developed so far for the world's first open source atomic force microscope. We'll also introduce how we are documenting this project on the Web, how we are involving Chinese school children in building and using the microscope, and sharing data from the microscope for crowdsourced analysis in Web-based citizen science projects. LEGO2NANO is in an international summer school in China, involving students and mentors from University College London, Tsinghua University, Peking University, Academia Sinica, MIT, Tufts University and University of Geneva. http://www.openafm.com", 
         "facilitator_array": [
             "Joe Bailey"
@@ -3827,11 +3816,12 @@
         "id": "292", 
         "location": "", 
         "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "", 
+        "scheduleblock": "all-sunday", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "LEGO2NANO: an Open Atomic Force Microscope Project"
+        "title": "LEGO2NANO: an Open Atomic Force Microscope Project (Room 205, 2nd floor)"
     }, 
     {
+        "day": "Saturday", 
         "description": "Imagine an open source microscope that is powerful and cheap enough for school children to study the nano world, the world of atoms and molecules that is 1000 times smaller than what traditional optical microscopes can see. That is the objective of the LEGO2NANO project. This workshop will introduce to you the hardware and software developed so far for the world's first open source atomic force microscope. We'll also introduce how we are documenting this project on the Web, how we are involving Chinese school children in building and using the microscope, and sharing data from the microscope for crowdsourced analysis in Web-based citizen science projects. LEGO2NANO is in an international summer school in China, involving students and mentors from University College London, Tsinghua University, Peking University, Academia Sinica, MIT, Tufts University and University of Geneva. http://www.openafm.com", 
         "facilitator_array": [
             "Joe Bailey"
@@ -3840,11 +3830,27 @@
         "id": "292", 
         "location": "", 
         "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "LEGO2NANO: an Open Atomic Force Microscope Project"
+        "start": "02:15 PM", 
+        "title": "LEGO2NANO: an Open Atomic Force Microscope Project (Open space, 2nd floor)"
     }, 
     {
+        "day": "Sunday", 
+        "description": "Imagine an open source microscope that is powerful and cheap enough for school children to study the nano world, the world of atoms and molecules that is 1000 times smaller than what traditional optical microscopes can see. That is the objective of the LEGO2NANO project. This workshop will introduce to you the hardware and software developed so far for the world's first open source atomic force microscope. We'll also introduce how we are documenting this project on the Web, how we are involving Chinese school children in building and using the microscope, and sharing data from the microscope for crowdsourced analysis in Web-based citizen science projects. LEGO2NANO is in an international summer school in China, involving students and mentors from University College London, Tsinghua University, Peking University, Academia Sinica, MIT, Tufts University and University of Geneva. http://www.openafm.com", 
+        "facilitator_array": [
+            "Joe Bailey"
+        ], 
+        "facilitators": "Joe Bailey", 
+        "id": "292", 
+        "location": "", 
+        "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
+        "scheduleblock": "all-sunday", 
+        "space": "youthZone - Through the lens of youths", 
+        "title": "LEGO2NANO: an Open Atomic Force Microscope Project (Room 205, 2nd floor)"
+    }, 
+    {
+        "day": "Saturday", 
         "description": "Minecraft offers digital makers a 3D virtual world which can be used to design and create interactive objects. On the $20 Raspberry Pi computer, users can use programming to control how these objects interact.\nThrough taking part in this Mini Minecraft HackJam, participants will understand the creative and educational potential of controlling Minecraft with code on a Raspberry Pi computer.\nAfter an introduction to programming Minecraft on the Raspberry Pi, participants will work in teams to create a Minecraft challenge assault course.\nThis session would suit learners who wish to explore the opportunities offered by controlling Minecraft and educators who wish to explore the potential of Raspberry Pi and Minecraft as teaching tools.\nThis session will be led by Alan O'Donohoe an experienced educator in Computing & Raspberry Pi and David Whale an experienced software developer, author and STEM ambassador.", 
         "facilitator_array": [
             "Alan O'Donohoe"
@@ -3853,9 +3859,10 @@
         "id": "85", 
         "location": "", 
         "pathways": "[youthZone] Pathway - News to me!", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "Mini Minecraft HackJam on Raspberry Pi"
+        "start": "12:00 PM", 
+        "title": "Mini Minecraft HackJam on Raspberry Pi (Room 212, 2nd floor)"
     }, 
     {
         "day": "Saturday", 
@@ -3922,9 +3929,9 @@
         "id": "537", 
         "location": "", 
         "pathways": " [youthZone] Pathway - News to me!", 
-        "scheduleblock": "", 
+        "scheduleblock": "all-weekend", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "Music - 50% of software engineers are instrumentalist."
+        "title": "Music - 50% of software engineers are instrumentalist (Room 212, 2nd floor)"
     }, 
     {
         "day": "Saturday", 
