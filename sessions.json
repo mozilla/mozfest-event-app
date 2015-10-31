@@ -1842,9 +1842,9 @@
         "facilitator_array": [
             "Mark Boas", 
             "Dan Schultz", 
-            "Tracy Jaquith"
+            "Tracey Jaquith"
         ], 
-        "facilitators": "Mark Boas, Dan Schultz, Tracy Jaquith", 
+        "facilitators": "Mark Boas, Dan Schultz, Tracey Jaquith", 
         "id": "576", 
         "location": "Floor 7 - 700", 
         "pathways": "", 
@@ -3823,6 +3823,7 @@
         "title": "Encouraging Contributions from Young Developers (Room 213, 2nd floor)"
     }, 
     {
+        "day": "Saturday", 
         "description": "The purpose of the session is to show the capability of WebVR and how MozVR can help them make interactive immersive content!\nThe goals include\n- Showing them the capability of VR, then make them realize the potential about WebVR/MozVR\n- Tech them to actually create immersive content. So the goal would be after the session they should not how to shoot 360/180 degree videos with commercial camera and make it work with MozVR\n- Teach them to hack on demos we already have. Goal is they should be able to hack into the building blocks of our presently available code", 
         "facilitator_array": [
             "Rabimba Karanjai"
@@ -3831,8 +3832,39 @@
         "id": "71", 
         "location": "", 
         "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "youthZone - Through the lens of youths", 
+        "start": "12:00 PM", 
+        "title": "WebVR - Make virtual reality games in your browser!"
+    }, 
+    {
+        "day": "Saturday", 
+        "description": "The purpose of the session is to show the capability of WebVR and how MozVR can help them make interactive immersive content!\nThe goals include\n- Showing them the capability of VR, then make them realize the potential about WebVR/MozVR\n- Tech them to actually create immersive content. So the goal would be after the session they should not how to shoot 360/180 degree videos with commercial camera and make it work with MozVR\n- Teach them to hack on demos we already have. Goal is they should be able to hack into the building blocks of our presently available code", 
+        "facilitator_array": [
+            "Rabimba Karanjai"
+        ], 
+        "facilitators": "Rabimba Karanjai", 
+        "id": "71", 
+        "location": "", 
+        "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
+        "scheduleblock": "saturday-session-block-3", 
+        "space": "youthZone - Through the lens of youths", 
+        "start": "02:15 PM", 
+        "title": "WebVR - Make virtual reality games in your browser!"
+    }, 
+    {
+        "day": "Saturday", 
+        "description": "The purpose of the session is to show the capability of WebVR and how MozVR can help them make interactive immersive content!\nThe goals include\n- Showing them the capability of VR, then make them realize the potential about WebVR/MozVR\n- Tech them to actually create immersive content. So the goal would be after the session they should not how to shoot 360/180 degree videos with commercial camera and make it work with MozVR\n- Teach them to hack on demos we already have. Goal is they should be able to hack into the building blocks of our presently available code", 
+        "facilitator_array": [
+            "Rabimba Karanjai"
+        ], 
+        "facilitators": "Rabimba Karanjai", 
+        "id": "71", 
+        "location": "", 
+        "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
+        "scheduleblock": "saturday-session-block-4", 
+        "space": "youthZone - Through the lens of youths", 
+        "start": "03:30 PM", 
         "title": "WebVR - Make virtual reality games in your browser!"
     }, 
     {
