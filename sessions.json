@@ -3624,6 +3624,7 @@
         "title": "Algorithms are ancient and not so scary. Let's write one with crayons. "
     }, 
     {
+        "day": "Sunday", 
         "description": "This session will introduce participants to the Maker Cart and the Maker   Movement. The Maker Cart is a mobile cost and space saving mobile unit that   contains the main ingredients to start a Makerspace and Maker Programme. It   consists of a 3d printer, digital cutter, electronics, micro-controllers and   robotics. The Maker Cart has been designed for schools, libraries and youth   centres but can also be use at home!  People will learn about the Maker movement, the tools and machinery   associated and the kind of projects that can be developed with the Maker   Cart.  People will have a chance to make something using some of the tools and   machines in the Maker Cart.", 
         "facilitator_array": [
             "Carlos  Izsak"
@@ -3632,9 +3633,9 @@
         "id": "182", 
         "location": "", 
         "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "", 
+        "scheduleblock": "all-sunday", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "The Maker Cart: a hands on introduction to Maker Education"
+        "title": "The Maker Cart: a hands on introduction to Maker Education (Room 205, 2nd floor)"
     }, 
     {
         "day": "Saturday", 
@@ -3649,7 +3650,7 @@
         "scheduleblock": "saturday-session-block-4", 
         "space": "youthZone - Through the lens of youths", 
         "start": "03:30 PM", 
-        "title": "The Maker Cart: a hands on introduction to Maker Education"
+        "title": "The Maker Cart: a hands on introduction to Maker Education (Room 205, 2nd floor)"
     }, 
     {
         "description": "CoderDojo will provide environment for kids to learn to code using a range of Mozilla and Open Source Languages, The sessions will be open learning delivered by youth mentors in peer to peer sessions. Adults will be present to supervise and support youth mentors, if required", 
@@ -3680,6 +3681,7 @@
         "title": "Allow me re-introduce myself, my name is .... (tools to teach the web) (Room 213, 2nd floor)"
     }, 
     {
+        "day": "Sunday", 
         "description": "This session provides a projection mapping workshop. In the workshop, participants will make objects with paper clay and draw animation to project on them. Animation will be made with customized version of parapara animation (http://parapara.mozlabs.jp/). Through the workshop, participants will learn the mechanism of how animation and projection mappings are made and by making their own. The experience are of making objects are related to making 3D items on computers. Also, mapping animation on their objects are very first stage of mixing computing world into the real world. The goal of this session is participants to feel and understand that the Web can be a part of our real life, and computers are the tools to make it happen.\nAlso, the activity is designed by university students for teenager to learn IT technology. Target age and level of skill for this activity is elementary school students or beginners.", 
         "facilitator_array": [
             "Noriatsu Kudo"
@@ -3688,9 +3690,38 @@
         "id": "252", 
         "location": "", 
         "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "", 
+        "scheduleblock": "all-sunday", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "Create your own projection mapping with Parapara Animation"
+        "title": "Create your own projection mapping with Parapara Animation (Room 205, 2nd floor)"
+    }, 
+    {
+        "day": "Saturday", 
+        "description": "This session provides a projection mapping workshop. In the workshop, participants will make objects with paper clay and draw animation to project on them. Animation will be made with customized version of parapara animation (http://parapara.mozlabs.jp/). Through the workshop, participants will learn the mechanism of how animation and projection mappings are made and by making their own. The experience are of making objects are related to making 3D items on computers. Also, mapping animation on their objects are very first stage of mixing computing world into the real world. The goal of this session is participants to feel and understand that the Web can be a part of our real life, and computers are the tools to make it happen.\nAlso, the activity is designed by university students for teenager to learn IT technology. Target age and level of skill for this activity is elementary school students or beginners.", 
+        "facilitator_array": [
+            "Noriatsu Kudo"
+        ], 
+        "facilitators": "Noriatsu Kudo", 
+        "id": "252", 
+        "location": "", 
+        "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
+        "scheduleblock": "saturday-session-block-3", 
+        "space": "youthZone - Through the lens of youths", 
+        "start": "02:15 PM", 
+        "title": "Create your own projection mapping with Parapara Animation (Room 205, 2nd floor)"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "This session provides a projection mapping workshop. In the workshop, participants will make objects with paper clay and draw animation to project on them. Animation will be made with customized version of parapara animation (http://parapara.mozlabs.jp/). Through the workshop, participants will learn the mechanism of how animation and projection mappings are made and by making their own. The experience are of making objects are related to making 3D items on computers. Also, mapping animation on their objects are very first stage of mixing computing world into the real world. The goal of this session is participants to feel and understand that the Web can be a part of our real life, and computers are the tools to make it happen.\nAlso, the activity is designed by university students for teenager to learn IT technology. Target age and level of skill for this activity is elementary school students or beginners.", 
+        "facilitator_array": [
+            "Noriatsu Kudo"
+        ], 
+        "facilitators": "Noriatsu Kudo", 
+        "id": "252", 
+        "location": "", 
+        "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
+        "scheduleblock": "all-sunday", 
+        "space": "youthZone - Through the lens of youths", 
+        "title": "Create your own projection mapping with Parapara Animation (Room 205, 2nd floor)"
     }, 
     {
         "day": "Saturday", 
