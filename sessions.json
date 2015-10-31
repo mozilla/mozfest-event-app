@@ -3471,8 +3471,12 @@
     {
         "day": "Saturday", 
         "description": "Two specially adapted Raspberry Pis will be travelling to the International Space Station with astronaut Tim Peake in December. This session introduces you to the Astro Pi project, how to set it up and how to use the many features of this genuine piece of space certified hardware and how you can link to this amazing project in your home and schools.", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "facilitator_array": [
+            "Carrie Anne Philbin, , Raspberry Pi Foundation", 
+            "Yasmin Bey, @RPi_Yaz14, \n", 
+            "Dave Honess, , Raspberry Pi Foundation"
+        ], 
+        "facilitators": "Carrie Anne Philbin, Yasmin Bey, Dave Honess", 
         "id": "556", 
         "location": "", 
         "pathways": " [youthZone] Pathway Tech - What else you can do with it, [youthZone] Teaching kit", 
@@ -3484,8 +3488,10 @@
     {
         "day": "Saturday", 
         "description": "There's a lot of talk about 'jobs in tech' but what does that actually *mean* -- especially for those of us that don't code (yet!) In this interactive, non-intimidating session you'll create a \"dream job\" based on what you're good at and what you like to do. You'll also hear a diverse panel share how they parlayed their skills and passions into a dynamic -- and often self-defined -- role in the tech industry. A great session for MozFest newbies, youth, and anyone considering transitioning their careers into this exciting field. Everyone is welcome!", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "facilitator_array": [
+            "Erika Drushka, @edrush, Mozilla Foundation"
+        ], 
+        "facilitators": "Erika Drushka", 
         "id": "206", 
         "location": "", 
         "pathways": "Educator focused, Inclusive Communities, Youth Learning, [youthZone] Leading session, [youthZone] Pathway - News to me!", 
