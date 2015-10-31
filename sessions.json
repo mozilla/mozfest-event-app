@@ -3534,10 +3534,10 @@
         "id": "378", 
         "location": "", 
         "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
-        "scheduleblock": "sunday-session-block-6", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "12:45 PM", 
-        "title": "Bringing VR to the masses with your story! on the Web"
+        "start": "11:30 AM", 
+        "title": "Bringing VR to the masses with your story! on the Web (Open space, 2nd floor)"
     }, 
     {
         "day": "Saturday", 
@@ -3552,6 +3552,21 @@
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
         "start": "02:15 PM", 
+        "title": "Bringing VR to the masses with your story! on the Web"
+    }, 
+    {
+        "day": "Saturday", 
+        "description": "The session will show the capability of WebVR for interactive and immersive storytelling, and how to bring VR to anyone with a smartphone.\nParticipants will make cardboard VR cutouts from a provided template, which they can use with Firefox installed on their off the shelf Android phones. No expensive hardware required!\nIt can be presented as a limited-length session, as an all-day (or all festival) exhibit, where  people can periodically stop by and learn and create.\nThe goals include:\n- Creation of DIY cardboard VR viewers! We will provide templates, scissors, and fun things to decorate them with!\n- Show participants the capability of VR for telling stories on the Web.\n- Teach participants to create immersive content with consumer-grade 360/180 degree cameras. They will be able to see contents from the camera with WebVR\n- Teach them to hack on example stories, to tell their own stories in WebVR.", 
+        "facilitator_array": [
+            "Rabimba Karanjai"
+        ], 
+        "facilitators": "Rabimba Karanjai", 
+        "id": "378", 
+        "location": "", 
+        "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
+        "scheduleblock": "saturday-session-block-4", 
+        "space": "youthZone - Through the lens of youths", 
+        "start": "03:30 PM", 
         "title": "Bringing VR to the masses with your story! on the Web"
     }, 
     {
@@ -3823,51 +3838,6 @@
         "space": "youthZone - Through the lens of youths", 
         "start": "12:00 PM", 
         "title": "Encouraging Contributions from Young Developers (Room 213, 2nd floor)"
-    }, 
-    {
-        "day": "Saturday", 
-        "description": "The purpose of the session is to show the capability of WebVR and how MozVR can help them make interactive immersive content!\nThe goals include\n- Showing them the capability of VR, then make them realize the potential about WebVR/MozVR\n- Tech them to actually create immersive content. So the goal would be after the session they should not how to shoot 360/180 degree videos with commercial camera and make it work with MozVR\n- Teach them to hack on demos we already have. Goal is they should be able to hack into the building blocks of our presently available code", 
-        "facilitator_array": [
-            "Rabimba Karanjai"
-        ], 
-        "facilitators": "Rabimba Karanjai", 
-        "id": "71", 
-        "location": "", 
-        "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
-        "scheduleblock": "saturday-session-block-2", 
-        "space": "youthZone - Through the lens of youths", 
-        "start": "12:00 PM", 
-        "title": "WebVR - Make virtual reality games in your browser!"
-    }, 
-    {
-        "day": "Saturday", 
-        "description": "The purpose of the session is to show the capability of WebVR and how MozVR can help them make interactive immersive content!\nThe goals include\n- Showing them the capability of VR, then make them realize the potential about WebVR/MozVR\n- Tech them to actually create immersive content. So the goal would be after the session they should not how to shoot 360/180 degree videos with commercial camera and make it work with MozVR\n- Teach them to hack on demos we already have. Goal is they should be able to hack into the building blocks of our presently available code", 
-        "facilitator_array": [
-            "Rabimba Karanjai"
-        ], 
-        "facilitators": "Rabimba Karanjai", 
-        "id": "71", 
-        "location": "", 
-        "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
-        "scheduleblock": "saturday-session-block-3", 
-        "space": "youthZone - Through the lens of youths", 
-        "start": "02:15 PM", 
-        "title": "WebVR - Make virtual reality games in your browser!"
-    }, 
-    {
-        "day": "Saturday", 
-        "description": "The purpose of the session is to show the capability of WebVR and how MozVR can help them make interactive immersive content!\nThe goals include\n- Showing them the capability of VR, then make them realize the potential about WebVR/MozVR\n- Tech them to actually create immersive content. So the goal would be after the session they should not how to shoot 360/180 degree videos with commercial camera and make it work with MozVR\n- Teach them to hack on demos we already have. Goal is they should be able to hack into the building blocks of our presently available code", 
-        "facilitator_array": [
-            "Rabimba Karanjai"
-        ], 
-        "facilitators": "Rabimba Karanjai", 
-        "id": "71", 
-        "location": "", 
-        "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
-        "scheduleblock": "saturday-session-block-4", 
-        "space": "youthZone - Through the lens of youths", 
-        "start": "03:30 PM", 
-        "title": "WebVR - Make virtual reality games in your browser!"
     }, 
     {
         "description": "Introducing MLS project to volunteers\nThe Mozilla Location Service (MLS) is an open service which lets devices determine their location based on network infrastructure like WiFi access points and cell towers.", 
