@@ -3552,7 +3552,7 @@
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
         "start": "02:15 PM", 
-        "title": "Bringing VR to the masses with your story! on the Web"
+        "title": "Bringing VR to the masses with your story! on the Web (Open space, 2nd floor)"
     }, 
     {
         "day": "Saturday", 
@@ -3564,10 +3564,10 @@
         "id": "378", 
         "location": "", 
         "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
-        "scheduleblock": "saturday-session-block-4", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "03:30 PM", 
-        "title": "Bringing VR to the masses with your story! on the Web"
+        "start": "12:00 PM", 
+        "title": "Bringing VR to the masses with your story! on the Web (Open space, 2nd floor)"
     }, 
     {
         "description": "Arts Award is managed by Trinity College London in association with Arts Council England.  It is an evidenced based qualification which provides a framework for schools, arts, cultural and youth sector organisations.  It supports young people to gain creativity and leadership skills. The focus is on iteration as a process post project to help teach young people how to create a project independently from inception to creation in any media they may wish to express themselves in aged 0-25.  Arts Award is offered at five levels, four qualifications and an introductory award", 
@@ -3725,6 +3725,7 @@
         "title": "Embracing the chaos of 21st Century learning (Room 205, 2nd floor)"
     }, 
     {
+        "day": "Saturday", 
         "description": "This session will enable people to learn a digital musical instrument version of a traditional Samba instrument called pandeiro, using a webapp similar to the 80`s game Simon. They will be able to record their own creations and share them with others to improve their technique. After the session they will also capable to actually play the real instrument. We'll form a digital pandeiro orchestra during mozFest and exchange original songs with one another.", 
         "facilitator_array": [
             "Adriano  Cupello"
@@ -3733,9 +3734,10 @@
         "id": "392", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "MozFest Pandeiro Orchestra"
+        "start": "03:30 PM", 
+        "title": "MozFest Pandeiro Orchestra (Room 212, 2nd floor)"
     }, 
     {
         "day": "Saturday", 
