@@ -3732,6 +3732,7 @@
         "title": "Raspberry Pi youth section workshops ((Room 209, 2nd floor)"
     }, 
     {
+        "day": "Saturday", 
         "description": "The goal of this session is to teach people how to think about programming. Most \"learn to program\" sessions get caught up in syntax and language choices, when, in reality, programming's central necessary skill is structured thought. But the concepts behind writing code are, at their core, logical constructs.  We will start with basic concepts like variable assignment, if statements, and loops. If time allows, we will work through some more complex problems that require putting together multiple programming concepts.", 
         "facilitator_array": [
             "Heather Billings"
@@ -3740,8 +3741,9 @@
         "id": "317", 
         "location": "", 
         "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
+        "start": "02:15 PM", 
         "title": "Programming without code"
     }, 
     {
