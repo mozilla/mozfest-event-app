@@ -3504,9 +3504,10 @@
         "day": "Sunday", 
         "description": "I created this HTML Puzzle Box which people can easily create because it's basically a papertoy, that you can print and craft by yourself. This boxes means to teach people, which has no knowledge about HTML basic languages, in a more fun way. Beside of teaching how to craft, we can play a HTML Puzzle Box Challenge which challenging how fast you can stack the boxes in right orders.", 
         "facilitator_array": [
-            "Yofie Setiawan"
+            "Yofie Setiawan, @yofiesetiawan, Mozilla Indonesia Community", 
+            "Rizky Ariestiyansyah"
         ], 
-        "facilitators": "Yofie Setiawan", 
+        "facilitators": "Yofie Setiawan, Rizky Ariestiyansyah", 
         "id": "59", 
         "location": "", 
         "pathways": "", 
@@ -3519,7 +3520,7 @@
         "day": "Saturday", 
         "description": "deeper community participation using one of Mozilla's support tools (Army of Awesome) as a case study. We will use this to discuss and share what participation techniques and processes work in the open space and comment on challenges and opportunities.", 
         "facilitator_array": [
-            "Madalina Ana"
+            "Madalina Ana, @madalinaana, Mozilla"
         ], 
         "facilitators": "Madalina Ana", 
         "id": "289", 
@@ -3534,9 +3535,10 @@
         "day": "Sunday", 
         "description": "The session will show the capability of WebVR for interactive and immersive storytelling, and how to bring VR to anyone with a smartphone.\nParticipants will make cardboard VR cutouts from a provided template, which they can use with Firefox installed on their off the shelf Android phones. No expensive hardware required!\nIt can be presented as a limited-length session, as an all-day (or all festival) exhibit, where  people can periodically stop by and learn and create.\nThe goals include:\n- Creation of DIY cardboard VR viewers! We will provide templates, scissors, and fun things to decorate them with!\n- Show participants the capability of VR for telling stories on the Web.\n- Teach participants to create immersive content with consumer-grade 360/180 degree cameras. They will be able to see contents from the camera with WebVR\n- Teach them to hack on example stories, to tell their own stories in WebVR.", 
         "facilitator_array": [
-            "Rabimba Karanjai"
+            "Rabimba Karanjai, @rabimba, RICE University / Mozillian", 
+            "Dietrich Ayala"
         ], 
-        "facilitators": "Rabimba Karanjai", 
+        "facilitators": "Rabimba Karanjai, Dietrich Ayala", 
         "id": "378", 
         "location": "", 
         "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
@@ -3549,9 +3551,10 @@
         "day": "Saturday", 
         "description": "The session will show the capability of WebVR for interactive and immersive storytelling, and how to bring VR to anyone with a smartphone.\nParticipants will make cardboard VR cutouts from a provided template, which they can use with Firefox installed on their off the shelf Android phones. No expensive hardware required!\nIt can be presented as a limited-length session, as an all-day (or all festival) exhibit, where  people can periodically stop by and learn and create.\nThe goals include:\n- Creation of DIY cardboard VR viewers! We will provide templates, scissors, and fun things to decorate them with!\n- Show participants the capability of VR for telling stories on the Web.\n- Teach participants to create immersive content with consumer-grade 360/180 degree cameras. They will be able to see contents from the camera with WebVR\n- Teach them to hack on example stories, to tell their own stories in WebVR.", 
         "facilitator_array": [
-            "Rabimba Karanjai"
+            "Rabimba Karanjai, @rabimba, RICE University / Mozillian", 
+            "Dietrich Ayala"
         ], 
-        "facilitators": "Rabimba Karanjai", 
+        "facilitators": "Rabimba Karanjai, Dietrich Ayala", 
         "id": "378", 
         "location": "", 
         "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
@@ -3564,9 +3567,10 @@
         "day": "Saturday", 
         "description": "The session will show the capability of WebVR for interactive and immersive storytelling, and how to bring VR to anyone with a smartphone.\nParticipants will make cardboard VR cutouts from a provided template, which they can use with Firefox installed on their off the shelf Android phones. No expensive hardware required!\nIt can be presented as a limited-length session, as an all-day (or all festival) exhibit, where  people can periodically stop by and learn and create.\nThe goals include:\n- Creation of DIY cardboard VR viewers! We will provide templates, scissors, and fun things to decorate them with!\n- Show participants the capability of VR for telling stories on the Web.\n- Teach participants to create immersive content with consumer-grade 360/180 degree cameras. They will be able to see contents from the camera with WebVR\n- Teach them to hack on example stories, to tell their own stories in WebVR.", 
         "facilitator_array": [
-            "Rabimba Karanjai"
+            "Rabimba Karanjai, @rabimba, RICE University / Mozillian", 
+            "Dietrich Ayala"
         ], 
-        "facilitators": "Rabimba Karanjai", 
+        "facilitators": "Rabimba Karanjai, Dietrich Ayala", 
         "id": "378", 
         "location": "", 
         "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
@@ -3578,9 +3582,9 @@
     {
         "description": "Arts Award is managed by Trinity College London in association with Arts Council England.  It is an evidenced based qualification which provides a framework for schools, arts, cultural and youth sector organisations.  It supports young people to gain creativity and leadership skills. The focus is on iteration as a process post project to help teach young people how to create a project independently from inception to creation in any media they may wish to express themselves in aged 0-25.  Arts Award is offered at five levels, four qualifications and an introductory award", 
         "facilitator_array": [
-            "Julie neville"
+            "Julie Neville, , Arts Award"
         ], 
-        "facilitators": "Julie neville", 
+        "facilitators": "Julie Neville", 
         "id": "538", 
         "location": "", 
         "pathways": " [youthZone] Pathway - News to me!", 
@@ -3591,9 +3595,10 @@
     {
         "description": "The session will introduce people to the awesomeness of the Raspberry Pi, electric circuits and coding with Scratch and Python.  They will learn about using the command line, setting up electronic circuits safely, what the GPIO pins are used for and just having a bit of fun with blinking LEDs and resisters. It will also introduce them to Computational thinking and problem solving.", 
         "facilitator_array": [
-            "Femi Owolade-Coombes"
+            "Femi Owolade-Coombes", 
+            "Grace Owolade-Coombes, @gowolade, Raspberry Pi certified Educator"
         ], 
-        "facilitators": "Femi Owolade-Coombes", 
+        "facilitators": "Femi Owolade-Coombes, Grace Owolade-Coombes", 
         "id": "410", 
         "location": "", 
         "pathways": "[Pathway] Mapping Your MozFest Learning Journey, [youthZone] Pathway Craft - Bridging your digital divide", 
@@ -3605,9 +3610,10 @@
         "day": "Sunday", 
         "description": "This session will allow people to teach web privacy at a basic level. They will have a good knowledge of key concepts such as data permanence, cookies, tracking, third party data mining and how they can introduce these concepts to others with little to no knowledge on the subject. This session will empower the participants to facilitate sessions of their own and create their own session material.", 
         "facilitator_array": [
-            "Tom Farrow"
+            "Tom Farrow, , Mozilla", 
+            "Harry Smith, @Zebetus"
         ], 
-        "facilitators": "Tom Farrow", 
+        "facilitators": "Tom Farrow, Harry Smith", 
         "id": "440", 
         "location": "", 
         "pathways": "Backdoors + Cryptowars, Don't Feed the Trolls, Youth Learning", 
@@ -3619,7 +3625,7 @@
     {
         "description": "People often hear the word \"algorithm\" and think that it entails complicated math or heavy computer programming. At it's core, though, an algorithm is a simple set of rules that are relatively easy to understand. You can write an algorithm for almost anything — making a sandwich, deciding what to make for dinner, doing long division, naming children, and more. This session seeks above all to take away the mystery of a concept that influences our lives each day. It will help people understand how algorithms work and will allow participants to explore the concept of algorithms using simple English and no code.", 
         "facilitator_array": [
-            "Ryan  Graff"
+            "Ryan  Graff, @rcgraff, Knight Lab"
         ], 
         "facilitators": "Ryan  Graff", 
         "id": "184", 
@@ -3633,9 +3639,10 @@
         "day": "Sunday", 
         "description": "This session will introduce participants to the Maker Cart and the Maker   Movement. The Maker Cart is a mobile cost and space saving mobile unit that   contains the main ingredients to start a Makerspace and Maker Programme. It   consists of a 3d printer, digital cutter, electronics, micro-controllers and   robotics. The Maker Cart has been designed for schools, libraries and youth   centres but can also be use at home!  People will learn about the Maker movement, the tools and machinery   associated and the kind of projects that can be developed with the Maker   Cart.  People will have a chance to make something using some of the tools and   machines in the Maker Cart.", 
         "facilitator_array": [
-            "Carlos  Izsak"
+            "Carlos Izsak, @Carlitosi71, STEAM ahead", 
+            " , @Lachallota"
         ], 
-        "facilitators": "Carlos  Izsak", 
+        "facilitators": "Carlos Izsak,  ", 
         "id": "182", 
         "location": "", 
         "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
@@ -3647,9 +3654,10 @@
         "day": "Saturday", 
         "description": "This session will introduce participants to the Maker Cart and the Maker   Movement. The Maker Cart is a mobile cost and space saving mobile unit that   contains the main ingredients to start a Makerspace and Maker Programme. It   consists of a 3d printer, digital cutter, electronics, micro-controllers and   robotics. The Maker Cart has been designed for schools, libraries and youth   centres but can also be use at home!  People will learn about the Maker movement, the tools and machinery   associated and the kind of projects that can be developed with the Maker   Cart.  People will have a chance to make something using some of the tools and   machines in the Maker Cart.", 
         "facilitator_array": [
-            "Carlos  Izsak"
+            "Carlos Izsak, @Carlitosi71, STEAM ahead", 
+            " , @Lachallota"
         ], 
-        "facilitators": "Carlos  Izsak", 
+        "facilitators": "Carlos Izsak,  ", 
         "id": "182", 
         "location": "", 
         "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
@@ -3661,7 +3669,7 @@
     {
         "description": "CoderDojo will provide environment for kids to learn to code using a range of Mozilla and Open Source Languages, The sessions will be open learning delivered by youth mentors in peer to peer sessions. Adults will be present to supervise and support youth mentors, if required", 
         "facilitator_array": [
-            "Johnny Claffey"
+            "Johnny Claffey, @CoderDojoLondon, CoderDojo"
         ], 
         "facilitators": "Johnny Claffey", 
         "id": "119", 
@@ -3675,9 +3683,10 @@
         "day": "Saturday", 
         "description": "The Mozilla tools to teach the web have evolved - some new, some updated and some are the same old gems. Participants will learn about the changes and how to continue to use the tools to teach core Web Literacy skills. This includes X-Ray Goggles, Thimble and Webmaker.\n", 
         "facilitator_array": [
-            "Hannah Kane"
+            "Hannah Kane, @hannahkane, Mozilla Foundation", 
+            "Chad Sansing"
         ], 
-        "facilitators": "Hannah Kane", 
+        "facilitators": "Hannah Kane, Chad Sansing", 
         "id": "455", 
         "location": "", 
         "pathways": " [youthZone] Pathway - News to me!", 
@@ -3690,9 +3699,10 @@
         "day": "Sunday", 
         "description": "This session provides a projection mapping workshop. In the workshop, participants will make objects with paper clay and draw animation to project on them. Animation will be made with customized version of parapara animation (http://parapara.mozlabs.jp/). Through the workshop, participants will learn the mechanism of how animation and projection mappings are made and by making their own. The experience are of making objects are related to making 3D items on computers. Also, mapping animation on their objects are very first stage of mixing computing world into the real world. The goal of this session is participants to feel and understand that the Web can be a part of our real life, and computers are the tools to make it happen.\nAlso, the activity is designed by university students for teenager to learn IT technology. Target age and level of skill for this activity is elementary school students or beginners.", 
         "facilitator_array": [
-            "Noriatsu Kudo"
+            "Noriatsu Kudo, @kudodo, Mozilla Japan", 
+            "Daisuke Akatsuka"
         ], 
-        "facilitators": "Noriatsu Kudo", 
+        "facilitators": "Noriatsu Kudo, Daisuke Akatsuka", 
         "id": "252", 
         "location": "", 
         "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
@@ -3704,9 +3714,10 @@
         "day": "Saturday", 
         "description": "This session provides a projection mapping workshop. In the workshop, participants will make objects with paper clay and draw animation to project on them. Animation will be made with customized version of parapara animation (http://parapara.mozlabs.jp/). Through the workshop, participants will learn the mechanism of how animation and projection mappings are made and by making their own. The experience are of making objects are related to making 3D items on computers. Also, mapping animation on their objects are very first stage of mixing computing world into the real world. The goal of this session is participants to feel and understand that the Web can be a part of our real life, and computers are the tools to make it happen.\nAlso, the activity is designed by university students for teenager to learn IT technology. Target age and level of skill for this activity is elementary school students or beginners.", 
         "facilitator_array": [
-            "Noriatsu Kudo"
+            "Noriatsu Kudo, @kudodo, Mozilla Japan", 
+            "Daisuke Akatsuka"
         ], 
-        "facilitators": "Noriatsu Kudo", 
+        "facilitators": "Noriatsu Kudo, Daisuke Akatsuka", 
         "id": "252", 
         "location": "", 
         "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
@@ -3998,16 +4009,18 @@
         "title": "Java CodeAcademy Lunch session"
     }, 
     {
-        "description": "In the ‘Modular frequencies’ workshop we’ll create a spacial audio installation! The HearUsHere app (location based audio) combined with iBeacons allows us to create a new sonic experience. Every iBeacon is a frequency that carriers a sound, when you get closer to one of these frequencies the audio will automatically fade in and cross fade with others. Using the speakers of our phones, we’ll create a collective audio experience. This results in unique and constantly changing soundscape created by the visitors and their navigation in the space.\nWithin the workshop you won’t only experience these modular frequencies. You’ll learn about frequencies, location based audio and you’ll hack the beacons to create your own ‘pirate radio’! (No coding skills required).", 
+        "day": "Sunday", 
+        "description": "In the ‘Modular frequencies’ workshop we’ll create a spacial audio installation! The HearUsHere app (location based audio) combined with iBeacons allows us to create a new sonic experience. Every iBeacon is a frequency that carriers a sound, when you get closer to one of these frequencies the audio will automatically fade in and cross fade with others. Using the speakers of our phones, we’ll create a collective audio experience. This results in unique and constantly changing soundscape created by the visitors and their navigation in the space.\nRoughly the result of the workshop is a zoo that the children create themselves in drawings and sounds, using iBeacons and HearUsHere. They will do this in a playful workshop full of sharpies and crayons that blends with tech.", 
         "facilitator_array": [
             "Klasien van de Zandschulp"
         ], 
         "facilitators": "Klasien van de Zandschulp", 
         "id": "230", 
         "location": "", 
-        "pathways": "Global Village Recycling", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
+        "pathways": "[youthZone] Music ", 
+        "scheduleblock": "sunday-session-block-5", 
+        "space": "youthZone - Through the lens of youths", 
+        "start": "11:30 AM", 
         "title": "Modular frequencies - HearUsHere soundlab (Note this is also in the youthZone on an AM sunday B1&2 slot) "
     }
 ]
