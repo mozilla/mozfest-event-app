@@ -329,11 +329,12 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "[Here’s the session in a nutshell: https://raw.githubusercontent.com/phillipadsmith/2014.phillipadsmith.com/master/files/colonize-github-100px.jpg ]\nWhat would it take to simplify and unlock the collaborative power Github for all?\nToday, Github is virtually everywhere. It’s become a part of most developers’ daily lives, and is increasingly spreading to the lives of non-developers too. From civic hackers, researchers and policymakers to educators, journalists and project managers, it seems like the whole world is “going Github.”\nThe problem is: Github is still surprisingly hard for most everyday users to unlock. Non-technical users hit big barriers when trying to understand what Github is all about. And even experienced users struggle to keep up with all the new features, integrations, and innovations.\nThe goal of this session will be to brainstorm and hack on solutions to that problem.\nWe’ll map out Github’s territory, ask the question “What if…?,” and explore what’s possible in this new world of open, networked, co-creation.", 
+        "description": "What would it take to unlock the collaborative power GitHub for everyone? For researchers, policymakers, educators, and journalists? The whole world is “going GitHub,” and yet GitHub is still surprisingly hard for most everyday users to use. Join us to map out the territory and build solutions; to explore what’s possible in this new world of open, networked, co-creation.", 
         "facilitator_array": [
-            "Phillip Smith"
+            "Phillip Smith, @phillipadsmith", 
+            "Matth Thompson, @openmatt"
         ], 
-        "facilitators": "Phillip Smith", 
+        "facilitators": "Phillip Smith, Matth Thompson", 
         "id": "325", 
         "location": "", 
         "pathways": "Scaling Participatory Learning Experiences", 
@@ -344,9 +345,9 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "As volunteer community leaders with little to no resources, how do we maximize resources in our community in order to achieve our goals?  This workshop allows community leaders (from novice to expert) to identify challenges in their communities, and apply Design Thinking process to come up with innovative solutions to maximize existing resources in order to achieve radical participation.  Participants will get a crash course on the Design Thinking problem solving process in a hands-on participatory exercise.", 
+        "description": "As volunteer community leaders, how do we maximize resources to achieve our goals? This workshop allows you to identify challenges and apply Design Thinking to come up with innovative solutions. Participants will get a crash course on the Design Thinking problem solving process in a hands-on participatory exercise.", 
         "facilitator_array": [
-            "Helen Lee"
+            "Helen Lee, @heli_tomato"
         ], 
         "facilitators": "Helen Lee", 
         "id": "506", 
@@ -374,18 +375,19 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "Learn about the successful Mozilla program 'Tech Speakers' which has trained and empowered a small group of community leaders as technical speakers in 2015.  Then help us imagine what it would look like to scale the program to hundreds of community leaders in 2016!", 
+        "description": "The Mozilla Tech Speakers program is an experiment. There are two simple elements to scaling it: you and a small circle of friends. We've focused on developers speaking to developers, but you don't have to. Know what you want to your listeners to take away, and what action you'd like them to take. Practice storytelling basics. Give and receive constructive feedback. With Kaustav Das Modak and Szmozsánsky István.", 
         "facilitator_array": [
-            "George Roter"
+            "Havid Hoffman, @freshelectrons, Mozilla", 
+            "Dietrich Ayala, @dietrich, Mozilla"
         ], 
-        "facilitators": "George Roter", 
+        "facilitators": "Havid Hoffman, Dietrich Ayala", 
         "id": "607", 
         "location": "", 
         "pathways": "Scaling Participatory Learning Experiences", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "Building Participation", 
         "start": "02:45 PM", 
-        "title": "Scaling The Tech Speakers Program at Mozilla"
+        "title": "Scaling by Doing: Tech Speakers Starts With You"
     }, 
     {
         "day": "Saturday", 
@@ -421,7 +423,7 @@
         "day": "Saturday", 
         "description": "This session will provide resources, recommendations, and tools, to build foundations for inclusion and diversity in your project, team, group, club, or class, and to grow participation from diverse voices.  Attention will be paid to how to understand and work on specific issues including unconscious bias, working as an ally (or needing allies), impostor syndrome, intersectionality, and more.", 
         "facilitator_array": [
-            "Larissa Brown Shapiro"
+            "Larissa Brown Shapiro, @larissashapiro, Mozilla"
         ], 
         "facilitators": "Larissa Brown Shapiro", 
         "id": "261", 
@@ -436,8 +438,8 @@
         "day": "Sunday", 
         "description": "This session is about challenging existing factual web narrative structures and inventing whole new ways to bring the user inside the reality that we want to change with our stories. You will work on real stories that are looking to be produced soon!", 
         "facilitator_array": [
-            "Sandra Gaudenzi", 
-            "Philo van Kemenade"
+            "Sandra Gaudenzi, @sgaudenzi", 
+            "Philo van Kemenade, @phivk"
         ], 
         "facilitators": "Sandra Gaudenzi, Philo van Kemenade", 
         "id": "467", 
@@ -452,8 +454,8 @@
         "day": "Saturday", 
         "description": "This session shares all the ways in which you can utilize GitHub’s free hosting for all repositories and accounts. Attendees will learn how to set up static websites and blogs for their projects or documentation.", 
         "facilitator_array": [
-            "Jessica Lord", 
-            "Mu-An Chiou"
+            "Jessica Lord, @jllord, Github", 
+            "Mu-An Chiou, @muanchiou, Github"
         ], 
         "facilitators": "Jessica Lord, Mu-An Chiou", 
         "id": "259", 
@@ -483,7 +485,7 @@
         "day": "Sunday", 
         "description": "Scaling the leading & learning program for Participation at Mozilla!  Join us in imagining and prototyping educational experiences  and opportunities for community leadership in the next year!", 
         "facilitator_array": [
-            "Emma Irwin"
+            "Emma Irwin, @sunnydeveloper, Mozilla"
         ], 
         "facilitators": "Emma Irwin", 
         "id": "606", 
@@ -585,25 +587,13 @@
         "title": "Getting Started with Open Source Contributions "
     }, 
     {
-        "description": "Building a strong online and in person community:\nCommunities can exist online, in person and many times, both. When communities live successfully online and in person, they can really compliment one another. However, at times, they can feel very disconnected and like two separate communities. How can we bridge the gap between the online and in person, to ultimately create a more integrated community that builds momentum? How do you engage these two different types of communities in a way that gets them connecting with one another and breaking down that digital barrier?", 
-        "facilitator_array": [
-            "Nick Weinbegr"
-        ], 
-        "facilitators": "Nick Weinbegr", 
-        "id": "423", 
-        "location": "", 
-        "pathways": "New Technologies for Participation -- Challenge", 
-        "scheduleblock": "", 
-        "space": "Building Participation", 
-        "title": "Connecting online + in person communities"
-    }, 
-    {
         "day": "Sunday", 
-        "description": "Cynefin Lego Game is a playful way to learn and experience four of the five domains of the Cynefin Framework (https://en.wikipedia.org/wiki/Cynefin), a leader’s framework for decision making which can be used to understand situations in organisations and in teamwork, and to decide how to approach them. By going through different exercises in which the problem to solve and the context will change, the attendees will learn the challenges behind each domain, and why we have to tackle them in very different ways. The game will let attendees experience the domains of Dave Snowden’s Cynefin framework, teamwork and the decision-making process in different scenarios. And have fun with Lego bricks of course :)", 
+        "description": "Play with Lego bricks and learn how to be a better leader. Cynefin Lego Game is a playful way to learn the Cynefin Framework, a leader’s framework for decision-making used to understand and approach situations in teamwork, communities and organisations.", 
         "facilitator_array": [
-            "Francesco Iovine"
+            "Francesco Iovine, @franciov", 
+            "Maurizio Pedriale, @mpedriale"
         ], 
-        "facilitators": "Francesco Iovine", 
+        "facilitators": "Francesco Iovine, Maurizio Pedriale", 
         "id": "428", 
         "location": "", 
         "pathways": "Leading and Building Community Through Participation", 
@@ -630,7 +620,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "", 
+        "description": "Code like you give a damn! Why not using your skills to co-design interactive stories that can change the world? Today, coders and storytellers rarely work together from day one. Join this session to be part of the solution and meet storytellers and coders you'll want to work with!", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "468", 
@@ -640,6 +630,22 @@
         "space": "Building Participation", 
         "start": "12:00 PM", 
         "title": "Change the world through code: how to meet the person you need in your team to do so"
+    }, 
+    {
+        "day": "Saturday", 
+        "description": "Imagine a student starting their first day in college. Along the journey to graduation, they meet Mozilla for the first time. How will they become friends? How will they change the world, together? Come envision and build the next pathway for student participation at Mozilla with us!", 
+        "facilitator_array": [
+            "Ting Jung (TJ) Lee, @CupofTJ", 
+            "George Roter, @geroter"
+        ], 
+        "facilitators": "Ting Jung (TJ) Lee, George Roter", 
+        "id": "624", 
+        "location": "", 
+        "pathways": "Leading and Building Community Through Participation", 
+        "scheduleblock": "saturday-session-block-3", 
+        "space": "Building Participation", 
+        "start": "02:15 PM", 
+        "title": "Mozilla Campus: What's Your Dream For Student Participation?"
     }, 
     {
         "description": "Participants will collaborate on a shared WebGL experience taking \"living light\" from a central server and creating individualized experiences. This project will illustrate the importance of opening up low-level APIs to the web, and how such technologies can empower transformative experiences.", 
@@ -1808,7 +1814,7 @@
         ], 
         "facilitators": "Julia Smith", 
         "id": "511", 
-        "location": "7 - 703", 
+        "location": "Floor 7 - 703", 
         "pathways": "Mobile and Accessibility, New Technologies for Participation -- Challenge", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Journalism", 
@@ -1823,7 +1829,7 @@
         ], 
         "facilitators": "Erik Westra", 
         "id": "573", 
-        "location": "7 - 702", 
+        "location": "Floor 7 - 702", 
         "pathways": "Healthy Events and Networks", 
         "scheduleblock": "sunday-session-block-8", 
         "space": "Journalism", 
@@ -1840,7 +1846,7 @@
         ], 
         "facilitators": "Mark Boas, Dan Schultz, Tracy Jaquith", 
         "id": "576", 
-        "location": "7 - 700", 
+        "location": "Floor 7 - 700", 
         "pathways": "", 
         "scheduleblock": "sunday-session-block-8", 
         "space": "Journalism", 
@@ -1855,7 +1861,7 @@
         ], 
         "facilitators": "Anatoly Bondarenko", 
         "id": "451", 
-        "location": "7 - 706", 
+        "location": "Floor 7 - 706", 
         "pathways": "Tools and Analysis", 
         "scheduleblock": "sunday-session-block-8", 
         "space": "Journalism", 
@@ -1870,7 +1876,7 @@
         ], 
         "facilitators": "Francis Tseng", 
         "id": "454", 
-        "location": "7 - 706", 
+        "location": "Floor 7 - 706", 
         "pathways": "New Technologies for Participation -- Challenge, Tools and Analysis", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Journalism", 
@@ -1885,7 +1891,7 @@
         ], 
         "facilitators": "Aaron Williams", 
         "id": "458", 
-        "location": "7 - 702", 
+        "location": "Floor 7 - 702", 
         "pathways": "Mobile and Accessibility", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "Journalism", 
@@ -1900,7 +1906,7 @@
         ], 
         "facilitators": "Leah Bannon", 
         "id": "390", 
-        "location": "7 - 706", 
+        "location": "Floor 7 - 706", 
         "pathways": "Healthy Events and Networks", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Journalism", 
@@ -1915,7 +1921,7 @@
         ], 
         "facilitators": "Paul Wafula", 
         "id": "464", 
-        "location": "7 - 703", 
+        "location": "Floor 7 - 703", 
         "pathways": "Data and Impact", 
         "scheduleblock": "sunday-session-block-8", 
         "space": "Journalism", 
@@ -1930,7 +1936,7 @@
         ], 
         "facilitators": "Linda Sandvik", 
         "id": "463", 
-        "location": "7 - 702", 
+        "location": "Floor 7 - 702", 
         "pathways": "Games and Understanding", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Journalism", 
@@ -1945,7 +1951,7 @@
         ], 
         "facilitators": "Ani Hovhannisyan", 
         "id": "476", 
-        "location": "7 - 706", 
+        "location": "Floor 7 - 706", 
         "pathways": "Data and Impact", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Journalism", 
@@ -1960,7 +1966,7 @@
         ], 
         "facilitators": "Livia Labate", 
         "id": "496", 
-        "location": "7 - 703", 
+        "location": "Floor 7 - 703", 
         "pathways": "Data and Impact", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Journalism", 
@@ -1975,7 +1981,7 @@
         ], 
         "facilitators": "Eva Constantaras", 
         "id": "600", 
-        "location": "7 - 706", 
+        "location": "Floor 7 - 706", 
         "pathways": "Data and Impact, Science communication", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Journalism", 
@@ -1990,7 +1996,7 @@
         ], 
         "facilitators": "Joe Germuska", 
         "id": "326", 
-        "location": "7 - 700", 
+        "location": "Floor 7 - 700", 
         "pathways": "", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Journalism", 
@@ -2005,7 +2011,7 @@
         ], 
         "facilitators": "Samar Halarnkar", 
         "id": "499", 
-        "location": "7 - 706", 
+        "location": "Floor 7 - 706", 
         "pathways": "Data and Impact", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "Journalism", 
@@ -2020,7 +2026,7 @@
         ], 
         "facilitators": "Juan Elosua", 
         "id": "502", 
-        "location": "7 - 700", 
+        "location": "Floor 7 - 700", 
         "pathways": "Tools and Analysis, Science communication", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Journalism", 
@@ -2036,7 +2042,7 @@
         ], 
         "facilitators": "Ashlyn  Sparrow, David Bild", 
         "id": "446", 
-        "location": "7 - 702", 
+        "location": "Floor 7 - 702", 
         "pathways": "Games and Understanding", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Journalism", 
@@ -2052,7 +2058,7 @@
         ], 
         "facilitators": "Magdalena Taube, Francis Tseng", 
         "id": "272", 
-        "location": "7 - 703", 
+        "location": "Floor 7 - 703", 
         "pathways": "Building Online Communities", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Journalism", 
@@ -2067,7 +2073,7 @@
         ], 
         "facilitators": "Kavya Sukumar", 
         "id": "512", 
-        "location": "7 - 700", 
+        "location": "Floor 7 - 700", 
         "pathways": "", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Journalism", 
@@ -2082,7 +2088,7 @@
         ], 
         "facilitators": "Clay Ewing", 
         "id": "515", 
-        "location": "7 - 702", 
+        "location": "Floor 7 - 702", 
         "pathways": "Games and Understanding, Leading and Building Community Through Participation", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "Journalism", 
@@ -2098,7 +2104,7 @@
         ], 
         "facilitators": "Samantha Sunne, Judith Morales", 
         "id": "246", 
-        "location": "7 - 700", 
+        "location": "Floor 7 - 700", 
         "pathways": "", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "Journalism", 
@@ -2113,7 +2119,7 @@
         ], 
         "facilitators": "Tara Adiseshan", 
         "id": "521", 
-        "location": "7 - 700", 
+        "location": "Floor 7 - 700", 
         "pathways": "Building Online Communities", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "Journalism", 
@@ -2129,7 +2135,7 @@
         ], 
         "facilitators": "Georg Neumann, Tim Davies", 
         "id": "434", 
-        "location": "7 - 703", 
+        "location": "Floor 7 - 703", 
         "pathways": "Data and Impact", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "Journalism", 
@@ -2146,7 +2152,7 @@
         ], 
         "facilitators": "Michael Donohoe, Matt Dennewitz, Trei Brundrett", 
         "id": "525", 
-        "location": "7 - 702", 
+        "location": "Floor 7 - 702", 
         "pathways": "Global Village Athena Library", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "Journalism", 
@@ -2161,7 +2167,7 @@
         ], 
         "facilitators": "Martin Nahuel Rabaglia", 
         "id": "441", 
-        "location": "7 - 700", 
+        "location": "Floor 7 - 700", 
         "pathways": "", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "Journalism", 
@@ -2177,7 +2183,7 @@
         ], 
         "facilitators": "Annabel Church, Peter MacRobert", 
         "id": "528", 
-        "location": "7 - 706", 
+        "location": "Floor 7 - 706", 
         "pathways": "Healthy Events and Networks", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "Journalism", 
@@ -2192,7 +2198,7 @@
         ], 
         "facilitators": "Alastair Coote", 
         "id": "227", 
-        "location": "7 - 700", 
+        "location": "Floor 7 - 700", 
         "pathways": "Mobile and Accessibility", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Journalism", 
@@ -2208,7 +2214,7 @@
         ], 
         "facilitators": "Gideon Goldberg, James Gorrie", 
         "id": "225", 
-        "location": "7 - 702", 
+        "location": "Floor 7 - 702", 
         "pathways": "Building Online Communities", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Journalism", 
@@ -2223,7 +2229,7 @@
         ], 
         "facilitators": "Trei Brundrett", 
         "id": "529", 
-        "location": "7 - 703", 
+        "location": "Floor 7 - 703", 
         "pathways": "Building Online Communities", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "Journalism", 
@@ -2238,7 +2244,7 @@
         ], 
         "facilitators": "Sisi Wei", 
         "id": "553", 
-        "location": "7 - 702", 
+        "location": "Floor 7 - 702", 
         "pathways": "Games and Understanding", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Journalism", 
@@ -2253,7 +2259,7 @@
         ], 
         "facilitators": "Anne Li", 
         "id": "205", 
-        "location": "7 - 706", 
+        "location": "Floor 7 - 706", 
         "pathways": "", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "Journalism", 
@@ -2269,7 +2275,7 @@
         ], 
         "facilitators": "Michael Corey, Julia Smith", 
         "id": "578", 
-        "location": "7 - 703", 
+        "location": "Floor 7 - 703", 
         "pathways": "", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "Journalism", 
@@ -2284,7 +2290,7 @@
         ], 
         "facilitators": "Sydette Harry", 
         "id": "572", 
-        "location": "7 - 703", 
+        "location": "Floor 7 - 703", 
         "pathways": "Building Online Communities", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Journalism", 
@@ -2355,6 +2361,43 @@
         "title": "Digitalise Smiley Icon"
     }, 
     {
+        "description": "", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "605", 
+        "location": "", 
+        "pathways": "", 
+        "scheduleblock": "", 
+        "space": "Mozilla Learning Networks", 
+        "title": "MLN Web Literacy Feedback Station"
+    }, 
+    {
+        "description": "This session is a fireside chat about the challenges and opportunities of trying to enable digital inclusion and web literacy on emerging countries and poor neighborhoods.\nOur goals are:\n* Identify common challenges faced by everyone in this segment and ways to overcome it.\n* Collect awesome stories that we can share with advocacy and fundraising teams.\n* Understand the different reasons why people chose to devote their time to these efforts and how we can help them.", 
+        "facilitator_array": [
+            "Mario Brandão"
+        ], 
+        "facilitators": "Mario Brandão", 
+        "id": "509", 
+        "location": "", 
+        "pathways": "", 
+        "scheduleblock": "", 
+        "space": "Mozilla Learning Networks", 
+        "title": "Digital inclusion and web literacy in emerging countries"
+    }, 
+    {
+        "description": "They'll learn how to code using tools like scratch and rails and, through learning, also understand what resources are available to learn to code online as well as what resources are available to teach kids to code.", 
+        "facilitator_array": [
+            "Eli Kariv"
+        ], 
+        "facilitators": "Eli Kariv", 
+        "id": "138", 
+        "location": "", 
+        "pathways": "", 
+        "scheduleblock": "", 
+        "space": "Mozilla Learning Networks", 
+        "title": "How to learn/teach coding for beginners (no exp. required!)"
+    }, 
+    {
         "day": "Sunday", 
         "description": "Are you a gamer? How about becoming a game designer for a couple of hours? In this session you will work in teams to hack an existing game with a new goal: to teach people about Web Literacy. Using paper, markers, pawns, dices and other props, you’ll make a playable prototype of your new game, which other people can play for fun and use as an educational tool. Here’s our formula for success: existing board / card game + Web Literacy = new game What do you want to teach? Can you make a board game that lets players immerse themselves in that topic? What aspects of your chosen topic do you want players to focus on? How will you change the existing game mechanics so that they reflect your goal/topic?", 
         "facilitator_array": [
@@ -2370,110 +2413,6 @@
         "title": "Hacking Games for Web Literacy"
     }, 
     {
-        "description": "This session contains the core ideas of the Mozilla Learning Network, which is, \"Teach like Mozilla\". As opposed to conventional learning methods that include watching & listening, we are going to explore participatory,inclusive and fun ways of teaching. These include examples of sessions that worked in our local communities, for example:Teaching HTML using Lo-fi/No-fi methods in remote villages in India with the help of bricks and LAN houses (internet cafe's in Brazil) where people are taught web literacy skills. The attendees of our session would have a better understanding on the importance of fun and participatory learning activities.", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "274", 
-        "location": "", 
-        "pathways": "[MLN] Teaching Web Literacy with Mozilla Clubs", 
-        "scheduleblock": "", 
-        "space": "Mozilla Learning Networks", 
-        "title": "What does being participatory & playful in a learning setting look like?"
-    }, 
-    {
-        "description": "It will give them an overview on how it is possible to integrate technology and innovation with Social Values and Ethics. Some guidelines how what does being a social innovator means and why they should consider this as the best time and opportunity to make a difference and embrace a social activities into their company culture.", 
-        "facilitator_array": [
-            "Maurizio Gioli"
-        ], 
-        "facilitators": "Maurizio Gioli", 
-        "id": "395", 
-        "location": "", 
-        "pathways": "[MLN] Voices of Diverse Leaders", 
-        "scheduleblock": "", 
-        "space": "Mozilla Learning Networks", 
-        "title": "Link Technology to Social Innovation"
-    }, 
-    {
-        "day": "Sunday", 
-        "description": "Cristol Kapp, a TeacherPreneur, completely transformed the Clifton Hills Elementary School Library into a library makerspace. She has created a space that offers students the opportunity to explore, make, learn, and share at their pace. In this session you will learn how to use Design Thinking to reimagine your context. Together, we’ll create a design board centered around the challenge of redesigning a space to allow participants to soar.", 
-        "facilitator_array": [
-            "Cristol  Kapp, Librarian, Clifton Hills Elementary School, @mrs_kapp"
-        ], 
-        "facilitators": "Cristol  Kapp", 
-        "id": "270", 
-        "location": "", 
-        "pathways": "[MLN] Learning & Leading, [youthZone] Pathway - News to me!", 
-        "scheduleblock": "sunday-session-block-6", 
-        "space": "Mozilla Learning Networks", 
-        "start": "12:45 PM", 
-        "title": "Redesigning your Context: A Design Thinking Approach"
-    }, 
-    {
-        "day": "Sunday", 
-        "description": "The session is a fireside chat about participatory and collaborative methods for mozilla clubs and community building. In this session we'll explore best practices, tips, tricks and ways that club captains and facilitators can improve their game and make the most of the community they are a part of.\nWe'll look into ways to move from participation into collaboration and why these methods work and are the right approach for a \"Teach Like Mozilla\" framework.", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "513", 
-        "location": "", 
-        "pathways": "[MLN] Teaching Web Literacy with Mozilla Clubs", 
-        "scheduleblock": "sunday-session-block-6", 
-        "space": "Mozilla Learning Networks", 
-        "start": "12:45 PM", 
-        "title": "From Participation to Collaboration"
-    }, 
-    {
-        "description": "Government agencies, learning institutions, international organizations and other stakeholders have sought to leverage digital learning environments to promote youth leadership and civic engagement. While some of these platforms have been successfully employed, cultivating genuine youth participation often comes with challenges.This interactive workshop is designed to provide participants with the opportunity to contribute to an open educational resource for authentic youth leadership.", 
-        "facilitator_array": [
-            "Ariam Mogos, @aamogos, Global Kids "
-        ], 
-        "facilitators": "Ariam Mogos", 
-        "id": "366", 
-        "location": "", 
-        "pathways": "Youth Learning, [MLN] Voices of Diverse Leaders", 
-        "scheduleblock": "", 
-        "space": "Mozilla Learning Networks", 
-        "title": "Models and Modes of Engagement for Authentic Youth Leadership in Informal Digital Learning Contexts"
-    }, 
-    {
-        "description": "High tech manufacturing tools are becoming more accessible for do-it-yourselfers, makers and activists. The tools you can find at a local maker space can be used to make inexpensive activist gear. In this participatory session, you’ll learn learn creative ways to user maker tools for activism. We’ll cover making giant banners, laser cutting stencils for spray painting, making custom vinyl stickers to culture-jam billboards, using CNC machines to carve block of linoleum or wood for printing posters.\nIn the first part of the session you’ll get a quick overview of these DIY production techniques, see some examples of how activists have used these techniques, we’ll talk about how you can access these machines at maker spaces, and we’ll spend some time brainstorming some new ideas. In the second part we’ll get our hands dirty and print some t-shirts, bandanas, patches and posters. Bring a blank t-shirt to print on (but don’t worry if you don’t have one with you, we'll also have fabric and paper available).", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "520", 
-        "location": "", 
-        "pathways": "[MLN] Teaching Web Literacy with Mozilla Clubs", 
-        "scheduleblock": "", 
-        "space": "Mozilla Learning Networks", 
-        "title": "Using Digital Fabrication Techniques to Make DIY Activist Gear"
-    }, 
-    {
-        "description": "he Sessions’ goal is to learn the strategy and approach of how women are represented in the developed countries and how the blueprint can be used to make a ground plan for the change process in developing countries.This will be an interactive activity that will divide participants in groups of 3-4 people, each team will be expected to brainstorm and note down the challenges, achievements, impacts, opportunities and the potential of women in technology and the workforce scenario", 
-        "facilitator_array": [
-            "Alifiyah Ganijee, @alifyaganijee, Mozilla Mombasa "
-        ], 
-        "facilitators": "Alifiyah Ganijee", 
-        "id": "247", 
-        "location": "", 
-        "pathways": " Scaling Participatory Learning Experiences, [MLN] Voices of Diverse Leaders", 
-        "scheduleblock": "", 
-        "space": "Mozilla Learning Networks", 
-        "title": "Fostering inclusivity and diversity in the Technology space"
-    }, 
-    {
-        "day": "Sunday", 
-        "description": "Grab your lunch and join us in the Mozilla Learning Network space during the lunch block to hear from the leading Gigabit cities of Chattanooga, Tennessee and Kansas City about how high-speed networks can be leveraged via the Hive model to impact learning and to bridge the digital divide.", 
-        "facilitator_array": [
-            "Aaron Deacon, @aarondeacon, Kansas City Digital Drive", 
-            "Michael Baskin, City of Chattanooga"
-        ], 
-        "facilitators": "Aaron Deacon, Michael Baskin", 
-        "id": "604", 
-        "location": "", 
-        "pathways": "[MLN] Learning & Leading, [MLN] Teaching Web Literacy with Mozilla Clubs, [MLN] Voices of Diverse Leaders", 
-        "scheduleblock": "all-sunday", 
-        "space": "Mozilla Learning Networks", 
-        "title": "MLN Sunday Lunchtime Learning"
-    }, 
-    {
         "day": "Saturday", 
         "description": "Join librarian and technologist colleagues to problem-solve around some of the biggest privacy challenges facing public libraries. Based on a project on privacy and data literacy in metropolitan New York, this session will present common questions and concerns arising from library professionals and engage session participants in a group exercise to troubleshoot questions that libraries  are often hard pressed but under resourced to deal with.", 
         "facilitator_array": [
@@ -2487,31 +2426,6 @@
         "space": "Mozilla Learning Networks", 
         "start": "12:00 PM", 
         "title": "Privacy and Libraries"
-    }, 
-    {
-        "description": "Participates will learn about the mission and vision of our Center and the need for serving underrepresented girls and women in science, technology, engineering, and mathematics (STEM). Attendees will develop and execute a personalized social media message and create a global call to action.", 
-        "facilitator_array": [
-            "Kimberly A. Scott, Ed.D., @cgest_asu, Center for Gender Equity in Science and Technology, Arizona State University", 
-            "Robin Baskin McNulty, M.Ed., @cgest_asu, Center for Gender Equity in Science and Technology, Arizona State University"
-        ], 
-        "facilitators": "Kimberly A. Scott, Robin Baskin McNulty", 
-        "id": "357", 
-        "location": "", 
-        "pathways": "[MLN] Voices of Diverse Leaders", 
-        "scheduleblock": "", 
-        "space": "Mozilla Learning Networks", 
-        "title": "Think Like a Programmer, Design Like a Change Agent"
-    }, 
-    {
-        "description": "The session will showcase how open organizations work in the open and how session participants can replicate those ideas in their practice. We will do so by reviewing case studies of organizations working in the open, teaching how to practice open, and having hands on tutorials using web tools that facilitate working in the open. Less what to do and more how to do it!", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "495", 
-        "location": "", 
-        "pathways": "[MLN] Teaching Web Literacy with Mozilla Clubs", 
-        "scheduleblock": "", 
-        "space": "Mozilla Learning Networks", 
-        "title": "Teaching Web Literacy in the Open"
     }, 
     {
         "day": "Saturday", 
@@ -2544,65 +2458,6 @@
         "title": "Game On! A Playbook for Building Learning Innovation Networks"
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "605", 
-        "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
-        "space": "Mozilla Learning Networks", 
-        "title": "MLN Web Literacy Feedback Station"
-    }, 
-    {
-        "description": "Hosting and running a club isn't easy, neither is dealing with the costs. Need help reaching out to local partners to help fund parts of the event or supply resources? Want to build a microfundraising site where people can donate to your club? Find out how you can fundraise to help support your clubs. This session aims at empowering individuals and groups with the know-how and essential understanding of basic tips and methods of fundraising for their clubs or programs.", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "226", 
-        "location": "", 
-        "pathways": " [MLN] Teaching Web Literacy with Mozilla Clubs", 
-        "scheduleblock": "", 
-        "space": "Mozilla Learning Networks", 
-        "title": "Tips, tools and resources to help fund your local club, program or group"
-    }, 
-    {
-        "description": "Public and open data can help us all make better personal decisions and better decisions for our neighborhoods and communities. Often though its hard to discover relevant data , process it in to a form that facilitates insight or the data might not even exist. The goals of our session is to introduce data discovery services, data processing and visualization tools and data collection strategies and plans to use them all together to answer and empower young people and communities", 
-        "facilitator_array": [
-            "Stuart Lynn"
-        ], 
-        "facilitators": "Stuart Lynn", 
-        "id": "448", 
-        "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
-        "space": "Mozilla Learning Networks", 
-        "title": "Locating and collecting geospatial data to empower youth and communities"
-    }, 
-    {
-        "description": "This workshop will showcase some of the innovative work Chayn has been doing with openly licensed toolkits, platforms and hackathons to tackle violence against women from India, Pakistan to UK & Lebanon. In our experience, the empowerment movement is not making the impact possible because charities are reluctant to use, distribute or create openly licensed work. The latter part of the workshop will be a session of creative collaboration to brainstorm ways to push the use of open source materials that we or other organisations have produced with a focus on humanitarian work.", 
-        "facilitator_array": [
-            "Hera Hussein, @chaynorg, Chayn"
-        ], 
-        "facilitators": "Hera Hussein", 
-        "id": "384", 
-        "location": "", 
-        "pathways": "[MLN] Voices of Diverse Leaders", 
-        "scheduleblock": "", 
-        "space": "Mozilla Learning Networks", 
-        "title": "Building open resources for women at risk"
-    }, 
-    {
-        "description": "Collaboration turns good work into great work. If you are already connected to a community of people who are teaching web literacy, you have a lot to offer. Finding creative ways to connect your work to the Mozilla community can help bring your strengths and needs into greater focus and expand the impact of your efforts. This session will explore the exchange of value that can occur when mature digital literacy programs connect with the emerging Moz Clubs initiative.\nIn this session we will learn from existing models, like The Pittsburgh Digital Corps, the Manchester Coder Dojo, and Rio Moz Club, to demonstrate the variety of models being used to teach Universal Web Literacy. Participants will help to identify ways that existing programs can benefit Moz Clubs and visa versa. We will collaboratively discover how we can use open principles to help one another and become more effective.", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "383", 
-        "location": "", 
-        "pathways": "Inclusive Communities, [MLN] Teaching Web Literacy with Mozilla Clubs", 
-        "scheduleblock": "", 
-        "space": "Mozilla Learning Networks", 
-        "title": "But I Already Have One of Those: Connecting Existing Programs to Mozilla Clubs "
-    }, 
-    {
         "day": "Saturday", 
         "description": "Help develop and ‘fix’ the Mozilla Backpack using Mozfest as the ideal place to find like-minded community members with whom to join forces. We have identified a numbers of developments in house that we are working on in Partnership with the Badge Alliance and the Mozilla Foundation. Alongside these developments there are also a number of issues identified on GitHub we would like to work on over the course of the festival with the aim of getting them staged and signed off within the weeks after MozFest. We are really keen to utilise the skills and expertise of the community to help make this happen by holding a hack workshop over the course of the festival. We will enable people to work on fixes at MozFest itself, but also remotely from around the world as we intend to contact developers within the community in the build up to the festival. By supporting ‘remote’ hacking we can ensure maximum accessibility for people unable to attend in person and recognise the international importance of the Backpack.", 
         "facilitator_array": [
@@ -2633,6 +2488,51 @@
         "title": "Regenerate Neighborhoods"
     }, 
     {
+        "day": "Saturday", 
+        "description": "The Mozilla web literacy map is being refactored to include 21st Century skills needed for leadership development, and written in a language more approachable and accessible to diverse audiences.  We invite anyone interested in teaching web literacy skills to provide us with your insights and creative input on a draft 2.0 content and design, and  help us determine what curriculum and tools are needed to make the digital-age skills more relevant to more people. Come spend a few minutes with us moving around pieces of the map, and sharing stories of how you would use the map.", 
+        "facilitator_array": [
+            "An-Me Chung"
+        ], 
+        "facilitators": "An-Me Chung", 
+        "id": "551", 
+        "location": "", 
+        "pathways": "[MLN] Learning & Leading", 
+        "scheduleblock": "saturday-session-block-1", 
+        "space": "Mozilla Learning Networks", 
+        "start": "10:45 AM", 
+        "title": "Learning & Leading Digital Literacy Focus Group"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "Participants will have an opportunity to make content for the web in a guided manner using professional tools like Thimble, Mozilla's online code editor, made accessible by the Webmaker team. Participants will use HTML, CSS, and JavaScript to remix one of three sample projects, learning the basics of the most important web technologies in a fun way! Educators will also have an opportunity to experience the power of the new tutorial system as a convenient way to share lessons.", 
+        "facilitator_array": [
+            "Kieran Sedgwick"
+        ], 
+        "facilitators": "Kieran Sedgwick", 
+        "id": "150", 
+        "location": "", 
+        "pathways": "[MLN] Learning & Leading", 
+        "scheduleblock": "sunday-session-block-7", 
+        "space": "Mozilla Learning Networks", 
+        "start": "02:45 PM", 
+        "title": "Teaching the Web with the New Thimble"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "Grab your lunch and join us in the Mozilla Learning Network space during the lunch block to hear from the leading Gigabit cities of Chattanooga, Tennessee and Kansas City about how high-speed networks can be leveraged via the Hive model to impact learning and to bridge the digital divide.", 
+        "facilitator_array": [
+            "Aaron Deacon, @aarondeacon, Kansas City Digital Drive", 
+            "Michael Baskin, City of Chattanooga"
+        ], 
+        "facilitators": "Aaron Deacon, Michael Baskin", 
+        "id": "604", 
+        "location": "", 
+        "pathways": "[MLN] Learning & Leading, [MLN] Teaching Web Literacy with Mozilla Clubs, [MLN] Voices of Diverse Leaders", 
+        "scheduleblock": "all-sunday", 
+        "space": "Mozilla Learning Networks", 
+        "title": "MLN Sunday Lunchtime Learning"
+    }, 
+    {
         "description": "", 
         "facilitator_array": [], 
         "facilitators": "", 
@@ -2658,17 +2558,6 @@
         "title": "MLN Saturday Lunchtime Learning"
     }, 
     {
-        "description": "To gather women who are interested in creating a community to increase the web literacy of girls. Girls are too shy to explore coding because they initially think that it's interface is too masculine. This session's goal is to create a Mozilla Club designed for girls. And help them see technology in a whole new light – as a medium for self-expression, and as a means for changing the world. This will be a brainstorming session on how to persuade women to be more involved in web literacy in the means of establishing Mozilla Clubs. And how to create more effective events that will make them stay and would want to reach out to more people.", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "504", 
-        "location": "", 
-        "pathways": " [MLN] Teaching Web Literacy with Mozilla Clubs", 
-        "scheduleblock": "", 
-        "space": "Mozilla Learning Networks", 
-        "title": "How to increase digital literacy with women globally through on-going programs"
-    }, 
-    {
         "description": "Come share your experiences at MozFest with other participants and with those who can't be here! Write a blog post, share a tweet, or draw a picture - this MLN hub station is all all about helping to capture your time at MozFest. Operating all weekend.", 
         "facilitator_array": [], 
         "facilitators": "", 
@@ -2691,60 +2580,6 @@
         "title": "MLN Help Desk"
     }, 
     {
-        "day": "Saturday", 
-        "description": "This session will empower people to lead hands on, open ended STEM projects for students of all ages. using Iridescent's CuriosityMachine.org platform throughout the session. First, participants will tackle an open-ended design challenge from CuriosityMachine.org. Each design challenge presents a problem that participants will solve through building a solution with materials like straws, cardboard and tape. Then, attendees will discover the educator resources that the platform has and hack the materials for use at in your learning space. Educators can customize these learning experiences in many ways -- they can change (but are not limited to) the design challenge materials, lesson plans and unit structures that are already posted on Curiosity Machine.", 
-        "facilitator_array": [
-            "Devin  Dillon"
-        ], 
-        "facilitators": "Devin  Dillon", 
-        "id": "98", 
-        "location": "", 
-        "pathways": "Scaling Participatory Learning Experiences, [MLN] Learning & Leading", 
-        "scheduleblock": "saturday-session-block-3", 
-        "space": "Mozilla Learning Networks", 
-        "start": "02:15 PM", 
-        "title": "Hack a Design Challenge to Use With Your Students"
-    }, 
-    {
-        "day": "Saturday", 
-        "description": "The Mozilla web literacy map is being refactored to include 21st Century skills needed for leadership development, and written in a language more approachable and accessible to diverse audiences.  We invite anyone interested in teaching web literacy skills to provide us with your insights and creative input on a draft 2.0 content and design, and  help us determine what curriculum and tools are needed to make the digital-age skills more relevant to more people. Come spend a few minutes with us moving around pieces of the map, and sharing stories of how you would use the map.", 
-        "facilitator_array": [
-            "An-Me Chung"
-        ], 
-        "facilitators": "An-Me Chung", 
-        "id": "551", 
-        "location": "", 
-        "pathways": "[MLN] Learning & Leading", 
-        "scheduleblock": "saturday-session-block-1", 
-        "space": "Mozilla Learning Networks", 
-        "start": "10:45 AM", 
-        "title": "Learning & Leading Digital Literacy Focus Group"
-    }, 
-    {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "308", 
-        "location": "", 
-        "pathways": "[MLN] Voices of Diverse Leaders", 
-        "scheduleblock": "", 
-        "space": "Mozilla Learning Networks", 
-        "title": "Strengthening workplace inclusion with Webmaker"
-    }, 
-    {
-        "description": "This session is a fireside chat about the challenges and opportunities of trying to enable digital inclusion and web literacy on emerging countries and poor neighborhoods.\nOur goals are:\n* Identify common challenges faced by everyone in this segment and ways to overcome it.\n* Collect awesome stories that we can share with advocacy and fundraising teams.\n* Understand the different reasons why people chose to devote their time to these efforts and how we can help them.", 
-        "facilitator_array": [
-            "Mario Brandão"
-        ], 
-        "facilitators": "Mario Brandão", 
-        "id": "509", 
-        "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
-        "space": "Mozilla Learning Networks", 
-        "title": "Digital inclusion and web literacy in emerging countries"
-    }, 
-    {
         "day": "Sunday", 
         "description": "What is a map and how can we play with that definition at MozFest? The meaning of \"map\" across disciplines is remarkably varied. It's effectively a spatial representation of geo-topography, a linking between tables by foreign key, a datatype in C++... At CartoDB, users make creative use of our custom basemaps feature, building remarkable maps of multivariate information off-the-(beaten) geographic projection. Many have designed and published interactive maps of cemetery burial plots, galactic drawings of the Star Wars Universe, heatmaps of court traffic during the NBA finals. Let's explore other maps, and investigate topic and themes not yet covered in interactives. Let’s .talk about how to map them and discuss why mapping might be the perfect expression of their meaning.", 
         "facilitator_array": [
@@ -2761,42 +2596,127 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "Participants will have an opportunity to make content for the web in a guided manner using professional tools like Thimble, Mozilla's online code editor, made accessible by the Webmaker team. Participants will use HTML, CSS, and JavaScript to remix one of three sample projects, learning the basics of the most important web technologies in a fun way! Educators will also have an opportunity to experience the power of the new tutorial system as a convenient way to share lessons.", 
+        "description": "Cristol Kapp, a TeacherPreneur, completely transformed the Clifton Hills Elementary School Library into a library makerspace. She has created a space that offers students the opportunity to explore, make, learn, and share at their pace. In this session you will learn how to use Design Thinking to reimagine your context. Together, we’ll create a design board centered around the challenge of redesigning a space to allow participants to soar.", 
         "facilitator_array": [
-            "Kieran Sedgwick"
+            "Cristol  Kapp, Librarian, Clifton Hills Elementary School, @mrs_kapp"
         ], 
-        "facilitators": "Kieran Sedgwick", 
-        "id": "150", 
+        "facilitators": "Cristol  Kapp", 
+        "id": "270", 
         "location": "", 
-        "pathways": "[MLN] Learning & Leading", 
-        "scheduleblock": "sunday-session-block-7", 
+        "pathways": "[MLN] Learning & Leading, [youthZone] Pathway - News to me!", 
+        "scheduleblock": "sunday-session-block-6", 
         "space": "Mozilla Learning Networks", 
-        "start": "02:45 PM", 
-        "title": "Teaching the Web with the New Thimble"
+        "start": "12:45 PM", 
+        "title": "Redesigning your Context: A Design Thinking Approach"
     }, 
     {
-        "description": "They'll learn how to code using tools like scratch and rails and, through learning, also understand what resources are available to learn to code online as well as what resources are available to teach kids to code.", 
+        "day": "Saturday", 
+        "description": "This session contains the core ideas of the Mozilla Learning Network, which is, \"Teach like Mozilla\". As opposed to conventional learning methods that include watching & listening, we are going to explore participatory,inclusive and fun ways of teaching. These include examples of sessions that worked in our local communities, for example:Teaching HTML using Lo-fi/No-fi methods in remote villages in India with the help of bricks and LAN houses (internet cafe's in Brazil) where people are taught web literacy skills. The attendees of our session would have a better understanding on the importance of fun and participatory learning activities.", 
         "facilitator_array": [
-            "Eli Kariv"
+            "Shreyas Kutty, @dun3buggi3, Scrollback"
         ], 
-        "facilitators": "Eli Kariv", 
-        "id": "138", 
+        "facilitators": "Shreyas Kutty", 
+        "id": "274", 
         "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
+        "pathways": "[MLN] Teaching Web Literacy with Mozilla Clubs", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "Mozilla Learning Networks", 
-        "title": "How to learn/teach coding for beginners (no exp. required!)"
+        "start": "10:45 AM", 
+        "title": "What does being participatory & playful in a learning setting look like?"
     }, 
     {
-        "description": "Once you’ve built a community, how can you build enough momentum to retain them and keep them active? How can you continue to attract new, diverse and dedicated community members, while avoiding self-gentrification? This session will focus on conversations around best practices for retaining and growing your local community and also keeping them active. While also focusing on how communities can exist online, in person and many times, both. How can we bridge the gap between the online and in person, to ultimately create a more integrated community that builds momentum? How do you engage these two different types of communities in a way that gets them connecting with one another and breaking down that digital barrier?\nHear how littlebits tackles these questions, discuss solutions as a group and get hands-on experience making with littlebit kits.", 
+        "day": "Saturday", 
+        "description": "The session is a fireside chat about participatory and collaborative methods for mozilla clubs and community building. In this session we'll explore best practices, tips, tricks and ways that club captains and facilitators can improve their game and make the most of the community they are a part of.\nWe'll look into ways to move from participation into collaboration and why these methods work and are the right approach for a \"Teach Like Mozilla\" framework.", 
         "facilitator_array": [], 
         "facilitators": "", 
-        "id": "424", 
+        "id": "513", 
         "location": "", 
-        "pathways": "Leading and Building Community Through Participation, [MLN] Teaching Web Literacy with Mozilla Clubs", 
+        "pathways": "[MLN] Teaching Web Literacy with Mozilla Clubs", 
+        "scheduleblock": "saturday-session-block-4", 
+        "space": "Mozilla Learning Networks", 
+        "start": "03:30 PM", 
+        "title": "From Participation to Collaboration"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "High tech manufacturing tools are becoming more accessible for do-it-yourselfers, makers and activists. The tools you can find at a local maker space can be used to make inexpensive activist gear. In this participatory session, you’ll learn learn creative ways to user maker tools for activism. We’ll cover making giant banners, laser cutting stencils for spray painting, making custom vinyl stickers to culture-jam billboards, using CNC machines to carve block of linoleum or wood for printing posters.\nIn the first part of the session you’ll get a quick overview of these DIY production techniques, see some examples of how activists have used these techniques, we’ll talk about how you can access these machines at maker spaces, and we’ll spend some time brainstorming some new ideas. In the second part we’ll get our hands dirty and print some t-shirts, bandanas, patches and posters. Bring a blank t-shirt to print on (but don’t worry if you don’t have one with you, we'll also have fabric and paper available).", 
+        "facilitator_array": [
+            "Hélène Petry, UFF - Fluminense Federal University in Rio, Brasil"
+        ], 
+        "facilitators": "Hélène Petry", 
+        "id": "520", 
+        "location": "", 
+        "pathways": "[MLN] Teaching Web Literacy with Mozilla Clubs", 
+        "scheduleblock": "sunday-session-block-8", 
+        "space": "Mozilla Learning Networks", 
+        "start": "04:00 PM", 
+        "title": "Using Digital Fabrication Techniques to Make DIY Activist Gear"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "The session will showcase how open organizations work in the open and how session participants can replicate those ideas in their practice. We will do so by reviewing case studies of organizations working in the open, teaching how to practice open, and having hands on tutorials using web tools that facilitate working in the open. Less what to do and more how to do it!", 
+        "facilitator_array": [
+            "Simeon Oriko, @SimeonOriko, Jamlab"
+        ], 
+        "facilitators": "Simeon Oriko", 
+        "id": "495", 
+        "location": "", 
+        "pathways": "[MLN] Teaching Web Literacy with Mozilla Clubs", 
+        "scheduleblock": "sunday-session-block-5", 
+        "space": "Mozilla Learning Networks", 
+        "start": "11:30 AM", 
+        "title": "Teaching Web Literacy in the Open"
+    }, 
+    {
+        "description": "It will give them an overview on how it is possible to integrate technology and innovation with Social Values and Ethics. Some guidelines how what does being a social innovator means and why they should consider this as the best time and opportunity to make a difference and embrace a social activities into their company culture.", 
+        "facilitator_array": [
+            "Maurizio Gioli"
+        ], 
+        "facilitators": "Maurizio Gioli", 
+        "id": "395", 
+        "location": "", 
+        "pathways": "[MLN] Voices of Diverse Leaders", 
         "scheduleblock": "", 
         "space": "Mozilla Learning Networks", 
-        "title": "Retaining and growing communities online and offline. "
+        "title": "Link Technology to Social Innovation"
+    }, 
+    {
+        "description": "Participates will learn about the mission and vision of our Center and the need for serving underrepresented girls and women in science, technology, engineering, and mathematics (STEM). Attendees will develop and execute a personalized social media message and create a global call to action.", 
+        "facilitator_array": [
+            "Kimberly A. Scott, Ed.D., @cgest_asu, Center for Gender Equity in Science and Technology, Arizona State University", 
+            "Robin Baskin McNulty, M.Ed., @cgest_asu, Center for Gender Equity in Science and Technology, Arizona State University"
+        ], 
+        "facilitators": "Kimberly A. Scott, Robin Baskin McNulty", 
+        "id": "357", 
+        "location": "", 
+        "pathways": "[MLN] Voices of Diverse Leaders", 
+        "scheduleblock": "", 
+        "space": "Mozilla Learning Networks", 
+        "title": "Think Like a Programmer, Design Like a Change Agent"
+    }, 
+    {
+        "description": "This workshop will showcase some of the innovative work Chayn has been doing with openly licensed toolkits, platforms and hackathons to tackle violence against women from India, Pakistan to UK & Lebanon. In our experience, the empowerment movement is not making the impact possible because charities are reluctant to use, distribute or create openly licensed work. The latter part of the workshop will be a session of creative collaboration to brainstorm ways to push the use of open source materials that we or other organisations have produced with a focus on humanitarian work.", 
+        "facilitator_array": [
+            "Hera Hussein, @chaynorg, Chayn"
+        ], 
+        "facilitators": "Hera Hussein", 
+        "id": "384", 
+        "location": "", 
+        "pathways": "[MLN] Voices of Diverse Leaders", 
+        "scheduleblock": "", 
+        "space": "Mozilla Learning Networks", 
+        "title": "Building open resources for women at risk"
+    }, 
+    {
+        "description": "", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "308", 
+        "location": "", 
+        "pathways": "[MLN] Voices of Diverse Leaders", 
+        "scheduleblock": "", 
+        "space": "Mozilla Learning Networks", 
+        "title": "Strengthening workplace inclusion with Webmaker"
     }, 
     {
         "description": "Participants will learn about online resources for advocacy work and how to connect them in order to create online platform to serve their communities. This will be a hand-on workshop where participants will identify non-technical advocacy users, user technical needs and free or low cost technical solutions that do not require high-technical skill for installation or implementation.", 
@@ -2839,17 +2759,132 @@
         "title": "We Begin By Listening"
     }, 
     {
+        "description": "Public and open data can help us all make better personal decisions and better decisions for our neighborhoods and communities. Often though its hard to discover relevant data , process it in to a form that facilitates insight or the data might not even exist. The goals of our session is to introduce data discovery services, data processing and visualization tools and data collection strategies and plans to use them all together to answer and empower young people and communities", 
+        "facilitator_array": [
+            "Stuart Lynn"
+        ], 
+        "facilitators": "Stuart Lynn", 
+        "id": "448", 
+        "location": "", 
+        "pathways": "", 
+        "scheduleblock": "", 
+        "space": "Mozilla Learning Networks", 
+        "title": "Locating and collecting geospatial data to empower youth and communities"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "Collaboration turns good work into great work. If you are already connected to a community of people who are teaching web literacy, you have a lot to offer. Finding creative ways to connect your work to the Mozilla community can help bring your strengths and needs into greater focus and expand the impact of your efforts. This session will explore the exchange of value that can occur when mature digital literacy programs connect with the emerging Moz Clubs initiative.\nIn this session we will learn from existing models, like The Pittsburgh Digital Corps, the Manchester Coder Dojo, and Rio Moz Club, to demonstrate the variety of models being used to teach Universal Web Literacy. Participants will help to identify ways that existing programs can benefit Moz Clubs and visa versa. We will collaboratively discover how we can use open principles to help one another and become more effective.", 
+        "facilitator_array": [
+            "Ani Martinez, @theAniMartinez, Pittsburgh Digital Corps"
+        ], 
+        "facilitators": "Ani Martinez", 
+        "id": "383", 
+        "location": "", 
+        "pathways": "Inclusive Communities, [MLN] Teaching Web Literacy with Mozilla Clubs", 
+        "scheduleblock": "sunday-session-block-6", 
+        "space": "Mozilla Learning Networks", 
+        "start": "12:45 PM", 
+        "title": "But I Already Have One of Those: Connecting Existing Programs to Mozilla Clubs "
+    }, 
+    {
+        "day": "Saturday", 
+        "description": "Once you’ve built a community, how can you build enough momentum to retain them and keep them active? How can you continue to attract new, diverse and dedicated community members, while avoiding self-gentrification? This session will focus on conversations around best practices for retaining and growing your local community and also keeping them active. While also focusing on how communities can exist online, in person and many times, both. How can we bridge the gap between the online and in person, to ultimately create a more integrated community that builds momentum? How do you engage these two different types of communities in a way that gets them connecting with one another and breaking down that digital barrier?\nHear how littlebits tackles these questions, discuss solutions as a group and get hands-on experience making with littlebit kits.", 
+        "facilitator_array": [
+            "Nick Weinberg, @nickDOUBLEyou, littlebits"
+        ], 
+        "facilitators": "Nick Weinberg", 
+        "id": "424", 
+        "location": "", 
+        "pathways": "Leading and Building Community Through Participation, [MLN] Teaching Web Literacy with Mozilla Clubs", 
+        "scheduleblock": "saturday-session-block-3", 
+        "space": "Mozilla Learning Networks", 
+        "start": "02:15 PM", 
+        "title": "Retaining and growing communities online and offline. "
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "Hosting and running a club isn't easy, neither is dealing with the costs. Need help reaching out to local partners to help fund parts of the event or supply resources? Want to build a microfundraising site where people can donate to your club? Find out how you can fundraise to help support your clubs. This session aims at empowering individuals and groups with the know-how and essential understanding of basic tips and methods of fundraising for their clubs or programs.", 
+        "facilitator_array": [
+            "Sayak Sakar, @Sayak_Sarkar, Red Hat"
+        ], 
+        "facilitators": "Sayak Sakar", 
+        "id": "226", 
+        "location": "", 
+        "pathways": " [MLN] Teaching Web Literacy with Mozilla Clubs", 
+        "scheduleblock": "sunday-session-block-7", 
+        "space": "Mozilla Learning Networks", 
+        "start": "02:45 PM", 
+        "title": "Tips, tools and resources to help fund your local club, program or group"
+    }, 
+    {
+        "day": "Saturday", 
+        "description": "To gather women who are interested in creating a community to increase the web literacy of girls. Girls are too shy to explore coding because they initially think that it's interface is too masculine. This session's goal is to create a Mozilla Club designed for girls. And help them see technology in a whole new light – as a medium for self-expression, and as a means for changing the world. This will be a brainstorming session on how to persuade women to be more involved in web literacy in the means of establishing Mozilla Clubs. And how to create more effective events that will make them stay and would want to reach out to more people.", 
+        "facilitator_array": [
+            "Kristina Divina Verbo, @kdverbo, Mozilla Philippines "
+        ], 
+        "facilitators": "Kristina Divina Verbo", 
+        "id": "504", 
+        "location": "", 
+        "pathways": " [MLN] Teaching Web Literacy with Mozilla Clubs", 
+        "scheduleblock": "saturday-session-block-2", 
+        "space": "Mozilla Learning Networks", 
+        "start": "12:00 PM", 
+        "title": "How to increase digital literacy with women globally through on-going programs"
+    }, 
+    {
+        "day": "Saturday", 
         "description": "Calling all creative youth and spirited adults - we need you to use a variety of talents towards a common goal. Join us by adding to an activity course for the Sphero, to create a colourful, interactive end result by the end of the weekend. For example, you might decide to make a tunnel or see-saw bridge etc... to add to the course attach a MakeyMakey, Raspberry Pi and Arduino and program it using Scratch, S4A or Mind+ etc... to code a response to an input for example a noise of some sort or traffic lights to change at another section. The possibilities are endless and the final product will be a mystery (until the end!). Come be apart of a live-making exercise where all skills are valued.", 
         "facilitator_array": [
-            "Su Adams"
+            "Su Adams, @SuAdamsEdIT"
         ], 
         "facilitators": "Su Adams", 
         "id": "52", 
         "location": "", 
         "pathways": " [MLN] Teaching Web Literacy with Mozilla Clubs", 
-        "scheduleblock": "", 
+        "scheduleblock": "all-saturday", 
         "space": "Mozilla Learning Networks", 
         "title": "Run the Gauntlet"
+    }, 
+    {
+        "description": "he Sessions’ goal is to learn the strategy and approach of how women are represented in the developed countries and how the blueprint can be used to make a ground plan for the change process in developing countries.This will be an interactive activity that will divide participants in groups of 3-4 people, each team will be expected to brainstorm and note down the challenges, achievements, impacts, opportunities and the potential of women in technology and the workforce scenario", 
+        "facilitator_array": [
+            "Alifiyah Ganijee, @alifyaganijee, Mozilla Mombasa "
+        ], 
+        "facilitators": "Alifiyah Ganijee", 
+        "id": "247", 
+        "location": "", 
+        "pathways": " Scaling Participatory Learning Experiences, [MLN] Voices of Diverse Leaders", 
+        "scheduleblock": "", 
+        "space": "Mozilla Learning Networks", 
+        "title": "Fostering inclusivity and diversity in the Technology space"
+    }, 
+    {
+        "day": "Saturday", 
+        "description": "This session will empower people to lead hands on, open ended STEM projects for students of all ages. using Iridescent's CuriosityMachine.org platform throughout the session. First, participants will tackle an open-ended design challenge from CuriosityMachine.org. Each design challenge presents a problem that participants will solve through building a solution with materials like straws, cardboard and tape. Then, attendees will discover the educator resources that the platform has and hack the materials for use at in your learning space. Educators can customize these learning experiences in many ways -- they can change (but are not limited to) the design challenge materials, lesson plans and unit structures that are already posted on Curiosity Machine.", 
+        "facilitator_array": [
+            "Devin  Dillon"
+        ], 
+        "facilitators": "Devin  Dillon", 
+        "id": "98", 
+        "location": "", 
+        "pathways": "Scaling Participatory Learning Experiences, [MLN] Learning & Leading", 
+        "scheduleblock": "saturday-session-block-3", 
+        "space": "Mozilla Learning Networks", 
+        "start": "02:15 PM", 
+        "title": "Hack a Design Challenge to Use With Your Students"
+    }, 
+    {
+        "description": "Government agencies, learning institutions, international organizations and other stakeholders have sought to leverage digital learning environments to promote youth leadership and civic engagement. While some of these platforms have been successfully employed, cultivating genuine youth participation often comes with challenges.This interactive workshop is designed to provide participants with the opportunity to contribute to an open educational resource for authentic youth leadership.", 
+        "facilitator_array": [
+            "Ariam Mogos, @aamogos, Global Kids "
+        ], 
+        "facilitators": "Ariam Mogos", 
+        "id": "366", 
+        "location": "", 
+        "pathways": "Youth Learning, [MLN] Voices of Diverse Leaders", 
+        "scheduleblock": "", 
+        "space": "Mozilla Learning Networks", 
+        "title": "Models and Modes of Engagement for Authentic Youth Leadership in Informal Digital Learning Contexts"
     }, 
     {
         "day": "Saturday", 
@@ -3457,10 +3492,9 @@
         "scheduleblock": "saturday-session-block-1", 
         "space": "youthZone - Through the lens of youths", 
         "start": "10:45 AM", 
-        "title": "What the heck are 'Jobs in tech'?"
+        "title": "What the heck are 'Jobs in tech'? (Room 212 2nd floor) "
     }, 
     {
-        "day": "Saturday", 
         "description": "I created this HTML Puzzle Box which people can easily create because it's basically a papertoy, that you can print and craft by yourself. This boxes means to teach people, which has no knowledge about HTML basic languages, in a more fun way. Beside of teaching how to craft, we can play a HTML Puzzle Box Challenge which challenging how fast you can stack the boxes in right orders.", 
         "facilitator_array": [
             "Yofie Setiawan"
@@ -3469,9 +3503,8 @@
         "id": "59", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "02:15 PM", 
         "title": "HTML Puzzle Box Challenge"
     }, 
     {
@@ -3484,10 +3517,10 @@
         "id": "289", 
         "location": "", 
         "pathways": "[youthZone] Pathway - News to me!", 
-        "scheduleblock": "saturday-session-block-1", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "10:45 AM", 
-        "title": "Using open community support as a community building tool"
+        "start": "12:00 PM", 
+        "title": "Using open community support as a community building tool (Room 205, 2nd floor) "
     }, 
     {
         "day": "Sunday", 
@@ -3528,12 +3561,11 @@
         "id": "538", 
         "location": "", 
         "pathways": " [youthZone] Pathway - News to me!", 
-        "scheduleblock": "", 
+        "scheduleblock": "all-weekend", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "Arts Award - Individual Pathway creator in schools and youth centres"
+        "title": "Arts Award - Individual Pathway creator in schools and youth centres (Open space, 2nd floor) "
     }, 
     {
-        "day": "Sunday", 
         "description": "The session will introduce people to the awesomeness of the Raspberry Pi, electric circuits and coding with Scratch and Python.  They will learn about using the command line, setting up electronic circuits safely, what the GPIO pins are used for and just having a bit of fun with blinking LEDs and resisters. It will also introduce them to Computational thinking and problem solving.", 
         "facilitator_array": [
             "Femi Owolade-Coombes"
@@ -3542,9 +3574,8 @@
         "id": "410", 
         "location": "", 
         "pathways": "[Pathway] Mapping Your MozFest Learning Journey, [youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "sunday-session-block-5", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "11:30 AM", 
         "title": " Physical Computing with the Raspberry Pi"
     }, 
     {
@@ -3560,10 +3591,9 @@
         "scheduleblock": "sunday-session-block-6", 
         "space": "youthZone - Through the lens of youths", 
         "start": "12:45 PM", 
-        "title": "Teaching the Basics of Privacy"
+        "title": "Teaching the Basics of Privacy (Room 213, 2nd floor)"
     }, 
     {
-        "day": "Saturday", 
         "description": "People often hear the word \"algorithm\" and think that it entails complicated math or heavy computer programming. At it's core, though, an algorithm is a simple set of rules that are relatively easy to understand. You can write an algorithm for almost anything — making a sandwich, deciding what to make for dinner, doing long division, naming children, and more. This session seeks above all to take away the mystery of a concept that influences our lives each day. It will help people understand how algorithms work and will allow participants to explore the concept of algorithms using simple English and no code.", 
         "facilitator_array": [
             "Ryan  Graff"
@@ -3572,13 +3602,11 @@
         "id": "184", 
         "location": "", 
         "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "02:15 PM", 
         "title": "Algorithms are ancient and not so scary. Let's write one with crayons. "
     }, 
     {
-        "day": "Saturday", 
         "description": "This session will introduce participants to the Maker Cart and the Maker   Movement. The Maker Cart is a mobile cost and space saving mobile unit that   contains the main ingredients to start a Makerspace and Maker Programme. It   consists of a 3d printer, digital cutter, electronics, micro-controllers and   robotics. The Maker Cart has been designed for schools, libraries and youth   centres but can also be use at home!  People will learn about the Maker movement, the tools and machinery   associated and the kind of projects that can be developed with the Maker   Cart.  People will have a chance to make something using some of the tools and   machines in the Maker Cart.", 
         "facilitator_array": [
             "Carlos  Izsak"
@@ -3587,9 +3615,8 @@
         "id": "182", 
         "location": "", 
         "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "02:15 PM", 
         "title": "The Maker Cart: a hands on introduction to Maker Education"
     }, 
     {
@@ -3603,10 +3630,10 @@
         "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
         "scheduleblock": "all-weekend", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "CoderDojo"
+        "title": "CoderDojo (Room 211, 2nd floor)"
     }, 
     {
-        "day": "Sunday", 
+        "day": "Saturday", 
         "description": "The Mozilla tools to teach the web have evolved - some new, some updated and some are the same old gems. Participants will learn about the changes and how to continue to use the tools to teach core Web Literacy skills. This includes X-Ray Goggles, Thimble and Webmaker.\n", 
         "facilitator_array": [
             "Hannah Kane"
@@ -3615,13 +3642,12 @@
         "id": "455", 
         "location": "", 
         "pathways": " [youthZone] Pathway - News to me!", 
-        "scheduleblock": "sunday-session-block-7", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "02:45 PM", 
-        "title": "Allow me re-introduce myself, my name is .... (tools to teach the web)"
+        "start": "02:15 PM", 
+        "title": "Allow me re-introduce myself, my name is .... (tools to teach the web) (Room 213, 2nd floor)"
     }, 
     {
-        "day": "Saturday", 
         "description": "This session provides a projection mapping workshop. In the workshop, participants will make objects with paper clay and draw animation to project on them. Animation will be made with customized version of parapara animation (http://parapara.mozlabs.jp/). Through the workshop, participants will learn the mechanism of how animation and projection mappings are made and by making their own. The experience are of making objects are related to making 3D items on computers. Also, mapping animation on their objects are very first stage of mixing computing world into the real world. The goal of this session is participants to feel and understand that the Web can be a part of our real life, and computers are the tools to make it happen.\nAlso, the activity is designed by university students for teenager to learn IT technology. Target age and level of skill for this activity is elementary school students or beginners.", 
         "facilitator_array": [
             "Noriatsu Kudo"
@@ -3630,25 +3656,9 @@
         "id": "252", 
         "location": "", 
         "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "02:15 PM", 
         "title": "Create your own projection mapping with Parapara Animation"
-    }, 
-    {
-        "day": "Sunday", 
-        "description": "This sessions goal is to introduce people to the idea of parental controls online - and how they don't look like parental controls in the traditional sense, and what that means in the context of internet censorship and privacy. Attendees will ask the question \"How do I balance protecting my child with maintaining the freedom and openness of the internet?\" by evaluating the \"profile\" of a child, and then building a corresponding \"ideal internet\" on paper - what's there, what isn't (if anything)? It's meant to be subjective, no right or wrong answer - just asking a question and enabling participants to walk away with \"food for thought.\"", 
-        "facilitator_array": [
-            "Jake Brown"
-        ], 
-        "facilitators": "Jake Brown", 
-        "id": "404", 
-        "location": "", 
-        "pathways": "Don't Feed the Trolls, [youthZone] Leading session, [youthZone] Pathway - News to me!", 
-        "scheduleblock": "sunday-session-block-5", 
-        "space": "youthZone - Through the lens of youths", 
-        "start": "11:30 AM", 
-        "title": "Parenting and Web Censorship"
     }, 
     {
         "day": "Saturday", 
@@ -3663,10 +3673,9 @@
         "scheduleblock": "saturday-session-block-1", 
         "space": "youthZone - Through the lens of youths", 
         "start": "10:45 AM", 
-        "title": "Embracing the chaos of 21st Century learning"
+        "title": "Embracing the chaos of 21st Century learning (Room 205, 2nd floor)"
     }, 
     {
-        "day": "Saturday", 
         "description": "This session will enable people to learn a digital musical instrument version of a traditional Samba instrument called pandeiro, using a webapp similar to the 80`s game Simon. They will be able to record their own creations and share them with others to improve their technique. After the session they will also capable to actually play the real instrument. We'll form a digital pandeiro orchestra during mozFest and exchange original songs with one another.", 
         "facilitator_array": [
             "Adriano  Cupello"
@@ -3675,13 +3684,11 @@
         "id": "392", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "02:15 PM", 
         "title": "MozFest Pandeiro Orchestra"
     }, 
     {
-        "day": "Saturday", 
         "description": "We are going to build custom sumobots (http://sumobotkit.com/) and learn how to control them with Javascript.", 
         "facilitator_array": [
             "Giovanny Andres Gongra Granada"
@@ -3690,9 +3697,8 @@
         "id": "99", 
         "location": "", 
         "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "02:15 PM", 
         "title": "Build your custom Sumobot"
     }, 
     {
@@ -3706,10 +3712,9 @@
         "pathways": "Youth Learning, [youthZone] Pathway Tech - What else you can do with it, [youthZone] Teaching kit", 
         "scheduleblock": "all-weekend", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "Raspberry Pi youth section workshops"
+        "title": "Raspberry Pi youth section workshops ((Room 209, 2nd floor)"
     }, 
     {
-        "day": "Saturday", 
         "description": "The goal of this session is to teach people how to think about programming. Most \"learn to program\" sessions get caught up in syntax and language choices, when, in reality, programming's central necessary skill is structured thought. But the concepts behind writing code are, at their core, logical constructs.  We will start with basic concepts like variable assignment, if statements, and loops. If time allows, we will work through some more complex problems that require putting together multiple programming concepts.", 
         "facilitator_array": [
             "Heather Billings"
@@ -3718,9 +3723,8 @@
         "id": "317", 
         "location": "", 
         "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "02:15 PM", 
         "title": "Programming without code"
     }, 
     {
@@ -3744,13 +3748,12 @@
         "id": "92", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "02:15 PM", 
-        "title": "Hacking Flexagons"
+        "start": "03:30 PM", 
+        "title": "Hacking Flexagons (Room 213, 2nd floor)"
     }, 
     {
-        "day": "Sunday", 
         "description": "Imagine an open source microscope that is powerful and cheap enough for school children to study the nano world, the world of atoms and molecules that is 1000 times smaller than what traditional optical microscopes can see. That is the objective of the LEGO2NANO project. This workshop will introduce to you the hardware and software developed so far for the world's first open source atomic force microscope. We'll also introduce how we are documenting this project on the Web, how we are involving Chinese school children in building and using the microscope, and sharing data from the microscope for crowdsourced analysis in Web-based citizen science projects. LEGO2NANO is in an international summer school in China, involving students and mentors from University College London, Tsinghua University, Peking University, Academia Sinica, MIT, Tufts University and University of Geneva. http://www.openafm.com", 
         "facilitator_array": [
             "Joe Bailey"
@@ -3759,13 +3762,11 @@
         "id": "292", 
         "location": "", 
         "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "sunday-session-block-6", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "12:45 PM", 
         "title": "LEGO2NANO: an Open Atomic Force Microscope Project"
     }, 
     {
-        "day": "Saturday", 
         "description": "Imagine an open source microscope that is powerful and cheap enough for school children to study the nano world, the world of atoms and molecules that is 1000 times smaller than what traditional optical microscopes can see. That is the objective of the LEGO2NANO project. This workshop will introduce to you the hardware and software developed so far for the world's first open source atomic force microscope. We'll also introduce how we are documenting this project on the Web, how we are involving Chinese school children in building and using the microscope, and sharing data from the microscope for crowdsourced analysis in Web-based citizen science projects. LEGO2NANO is in an international summer school in China, involving students and mentors from University College London, Tsinghua University, Peking University, Academia Sinica, MIT, Tufts University and University of Geneva. http://www.openafm.com", 
         "facilitator_array": [
             "Joe Bailey"
@@ -3774,9 +3775,8 @@
         "id": "292", 
         "location": "", 
         "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "02:15 PM", 
         "title": "LEGO2NANO: an Open Atomic Force Microscope Project"
     }, 
     {
@@ -3793,6 +3793,7 @@
         "title": "Mini Minecraft HackJam on Raspberry Pi"
     }, 
     {
+        "day": "Saturday", 
         "description": "Webmaker App can be used as “A Digital Lo-Fi, No-Fi! Teaching Kit” for people who want to teach the web offline. Access to computers, projector or any other digital devices may be an issue sometimes. But we can overcome that if replace those digital devices with our smart phones. Majority of the organizers have smart phones so they can use the WEBMAKER APP to create integrative learning apps and teach the kids.\nText, Images and navigation buttons can be easily added in the app. That will help us create interactive learning application.\nDemo app on the topic:  What are computers?\nApp Link: https://beta.webmaker.org/#/project?user=57508&project=22177\nDemo app on topic: How Email works?\nApp link: https://beta.webmaker.org/#/project?user=57508&project=21438", 
         "facilitator_array": [
             "Mayur Patil"
@@ -3801,9 +3802,10 @@
         "id": "316", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "Webmaker App \"A Digital Lo-Fi, No-Fi! Teaching Kit\""
+        "start": "03:30 PM", 
+        "title": "Webmaker App \"A Digital Lo-Fi, No-Fi! Teaching Kit\" (Room 213, 2nd floor)"
     }, 
     {
         "day": "Saturday", 
@@ -3818,10 +3820,9 @@
         "scheduleblock": "saturday-session-block-2", 
         "space": "youthZone - Through the lens of youths", 
         "start": "12:00 PM", 
-        "title": "Encouraging Contributions from Young Developers"
+        "title": "Encouraging Contributions from Young Developers (Room 213, 2nd floor)"
     }, 
     {
-        "day": "Saturday", 
         "description": "The purpose of the session is to show the capability of WebVR and how MozVR can help them make interactive immersive content!\nThe goals include\n- Showing them the capability of VR, then make them realize the potential about WebVR/MozVR\n- Tech them to actually create immersive content. So the goal would be after the session they should not how to shoot 360/180 degree videos with commercial camera and make it work with MozVR\n- Teach them to hack on demos we already have. Goal is they should be able to hack into the building blocks of our presently available code", 
         "facilitator_array": [
             "Rabimba Karanjai"
@@ -3830,9 +3831,8 @@
         "id": "71", 
         "location": "", 
         "pathways": " [youthZone] Pathway Tech - What else you can do with it", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "02:15 PM", 
         "title": "WebVR - Make virtual reality games in your browser!"
     }, 
     {
@@ -3862,7 +3862,6 @@
         "title": "Craft - Bridging your digital divide"
     }, 
     {
-        "day": "Sunday", 
         "description": "This is a rolling session for youths that explores the link between youth instrumentalist (players of a musical instrument) as a pathway into engineering and tech support roles through developing a passion for all things music technology and as an instrumentalist.", 
         "facilitator_array": [
             "Luke Mayell - Musician"
@@ -3871,9 +3870,8 @@
         "id": "537", 
         "location": "", 
         "pathways": " [youthZone] Pathway - News to me!", 
-        "scheduleblock": "sunday-session-block-6", 
+        "scheduleblock": "", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "12:45 PM", 
         "title": "Music - 50% of software engineers are instrumentalist."
     }, 
     {
@@ -3886,12 +3884,13 @@
         "id": "367", 
         "location": "", 
         "pathways": "Get project assistance for your research, [youthZone] Leading session, [youthZone] Pathway - News to me!, [youthZone] Teaching kit", 
-        "scheduleblock": "saturday-session-block-2", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "12:00 PM", 
-        "title": "Calling all Minecraft Builders! Using Minecraft to foster civic engagement, self-efficacy & agency"
+        "start": "10:45 AM", 
+        "title": "Calling all Minecraft Builders! Using Minecraft to foster civic engagement, self-efficacy & agency (Room 213, 2nd floor)"
     }, 
     {
+        "day": "Saturday", 
         "description": "Learn a little bit of HTML and CSS, whilst saving kittens in the process. In Erase All Kittens (https://eraseallkittens.com/), players must explore a fantasy Internet universe, using code to change the world around them, in order to defeat the evil Operation E.A.K. - Erase All Kittens.\nE.A.K. is aimed at anyone aged 7+, but kids much younger than that have enjoyed learning with E.A.K. too.", 
         "facilitator_array": [
             "Joe Dytrych"
@@ -3900,8 +3899,24 @@
         "id": "140", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
+        "start": "02:15 PM", 
         "title": "E.A.K. Walk-In - Save Kittens, Learn HTML!"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "This sessions goal is to introduce people to the idea of parental controls online - and how they don't look like parental controls in the traditional sense, and what that means in the context of internet censorship and privacy. Attendees will ask the question \"How do I balance protecting my child with maintaining the freedom and openness of the internet?\" by evaluating the \"profile\" of a child, and then building a corresponding \"ideal internet\" on paper - what's there, what isn't (if anything)? It's meant to be subjective, no right or wrong answer - just asking a question and enabling participants to walk away with \"food for thought.\"", 
+        "facilitator_array": [
+            "Jake Brown"
+        ], 
+        "facilitators": "Jake Brown", 
+        "id": "404", 
+        "location": "", 
+        "pathways": "Don't Feed the Trolls, [youthZone] Leading session, [youthZone] Pathway - News to me!", 
+        "scheduleblock": "sunday-session-block-5", 
+        "space": "youthZone - Through the lens of youths", 
+        "start": "11:30 AM", 
+        "title": "Parenting and Web Censorship"
     }
 ]
