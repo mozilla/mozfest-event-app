@@ -3492,9 +3492,10 @@
         "scheduleblock": "saturday-session-block-1", 
         "space": "youthZone - Through the lens of youths", 
         "start": "10:45 AM", 
-        "title": "What the heck are 'Jobs in tech'? (Room 212 2nd floor) "
+        "title": "What the heck are 'Jobs in tech'? (Room 212, 2nd floor) "
     }, 
     {
+        "day": "Sunday", 
         "description": "I created this HTML Puzzle Box which people can easily create because it's basically a papertoy, that you can print and craft by yourself. This boxes means to teach people, which has no knowledge about HTML basic languages, in a more fun way. Beside of teaching how to craft, we can play a HTML Puzzle Box Challenge which challenging how fast you can stack the boxes in right orders.", 
         "facilitator_array": [
             "Yofie Setiawan"
@@ -3503,9 +3504,10 @@
         "id": "59", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "youthZone - Through the lens of youths", 
-        "title": "HTML Puzzle Box Challenge"
+        "start": "11:30 AM", 
+        "title": "HTML Puzzle Box Challenge (Room 212, 2nd floor)"
     }, 
     {
         "day": "Saturday", 
@@ -3945,7 +3947,7 @@
         "facilitators": "Jake Brown", 
         "id": "404", 
         "location": "", 
-        "pathways": "Don't Feed the Trolls, [youthZone] Leading session, [youthZone] Pathway - News to me!", 
+        "pathways": "Don't Feed the Trolls, [youthZone] Pathway - News to me!", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "youthZone - Through the lens of youths", 
         "start": "11:30 AM", 
