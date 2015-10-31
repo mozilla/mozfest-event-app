@@ -3730,9 +3730,9 @@
         "day": "Saturday", 
         "description": "In 2014, I completely re-imagined my school library by creating the first elementary school library makerspace in my district by collaborating with the Chattanooga Public Library, the PEF, Leadership Chattanooga, and HiveCha. Initially, I wanted to provide my students with access to technology.  The makerspace is essential to the development of 21st Century Skills because it provides a space for students to explore, make, share, and grow as independent learners.\nMake: Create a design journal.  My journal is the catalyst for change.  Here, I curate ideas, record my learning, reflect on the process, and celebrate success and failures.\nLearn: Disrupting the status-quo often brings chaos. To make progress in reaching dreams and goals you have to get comfortable with the chaos that comes with the process.  Chaos promotes questions: Is it really not working? Is this a failure or is it a pathway to future success?\nDo: Advocate for change.", 
         "facilitator_array": [
-            "Cristol  Kapp"
+            "Cristol Kapp, @mrs_kapp, Clifton Hills Elementary School"
         ], 
-        "facilitators": "Cristol  Kapp", 
+        "facilitators": "Cristol Kapp", 
         "id": "344", 
         "location": "", 
         "pathways": " [youthZone] Pathway - News to me!, [youthZone] Teaching kit", 
@@ -3745,9 +3745,10 @@
         "day": "Saturday", 
         "description": "This session will enable people to learn a digital musical instrument version of a traditional Samba instrument called pandeiro, using a webapp similar to the 80`s game Simon. They will be able to record their own creations and share them with others to improve their technique. After the session they will also capable to actually play the real instrument. We'll form a digital pandeiro orchestra during mozFest and exchange original songs with one another.", 
         "facilitator_array": [
-            "Adriano  Cupello"
+            "Adriano Cupello, @londrix, Mozilla rep - Brazillian Community", 
+            "Andre Garzia"
         ], 
-        "facilitators": "Adriano  Cupello", 
+        "facilitators": "Adriano Cupello, Andre Garzia", 
         "id": "392", 
         "location": "", 
         "pathways": "", 
@@ -3760,7 +3761,7 @@
         "day": "Saturday", 
         "description": "We are going to build custom sumobots (http://sumobotkit.com/) and learn how to control them with Javascript.", 
         "facilitator_array": [
-            "Giovanny Andres Gongra Granada"
+            "Giovanny Andres Gongra Granada, @Gioyik"
         ], 
         "facilitators": "Giovanny Andres Gongra Granada", 
         "id": "99", 
@@ -3774,9 +3775,11 @@
     {
         "description": "In our sessions young people will learn an introduction to creative programming and basic electronics through workshops in making music with Sonic Pi, hacking Minecraft Pi with Python, playing with electronics with Python and ScratchGPIO and creating games with Scratch.", 
         "facilitator_array": [
-            "Andrew Mulholland"
+            "Andrew Mulholland, @gbaman1, ", 
+            "Frank Thomas-Hockey, @fth_nix", 
+            "Covent Garden Raspberry Jam team"
         ], 
-        "facilitators": "Andrew Mulholland", 
+        "facilitators": "Andrew Mulholland, Frank Thomas-Hockey, Covent Garden Raspberry Jam team", 
         "id": "442", 
         "location": "", 
         "pathways": "Youth Learning, [youthZone] Pathway Tech - What else you can do with it, [youthZone] Teaching kit", 
@@ -3788,7 +3791,7 @@
         "day": "Saturday", 
         "description": "The goal of this session is to teach people how to think about programming. Most \"learn to program\" sessions get caught up in syntax and language choices, when, in reality, programming's central necessary skill is structured thought. But the concepts behind writing code are, at their core, logical constructs.  We will start with basic concepts like variable assignment, if statements, and loops. If time allows, we will work through some more complex problems that require putting together multiple programming concepts.", 
         "facilitator_array": [
-            "Heather Billings"
+            "Heather Billings, @hbillings, Northwestern University Knight Lab"
         ], 
         "facilitators": "Heather Billings", 
         "id": "317", 
@@ -3814,9 +3817,10 @@
         "day": "Saturday", 
         "description": "Flexagons are fun paper toys or according to Wikipedia \"Flat models, constructed by folding strips of paper that can be flexed or folded in certain ways to reveal faces besides the two that were originally on the back and front.\": https://www.youtube.com/watch?v=VIVIegSt81k\nIn our maker party in Canada we decided to make flexagons with our own photos! I started this project from scratch and used customized flexagons as a fun tool to teach the web to students and the result was amazing! http://smansoury.github.io/Flexigon/\nThe main goal of this session is to enjoy making creative flexagons while teaching simple HTML, CSS to participants. The participants will be encouraged to come up with interesting ideas for designing flexagons and use the web tools to create their design while practicing team work. Here is how a potential result may look like: http://tinyurl.com/flexigon.\nFinally, we will talk about ways to participate in this project: https://github.com/smansoury/Flexigon", 
         "facilitator_array": [
-            "Sara Mansouri"
+            "Sara Mansouri, @sara__mans", 
+            "Shahin Shadlou"
         ], 
-        "facilitators": "Sara Mansouri", 
+        "facilitators": "Sara Mansouri, Shahin Shadlou", 
         "id": "92", 
         "location": "", 
         "pathways": "", 
@@ -3829,9 +3833,11 @@
         "day": "Sunday", 
         "description": "Imagine an open source microscope that is powerful and cheap enough for school children to study the nano world, the world of atoms and molecules that is 1000 times smaller than what traditional optical microscopes can see. That is the objective of the LEGO2NANO project. This workshop will introduce to you the hardware and software developed so far for the world's first open source atomic force microscope. We'll also introduce how we are documenting this project on the Web, how we are involving Chinese school children in building and using the microscope, and sharing data from the microscope for crowdsourced analysis in Web-based citizen science projects. LEGO2NANO is in an international summer school in China, involving students and mentors from University College London, Tsinghua University, Peking University, Academia Sinica, MIT, Tufts University and University of Geneva. http://www.openafm.com", 
         "facilitator_array": [
-            "Joe Bailey"
+            "Joe Bailey, @LEGO2NANO, University College London", 
+            "Tom Catling", 
+            "Ellie Doney"
         ], 
-        "facilitators": "Joe Bailey", 
+        "facilitators": "Joe Bailey, Tom Catling, Ellie Doney", 
         "id": "292", 
         "location": "", 
         "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
@@ -3843,9 +3849,11 @@
         "day": "Saturday", 
         "description": "Imagine an open source microscope that is powerful and cheap enough for school children to study the nano world, the world of atoms and molecules that is 1000 times smaller than what traditional optical microscopes can see. That is the objective of the LEGO2NANO project. This workshop will introduce to you the hardware and software developed so far for the world's first open source atomic force microscope. We'll also introduce how we are documenting this project on the Web, how we are involving Chinese school children in building and using the microscope, and sharing data from the microscope for crowdsourced analysis in Web-based citizen science projects. LEGO2NANO is in an international summer school in China, involving students and mentors from University College London, Tsinghua University, Peking University, Academia Sinica, MIT, Tufts University and University of Geneva. http://www.openafm.com", 
         "facilitator_array": [
-            "Joe Bailey"
+            "Joe Bailey, @LEGO2NANO, University College London", 
+            "Tom Catling", 
+            "Ellie Doney"
         ], 
-        "facilitators": "Joe Bailey", 
+        "facilitators": "Joe Bailey, Tom Catling, Ellie Doney", 
         "id": "292", 
         "location": "", 
         "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
@@ -3858,9 +3866,11 @@
         "day": "Sunday", 
         "description": "Imagine an open source microscope that is powerful and cheap enough for school children to study the nano world, the world of atoms and molecules that is 1000 times smaller than what traditional optical microscopes can see. That is the objective of the LEGO2NANO project. This workshop will introduce to you the hardware and software developed so far for the world's first open source atomic force microscope. We'll also introduce how we are documenting this project on the Web, how we are involving Chinese school children in building and using the microscope, and sharing data from the microscope for crowdsourced analysis in Web-based citizen science projects. LEGO2NANO is in an international summer school in China, involving students and mentors from University College London, Tsinghua University, Peking University, Academia Sinica, MIT, Tufts University and University of Geneva. http://www.openafm.com", 
         "facilitator_array": [
-            "Joe Bailey"
+            "Joe Bailey, @LEGO2NANO, University College London", 
+            "Tom Catling", 
+            "Ellie Doney"
         ], 
-        "facilitators": "Joe Bailey", 
+        "facilitators": "Joe Bailey, Tom Catling, Ellie Doney", 
         "id": "292", 
         "location": "", 
         "pathways": " [youthZone] Pathway Craft - Bridging your digital divide", 
@@ -3872,9 +3882,10 @@
         "day": "Saturday", 
         "description": "Minecraft offers digital makers a 3D virtual world which can be used to design and create interactive objects. On the $20 Raspberry Pi computer, users can use programming to control how these objects interact.\nThrough taking part in this Mini Minecraft HackJam, participants will understand the creative and educational potential of controlling Minecraft with code on a Raspberry Pi computer.\nAfter an introduction to programming Minecraft on the Raspberry Pi, participants will work in teams to create a Minecraft challenge assault course.\nThis session would suit learners who wish to explore the opportunities offered by controlling Minecraft and educators who wish to explore the potential of Raspberry Pi and Minecraft as teaching tools.\nThis session will be led by Alan O'Donohoe an experienced educator in Computing & Raspberry Pi and David Whale an experienced software developer, author and STEM ambassador.", 
         "facilitator_array": [
-            "Alan O'Donohoe"
+            "Alan O'Donohoe, @teknoteacher, Exa Networks", 
+            "David Whale"
         ], 
-        "facilitators": "Alan O'Donohoe", 
+        "facilitators": "Alan O'Donohoe, David Whale", 
         "id": "85", 
         "location": "", 
         "pathways": "[youthZone] Pathway - News to me!", 
@@ -3887,9 +3898,10 @@
         "day": "Saturday", 
         "description": "Webmaker App can be used as “A Digital Lo-Fi, No-Fi! Teaching Kit” for people who want to teach the web offline. Access to computers, projector or any other digital devices may be an issue sometimes. But we can overcome that if replace those digital devices with our smart phones. Majority of the organizers have smart phones so they can use the WEBMAKER APP to create integrative learning apps and teach the kids.\nText, Images and navigation buttons can be easily added in the app. That will help us create interactive learning application.\nDemo app on the topic:  What are computers?\nApp Link: https://beta.webmaker.org/#/project?user=57508&project=22177\nDemo app on topic: How Email works?\nApp link: https://beta.webmaker.org/#/project?user=57508&project=21438", 
         "facilitator_array": [
-            "Mayur Patil"
+            "Mayur Patil, @yomanpatil, Mozilla Reps", 
+            "Santosh Viswanatham"
         ], 
-        "facilitators": "Mayur Patil", 
+        "facilitators": "Mayur Patil, Santosh Viswanatham", 
         "id": "316", 
         "location": "", 
         "pathways": "", 
@@ -3916,7 +3928,7 @@
     {
         "description": "Introducing MLS project to volunteers\nThe Mozilla Location Service (MLS) is an open service which lets devices determine their location based on network infrastructure like WiFi access points and cell towers.", 
         "facilitator_array": [
-            "Harsha  Bandaru"
+            "Harsha  Bandaru, @harsshhaa, Google"
         ], 
         "facilitators": "Harsha  Bandaru", 
         "id": "70", 
@@ -3956,9 +3968,10 @@
         "day": "Saturday", 
         "description": "During this session  participants will learn to leverage student excitement of Minecraft and how it connects to making a positive impact on the Web and in the real world. This session seeks to explore how we might better build tomorrow’s leaders through digital citizenship, design thinking and civic engagement by exploring self efficacy and agency in the built environment- both virtual and real.", 
         "facilitator_array": [
-            "Gina Grant"
+            "Gina Grant, @chiarchitecture, Chicago Architecture Foundation", 
+            "Edgar “Edge” Quintanilla, @edgeq_"
         ], 
-        "facilitators": "Gina Grant", 
+        "facilitators": "Gina Grant, Edgar “Edge” Quintanilla", 
         "id": "367", 
         "location": "", 
         "pathways": "Get project assistance for your research, [youthZone] Leading session, [youthZone] Pathway - News to me!, [youthZone] Teaching kit", 
@@ -3971,7 +3984,7 @@
         "day": "Saturday", 
         "description": "Learn a little bit of HTML and CSS, whilst saving kittens in the process. In Erase All Kittens (https://eraseallkittens.com/), players must explore a fantasy Internet universe, using code to change the world around them, in order to defeat the evil Operation E.A.K. - Erase All Kittens.\nE.A.K. is aimed at anyone aged 7+, but kids much younger than that have enjoyed learning with E.A.K. too.", 
         "facilitator_array": [
-            "Joe Dytrych"
+            "Joe Dytrych, @SomeHats, Drum Roll HQ"
         ], 
         "facilitators": "Joe Dytrych", 
         "id": "140", 
