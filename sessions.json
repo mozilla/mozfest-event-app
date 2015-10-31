@@ -3984,9 +3984,11 @@
         "day": "Saturday", 
         "description": "Learn a little bit of HTML and CSS, whilst saving kittens in the process. In Erase All Kittens (https://eraseallkittens.com/), players must explore a fantasy Internet universe, using code to change the world around them, in order to defeat the evil Operation E.A.K. - Erase All Kittens.\nE.A.K. is aimed at anyone aged 7+, but kids much younger than that have enjoyed learning with E.A.K. too.", 
         "facilitator_array": [
-            "Joe Dytrych, @SomeHats, Drum Roll HQ"
+            "Joe Dytrych, @SomeHats, Drum Roll HQ", 
+            "Dee Saigal", 
+            "Leonie Van Der Linde"
         ], 
-        "facilitators": "Joe Dytrych", 
+        "facilitators": "Joe Dytrych, Dee Saigal, Leonie Van Der Linde", 
         "id": "140", 
         "location": "", 
         "pathways": "", 
@@ -3999,7 +4001,7 @@
         "day": "Sunday", 
         "description": "This sessions goal is to introduce people to the idea of parental controls online - and how they don't look like parental controls in the traditional sense, and what that means in the context of internet censorship and privacy. Attendees will ask the question \"How do I balance protecting my child with maintaining the freedom and openness of the internet?\" by evaluating the \"profile\" of a child, and then building a corresponding \"ideal internet\" on paper - what's there, what isn't (if anything)? It's meant to be subjective, no right or wrong answer - just asking a question and enabling participants to walk away with \"food for thought.\"", 
         "facilitator_array": [
-            "Jake Brown"
+            "Jake Brown, @jkaebrwon, Torch"
         ], 
         "facilitators": "Jake Brown", 
         "id": "404", 
@@ -4025,9 +4027,10 @@
         "day": "Sunday", 
         "description": "In the ‘Modular frequencies’ workshop we’ll create a spacial audio installation! The HearUsHere app (location based audio) combined with iBeacons allows us to create a new sonic experience. Every iBeacon is a frequency that carriers a sound, when you get closer to one of these frequencies the audio will automatically fade in and cross fade with others. Using the speakers of our phones, we’ll create a collective audio experience. This results in unique and constantly changing soundscape created by the visitors and their navigation in the space.\nRoughly the result of the workshop is a zoo that the children create themselves in drawings and sounds, using iBeacons and HearUsHere. They will do this in a playful workshop full of sharpies and crayons that blends with tech.", 
         "facilitator_array": [
-            "Klasien van de Zandschulp"
+            "Klasien van de Zandschulp, @klasienz, HearUsHere", 
+            "James Bryan Graves"
         ], 
-        "facilitators": "Klasien van de Zandschulp", 
+        "facilitators": "Klasien van de Zandschulp, James Bryan Graves", 
         "id": "230", 
         "location": "", 
         "pathways": "[youthZone] Music ", 
