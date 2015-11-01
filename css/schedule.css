@@ -244,7 +244,7 @@ header a {
 .open-block {
     display: block;
     clear: both;
-    position: relative;.
+    position: relative;
     cursor: pointer;
     padding: 4rem;
     margin: 0 0 3rem 0;
@@ -317,7 +317,7 @@ header a {
 
 .session-detail .favorite,
 .all-sessions .favorite {
-    
+
 }
 
 .favorite-active .fa-heart-o:before {
@@ -382,7 +382,7 @@ header a {
 }
 
 .session-length-long {
-    
+
 }
 
 .session-everyone,
