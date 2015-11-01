@@ -3777,6 +3777,7 @@
         "title": "Build your custom Sumobot (Open space, 2nd floor)"
     }, 
     {
+        "day": "Saturday", 
         "description": "In our sessions young people will learn an introduction to creative programming and basic electronics through workshops in making music with Sonic Pi, hacking Minecraft Pi with Python, playing with electronics with Python and ScratchGPIO and creating games with Scratch.", 
         "facilitator_array": [
             "Andrew Mulholland, @gbaman1, ", 
@@ -3787,8 +3788,9 @@
         "id": "442", 
         "location": "", 
         "pathways": "Youth Learning, [youthZone] Pathway Tech - What else you can do with it, [youthZone] Teaching kit", 
-        "scheduleblock": "all-weekend", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "youthZone - Through the lens of youths", 
+        "start": "10:45 AM", 
         "title": "Raspberry Pi youth section workshops ((Room 209, 2nd floor)"
     }, 
     {
