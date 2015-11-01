@@ -3473,10 +3473,10 @@
         "description": "Two specially adapted Raspberry Pis will be travelling to the International Space Station with astronaut Tim Peake in December. This session introduces you to the Astro Pi project, how to set it up and how to use the many features of this genuine piece of space certified hardware and how you can link to this amazing project in your home and schools.", 
         "facilitator_array": [
             "Carrie Anne Philbin, , Raspberry Pi Foundation", 
-            "Yasmin Bey, @RPi_Yaz14, \n", 
-            "Dave Honess, , Raspberry Pi Foundation"
+            "Dave Honess, , Raspberry Pi Foundation", 
+            "Yasmin Bey and Joseph Thomas, @RPi_Yaz14, \n"
         ], 
-        "facilitators": "Carrie Anne Philbin, Yasmin Bey, Dave Honess", 
+        "facilitators": "Carrie Anne Philbin, Dave Honess, Yasmin Bey and Joseph Thomas", 
         "id": "556", 
         "location": "", 
         "pathways": "[youthZone] Pathway Tech - What else you can do with it, [youthZone] Teaching kit", 
