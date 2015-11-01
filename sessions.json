@@ -3887,7 +3887,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "#Hello world    This is a test. I am testing to see if markdown **is supported** as it being supported would *be nice*      [Hello](http://www.google.com)    ![Hi](https://www.raspberrypi.org/learning/resources/balloon-pi-tay-popper/cover.png)", 
+        "description": "# Hello world     \n## Hello smaller world   \n### Hello even smaller world     \nThis is a test. I am testing to see if markdown **is supported** as it being supported would *be nice*      [Hello](http://www.google.com)    ![Hi](https://www.raspberrypi.org/learning/resources/balloon-pi-tay-popper/cover.png)\nHeading 1  | Heading 2\n------------- | -------------\nInformation! | Hello\nAwesome stuff  | World\n```python\nprint(\"Hello world\") ```\n- Hello\n- Bob", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "4424", 
