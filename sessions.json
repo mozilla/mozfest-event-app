@@ -1,57 +1,5 @@
 [
     {
-        "description": "Appmaker and Webmaker currently require an Internet connection to work. On this session I will present the \"Appmaker in a box\" that allows the facilitator to create a self contained Appmaker workshop without the need for an internet connection. This is needed to teach on more poor or remote locations where internet access is not ubiquitous.", 
-        "facilitator_array": [
-            "kapalawai kapalawai"
-        ], 
-        "facilitators": "kapalawai kapalawai", 
-        "id": "57", 
-        "location": "", 
-        "pathways": "Youth Learning", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Appmaker in a Box"
-    }, 
-    {
-        "description": "During our sessions we'll talk about the importance of work in our lives, how to discover what you're good at, where to find the people who are like you, and how to find your way in an increasingly fragmented and entrepreneurial culture of work where strict job titles and roles are becoming increasingly irrelevant.", 
-        "facilitator_array": [
-            "Duncan Gough"
-        ], 
-        "facilitators": "Duncan Gough", 
-        "id": "63", 
-        "location": "", 
-        "pathways": "Youth Learning", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "We're living in the future of work"
-    }, 
-    {
-        "description": "The Session is about to teaching and localizing stuff. The web is growing day by day with awesome learners and we need to make it possible to provide in all possible languages, The Webmaker is available in many languages possible but its also requiring to localize the web into different modes where participation or people can reach out to the web. This session is all about the teach and do the productivity content localization with purity of content localization. Its a session to make the things with locale languages and localizing the things. So the engagement of people or participation can reach more with their locale languages.", 
-        "facilitator_array": [
-            "Meghraj Suthar"
-        ], 
-        "facilitators": "Meghraj Suthar", 
-        "id": "67", 
-        "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Localize The Web"
-    }, 
-    {
-        "description": "Womoz is Mozilla program that encourages women to contribute to the open web under Mozilla's mission of openness, innovation & opportunity. Women can also feel encouraged to participate in a number of Mozilla projects such as Firefox OS, webmaker among others.\nTherefore this session will introduce women to a functional area called WOMOZ, that sensitises women on how to easily make good use of their skiils on the web depending on what they frequently use the it for.", 
-        "facilitator_array": [
-            "Joyce Nalwadda"
-        ], 
-        "facilitators": "Joyce Nalwadda", 
-        "id": "94", 
-        "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": " WOMOZ - Women in Mozilla. "
-    }, 
-    {
         "description": "", 
         "facilitator_array": [], 
         "facilitators": "", 
@@ -61,19 +9,6 @@
         "scheduleblock": "", 
         "space": "", 
         "title": "Design Thinking for Participation "
-    }, 
-    {
-        "description": "My session will be based on ‘Webmaker for Android’ and the main target would be women (especially young ones). However, guys can join as well. People will be able to know about the WoMoz program and Mozilla while creating contents about them. They will be given some specific topics to create content which will be related to Mozilla, open web and online privacy. My main goals are: people will learn about open web, online privacy, Mozilla and the WoMoz program while using the application. They will surf on the internet about the topics and know in more efficient way. From web users they will become web makers. Since young people learn fast it will be great opportunity to work with them.", 
-        "facilitator_array": [
-            "Tanha Islam"
-        ], 
-        "facilitators": "Tanha Islam", 
-        "id": "414", 
-        "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Webmaker and WoMoz"
     }, 
     {
         "description": "The goal of this session is to explore how the maker-centric learning environment itself can be used as a tool for creating more opportunities to teach others. By harnessing the potential of our community, we can increase access to opportunities for making and sharing.\nHow can we, as educators or parents, inspire kids (and other adults!) to make with us, and empower them to take their new knowledge and skills to share with their family, friends or classmates?\nWhat levels of engagement and understanding are required to make us feel as though we are able to take what we have learned and show it to someone else? How can we design workshops that empower participants to do that?\nWith these goals in mind, we will learn how to make a small project, and then share our new knowledge and skills by teaching another group how to make it too.", 
@@ -3751,7 +3686,6 @@
         "title": "Build your custom Sumobot (Open space, 2nd floor)"
     }, 
     {
-        "day": "Saturday", 
         "description": "In our sessions young people will learn an introduction to creative programming and basic electronics through workshops in making music with Sonic Pi, hacking Minecraft Pi with Python, playing with electronics with Python and ScratchGPIO and creating games with Scratch.", 
         "facilitator_array": [
             "Andrew Mulholland, @gbaman1, ", 
@@ -3760,11 +3694,10 @@
         ], 
         "facilitators": "Andrew Mulholland, Frank Thomas-Hockey, Covent Garden Raspberry Jam team", 
         "id": "442", 
-        "location": "", 
+        "location": "Floor 2 - 209", 
         "pathways": "Youth Learning, [youthZone] Pathway Tech - What else you can do with it, [youthZone] Teaching kit", 
-        "scheduleblock": "saturday-session-block-1", 
+        "scheduleblock": "all-weekend", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "10:45 AM", 
         "title": "Raspberry Pi youth section workshops ((Room 209, 2nd floor)"
     }, 
     {
