@@ -1,18 +1,5 @@
 [
     {
-        "description": "Reporting the news involves gathering, assessing, creating and presenting information... often in an unstructured manner, whether for print, digital or broadcast. The relationships between the people, events and themes in the coverage get lost in a sea of text or video, as does the opportunity to leverage this knowledge and data in future reporting.\nThis session will explore methods of retaining the structured data that lives in your notes (or thoughts) as you develop a story.", 
-        "facilitator_array": [
-            "Jacqui Maher"
-        ], 
-        "facilitators": "Jacqui Maher", 
-        "id": "159", 
-        "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Reporting with Structured Data"
-    }, 
-    {
         "description": "Understanding privacy is very important. Many adults think that they have lost control over their personal information , which is used by the online companies. This session will help them put their data in control. Mozilla has implemented a number of privacy features in their products and this session will promote those features.\nPrivacy Security booths can have series of booths:\n1) Password Booth (How to make your password strong)\n2) Tracking Booth (See how websites track you)\n3) Firefox Features Booth (How Firefox can help you)\nEg: Lightbeam,Private Browsing,Forget Button,etc\n4) Firefox + DuckDuckGo Booth\n(demonstrate why Firefox with DuckDuckGo is a better choice)\n5) Firefox for Phones Booth\n6) Firefox OS (The only Mobile OS to have DO NOT TRACK feature)\n7) Installation Booth (help attendees install privacy products on their personal laptops and phones )\n8) Net Neutrality Booth (Spread awareness about)\n*Differential pricing\n*Surveillance\n*Zero platforms", 
         "facilitator_array": [
             "Mayur  Patil"
@@ -1633,7 +1620,7 @@
         "title": "Creating safe spaces for healthy and humane events"
     }, 
     {
-        "day": "Sunday", 
+        "day": "Saturday", 
         "description": "Goals: Over 1,600,000 minutes of video are aired every hour on broadcast networks around the world. This session is about learning to hack with video. Come to get down and dirty with audio fingerprinting, transcription, closed captions, analysis techniques to bring this massive video corpus into the age of the app.\n\nAgenda: Over the course of two hours we will experiment with tools to ingest, analyze, and present video. Come armed with a laptop and a good way to take notes, we’ll provide the software and video samples from the 2016 US elections.\n\nWe will start by working with tools for accessing TV and closed captions. Then we will learn how to manipulate, clean, categorize, and extract information from the collected content. Finally we will explore how to use this information.\n\nThe format will be workshop-style (small groups of 3-5 people in each group), with the tools and recommended experiments provided by the facilitators for each of the three pipeline phases we will be targeting.\n\nTo show you a working larger system using most all the tools in this toolkit, we'll go over the TV News Political Ads project at Internet Archive.\n\nWe will break folks into 3-5 person groups (targeting groups of 5) which will make it easy to replicate across any number of participants.\n\nOutcomes:\n\n* Participants will walk away understanding how to use cutting edge tools and techniques for collecting, manipulating, presenting, and working with video.\n", 
         "facilitator_array": [
             "Mark Boas", 
@@ -1644,9 +1631,9 @@
         "id": "576", 
         "location": "Floor 7 - 700", 
         "pathways": "ArtsAward pathway", 
-        "scheduleblock": "sunday-session-block-8", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "Journalism", 
-        "start": "04:00 PM", 
+        "start": "02:15 PM", 
         "title": "Hacking Television"
     }, 
     {
@@ -1892,7 +1879,7 @@
         "title": "Massive Multiplayer ... In Person Games!"
     }, 
     {
-        "day": "Saturday", 
+        "day": "Sunday", 
         "description": "Journalists and civic hackers will walk out of this session with a story ready to go in your hands. Find, obtain and analyze data ready to pitch or share with your community, whether you’re completely unfamiliar with data or are just looking for new tools for your repertoire. We’ll learn not only the tenets of data reporting - publishing data that will benefit and inform an audience - but the techniques, like accessing the data behind a webpage or finding a story in a data dump. Absolute beginners are welcome, as are non-journalists. If you have a laptop with you, be sure to bring it.", 
         "facilitator_array": [
             "Samantha Sunne", 
@@ -1902,9 +1889,9 @@
         "id": "246", 
         "location": "Floor 7 - 700", 
         "pathways": "", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "sunday-session-block-8", 
         "space": "Journalism", 
-        "start": "02:15 PM", 
+        "start": "04:00 PM", 
         "title": "Hacking for Journalists/Journalism for Hackers 101"
     }, 
     {
