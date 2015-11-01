@@ -89,35 +89,6 @@
         "title": "Draw your own election adventure, beyond official boundaries"
     }, 
     {
-        "day": "Sunday", 
-        "description": "Chocolate is one of life’s sweet delights but there’s more to chocolate than you might expect. Beyond what we see on the supermarket shelves is a complexity that rivals that of wine. There is so much more to discover about chocolate and this session will take you through it.  \nFrom a milk chocolate made in Madagascar from beans growing there to a Guatemalan dark chocolate and beyond, we will learn where chocolate comes from, how to taste chocolate and a bit about the dark side of chocolate including where child slavery is still prevalent and how to avoid it.", 
-        "facilitator_array": [
-            "Judith Lewis, @MostlyAboutChoc"
-        ], 
-        "facilitators": "Judith Lewis", 
-        "id": "619", 
-        "location": "", 
-        "pathways": "", 
-        "scheduleblock": "sunday-session-block-6", 
-        "space": "", 
-        "start": "12:45 PM", 
-        "title": "Chocolate - Tasting & Talk"
-    }, 
-    {
-        "description": "In this session, we will be showcasing how 3D printing works through the use of Desktop 3D printers such as Makerbots and the ultimakers. and talking about the benefits of 3D printing and how as designers, we can take advantage of this technology", 
-        "facilitator_array": [
-            "Benjamin Moody", 
-            "Samuel Jones"
-        ], 
-        "facilitators": "Benjamin Moody, Samuel Jones", 
-        "id": "620", 
-        "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Ravensbourne 3D printing"
-    }, 
-    {
         "day": "Saturday", 
         "description": "The goal of the FlyWeb session is to promote, intrigue, and encourage feedback from attendees. We want to be able to engage users by showcasing our Fennec addon prototype and let their imagination do the rest because at the end of the day, FlyWeb has unlimited possibilities. We will also have tutorial materials and a full demo to showcase some popular use cases. We want to walk our attendees through the concept of advertising and consuming nearby services\non their phone. Lastly, we want our attendees to have the opportunity to see what we have been working on first hand and play with our prototype.", 
         "facilitator_array": [
@@ -1610,6 +1581,37 @@
         "space": "Building Participation", 
         "start": "12:45 PM", 
         "title": "Building badge-based pathways to employment"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "Chocolate is one of life’s sweet delights but there’s more to chocolate than you might expect. Beyond what we see on the supermarket shelves is a complexity that rivals that of wine. There is so much more to discover about chocolate and this session will take you through it.  \nFrom a milk chocolate made in Madagascar from beans growing there to a Guatemalan dark chocolate and beyond, we will learn where chocolate comes from, how to taste chocolate and a bit about the dark side of chocolate including where child slavery is still prevalent and how to avoid it.", 
+        "facilitator_array": [
+            "Judith Lewis, @MostlyAboutChoc"
+        ], 
+        "facilitators": "Judith Lewis", 
+        "id": "619", 
+        "location": "", 
+        "pathways": "", 
+        "scheduleblock": "sunday-session-block-6", 
+        "space": "", 
+        "start": "12:45 PM", 
+        "title": "Chocolate - Tasting & Talk"
+    }, 
+    {
+        "day": "Saturday", 
+        "description": "In this session, we will be showcasing how 3D printing works through the use of Desktop 3D printers such as Makerbots and the ultimakers. and talking about the benefits of 3D printing and how as designers, we can take advantage of this technology. This session will also take place on Sunday morning. ", 
+        "facilitator_array": [
+            "Benjamin Moody", 
+            "Samuel Jones"
+        ], 
+        "facilitators": "Benjamin Moody, Samuel Jones", 
+        "id": "620", 
+        "location": "", 
+        "pathways": "", 
+        "scheduleblock": "saturday-session-block-1", 
+        "space": "", 
+        "start": "10:45 AM", 
+        "title": "Ravensbourne 3D printing"
     }, 
     {
         "day": "Sunday", 
