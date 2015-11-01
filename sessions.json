@@ -11,32 +11,6 @@
         "title": "Design Thinking for Participation "
     }, 
     {
-        "description": "The goal of this session is to explore how the maker-centric learning environment itself can be used as a tool for creating more opportunities to teach others. By harnessing the potential of our community, we can increase access to opportunities for making and sharing.\nHow can we, as educators or parents, inspire kids (and other adults!) to make with us, and empower them to take their new knowledge and skills to share with their family, friends or classmates?\nWhat levels of engagement and understanding are required to make us feel as though we are able to take what we have learned and show it to someone else? How can we design workshops that empower participants to do that?\nWith these goals in mind, we will learn how to make a small project, and then share our new knowledge and skills by teaching another group how to make it too.", 
-        "facilitator_array": [
-            "Erica Tiberia"
-        ], 
-        "facilitators": "Erica Tiberia", 
-        "id": "408", 
-        "location": "", 
-        "pathways": "Youth Learning", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Making Together"
-    }, 
-    {
-        "description": "This session focuses on building Web Security Awareness for the attendees. Its helps  the attendees to build  their applications more securely using Web Security Tools[1].\nWith the help of security tools, People can attack their own designed Web applications and check for the vulnerabilities in their applications and code it more securely.\nFor an instance, Assume a coder created Login page, He can use ZAP (Web Security Tool) to attack his Login page in different ways and sort out the ways to trace out the flaws. In this way ZAP gives the coder chance to build their Web Application more securely. (Though its only one of the many features of ZAP).", 
-        "facilitator_array": [
-            "Sumanth  Damarla"
-        ], 
-        "facilitators": "Sumanth  Damarla", 
-        "id": "158", 
-        "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Securing the Web"
-    }, 
-    {
         "description": "Reporting the news involves gathering, assessing, creating and presenting information... often in an unstructured manner, whether for print, digital or broadcast. The relationships between the people, events and themes in the coverage get lost in a sea of text or video, as does the opportunity to leverage this knowledge and data in future reporting.\nThis session will explore methods of retaining the structured data that lives in your notes (or thoughts) as you develop a story.", 
         "facilitator_array": [
             "Jacqui Maher"
@@ -50,19 +24,6 @@
         "title": "Reporting with Structured Data"
     }, 
     {
-        "description": "Our session will allow the attendees come up with webmaker makes using the webmaker app, they will learn how to teach the Internet to others with both the availability and unavailability of Internet connectivity, and they will also leave with a proper understanding of the web, and learn how to use the web reliably and efficiently, which will enable them become citizens of the web\nGoal: Teach the open web offline and translate this knowledge to the web by illustrating the enhanced usage of the web.\nParticipants will learn how to train the open web without Internet connectivity and acquire skills of interacting with the web reliably and efficiently.\nParticipants will learn, create makes, play games and compete in challenges", 
-        "facilitator_array": [
-            "John Baptist Ochieng"
-        ], 
-        "facilitators": "John Baptist Ochieng", 
-        "id": "167", 
-        "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Enhancing Open Web Experience"
-    }, 
-    {
         "description": "Understanding privacy is very important. Many adults think that they have lost control over their personal information , which is used by the online companies. This session will help them put their data in control. Mozilla has implemented a number of privacy features in their products and this session will promote those features.\nPrivacy Security booths can have series of booths:\n1) Password Booth (How to make your password strong)\n2) Tracking Booth (See how websites track you)\n3) Firefox Features Booth (How Firefox can help you)\nEg: Lightbeam,Private Browsing,Forget Button,etc\n4) Firefox + DuckDuckGo Booth\n(demonstrate why Firefox with DuckDuckGo is a better choice)\n5) Firefox for Phones Booth\n6) Firefox OS (The only Mobile OS to have DO NOT TRACK feature)\n7) Installation Booth (help attendees install privacy products on their personal laptops and phones )\n8) Net Neutrality Booth (Spread awareness about)\n*Differential pricing\n*Surveillance\n*Zero platforms", 
         "facilitator_array": [
             "Mayur  Patil"
@@ -74,58 +35,6 @@
         "scheduleblock": "", 
         "space": "", 
         "title": " Privacy and Security booths at Makerparties"
-    }, 
-    {
-        "description": "People will learn how to use JavaScript for IoT projects with this incredibly small board. They will learn the basics of the components, how to make it run, modify and learn something new. It's all about imagination.", 
-        "facilitator_array": [
-            "Giovanny Andres Gongora Granada"
-        ], 
-        "facilitators": "Giovanny Andres Gongora Granada", 
-        "id": "393", 
-        "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Espruino Pico and IoT"
-    }, 
-    {
-        "description": "The Webmaker app for Android is great for people who do not want to write code to create a project. However this also results in a backlash from coding-minded users who want to utilize their coding capabilities to create projects.\nBy using the Thimble app for Android, those coding-minded users will be able to add HTML, CSS, JavaScript code to create their makes, projects, website, etc.", 
-        "facilitator_array": [
-            "Muhammed Hasan Ahmed"
-        ], 
-        "facilitators": "Muhammed Hasan Ahmed", 
-        "id": "388", 
-        "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Thimble for Android"
-    }, 
-    {
-        "description": "The session is precisely about connecting to the web, keeping self-privacy and get to know how people are using it in daily life. The understanding of inter-relation among HTTP, Browser and web documents will make the attendee to capture what the content in the INTERNET is and why it is for. From this attendee will be able to categorize the private and safety information that needs to hide from public access. The session will include a hands-on network topology build-up for mail-server(using network-simulator) and help them learn about the data packet passing more visually.  A little understanding with visual talk on data filtering will be added to let them understand about behavioral data. There will also be a little talk on net neutrality and user's right to get the web information on an equal platform. From Internet activity to Net Neutrality will be the flow of awareness talk.", 
-        "facilitator_array": [
-            "Asma  Islam"
-        ], 
-        "facilitators": "Asma  Islam", 
-        "id": "208", 
-        "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Internet and Web Privacy- Web Literacy 101 "
-    }, 
-    {
-        "description": "It will allow users to create custom Web content easily and quickly, no coding required. Its practical, fun, and a key building block for teaching and improving Web literacy. It’s also a tool for empowering individuals and strengthening the open Web.\nGoals:-\n> Make active users of web!\n> Allow users to create using their imagination.\n> Increase interest in users for making the web!", 
-        "facilitator_array": [
-            "Umesh Agarwal"
-        ], 
-        "facilitators": "Umesh Agarwal", 
-        "id": "229", 
-        "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Webmaker for Android Hans-on!"
     }, 
     {
         "description": "It can be a little overwhelming to receive an email asking you to give a talk, run a training session, or co-organize a hackathon if you’ve never done it before.  Fellows who collaborate with Mozilla across science, journalism, learning and advocacy need resources to assist them to effectively engage the public in a variety of situations.  This open hack sessions aims to create a space at MozFest to compile and co-create resources to assist Mozilla fellows, as well as other leaders, to engage the public.", 
@@ -165,19 +74,6 @@
         "scheduleblock": "", 
         "space": "", 
         "title": "Caught in the Web - How to understand how information you consume online fits together"
-    }, 
-    {
-        "description": "This session is to teach people how to mine the web, especially the social networks to extract information. I believe, if people actually get down to mining and getting their hands dirty with this experience, then only will they clearly understand the negative side of it i.e the risks associated in the cyber world regarding the privacy and also the mindsets of hackers and web miners who can get private information through this. Thus they understand the importance of keeping information secure and private even on social networking sites like facebook or twitter in which people generally trust too much.", 
-        "facilitator_array": [
-            "Shagufta Gurmukhdas"
-        ], 
-        "facilitators": "Shagufta Gurmukhdas", 
-        "id": "324", 
-        "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Mine your space"
     }, 
     {
         "description": "This session will be geared towards working with elections data. We will focus on creative ways to show election results.\nFor example, sometimes the official divisions of a city needed for administrative tasks are not necessarily meaningful to the city’s population. In many cases, the city has living parts that do not fit in the limits of official administrative level divisions\nWe will show how we have solved this issue for the Elections in Buenos Aires and I hope that after the session the attendees will have some creative ideas on how to work with election data and apply them in the next elections they are interested in.", 
@@ -3969,8 +3865,11 @@
     }, 
     {
         "description": "What if you could draw something with paint and then see it in 3D inside Minecraft? Andrew Mulholland our #youthZone Pi youth leader decided this would be fun, so he coded it up himself to work with a set of special DOTs boards just for you to get creative in 3D. DOTs Boards are very simple circuit boards you can add to the Raspberry Pi, containing a simple dot-to-dot function that when used with conductive paint, allows your creation to amazingly appear and come to life in Minecraft. ", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "facilitator_array": [
+            "Andrew Mulholland, @gbaman1, Farset Labs", 
+            "Frank Thomas-Hockey, @fth_nix, Covent Garden Raspberry Jam"
+        ], 
+        "facilitators": "Andrew Mulholland, Frank Thomas-Hockey", 
         "id": "442", 
         "location": "", 
         "pathways": "[youthZone] UK Mozilla community pathway [youthZone] Pathway Craft - Bridging your digital divide", 
@@ -3980,8 +3879,10 @@
     }, 
     {
         "description": "Lunch on Saturday is 12:30 - 13:300 and on Sunday 13:30 - 14:30. Come Join us in room 209 with your lunch fruit to make them do stuff, before you eat it!", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "facilitator_array": [
+            "Jim Darby, @HackerJimbo"
+        ], 
+        "facilitators": "Jim Darby", 
         "id": "442", 
         "location": "Floor 2 - 209", 
         "pathways": "[youthZone] Pathway Tech - What else you can do with it, [youthZone] Pathway Craft - Bridging your digital divide", 
@@ -3991,9 +3892,12 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "A fun scratch workshop where you'll be able to create your very own galaxy with code!  You'll be using the tools of a real astronuat, with the Raspberry pi and sense hat add on board, using the LED Matrix on top go visualise your own galaxy.  In this workshop you'll learn the following  - linking hats on the Raspberry pi - understanding the scratch interface - writing code to initiate the LED Matrix - creating your own.programs to create a galaxy.", 
+        "facilitator_array": [
+            "Milton De Paula, @miltonio94", 
+            "Connor Ballard, @connorbanona"
+        ], 
+        "facilitators": "Milton De Paula, Connor Ballard", 
         "id": "442", 
         "location": "Floor 2 - 209", 
         "pathways": "[youthZone] Pathway Tech - What else you can do with it", 
@@ -4005,8 +3909,12 @@
     {
         "day": "Saturday", 
         "description": "Learn how to hack the very popular game Minecraft using some simple lines of Python code and a Raspberry Pi. You will learn some basic python in order to build and customise your very own castle whenever you want at the push of a button! You will start with learning how to play the game on the Raspberry Pi, then progress to placing blocks, building a castle and finally completing challenges to customise your very own castle!", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "facilitator_array": [
+            "Yasmin Bey, @RPi_Yaz14", 
+            "Zach Igielman, @zacharyigielman", 
+            "Joseph Thomas, @jthomascoop"
+        ], 
+        "facilitators": "Yasmin Bey, Zach Igielman, Joseph Thomas", 
         "id": "442", 
         "location": "Floor 2 - 209", 
         "pathways": "[youthZone] Pathway Tech - What else you can do with it", 
@@ -4031,8 +3939,10 @@
     {
         "day": "Sunday", 
         "description": "Ever wondered what a Raspberry Pi is for? You’ve heard about projects people have made with one, but have no idea where to start? Well this workshop is for you! Aimed at young beginners, you will be shown how to get started with a Raspberry Pi using Scratch! First you will be introduced to the Pi itself and understand all the things you need to get any computer working. Next, you’ll find out about the mysterious GPIO pins and how they can be used with LEDs, buttons, buzzers, speakers and various electronic add-ons. Finally, using block-based coding language Scratch, we will show you how to use a Raspberry Pi to code a set of traffic lights with a motion sensor and from there, your only limit is your imagination.", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "facilitator_array": [
+            "Cat Lamin, @catlamin"
+        ], 
+        "facilitators": "Cat Lamin", 
         "id": "442", 
         "location": "Floor 2 - 209", 
         "pathways": "[youthZone] Pathway Tech - What else you can do with it", 
@@ -4044,8 +3954,12 @@
     {
         "day": "Sunday", 
         "description": "Learn how to hack the very popular game Minecraft using some simple lines of Python code and a Raspberry Pi. You will learn some basic python in order to build and customise your very own castle whenever you want at the push of a button! You will start with learning how to play the game on the Raspberry Pi, then progress to placing blocks, building a castle and finally completing challenges to customise your very own castle!", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "facilitator_array": [
+            "Yasmin Bey, @RPi_Yaz14", 
+            "Zach Igielman, @zacharyigielman", 
+            "Joseph Thomas, @jthomascoop"
+        ], 
+        "facilitators": "Yasmin Bey, Zach Igielman, Joseph Thomas", 
         "id": "442", 
         "location": "Floor 2 - 209", 
         "pathways": "[youthZone] Pathway Tech - What else you can do with it", 
@@ -4066,5 +3980,22 @@
         "space": "youthZone - Through the lens of youths", 
         "start": "04:00 PM", 
         "title": "Getting started with Pi for adults (Room 209, 2nd floor)"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "Learn how to hack the very popular game Minecraft using some simple lines of Python code and a Raspberry Pi. You will learn some basic python in order to build and customise your very own castle whenever you want at the push of a button! You will start with learning how to play the game on the Raspberry Pi, then progress to placing blocks, building a castle and finally completing challenges to customise your very own castle!", 
+        "facilitator_array": [
+            "Yasmin Bey, @RPi_Yaz14", 
+            "Zach Igielman, @zacharyigielman", 
+            "Joseph Thomas, @jthomascoop"
+        ], 
+        "facilitators": "Yasmin Bey, Zach Igielman, Joseph Thomas", 
+        "id": "442", 
+        "location": "Floor 2 - 209", 
+        "pathways": "[youthZone] Pathway Tech - What else you can do with it", 
+        "scheduleblock": "sunday-session-block-7", 
+        "space": "youthZone - Through the lens of youths", 
+        "start": "02:45 PM", 
+        "title": "Hacking Minecraft Pi with Python (Room 209, 2nd floor)"
     }
 ]
