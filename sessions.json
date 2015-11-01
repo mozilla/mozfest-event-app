@@ -3351,7 +3351,7 @@
             "Dietrich Ayala"
         ], 
         "facilitators": "Rabimba Karanjai, Dietrich Ayala", 
-        "id": "378", 
+        "id": "3781", 
         "location": "", 
         "pathways": "[youthZone] Pathway Tech - What else you can do with it, ArtsAward pathway", 
         "scheduleblock": "saturday-session-block-3", 
@@ -3367,7 +3367,7 @@
             "Dietrich Ayala"
         ], 
         "facilitators": "Rabimba Karanjai, Dietrich Ayala", 
-        "id": "378", 
+        "id": "3782", 
         "location": "", 
         "pathways": "[youthZone] Pathway Tech - What else you can do with it, ArtsAward pathway", 
         "scheduleblock": "saturday-session-block-2", 
@@ -3458,7 +3458,7 @@
             " , @Lachallota"
         ], 
         "facilitators": "Carlos Izsak,  ", 
-        "id": "182", 
+        "id": "1821", 
         "location": "", 
         "pathways": "[youthZone] Pathway Craft - Bridging your digital divide", 
         "scheduleblock": "saturday-session-block-4", 
@@ -3518,7 +3518,7 @@
             "Daisuke Akatsuka"
         ], 
         "facilitators": "Noriatsu Kudo, Daisuke Akatsuka", 
-        "id": "252", 
+        "id": "2521", 
         "location": "", 
         "pathways": "[youthZone] Pathway Craft - Bridging your digital divide, ArtsAward pathway", 
         "scheduleblock": "saturday-session-block-3", 
@@ -3654,29 +3654,13 @@
             "Ellie Doney"
         ], 
         "facilitators": "Joe Bailey, Tom Catling, Ellie Doney", 
-        "id": "292", 
+        "id": "2921", 
         "location": "", 
         "pathways": "[youthZone] Pathway Craft - Bridging your digital divide", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
         "start": "02:15 PM", 
         "title": "LEGO2NANO: an Open Atomic Force Microscope Project (Open space, 2nd floor)"
-    }, 
-    {
-        "day": "Sunday", 
-        "description": "Imagine an open source microscope that is powerful and cheap enough for school children to study the nano world, the world of atoms and molecules that is 1000 times smaller than what traditional optical microscopes can see. That is the objective of the LEGO2NANO project. This workshop will introduce to you the hardware and software developed so far for the world's first open source atomic force microscope. We'll also introduce how we are documenting this project on the Web, how we are involving Chinese school children in building and using the microscope, and sharing data from the microscope for crowdsourced analysis in Web-based citizen science projects. LEGO2NANO is in an international summer school in China, involving students and mentors from University College London, Tsinghua University, Peking University, Academia Sinica, MIT, Tufts University and University of Geneva. http://www.openafm.com", 
-        "facilitator_array": [
-            "Joe Bailey, @LEGO2NANO, University College London", 
-            "Tom Catling", 
-            "Ellie Doney"
-        ], 
-        "facilitators": "Joe Bailey, Tom Catling, Ellie Doney", 
-        "id": "292", 
-        "location": "", 
-        "pathways": "[youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "all-sunday", 
-        "space": "youthZone - Through the lens of youths", 
-        "title": "LEGO2NANO: an Open Atomic Force Microscope Project (Room 205, 2nd floor)"
     }, 
     {
         "day": "Saturday", 
