@@ -4095,7 +4095,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "", 
+        "description": "Learn how to hack the very popular game Minecraft using some simple lines of Python code and a Raspberry Pi. You will learn some basic python in order to build and customise your very own castle whenever you want at the push of a button! You will start with learning how to play the game on the Raspberry Pi, then progress to placing blocks, building a castle and finally completing challenges to customise your very own castle!", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "442", 
@@ -4108,7 +4108,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "", 
+        "description": "#Hello world    This is a test. I am testing to see if markdown **is supported** as it being supported would *be nice*      [Hello](http://www.google.com)    ![Hi](https://www.raspberrypi.org/learning/resources/balloon-pi-tay-popper/cover.png)", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "442", 
@@ -4121,7 +4121,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "An introduction to coding and electronics on the Raspberry Pi using a special version of Scratch and a variety of outputs and sensors. Especially suited for younger children or complete beginners to coding.", 
+        "description": "Ever wondered what a Raspberry Pi is for? You’ve heard about projects people have made with one, but have no idea where to start? Well this workshop is for you! Aimed at young beginners, you will be shown how to get started with a Raspberry Pi using Scratch! First you will be introduced to the Pi itself and understand all the things you need to get any computer working. Next, you’ll find out about the mysterious GPIO pins and how they can be used with LEDs, buttons, buzzers, speakers and various electronic add-ons. Finally, using block-based coding language Scratch, we will show you how to use a Raspberry Pi to code a set of traffic lights with a motion sensor and from there, your only limit is your imagination.", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "442", 
@@ -4134,7 +4134,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "", 
+        "description": "Learn how to hack the very popular game Minecraft using some simple lines of Python code and a Raspberry Pi. You will learn some basic python in order to build and customise your very own castle whenever you want at the push of a button! You will start with learning how to play the game on the Raspberry Pi, then progress to placing blocks, building a castle and finally completing challenges to customise your very own castle!", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "442", 
