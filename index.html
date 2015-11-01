@@ -109,20 +109,12 @@
                 <% } %>
                 <% if (session.start) { %>
                 <div class="session-time">
-                    <% if (session.day) { %>
-                    <%= session.day %>, 
-                    <% } %>
-                    <%= session.start %>
+                    <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %>
                 </div>
                 <% } %>
                 <% if (session.space || session.location) { %>
                 <div class="session-space-and-location">
-                    <% if (session.space) { %>
-                        <%= session.space %>
-                    <% } %>
-                    <% if (session.location) { %>
-                        , <%= smartypants(session.location) %>
-                    <% } %>
+                    <% if (session.space) { %><%= session.space %><% } %><% if (session.location) { %>, <%= smartypants(session.location) %><% } %>
                 </div>
                 <% } %>
                 <% if (session.pathways) { %>
@@ -139,20 +131,12 @@
             <h4><%= smartypants(session.title) %></h4>
             <% if (session.start) { %>
             <div class="session-time">
-                <% if (session.day) { %>
-                <%= session.day %>, 
-                <% } %>
-                <%= session.start %>
+                <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %>
             </div>
             <% } %>
             <% if (session.space || session.location) { %>
             <div class="session-space-and-location">
-                <% if (session.space) { %>
-                    <%= session.space %>
-                <% } %>
-                <% if (session.location) { %>
-                    , <%= smartypants(session.location) %>
-                <% } %>
+                <% if (session.space) { %><%= session.space %><% } %><% if (session.location) { %>, <%= smartypants(session.location) %><% } %>
             </div>
             <% } %>
             <% if (showFacilitators && session.facilitators.length > 0) { %>
@@ -178,20 +162,13 @@
                 <div class="meta">
                     <% if (session.start) { %>
                     <div class="session-time">
-                        <% if (session.day) { %>
-                        <%= session.day %>, 
-                        <% } %>
-                        <%= session.start %>
+                        <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %>
                     </div>
                     <% } %>
                     <% if (session.space || session.location) { %>
                     <div class="session-space-and-location">
                         <% if (session.space) { %>
-                            <a href="#_space-<%= slugify(session.space) %>"><%= session.space %></a>
-                        <% } %>
-                        <% if (session.location) { %>
-                            , <%= smartypants(session.location) %>
-                        <% } %>
+                            <a href="#_space-<%= slugify(session.space) %>"><%= session.space %></a><% } %><% if (session.location) { %>, <%= smartypants(session.location) %><% } %>
                     </div>
                     <% } %>
                     <% if (session.pathwayArray) { %>
