@@ -1,6 +1,6 @@
 function Schedule(options) {
     var schedule = {};
-    
+
     schedule.init = function(options) {
         // TODO: make these configurable, passed in as options
         // when you create a Schedule() instance on the page
@@ -22,7 +22,7 @@ function Schedule(options) {
         ];
         schedule.sessionList = [];
         schedule.spaceList = [];
-        
+
         // check for saved sessions in localStorage. Because localStorage only
         // takes strings, split on commas so we get an array of session IDs
         if (Modernizr.localstorage) {
@@ -53,7 +53,7 @@ function Schedule(options) {
             schedule.route(hashArray[0], hashArray[1]);
         }
     }
-    
+
     // this is a single page app, and route() functions like a URL router
     schedule.route = function(pageType, pageID) {
         // currently this app supports two types of detail pages:
@@ -157,7 +157,7 @@ function Schedule(options) {
         // add session information to the page
         targetBlock.append(template(templateData));
     }
-    
+
     // prepares session data to be rendered into a template fragment
     schedule.makeSessionItemTemplateData = function(sessionItem, expanded) {
         var templatedata = {
@@ -173,10 +173,10 @@ function Schedule(options) {
             templatedata.showDay = true;
             templatedata.showFacilitators = true;
         }
-        
+
         return templatedata;
     }
-    
+
     // addSessionsToSchedule() will take a list of session objects
     // and write them all onto the page
     schedule.addSessionsToSchedule = function(sessionList) {
@@ -202,11 +202,11 @@ function Schedule(options) {
                 schedule.writeSession(targetBlock, templateData);
             }
         });
-        
+
         // add "fav" star controls to all session items on the page
         schedule.addStars('.session-list-item');
     }
-    
+
     // showSessionDetail() renders session data into the detail template,
     // including full session description, etc.
     schedule.showSessionDetail = function() {
@@ -227,7 +227,7 @@ function Schedule(options) {
             templateData.session.pathwayArray = _.each(session.pathways.split(','), function(i) {
                 schedule.trim(i);
             })
-            
+
             // clear currently highlighted tab/page link
             schedule.clearHighlightedPage();
 
@@ -239,19 +239,19 @@ function Schedule(options) {
             schedule.makeSchedule();
         }
     }
-    
+
     // utility function to clean up element that held session detail
     schedule.clearSessionDetail = function() {
         $('#session-detail-wrapper').remove();
     }
-    
+
     // call getSessionDetail() when you have a sessionID value, but you
     // can't be sure that the app has loaded session data. E.g. initial
     // pageload goes directly to a session detail view
     schedule.getSessionDetail = function(sessionID) {
         // store sessionID in case we need it later
         schedule.sessionID = sessionID;
-        
+
         if (schedule.sessionList.length) {
             // if the data's loaded, render the detail page
             schedule.showSessionDetail();
@@ -265,17 +265,17 @@ function Schedule(options) {
     schedule.updateHash = function(value) {
         var baseURL = window.location.href.replace(window.location.hash, '');
         var newURL = (!!value) ? baseURL + "#_" + value : baseURL;
-        
+
         window.history.pushState(value, "", newURL);
         // make sure we *have* a window.history before we try to manipulate it
         window.history.ready = true;
     }
-    
+
     // utility function to make sure transitions are the same across functions
     schedule.transitionElementIn = function(element) {
         element.fadeIn(50);
     }
-    
+
     // add fav stars that tap to store session ID values in localStorage
     schedule.addStars = function(containerClass) {
         if (Modernizr.localstorage) {
@@ -286,14 +286,14 @@ function Schedule(options) {
             })
         }
     }
-    
+
     // add a set of tabs across the top of page as toggles that change display
     schedule.addToggles = function() {
         if (Modernizr.localstorage) {
             // only add "Favorites" tab if browser supports localStorage
             schedule.tabList.splice(schedule.tabList.length-1, 0, { name: 'Favorites', displayName: '<i class="fa fa-heart"></i>' });
         }
-        
+
         // set toggle width as percentage based on total number of tabs
         var toggleWidth = (1 / schedule.tabList.length) * 100;
 
@@ -306,7 +306,7 @@ function Schedule(options) {
             );
         });
     }
-    
+
     // getChosenTab() sets value of chosenTab if none exists, likely because
     // the app is just being loaded. Show "today's" tab if possible
     schedule.getChosenTab = function() {
@@ -315,7 +315,7 @@ function Schedule(options) {
             var favoredTab = _.find(schedule.tabList, function(i) {
                 return (!i.tabDate) ? false : i.tabDate.toDateString() == today
             })
-        
+
             if (favoredTab) {
                 // if we can match today's date, show it by default
                 schedule.chosenTab = favoredTab.name.toLowerCase();
@@ -325,7 +325,7 @@ function Schedule(options) {
             }
         }
     }
-    
+
     // given a JSON key name `filterKey`, find session objects with values
     // that contain the string `filterValue`. This is a substring comparison
     // based on slugified versions of key and value, e.g. "my-great-pathway"
@@ -361,7 +361,7 @@ function Schedule(options) {
         // and make sure the selected tab is lit
         schedule.clearHighlightedPage();
         $('#show-'+schedule.chosenTab).addClass('active');
-        
+
         if (schedule.chosenTab == 'favorites') {
             // "favorites" class changes display of session items
             schedule.$container.removeClass().addClass('favorites');
@@ -384,12 +384,12 @@ function Schedule(options) {
             schedule.$container.html(schedule.sessionListTemplate);
             schedule.loadSessions(schedule.addSessionsToSchedule);
             schedule.transitionElementIn(schedule.$container);
-            
+
             schedule.$container.find('.schedule-tab').hide();
             schedule.transitionElementIn($('#'+schedule.chosenTab));
         }
     }
-    
+
     // the list view is treated differently than normal tabs that have "cards"
     // to tap on. This shows expanded data, and includes search/filtering
     schedule.showFullSessionList = function() {
@@ -404,24 +404,24 @@ function Schedule(options) {
         fullList = _.sortBy(fullList, function(i) {
             return i.title;
         });
-        
+
         // render the list
         _.each(fullList, function(v, k) {
             var templateData = schedule.makeSessionItemTemplateData(v, true);
             schedule.writeSession(schedule.$container, templateData, schedule.sessionListItemTemplate);
         });
-        
+
         // add fav stars
         schedule.addStars('.session-list-item');
         schedule.transitionElementIn(schedule.$container);
     }
-    
+
     // provide some user instructions at top of page
     schedule.addCaptionOverline = function(captionHTML) {
         schedule.$container.prepend("<div class='page-caption'></div>");
         schedule.$container.find('.page-caption').html(captionHTML);
     }
-    
+
     schedule.clearHighlightedPage = function() {
         // clear currently highlighted tab (if any) from "schedule-controls"
         schedule.$toggles.find('a').removeClass('active');
@@ -432,15 +432,15 @@ function Schedule(options) {
     // adds search filter and expanded data toggle to top of "All" sessions list
     schedule.addListControls = function() {
         schedule.addCaptionOverline();
-        
+
         var filterForm = '<div id="filter-form">\
-                <label for="list-filter">Search names, facilitators, spaces, pathways, and descriptions</label>\
+                <label for="list-filter">Search names, facilitators, spaces, pathways, and descriptions:</label>\
                 <input class="filter" type="text" id="list-filter" />\
             </div>';
         $(filterForm).appendTo(schedule.$container);
 
         var expand = $('<a id="show-descriptions" data-action="show" href="#"><i class="fa fa-plus-circle"></i> Show descriptions</a>').appendTo(schedule.$container);
-        
+
         var filteredList = $('#schedule');
         // watch search input for changes, and filter the session list accordingly
         $('#list-filter').change(function() {
@@ -458,7 +458,7 @@ function Schedule(options) {
                 });
                 // get the IDs of the matching sessions ...
                 var filteredIDs = _.pluck(filteredSessions, 'id');
-                
+
                 // ... temporarily hide all the sessions on the page ...
                 $('.session-list-item').hide()
                 $('.session-description').hide();
@@ -475,11 +475,11 @@ function Schedule(options) {
                 // show the "expand" toggle
                 expand.show();
             }
-        
+
             // show "no results" if search input value matches zero items
             if ($('.session-list-item:visible').length == 0) {
                 $('#no-results').remove();
-                $('#filter-form').after('<p id="no-results">No matching results found.</p>');
+                $('#filter-form label').after('<p id="no-results">No matching results found.</p>');
             } else {
                 $('#no-results').remove();
             }
@@ -488,7 +488,7 @@ function Schedule(options) {
             $(this).change();
         });
     }
-    
+
     // showFavorites() handles display when someone chooses the "Favorites" tab
     schedule.showFavorites = function() {
         // provide some user instructions at top of page
@@ -497,7 +497,7 @@ function Schedule(options) {
         schedule.addSessionsToSchedule(schedule.savedSessionList);
         schedule.transitionElementIn(schedule.$container);
     }
-    
+
     // uses savedSessionIDs list to compile data for favorited sessions
     schedule.updateSavedSessionList = function() {
         schedule.savedSessionList = _.filter(schedule.sessionList, function(v, k) {
@@ -506,7 +506,7 @@ function Schedule(options) {
             return (!!v.everyone) || _.contains(schedule.savedSessionIDs, v.id);
         });
     }
-    
+
     // display the list of Spaces and their descriptions
     schedule.displaySpacesList = function() {
         schedule.clearHighlightedPage();
@@ -567,7 +567,7 @@ function Schedule(options) {
         // return to full schedule from session detail view
         schedule.$container.on('click', '#show-full-schedule', function(e) {
             e.preventDefault();
-            
+
             if (window.history.ready && !schedule.offlineMode) {
                 // use history.back() if possible to keep state in sync
                 window.history.back();
@@ -582,17 +582,17 @@ function Schedule(options) {
         // scroll down to transcription inside session detail view
         schedule.$container.on('click', '#show-transcription', function(e) {
             e.preventDefault();
-            
+
             var targetPos = schedule.$container.offset().top + $("#transcription").offset().top;
             $("#session-detail-wrapper").scrollTop(targetPos);
         });
-        
+
         // toggle session descriptions on "All" sessions tab
         schedule.$container.on('click', '#show-descriptions', function(e) {
             e.preventDefault();
             var clicked = $(this);
             var action = clicked.data('action');
-            
+
             if (action == 'show') {
                 $('.session-list-item').find('.session-description').show();
                 clicked.html('<i class="fa fa-minus-circle"></i> Hide descriptions').data('action', 'hide');
@@ -606,11 +606,11 @@ function Schedule(options) {
         schedule.$container.on('click', '.favorite', function(e) {
             e.preventDefault();
             e.stopPropagation();
-            
+
             var clicked = $(this);
             var sessionID = clicked.parent().data('session').toString();
             var targets = $('[data-session="' + sessionID + '"]').find('.favorite');
-            
+
             // first toggle the star class so favorited sessions are lit
             targets.toggleClass('favorite-active');
             if (clicked.hasClass('favorite-active')) {
@@ -643,15 +643,15 @@ function Schedule(options) {
         // tap a schedule tab to toggle to a different view
         schedule.$toggles.on('click', 'a', function(e) {
             e.preventDefault();
-            
+
             var clicked = $(this).attr('id');
             schedule.updateHash(clicked);
-            
+
             schedule.chosenTab = clicked.replace('show-','');
             schedule.trackEvent('Tab change', schedule.chosenTab);
             schedule.loadChosenTab();
         });
-        
+
         // this is a single-page app, but we need to support the back button
         window.onpopstate = function(event) {
             // if window.history isn't available, bail out
@@ -659,7 +659,7 @@ function Schedule(options) {
             schedule.clearSessionDetail();
             schedule.load();
         };
-        
+
         // check for new appcache on page load
         window.addEventListener('load', function(e) {
             window.applicationCache.addEventListener('updateready', function(e) {
@@ -672,7 +672,7 @@ function Schedule(options) {
             }, false);
         }, false);
     }
-    
+
     // utility function to track events in Google Analytics
     schedule.trackEvent = function(action, label) {
         ga('send', 'event', 'Schedule App', action, label);
@@ -695,7 +695,7 @@ function Schedule(options) {
             // ellipses
             .replace(/\.{3}/g, '\u2026');
     }
-    
+
     // underscore.string formatters
     schedule.escapeRegExp = function(str) {
         if (str == null) return '';
@@ -727,7 +727,7 @@ function Schedule(options) {
     schedule.dasherize = function(str) {
       return schedule.trim(str).replace(/([A-Z])/g, '-$1').replace(/[-_\s]+/g, '-').toLowerCase();
     }
-    
+
     // utility function to turn strings into "slugs" for easier matching
     // e.g. "My Great Pathway" -> "my-great-pathway"
     schedule.slugify = function(str) {
