@@ -4001,7 +4001,7 @@
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
         "start": "02:15 PM", 
-        "title": "E.A.K. Walk-In - Save Kittens, Learn HTML!"
+        "title": "E.A.K. Walk-In - Save Kittens, Learn HTML! (Room 213, 2nd floor)"
     }, 
     {
         "day": "Sunday", 
@@ -4016,7 +4016,7 @@
         "scheduleblock": "sunday-session-block-5", 
         "space": "youthZone - Through the lens of youths", 
         "start": "11:30 AM", 
-        "title": "Parenting and Web Censorship"
+        "title": "Parenting and Web Censorship (Room 213, 2nd floor)"
     }, 
     {
         "description": "Lunch on Saturday is 12:30 - 13:300 and on Sunday 13:30 - 14:30. Come Join us in room 213 to learn coding Java with the new Java course by CodeAcademy", 
@@ -4059,7 +4059,7 @@
         "title": "Youth Physical computing \"Play date\" come play with us! (Open space, 2nd floor)"
     }, 
     {
-        "description": "", 
+        "description": "What if you could draw something with paint, then see it in 3D inside Minecraft? We will have a set of special DOTs Boards for you to get artistic with! DOTs Boards are very simple addon circuit boards for the Raspberry Pi that contain a simple dot-to-dot that you can use conductive paint on to draw on. Once you have filled in your Dots board, attach it to a Raspberry Pi and be prepared to be amazed as your drawing comes to life in Minecraft. This activity is aimed at everyone, young and old!", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "442", 
@@ -4121,7 +4121,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "", 
+        "description": "An introduction to coding and electronics on the Raspberry Pi using a special version of Scratch and a variety of outputs and sensors. Aimed specifically at younger children or complete beginners to coding.", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "442", 
