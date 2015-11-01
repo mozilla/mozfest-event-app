@@ -1,31 +1,5 @@
 [
     {
-        "description": "\"Music is a moral law. It gives soul to the universe, wings to the mind, flight to the imagination, and charm and gaiety to life and to everything.Where words fail, music speaks. \" this quote impacts me to propose a session .Most of us like Music . Keeping the point of view and to attract participants for Mozfest i prepared a plan to MozJukebox- its a place where participants can dedicate their special songs to their beloved ones and this session makes different from others and as well as participant's will learn how open web and music related to each other and by the way the can perform their own activity . we are here to make them aware of this.", 
-        "facilitator_array": [
-            "Sandeep kapalawai"
-        ], 
-        "facilitators": "Sandeep kapalawai", 
-        "id": "55", 
-        "location": "", 
-        "pathways": "Youth Learning", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Juke Mozilla"
-    }, 
-    {
-        "description": "The session is built upon the idea of turning ordinary objects into connected web aware devices. The participants of this workshop will learn how the Web of Things might be used to provide a standardised approach for connecting objects to the web.\nThe participants will choose an object and then apply 'Web of Things' thinking to make the object become a Web Thing (WT).\nA Web Thing (WT) is an intelligent sensor (or sensor array) that can recognise an event, understand its own state and take action depending on the input.\nThrough active participation the people can learn about the Web of Things in new and fun ways.", 
-        "facilitator_array": [
-            "Patrick  McGee"
-        ], 
-        "facilitators": "Patrick  McGee", 
-        "id": "56", 
-        "location": "", 
-        "pathways": "Youth Learning", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Intelligent Web Things"
-    }, 
-    {
         "description": "Appmaker and Webmaker currently require an Internet connection to work. On this session I will present the \"Appmaker in a box\" that allows the facilitator to create a self contained Appmaker workshop without the need for an internet connection. This is needed to teach on more poor or remote locations where internet access is not ubiquitous.", 
         "facilitator_array": [
             "kapalawai kapalawai"
