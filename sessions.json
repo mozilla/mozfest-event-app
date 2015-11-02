@@ -496,7 +496,7 @@
         "location": "", 
         "pathways": "Global Village Kitchen", 
         "scheduleblock": "sunday-session-block-5", 
-        "space": "The Global Kitchen", 
+        "space": "The Global Village", 
         "start": "11:30 AM", 
         "title": "Experiences of the Future Home"
     }, 
@@ -533,6 +533,7 @@
         "title": "The reality of diversity: The working dead"
     }, 
     {
+        "day": "Saturday", 
         "description": "We are currently developing new technologies that will support novel methods of interaction with Internet of Things sensors in the home. The traditional model for IOT sensors and services sees a myriad of sensed personal data pushed out of the home and into the cloud. This is often done without the people to whom the data pertains really understanding what this data can say about them.", 
         "facilitator_array": [
             "James Colley", 
@@ -542,14 +543,17 @@
         "id": "550", 
         "location": "", 
         "pathways": "Global Village Garage, Space Hacking", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "The Global Village", 
+        "start": "10:45 AM", 
         "title": "The IoT Home Hub"
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "Series of three sessions about e-waste under the Global Innovation Network", 
+        "facilitator_array": [
+            "Geraldine Debastion, @Geralbine"
+        ], 
+        "facilitators": "Geraldine Debastion", 
         "id": "582", 
         "location": "", 
         "pathways": "Global Innovation Network, Garbage Disposal Room", 
@@ -1285,7 +1289,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "Discuss and learn the definitions of net neutrality, the most popular public outcries and perspectives, understand the experiences of different countries and especially draw parallels and/or distinctions between the developing country experience and the developed country experience.\nDiscover its’ impact on start-ups and web innovation.\nShare methodology for identifying and engaging critical stakeholders for a nation with a view to finding balance and mapping a way forward that does not infringe on internet governance guidelines and rights.\nRaise awareness on available resources and support groups in the internet access space.", 
+        "description": "Net neutrality issues are emerging in the Global South, leaders like India are shaping the narrative of infringement on web access; while some countries like Zimbabwe are still at early warning stage with startups raising furore. The session defines net neutrality in these contexts and crowdsources best practice to engage stakeholders/for advocacy.", 
         "facilitator_array": [
             "Kudzai M Mubaiwa", 
             "Anivar Aravind"
@@ -1297,7 +1301,7 @@
         "scheduleblock": "saturday-session-block-1", 
         "space": "Digital Citizenship", 
         "start": "10:45 AM", 
-        "title": "Engaging Stakeholders on Net Neutrality & Impact on Youth Start-Ups /Innovation in Developing Countries "
+        "title": "Net Neutrality in the Global South -- Perspectives and Rules of Engagement from India & Zimbabwe"
     }, 
     {
         "day": "Sunday", 
