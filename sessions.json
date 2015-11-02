@@ -2529,6 +2529,7 @@
         "title": "Teaching Web Literacy in the Open"
     }, 
     {
+        "day": "Saturday", 
         "description": "It will give them an overview on how it is possible to integrate technology and innovation with Social Values and Ethics. Some guidelines how what does being a social innovator means and why they should consider this as the best time and opportunity to make a difference and embrace a social activities into their company culture.", 
         "facilitator_array": [
             "Maurizio Gioli"
@@ -2537,8 +2538,9 @@
         "id": "395", 
         "location": "", 
         "pathways": "[MLN] Voices of Diverse Leaders", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "Mozilla Learning Networks", 
+        "start": "10:45 AM", 
         "title": "Link Technology to Social Innovation"
     }, 
     {
