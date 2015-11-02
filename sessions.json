@@ -3887,7 +3887,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "Hello world     \nThis is a test. I am testing to see if markdown **is supported** as it being supported would *be nice*    \n- Hello\n    - Bob\n- World\n![Hi](https://www.raspberrypi.org/learning/resources/balloon-pi-tay-popper/cover.png)", 
+        "description": "Hello world     \nThis is a test. I am testing to see if markdown **is supported** as it being supported would *be nice*    \n- Hello\n    - Bob\n- World\n![Hi](https://www.raspberrypi.org/learning/resources/balloon-pi-tay-popper/cover.png)\nhttps://www.google.com", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "4424", 
