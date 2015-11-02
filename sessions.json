@@ -376,9 +376,10 @@
         "day": "Saturday", 
         "description": "Code like you give a damn! Why not using your skills to co-design interactive stories that can change the world? Today, coders and storytellers rarely work together from day one. Join this session to be part of the solution and meet storytellers and coders you'll want to work with!", 
         "facilitator_array": [
-            "Sandra Gaudenzi, @sgaudenzi"
+            "Sandra Gaudenzi, @sgaudenzi", 
+            "Filip Fastenaekels"
         ], 
-        "facilitators": "Sandra Gaudenzi", 
+        "facilitators": "Sandra Gaudenzi, Filip Fastenaekels", 
         "id": "468", 
         "location": "", 
         "pathways": "New Technologies for Participation -- Challenge, [Pathway] Storytellers & coders united: together we can change the world!", 
@@ -3006,19 +3007,6 @@
         "space": "Open Science", 
         "start": "11:30 AM", 
         "title": "Research Reproducibility: Hands-on Experience with Replication"
-    }, 
-    {
-        "description": "There's been a lot of new innovation in open source mapping tools lately. We'll show you how to roll your own crowdmap with free software and strategize your tech stack. We'll also share knowledge to organize, engage, and sustain web literacy for communities most impacted by toxic pollution.\n---\nQuestions we'll be addressing:\n1) What are the advantages and disadvantages to various technologies for mapping environmental issues?\n2) How does one collect, organize, and manage various data types (geospatial, government, community driven)\n3) How do we grow the coalition of community groups and open technologists working for sustainability and environmental health on a global scale.\nThrough these questions and experiences we will walk away with a working knowledge of collective storytelling for bioregions under ecological crisis bridged with the ecosystem of the open web.", 
-        "facilitator_array": [
-            "Jacob Caggiano"
-        ], 
-        "facilitators": "Jacob Caggiano", 
-        "id": "244", 
-        "location": "", 
-        "pathways": "Global Village Garden", 
-        "scheduleblock": "", 
-        "space": "Open Science", 
-        "title": "Connecting the BioWeb: Mapping Earth's biggest challenges with an open online ecosystem."
     }, 
     {
         "day": "Saturday", 
