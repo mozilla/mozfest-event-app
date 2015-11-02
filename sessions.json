@@ -664,6 +664,7 @@
         "title": "Collaborative Community Spaces"
     }, 
     {
+        "day": "Sunday", 
         "description": "In the ‘Modular frequencies’ workshop we’ll create a spacial audio installation! The HearUsHere app (location based audio) combined with iBeacons allows us to create a new sonic experience. Every iBeacon is a frequency that carriers a sound, when you get closer to one of these frequencies the audio will automatically fade in and cross fade with others. Using the speakers of our phones, we’ll create a collective audio experience. This results in unique and constantly changing soundscape created by the visitors and their navigation in the space.\nWithin the workshop you won’t only experience these modular frequencies. You’ll learn about frequencies, location based audio and you’ll hack the beacons to create your own ‘pirate radio’! (No coding skills required).", 
         "facilitator_array": [
             "Klasien van de Zandschulp"
@@ -672,8 +673,9 @@
         "id": "230", 
         "location": "", 
         "pathways": "Global Village Recycling", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-8", 
         "space": "The Global Village", 
+        "start": "04:00 PM", 
         "title": "Modular frequencies - HearUsHere soundlab (Note this is also in the youthZone on an AM sunday B1&2 slot) "
     }, 
     {
@@ -694,6 +696,7 @@
         "title": "Eye contact experiments"
     }, 
     {
+        "day": "Sunday", 
         "description": "This is a durational workshop hacking session free for people to drop in and out of. There will be an hour where we will explore the BBC Microbit, and its place in the digital DIY ecosystem. We will look at and hack with examples of a traditional game such as ping pong and table football. Then enhanced/connect them with the Micro:Bit, along with other sensors and outputs.", 
         "facilitator_array": [
             "Spencer Marsden"
@@ -702,11 +705,13 @@
         "id": "592", 
         "location": "", 
         "pathways": "Global Village Garage", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "The Global Village", 
+        "start": "11:30 AM", 
         "title": "Connecting old games with the BBC Micro:Bit"
     }, 
     {
+        "day": "Saturday", 
         "description": "The vast technology penetration in emerging countries (such as Indonesia) led to a lot of people become online. The problem arises when they don't care or aware about online privacy which can lead to criminal activities such as fraud, scam, kidnapping, etc. There are a lot of tools that can enhance privacy in online world. But the main problem is online behavior. This session will discuss how to make people change their online behavior.", 
         "facilitator_array": [
             "Andi Darmawan"
@@ -715,8 +720,9 @@
         "id": "286", 
         "location": "", 
         "pathways": "Global Village Recycling", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "The Global Village", 
+        "start": "02:15 PM", 
         "title": "Online (Behavior) Privacy Awareness"
     }, 
     {
@@ -780,6 +786,7 @@
         "title": "Happiness in the Digital Era"
     }, 
     {
+        "day": "Saturday", 
         "description": "Our session will introduce participants to the process of AI design in a human-centric and empathetic way. Participants will have the opportunity to design the system rules for their own AI and will the co-create some potential societal impact scenarios that these designed AIs will have on relationships we have with each other, technology and the world at large.", 
         "facilitator_array": [
             "Nathan Miller"
@@ -788,8 +795,9 @@
         "id": "400", 
         "location": "", 
         "pathways": "Global Village Garage", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "The Global Village", 
+        "start": "03:30 PM", 
         "title": "How will artificial intelligence change our interactions with each other?"
     }, 
     {
@@ -823,6 +831,7 @@
         "title": "Capturing a visual thought"
     }, 
     {
+        "day": "Saturday", 
         "description": "Co-creation is collaboration between diverse stakeholders to identify, define, clarify, make sense, create and realize visions that provide value in a deeper sense and for a greater good.\n\nIndia has huge socio-economic-cultural diversity. People from all the different strata are coexisting within the same framework. Frugality and co-creation is what people in India have been practicing since ages. And because of this co-creation and knowledge sharing a lot of systems have emerged which are in sync with surroundings and nature. A lot can be learnt from these systems at the same time they can improve a lot with intervention brought out by outside perspective.", 
         "facilitator_array": [
             "Mayank Loonkar"
@@ -831,11 +840,13 @@
         "id": "594", 
         "location": "", 
         "pathways": "Global Village Garage", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "The Global Village", 
+        "start": "12:00 PM", 
         "title": "20 new ways of sharing: learning co-creation through community engagements"
     }, 
     {
+        "day": "Sunday", 
         "description": "n an industrial society the designer, maker, distributor and user got separated, each looking at his own aspect in isolation. Hence, most industrial societies live in construct of these isolated fragments. And the Designer / Maker shared a Top-down relationship with user.\n\nHowever, in rural India members of community live together by cooperative interactions of getting and giving. They balance the getting and giving with natural and physical surrounding. The reciprocal relationship of give and take also becomes the opportunity to interact, collaborate and co-create.\n\nAs against fast paced ethnographic probes, Slow, long lasting cooperative living would lead to multi sensory, reflective and collaborative learning and insights. By learning from each other we can re-establish our human potential, dignity, compassion and self –rule.", 
         "facilitator_array": [
             "Praveen Nahar"
@@ -844,11 +855,13 @@
         "id": "593", 
         "location": "", 
         "pathways": "Global Village Garage", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-7", 
         "space": "The Global Village", 
+        "start": "02:45 PM", 
         "title": "Slow ethnography as a tool for co-creation"
     }, 
     {
+        "day": "Saturday", 
         "description": "Join the Seven Seconds Ago team as we delve into a world of 360 virtual reality experiences, connected to the wild! We'll explore the concept of near-realtime virtual presence, the technologies needed, our progress so far and a demo of our Google Cardboard meerkat experiment.", 
         "facilitator_array": [
             "Adrian Cockle, @ade ", 
@@ -859,19 +872,22 @@
         "id": "614", 
         "location": "", 
         "pathways": "Global Village Garage", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "The Global Village", 
+        "start": "03:30 PM", 
         "title": "sevensecondsago "
     }, 
     {
+        "day": "Sunday", 
         "description": "Disaster aid takes time to reach the people who need it. Stockpiled and flown in, even getting it through customs, the aid can be hugely expensive. The aim of Communitere is to create shared space for relief organizations and locals, with the aim of sharing resources and fostering communication and collaboration. Lessons learned from the spaces in Haiti and the Philippines, as well as the new Resource Center in Nepal will be presented and ways to innovate disaster relief through small scale manufacturing, space sharing and other simple means to disrupt traditional aid supply chains will be discussed.", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "588", 
         "location": "", 
         "pathways": "Global Innovation Network, Garbage Disposal Room", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-6", 
         "space": "The Global Village", 
+        "start": "12:45 PM", 
         "title": "Innovative Disaster Relief – Examples from Haiti and Nepal "
     }, 
     {
@@ -1081,7 +1097,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "Cyberbullying is a silent pandemic affecting millions of adolescents \naround the world. Join 15 year old Trisha Prabhu on her \"ReThink\" \njourney, an award winning and internationally acclaimed approach to stop\n cyberbullying, before the damage is done. Find out how ReThink is \nmaking the internet a better place for kids world-wide! My goals for this session would be the following:\n1)        Raise awareness about the deadly consequences and harmful effects caused by the silent pandemic of cyberbullying and internet negativity.\n2)        Educate participants on the alarming statistics on teen-age suicides, depression, anxiety and low self-esteem, all caused by cyberbullying.\n3)        Discuss why most of the parental control or cyberbullying reporting solutions are not effective?\n4)        Why does cyberbullying occur more in adolescents than adults?\n5)        How does the ReThink software and movement tackle’s cyberbullying proactively?\n6)        Why “ReThinking” before posting is the best strategy and how can it be integrated as part of our education systems and technology world.\n7)        I strongly believe that, no one has to pay to be safe on the internet. I hope to have the participants carry this message", 
+        "description": "Cyberbullying is a silent pandemic affecting millions of adolescents around the world. Join 15 year old Trisha Prabhu on her \"ReThink\" journey, an award winning and internationally acclaimed approach to stop cyberbullying, before the damage is done. Find out how ReThink is making the internet a better place for kids world-wide!", 
         "facilitator_array": [
             "Trisha  Prabhu, @TrishPrabhu, ReThink"
         ], 
@@ -1092,7 +1108,7 @@
         "scheduleblock": "sunday-session-block-7", 
         "space": "Digital Citizenship", 
         "start": "02:45 PM", 
-        "title": "ReThink – An effective way to stop Cyber bullying"
+        "title": "ReThink – Before the Damage is Done"
     }, 
     {
         "day": "Sunday", 
@@ -1289,7 +1305,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "Net neutrality issues are emerging in the Global South, leaders like India are shaping the narrative of infringement on web access; while some countries like Zimbabwe are still at early warning stage with startups raising furore. The session defines net neutrality in these contexts and crowdsources best practice to engage stakeholders/for advocacy.", 
+        "description": "Net neutrality discussions in countries with a digital divide often raise discussions on zero rating, which offer crumbs from the Internet's table in the form of free access to walled-garden services as a solution. In 2015 more than one million Indians wrote to their government demanding strong commitment to Net neutrality, and campaigned against zero-rating projects like freebasics by Facebook. Countries like Zimbabwe are still at early warning stage with startups raising furore. This session explores various perspectives and concerns from global south countries and discuss impact on start-ups and web innovation. This session provides a space to discuss various open questions on net neutralit , digital inclusion and zero rating.", 
         "facilitator_array": [
             "Kudzai M Mubaiwa", 
             "Anivar Aravind"
@@ -1301,7 +1317,7 @@
         "scheduleblock": "saturday-session-block-1", 
         "space": "Digital Citizenship", 
         "start": "10:45 AM", 
-        "title": "Net Neutrality in the Global South -- Perspectives and Rules of Engagement from India & Zimbabwe"
+        "title": "Net Neutrality and Zero Rating in the Global South"
     }, 
     {
         "day": "Sunday", 
@@ -1383,7 +1399,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "This session is a mini investigation of human rights abuses, drawing upon real life scenarios, that will enable participants to experience first hand what it takes to be a human rights CSI. It involves searching for content, thinking of chains of custody, documenting and verifying open source intelligence like satellite imagery, videos, images, text based reports, etc. and building an evidence wall.", 
+        "description": "Join Amnesty International for a mini human rights investigation – you will experience first-hand what it takes to be a human rights CSI: you will search for evidence, think of chains of custody, document and verify open source intelligence like satellite imagery, videos, images, text based reports, etc. and build an evidence wall", 
         "facilitator_array": [
             "Milena Marin"
         ], 
@@ -2858,9 +2874,9 @@
         "facilitator_array": [
             "Jacob Tomlinson, @_jacobtominson, Met Office", 
             "Rachel Prudden, @RachelPrudden, Met Office", 
-            "Ian Gentry Niall Robinson and Tom Powell and Ross Middleham"
+            "Ian Gentry and Niall Robinson and Tom Powell and Ross Middleham"
         ], 
-        "facilitators": "Jacob Tomlinson, Rachel Prudden, Ian Gentry Niall Robinson and Tom Powell and Ross Middleham", 
+        "facilitators": "Jacob Tomlinson, Rachel Prudden, Ian Gentry and Niall Robinson and Tom Powell and Ross Middleham", 
         "id": "279", 
         "location": "", 
         "pathways": "Citizen Science, Science communication", 
