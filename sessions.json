@@ -950,7 +950,7 @@
         "day": "Saturday", 
         "description": "Innovation is too often seen as a business imperative rather than a means to improve lives.\n\nThe growing use of Open Innovation, co-creation and user centred design by businesses, and the public sector will enable more citizens than ever before to participate in shaping the future, not only of the web but all the products and services they experience.\n\nIn the session we shall take a few existing ideas and innovations and try to make them better using these approaches. We’re not looking for expertise, but passion to see and make a better future.", 
         "facilitator_array": [
-            "Michael Saunby, @msaunby", 
+            "Michael Saunby, The MET office, @msaunby", 
             "Shirley Chin, @shirleychin"
         ], 
         "facilitators": "Michael Saunby, Shirley Chin", 
@@ -3345,11 +3345,11 @@
         "day": "Saturday", 
         "description": "Two specially adapted Raspberry Pis will be travelling to the International Space Station with astronaut Tim Peake in December. This session introduces you to the Astro Pi project, how to set it up and how to use the many features of this genuine piece of space certified hardware and how you can link to this amazing project in your home and schools.", 
         "facilitator_array": [
-            "Carrie Anne Philbin, , Raspberry Pi Foundation", 
             "Dave Honess, , Raspberry Pi Foundation", 
+            "Carrie Anne Philbin, , Raspberry Pi Foundation", 
             "Yasmin Bey and Joseph Thomas, @RPi_Yaz14, \n"
         ], 
-        "facilitators": "Carrie Anne Philbin, Dave Honess, Yasmin Bey and Joseph Thomas", 
+        "facilitators": "Dave Honess, Carrie Anne Philbin, Yasmin Bey and Joseph Thomas", 
         "id": "556", 
         "location": "", 
         "pathways": "[youthZone] Pathway Tech - What else you can do with it, [youthZone] Teaching kit", 
