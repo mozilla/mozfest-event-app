@@ -787,19 +787,6 @@
         "title": "Capturing a visual thought"
     }, 
     {
-        "description": "Participants will design 'services' to improve crowdsourced and collaborative coverage of festivals.\nThis could be anything from a 'Mozilla Webmaker' for live content aggregation to Internet of Things-based services or even something entirely paper-based that doesn't use any electronic/computer tech.\nWe are especially interested in creating services that connect people together, both on-site and off-site.", 
-        "facilitator_array": [
-            "Raphael Velt"
-        ], 
-        "facilitators": "Raphael Velt", 
-        "id": "438", 
-        "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Supporting collaborative festival coverage"
-    }, 
-    {
         "description": "Co-creation is collaboration between diverse stakeholders to identify, define, clarify, make sense, create and realize visions that provide value in a deeper sense and for a greater good.\n\nIndia has huge socio-economic-cultural diversity. People from all the different strata are coexisting within the same framework. Frugality and co-creation is what people in India have been practicing since ages. And because of this co-creation and knowledge sharing a lot of systems have emerged which are in sync with surroundings and nature. A lot can be learnt from these systems at the same time they can improve a lot with intervention brought out by outside perspective.", 
         "facilitator_array": [
             "Mayank Loonkar"
@@ -835,7 +822,7 @@
         "facilitators": "Adrian Cockle, Alasdair Davies, Tim Brooke", 
         "id": "614", 
         "location": "", 
-        "pathways": "", 
+        "pathways": "Global Village Garage", 
         "scheduleblock": "", 
         "space": "The Global Village", 
         "title": "sevensecondsago "
@@ -852,32 +839,6 @@
         "title": "Innovative Disaster Relief – Examples from Haiti and Nepal "
     }, 
     {
-        "description": "Understanding how memes convey opinions and how their spread relates to the spread of rhetorics behind those opinions but also to the spread of fake information, and intox in general is the overall goal of the session. We follow the way politically-charged information spreads online and can go viral. To this end, we track the spread of memes online using image search platforms, network reconstruction and mapping the changes in their rhetoric across their lifetime.", 
-        "facilitator_array": [
-            "Rayna Stamboliyska"
-        ], 
-        "facilitators": "Rayna Stamboliyska", 
-        "id": "419", 
-        "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "\"How does information spreads online? Memes explain\""
-    }, 
-    {
-        "description": "This session will be centered around video content on the web. It will focus generally around mozilla/popcorn-editor which is a modular javascript library which allows users to implement the editor from popcorn.webmaker.org. While this session is primarily discussion based I will also go over a simple tutorial of implementing the editor on a website and then dive into creating additional plugins into the editor. For instance, for the demo we will go over implementing an index plugin which allows users to associate specific keywords with events in the video and then store this data in the project metadata.", 
-        "facilitator_array": [
-            "Mike Nolan"
-        ], 
-        "facilitators": "Mike Nolan", 
-        "id": "411", 
-        "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Collaboritive Video Editing on The Web"
-    }, 
-    {
         "description": "1. To provide a comprehensive view of the iHub ecosystem and how balance is maintained\n2. To showcase how iHub has evolved towards sustainability\n3. To highlight ever-present sustainability challenges iHub faces\n4. To openly brainstorm with the audience on how to overcome challenges", 
         "facilitator_array": [
             "Evans Campbell"
@@ -889,19 +850,6 @@
         "scheduleblock": "", 
         "space": "The Global Village", 
         "title": "Sustaining an Innovation Hub: Lessons from the iHub"
-    }, 
-    {
-        "description": "Inspired by the Things Network in Amsterdam, this session looks at crowd sourcing a free, open and distributed Internet of Things infrastructure for the benefit of everyone. The session looks at how using off the shelf Long Range Wide Area Network (LoRaWAN) components we can build city-wide IoT infrastructure that is community owned.", 
-        "facilitator_array": [
-            "Julian Tait"
-        ], 
-        "facilitators": "Julian Tait", 
-        "id": "540", 
-        "location": "", 
-        "pathways": "Global Village Garage", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "IoT is too important for big IT"
     }, 
     {
         "description": "In the session I aim to get participants using Scratch (a fun interactive block based programming language) with Scratch extensions both created by myself and others. These extensions allow you to do many different things with Scratch but in the session we will focus on connecting Scratch to the outside world using hardware such as as Arduinos or mobile phones and the open source extensions I have developed. If there is time we will also look at several other different Scratch extensions that others have produced that I've found interesting and also briefly detail how participants can make their own extensions.", 
@@ -941,32 +889,6 @@
         "scheduleblock": "", 
         "space": "The Global Village", 
         "title": "Tech Hubs 2.0: What is a Tech Hub's Role in Society?"
-    }, 
-    {
-        "description": "Idea of workshop is to present concrete examples (from technology, medicine...) where harm is done to the end user in the name of Intellectual property. Also, libertarian view on that matter will be presented and similarities with open source and free software movement.\nAll of the participants will have opportunity to present their examples or discuss similar related matters that bothers them throughout workshop.\nGoal of the workshop is to build blog where all the reports can be presented and where people can ask for advice on matter of IP or dubious regulations in their countries. All of that is affecting free and open Internet and individual liberties.", 
-        "facilitator_array": [
-            "Dejan Strbad"
-        ], 
-        "facilitators": "Dejan Strbad", 
-        "id": "306", 
-        "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Corporatism and Intellectual property: where private ends and rent begins"
-    }, 
-    {
-        "description": "We’ll facilitate a fun, playful, interactive workshop, guiding participants through a paper-based storytelling game. Participants will collaboratively remix a new creative work from bits + pieces of media we provide, related to a fictional narrative, found scattered across many digital services + platforms.\nOur goal is to explore how a holistic, digital system based on these interactions + principles might work, and to uncover its potential social + data privacy implications.\nWe’re also hoping these ideas inspire our participants to join our community of contributors, early adopters and testers, interested in the potential of our vision: a tool helping storytellers unlock their creativity. Please see:\nhttps://vimeo.com/136997295 (video)\nhttps://makeparallels.herokuapp.com (live demo)", 
-        "facilitator_array": [
-            "Steven Dale"
-        ], 
-        "facilitators": "Steven Dale", 
-        "id": "362", 
-        "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Make Parallels"
     }, 
     {
         "description": "With a Raspberry Pi, a bit of wire, and a phone, learn how to convert your Pi into an FM transmitter for your house-share of community cafe, and load it with audio content that everybody in range can edit and playlist.", 
