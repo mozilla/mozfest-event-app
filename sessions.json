@@ -1088,7 +1088,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "My goals for this session would be the following:\n1)        Raise awareness about the deadly consequences and harmful effects caused by the silent pandemic of cyberbullying and internet negativity.\n2)        Educate participants on the alarming statistics on teen-age suicides, depression, anxiety and low self-esteem, all caused by cyberbullying.\n3)        Discuss why most of the parental control or cyberbullying reporting solutions are not effective?\n4)        Why does cyberbullying occur more in adolescents than adults?\n5)        How does the ReThink software and movement tackle’s cyberbullying proactively?\n6)        Why “ReThinking” before posting is the best strategy and how can it be integrated as part of our education systems and technology world.\n7)        I strongly believe that, no one has to pay to be safe on the internet. I hope to have the participants carry this message", 
+        "description": "Cyberbullying is a silent pandemic affecting millions of adolescents \naround the world. Join 15 year old Trisha Prabhu on her \"ReThink\" \njourney, an award winning and internationally acclaimed approach to stop\n cyberbullying, before the damage is done. Find out how ReThink is \nmaking the internet a better place for kids world-wide! My goals for this session would be the following:\n1)        Raise awareness about the deadly consequences and harmful effects caused by the silent pandemic of cyberbullying and internet negativity.\n2)        Educate participants on the alarming statistics on teen-age suicides, depression, anxiety and low self-esteem, all caused by cyberbullying.\n3)        Discuss why most of the parental control or cyberbullying reporting solutions are not effective?\n4)        Why does cyberbullying occur more in adolescents than adults?\n5)        How does the ReThink software and movement tackle’s cyberbullying proactively?\n6)        Why “ReThinking” before posting is the best strategy and how can it be integrated as part of our education systems and technology world.\n7)        I strongly believe that, no one has to pay to be safe on the internet. I hope to have the participants carry this message", 
         "facilitator_array": [
             "Trisha  Prabhu, @TrishPrabhu, ReThink"
         ], 
@@ -1102,7 +1102,8 @@
         "title": "ReThink – An effective way to stop Cyber bullying"
     }, 
     {
-        "description": "Join our Dark Side of the Internet experts to hear about their work in issues of social exclusion, reputation crisis training, combatting cyberstalking, online harassment, and digital purdah.  In the first hour, you'll rotate through conversations with each expert where they'll describe their work and the workshop they have planned for the second hour.  In the second hour, you'll select a workshop on one of the topics raised and work with one of the experts to create educational materials (teaching kit style). \n\n", 
+        "day": "Sunday", 
+        "description": "At Tools for Travelers on the Dark Side of the Internet you'll hear from: Violet Blue, Sarah Jeong, Kelley Misata, and Emrys Schoemaker about their work with reputation crisis training, online harassment, combatting cyberstalking, and digital purdah. In the first hour, you'll rotate through conversations with each expert where they'll describe their work and the workshop they have planned for the second hour.  In the second hour, you'll select a workshop on one of the topics raised and work with one of the experts. \n\n", 
         "facilitator_array": [
             "Violet Blue, @violetblue", 
             "Sarah Jeong, @sarahjeong", 
@@ -1113,9 +1114,10 @@
         "id": "7", 
         "location": "", 
         "pathways": "Don't Feed the Trolls, R-E-S-P-E-C-T", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "Digital Citizenship", 
-        "title": "Tools for Travelers on the Dark Side of the Internet"
+        "start": "11:30 AM", 
+        "title": "Tools for Travelers on the Dark Side of the Internet, Part 1"
     }, 
     {
         "day": "Sunday", 
@@ -1333,7 +1335,7 @@
         "facilitators": "Sarah Jeong", 
         "id": "343", 
         "location": "", 
-        "pathways": "Building Online Communities, Don't Feed the Trolls, New Technologies for Participation -- Challenge", 
+        "pathways": "Building Online Communities, Don't Feed the Trolls", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Digital Citizenship", 
         "start": "12:00 PM", 
