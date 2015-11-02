@@ -2222,16 +2222,14 @@
         "title": "How to localize web application (advanced)"
     }, 
     {
-        "day": "Saturday", 
         "description": "", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "605", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "saturday-session-block-1", 
+        "scheduleblock": "all-weekend", 
         "space": "Mozilla Learning Networks", 
-        "start": "10:45 AM", 
         "title": "MLN Web Literacy Feedback Station"
     }, 
     {
@@ -2571,9 +2569,12 @@
         "title": "Building open resources for women at risk"
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "The session will guide participants in collaboratively building a teaching kit to serve as a workshop guide for employers, associations or other groups who want to use Webmaker to help staff or community members understand and recognize implicit biases (e.g. gender bias, racial bias, homophobic bias)", 
+        "facilitator_array": [
+            "Steph Guthrie, @amirightfolks, Tech Girls Canada", 
+            "Saadia Muzaffar, @ThisTechGirl, Tech Girls Canada"
+        ], 
+        "facilitators": "Steph Guthrie, Saadia Muzaffar", 
         "id": "308", 
         "location": "", 
         "pathways": "[MLN] Voices of Diverse Leaders", 
