@@ -66,11 +66,13 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "The goal of the FlyWeb session is to promote, intrigue, and encourage feedback from attendees. We want to be able to engage users by showcasing our Fennec addon prototype and let their imagination do the rest because at the end of the day, FlyWeb has unlimited possibilities. We will also have tutorial materials and a full demo to showcase some popular use cases. We want to walk our attendees through the concept of advertising and consuming nearby services\non their phone. Lastly, we want our attendees to have the opportunity to see what we have been working on first hand and play with our prototype.", 
+        "description": "Introducing Flyweb, a discovery API that will help connect you to the world around you. See how FlyWeb uses the web to connect you with TV's, projectors, game consoles or simply your peers. Join us at our session to see all that FlyWeb can do and help us decide where we can take FlyWeb next!", 
         "facilitator_array": [
-            "Nicole Yee"
+            "Nicole Yee", 
+            "Douglas Sherk, @drs, Mozilla", 
+            "Kannan Vijayan, @djvj"
         ], 
-        "facilitators": "Nicole Yee", 
+        "facilitators": "Nicole Yee, Douglas Sherk, Kannan Vijayan", 
         "id": "539", 
         "location": "", 
         "pathways": "New Technologies for Participation -- Challenge", 
@@ -325,7 +327,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "My session will allow people to learn how to get started with open source contributions. Sometimes getting started can be daunting and this workshop hopes to lessen the learning curve. In a nutshell people would be walked through the steps on how to get started contributing to open source from the ground up. Raging from things as opportunities to translate, coding, close captioning, documentation and much more. Having a list of beginner friendly projects of Mozilla that are in need of contributors will be a great addition to the program, as then we can promote opportunities within Mozilla in addition to other open source projects.", 
+        "description": "This session will allow people to learn the basics of open source contributions. Getting started can be daunting and this session hopes to lessen the learning curve. In a nutshell, this session focuses on open source contributions from the ground up, ranging from things such as opportunities, translating, coding, closed captioning, and much more.\n", 
         "facilitator_array": [
             "Gloria Dwomoh"
         ], 
