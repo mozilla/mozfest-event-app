@@ -3300,6 +3300,115 @@
         "title": "Analysing and visualising network data"
     }, 
     {
+        "day": "Sunday", 
+        "description": "Photos taken in disaster situations and other humanitarian crises by different people on the ground can potentially be a powerful resource for the response teams. Unfortunately, the manpower needed to process the incredible number of photos coming out of these situations makes this duty impossible for a single organization. Therefore we are turning to the crowd to help us rapidly extract meaningful, relevant and structured data from these photos.\n\nThis is why we launched the GeoTag-X platform, which gathers a series of pilot projects covering different disaster related events, asking volunteers to answer some short and strictly structured questions about photos related to each event.\n\nOur final aim is to have an open source platform, with a set of tools, projects, and methodology that can be taken by anyone working in a humanitarian crisis and quickly and easily adapted to their needs and redeployed.", 
+        "facilitator_array": [
+            "S. P. Mohanty"
+        ], 
+        "facilitators": "S. P. Mohanty", 
+        "id": "637", 
+        "location": "", 
+        "pathways": "Open Research Accelerator", 
+        "scheduleblock": "sunday-session-block-7", 
+        "space": "Open Science", 
+        "start": "02:45 PM", 
+        "title": "GeoTag-X"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "During CERN Webfest we built a basic framework for a distributed network of these devices and we plan to eventually develop a complete grid. This may be used to analyse data, examine results and disseminate it to the public, making it accessible for non-physicists, students, and hobbyists to learn about the cosmos around them. Integrating this project with crowdcrafting allows the public to be involved in identifying the different particle tracks, whilst teaching them about cosmic rays in the process.", 
+        "facilitator_array": [
+            "Gabriella Azzopardi"
+        ], 
+        "facilitators": "Gabriella Azzopardi", 
+        "id": "638", 
+        "location": "", 
+        "pathways": "Open Research Accelerator", 
+        "scheduleblock": "sunday-session-block-7", 
+        "space": "Open Science", 
+        "start": "02:45 PM", 
+        "title": "Open Cosmics: Cosmic-ray physics is for everyone"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "This project’s objective is to create an open source web dashboard capable of searching multiple code hosting services, such as Zenodo, Figshare, and GitHub, for the benefit of the research community. The goal of this dashboard is to demonstrate the usefulness of a new metadata standard by utilizing it for easy and effective software discovery and analysis.", 
+        "facilitator_array": [
+            "Adam Blaine", 
+            "Matthew Mokary", 
+            "Stefan Neamtu, Luke Coy"
+        ], 
+        "facilitators": "Adam Blaine, Matthew Mokary, Stefan Neamtu", 
+        "id": "639", 
+        "location": "", 
+        "pathways": "Open Research Accelerator", 
+        "scheduleblock": "sunday-session-block-7", 
+        "space": "Open Science", 
+        "start": "02:45 PM", 
+        "title": "Software Discovery Dashboard"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "Science makes progress by reusing results and building on them. For research software this is pretty hard (the people writing it often do not have the time to make slick installers like big libraries do). As a result there is not as much reuse as there could be. With everware we are changing this. - See more at: http://beta.briefideas.org/ideas/9806c0ed3b27a42cf4be89374fbc6ae5#sthash.E8kox3x5.dpuf", 
+        "facilitator_array": [
+            "Tim Head", 
+            "Igor Babuschkin"
+        ], 
+        "facilitators": "Tim Head, Igor Babuschkin", 
+        "id": "640", 
+        "location": "", 
+        "pathways": "Open Research Accelerator", 
+        "scheduleblock": "sunday-session-block-8", 
+        "space": "Open Science", 
+        "start": "04:00 PM", 
+        "title": "Modify and run other people's research code in your browser"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "A valuable but hidden set of data: research trainees spend months to years confirming previously published data. These experiments are not considered publishable. Other trainees in the same field “reinvent the wheel” due to lack of publicly available information. - See more at: http://beta.briefideas.org/ideas/af37b26a8f59d0cc6779845f841dd397#sthash.vsfx5eql.dpuf", 
+        "facilitator_array": [
+            "Girija Goyal"
+        ], 
+        "facilitators": "Girija Goyal", 
+        "id": "641", 
+        "location": "", 
+        "pathways": "Open Research Accelerator", 
+        "scheduleblock": "sunday-session-block-8", 
+        "space": "Open Science", 
+        "start": "04:00 PM", 
+        "title": "miniReproducibility Project"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "Through this project, teens (and everyone else) will have access to flexible digital technologies and a networked system to develop, share, and contribute to inquiry projects across programs. With open access to teen-designed research protocols and data, there is the potential for youth to inspire and be inspired by their peers following divergent paths of inquiry, and enlist peers in collecting/interpreting data and developing narratives around locally-relevant issues and topics. - See more at: http://beta.briefideas.org/ideas/9a526d25205b5470bc405cd531f53dc8#sthash.HNJred2F.dpuf", 
+        "facilitator_array": [
+            "David Bild"
+        ], 
+        "facilitators": "David Bild", 
+        "id": "642", 
+        "location": "", 
+        "pathways": "Open Research Accelerator", 
+        "scheduleblock": "sunday-session-block-8", 
+        "space": "Open Science", 
+        "start": "04:00 PM", 
+        "title": "Teen-Driven Open Science"
+    }, 
+    {
+        "day": "Saturday", 
+        "description": "", 
+        "facilitator_array": [
+            "Billy Meinke", 
+            "Rob Davey"
+        ], 
+        "facilitators": "Billy Meinke, Rob Davey", 
+        "id": "643", 
+        "location": "", 
+        "pathways": "Open Research Accelerator", 
+        "scheduleblock": "saturday-session-block-3", 
+        "space": "Open Science", 
+        "start": "02:15 PM", 
+        "title": "How to run an Open Source Scientific Project"
+    }, 
+    {
         "day": "Saturday", 
         "description": "Innovation is too often seen as a business imperative rather than a means to improve lives.\nThe growing use of Open Innovation, co-creation and user centred design by businesses, and the public sector will enable more citizens than ever before to participate in shaping the future, not only of the web but all the products and services they experience.\nIn the session we shall take a few existing ideas and innovations and try to make them better using these approaches. We’re not looking for expertise, but passion to see and make a better future.\nBetter how? Well it could be a new audience, or solve an existing problem in a novel way. Our primary tool will be the ‘hacker ethic’ - access, freedom of information, and improvement to quality of life.\nYou’ll get to help design better weather warnings, or bring a problem of your own and share it.", 
         "facilitator_array": [
