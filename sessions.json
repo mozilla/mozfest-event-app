@@ -52,19 +52,6 @@
         "title": "Caught in the Web - How to understand how information you consume online fits together"
     }, 
     {
-        "description": "This session will be geared towards working with elections data. We will focus on creative ways to show election results.\nFor example, sometimes the official divisions of a city needed for administrative tasks are not necessarily meaningful to the city’s population. In many cases, the city has living parts that do not fit in the limits of official administrative level divisions\nWe will show how we have solved this issue for the Elections in Buenos Aires and I hope that after the session the attendees will have some creative ideas on how to work with election data and apply them in the next elections they are interested in.", 
-        "facilitator_array": [
-            "Juan Elosua"
-        ], 
-        "facilitators": "Juan Elosua", 
-        "id": "501", 
-        "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Draw your own election adventure, beyond official boundaries"
-    }, 
-    {
         "day": "Saturday", 
         "description": "Introducing Flyweb, a discovery API that will help connect you to the world around you. See how FlyWeb uses the web to connect you with TV's, projectors, game consoles or simply your peers. Join us at our session to see all that FlyWeb can do and help us decide where we can take FlyWeb next!", 
         "facilitator_array": [
