@@ -428,6 +428,7 @@
         "title": "Diversity in the new economy"
     }, 
     {
+        "day": "Saturday", 
         "description": "To allow for the varying skills of the participants we will have two strands of activity to the workshop. The first will explore the capabilities of the Perceptive Media API and how adaptive stories can be created using the new Perceptive Radio as a platform. The second strand will use paper based story creation tools to allow participants to develop adaptive storytelling ideas that could be developed for the Perceptive Radio - http://www.bbc.co.uk/news/technology-22637945", 
         "facilitator_array": [
             "Adrian Gradinar", 
@@ -438,8 +439,9 @@
         "id": "559", 
         "location": "", 
         "pathways": "Global Village Athena Library, Arts Award pathway", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "The Global Village", 
+        "start": "10:45 AM", 
         "title": "Creating adaptive storytelling content for the future of radio"
     }, 
     {
@@ -456,6 +458,7 @@
         "title": "How to make real books on the Open Web"
     }, 
     {
+        "day": "Saturday", 
         "description": "Teach the use of story as a tool to build community. If a story is well told, the idea contained within it can take in every listener that hears it. If we see something that can change for the better then, irrespective of our position, we can be a leader - but we need the tools to inspire and motivate.", 
         "facilitator_array": [
             "Rob Grundel"
@@ -464,8 +467,9 @@
         "id": "74", 
         "location": "", 
         "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "The Global Village", 
+        "start": "12:00 PM", 
         "title": "Story to Build Community"
     }, 
     {
@@ -496,6 +500,7 @@
         "title": "Experiences of the Future Home"
     }, 
     {
+        "day": "Saturday", 
         "description": "To understand what is dyslexia and its causes. Then to discuss how education and specifically IT and web inclusion is problematic for dyslexics.\nTo highlight the benefits of greater IT and web inclusion for dyslexic individuals.\nTo discuss how greater IT and web inclusion can be brought about, by working together with Mozilla.\nTo make a plan as to how these ideas can be implemented.", 
         "facilitator_array": [
             "Roger Broadbent"
@@ -504,11 +509,13 @@
         "id": "555", 
         "location": "", 
         "pathways": "Global Village Athena Library, Inclusive Communities, [youthZone] Links with us", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "The Global Village", 
+        "start": "02:15 PM", 
         "title": "The web through the eyes of a dyslexic  "
     }, 
     {
+        "day": "Saturday", 
         "description": "Let’s attract your inner Zombie (Yes, we are using the Z-word)…\nSet in a world overrun by the undead, you get to choose which characters can best face the apocalypse and survive, using only what nature and circumstance has given them.", 
         "facilitator_array": [
             "Melanie Grant", 
@@ -519,8 +526,9 @@
         "id": "554", 
         "location": "", 
         "pathways": "Global Village Athena Library, Inclusive Communities", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "The Global Village", 
+        "start": "10:45 AM", 
         "title": "The reality of diversity: The working dead"
     }, 
     {
@@ -654,6 +662,7 @@
         "title": "Modular frequencies - HearUsHere soundlab (Note this is also in the youthZone on an AM sunday B1&2 slot) "
     }, 
     {
+        "day": "Saturday", 
         "description": "Today's society can be isolating and difficult to connect with other people around us. Were glued to our screens (ambient intimacy) and fear looking people in the eye incase they get the wrong or a different idea (fear of rejection). Calling on Sherry Turkle's book Alone Together and Aziz Ansari's Modern Romance", 
         "facilitator_array": [
             "Ian Forrester", 
@@ -664,8 +673,9 @@
         "id": "591", 
         "location": "", 
         "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "The Global Village", 
+        "start": "03:30 PM", 
         "title": "Eye contact experiments"
     }, 
     {
@@ -695,6 +705,7 @@
         "title": "Online (Behavior) Privacy Awareness"
     }, 
     {
+        "day": "Saturday", 
         "description": "Mental health is an ignored corner of the tech world for far too many of us. We know it's an essential part of our personal and working lives, yet so little attention is paid to it due to stigma or lack of awareness. We all have some level of personal experience with it, whether we realise it or not.\nThis session will be addressing the changing place that mental health occupies in tech. We will discuss the past and current state of mental health and emotional wellness, factors that exist that affect it, and ways that we can change views and create a more supportive space for the growth of mental health in our community. Personal, cultural, political, economic and technological influences will be examined and combined in discussion and exercises to facilitate ideas about how to hack mental health in tech.", 
         "facilitator_array": [
             "Jennifer Geacone-Cruz"
@@ -703,11 +714,13 @@
         "id": "303", 
         "location": "", 
         "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "The Global Village", 
+        "start": "02:15 PM", 
         "title": "Hacking Mental Health: Changing Views in Tech"
     }, 
     {
+        "day": "Saturday", 
         "description": "Rapidly-changing digital policies across the world are contributing to the decline of the democratizing power of the hyperlink and its ability to create the interconnected information space that was imagined by Tim Berners-Lee. One such example is the ancillary copyright law implemented in Spain in 2014–a proposal that was rejected EuroParl for EU-wide implementation, but threatens to return with the drafting of updates to the Copyright Directive. To fight back against these policies, an international network of over 90 digital rights organizations, businesses, journalists and Internet users from 30 countries have convened under the banner of “SaveTheLink” to catalogue and push back against sustained threats to the link. In this session, participants will learn about new policies that make it easier for governments and corporations to demand and implement link censorship, and will help identify threats and brainstorm tactics/solutions to address these threats to the link in an interactive workshop.", 
         "facilitator_array": [
             "Meghan Sali"
@@ -716,11 +729,13 @@
         "id": "330", 
         "location": "", 
         "pathways": "Global Village Athena Library, What's your policy?", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "The Global Village", 
+        "start": "12:00 PM", 
         "title": "Is the hyperlink dead?"
     }, 
     {
+        "day": "Saturday", 
         "description": "Come and explore some of the best interactive factual narratives that have been recently released. This is an opportunity for you to experience factual interactive narratives, be inspired by them and maybe change the way you understand and perceive the world!", 
         "facilitator_array": [
             "Sandra Gaudenzi ", 
@@ -730,11 +745,12 @@
         "id": "469", 
         "location": "", 
         "pathways": "Global Village Recycling, [Pathway] Storytellers & coders united: together we can change the world!", 
-        "scheduleblock": "", 
+        "scheduleblock": "all-saturday", 
         "space": "The Global Village", 
         "title": "Inspiration time: explore recent projects that will change the way you understand the world"
     }, 
     {
+        "day": "Saturday", 
         "description": "Discussion about the happiness and how it relates to the  digital era.\nOutcomes - every participant to fell inspired and empowered to create positive interactions in their work and life.\nAwareness of the role of the individual, the media and technological impact on individual and community psychology.\nIdeas for how to create trust and positivity in their communities.", 
         "facilitator_array": [
             "Laura Gordon"
@@ -743,8 +759,9 @@
         "id": "450", 
         "location": "", 
         "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "The Global Village", 
+        "start": "03:30 PM", 
         "title": "Happiness in the Digital Era"
     }, 
     {
