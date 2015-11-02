@@ -2233,6 +2233,7 @@
         "title": "MLN Web Literacy Feedback Station"
     }, 
     {
+        "day": "Sunday", 
         "description": "This session is a fireside chat about the challenges and opportunities of trying to enable digital inclusion and web literacy on emerging countries and poor neighborhoods.\nOur goals are:\n* Identify common challenges faced by everyone in this segment and ways to overcome it.\n* Collect awesome stories that we can share with advocacy and fundraising teams.\n* Understand the different reasons why people chose to devote their time to these efforts and how we can help them.", 
         "facilitator_array": [
             "Mario Brandão"
@@ -2241,8 +2242,9 @@
         "id": "509", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-6", 
         "space": "Mozilla Learning Networks", 
+        "start": "12:45 PM", 
         "title": "Digital inclusion and web literacy in emerging countries"
     }, 
     {
@@ -2544,6 +2546,7 @@
         "title": "Link Technology to Social Innovation"
     }, 
     {
+        "day": "Saturday", 
         "description": "Participates will learn about the mission and vision of our Center and the need for serving underrepresented girls and women in science, technology, engineering, and mathematics (STEM). Attendees will develop and execute a personalized social media message and create a global call to action.", 
         "facilitator_array": [
             "Kimberly A. Scott, Ed.D., @cgest_asu, Center for Gender Equity in Science and Technology, Arizona State University", 
@@ -2553,11 +2556,13 @@
         "id": "357", 
         "location": "", 
         "pathways": "[MLN] Voices of Diverse Leaders", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "Mozilla Learning Networks", 
+        "start": "12:00 PM", 
         "title": "Think Like a Programmer, Design Like a Change Agent"
     }, 
     {
+        "day": "Saturday", 
         "description": "This workshop will showcase some of the innovative work Chayn has been doing with openly licensed toolkits, platforms and hackathons to tackle violence against women from India, Pakistan to UK & Lebanon. In our experience, the empowerment movement is not making the impact possible because charities are reluctant to use, distribute or create openly licensed work. The latter part of the workshop will be a session of creative collaboration to brainstorm ways to push the use of open source materials that we or other organisations have produced with a focus on humanitarian work.", 
         "facilitator_array": [
             "Hera Hussein, @chaynorg, Chayn"
@@ -2566,11 +2571,13 @@
         "id": "384", 
         "location": "", 
         "pathways": "[MLN] Voices of Diverse Leaders", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "Mozilla Learning Networks", 
+        "start": "12:00 PM", 
         "title": "Building open resources for women at risk"
     }, 
     {
+        "day": "Saturday", 
         "description": "The session will guide participants in collaboratively building a teaching kit to serve as a workshop guide for employers, associations or other groups who want to use Webmaker to help staff or community members understand and recognize implicit biases (e.g. gender bias, racial bias, homophobic bias)", 
         "facilitator_array": [
             "Steph Guthrie, @amirightfolks, Tech Girls Canada", 
@@ -2580,11 +2587,13 @@
         "id": "308", 
         "location": "", 
         "pathways": "[MLN] Voices of Diverse Leaders", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "Mozilla Learning Networks", 
+        "start": "03:30 PM", 
         "title": "Strengthening workplace inclusion with Webmaker"
     }, 
     {
+        "day": "Sunday", 
         "description": "Participants will learn about online resources for advocacy work and how to connect them in order to create online platform to serve their communities. This will be a hand-on workshop where participants will identify non-technical advocacy users, user technical needs and free or low cost technical solutions that do not require high-technical skill for installation or implementation.", 
         "facilitator_array": [
             "Tiffany Andrews, @TiffiAndrews, Code for America", 
@@ -2594,11 +2603,13 @@
         "id": "375", 
         "location": "", 
         "pathways": "[MLN] Voices of Diverse Leaders", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-6", 
         "space": "Mozilla Learning Networks", 
+        "start": "12:45 PM", 
         "title": "No Stack for Social Justice: How can we remove barriers to tech for those advocates on the ground?"
     }, 
     {
+        "day": "Saturday", 
         "description": "Participants in this session will be able to identify obstacles that they encounter working with diverse learners on both ends of the academic spectrum, discuss solutions to engage diverse learners in digital learning and learn about best practices that have been used to engage students on both ends of the academic spectrum. The group will then work on how to set goals for implementation into each participants individual programs and develop a community of educators seeking to engage diverse learners that can support each other in the future.", 
         "facilitator_array": [
             "Gina  Tesoriero, @STEMsuccessEDU,  New York City Department of Education (NYC DOE)"
@@ -2607,11 +2618,13 @@
         "id": "105", 
         "location": "", 
         "pathways": "[MLN] Voices of Diverse Leaders", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "Mozilla Learning Networks", 
+        "start": "02:15 PM", 
         "title": "Digital Learning for Diverse Learners (on both ends of the academic spectrum)"
     }, 
     {
+        "day": "Saturday", 
         "description": "This workshop dives into decentralized organizing practices and principles that help answer these questions and explore what it means to begin by listening. Through a mixture of interactive activities and presentations, members of Allied Media Projects, a Detroit based non-profit, will share what they’ve learned over 18 years of organizing community-centered media and technology projects. Together we will explore how the practice of listening strengthens our capacities to design transformative technology projects.", 
         "facilitator_array": [
             "Dian Nucera, @Allied_Media, Allied Media Projects"
@@ -2620,8 +2633,9 @@
         "id": "590", 
         "location": "", 
         "pathways": "[MLN] Voices of Diverse Leaders", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "Mozilla Learning Networks", 
+        "start": "10:45 AM", 
         "title": "We Begin By Listening"
     }, 
     {
@@ -2712,6 +2726,7 @@
         "title": "Run the Gauntlet"
     }, 
     {
+        "day": "Sunday", 
         "description": "he Sessions’ goal is to learn the strategy and approach of how women are represented in the developed countries and how the blueprint can be used to make a ground plan for the change process in developing countries.This will be an interactive activity that will divide participants in groups of 3-4 people, each team will be expected to brainstorm and note down the challenges, achievements, impacts, opportunities and the potential of women in technology and the workforce scenario", 
         "facilitator_array": [
             "Alifiyah Ganijee, @alifyaganijee, Mozilla Mombasa "
@@ -2720,8 +2735,9 @@
         "id": "247", 
         "location": "", 
         "pathways": " Scaling Participatory Learning Experiences, [MLN] Voices of Diverse Leaders", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-8", 
         "space": "Mozilla Learning Networks", 
+        "start": "04:00 PM", 
         "title": "Fostering inclusivity and diversity in the Technology space"
     }, 
     {
@@ -2740,6 +2756,7 @@
         "title": "Hack a Design Challenge to Use With Your Students"
     }, 
     {
+        "day": "Sunday", 
         "description": "Government agencies, learning institutions, international organizations and other stakeholders have sought to leverage digital learning environments to promote youth leadership and civic engagement. While some of these platforms have been successfully employed, cultivating genuine youth participation often comes with challenges.This interactive workshop is designed to provide participants with the opportunity to contribute to an open educational resource for authentic youth leadership.", 
         "facilitator_array": [
             "Ariam Mogos, @aamogos, Global Kids "
@@ -2748,8 +2765,9 @@
         "id": "366", 
         "location": "", 
         "pathways": "Youth Learning, [MLN] Voices of Diverse Leaders", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-7", 
         "space": "Mozilla Learning Networks", 
+        "start": "02:45 PM", 
         "title": "Models and Modes of Engagement for Authentic Youth Leadership in Informal Digital Learning Contexts"
     }, 
     {
