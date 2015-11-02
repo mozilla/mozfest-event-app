@@ -410,9 +410,10 @@
         "facilitators": "Greg Tatum", 
         "id": "103", 
         "location": "", 
-        "pathways": "Global Village Garden", 
-        "scheduleblock": "all-saturday", 
+        "pathways": "Global Village Athena Library", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "The Global Village", 
+        "start": "03:30 PM", 
         "title": "Living Light with WebGL - A Collaborative Art Experience"
     }, 
     {
@@ -562,6 +563,7 @@
         "title": "Garbage Disposal Room"
     }, 
     {
+        "day": "Sunday", 
         "description": "A diverse group of artists/industry practitioners will come together to develop a web-based interactive lighting system.\nA collaboration between Ravensbourne's Design & Coding and Product Design courses and Goldsmith's Creative Computing Department to develop a workshop on interactive lighting/gaming/web-based/physical computing, a hack session to show the tool-kit developed in order to invite students/industry to hack them. The project aims to develop 3D printed lights to install around the building which would be networked through the web.", 
         "facilitator_array": [
             "Evan Raskob"
@@ -570,8 +572,9 @@
         "id": "54", 
         "location": "", 
         "pathways": "Global Village Kitchen", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "The Global Village", 
+        "start": "11:30 AM", 
         "title": "Switched On(line) Lighting"
     }, 
     {
@@ -647,6 +650,7 @@
         "title": "Learning not to fear the future by sharing what we know"
     }, 
     {
+        "day": "Sunday", 
         "description": "The goal of the session is to teach participants how to educate, engage and empower individuals, local communities & organizations to make impact through a collaborative platform.\nHelp create/ identify various ways to support hackers, makers, startups and creative people. Promote experiential learning, co-creation and collaboration through the interests of people.\nThe aim is to bring in various communities together to work on the things they like, connect, share, teach and build.\nThe activity will focus on benefits of embracing the Open Practices. Understanding a few case studies and hands-on workshop to build the structure for various scenarios.\nThe participants will learn how research, knowledge exchange, learning and mentoring with each other can be driven.\nA part of the session will be focused around discussing what a open and inclusive space is to them.\nLearn how to make these spaces sustainable so they can continue make impact in long run.", 
         "facilitator_array": [
             "Vineel Reddy  Pindi"
@@ -654,9 +658,10 @@
         "facilitators": "Vineel Reddy  Pindi", 
         "id": "215", 
         "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
+        "pathways": "Global Village Garden", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "The Global Village", 
+        "start": "11:30 AM", 
         "title": "Collaborative Community Spaces"
     }, 
     {
@@ -676,7 +681,7 @@
         "day": "Saturday", 
         "description": "Today's society can be isolating and difficult to connect with other people around us. Were glued to our screens (ambient intimacy) and fear looking people in the eye incase they get the wrong or a different idea (fear of rejection). Calling on Sherry Turkle's book Alone Together and Aziz Ansari's Modern Romance", 
         "facilitator_array": [
-            "Ian Forrester", 
+            "Ian Forrester, @cubicgarden", 
             "Jennifer Geacone-Cruz", 
             "Laura Gordon"
         ], 
@@ -789,6 +794,7 @@
         "title": "How will artificial intelligence change our interactions with each other?"
     }, 
     {
+        "day": "Sunday", 
         "description": "The Local Web will explore options for local communication when the wider internet is not available. This will include self-hosting, community and mesh networks, device-to-device communication, delay tolerant networking, service discovery, and more. This workshop will explore possibilities for using the web and other internet technologies on a local, rather than global, scale.", 
         "facilitator_array": [
             "Josh King"
@@ -797,8 +803,9 @@
         "id": "456", 
         "location": "", 
         "pathways": "Global Village Garden, Inclusive Communities", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-7", 
         "space": "The Global Village", 
+        "start": "02:45 PM", 
         "title": "The Local Web"
     }, 
     {
@@ -810,7 +817,7 @@
         "facilitators": "Bryan Mathers", 
         "id": "202", 
         "location": "", 
-        "pathways": "Global Village Athena Library", 
+        "pathways": "Global Village Garden", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "The Global Village", 
         "start": "02:45 PM", 
@@ -932,6 +939,22 @@
         "scheduleblock": "", 
         "space": "The Global Village", 
         "title": "Build your own FM radio station for $25 and control it from your phone"
+    }, 
+    {
+        "day": "Saturday", 
+        "description": "Innovation is too often seen as a business imperative rather than a means to improve lives.\n\nThe growing use of Open Innovation, co-creation and user centred design by businesses, and the public sector will enable more citizens than ever before to participate in shaping the future, not only of the web but all the products and services they experience.\n\nIn the session we shall take a few existing ideas and innovations and try to make them better using these approaches. We’re not looking for expertise, but passion to see and make a better future.", 
+        "facilitator_array": [
+            "Michael Saunby, @msaunby", 
+            "Shirley Chin, @shirleychin"
+        ], 
+        "facilitators": "Michael Saunby, Shirley Chin", 
+        "id": "462", 
+        "location": "", 
+        "pathways": "Global Village Garden", 
+        "scheduleblock": "saturday-session-block-4", 
+        "space": "The Global Village", 
+        "start": "03:30 PM", 
+        "title": "Innovating in the open for better lives (and better products)"
     }, 
     {
         "description": "Today's activist campaigns are innovative and connected, leveraging the web to build collective voice. Open source practice could amplify the power of contemporary activism by sharing resources and learning outcomes openly between movements. In this session we will use GitHub to codesign a framework for planning activist campaigns. It won't be too technical - if you can use a web browser you can learn to use GitHub during the session! We'll create a template to guide new movements with the benefit of your past experiences and together start to build a community-led repository for open source activism.", 
