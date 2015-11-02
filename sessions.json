@@ -2492,8 +2492,10 @@
     {
         "day": "Saturday", 
         "description": "The session is a fireside chat about participatory and collaborative methods for mozilla clubs and community building. In this session we'll explore best practices, tips, tricks and ways that club captains and facilitators can improve their game and make the most of the community they are a part of.\nWe'll look into ways to move from participation into collaboration and why these methods work and are the right approach for a \"Teach Like Mozilla\" framework.", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "facilitator_array": [
+            "Hélène Petry, UFF - Fluminense Federal University in Rio, Brasil"
+        ], 
+        "facilitators": "Hélène Petry", 
         "id": "513", 
         "location": "", 
         "pathways": "[MLN] Teaching Web Literacy with Mozilla Clubs", 
@@ -2506,9 +2508,9 @@
         "day": "Sunday", 
         "description": "High tech manufacturing tools are becoming more accessible for do-it-yourselfers, makers and activists. The tools you can find at a local maker space can be used to make inexpensive activist gear. In this participatory session, you’ll learn learn creative ways to user maker tools for activism. We’ll cover making giant banners, laser cutting stencils for spray painting, making custom vinyl stickers to culture-jam billboards, using CNC machines to carve block of linoleum or wood for printing posters.\nIn the first part of the session you’ll get a quick overview of these DIY production techniques, see some examples of how activists have used these techniques, we’ll talk about how you can access these machines at maker spaces, and we’ll spend some time brainstorming some new ideas. In the second part we’ll get our hands dirty and print some t-shirts, bandanas, patches and posters. Bring a blank t-shirt to print on (but don’t worry if you don’t have one with you, we'll also have fabric and paper available).", 
         "facilitator_array": [
-            "Hélène Petry, UFF - Fluminense Federal University in Rio, Brasil"
+            "Drew Wilson, @drewSaysGoVeg, Ford Foundation/ Mozilla Open Web Fellow"
         ], 
-        "facilitators": "Hélène Petry", 
+        "facilitators": "Drew Wilson", 
         "id": "520", 
         "location": "", 
         "pathways": "[MLN] Teaching Web Literacy with Mozilla Clubs, ArtsAward pathway", 
