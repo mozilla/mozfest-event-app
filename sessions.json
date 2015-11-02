@@ -1049,113 +1049,159 @@
         "title": "WoT Maker, Browser J5, Beacon Scanner"
     }, 
     {
+        "day": "Saturday", 
         "description": "We’ll create a newspaper in the ‘near’ future, with ads for yet-to-be-invented things. We’ll be adding to and editing the paper to be published at the end of day 2.", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "facilitator_array": [
+            "Marcel Schouwenaar", 
+            "Harm van Beek", 
+            "Peter Bihr"
+        ], 
+        "facilitators": "Marcel Schouwenaar, Harm van Beek, Peter Bihr", 
         "id": "644", 
         "location": "", 
         "pathways": "Global Village Kitchen", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "The Global Village", 
+        "start": "10:45 AM", 
         "title": "A day in the connected home in 2025"
     }, 
     {
-        "description": "Low carbon lunch.\n\nWe’ll provide lunch for 10 people based on a low carbon attitude, local ingredients, with no or little preparation needed using water or extra energy (heating). Let’s talk about kitchens as the most energy-hungry part of the house and come up with solutions we can draw while eating. You’re welcome to bring your own lunch or course, but make sure it’s also low carbon!", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "day": "Saturday", 
+        "description": "We’ll provide lunch for 10 people based on a low carbon attitude, local ingredients, with no or little preparation needed using water or extra energy (heating). Let’s talk about kitchens as the most energy-hungry part of the house and come up with solutions we can draw while eating. You’re welcome to bring your own lunch or course, but make sure it’s also low carbon!", 
+        "facilitator_array": [
+            "Arabeschi di Latte", 
+            "Francesca Sarti"
+        ], 
+        "facilitators": "Arabeschi di Latte, Francesca Sarti", 
         "id": "645", 
         "location": "", 
         "pathways": "Global Village Kitchen", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "The Global Village", 
+        "start": "12:00 PM", 
         "title": "Low carbon lunch"
     }, 
     {
-        "description": "IOT Design Manifesto: 6 kitchen cases\n\nCooking up dilemmas and ethical design opportunities around the kitchen.", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "day": "Saturday", 
+        "description": "Cooking up dilemmas and ethical design opportunities around the kitchen.", 
+        "facilitator_array": [
+            "Marcel Schouwenaar", 
+            "Harm van Beek"
+        ], 
+        "facilitators": "Marcel Schouwenaar, Harm van Beek", 
         "id": "646", 
         "location": "", 
         "pathways": "Global Village Kitchen", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "The Global Village", 
+        "start": "02:15 PM", 
         "title": "IOT Design Manifesto: 6 kitchen cases"
     }, 
     {
-        "description": "The Connected Home: Thoughts on living in tomorrow's home (and how to make it better)\n\nWhat will be the the challenges and opportunities in a connected home? An open conversation.", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "day": "Saturday", 
+        "description": "What will be the the challenges and opportunities in a connected home? An open conversation.", 
+        "facilitator_array": [
+            "Peter Bihr"
+        ], 
+        "facilitators": "Peter Bihr", 
         "id": "647", 
         "location": "", 
         "pathways": "Global Village Kitchen", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "The Global Village", 
+        "start": "03:30 PM", 
         "title": "The Connected Home: Thoughts on living in tomorrow's home (and how to make it better)"
     }, 
     {
-        "description": "Tea Time with San Francisco\n\nThoughts on the modernity of recipe books round the turn of the century, or the kitchen as both a public and private space.\n\n(We’ll have cake and tea during this session)", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "day": "Saturday", 
+        "description": "Thoughts on the modernity of recipe books round the turn of the century, or the kitchen as both a public and private space.\n\n(We’ll have cake and tea during this session)", 
+        "facilitator_array": [
+            "Rocio Rodtjer", 
+            "SuperNova Studios"
+        ], 
+        "facilitators": "Rocio Rodtjer, SuperNova Studios", 
         "id": "648", 
         "location": "", 
         "pathways": "Global Village Kitchen", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "The Global Village", 
+        "start": "03:30 PM", 
         "title": "Tea Time with San Francisco"
     }, 
     {
+        "day": "Sunday", 
         "description": "We’ll kick off this session with films of smart kitchens from the past looking at their future which is sometimes supposed to be our present and we’ll discuss these visions in a group.", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "facilitator_array": [
+            "Alexandra Deschamps-Sonsino"
+        ], 
+        "facilitators": "Alexandra Deschamps-Sonsino", 
         "id": "649", 
         "location": "", 
         "pathways": "Global Village Kitchen", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "The Global Village", 
+        "start": "11:30 AM", 
         "title": "Beyond Hollywood: How women can contribute to smart home development"
     }, 
     {
+        "day": "Sunday", 
         "description": "What do children have to teach us about how to eat lunch? Can they help us design better packed lunches for ourselves? Can tech help?\n\nWe’d love to work with someone on this session and bring appropriate food for it!", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "facilitator_array": [
+            "TBD"
+        ], 
+        "facilitators": "TBD", 
         "id": "650", 
         "location": "", 
         "pathways": "Global Village Kitchen", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-6", 
         "space": "The Global Village", 
+        "start": "12:45 PM", 
         "title": "Lunch for and with children"
     }, 
     {
+        "day": "Sunday", 
         "description": "A collaborative hands-on workshop on how we can build apps that consider the needs and desires of families for smarter kitchens - all through a user-centred design approach.", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "facilitator_array": [
+            "Benjamin Maugain", 
+            "Danny Bluestone"
+        ], 
+        "facilitators": "Benjamin Maugain, Danny Bluestone", 
         "id": "651", 
         "location": "", 
         "pathways": "Global Village Kitchen", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-7", 
         "space": "The Global Village", 
+        "start": "02:45 PM", 
         "title": "Apps for the kitchen"
     }, 
     {
+        "day": "Sunday", 
         "description": "We will use cardboard to build new kitchen layouts which we think will live up to the conclusions and topics we’ve been discussing over the past days. Parents, children, all welcome.", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "facilitator_array": [
+            "Alexandra Deschamps-Sonsino"
+        ], 
+        "facilitators": "Alexandra Deschamps-Sonsino", 
         "id": "652", 
         "location": "", 
         "pathways": "Global Village Kitchen", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-8", 
         "space": "The Global Village", 
+        "start": "04:00 PM", 
         "title": "DIY Cardboard Kitchen continued"
     }, 
     {
+        "day": "Sunday", 
         "description": "Come and see the work of the past two days, we’ll offer you a glass of bubbly or juice and you can walk around, ask questions, add your last minute rekons before we take it all down at 5h30pm.", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "facilitator_array": [
+            "George Oates"
+        ], 
+        "facilitators": "George Oates", 
         "id": "653", 
         "location": "", 
         "pathways": "Global Village Kitchen", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-8", 
         "space": "The Global Village", 
+        "start": "04:00 PM", 
         "title": "The last minute museum"
     }, 
     {
@@ -1298,7 +1344,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "Privacy Lab is the place to get answer to all of your privacy questions.  Come meet our experts and explore privacy topics at your own pace! Booths will vary each hour and will include Ask Me Anything, Firefox Privacy Features, Digital Footprints, Privacy Tools from the Library Freedom Project, Router Hacking, DNT and the Future of Tracking, OffGridTheGame, and more.", 
+        "description": "Privacy Lab is the place to get answer to all of your privacy questions.  Come meet our experts and explore privacy topics at your own pace! Booths will vary each hour and will include Ask Me Anything, Firefox Privacy Features, Digital Footprints, Privacy Tools from the Library Freedom Project, Router Hacking, DNT and the Future of Tracking, OffGridTheGame, How to Teach Privacy and more.", 
         "facilitator_array": [
             "Tennyson Holloway", 
             "Dave Huseby, Noah Swartz", 
@@ -1316,7 +1362,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "Privacy Lab is the place to get answer to all of your privacy questions.  Come meet our experts and explore privacy topics at your own pace! Booths will vary each hour and will include Ask Me Anything, Firefox Privacy Features, Digital Footprints, Privacy Tools from the Library Freedom Project, Router Hacking, DNT and the Future of Tracking, OffGridTheGame, and more.", 
+        "description": "Privacy Lab is the place to get answer to all of your privacy questions.  Come meet our experts and explore privacy topics at your own pace! Booths will vary each hour and will include Ask Me Anything, Firefox Privacy Features, Digital Footprints, Privacy Tools from the Library Freedom Project, Router Hacking, DNT and the Future of Tracking, OffGridTheGame, How to Teach Privacy and more.", 
         "facilitator_array": [
             "Tennyson Holloway", 
             "Dave Huseby, Noah Swartz", 
@@ -1334,7 +1380,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "Privacy Lab is the place to get answer to all of your privacy questions.  Come meet our experts and explore privacy topics at your own pace! Booths will vary each hour and will include Ask Me Anything, Firefox Privacy Features, Digital Footprints, Privacy Tools from the Library Freedom Project, Router Hacking, DNT and the Future of Tracking, OffGridTheGame, and more.", 
+        "description": "Privacy Lab is the place to get answer to all of your privacy questions.  Come meet our experts and explore privacy topics at your own pace! Booths will vary each hour and will include Ask Me Anything, Firefox Privacy Features, Digital Footprints, Privacy Tools from the Library Freedom Project, Router Hacking, DNT and the Future of Tracking, OffGridTheGame, How to Teach Privacy, and more.", 
         "facilitator_array": [
             "Tennyson Holloway", 
             "Dave Huseby, Noah Swartz", 
@@ -1352,7 +1398,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "Privacy Lab is the place to get answer to all of your privacy questions.  Come meet our experts and explore privacy topics at your own pace! Booths will vary each hour and will include Ask Me Anything, Firefox Privacy Features, Digital Footprints, Privacy Tools from the Library Freedom Project, Router Hacking, DNT and the Future of Tracking, OffGridTheGame, and more.", 
+        "description": "Privacy Lab is the place to get answer to all of your privacy questions.  Come meet our experts and explore privacy topics at your own pace! Booths will vary each hour and will include Ask Me Anything, Firefox Privacy Features, Digital Footprints, Privacy Tools from the Library Freedom Project, Router Hacking, DNT and the Future of Tracking, OffGridTheGame, How to Teach Privacy and more.", 
         "facilitator_array": [
             "Tennyson Holloway", 
             "Dave Huseby, Noah Swartz", 
