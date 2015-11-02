@@ -2222,14 +2222,16 @@
         "title": "How to localize web application (advanced)"
     }, 
     {
+        "day": "Saturday", 
         "description": "", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "605", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "all-weekend", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "Mozilla Learning Networks", 
+        "start": "02:15 PM", 
         "title": "MLN Web Literacy Feedback Station"
     }, 
     {
@@ -2241,7 +2243,7 @@
         "facilitators": "Mario Brandão", 
         "id": "509", 
         "location": "", 
-        "pathways": "", 
+        "pathways": "[MLN] Voices of Diverse Leaders", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Mozilla Learning Networks", 
         "start": "12:45 PM", 
@@ -2531,7 +2533,7 @@
         "title": "Teaching Web Literacy in the Open"
     }, 
     {
-        "day": "Saturday", 
+        "day": "Sunday", 
         "description": "It will give them an overview on how it is possible to integrate technology and innovation with Social Values and Ethics. Some guidelines how what does being a social innovator means and why they should consider this as the best time and opportunity to make a difference and embrace a social activities into their company culture.", 
         "facilitator_array": [
             "Maurizio Gioli"
@@ -2540,9 +2542,9 @@
         "id": "395", 
         "location": "", 
         "pathways": "[MLN] Voices of Diverse Leaders", 
-        "scheduleblock": "saturday-session-block-1", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "Mozilla Learning Networks", 
-        "start": "10:45 AM", 
+        "start": "11:30 AM", 
         "title": "Link Technology to Social Innovation"
     }, 
     {
