@@ -30,7 +30,7 @@
                     <div id="page-links">
                         <a href="https://2015.mozillafestival.org/tickets">Tickets</a>
                         <a href="#_spaces" id="spaces-page-link">Spaces</a>
-                        <a href="">Pathways</a>
+                        <a href="#_pathways" id="pathways-page-link">Pathways</a>
                     </div>
                 </div>
             </nav>
@@ -139,6 +139,11 @@
                 <% if (session.space) { %><%= session.space %><% } %><% if (session.location) { %>, <%= smartypants(session.location) %><% } %>
             </div>
             <% } %>
+             <% if (session.pathways) { %>
+            <div class="session-pathways">
+                <%= session.pathways %>
+            </div>
+            <% } %>
             <% if (showFacilitators && session.facilitators.length > 0) { %>
             <div class="session-facilitators">
                 <%= smartypants(session.facilitators) %>
@@ -205,6 +210,15 @@
                     <% }) %>
                 </div>
             </div>
+        </script>
+
+        <script type="text/template" id="pathways-list-template">
+            <% if (name) { %>
+            <a href="#_pathway-<%= slugify(name) %>" class="pathway-list-item" data-pathway="<%= slugify(name) %>">
+                <h4><%= name %></h4>
+                <p><%= numSessions %> session<% if (numSessions>1) { %>s<% } %></p>
+            </a>
+            <% } %>
         </script>
 
         <script src="js/jquery-2.1.0.min.js"></script>

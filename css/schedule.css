@@ -241,7 +241,8 @@ header a {
 }
 
 .session-list-item,
-.open-block {
+.open-block,
+.pathway-list-item  {
     display: block;
     clear: both;
     position: relative;
@@ -254,13 +255,15 @@ header a {
     background: #F5F5F5;
 }
 
-.session-list-item {
+.session-list-item,
+.pathway-list-item {
     color: #55565A;
     text-decoration: none;
 }
 
 .session-list-item h4,
-.space-list-item h4 {
+.space-list-item h4,
+.pathway-list-item  h4 {
     margin: 0 0 2rem 6rem;
     line-height: 1.2;
     font-size: 3rem;
@@ -436,7 +439,8 @@ header a {
     padding: 4rem;
 }
 
-.space-list-item h4 {
+.space-list-item h4,
+.pathway-list-item h4 {
     margin-left: 0;
 }
 
@@ -455,7 +459,8 @@ header a {
     background: #f5f5f5;
 }
 
-.space-list-item p:last-child {
+.space-list-item p:last-child,
+.pathway-list-item p:last-child {
     margin-bottom: 0;
 }
 
