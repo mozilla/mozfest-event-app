@@ -1542,7 +1542,7 @@
         "id": "40", 
         "location": "", 
         "pathways": "Research", 
-        "scheduleblock": "", 
+        "scheduleblock": "all-weekend", 
         "space": "", 
         "title": "Learning from 10 artists using Webmaker "
     }, 
@@ -1884,7 +1884,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "Anonymity is a controversial issue in the post-Snowden world. While serving as a vehicle for criminalization of various cultures, many communities experiment with concepts that try to resolve the destructive potential of anonymity (i.e. The Coral Project). How to create common sense and a healthy “we” with regard to anonymity?\nIn my session “Are We Ready For Anonymity?” I will present a storytelling project of the same name that will be created by a group of international journalists in Oct 2015.\nThe project I present tackles the world of online forums in the field of journalism and will foster a discussion among participating journalists, activists and coders.", 
+        "description": "Anonymity is a controversial issue in the post-Snowden world. While serving as a vehicle for criminalization of various cultures, many communities experiment with concepts that try to resolve the destructive potential of anonymity (i.e. The Coral Project).\n\nThis session has two aims: 1. Have a fruitful discussion about the topic \"Anonymity in online news communities\" and 2. create something together! This could be a toolkit for community managers or a listicle of the most important points with regard to our issue. The storytelling project [\"Are we up for Anonymity?](http://berlinergazette.de/are-we-up-for-anonymity) that Francis and I created together with a group of journalists, coders and community managers in a 2-day-journathon will serve as an inspiration for our session.\n", 
         "facilitator_array": [
             "Magdalena Taube", 
             "Francis Tseng"
