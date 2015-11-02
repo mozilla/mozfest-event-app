@@ -485,19 +485,7 @@
         "title": "Story to Build Community"
     }, 
     {
-        "description": "We are building a world-class engagement platform offering tools to push forward municipal broadband in communities across Canada. And at MozFest, we want to share this platform, and the importance of municipal broadband, with the world. Pioneering cities and towns have taken it upon themselves to close the digital divide by ensuring affordable, city-wide Internet access through municipal broadband networks. Our platform will build on the successes of these often disparate and isolated communities, and kickstart a new mass movement for municipal broadband initiatives that can be replicated anywhere. In the U.S. alone, over 100 communities have pledged to develop their own fibre, highlighting the role municipal networks can play in galvanizing the digital divide. Participants will receive a preview of our engagement platform to empower not just individuals, but entire communities, to organize in distributed, local groups, and address the digital deficits their cities and towns face.", 
-        "facilitator_array": [
-            "Josh Tabish"
-        ], 
-        "facilitators": "Josh Tabish", 
-        "id": "151", 
-        "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Crowdsourcing the Next Gigabit Cities: An Engagement Platform for Municipal Broadband"
-    }, 
-    {
+        "day": "Sunday", 
         "description": "The BBC want to deliver new media experiences of the future - in doing so we want to use a mix of sensors and personal data to drive these experiences. This session is to understand people's attitudes in relation to acceptable and unacceptable uses of personal data as well as ideate around how best to communicate the use of personal data in everyday activities.", 
         "facilitator_array": [
             "Lianne Kerlin", 
@@ -507,8 +495,9 @@
         "id": "575", 
         "location": "", 
         "pathways": "Global Village Kitchen", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
+        "scheduleblock": "sunday-session-block-5", 
+        "space": "The Global Kitchen", 
+        "start": "11:30 AM", 
         "title": "Experiences of the Future Home"
     }, 
     {
@@ -544,7 +533,7 @@
         "title": "The reality of diversity: The working dead"
     }, 
     {
-        "description": "We are currently developing new technologies that will support novel methods of interaction with Internet of Things sensors in the home. The traditional model for IOT sensors and services sees a myriad of sensed personal data pushed out of the home and into the cloud. This is often done without the people to whom the data pertains really understanding what this data can say about them.\n\nAs an initial point of investigation into how we might change this model; we have developed a low fidelity prototype and we are interested in understanding what the public perception of this type of system might be. Our prototype system makes use of an IoT Home Hub which looks after personal data from home. The hub requires that 3rd parties make requests for only the data that they need for only the time that they need it and that their requests and data transactions are mediated through IoT ‘brokers'. Home users are then able to accept or deny such requests and may revoke access at any time instantly. What types of data, from our future connected world would you be willing to share and what would you want in return? What do you think of the old model of data sharing and how would you like us to think about changing this?", 
+        "description": "We are currently developing new technologies that will support novel methods of interaction with Internet of Things sensors in the home. The traditional model for IOT sensors and services sees a myriad of sensed personal data pushed out of the home and into the cloud. This is often done without the people to whom the data pertains really understanding what this data can say about them.", 
         "facilitator_array": [
             "James Colley", 
             "Andy Crabtree"
