@@ -437,7 +437,7 @@
         "facilitators": "Adrian Gradinar, Dan Burnett, Paul Coulton", 
         "id": "559", 
         "location": "", 
-        "pathways": "Global Village Athena Library, ArtsAward pathway", 
+        "pathways": "Global Village Athena Library, Arts Award pathway", 
         "scheduleblock": "", 
         "space": "The Global Village", 
         "title": "Creating adaptive storytelling content for the future of radio"
@@ -526,26 +526,16 @@
     {
         "description": "We are currently developing new technologies that will support novel methods of interaction with Internet of Things sensors in the home. The traditional model for IOT sensors and services sees a myriad of sensed personal data pushed out of the home and into the cloud. This is often done without the people to whom the data pertains really understanding what this data can say about them.\n\nAs an initial point of investigation into how we might change this model; we have developed a low fidelity prototype and we are interested in understanding what the public perception of this type of system might be. Our prototype system makes use of an IoT Home Hub which looks after personal data from home. The hub requires that 3rd parties make requests for only the data that they need for only the time that they need it and that their requests and data transactions are mediated through IoT ‘brokers'. Home users are then able to accept or deny such requests and may revoke access at any time instantly. What types of data, from our future connected world would you be willing to share and what would you want in return? What do you think of the old model of data sharing and how would you like us to think about changing this?", 
         "facilitator_array": [
-            "James Colley"
+            "James Colley", 
+            "Andy Crabtree"
         ], 
-        "facilitators": "James Colley", 
+        "facilitators": "James Colley, Andy Crabtree", 
         "id": "550", 
         "location": "", 
         "pathways": "Global Village Garage, Space Hacking", 
         "scheduleblock": "", 
         "space": "The Global Village", 
         "title": "The IoT Home Hub"
-    }, 
-    {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "580", 
-        "location": "", 
-        "pathways": "Global Village Garden", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Placeholder session for animal/environmental data & a/v content"
     }, 
     {
         "description": "", 
@@ -579,7 +569,7 @@
         "facilitators": "Luca Margherita Damiani", 
         "id": "172", 
         "location": "", 
-        "pathways": "Global Village Athena Library, ArtsAward pathway", 
+        "pathways": "Global Village Athena Library, Arts Award pathway", 
         "scheduleblock": "", 
         "space": "The Global Village", 
         "title": "Tate Digital Learning - 'Albums, Sketches, Etc..!'"
@@ -720,9 +710,9 @@
     {
         "description": "Rapidly-changing digital policies across the world are contributing to the decline of the democratizing power of the hyperlink and its ability to create the interconnected information space that was imagined by Tim Berners-Lee. One such example is the ancillary copyright law implemented in Spain in 2014–a proposal that was rejected EuroParl for EU-wide implementation, but threatens to return with the drafting of updates to the Copyright Directive. To fight back against these policies, an international network of over 90 digital rights organizations, businesses, journalists and Internet users from 30 countries have convened under the banner of “SaveTheLink” to catalogue and push back against sustained threats to the link. In this session, participants will learn about new policies that make it easier for governments and corporations to demand and implement link censorship, and will help identify threats and brainstorm tactics/solutions to address these threats to the link in an interactive workshop.", 
         "facilitator_array": [
-            "Meghan  Sali"
+            "Meghan Sali"
         ], 
-        "facilitators": "Meghan  Sali", 
+        "facilitators": "Meghan Sali", 
         "id": "330", 
         "location": "", 
         "pathways": "Global Village Athena Library, What's your policy?", 
