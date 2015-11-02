@@ -402,6 +402,7 @@
         "title": "Mozilla Campus: What's Your Dream For Student Participation?"
     }, 
     {
+        "day": "Saturday", 
         "description": "Participants will collaborate on a shared WebGL experience taking \"living light\" from a central server and creating individualized experiences. This project will illustrate the importance of opening up low-level APIs to the web, and how such technologies can empower transformative experiences.", 
         "facilitator_array": [
             "Greg Tatum"
@@ -410,11 +411,12 @@
         "id": "103", 
         "location": "", 
         "pathways": "Global Village Garden", 
-        "scheduleblock": "", 
+        "scheduleblock": "all-saturday", 
         "space": "The Global Village", 
         "title": "Living Light with WebGL - A Collaborative Art Experience"
     }, 
     {
+        "day": "Sunday", 
         "description": "Each hour will be themed around a topic surrounding diversity (my initial thoughts are home, work and society). There will be discussions on these topics lead by myself and including the attendees. We will then ideate a real life solutions to the problems discussed. The idea being that these outcomes can be put onto an online platform and turned into a manifesto for positive change and diversity in each subject area.", 
         "facilitator_array": [
             "Vimla Appadoo"
@@ -423,8 +425,9 @@
         "id": "571", 
         "location": "", 
         "pathways": "Global Village Athena Library, Inclusive Communities", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "The Global Village", 
+        "start": "11:30 AM", 
         "title": "Diversity in the new economy"
     }, 
     {
@@ -445,6 +448,7 @@
         "title": "Creating adaptive storytelling content for the future of radio"
     }, 
     {
+        "day": "Sunday", 
         "description": "From documentation to storytelling, the Open Web offers both the content and tools required to make beautiful books. Groups of authors can be together in one room at Mozfest or spread across the globe.\nThere are now a variety of closed-cloud platforms which can be used to create books and ebooks. Booktype is the fully open source alternative, which can be installed on your own web server for complete independence.\nThis will be a hands-on session introducing authors to collaborative, browser-based book authoring, taking them from first draft to print PDF, EPUB and more.", 
         "facilitator_array": [
             "Daniel James"
@@ -453,8 +457,9 @@
         "id": "80", 
         "location": "", 
         "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-7", 
         "space": "The Global Village", 
+        "start": "02:45 PM", 
         "title": "How to make real books on the Open Web"
     }, 
     {
@@ -570,6 +575,7 @@
         "title": "Switched On(line) Lighting"
     }, 
     {
+        "day": "Sunday", 
         "description": "What is an album on the web? Is this a place for research? Is this a place for memories? Is this a place for creative and visual making? Using the 'Albums' digital web platform from the Tate (www.tate.org.uk/art/albums), participants will be able to create their own artistic digital platforms. The Tate Albums feature is a way to pull together data, curate Tate artworks, research items and archive all user created content. The session will have an engaging learning curve around digital making and web literacy, allowing creative thinking and reflection. With both an individual and participatory group approach, the activity calls participants to start their own digital albums and share their personal interests, identities, art and more!", 
         "facilitator_array": [
             "Luca Margherita Damiani"
@@ -578,8 +584,9 @@
         "id": "172", 
         "location": "", 
         "pathways": "Global Village Athena Library, Arts Award pathway", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-8", 
         "space": "The Global Village", 
+        "start": "04:00 PM", 
         "title": "Tate Digital Learning - 'Albums, Sketches, Etc..!'"
     }, 
     {
@@ -609,6 +616,7 @@
         "title": "Learn 3D modeling and print a robot."
     }, 
     {
+        "day": "Sunday", 
         "description": "Several Silicon Valley companies recently released the diversity figures of their workforces, giving hard demographic data to the well-worn tale of racial and gender under-representation we know all too well.\n\nThis brittle monoculture is also reflected at the grassroots - in the code clubs, unconferences and hackerspaces. If, as Apple state, “inclusion inspires innovation”, what can we do to grow computing communities that unlock the rich-but-neglected talent in our urban localities - and how does this benefit our digital ecosystem?", 
         "facilitator_array": [
             "Ikem Nzeribe"
@@ -617,11 +625,13 @@
         "id": "544", 
         "location": "", 
         "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-6", 
         "space": "The Global Village", 
+        "start": "12:45 PM", 
         "title": "Hip-hop, Hypertext & Hackerspace - Diversity Is Important, But Not For The Reasons You Think"
     }, 
     {
+        "day": "Saturday", 
         "description": "We’ll explore the opportunity, and urgency, for all of us to shape our shared future, through co-creation by designers, technologist and all who use the web.\nIt's not necessary for everyone to understand the details of, say climate change, to act now and do something about it.  There's a parallel with technology here as anyone can use the web, without knowing all the detail of how it works. User, and consumers, shape its future just as much as those who design build and design.  Fashion is like this too, consumers determine the future as much as designers.\nHelen Storey and Michael Saunby will lead an exploration of how we can use the web to share visions of the future and calls to action, whether it be to ensure the freedom of the web or protection of the environment.", 
         "facilitator_array": [
             "Helen Storey", 
@@ -631,8 +641,9 @@
         "id": "444", 
         "location": "", 
         "pathways": "Global Village Garden, [youthZone] Links with us", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "The Global Village", 
+        "start": "02:15 PM", 
         "title": "Learning not to fear the future by sharing what we know"
     }, 
     {
@@ -791,6 +802,7 @@
         "title": "The Local Web"
     }, 
     {
+        "day": "Sunday", 
         "description": "A picture says a thousand words - and it’s never been easier to create images that can have real impact.\nIf you’d asked me a couple of years ago - “Can you draw?” I’d have said “Not really - I’m a programmer”. However, creating visual thoughts is now central to everything I do.\nThis session will aim to illustrate how a visual thought can be captured, created and shared and if this wasn’t just a lowly text form, I’d put a few examples in to show what I mean.\nUnfortunately, visual thoughts are limited by your ability to think…", 
         "facilitator_array": [
             "Bryan Mathers"
@@ -799,8 +811,9 @@
         "id": "202", 
         "location": "", 
         "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-7", 
         "space": "The Global Village", 
+        "start": "02:45 PM", 
         "title": "Capturing a visual thought"
     }, 
     {
