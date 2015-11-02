@@ -375,8 +375,10 @@
     {
         "day": "Saturday", 
         "description": "Code like you give a damn! Why not using your skills to co-design interactive stories that can change the world? Today, coders and storytellers rarely work together from day one. Join this session to be part of the solution and meet storytellers and coders you'll want to work with!", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "facilitator_array": [
+            "Sandra Gaudenzi, @sgaudenzi"
+        ], 
+        "facilitators": "Sandra Gaudenzi", 
         "id": "468", 
         "location": "", 
         "pathways": "New Technologies for Participation -- Challenge, [Pathway] Storytellers & coders united: together we can change the world!", 
@@ -883,7 +885,7 @@
         "facilitators": "Evans Campbell", 
         "id": "179", 
         "location": "", 
-        "pathways": "Garbage Disposal Room", 
+        "pathways": "Garbage Disposal Room, Global Village Garage", 
         "scheduleblock": "", 
         "space": "The Global Village", 
         "title": "Sustaining an Innovation Hub: Lessons from the iHub"
@@ -922,7 +924,7 @@
         "facilitators": "Tayo Akinyemi", 
         "id": "371", 
         "location": "", 
-        "pathways": "Global Innovation Network", 
+        "pathways": "Global Innovation Network, Global Village Garage", 
         "scheduleblock": "", 
         "space": "The Global Village", 
         "title": "Tech Hubs 2.0: What is a Tech Hub's Role in Society?"
@@ -2048,6 +2050,7 @@
         "title": "How do communities come together?"
     }, 
     {
+        "day": "Saturday", 
         "description": "The visual basics—how to see when we are looking—will help us find faces in the most unexpected places. These faces-in-places found in sinks, walls, street furniture, architecture, etc. will be photographed in and around MozFest for our next session.", 
         "facilitator_array": [
             "Metod Blejec,  @metodb "
@@ -2056,37 +2059,45 @@
         "id": "43", 
         "location": "", 
         "pathways": "Seeing–Drawing–Producing Smilies, ArtsAward pathway", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "Localization", 
+        "start": "10:45 AM", 
         "title": "Photographing Smilies"
     }, 
     {
+        "day": "Saturday", 
         "description": "Participants of different ages – hopefully with a sizable number of children – will join in a creative project which involves playing with the Songhay language and cultural heritage through visual aids. At first glance, the exercise involves exploring an unfamiliar language, one they would rarely know about before joining this session. They will work in pairs or groups to put together letters into words, words into phrases and even simple sentences, match some words and phrases with images or situations that they encounter on worksheets. There is no right or wrong answer. If someone insists that his/her word exists in Songhay, they can prove it by using a dictionary. If the word doesn't appear, it may still exist; since the dictionary is still not fully developed like one in English. In all, the playful interaction with a language and its imagery is the at heart of this session.", 
         "facilitator_array": [
-            "Mohomodou Houssouba"
+            "Mohomodou Houssouba", 
+            "Jessica Bailey", 
+            "Phillipa Bailey"
         ], 
-        "facilitators": "Mohomodou Houssouba", 
+        "facilitators": "Mohomodou Houssouba, Jessica Bailey, Phillipa Bailey", 
         "id": "415", 
         "location": "", 
         "pathways": "Seeing–Drawing–Producing Smilies, [youthZone] Links with us, ArtsAward pathway", 
-        "scheduleblock": "", 
+        "scheduleblock": "all-saturday", 
         "space": "Localization", 
         "title": "Using crafts to teach localization processes"
     }, 
     {
+        "day": "Saturday", 
         "description": "Learn how to localize web application using new technology or learn what needed in order to fully localize a website.", 
         "facilitator_array": [
-            "Ali Al Dallal"
+            "Ali Al Dallal", 
+            "Leandro Regueiro"
         ], 
-        "facilitators": "Ali Al Dallal", 
+        "facilitators": "Ali Al Dallal, Leandro Regueiro", 
         "id": "416", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "Localization", 
+        "start": "10:45 AM", 
         "title": "How to localize web application"
     }, 
     {
+        "day": "Saturday", 
         "description": "We will review our found faces-in-places we photographed and choose the favourite “smily” (or any other emotion-full face). We will draw and/or transfer the face(s) from our photographs onto paper using pencils, pens, ball pens, markers, etc. and prepare it for our last session.", 
         "facilitator_array": [
             "Metod Blejec, @metodb "
@@ -2095,20 +2106,39 @@
         "id": "42", 
         "location": "", 
         "pathways": "Seeing–Drawing–Producing Smilies", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "Localization", 
+        "start": "03:30 PM", 
         "title": "Drawing these Smilies"
     }, 
     {
+        "day": "Sunday", 
         "description": "Faces-in-places drawings will help us digitalise these smilies into vectors. We will trace or digitally recreate them in a vector graphic on the computer (using Illustrator, Inkscape, etc.). Then we will play with colour, framing, spacing and other design principles. Voila, smiley icon is done! Lets upload it.", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "44", 
         "location": "", 
         "pathways": "Seeing–Drawing–Producing Smilies", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-7", 
         "space": "Localization", 
+        "start": "02:45 PM", 
         "title": "Digitalise Smiley Icon"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "Building on our knowledge of localizing the web. Practical localization time.", 
+        "facilitator_array": [
+            "Ali Al Dallal", 
+            "Leandro Regueiro"
+        ], 
+        "facilitators": "Ali Al Dallal, Leandro Regueiro", 
+        "id": "416", 
+        "location": "", 
+        "pathways": "", 
+        "scheduleblock": "sunday-session-block-6", 
+        "space": "Localization", 
+        "start": "12:45 PM", 
+        "title": "How to localize web application (advanced)"
     }, 
     {
         "description": "", 
