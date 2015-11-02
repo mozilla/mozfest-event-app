@@ -2222,14 +2222,16 @@
         "title": "How to localize web application (advanced)"
     }, 
     {
+        "day": "Saturday", 
         "description": "", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "605", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "Mozilla Learning Networks", 
+        "start": "10:45 AM", 
         "title": "MLN Web Literacy Feedback Station"
     }, 
     {
