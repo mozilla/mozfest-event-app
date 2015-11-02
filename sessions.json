@@ -2840,9 +2840,11 @@
         "day": "Saturday", 
         "description": "Together we will design and create small JavaScript browser applications (or Firefox OS applications) which will mix multiple open data sets together to create useful information. The takeaway thoughts will be that data is useful, but combining multiple data sets together is even better!", 
         "facilitator_array": [
-            "Jacob Tomlinson"
+            "Jacob Tomlinson, @_jacobtominson, Met Office", 
+            "Rachel Prudden, @RachelPrudden, Met Office", 
+            "Ian Gentry Niall Robinson and Tom Powell and Ross Middleham"
         ], 
-        "facilitators": "Jacob Tomlinson", 
+        "facilitators": "Jacob Tomlinson, Rachel Prudden, Ian Gentry Niall Robinson and Tom Powell and Ross Middleham", 
         "id": "279", 
         "location": "", 
         "pathways": "Citizen Science", 
@@ -2855,8 +2857,8 @@
         "day": "Sunday", 
         "description": "By the end of the session participants will be able to combine the contents of an ORCID record with publicly available metadata held by Crossref and Datacite into coherent citation lists in a variety of citation and display formats.  These live lists can then be incorporated within other applications such as blogs, citation managers or cris systems.", 
         "facilitator_array": [
-            "Tom Demeranville", 
-            "Laura Rueda"
+            "Tom Demeranville, @tomdemeranville, ORCID EU", 
+            "Laura Rueda, @espacial, Datacite"
         ], 
         "facilitators": "Tom Demeranville, Laura Rueda", 
         "id": "278", 
@@ -2871,7 +2873,7 @@
         "day": "Sunday", 
         "description": "There is a growing challenge of effective storage, sharing, management and analysis of large multifaceted scientific data. In this session we will share our experience in building a collaborative system for managing complex research data and discuss the ongoing and emerging challenges in data management from the user experience point of view. We will share what we learned as developers at HUBzero, a well established open source web platform for scientific research, learning, and collaboration serving communities of close to 500,000 users across a variety of disciplines, including nanotechnology, manufacturing, climate modeling and medical research. We will brainstorm on new ways to explore scientific data on the web and how we can design better web systems and interfaces to help researchers with their complex data needs.", 
         "facilitator_array": [
-            "Alissa Nedossekina"
+            "Alissa Nedossekina, @snowwitje, HUBzero, Purdue University"
         ], 
         "facilitators": "Alissa Nedossekina", 
         "id": "493", 
@@ -2886,8 +2888,8 @@
         "day": "Saturday", 
         "description": "In the field of drug trials, reproducibility of science is a cornerstone for efficiency and transparency of research. In the session participants will gain experience in a practical way the benefits researchers and the public can reap from applying content mining tools to large corpora of scientific texts.\nIn a practical example we will review drug papers regarding company contributions. The technology we’re going to employ is ready to extract named entities from specific parts of texts (e.g. company names in the acknowledgement section of a paper). A dataset includes metadata of a publication and data we extract from the content. Building on an example dataset, participants will be able to create and visualize relations between entities, e.g. authors, drugs, and companies. Participants will learn about practical aspects of content mining, and how to visualize data in e.g. a network graph or a timeseries.", 
         "facilitator_array": [
-            "Christopher Kittel", 
-            "Stefan Kasberger"
+            "Christopher Kittel, @chris_kittel, ContentMine", 
+            "Stefan Kasberger, @stefankasberger, "
         ], 
         "facilitators": "Christopher Kittel, Stefan Kasberger", 
         "id": "273", 
@@ -2902,8 +2904,8 @@
         "day": "Saturday", 
         "description": "Researchers from different disciplines have different software requirements. However, even across domains, similar patterns of requirements appear and it is often the case that the first thought is to buy closed software in that fulfil needs but often does not promote or allow open interoperability. This session will allow people to help build a toolbox of free/open source software needed to transition an existing “black box” research laboratory (that doesn’t share or collaborate on anything) into one that is more “open”. This can be used as a model/base for young researchers that want to encourage their lab to open up, but don’t know how to.", 
         "facilitator_array": [
-            "Billy Meinke", 
-            "Rob Davey"
+            "Billy Meinke, @billymeinke, The University of Hawaii", 
+            "Rob Davey, @froggleston, The Genome Analysis Centre"
         ], 
         "facilitators": "Billy Meinke, Rob Davey", 
         "id": "532", 
@@ -2918,8 +2920,8 @@
         "day": "Saturday", 
         "description": "In our session, we will build an IoT stack for schools.\nThe Internet of Things provides a fantastic opportunity for school children to acquire STEM skills while learning more about their immediate environment as well.\nBut there are a lot of IoT tools out there—so many, in fact, that it’s hard to know where to start.\nIn this workshop we will look at how to assemble an IoT stack for schools. This includes everything from hardware, and calibration, to data aggregation and coding tools.\nThe idea of this workshop is to share our knowledge with one another about tools and especially about gaps in the tool chain, from the point of view of parents, teachers and students. Participants will get hands-on experience of an IoT stack, with hardware provided by us. The goal will be to come up with a wish-list and suggestions about how Mozilla Science can help.", 
         "facilitator_array": [
-            "Brian Fuchs", 
-            "Margaret Gold"
+            "Brian Fuchs, @bcf5, ScienceMakers and The Mobile Collective", 
+            "Margaret Gold, @MobileMaggie, "
         ], 
         "facilitators": "Brian Fuchs, Margaret Gold", 
         "id": "535", 
@@ -2949,7 +2951,7 @@
         "day": "Sunday", 
         "description": "This session will teach participants how to use bionode.io [1] to do bioinformatics on the web. Bionode provides small JavaScript modules that can be used client and server side. Each module also has a UNIX command line interface, to be usable with other programming languages. They will also learn the philosophy of the project (small, highly reusable tools and code, etc [2]), and how they can contribute or create their own modules. In practice, they will learn how to fetch genomic data from public databases, process and visualize it (no biology background will be required). They will also learn how bionode can be is used with other open source projects such as Dat [3] and BioJS [4].\n1: http://bionode.io\n2: https://github.com/bionode/bionode-template#principles\n3: http://dat-data.com\n4: http://biojs.net", 
         "facilitator_array": [
-            "Bruno Vieira"
+            "Bruno Vieira, @bmpvieira, http://wurmlab.github.io"
         ], 
         "facilitators": "Bruno Vieira", 
         "id": "341", 
@@ -2977,7 +2979,7 @@
         "day": "Saturday", 
         "description": "Participants should come away with the knowledge and software tools to load data, process and visualise it, using Python, pandas and matplotlib, and to share Jupyter notebook files online.", 
         "facilitator_array": [
-            "Thomas Kluyver"
+            "Thomas Kluyver, @takluyver, "
         ], 
         "facilitators": "Thomas Kluyver", 
         "id": "543", 
@@ -2992,9 +2994,9 @@
         "day": "Saturday", 
         "description": "This session will allow people to experiment with tools used in mapping and analysis and visualization of datasets that I am using on the \"Police by numbers\" project with the ACLU of MA. Tools include: PostgreSQL + PostGIS, D3 and other JavaScript tools and PHPDataProcessor a tool written specifically for this, REST, Geo/TopoJSON, etc.", 
         "facilitator_array": [
-            "Paola Villarreal"
+            "Paola Villerreal, @paw, Mozilla Open Web Fellowship"
         ], 
-        "facilitators": "Paola Villarreal", 
+        "facilitators": "Paola Villerreal", 
         "id": "517", 
         "location": "", 
         "pathways": "", 
@@ -3007,10 +3009,11 @@
         "day": "Saturday", 
         "description": "This session introduces newcomers to the essentials of Git and GitHub. Our goal is to give everyone an approachable and hands on experience with the tools as well as the common practices and social nuances in open source, gaining confidence to get involved themselves.", 
         "facilitator_array": [
-            "Jessica Lord", 
-            "Mu-An Chiou"
+            "Jessica Lord, @jllord, GitHub", 
+            "Mu-An Chiou, , GitHub", 
+            "Luke Hefson , , GitHub"
         ], 
-        "facilitators": "Jessica Lord, Mu-An Chiou", 
+        "facilitators": "Jessica Lord, Mu-An Chiou, Luke Hefson ", 
         "id": "256", 
         "location": "", 
         "pathways": "Tools and Analysis", 
@@ -3023,9 +3026,9 @@
         "day": "Sunday", 
         "description": "Hypothesis is building an open platform for discussion on the web. Hypothesis leverages annotation to enable sentence-level critique or note-taking on top of any page: news, blogs, scientific articles, books, terms of service, legislation and more. From simply taking notes to adding critical knowledge, an open annotation layer engineered for the web provides a powerful technology for improving information flow in science. Hypothesis can be installed via a simple browser extension for individual use, proxied through a URL on any page, or  incorporated directly into platforms.  Current uses include pre- and post-publication peer review, making science more understandable, and tagging key concepts in the literature.  In this sprint, we will provide an introduction to web-based annotation, and hands-on tutorials directed towards both end interested in annotation and developers who want to incorporate it into their platforms.", 
         "facilitator_array": [
-            "Dan Whaley", 
+            "Dan Whaley, @hypothes_is, Hypothes.is", 
             "Lena Gunn", 
-            "Robert Knight"
+            "Robert Knight, , Hypothes.is"
         ], 
         "facilitators": "Dan Whaley, Lena Gunn, Robert Knight", 
         "id": "254", 
@@ -3040,7 +3043,7 @@
         "day": "Saturday", 
         "description": "In September 2015 our lab, the MIT Lab of Computational Physiology, will be publicly releasing MIMIC-II, the latest version of a unique, publicly accessible critical care database. The data comprises detailed information on ~60,000 patient stays in critical care.\nIn the workshop we will work with participants to carry out an analysis of the dataset using SQL and Python. Our aims include (1) emphasise the value of open health data (2) teach analysis and computing skills (3) create teams who will go on to publish research studies using MIMIC (4) and ultimately lead us towards better patient care and outcomes.\nThe workshop would be based on the \"MIT Critical Care Datathons\" that we have held at MIT: http://criticaldata.mit.edu", 
         "facilitator_array": [
-            "Tom Pollard", 
+            "Tom Pollard, @tompollard, Massachusetts Institute of Technology", 
             "Matthieu Komorowski", 
             "Alistair Johnson, Justin Salciccioli"
         ], 
