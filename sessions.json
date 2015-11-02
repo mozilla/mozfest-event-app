@@ -977,9 +977,9 @@
         "facilitators": "", 
         "id": "612", 
         "location": "", 
-        "pathways": "", 
+        "pathways": "Global Village Garage", 
         "scheduleblock": "", 
-        "space": "", 
+        "space": "The Global Village", 
         "title": "Fabble: Making stories of Making something"
     }, 
     {
@@ -988,9 +988,9 @@
         "facilitators": "", 
         "id": "632", 
         "location": "", 
-        "pathways": "", 
+        "pathways": "Global Village Garage", 
         "scheduleblock": "", 
-        "space": "", 
+        "space": "The Global Village", 
         "title": "MozOpenHard - Session"
     }, 
     {
@@ -999,9 +999,9 @@
         "facilitators": "", 
         "id": "628", 
         "location": "", 
-        "pathways": "", 
+        "pathways": "Global Village Garage", 
         "scheduleblock": "", 
-        "space": "", 
+        "space": "The Global Village", 
         "title": "FlyWeb"
     }, 
     {
@@ -1010,9 +1010,9 @@
         "facilitators": "", 
         "id": "633", 
         "location": "", 
-        "pathways": "", 
+        "pathways": "Global Village Garage", 
         "scheduleblock": "", 
-        "space": "", 
+        "space": "The Global Village", 
         "title": "Firefox OS - Session"
     }, 
     {
@@ -1021,9 +1021,9 @@
         "facilitators": "", 
         "id": "629", 
         "location": "", 
-        "pathways": "", 
+        "pathways": "Global Village Garage", 
         "scheduleblock": "", 
-        "space": "", 
+        "space": "The Global Village", 
         "title": "Firefox OS Smart TV - Games and Demos"
     }, 
     {
@@ -1032,9 +1032,9 @@
         "facilitators": "", 
         "id": "631", 
         "location": "", 
-        "pathways": "", 
+        "pathways": "Global Village Garage", 
         "scheduleblock": "", 
-        "space": "", 
+        "space": "The Global Village", 
         "title": "MozOpenHard - Demo"
     }, 
     {
@@ -1043,10 +1043,120 @@
         "facilitators": "", 
         "id": "634", 
         "location": "", 
-        "pathways": "", 
+        "pathways": "Global Village Garage", 
         "scheduleblock": "", 
-        "space": "", 
+        "space": "The Global Village", 
         "title": "WoT Maker, Browser J5, Beacon Scanner"
+    }, 
+    {
+        "description": "We’ll create a newspaper in the ‘near’ future, with ads for yet-to-be-invented things. We’ll be adding to and editing the paper to be published at the end of day 2.", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "644", 
+        "location": "", 
+        "pathways": "Global Village Kitchen", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "A day in the connected home in 2025"
+    }, 
+    {
+        "description": "Low carbon lunch.\n\nWe’ll provide lunch for 10 people based on a low carbon attitude, local ingredients, with no or little preparation needed using water or extra energy (heating). Let’s talk about kitchens as the most energy-hungry part of the house and come up with solutions we can draw while eating. You’re welcome to bring your own lunch or course, but make sure it’s also low carbon!", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "645", 
+        "location": "", 
+        "pathways": "Global Village Kitchen", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Low carbon lunch"
+    }, 
+    {
+        "description": "IOT Design Manifesto: 6 kitchen cases\n\nCooking up dilemmas and ethical design opportunities around the kitchen.", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "646", 
+        "location": "", 
+        "pathways": "Global Village Kitchen", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "IOT Design Manifesto: 6 kitchen cases"
+    }, 
+    {
+        "description": "The Connected Home: Thoughts on living in tomorrow's home (and how to make it better)\n\nWhat will be the the challenges and opportunities in a connected home? An open conversation.", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "647", 
+        "location": "", 
+        "pathways": "Global Village Kitchen", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "The Connected Home: Thoughts on living in tomorrow's home (and how to make it better)"
+    }, 
+    {
+        "description": "Tea Time with San Francisco\n\nThoughts on the modernity of recipe books round the turn of the century, or the kitchen as both a public and private space.\n\n(We’ll have cake and tea during this session)", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "648", 
+        "location": "", 
+        "pathways": "Global Village Kitchen", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Tea Time with San Francisco"
+    }, 
+    {
+        "description": "We’ll kick off this session with films of smart kitchens from the past looking at their future which is sometimes supposed to be our present and we’ll discuss these visions in a group.", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "649", 
+        "location": "", 
+        "pathways": "Global Village Kitchen", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Beyond Hollywood: How women can contribute to smart home development"
+    }, 
+    {
+        "description": "What do children have to teach us about how to eat lunch? Can they help us design better packed lunches for ourselves? Can tech help?\n\nWe’d love to work with someone on this session and bring appropriate food for it!", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "650", 
+        "location": "", 
+        "pathways": "Global Village Kitchen", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Lunch for and with children"
+    }, 
+    {
+        "description": "A collaborative hands-on workshop on how we can build apps that consider the needs and desires of families for smarter kitchens - all through a user-centred design approach.", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "651", 
+        "location": "", 
+        "pathways": "Global Village Kitchen", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "Apps for the kitchen"
+    }, 
+    {
+        "description": "We will use cardboard to build new kitchen layouts which we think will live up to the conclusions and topics we’ve been discussing over the past days. Parents, children, all welcome.", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "652", 
+        "location": "", 
+        "pathways": "Global Village Kitchen", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "DIY Cardboard Kitchen continued"
+    }, 
+    {
+        "description": "Come and see the work of the past two days, we’ll offer you a glass of bubbly or juice and you can walk around, ask questions, add your last minute rekons before we take it all down at 5h30pm.", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "653", 
+        "location": "", 
+        "pathways": "Global Village Kitchen", 
+        "scheduleblock": "", 
+        "space": "The Global Village", 
+        "title": "The last minute museum"
     }, 
     {
         "day": "Saturday", 
