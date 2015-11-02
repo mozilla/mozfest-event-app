@@ -1040,6 +1040,7 @@
         "title": "WoT Maker, Browser J5, Beacon Scanner"
     }, 
     {
+        "day": "Saturday", 
         "description": "Today's activist campaigns are innovative and connected, leveraging the web to build collective voice. Open source practice could amplify the power of contemporary activism by sharing resources and learning outcomes openly between movements. In this session we will use GitHub to codesign a framework for planning activist campaigns. It won't be too technical - if you can use a web browser you can learn to use GitHub during the session! We'll create a template to guide new movements with the benefit of your past experiences and together start to build a community-led repository for open source activism.", 
         "facilitator_array": [
             "Sue Smith", 
@@ -1049,11 +1050,13 @@
         "id": "271", 
         "location": "", 
         "pathways": "Building a Crowd", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "Digital Citizenship", 
+        "start": "02:15 PM", 
         "title": "Campaign Hack - Codesigning a Framework for Activism"
     }, 
     {
+        "day": "Saturday", 
         "description": "Privacy issues often result just due to how technology is architected! We address the latest issues in browser privacy and transparency mechanisms. Want to hear about the current browser developments and the possible privacy risks and walk away equipped with a privacy-sensitive mindset and concepts? Are we satisfied with how browsers work? Do we know what data are provided to Web sites by our browsers? We will discuss if - and how to possibly improve the user interfaces.", 
         "facilitator_array": [
             "Lukasz Olejnik, @lukOlejnik"
@@ -1062,11 +1065,13 @@
         "id": "221", 
         "location": "", 
         "pathways": "Backdoors + Cryptowars", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "Digital Citizenship", 
+        "start": "03:30 PM", 
         "title": "Putting users in charge: Introduction to the browser privacy UI"
     }, 
     {
+        "day": "Sunday", 
         "description": "Participants will learn about and discuss issues around copyright reform in the EU, including current state of play, Mozilla's stance, foreseen obstacles that could come up in 2016, and what our coalition partners say.", 
         "facilitator_array": [
             "Gerv Markham, Mozilla", 
@@ -1076,11 +1081,13 @@
         "id": "381", 
         "location": "", 
         "pathways": "What's your policy?", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "Digital Citizenship", 
+        "start": "11:30 AM", 
         "title": "CopyBetter: Copyright Reform in the EU"
     }, 
     {
+        "day": "Sunday", 
         "description": "My goals for this session would be the following:\n1)        Raise awareness about the deadly consequences and harmful effects caused by the silent pandemic of cyberbullying and internet negativity.\n2)        Educate participants on the alarming statistics on teen-age suicides, depression, anxiety and low self-esteem, all caused by cyberbullying.\n3)        Discuss why most of the parental control or cyberbullying reporting solutions are not effective?\n4)        Why does cyberbullying occur more in adolescents than adults?\n5)        How does the ReThink software and movement tackle’s cyberbullying proactively?\n6)        Why “ReThinking” before posting is the best strategy and how can it be integrated as part of our education systems and technology world.\n7)        I strongly believe that, no one has to pay to be safe on the internet. I hope to have the participants carry this message", 
         "facilitator_array": [
             "Trisha  Prabhu, @TrishPrabhu, ReThink"
@@ -1089,8 +1096,9 @@
         "id": "187", 
         "location": "", 
         "pathways": "Don't Feed the Trolls, [youthZone] Links with us", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-7", 
         "space": "Digital Citizenship", 
+        "start": "02:45 PM", 
         "title": "ReThink – An effective way to stop Cyber bullying"
     }, 
     {
@@ -1110,6 +1118,7 @@
         "title": "Tools for Travelers on the Dark Side of the Internet"
     }, 
     {
+        "day": "Sunday", 
         "description": "The internet has provided the opportunity for people all over the world to unify and spread a message. This session will be focused on brainstorming how to maximize the power of this connectedness for driving social and political change. We will review a few cases of the how communities on the internet have organized towards making a positive change, and then begin to bring together thoughts and knowledge on the most valuable techniques and online resources for empowering movements.", 
         "facilitator_array": [
             "Bomani McClendon"
@@ -1118,8 +1127,9 @@
         "id": "236", 
         "location": "", 
         "pathways": "Building a Crowd", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-8", 
         "space": "Digital Citizenship", 
+        "start": "04:00 PM", 
         "title": "Serving Social Change: Leveraging the Internet for the Empowerment of Social Movements."
     }, 
     {
@@ -1136,6 +1146,7 @@
         "title": "How to Fight an Internet Shutdown"
     }, 
     {
+        "day": "Sunday", 
         "description": "* Security and Privacy being an important part of our online lives. This session will help attendees understand privacy and security on the internet better.\n* I am taking a Firefox centric angle to showcase how Firefox puts the user first by guarding user data with privacy and  “do not tack” focussed approach.\n* Participants will learn:\n** How to take care of their privacy online\n** Best practices to follow\n** How firefox can help them do it - using Firefox Like a BOSS\n** Various Privacy addons that can help user guard against unwanted tracking, ads and third-party cookies.\n** Understanding cache, cookies and permissions on website.\n** What is secure browsing (https)\n** Cookies and trackers\n*  This session is contemporary, essential and practical discussing Privacy & Security with peers, students, teachers and netizens.", 
         "facilitator_array": [
             "Ankit Gadgil"
@@ -1144,11 +1155,13 @@
         "id": "169", 
         "location": "", 
         "pathways": "Backdoors + Cryptowars", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "Digital Citizenship", 
+        "start": "11:30 AM", 
         "title": "Your Privacy on the Web (Using Firefox Browser and more)"
     }, 
     {
+        "day": "Saturday", 
         "description": "Curt Schilling, Alanah Pearce and “Target’s Customer Service” are just a few people who’ve made news with creative ways to expose and shut down trolls on the Internet.  In this interactive session, iKeepSafe will share and request feedback on two projects designed to empower those who want to foster greater civility and respect online.  The first project, a partnership with Beyond Differences, is designed to address root causes of negative behavior by working with schools to promote inclusion and kindness.  The second project, working with the Tyler Clementi Center for Law & Policy at NY Law School, will provide education and resources to students, families, lawyers and judges as well as a first-of-its-kind law clinic dedicated to helping victims of online harassment.  During our session, we will explore ways to ensure these projects are inclusive and address real needs and will invite attendees to share their own ideas and projects.", 
         "facilitator_array": [
             "Hallie Saber, iKeepSafe"
@@ -1157,11 +1170,13 @@
         "id": "315", 
         "location": "", 
         "pathways": "Don't Feed the Trolls", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "Digital Citizenship", 
+        "start": "03:30 PM", 
         "title": "Empowerment -- A Weapon Against Trolls"
     }, 
     {
+        "day": "Saturday", 
         "description": "Privacy Lab is the place to get answer to all of your privacy questions.  Come meet our experts and explore privacy topics at your own pace! Booths will vary each hour and will include Ask Me Anything, Firefox Privacy Features, Digital Footprints, Privacy Tools from the Library Freedom Project, Router Hacking, DNT and the Future of Tracking, OffGridTheGame, and more.", 
         "facilitator_array": [
             "Tennyson Holloway", 
@@ -1173,11 +1188,13 @@
         "id": "461", 
         "location": "", 
         "pathways": "Backdoors + Cryptowars", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "Digital Citizenship", 
+        "start": "10:45 AM", 
         "title": "Privacy Lab #1"
     }, 
     {
+        "day": "Saturday", 
         "description": "Privacy Lab is the place to get answer to all of your privacy questions.  Come meet our experts and explore privacy topics at your own pace! Booths will vary each hour and will include Ask Me Anything, Firefox Privacy Features, Digital Footprints, Privacy Tools from the Library Freedom Project, Router Hacking, DNT and the Future of Tracking, OffGridTheGame, and more.", 
         "facilitator_array": [
             "Tennyson Holloway", 
@@ -1189,11 +1206,13 @@
         "id": "461", 
         "location": "", 
         "pathways": "Backdoors + Cryptowars", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "Digital Citizenship", 
+        "start": "12:00 PM", 
         "title": "Privacy Lab #2"
     }, 
     {
+        "day": "Sunday", 
         "description": "Privacy Lab is the place to get answer to all of your privacy questions.  Come meet our experts and explore privacy topics at your own pace! Booths will vary each hour and will include Ask Me Anything, Firefox Privacy Features, Digital Footprints, Privacy Tools from the Library Freedom Project, Router Hacking, DNT and the Future of Tracking, OffGridTheGame, and more.", 
         "facilitator_array": [
             "Tennyson Holloway", 
@@ -1205,11 +1224,13 @@
         "id": "461", 
         "location": "", 
         "pathways": "Backdoors + Cryptowars", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-7", 
         "space": "Digital Citizenship", 
+        "start": "02:45 PM", 
         "title": "Privacy Lab #3"
     }, 
     {
+        "day": "Sunday", 
         "description": "Privacy Lab is the place to get answer to all of your privacy questions.  Come meet our experts and explore privacy topics at your own pace! Booths will vary each hour and will include Ask Me Anything, Firefox Privacy Features, Digital Footprints, Privacy Tools from the Library Freedom Project, Router Hacking, DNT and the Future of Tracking, OffGridTheGame, and more.", 
         "facilitator_array": [
             "Tennyson Holloway", 
@@ -1221,11 +1242,13 @@
         "id": "461", 
         "location": "", 
         "pathways": "Backdoors + Cryptowars", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-8", 
         "space": "Digital Citizenship", 
+        "start": "04:00 PM", 
         "title": "Privacy Lab #4"
     }, 
     {
+        "day": "Sunday", 
         "description": "Most open___ work happens through people talking to each other -- whether from meeting on IRC, Twitter, in-person, or a connection through an intro. At it’s core, “open” is about working collectively to leverage networks to do, make, build, tell stories, protect, share, talk, meet, etc. In this session, let’s work on the human network, develop shared principles and brainstorm for the future #openweb community.", 
         "facilitator_array": [
             "Georgia Bullen, @georgiamoon, Open Tech Institute"
@@ -1234,11 +1257,13 @@
         "id": "459", 
         "location": "", 
         "pathways": "Building a Crowd", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-7", 
         "space": "Digital Citizenship", 
+        "start": "02:45 PM", 
         "title": "Building our #OpenWeb Community"
     }, 
     {
+        "day": "Sunday", 
         "description": "A “Day of Action” is a common pattern in activism, join this session to learn about an open-source webapp that helps people & organizations coordinate large-scale collective actions.\nThe “Day of Action” app started in December 2014, on the heels police murdering Mike Brown in Ferguson, Missouri. High school students across the US began tweeting #HandsUpWalkOut--they were planning a national student walkout to protest police violence against people of color. This wasn’t organized by a formal organization, just high school kids on social media. That night I made the first version of “Day of Action” and put it on HandsUpWalkOut.com. Over the next two days,  student organizers used the app to coordinate 100+ walkouts & related actions. The tool provides a workflow for adding a local event and generates a map so others can find local actions. Thousands of people participated and the tool was used 100k times that weekend.", 
         "facilitator_array": [
             "Drew Wilson"
@@ -1247,11 +1272,13 @@
         "id": "522", 
         "location": "", 
         "pathways": "Building a Crowd, New Technologies for Participation -- Challenge", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-6", 
         "space": "Digital Citizenship", 
+        "start": "12:45 PM", 
         "title": "Day of Action: A Web App to Facilitate Decentralized Collective Action"
     }, 
     {
+        "day": "Sunday", 
         "description": "Goal of the session is to make them aware of the following things:\n* What is an information footprint?\n* The fact that they are leaving digital footprints with everything they do (Intentionally/unintentionally).\n* Factors that affect how exposed their information footprint is.\n* How this footprint is affected by the aggregation and mining of data from different sources to judge a person's behavior and make their picture on that basis.\n* Identify which of the ways they leave footprints they can control or minimize.", 
         "facilitator_array": [
             "Diwanshi Pandey, @diwanship, Mozilla Community"
@@ -1260,11 +1287,13 @@
         "id": "242", 
         "location": "", 
         "pathways": "Backdoors + Cryptowars", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-6", 
         "space": "Digital Citizenship", 
-        "title": "Have you Measured your Information Footprint? \"Its Larger Than You Think!!!\""
+        "start": "12:45 PM", 
+        "title": "Your Digital Footprint -- It's Larger Than You Think!"
     }, 
     {
+        "day": "Saturday", 
         "description": "Discuss and learn the definitions of net neutrality, the most popular public outcries and perspectives, understand the experiences of different countries and especially draw parallels and/or distinctions between the developing country experience and the developed country experience.\nDiscover its’ impact on start-ups and web innovation.\nShare methodology for identifying and engaging critical stakeholders for a nation with a view to finding balance and mapping a way forward that does not infringe on internet governance guidelines and rights.\nRaise awareness on available resources and support groups in the internet access space.", 
         "facilitator_array": [
             "Kudzai M Mubaiwa", 
@@ -1274,11 +1303,13 @@
         "id": "249", 
         "location": "", 
         "pathways": "Building a Crowd, Global Innovation Network", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "Digital Citizenship", 
+        "start": "10:45 AM", 
         "title": "Engaging Stakeholders on Net Neutrality & Impact on Youth Start-Ups /Innovation in Developing Countries "
     }, 
     {
+        "day": "Sunday", 
         "description": "Making a free and open Internet requires effective communication about often complex data. We want inform, educate and activate audiences about the Internet, but data alone can’t accomplish that. Using a small group collaborative design process we’ll explore the issues and contexts of communicating and visualizing Internet measurement data.", 
         "facilitator_array": [
             "Chris Ritzo, M-Lab", 
@@ -1288,24 +1319,13 @@
         "id": "453", 
         "location": "", 
         "pathways": "Backdoors + Cryptowars, Science Fair", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-6", 
         "space": "Digital Citizenship", 
+        "start": "12:45 PM", 
         "title": "Open Tools for Network Measurement "
     }, 
     {
-        "description": "People will know from a practical point of view what types of tecnocensura (tech censorship) exist, the sophisticated forms in which they operate and how we have developed methods in Mexico using open software tools and especially network communication techniques to deal with tecnocensura. Together, we'll learn how to detect bot attacks using Gephi, and hopefully start scoping new antibot software.", 
-        "facilitator_array": [
-            "Alberto Escorcia"
-        ], 
-        "facilitators": "Alberto Escorcia", 
-        "id": "337", 
-        "location": "", 
-        "pathways": "Backdoors + Cryptowars", 
-        "scheduleblock": "", 
-        "space": "Digital Citizenship", 
-        "title": "Tecnocensura: How to Detect and Face a Bot Attack"
-    }, 
-    {
+        "day": "Saturday", 
         "description": "To begin thinking about online harassment as a technical problem as well as a social problem—one that can be both mitigated and exacerbated by technology and the technologists that create it. The framework discussed would empower creators, rather than leaving them to be helpless in the face of deep social ills that are reflected in online spaces. The session would summarize and build on top of my book, The Internet of Garbage, using the work of Randi Harper (GG Autoblocker) and Jacob Hoffman-Andrews (Blocktogether) as case studies.", 
         "facilitator_array": [
             "Sarah Jeong, @sarahjeong"
@@ -1314,11 +1334,13 @@
         "id": "343", 
         "location": "", 
         "pathways": "Building Online Communities, Don't Feed the Trolls, New Technologies for Participation -- Challenge", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "Digital Citizenship", 
+        "start": "12:00 PM", 
         "title": "Architecting Against Online Harassment"
     }, 
     {
+        "day": "Saturday", 
         "description": "During this session we will experience the various methods of participating and contributing to the Tor network. Tor, an open source software package combined with a global network of developers and volunteers, provides censorship circumvention and anonymous access for Internet users looking to access content or express themselves online.", 
         "facilitator_array": [
             "Tim Summut, @t1msammut, Amnesty International / Ford-Mozilla Fellow", 
@@ -1329,11 +1351,13 @@
         "id": "494", 
         "location": "", 
         "pathways": "Backdoors + Cryptowars", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "Digital Citizenship", 
+        "start": "02:15 PM", 
         "title": "Be Torrific!: Promoting Freedom of Expression with Tor"
     }, 
     {
+        "day": "Saturday", 
         "description": "Participants will have the opportunity to pitch Internet policy issues and spaces in which Mozilla should be more involved to members of the Mozilla Policy Team and field experts.", 
         "facilitator_array": [
             "Jochai Ben-Avie, Mozilla"
@@ -1342,9 +1366,10 @@
         "id": "171", 
         "location": "", 
         "pathways": "What's your policy?", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "Digital Citizenship", 
-        "title": "Dino's Den"
+        "start": "02:15 PM", 
+        "title": "Dino's Den, Part 1"
     }, 
     {
         "description": "Task Forces are born out of recognition that like code, public policy has an impact on the shape and health of the open Web. Through task forces, we can empower people to create measurable changes in public policy to protect the Internet as a global public resource, open and accessible to all. In this session, we’ll use Mozilla's earlier net neutrality campaign and privacy teach-ins with the Indian community as a case study, and see how we can replicate this collaboration by bringing together Advocacy Task Forces in other regions. Come learn how you can participate.", 
@@ -1362,20 +1387,7 @@
         "title": "Join the Advocacy and Teach-In Task Forces"
     }, 
     {
-        "description": "Off Grid is a video game about digital rights. It is an adventure, satire and stealth game about a mishap antihero. You play an everyman pencil pusher, who is oblivious to the city's prying and spying, corporate-sponsored government until a series of dark events unfold.", 
-        "facilitator_array": [
-            "Rich Metson, @richmetson, @OffGridTheGame ", 
-            "Pontus Schonberg"
-        ], 
-        "facilitators": "Rich Metson, Pontus Schonberg", 
-        "id": "421", 
-        "location": "", 
-        "pathways": "Science Fair", 
-        "scheduleblock": "", 
-        "space": "Digital Citizenship", 
-        "title": "Off Grid - Exploring digital rights through entertainment"
-    }, 
-    {
+        "day": "Sunday", 
         "description": "This session is a mini investigation of human rights abuses, drawing upon real life scenarios, that will enable participants to experience first hand what it takes to be a human rights CSI. It involves searching for content, thinking of chains of custody, documenting and verifying open source intelligence like satellite imagery, videos, images, text based reports, etc. and building an evidence wall.", 
         "facilitator_array": [
             "Milena Marin"
@@ -1384,11 +1396,13 @@
         "id": "129", 
         "location": "", 
         "pathways": "R-E-S-P-E-C-T", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-8", 
         "space": "Digital Citizenship", 
+        "start": "04:00 PM", 
         "title": "Become a Human Rights CSI"
     }, 
     {
+        "day": "Sunday", 
         "description": "n this session we will remix the Feminist Principles of the Internet. We will come up with a version of these Principles aimed at people that love the Internet and believe in gender equality. And added fun challenge will be to make sure these Principles are tweetable (having 140 characters or less).\n\nNo laptop is needed for this session. All you need is eagerness to discuss the relation between women and the Internet and its related components (freedom of expression, violence, access, representation, economy and more).\n\nThese Principles were published by the APC (Association for Progressive Communications).", 
         "facilitator_array": [
             "Andrea Del Rio, @andredelrio, Association for Progressive Communications / Ford-Mozilla Fellow"
@@ -1397,11 +1411,13 @@
         "id": "514", 
         "location": "", 
         "pathways": "Don't Feed the Trolls, Global Village Athena Library, R-E-S-P-E-C-T", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-8", 
         "space": "Digital Citizenship", 
+        "start": "04:00 PM", 
         "title": "A Feminist Internet in 140 Characters"
     }, 
     {
+        "day": "Saturday", 
         "description": "We will explore the needs of transparency and accountability advocates for online tools and look at past efforts to create online tools for this sector.  Transparency and accountability work takes on many forms, from exposing corruption to pushing governments to releasing data about their activities.  Online tools have a particularly central role in helping to facilitate this work - but often suffer from usability issues and having sound business models behind them.  This session will focus on capturing lessons learned and developing tools that will succeed in supporting the work that is needed over the next few decades to assure accountability becomes a global cultural norm.", 
         "facilitator_array": [
             "Dirk Slater, @fabrider"
@@ -1410,11 +1426,13 @@
         "id": "433", 
         "location": "", 
         "pathways": "Building a Crowd", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "Digital Citizenship", 
+        "start": "12:00 PM", 
         "title": "Tech Strategies for Grassroots Advocacy"
     }, 
     {
+        "day": "Sunday", 
         "description": "We've seen incredible examples of open science and Citizen Science that have invited mass participation in addressing big scientific challenges: finding a cure for cancer, mapping planets or understanding our natural environment. We want to see if the characteristics of citizen science: mass participation, networked technology, open and accessible design, and the network effect can address big social challenges such as community health, youth unemployment or mental health. This session will work with the MozFest community to explore, hack and investigate the potential of citizen (social) science, building on our work in this area and working with a broader community to push forward this area of high potential. Participants will contribute to a new area of investigation, and one that can have a dramatic effect on the way we address big social issues today.", 
         "facilitator_array": [
             "Kieron Kirkland"
@@ -1423,11 +1441,13 @@
         "id": "435", 
         "location": "", 
         "pathways": "Building a Crowd", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "Digital Citizenship", 
+        "start": "11:30 AM", 
         "title": "Citizen (social) Science"
     }, 
     {
+        "day": "Saturday", 
         "description": "Attendees will learn about the current state of online tracking and user opt-out. They'll become familiar with Do Not Track history and EFF's new DNT policy as well as modern ad blocking tools. Attendees will have a sense of the online tracking ecosystem, and will have an opportunity to voice their concerns and suggestions for how to reform it. The session will also cover the technical details of how browsers are able to be tracked, what prevention tools do to circumvent this, and what browsers can do by default to aid users and tools. The hope is that attendees leave with a better understanding of what is going on and feel empowered to use the tools available to help reform the state of web tracking.", 
         "facilitator_array": [
             "Noah Swartz, @swartzcr, EFF"
@@ -1436,8 +1456,9 @@
         "id": "218", 
         "location": "", 
         "pathways": "Backdoors + Cryptowars", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "Digital Citizenship", 
+        "start": "10:45 AM", 
         "title": "Ending Online Tracking - Do Not Track And Beyond"
     }, 
     {
