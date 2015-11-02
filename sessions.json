@@ -947,6 +947,83 @@
         "title": "Innovating in the open for better lives (and better products)"
     }, 
     {
+        "description": "", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "612", 
+        "location": "", 
+        "pathways": "", 
+        "scheduleblock": "", 
+        "space": "", 
+        "title": "Fabble: Making stories of Making something"
+    }, 
+    {
+        "description": "", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "632", 
+        "location": "", 
+        "pathways": "", 
+        "scheduleblock": "", 
+        "space": "", 
+        "title": "MozOpenHard - Session"
+    }, 
+    {
+        "description": "", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "628", 
+        "location": "", 
+        "pathways": "", 
+        "scheduleblock": "", 
+        "space": "", 
+        "title": "FlyWeb"
+    }, 
+    {
+        "description": "", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "633", 
+        "location": "", 
+        "pathways": "", 
+        "scheduleblock": "", 
+        "space": "", 
+        "title": "Firefox OS - Session"
+    }, 
+    {
+        "description": "", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "629", 
+        "location": "", 
+        "pathways": "", 
+        "scheduleblock": "", 
+        "space": "", 
+        "title": "Firefox OS Smart TV - Games and Demos"
+    }, 
+    {
+        "description": "", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "631", 
+        "location": "", 
+        "pathways": "", 
+        "scheduleblock": "", 
+        "space": "", 
+        "title": "MozOpenHard - Demo"
+    }, 
+    {
+        "description": "", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "634", 
+        "location": "", 
+        "pathways": "", 
+        "scheduleblock": "", 
+        "space": "", 
+        "title": "WoT Maker, Browser J5, Beacon Scanner"
+    }, 
+    {
         "description": "Today's activist campaigns are innovative and connected, leveraging the web to build collective voice. Open source practice could amplify the power of contemporary activism by sharing resources and learning outcomes openly between movements. In this session we will use GitHub to codesign a framework for planning activist campaigns. It won't be too technical - if you can use a web browser you can learn to use GitHub during the session! We'll create a template to guide new movements with the benefit of your past experiences and together start to build a community-led repository for open source activism.", 
         "facilitator_array": [
             "Sue Smith", 
