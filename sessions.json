@@ -393,6 +393,22 @@
     }, 
     {
         "day": "Saturday", 
+        "description": "Why do people join communities and volunteer their time? How do they understand their involvement? What's at the heart of their motivations? This workshop will bring you into the world of researching people's choices and motivations, introducing you to some tools and techniques you can apply to a host of research questions. You will also be invited to help with a practical study throughout MozFest, putting to use your new skills while helping the Mozilla team understand potential new contributors to Firefox OS.", 
+        "facilitator_array": [
+            "Rina Jensen, @rinajensen, Mozilla", 
+            "Jared Cole, deraj.eloc@gmail.com"
+        ], 
+        "facilitators": "Rina Jensen, Jared Cole", 
+        "id": "635", 
+        "location": "", 
+        "pathways": "Leading and Building Community Through Participation", 
+        "scheduleblock": "saturday-session-block-1", 
+        "space": "Building Participation", 
+        "start": "10:45 AM", 
+        "title": "Digging deep...a workshop on community research"
+    }, 
+    {
+        "day": "Saturday", 
         "description": "Participants will collaborate on a shared WebGL experience taking \"living light\" from a central server and creating individualized experiences. This project will illustrate the importance of opening up low-level APIs to the web, and how such technologies can empower transformative experiences.", 
         "facilitator_array": [
             "Greg Tatum"
