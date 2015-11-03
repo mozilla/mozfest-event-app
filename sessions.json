@@ -768,6 +768,7 @@
         "pathways": "Global Village Recycling, [Pathway] Storytellers & coders united: together we can change the world!", 
         "scheduleblock": "all-saturday", 
         "space": "The Global Village", 
+        "start": "All Day", 
         "title": "Inspiration time: explore recent projects that will change the way you understand the world"
     }, 
     {
@@ -1691,8 +1692,9 @@
         "id": "36", 
         "location": "", 
         "pathways": "Mapping Your MozFest Learning Journey", 
-        "scheduleblock": "all-weekend", 
+        "scheduleblock": "all-saturday", 
         "space": "", 
+        "start": "All Weekend", 
         "title": "Choose a persona"
     }, 
     {
@@ -1704,8 +1706,9 @@
         "id": "37", 
         "location": "", 
         "pathways": "Mapping Your MozFest Learning Journey", 
-        "scheduleblock": "all-weekend", 
+        "scheduleblock": "all-saturday", 
         "space": "", 
+        "start": "All Weekend", 
         "title": "Choose your Mozfest Pathway with Badges"
     }, 
     {
@@ -1717,8 +1720,9 @@
         "id": "38", 
         "location": "", 
         "pathways": "Mapping Your MozFest Learning Journey", 
-        "scheduleblock": "all-weekend", 
+        "scheduleblock": "all-saturday", 
         "space": "", 
+        "start": "All Weekend", 
         "title": "Gain a Badge"
     }, 
     {
@@ -1730,8 +1734,9 @@
         "id": "40", 
         "location": "", 
         "pathways": "Research", 
-        "scheduleblock": "all-weekend", 
+        "scheduleblock": "all-saturday", 
         "space": "", 
+        "start": "All Weekend", 
         "title": "Learning from 10 artists using Webmaker "
     }, 
     {
@@ -2347,6 +2352,7 @@
         "pathways": "Seeing–Drawing–Producing Smilies, [youthZone] Links with us, ArtsAward pathway", 
         "scheduleblock": "all-saturday", 
         "space": "Localization", 
+        "start": "All Day", 
         "title": "Using crafts to teach localization processes"
     }, 
     {
@@ -2583,6 +2589,7 @@
         "pathways": "[MLN] Learning & Leading, [MLN] Teaching Web Literacy with Mozilla Clubs, [MLN] Voices of Diverse Leaders", 
         "scheduleblock": "all-sunday", 
         "space": "Mozilla Learning Networks", 
+        "start": "All Day", 
         "title": "MLN Sunday Lunchtime Learning"
     }, 
     {
@@ -2608,6 +2615,7 @@
         "pathways": "[MLN] Learning & Leading, [MLN] Teaching Web Literacy with Mozilla Clubs, [MLN] Voices of Diverse Leaders", 
         "scheduleblock": "all-saturday", 
         "space": "Mozilla Learning Networks", 
+        "start": "All Day", 
         "title": "MLN Saturday Lunchtime Learning"
     }, 
     {
@@ -2617,8 +2625,9 @@
         "id": "584", 
         "location": "", 
         "pathways": "[MLN] Learning & Leading, [MLN] Teaching Web Literacy with Mozilla Clubs, [MLN] Voices of Diverse Leaders", 
-        "scheduleblock": "all-weekend", 
+        "scheduleblock": "all-saturday", 
         "space": "Mozilla Learning Networks", 
+        "start": "All Weekend", 
         "title": "MLN Documentation Station"
     }, 
     {
@@ -2628,8 +2637,9 @@
         "id": "583", 
         "location": "", 
         "pathways": "[MLN] Learning & Leading, [MLN] Teaching Web Literacy with Mozilla Clubs, [MLN] Voices of Diverse Leaders", 
-        "scheduleblock": "all-weekend", 
+        "scheduleblock": "all-saturday", 
         "space": "Mozilla Learning Networks", 
+        "start": "All Weekend", 
         "title": "MLN Help Desk"
     }, 
     {
@@ -2915,6 +2925,7 @@
         "pathways": " [MLN] Teaching Web Literacy with Mozilla Clubs", 
         "scheduleblock": "all-saturday", 
         "space": "Mozilla Learning Networks", 
+        "start": "All Day", 
         "title": "Run the Gauntlet"
     }, 
     {
@@ -3753,8 +3764,9 @@
         "id": "538", 
         "location": "", 
         "pathways": "[youthZone] Pathway - News to me!", 
-        "scheduleblock": "all-weekend", 
+        "scheduleblock": "all-saturday", 
         "space": "youthZone - Through the lens of youths", 
+        "start": "All Weekend", 
         "title": "Arts Award - Individual Pathway creator in schools and youth centres (Open space, 2nd floor) "
     }, 
     {
@@ -3817,6 +3829,7 @@
         "pathways": "[youthZone] Pathway Craft - Bridging your digital divide", 
         "scheduleblock": "all-sunday", 
         "space": "youthZone - Through the lens of youths", 
+        "start": "All Day", 
         "title": "The Maker Cart: a hands on introduction to Maker Education (Room 205, 2nd floor)"
     }, 
     {
@@ -3844,8 +3857,9 @@
         "id": "119", 
         "location": "", 
         "pathways": "[youthZone] Pathway Tech - What else you can do with it, ArtsAward pathway", 
-        "scheduleblock": "all-weekend", 
+        "scheduleblock": "all-saturday", 
         "space": "youthZone - Through the lens of youths", 
+        "start": "All Weekend", 
         "title": "CoderDojo (Room 211, 2nd floor)"
     }, 
     {
@@ -3877,6 +3891,7 @@
         "pathways": "[youthZone] Pathway Craft - Bridging your digital divide, ArtsAward pathway", 
         "scheduleblock": "all-sunday", 
         "space": "youthZone - Through the lens of youths", 
+        "start": "All Day", 
         "title": "Create your own projection mapping with Parapara Animation (Room 205, 2nd floor)"
     }, 
     {
@@ -3952,8 +3967,9 @@
         "id": "4429", 
         "location": "Floor 2 - 209", 
         "pathways": "Youth Learning, [youthZone] Pathway Tech - What else you can do with it, [youthZone] Teaching kit", 
-        "scheduleblock": "all-weekend", 
+        "scheduleblock": "all-saturday", 
         "space": "youthZone - Through the lens of youths", 
+        "start": "All Weekend", 
         "title": "Raspberry Pi youth section workshops ((Room 209, 2nd floor)"
     }, 
     {
@@ -4012,6 +4028,7 @@
         "pathways": "[youthZone] Pathway Craft - Bridging your digital divide", 
         "scheduleblock": "all-sunday", 
         "space": "youthZone - Through the lens of youths", 
+        "start": "All Day", 
         "title": "LEGO2NANO: an Open Atomic Force Microscope Project (Room 205, 2nd floor)"
     }, 
     {
@@ -4102,8 +4119,9 @@
         "id": "536", 
         "location": "", 
         "pathways": "[youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "all-weekend", 
+        "scheduleblock": "all-saturday", 
         "space": "youthZone - Through the lens of youths", 
+        "start": "All Weekend", 
         "title": "Craft - Bridging your digital divide (Open space, 2nd floor)"
     }, 
     {
@@ -4115,8 +4133,9 @@
         "id": "537", 
         "location": "", 
         "pathways": "[youthZone] Pathway - News to me!", 
-        "scheduleblock": "all-weekend", 
+        "scheduleblock": "all-saturday", 
         "space": "youthZone - Through the lens of youths", 
+        "start": "All Weekend", 
         "title": "Music - 50% of software engineers are instrumentalist (Room 212, 2nd floor)"
     }, 
     {
@@ -4174,8 +4193,9 @@
         "id": "623", 
         "location": "", 
         "pathways": "[youthZone] Pathway - News to me!", 
-        "scheduleblock": "all-weekend", 
+        "scheduleblock": "all-saturday", 
         "space": "youthZone - Through the lens of youths", 
+        "start": "All Weekend", 
         "title": "Java CodeAcademy Lunch session (Room 213, 2nd floor)"
     }, 
     {
@@ -4217,8 +4237,9 @@
         "id": "4420", 
         "location": "", 
         "pathways": "[youthZone] UK Mozilla community pathway [youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "all-weekend", 
+        "scheduleblock": "all-saturday", 
         "space": "youthZone - Through the lens of youths", 
+        "start": "All Weekend", 
         "title": "Dot to Dot - Pi Minecraft Art with conductive ink (Outside room 209, 2nd floor)"
     }, 
     {
@@ -4230,8 +4251,9 @@
         "id": "4421", 
         "location": "Floor 2 - 209", 
         "pathways": "[youthZone] Pathway Tech - What else you can do with it, [youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "all-weekend", 
+        "scheduleblock": "all-saturday", 
         "space": "youthZone - Through the lens of youths", 
+        "start": "All Weekend", 
         "title": "Musical fruit with the Explorer HAT (Room 209, 2nd floor)"
     }, 
     {
@@ -4341,5 +4363,212 @@
         "space": "youthZone - Through the lens of youths", 
         "start": "02:45 PM", 
         "title": "Hacking Minecraft Pi with Python (Room 209, 2nd floor)"
+    }, 
+    {
+        "clone_flag": "True", 
+        "description": "Drop by the DigitalMe stand to get some help to navigate MozFest. We'll ask you to pick a Persona so we can help identify what paths through the festival might work best for you.", 
+        "facilitator_array": [
+            "DigitalMe, @digitalme_"
+        ], 
+        "facilitators": "DigitalMe", 
+        "id": "36", 
+        "location": "", 
+        "pathways": "Mapping Your MozFest Learning Journey", 
+        "scheduleblock": "all-sunday", 
+        "space": "", 
+        "start": "All Weekend", 
+        "title": "Choose a persona"
+    }, 
+    {
+        "clone_flag": "True", 
+        "description": "There is a lot going on at MozFest and a lot to engage with. Come to see us for help mapping your optimal MozFest learning journey and to learn about Open Badges and how these can help you to evidence and communicate your learning across the web. We will issue you with badges if you submit evidence of your learning at MozFest, which you can share with your social networks and employers!", 
+        "facilitator_array": [
+            "DigitalMe, @digitalme_"
+        ], 
+        "facilitators": "DigitalMe", 
+        "id": "37", 
+        "location": "", 
+        "pathways": "Mapping Your MozFest Learning Journey", 
+        "scheduleblock": "all-sunday", 
+        "space": "", 
+        "start": "All Weekend", 
+        "title": "Choose your Mozfest Pathway with Badges"
+    }, 
+    {
+        "clone_flag": "True", 
+        "description": "We will support people to identify their motivators for engaging with MozFest by providing tools and experiences. We will also recognise your learning and achievements with Open Badges.", 
+        "facilitator_array": [
+            "DigitalMe, @digitalme_"
+        ], 
+        "facilitators": "DigitalMe", 
+        "id": "38", 
+        "location": "", 
+        "pathways": "Mapping Your MozFest Learning Journey", 
+        "scheduleblock": "all-sunday", 
+        "space": "", 
+        "start": "All Weekend", 
+        "title": "Gain a Badge"
+    }, 
+    {
+        "clone_flag": "True", 
+        "description": "", 
+        "facilitator_array": [
+            "Laura Reynal"
+        ], 
+        "facilitators": "Laura Reynal", 
+        "id": "40", 
+        "location": "", 
+        "pathways": "Research", 
+        "scheduleblock": "all-sunday", 
+        "space": "", 
+        "start": "All Weekend", 
+        "title": "Learning from 10 artists using Webmaker "
+    }, 
+    {
+        "clone_flag": "True", 
+        "description": "Come share your experiences at MozFest with other participants and with those who can't be here! Write a blog post, share a tweet, or draw a picture - this MLN hub station is all all about helping to capture your time at MozFest. Operating all weekend.", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "584", 
+        "location": "", 
+        "pathways": "[MLN] Learning & Leading, [MLN] Teaching Web Literacy with Mozilla Clubs, [MLN] Voices of Diverse Leaders", 
+        "scheduleblock": "all-sunday", 
+        "space": "Mozilla Learning Networks", 
+        "start": "All Weekend", 
+        "title": "MLN Documentation Station"
+    }, 
+    {
+        "clone_flag": "True", 
+        "description": "How do I start a Mozilla Club in my city? What's a Hive? What is Mozilla doing with curriculum? Come to the MLN Hub Help Desk to learn more about the MLN Space pathways or to get your questions about Hive, Clubs, or other Mozilla Learning Network programs answered.", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "583", 
+        "location": "", 
+        "pathways": "[MLN] Learning & Leading, [MLN] Teaching Web Literacy with Mozilla Clubs, [MLN] Voices of Diverse Leaders", 
+        "scheduleblock": "all-sunday", 
+        "space": "Mozilla Learning Networks", 
+        "start": "All Weekend", 
+        "title": "MLN Help Desk"
+    }, 
+    {
+        "clone_flag": "True", 
+        "description": "Arts Award is managed by Trinity College London in association with Arts Council England.  It is an evidenced based qualification which provides a framework for schools, arts, cultural and youth sector organisations.  It supports young people to gain creativity and leadership skills. The focus is on iteration as a process post project to help teach young people how to create a project independently from inception to creation in any media they may wish to express themselves in aged 0-25.  Arts Award is offered at five levels, four qualifications and an introductory award", 
+        "facilitator_array": [
+            "Julie Neville, , Arts Award"
+        ], 
+        "facilitators": "Julie Neville", 
+        "id": "538", 
+        "location": "", 
+        "pathways": "[youthZone] Pathway - News to me!", 
+        "scheduleblock": "all-sunday", 
+        "space": "youthZone - Through the lens of youths", 
+        "start": "All Weekend", 
+        "title": "Arts Award - Individual Pathway creator in schools and youth centres (Open space, 2nd floor) "
+    }, 
+    {
+        "clone_flag": "True", 
+        "description": "CoderDojo will provide environment for kids to learn to code using a range of Mozilla and Open Source Languages, The sessions will be open learning delivered by youth mentors in peer to peer sessions. Adults will be present to supervise and support youth mentors, if required", 
+        "facilitator_array": [
+            "Johnny Claffey, @CoderDojoLondon, CoderDojo"
+        ], 
+        "facilitators": "Johnny Claffey", 
+        "id": "119", 
+        "location": "", 
+        "pathways": "[youthZone] Pathway Tech - What else you can do with it, ArtsAward pathway", 
+        "scheduleblock": "all-sunday", 
+        "space": "youthZone - Through the lens of youths", 
+        "start": "All Weekend", 
+        "title": "CoderDojo (Room 211, 2nd floor)"
+    }, 
+    {
+        "clone_flag": "True", 
+        "description": "In our sessions young people will learn an introduction to creative programming and basic electronics through workshops in making music with Sonic Pi, hacking Minecraft Pi with Python, playing with electronics with Python and ScratchGPIO and creating games with Scratch.", 
+        "facilitator_array": [
+            "Frank Thomas-Hockey, @fth_nix", 
+            "Covent Garden Raspberry Jam team", 
+            "Andrew Mulholland, @gbaman1, "
+        ], 
+        "facilitators": "Frank Thomas-Hockey, Covent Garden Raspberry Jam team, Andrew Mulholland", 
+        "id": "4429", 
+        "location": "Floor 2 - 209", 
+        "pathways": "Youth Learning, [youthZone] Pathway Tech - What else you can do with it, [youthZone] Teaching kit", 
+        "scheduleblock": "all-sunday", 
+        "space": "youthZone - Through the lens of youths", 
+        "start": "All Weekend", 
+        "title": "Raspberry Pi youth section workshops ((Room 209, 2nd floor)"
+    }, 
+    {
+        "clone_flag": "True", 
+        "description": "This is a roiling session in the craft area of the youthZone, the aim is to help parents explore how crafting is aligned to making as a concept and thus extendable into the digital, from paper crafting to friendship bracelet making.", 
+        "facilitator_array": [
+            "Marie Flies Pathway leader w/"
+        ], 
+        "facilitators": "Marie Flies Pathway leader w/", 
+        "id": "536", 
+        "location": "", 
+        "pathways": "[youthZone] Pathway Craft - Bridging your digital divide", 
+        "scheduleblock": "all-sunday", 
+        "space": "youthZone - Through the lens of youths", 
+        "start": "All Weekend", 
+        "title": "Craft - Bridging your digital divide (Open space, 2nd floor)"
+    }, 
+    {
+        "clone_flag": "True", 
+        "description": "This is a rolling session for youths that explores the link between youth instrumentalist (players of a musical instrument) as a pathway into engineering and tech support roles through developing a passion for all things music technology and as an instrumentalist.", 
+        "facilitator_array": [
+            "Luke Mayell - Musician"
+        ], 
+        "facilitators": "Luke Mayell - Musician", 
+        "id": "537", 
+        "location": "", 
+        "pathways": "[youthZone] Pathway - News to me!", 
+        "scheduleblock": "all-sunday", 
+        "space": "youthZone - Through the lens of youths", 
+        "start": "All Weekend", 
+        "title": "Music - 50% of software engineers are instrumentalist (Room 212, 2nd floor)"
+    }, 
+    {
+        "clone_flag": "True", 
+        "description": "Lunch on Saturday is 12:30 - 13:300 and on Sunday 13:30 - 14:30. Come Join us in room 213 to learn coding Java with the new Java course by CodeAcademy", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "623", 
+        "location": "", 
+        "pathways": "[youthZone] Pathway - News to me!", 
+        "scheduleblock": "all-sunday", 
+        "space": "youthZone - Through the lens of youths", 
+        "start": "All Weekend", 
+        "title": "Java CodeAcademy Lunch session (Room 213, 2nd floor)"
+    }, 
+    {
+        "clone_flag": "True", 
+        "description": "What if you could draw something with paint and then see it in 3D inside Minecraft? Andrew Mulholland our #youthZone Pi youth leader decided this would be fun, so he coded it up himself to work with a set of special DOTs boards just for you to get creative in 3D. DOTs Boards are very simple circuit boards you can add to the Raspberry Pi, containing a simple dot-to-dot function that when used with conductive paint, allows your creation to amazingly appear and come to life in Minecraft. ", 
+        "facilitator_array": [
+            "Frank Thomas-Hockey, @fth_nix, Covent Garden Raspberry Jam", 
+            "Andrew Mulholland, @gbaman1, Farset Labs"
+        ], 
+        "facilitators": "Frank Thomas-Hockey, Andrew Mulholland", 
+        "id": "4420", 
+        "location": "", 
+        "pathways": "[youthZone] UK Mozilla community pathway [youthZone] Pathway Craft - Bridging your digital divide", 
+        "scheduleblock": "all-sunday", 
+        "space": "youthZone - Through the lens of youths", 
+        "start": "All Weekend", 
+        "title": "Dot to Dot - Pi Minecraft Art with conductive ink (Outside room 209, 2nd floor)"
+    }, 
+    {
+        "clone_flag": "True", 
+        "description": "Lunch on Saturday is 12:30 - 13:300 and on Sunday 13:30 - 14:30. Come Join us in room 209 with your lunch fruit to make them do stuff, before you eat it!", 
+        "facilitator_array": [
+            "Jim Darby, @HackerJimbo"
+        ], 
+        "facilitators": "Jim Darby", 
+        "id": "4421", 
+        "location": "Floor 2 - 209", 
+        "pathways": "[youthZone] Pathway Tech - What else you can do with it, [youthZone] Pathway Craft - Bridging your digital divide", 
+        "scheduleblock": "all-sunday", 
+        "space": "youthZone - Through the lens of youths", 
+        "start": "All Weekend", 
+        "title": "Musical fruit with the Explorer HAT (Room 209, 2nd floor)"
     }
 ]
