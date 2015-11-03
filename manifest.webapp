@@ -1,0 +1,30 @@
+{
+  "version": "1",
+  "name": "MozFest Schedule",
+  "launch_path": "index.html",
+  "description": "Mobile-oriented web app for displaying MozFest schedule data",
+  "icons": {
+    "16": "img/logo16.png",
+    "32": "img/logo32.png",
+    "48": "img/logo48.png",
+    "60": "img/logo60.png",
+    "64": "img/logo64.png",
+    "90": "img/logo90.png",
+    "120": "img/logo120.png",
+    "128": "img/logo128.png"
+  },
+  "developer": {
+    "name": "Mozilla",
+    "url": "https://mozilla.github.io/mozfest-schedule-app/"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "locales": {
+   "en": {
+      "name": "MozFest Schedule",
+      "description": "Mobile-oriented web app for displaying MozFest schedule data"
+    }
+  }
+}
