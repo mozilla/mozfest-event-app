@@ -26,19 +26,6 @@
         "title": "Hacking on Public Engagement Resources for Fellows"
     }, 
     {
-        "description": "Just like artists gain greater control over their works through self-publishing, our session will teach participants how to self-publish on the web. We will do this by teaching them to host their own web content and applications, in this case, WordPress, using basic operations skills, alongside the importance of security for privacy.", 
-        "facilitator_array": [
-            "Tanner Filip"
-        ], 
-        "facilitators": "Tanner Filip", 
-        "id": "257", 
-        "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
-        "space": "", 
-        "title": "Self-publishing on the web - how to host your own website"
-    }, 
-    {
         "description": "Web articles lead people on long journeys of hyperlinks and tab accumulation. This spreads the information out and can hurt your ability to see how it all connects. The session will focus on the discussion of these information networks and how they can be visualized. There will also be a group oriented activity that will have people working together to design a tool/UI that can be used to aid in this process.", 
         "facilitator_array": [
             "Michael Martinez"
@@ -93,7 +80,7 @@
         "facilitators": "Helen Lee", 
         "id": "506", 
         "location": "", 
-        "pathways": "Leading and Building Community Through Participation", 
+        "pathways": "Leading and Building Community Through Participation, ", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Building Participation", 
         "start": "12:45 PM", 
@@ -2591,9 +2578,9 @@
         "id": "551", 
         "location": "", 
         "pathways": "[MLN] Learning & Leading", 
-        "scheduleblock": "saturday-session-block-1", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "Mozilla Learning Networks", 
-        "start": "10:45 AM", 
+        "start": "03:30 PM", 
         "title": "Learning & Leading Digital Literacy Focus Group"
     }, 
     {
