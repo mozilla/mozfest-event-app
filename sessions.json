@@ -1301,6 +1301,7 @@
         "title": "Serving Social Change: Leveraging the Internet for the Empowerment of Social Movements."
     }, 
     {
+        "day": "Sunday", 
         "description": "Internet shutdowns represent a terrifying and real trend worldwide. Shutdowns and blocking often precede egregious human rights violations and impact our ability to seek, receive, and impart information. In 2015 alone, we've witnessed nearly a dozen shutdowns in a variety of contexts and situations, from the Pacific Rim to the Democratic Republic of the Congo. In the first short section, I'll share key strategic lessons for activists about how to fight internet shutdowns, including: working with telcos to resist government orders, how to speak about shutdowns in human rights language, engaging the UN, pressuring government figures, capturing data about shutdowns, and storytelling for change. I'll also share key indicators that we have tracked over time.\nThe second, main part of the session will be wholly interactive and focus on a shutdown simulation that invites participants to respond to the shutdown.", 
         "facilitator_array": [
             "Deji Olukotun, @dejiridoo, Access"
@@ -1309,8 +1310,9 @@
         "id": "95", 
         "location": "", 
         "pathways": "R-E-S-P-E-C-T", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-7", 
         "space": "Digital Citizenship", 
+        "start": "02:45 PM", 
         "title": "How to Fight an Internet Shutdown"
     }, 
     {
