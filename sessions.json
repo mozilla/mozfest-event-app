@@ -44,9 +44,9 @@
         "id": "100003", 
         "location": "Floor 0 - Walker Space", 
         "pathways": "", 
-        "scheduleblock": "12:30-saturday", 
+        "scheduleblock": "saturday-lunch", 
         "space": "", 
-        "start": "All Day", 
+        "start": "12:30 PM", 
         "title": "Saturday Lunch"
     }, 
     {
@@ -96,9 +96,9 @@
         "id": "100007", 
         "location": "Floor 0 - Walker Space", 
         "pathways": "", 
-        "scheduleblock": "13:30-sunday", 
+        "scheduleblock": "sunday-lunch", 
         "space": "", 
-        "start": "All Day", 
+        "start": "01:30 PM", 
         "title": "Sunday Lunch"
     }, 
     {
