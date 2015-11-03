@@ -3733,8 +3733,11 @@
     {
         "day": "Saturday", 
         "description": "We have indexed most of the world’s scientific knowledge, yet we still rely on a handful of proprietary tools to discover new content. Most of the time, we are restricted to a simple search interface. But do not worry: there is a world of open data and open source tools facilitating discovery that is emerging before our very eyes. In this session, we will look at this ecosystem to facilitate our own research. Participants will learn about open bibliographic and bibliometric data sources on the Web, as well as open source tools for discovery. We will examine how these data sources and tools can be used to stay on top of one’s research. You will even get your hands dirty and create an overview of your own research field.", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "facilitator_array": [
+            "Peter Kraker, @PeterKraker, Know-Center", 
+            "Patryk Proniewicz"
+        ], 
+        "facilitators": "Peter Kraker, Patryk Proniewicz", 
         "id": "265", 
         "location": "", 
         "pathways": "", 
