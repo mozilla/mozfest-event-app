@@ -1,5 +1,16 @@
 [
     {
+        "description": "", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "100001", 
+        "location": "Floor 0 - Walker Space", 
+        "pathways": "", 
+        "scheduleblock": "", 
+        "space": "", 
+        "title": "Registration open"
+    }, 
+    {
         "description": "Web articles lead people on long journeys of hyperlinks and tab accumulation. This spreads the information out and can hurt your ability to see how it all connects. The session will focus on the discussion of these information networks and how they can be visualized. There will also be a group oriented activity that will have people working together to design a tool/UI that can be used to aid in this process.", 
         "facilitator_array": [
             "Michael Martinez"
@@ -1626,17 +1637,6 @@
         "title": "Ending Online Tracking - Do Not Track And Beyond"
     }, 
     {
-        "description": "This is where you can write your session description. Ideally it will be 50 words or less (if longer, we'll automatically truncate it) and without any fancy formatting. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "601", 
-        "location": "", 
-        "pathways": "[sample label] For demonstration purposes", 
-        "scheduleblock": "", 
-        "space": "Independent Pathway", 
-        "title": "Example Session for Schedule Migration"
-    }, 
-    {
         "day": "Saturday", 
         "description": "DigitalME are pioneers in Open Badge design, implementation and consultation. Learn how to make a digital badge and how badges have been applied for arts engagement, in BadgeLAB Leeds. \n\nWe will discuss how the programme engaged with NEET young people, young people with learning difficulties, and large scale public events. We will share findings from the report by Sheffield Hallam University and how what we have learned is shaping our approach to Open Badge design for arts and city wide learning. The session will be open and informal - we aim to unearth experiences, compare approaches and share tools and resources with participants.", 
         "facilitator_array": [
@@ -1827,6 +1827,68 @@
         "space": "", 
         "start": "10:45 AM", 
         "title": "Ravensbourne 3D printing"
+    }, 
+    {
+        "day": "Saturday", 
+        "description": "In this session, we introduce Learning Circles, a methodology for building face-to-face communities around online learning, and explore the question of how to reach learners who are not “typical online learners” \n", 
+        "facilitator_array": [
+            "Bekka Kahn, @rebamex, P2PU"
+        ], 
+        "facilitators": "Bekka Kahn", 
+        "id": "615", 
+        "location": "", 
+        "pathways": "Scaling Participatory Learning Experiences, Online Learning Done F2F", 
+        "scheduleblock": "saturday-session-block-1", 
+        "space": "", 
+        "start": "10:45 AM", 
+        "title": "Tell the World! Evangelise for Online Learning Done Face To Face"
+    }, 
+    {
+        "day": "Saturday", 
+        "description": " In this session, we introduce Learning Circles, a methodology for building face-to-face communities around online learning, and explore how to identify, evaluate and modify open courses hosted online to make them LC appropriate, or, if those can’t be found, how to build you own.", 
+        "facilitator_array": [
+            "Grif Peterson, @grifpeterson, P2PU"
+        ], 
+        "facilitators": "Grif Peterson", 
+        "id": "616", 
+        "location": "", 
+        "pathways": "Scaling Participatory Learning Experiences, Online Learning Done F2F", 
+        "scheduleblock": "saturday-session-block-3", 
+        "space": "", 
+        "start": "02:15 PM", 
+        "title": "Looking to Learn:  How to Identify Open Courses for Learning Circles (or build your own)"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "In this session, we introduce Learning Circles, a methodology for building face-to-face communities around online learning, and offer a crash-course on what it takes to host and facilitate a learning circle, using the LC methodology (how meta!)", 
+        "facilitator_array": [
+            "Mark Andersen, Chicago Public Library", 
+            "Bekka Kahn, @rebamex, P2PU"
+        ], 
+        "facilitators": "Mark Andersen, Bekka Kahn", 
+        "id": "617", 
+        "location": "", 
+        "pathways": "Scaling Participatory Learning Experiences, Online Learning Done F2F", 
+        "scheduleblock": "sunday-session-block-5", 
+        "space": "", 
+        "start": "11:30 AM", 
+        "title": "Come on In: How to Host & Facilitate a Learning Circle"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "In this session, we introduce Learning Circles, a methodology for building face-to-face communities around online learning, and work with participants to develop a toolkit to empower them to run their own LCs in their community contexts.", 
+        "facilitator_array": [
+            "Carl Ruppin, P2PU", 
+            "Bekka Kahn, @rebamex, P2PU"
+        ], 
+        "facilitators": "Carl Ruppin, Bekka Kahn", 
+        "id": "618", 
+        "location": "", 
+        "pathways": "Scaling Participatory Learning Experiences, Online Learning Done F2F", 
+        "scheduleblock": "sunday-session-block-7", 
+        "space": "", 
+        "start": "02:45 PM", 
+        "title": " If you build it... How to create a Learning Circles Kit  "
     }, 
     {
         "day": "Sunday", 
@@ -2968,68 +3030,6 @@
         "space": "Mozilla Learning Networks", 
         "start": "02:45 PM", 
         "title": "Models and Modes of Engagement for Authentic Youth Leadership in Informal Digital Learning Contexts"
-    }, 
-    {
-        "day": "Saturday", 
-        "description": "In this session, we introduce Learning Circles, a methodology for building face-to-face communities around online learning, and explore the question of how to reach learners who are not “typical online learners” \n", 
-        "facilitator_array": [
-            "Bekka Kahn, @rebamex, P2PU"
-        ], 
-        "facilitators": "Bekka Kahn", 
-        "id": "615", 
-        "location": "", 
-        "pathways": "Scaling Participatory Learning Experiences, Online Learning Done F2F", 
-        "scheduleblock": "saturday-session-block-1", 
-        "space": "Online Learning Done Face-to-Face", 
-        "start": "10:45 AM", 
-        "title": "Tell the World! Evangelise for Online Learning Done Face To Face"
-    }, 
-    {
-        "day": "Saturday", 
-        "description": " In this session, we introduce Learning Circles, a methodology for building face-to-face communities around online learning, and explore how to identify, evaluate and modify open courses hosted online to make them LC appropriate, or, if those can’t be found, how to build you own.", 
-        "facilitator_array": [
-            "Grif Peterson, @grifpeterson, P2PU"
-        ], 
-        "facilitators": "Grif Peterson", 
-        "id": "616", 
-        "location": "", 
-        "pathways": "Scaling Participatory Learning Experiences, Online Learning Done F2F", 
-        "scheduleblock": "saturday-session-block-3", 
-        "space": "Online Learning Done Face-to-Face", 
-        "start": "02:15 PM", 
-        "title": "Looking to Learn:  How to Identify Open Courses for Learning Circles (or build your own)"
-    }, 
-    {
-        "day": "Sunday", 
-        "description": "In this session, we introduce Learning Circles, a methodology for building face-to-face communities around online learning, and offer a crash-course on what it takes to host and facilitate a learning circle, using the LC methodology (how meta!)", 
-        "facilitator_array": [
-            "Mark Andersen, Chicago Public Library", 
-            "Bekka Kahn, @rebamex, P2PU"
-        ], 
-        "facilitators": "Mark Andersen, Bekka Kahn", 
-        "id": "617", 
-        "location": "", 
-        "pathways": "Scaling Participatory Learning Experiences, Online Learning Done F2F", 
-        "scheduleblock": "sunday-session-block-5", 
-        "space": "Online Learning Done Face-to-Face", 
-        "start": "11:30 AM", 
-        "title": "Come on In: How to Host & Facilitate a Learning Circle"
-    }, 
-    {
-        "day": "Sunday", 
-        "description": "In this session, we introduce Learning Circles, a methodology for building face-to-face communities around online learning, and work with participants to develop a toolkit to empower them to run their own LCs in their community contexts.", 
-        "facilitator_array": [
-            "Carl Ruppin, P2PU", 
-            "Bekka Kahn, @rebamex, P2PU"
-        ], 
-        "facilitators": "Carl Ruppin, Bekka Kahn", 
-        "id": "618", 
-        "location": "", 
-        "pathways": "Scaling Participatory Learning Experiences, Online Learning Done F2F", 
-        "scheduleblock": "sunday-session-block-7", 
-        "space": "Online Learning Done Face-to-Face", 
-        "start": "02:45 PM", 
-        "title": " If you build it... How to create a Learning Circles Kit  "
     }, 
     {
         "day": "Saturday", 
