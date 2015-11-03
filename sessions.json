@@ -1335,7 +1335,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "* Security and Privacy being an important part of our online lives. This session will help attendees understand privacy and security on the internet better.\n* I am taking a Firefox centric angle to showcase how Firefox puts the user first by guarding user data with privacy and  “do not tack” focussed approach.\n* Participants will learn:\n** How to take care of their privacy online\n** Best practices to follow\n** How firefox can help them do it - using Firefox Like a BOSS\n** Various Privacy addons that can help user guard against unwanted tracking, ads and third-party cookies.\n** Understanding cache, cookies and permissions on website.\n** What is secure browsing (https)\n** Cookies and trackers\n*  This session is contemporary, essential and practical discussing Privacy & Security with peers, students, teachers and netizens.", 
+        "description": "This essential and practical session will help attendees better understand privacy and security on the Internet. Participants will learn best practices, including: how Firefox can help (using Firefox like a BOSS), privacy addons to guard against unwanted tracking, secure browsing (https), and how websites use cache, cookies, and permissions.\n\n", 
         "facilitator_array": [
             "Ankit Gadgil"
         ], 
@@ -1346,7 +1346,7 @@
         "scheduleblock": "sunday-session-block-5", 
         "space": "Digital Citizenship", 
         "start": "11:30 AM", 
-        "title": "Your Privacy on the Web (Using Firefox Browser and more)"
+        "title": "Your Privacy and Security on the Web (Using the Firefox browser and more)"
     }, 
     {
         "day": "Saturday", 
