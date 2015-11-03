@@ -1283,7 +1283,25 @@
         "scheduleblock": "sunday-session-block-5", 
         "space": "Digital Citizenship", 
         "start": "11:30 AM", 
-        "title": "Tools for Travelers on the Dark Side of the Internet, Part 1"
+        "title": "Tools for Travelers on the Dark Side of the Internet - Part 1 - Meet the Experts"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "At Tools for Travelers on the Dark Side of the Internet you'll hear from: Violet Blue, Sarah Jeong, Kelley Misata, and Emrys Schoemaker about their work with reputation crisis training, online harassment, combatting cyberstalking, and digital purdah. In the first hour, you'll rotate through conversations with each expert where they'll describe their work and the workshop they have planned for the second hour.  In the second hour, you'll select a workshop on one of the topics raised and work with one of the experts. \n\n", 
+        "facilitator_array": [
+            "Violet Blue, @violetblue", 
+            "Sarah Jeong, @sarahjeong", 
+            "Kelley Misata", 
+            "Emrys Schoemaker, @emrys_s"
+        ], 
+        "facilitators": "Violet Blue, Sarah Jeong, Kelley Misata, Emrys Schoemaker", 
+        "id": "658", 
+        "location": "", 
+        "pathways": "Don't Feed the Trolls, R-E-S-P-E-C-T", 
+        "scheduleblock": "sunday-session-block-6", 
+        "space": "Digital Citizenship", 
+        "start": "12:45 PM", 
+        "title": "Tools for Travelers on the Dark Side of the Internet - Part 2 - Workshop with the Experts"
     }, 
     {
         "day": "Sunday", 
@@ -1528,7 +1546,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "Participants will have the opportunity to pitch Internet policy issues and spaces in which Mozilla should be more involved to members of the Mozilla Policy Team and field experts.", 
+        "description": "Participants will have the opportunity to pitch Internet policy issues and spaces in which Mozilla should be more involved to members of the Mozilla Policy Team and field experts. The format will follow Shark Tank (US) / Dragon's Den (global). In the first hour, the panel will give a brief description of context and what they are looking for. Participants will then have time to organize and pitch their ideas. By some form of consensus or decree, 3-5 pitches will be chosen. During the second hour, the participants will then break into groups to work on what this would look like in real life -- given a template format -- and present to each other (and the panel) plans on ways Mozilla can engage in open Web issues around the world.", 
         "facilitator_array": [
             "Jochai Ben-Avie, Mozilla"
         ], 
@@ -1540,6 +1558,21 @@
         "space": "Digital Citizenship", 
         "start": "02:15 PM", 
         "title": "Dino's Den, Part 1"
+    }, 
+    {
+        "day": "Saturday", 
+        "description": "Participants will have the opportunity to pitch Internet policy issues and spaces in which Mozilla should be more involved to members of the Mozilla Policy Team and field experts. The format will follow Shark Tank (US) / Dragon's Den (global). In the first hour, the panel will give a brief description of context and what they are looking for. Participants will then have time to organize and pitch their ideas. By some form of consensus or decree, 3-5 pitches will be chosen. During the second hour, the participants will then break into groups to work on what this would look like in real life -- given a template format -- and present to each other (and the panel) plans on ways Mozilla can engage in open Web issues around the world.", 
+        "facilitator_array": [
+            "Jochai Ben-Avie, Mozilla"
+        ], 
+        "facilitators": "Jochai Ben-Avie", 
+        "id": "657", 
+        "location": "", 
+        "pathways": "What's your policy?", 
+        "scheduleblock": "saturday-session-block-4", 
+        "space": "Digital Citizenship", 
+        "start": "03:30 PM", 
+        "title": "Dino's Den, Part 2"
     }, 
     {
         "description": "Task Forces are born out of recognition that like code, public policy has an impact on the shape and health of the open Web. Through task forces, we can empower people to create measurable changes in public policy to protect the Internet as a global public resource, open and accessible to all. In this session, we’ll use Mozilla's earlier net neutrality campaign and privacy teach-ins with the Indian community as a case study, and see how we can replicate this collaboration by bringing together Advocacy Task Forces in other regions. Come learn how you can participate.", 
