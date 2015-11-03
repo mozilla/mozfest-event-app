@@ -54,6 +54,12 @@
 .fa-cc:before {
   content: "\f20a";
 }
+.fa-chevron-circle-left:before {
+  content: "\f137";
+}
+.fa-chevron-circle-down:before {
+  content: "\f13a";
+}
 
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
@@ -196,6 +202,7 @@ header a {
     margin: 7rem 0 5rem 0;
     text-align: center;
     z-index: 1;
+    clear: both;
 }
 .schedule-tab h3 span,
 .page-caption h3 span {
@@ -214,6 +221,23 @@ header a {
     left: 0;
     width: 100%;
     z-index: -1;
+}
+.slider {
+    overflow-y: hidden;
+    transition-property: all;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+.schedule-tab h3 .fa {
+    text-decoration: none;
+    float: right;
+    font-size: 3.1rem;
+    padding: .5rem .1rem .5rem .8rem;
+    background-color: #fff;
+    color: inherit;
+}
+h3.slider-control {
+    cursor: pointer;
 }
 
 .session-detail {
@@ -274,15 +298,13 @@ header a {
     word-wrap: break-word;
 }
 
-#show-descriptions {
-    padding: 2.5rem 0 0;
+.page-control {
+    padding: 2.5rem 0;
     display: block;
     text-decoration: none;
     margin-right: 2%;
     float: right;
-}
-#show-descriptions i {
-    color: #fc6e1f;
+    cursor: pointer;
 }
 
 #filter-form {
@@ -503,7 +525,7 @@ header a {
     #filter-form {
         width: 100%;
     }
-    #show-descriptions {
+    .page-control {
         display: inline-block;
         padding: 0;
         margin: 0 0 2em 0;
