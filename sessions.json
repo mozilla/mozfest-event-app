@@ -31,9 +31,9 @@
         "id": "100002", 
         "location": "Floor 4 - Big Space", 
         "pathways": "", 
-        "scheduleblock": "09:00-saturday", 
+        "scheduleblock": "saturday-opening-circle", 
         "space": "", 
-        "start": "All Day", 
+        "start": "09:00 AM", 
         "title": "Saturday Opening Circle"
     }, 
     {
@@ -57,9 +57,9 @@
         "id": "100004", 
         "location": "Floor 4 - Big Space", 
         "pathways": "", 
-        "scheduleblock": "17:30-saturday", 
+        "scheduleblock": "saturday-evening-main-stage", 
         "space": "", 
-        "start": "All Day", 
+        "start": "05:30 PM", 
         "title": "Evening Talks"
     }, 
     {
@@ -83,9 +83,9 @@
         "id": "100006", 
         "location": "Floor 4 - Big Space", 
         "pathways": "", 
-        "scheduleblock": "10:00-sunday", 
+        "scheduleblock": "sunday-opening-circle", 
         "space": "", 
-        "start": "All Day", 
+        "start": "10:00 AM", 
         "title": "Sunday Opening Circle"
     }, 
     {
@@ -109,9 +109,9 @@
         "id": "100008", 
         "location": "Floor 0 - Walker Space", 
         "pathways": "", 
-        "scheduleblock": "17:30-sunday", 
+        "scheduleblock": "sunday-demo-party", 
         "space": "", 
-        "start": "All Day", 
+        "start": "05:30 PM", 
         "title": "Closing Demos"
     }, 
     {
