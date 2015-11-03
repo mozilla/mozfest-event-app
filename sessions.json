@@ -4230,7 +4230,7 @@
         "title": "Youth Physical computing \"Play date\" come play with us! (Open space, 2nd floor)"
     }, 
     {
-        "description": "What if you could draw something with paint and then see it in 3D inside Minecraft? Andrew Mulholland our #youthZone Pi youth leader decided this would be fun, so he coded it up himself to work with a set of special DOTs boards just for you to get creative in 3D. DOTs Boards are very simple circuit boards you can add to the Raspberry Pi, containing a simple dot-to-dot function that when used with conductive paint, allows your creation to amazingly appear and come to life in Minecraft. ", 
+        "description": "What if you could draw something with paint and then see it in 3D inside Minecraft?   \nAndrew Mulholland, our #youthZone Raspberry Pi youth leader decided this would be fun, so he coded it up himself to work with a set of special Raspberry Pi DOTs boards (developed by Rachel Rayns from Raspberry Pi Foundation) just for you to get creative!    \nDOTs Boards are very simple circuit boards, that once you have drawn your creation, are attached to the Raspberry Pi to see it come to life in 3D.", 
         "facilitator_array": [
             "Andrew Mulholland, @gbaman1, Farset Labs", 
             "Frank Thomas-Hockey, @fth_nix, Covent Garden Raspberry Jam"
@@ -4276,7 +4276,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "Learn how to hack the very popular game Minecraft using some simple lines of Python code and a Raspberry Pi. You will learn some basic python in order to build and customise your very own castle whenever you want at the push of a button! You will start with learning how to play the game on the Raspberry Pi, then progress to placing blocks, building a castle and finally completing challenges to customise your very own castle!", 
+        "description": "![Minecraft Pi logo](http://d3bgui9r1m2641.cloudfront.net/wp-content/uploads/2012/12/cropped-Pi-Edition-header1.jpg)    \nLearn how to hack the extremely popular game, Minecraft on the Raspberry Pi using some simple lines of Python code. You will learn some basic python in order to build and customise your very own castle, whenever you want at the push of a button!    \nThis workshop will include\n- An introduction to playing Minecraft on the Raspberry Pi\n- How to place blocks with code\n- Building a simple castle with code\n- A number of challenges to make your awesome program even more awesome!\n", 
         "facilitator_array": [
             "Yasmin Bey, @RPi_Yaz14", 
             "Zach Igielman, @zacharyigielman", 
@@ -4293,20 +4293,22 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "Hello world     \nThis is a test. I am testing to see if markdown **is supported** as it being supported would *be nice*    \n- Hello\n    - Bob\n- World\n![Hi](https://www.raspberrypi.org/learning/resources/balloon-pi-tay-popper/cover.png)\nhttps://www.google.com", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "![Flappy astronaut logo](https://www.raspberrypi.org/learning/resources/gravity-simulator/cover.png)\nLearn how to create an awesome Flappy Bird style game using the Space Certified Astro Pi (Sense HAT) addon board with the Raspberry Pi.   \nThis session will be well suited to those with perhaps a little previous Python (or other programming language) experience.", 
+        "facilitator_array": [
+            "Frank Thomas-Hockey, @fth_nix, Covent Garden Raspberry Jam"
+        ], 
+        "facilitators": "Frank Thomas-Hockey", 
         "id": "4424", 
         "location": "Floor 2 - 209", 
         "pathways": "[youthZone] Pathway Tech - What else you can do with it", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "youthZone - Through the lens of youths", 
         "start": "11:30 AM", 
-        "title": "Building stories with code (Room 209, 2nd floor)"
+        "title": "Flappy Astronaut"
     }, 
     {
         "day": "Sunday", 
-        "description": "Ever wondered what a Raspberry Pi is for? You’ve heard about projects people have made with one, but have no idea where to start? Well this workshop is for you! Aimed at young beginners, you will be shown how to get started with a Raspberry Pi using Scratch! First you will be introduced to the Pi itself and understand all the things you need to get any computer working. Next, you’ll find out about the mysterious GPIO pins and how they can be used with LEDs, buttons, buzzers, speakers and various electronic add-ons. Finally, using block-based coding language Scratch, we will show you how to use a Raspberry Pi to code a set of traffic lights with a motion sensor and from there, your only limit is your imagination.", 
+        "description": "Ever wondered what a Raspberry Pi is for? You’ve heard about projects people have made with one, but have no idea where to start? Well this workshop is for you!   \nAimed at young (or simply young at heart) beginners, you will be shown how to get started with a Raspberry Pi using Scratch!    \nFirst you will be introduced to the Pi itself and understand all the things you need to get any computer working. Next, you’ll find out about the mysterious GPIO pins and how they can be used with LEDs, buttons, buzzers, speakers and various electronic add-ons. Finally, using block-based coding language Scratch, we will show you how to use a Raspberry Pi to code a set of traffic lights with a motion sensor and from there, your only limit is your imagination.", 
         "facilitator_array": [
             "Cat Lamin, @catlamin"
         ], 
@@ -4321,7 +4323,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "Learn how to hack the very popular game Minecraft using some simple lines of Python code and a Raspberry Pi. You will learn some basic python in order to build and customise your very own castle whenever you want at the push of a button! You will start with learning how to play the game on the Raspberry Pi, then progress to placing blocks, building a castle and finally completing challenges to customise your very own castle!", 
+        "description": "![Minecraft Pi logo](http://d3bgui9r1m2641.cloudfront.net/wp-content/uploads/2012/12/cropped-Pi-Edition-header1.jpg)    \nLearn how to hack the extremely popular game, Minecraft on the Raspberry Pi using some simple lines of Python code. You will learn some basic python in order to build and customise your very own castle, whenever you want at the push of a button!    \nThis workshop will include\n- An introduction to playing Minecraft on the Raspberry Pi\n- How to place blocks with code\n- Building a simple castle with code\n- A number of challenges to make your awesome program even more awesome!\n", 
         "facilitator_array": [
             "Yasmin Bey, @RPi_Yaz14", 
             "Zach Igielman, @zacharyigielman", 
@@ -4331,16 +4333,18 @@
         "id": "4426", 
         "location": "Floor 2 - 209", 
         "pathways": "[youthZone] Pathway Tech - What else you can do with it", 
-        "scheduleblock": "sunday-session-block-6", 
+        "scheduleblock": "sunday-session-block-7", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "12:45 PM", 
+        "start": "02:45 PM", 
         "title": "Hacking Minecraft Pi with Python (Room 209, 2nd floor)"
     }, 
     {
         "day": "Sunday", 
-        "description": "A special session aimed at adults who have never touched/used a Raspberry Pi before. We will cover\n- An introduction to Raspberry Pi\n- Simple guide to hacking Minecraft Pi", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "A special session aimed at adults who have never touched/used a Raspberry Pi before. We will cover\n- An introduction to Raspberry Pi\n- Simple guide to hacking Minecraft Pi\n- Using the Sense HAT LED matrix\n    \nThis session is especially aimed at beginners.", 
+        "facilitator_array": [
+            "Frank Thomas-Hockey, @fth_nix, Covent Garden Raspberry Jam"
+        ], 
+        "facilitators": "Frank Thomas-Hockey", 
         "id": "4427", 
         "location": "Floor 2 - 209", 
         "pathways": "[youthZone] Pathway Tech - What else you can do with it", 
@@ -4348,23 +4352,6 @@
         "space": "youthZone - Through the lens of youths", 
         "start": "04:00 PM", 
         "title": "Getting started with Pi for adults (Room 209, 2nd floor)"
-    }, 
-    {
-        "day": "Sunday", 
-        "description": "Learn how to hack the very popular game Minecraft using some simple lines of Python code and a Raspberry Pi. You will learn some basic python in order to build and customise your very own castle whenever you want at the push of a button! You will start with learning how to play the game on the Raspberry Pi, then progress to placing blocks, building a castle and finally completing challenges to customise your very own castle!", 
-        "facilitator_array": [
-            "Yasmin Bey, @RPi_Yaz14", 
-            "Zach Igielman, @zacharyigielman", 
-            "Joseph Thomas, @jthomascoop"
-        ], 
-        "facilitators": "Yasmin Bey, Zach Igielman, Joseph Thomas", 
-        "id": "4428", 
-        "location": "Floor 2 - 209", 
-        "pathways": "[youthZone] Pathway Tech - What else you can do with it", 
-        "scheduleblock": "sunday-session-block-7", 
-        "space": "youthZone - Through the lens of youths", 
-        "start": "02:45 PM", 
-        "title": "Hacking Minecraft Pi with Python (Room 209, 2nd floor)"
     }, 
     {
         "clone_flag": "True", 
@@ -4544,7 +4531,7 @@
     }, 
     {
         "clone_flag": "True", 
-        "description": "What if you could draw something with paint and then see it in 3D inside Minecraft? Andrew Mulholland our #youthZone Pi youth leader decided this would be fun, so he coded it up himself to work with a set of special DOTs boards just for you to get creative in 3D. DOTs Boards are very simple circuit boards you can add to the Raspberry Pi, containing a simple dot-to-dot function that when used with conductive paint, allows your creation to amazingly appear and come to life in Minecraft. ", 
+        "description": "What if you could draw something with paint and then see it in 3D inside Minecraft?   \nAndrew Mulholland, our #youthZone Raspberry Pi youth leader decided this would be fun, so he coded it up himself to work with a set of special Raspberry Pi DOTs boards (developed by Rachel Rayns from Raspberry Pi Foundation) just for you to get creative!    \nDOTs Boards are very simple circuit boards, that once you have drawn your creation, are attached to the Raspberry Pi to see it come to life in 3D.", 
         "facilitator_array": [
             "Frank Thomas-Hockey, @fth_nix, Covent Garden Raspberry Jam", 
             "Andrew Mulholland, @gbaman1, Farset Labs"
