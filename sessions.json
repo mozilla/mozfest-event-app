@@ -3725,7 +3725,7 @@
         "scheduleblock": "sunday-session-block-5", 
         "space": "youthZone - Through the lens of youths", 
         "start": "11:30 AM", 
-        "title": "HTML Puzzle Box Challenge (Room 212, 2nd floor)"
+        "title": "HTML Puzzle Box Challenge (Open space, 2nd floor)"
     }, 
     {
         "day": "Saturday", 
@@ -3740,7 +3740,7 @@
         "scheduleblock": "saturday-session-block-2", 
         "space": "youthZone - Through the lens of youths", 
         "start": "12:00 PM", 
-        "title": "Using open community support as a community building tool (Room 205, 2nd floor) "
+        "title": "Using open community support as a community building tool"
     }, 
     {
         "day": "Sunday", 
@@ -3834,7 +3834,7 @@
         "scheduleblock": "sunday-session-block-6", 
         "space": "youthZone - Through the lens of youths", 
         "start": "12:45 PM", 
-        "title": "Teaching the Basics of Privacy (Room 213, 2nd floor)"
+        "title": "Teaching the Basics of Privacy"
     }, 
     {
         "day": "Sunday", 
@@ -4059,12 +4059,12 @@
         ], 
         "facilitators": "Joe Bailey, Tom Catling, Ellie Doney", 
         "id": "292", 
-        "location": "", 
+        "location": "Floor 2 - 212", 
         "pathways": "[youthZone] Pathway Craft - Bridging your digital divide", 
         "scheduleblock": "all-sunday", 
         "space": "youthZone - Through the lens of youths", 
         "start": "All Day", 
-        "title": "LEGO2NANO: an Open Atomic Force Microscope Project (Room 205, 2nd floor)"
+        "title": "LEGO2NANO: an Open Atomic Force Microscope Project"
     }, 
     {
         "day": "Saturday", 
@@ -4076,12 +4076,12 @@
         ], 
         "facilitators": "Joe Bailey, Tom Catling, Ellie Doney", 
         "id": "2921", 
-        "location": "", 
+        "location": "Floor 2 - 212", 
         "pathways": "[youthZone] Pathway Craft - Bridging your digital divide", 
-        "scheduleblock": "saturday-session-block-3", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "02:15 PM", 
-        "title": "LEGO2NANO: an Open Atomic Force Microscope Project (Open space, 2nd floor)"
+        "start": "03:30 PM", 
+        "title": "LEGO2NANO: an Open Atomic Force Microscope Project"
     }, 
     {
         "day": "Saturday", 
@@ -4092,12 +4092,12 @@
         ], 
         "facilitators": "Alan O'Donohoe, David Whale", 
         "id": "85", 
-        "location": "", 
+        "location": "Floor 2 - 212", 
         "pathways": "[youthZone] Pathway - News to me!, ArtsAward pathway", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "youthZone - Through the lens of youths", 
         "start": "12:00 PM", 
-        "title": "Minecraft Mini HackJam on Raspberry Pi (Room 212, 2nd floor)"
+        "title": "Minecraft Mini HackJam on Raspberry Pi with educators"
     }, 
     {
         "day": "Saturday", 
@@ -4227,7 +4227,7 @@
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "623", 
-        "location": "", 
+        "location": "Floor 2 - 213", 
         "pathways": "[youthZone] Pathway - News to me!", 
         "scheduleblock": "all-saturday", 
         "space": "youthZone - Through the lens of youths", 
@@ -4583,7 +4583,7 @@
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "623", 
-        "location": "", 
+        "location": "Floor 2 - 213", 
         "pathways": "[youthZone] Pathway - News to me!", 
         "scheduleblock": "all-sunday", 
         "space": "youthZone - Through the lens of youths", 
