@@ -185,7 +185,7 @@
         "facilitators": "Sandra Gaudenzi, Philo van Kemenade", 
         "id": "467", 
         "location": "", 
-        "pathways": "Leading and Building Community Through Participation, [Pathway] Storytellers & coders united: together we can change the world!", 
+        "pathways": "Leading and Building Community Through Participation, [Pathway] Storytellers & coders united: together we can change the world!,Science communication", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Building Participation", 
         "start": "11:30 AM", 
@@ -201,7 +201,7 @@
         "facilitators": "Jessica Lord, Mu-An Chiou", 
         "id": "259", 
         "location": "", 
-        "pathways": "New Technologies for Participation -- Challenge", 
+        "pathways": "New Technologies for Participation -- Challenge,Science communication", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "Building Participation", 
         "start": "03:30 PM", 
@@ -216,7 +216,7 @@
         "facilitators": "Soumya Deb", 
         "id": "217", 
         "location": "", 
-        "pathways": " Scaling Participatory Learning Experiences", 
+        "pathways": " Scaling Participatory Learning Experiences,Science communication", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "Building Participation", 
         "start": "03:30 PM", 
@@ -369,7 +369,7 @@
         "facilitators": "Sandra Gaudenzi, Filip Fastenaekels", 
         "id": "468", 
         "location": "", 
-        "pathways": "New Technologies for Participation -- Challenge, [Pathway] Storytellers & coders united: together we can change the world!", 
+        "pathways": "New Technologies for Participation -- Challenge, [Pathway] Storytellers & coders united: together we can change the world!,Science communication", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Building Participation", 
         "start": "12:00 PM", 
@@ -3048,7 +3048,7 @@
         "facilitators": "Jacob Tomlinson, Rachel Prudden, Ian Gentry and Niall Robinson and Tom Powell and Ross Middleham", 
         "id": "279", 
         "location": "", 
-        "pathways": "Citizen Science,Science communication", 
+        "pathways": "Citizen Science,Science communication,Open data", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "Open Science", 
         "start": "03:30 PM", 
@@ -3064,7 +3064,7 @@
         "facilitators": "Tom Demeranville, Laura Rueda", 
         "id": "278", 
         "location": "", 
-        "pathways": "", 
+        "pathways": "Open data", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Open Science", 
         "start": "12:45 PM", 
@@ -3079,7 +3079,7 @@
         "facilitators": "Alissa Nedossekina", 
         "id": "493", 
         "location": "", 
-        "pathways": "Citizen Science,Science communication", 
+        "pathways": "Science communication,Open data", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Open Science", 
         "start": "11:30 AM", 
@@ -3111,7 +3111,7 @@
         "facilitators": "Billy Meinke, Rob Davey", 
         "id": "532", 
         "location": "", 
-        "pathways": "", 
+        "pathways": "Open data", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Open Science", 
         "start": "12:00 PM", 
@@ -3171,7 +3171,7 @@
         "facilitators": "Gabriella Azzopardi", 
         "id": "260", 
         "location": "", 
-        "pathways": "", 
+        "pathways": "Open data", 
         "scheduleblock": "", 
         "space": "Open Science", 
         "title": "Open Cosmics: cosmic-ray physics for everyone"
@@ -3200,7 +3200,7 @@
         "facilitators": "Paola Villerreal", 
         "id": "517", 
         "location": "", 
-        "pathways": "", 
+        "pathways": "Open data", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Open Science", 
         "start": "12:00 PM", 
@@ -3300,7 +3300,7 @@
         "facilitators": "Francois Grey, Rosy Mondardini, Liz Barry (Public Lab) and Ruba Ishak (ONE.org)\nDavid McNair and (ONE.org)", 
         "id": "300", 
         "location": "", 
-        "pathways": "Citizen Science", 
+        "pathways": "Citizen Science,Open data", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Open Science", 
         "start": "11:30 AM", 
@@ -3317,7 +3317,7 @@
         "facilitators": "Garret Christensen, Nicole Janz, Kasia Doniec and Mao Mao (University of Cambridge)", 
         "id": "165", 
         "location": "", 
-        "pathways": "", 
+        "pathways": "Open data", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Open Science", 
         "start": "11:30 AM", 
@@ -3333,7 +3333,7 @@
         "facilitators": "Laura Rueda, Tom Demeranville", 
         "id": "298", 
         "location": "", 
-        "pathways": "Science communication", 
+        "pathways": "Science communication,Open data", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "Open Science", 
         "start": "02:15 PM", 
@@ -3383,7 +3383,7 @@
         "facilitators": "Jens Ohlig, Nicole Ebber", 
         "id": "560", 
         "location": "", 
-        "pathways": "", 
+        "pathways": "Open data", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Open Science", 
         "start": "12:45 PM", 
@@ -3428,7 +3428,7 @@
         "facilitators": "Bastian Greshake", 
         "id": "126", 
         "location": "", 
-        "pathways": "Citizen Science", 
+        "pathways": "Citizen Science,Open data", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Open Science", 
         "start": "11:30 AM", 
@@ -3474,7 +3474,7 @@
         "facilitators": "Tim Alby, Al Hyndman", 
         "id": "361", 
         "location": "", 
-        "pathways": "Citizen Science,Science communication", 
+        "pathways": "Citizen Science,Science communication,Open data", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Open Science", 
         "start": "12:45 PM", 
@@ -3489,7 +3489,7 @@
         "facilitators": "Mike Tigas", 
         "id": "527", 
         "location": "", 
-        "pathways": "Tools and Analysis", 
+        "pathways": "Tools and Analysis,Open data", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "Open Science", 
         "start": "02:15 PM", 
@@ -4230,7 +4230,7 @@
         "title": "Youth Physical computing \"Play date\" come play with us! (Open space, 2nd floor)"
     }, 
     {
-        "description": "![](https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/V1-small-500x341.jpg)      \nWhat if you could draw something with paint and then see it in 3D inside Minecraft?   \nAndrew Mulholland, our #youthZone Raspberry Pi youth leader decided this would be fun, so he coded it up himself to work with a set of special Raspberry Pi DOTs boards (developed by Rachel Rayns from Raspberry Pi Foundation) just for you to get creative!    \nDOTs Boards are very simple circuit boards, that once you have drawn your creation, are attached to the Raspberry Pi to see it come to life in 3D.\n", 
+        "description": "<img src=\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/V1-small-500x341.jpg\" alt=\"\" align=\"middle\">         \nWhat if you could draw something with paint and then see it in 3D inside Minecraft?   \nAndrew Mulholland, our #youthZone Raspberry Pi youth leader decided this would be fun, so he coded it up himself to work with a set of special Raspberry Pi DOTs boards (developed by Rachel Rayns from Raspberry Pi Foundation) just for you to get creative!    \nDOTs Boards are very simple circuit boards, that once you have drawn your creation, are attached to the Raspberry Pi to see it come to life in 3D.\n", 
         "facilitator_array": [
             "Andrew Mulholland, @gbaman1, Farset Labs", 
             "Frank Thomas-Hockey, @fth_nix, Covent Garden Raspberry Jam"
@@ -4245,7 +4245,7 @@
         "title": "Dot to Dot - Pi Minecraft Art with conductive ink (Outside room 209, 2nd floor)"
     }, 
     {
-        "description": "![](https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/Explorer.jpg)   \nLunch on Saturday is 12:30 - 13:300 and on Sunday 13:30 - 14:30. Come Join us in room 209 with your lunch fruit to make them do stuff, before you eat it!", 
+        "description": "<img src=\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/astrogalaxy.png\" alt=\"\" align=\"middle\">    \nLunch on Saturday is 12:30 - 13:300 and on Sunday 13:30 - 14:30. Come Join us in room 209 with your lunch fruit to make them do stuff, before you eat it!", 
         "facilitator_array": [
             "Jim Darby, @HackerJimbo"
         ], 
@@ -4260,7 +4260,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "![](https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/astrogalaxy.png)    \nA fun scratch workshop where you'll be able to create your very own galaxy with code!  You'll be using the tools of a real astronuat, with the Raspberry pi and sense hat add on board, using the LED Matrix on top go visualise your own galaxy.  In this workshop you'll learn the following  - linking hats on the Raspberry pi - understanding the scratch interface - writing code to initiate the LED Matrix - creating your own.programs to create a galaxy.", 
+        "description": "<img src=\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/astrogalaxy.png\" alt=\"\" align=\"middle\">    \nA fun scratch workshop where you'll be able to create your very own galaxy with code!  You'll be using the tools of a real astronuat, with the Raspberry pi and sense hat add on board, using the LED Matrix on top go visualise your own galaxy.  In this workshop you'll learn the following  - linking hats on the Raspberry pi - understanding the scratch interface - writing code to initiate the LED Matrix - creating your own.programs to create a galaxy.", 
         "facilitator_array": [
             "Milton De Paula, @miltonio94", 
             "Connor Ballard, @connorbanona"
@@ -4276,7 +4276,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "![](https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/MinecraftCover.png)    \nLearn how to hack the extremely popular game, Minecraft on the Raspberry Pi using some simple lines of Python code. You will learn some basic python in order to build and customise your very own castle, whenever you want at the push of a button!    \nThis workshop will include\n- An introduction to playing Minecraft on the Raspberry Pi\n- How to place blocks with code\n- Building a simple castle with code\n- A number of challenges to make your awesome program even more awesome!\n", 
+        "description": "<img src=\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/MinecraftCover.png\" alt=\"\" align=\"middle\">    \nLearn how to hack the extremely popular game, Minecraft on the Raspberry Pi using some simple lines of Python code. You will learn some basic python in order to build and customise your very own castle, whenever you want at the push of a button!    \nThis workshop will include\n- An introduction to playing Minecraft on the Raspberry Pi\n- How to place blocks with code\n- Building a simple castle with code\n- A number of challenges to make your awesome program even more awesome!\n", 
         "facilitator_array": [
             "Yasmin Bey, @RPi_Yaz14", 
             "Zach Igielman, @zacharyigielman", 
@@ -4293,7 +4293,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "![](https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/flappy.png)   \nLearn how to create an awesome Flappy Bird style game using the Space Certified Astro Pi (Sense HAT) addon board with the Raspberry Pi.   \nThis session will be well suited to those with perhaps a little previous Python (or other programming language) experience.", 
+        "description": "<img src=\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/flappy.png\" alt=\"\" align=\"middle\">    \nLearn how to create an awesome Flappy Bird style game using the Space Certified Astro Pi (Sense HAT) addon board with the Raspberry Pi.   \nThis session will be well suited to those with perhaps a little previous Python (or other programming language) experience.", 
         "facilitator_array": [
             "Frank Thomas-Hockey, @fth_nix, Covent Garden Raspberry Jam"
         ], 
@@ -4308,7 +4308,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "![](https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/pistop.jpg)\nEver wondered what a Raspberry Pi is for? You’ve heard about projects people have made with one, but have no idea where to start? Well this workshop is for you!   \nAimed at young (or simply young at heart) beginners, you will be shown how to get started with a Raspberry Pi using Scratch!    \nFirst you will be introduced to the Pi itself and understand all the things you need to get any computer working. Next, you’ll find out about the mysterious GPIO pins and how they can be used with LEDs, buttons, buzzers, speakers and various electronic add-ons. Finally, using block-based coding language Scratch, we will show you how to use a Raspberry Pi to code a set of traffic lights with a motion sensor and from there, your only limit is your imagination.", 
+        "description": "<img src=\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/pistop.jpg\" alt=\"\" align=\"middle\">    \nEver wondered what a Raspberry Pi is for? You’ve heard about projects people have made with one, but have no idea where to start? Well this workshop is for you!   \nAimed at young (or simply young at heart) beginners, you will be shown how to get started with a Raspberry Pi using Scratch!    \nFirst you will be introduced to the Pi itself and understand all the things you need to get any computer working. Next, you’ll find out about the mysterious GPIO pins and how they can be used with LEDs, buttons, buzzers, speakers and various electronic add-ons. Finally, using block-based coding language Scratch, we will show you how to use a Raspberry Pi to code a set of traffic lights with a motion sensor and from there, your only limit is your imagination.", 
         "facilitator_array": [
             "Cat Lamin, @catlamin"
         ], 
@@ -4323,7 +4323,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "![](https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/MinecraftCover.png)      \n<div style=\"position:fixed; height: 100%; width: 100%; top:0;left 0;\">\n  <img src='https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/MinecraftLogo%202.jpg' align=\"middle\" style=\"height: 100%\" />\n</div>\nLearn how to hack the extremely popular game, Minecraft on the Raspberry Pi using some simple lines of Python code. You will learn some basic python in order to build and customise your very own castle, whenever you want at the push of a button!    \nThis workshop will include\n- An introduction to playing Minecraft on the Raspberry Pi\n- How to place blocks with code\n- Building a simple castle with code\n- A number of challenges to make your awesome program even more awesome!\n", 
+        "description": "<img src=\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/MinecraftCover.png\" alt=\"\" align=\"middle\">    \nLearn how to hack the extremely popular game, Minecraft on the Raspberry Pi using some simple lines of Python code. You will learn some basic python in order to build and customise your very own castle, whenever you want at the push of a button!    \nThis workshop will include\n- An introduction to playing Minecraft on the Raspberry Pi\n- How to place blocks with code\n- Building a simple castle with code\n- A number of challenges to make your awesome program even more awesome!\n", 
         "facilitator_array": [
             "Yasmin Bey, @RPi_Yaz14", 
             "Zach Igielman, @zacharyigielman", 
@@ -4531,7 +4531,7 @@
     }, 
     {
         "clone_flag": "True", 
-        "description": "![](https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/V1-small-500x341.jpg)      \nWhat if you could draw something with paint and then see it in 3D inside Minecraft?   \nAndrew Mulholland, our #youthZone Raspberry Pi youth leader decided this would be fun, so he coded it up himself to work with a set of special Raspberry Pi DOTs boards (developed by Rachel Rayns from Raspberry Pi Foundation) just for you to get creative!    \nDOTs Boards are very simple circuit boards, that once you have drawn your creation, are attached to the Raspberry Pi to see it come to life in 3D.\n", 
+        "description": "<img src=\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/V1-small-500x341.jpg\" alt=\"\" align=\"middle\">         \nWhat if you could draw something with paint and then see it in 3D inside Minecraft?   \nAndrew Mulholland, our #youthZone Raspberry Pi youth leader decided this would be fun, so he coded it up himself to work with a set of special Raspberry Pi DOTs boards (developed by Rachel Rayns from Raspberry Pi Foundation) just for you to get creative!    \nDOTs Boards are very simple circuit boards, that once you have drawn your creation, are attached to the Raspberry Pi to see it come to life in 3D.\n", 
         "facilitator_array": [
             "Frank Thomas-Hockey, @fth_nix, Covent Garden Raspberry Jam", 
             "Andrew Mulholland, @gbaman1, Farset Labs"
@@ -4547,7 +4547,7 @@
     }, 
     {
         "clone_flag": "True", 
-        "description": "![](https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/Explorer.jpg)   \nLunch on Saturday is 12:30 - 13:300 and on Sunday 13:30 - 14:30. Come Join us in room 209 with your lunch fruit to make them do stuff, before you eat it!", 
+        "description": "<img src=\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/astrogalaxy.png\" alt=\"\" align=\"middle\">    \nLunch on Saturday is 12:30 - 13:300 and on Sunday 13:30 - 14:30. Come Join us in room 209 with your lunch fruit to make them do stuff, before you eat it!", 
         "facilitator_array": [
             "Jim Darby, @HackerJimbo"
         ], 
