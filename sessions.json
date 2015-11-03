@@ -4042,12 +4042,12 @@
         ], 
         "facilitators": "Sara Mansouri, Shahin Shadlou", 
         "id": "92", 
-        "location": "", 
+        "location": "Floor 2 - 213", 
         "pathways": "[youthZone] Pathway Craft - Bridging your digital divide", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "youthZone - Through the lens of youths", 
         "start": "03:30 PM", 
-        "title": "Hacking Flexagons (Room 213, 2nd floor)"
+        "title": "Hacking Flexagons"
     }, 
     {
         "day": "Sunday", 
@@ -4108,12 +4108,12 @@
         ], 
         "facilitators": "Mayur Patil, Santosh Viswanatham", 
         "id": "316", 
-        "location": "", 
+        "location": "Floor 2 - 213", 
         "pathways": "[youthZone] Pathway Craft - Bridging your digital divide", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "youthZone - Through the lens of youths", 
         "start": "03:30 PM", 
-        "title": "Webmaker App \"A Digital Lo-Fi, No-Fi! Teaching Kit\" (Room 213, 2nd floor)"
+        "title": "Webmaker App \"A Digital Lo-Fi, No-Fi! Teaching Kit\""
     }, 
     {
         "day": "Saturday", 
@@ -4123,12 +4123,12 @@
         ], 
         "facilitators": "Ryan Warsaw", 
         "id": "164", 
-        "location": "", 
+        "location": "Floor 2 - 213", 
         "pathways": "Scaling Participatory Learning Experiences,", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "youthZone - Through the lens of youths", 
         "start": "12:00 PM", 
-        "title": "Encouraging Contributions from Young Developers (Room 213, 2nd floor)"
+        "title": "Encouraging Contributions from Young Developers"
     }, 
     {
         "day": "Sunday", 
@@ -4160,18 +4160,19 @@
         "title": "Craft - Bridging your digital divide (Open space, 2nd floor)"
     }, 
     {
-        "description": "This is a rolling session for youths that explores the link between youth instrumentalist (players of a musical instrument) as a pathway into engineering and tech support roles through developing a passion for all things music technology and as an instrumentalist.", 
+        "day": "Saturday", 
+        "description": "This workshop explores the link between youth instrumentalist (players of a musical instrument) as a pathway into engineering and tech support roles through developing a passion for all things music technology and as an instrumentalist - you will get to play with Bo the Robot who you can teach to play the Xylophone, LittleBits Synths and Sonic Pi as tools that blend music with tech", 
         "facilitator_array": [
             "Luke Mayell - Musician"
         ], 
         "facilitators": "Luke Mayell - Musician", 
         "id": "537", 
-        "location": "", 
+        "location": "Floor 2 - 213", 
         "pathways": "[youthZone] Pathway - News to me!", 
-        "scheduleblock": "all-saturday", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "All Weekend", 
-        "title": "Music - 50% of software engineers are instrumentalist (Room 212, 2nd floor)"
+        "start": "02:15 PM", 
+        "title": "Music - 50% of software engineers are instrumentalist come play with Music tech"
     }, 
     {
         "day": "Saturday", 
@@ -4182,12 +4183,12 @@
         ], 
         "facilitators": "Gina Grant, Edgar “Edge” Quintanilla", 
         "id": "367", 
-        "location": "", 
+        "location": "Floor 2 - 213", 
         "pathways": "Get project assistance for your research, [youthZone] Pathway - News to me!, [youthZone] Teaching kit", 
-        "scheduleblock": "saturday-session-block-1", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "10:45 AM", 
-        "title": "Calling all Minecraft Builders! Using Minecraft to foster civic engagement, self-efficacy & agency (Room 213, 2nd floor)"
+        "start": "12:00 PM", 
+        "title": "Calling all Minecraft Builders! Using Minecraft to foster civic engagement, self-efficacy & agency"
     }, 
     {
         "day": "Saturday", 
@@ -4199,12 +4200,12 @@
         ], 
         "facilitators": "Joe Dytrych, Dee Saigal, Leonie Van Der Linde", 
         "id": "140", 
-        "location": "", 
+        "location": "Floor 2 - 213", 
         "pathways": "[youthZone] Pathway Tech - What else you can do with it", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
         "start": "02:15 PM", 
-        "title": "E.A.K. Walk-In - Save Kittens, Learn HTML! (Room 213, 2nd floor)"
+        "title": "E.A.K. Walk-In - Save Kittens, Learn HTML!"
     }, 
     {
         "day": "Sunday", 
@@ -4214,12 +4215,12 @@
         ], 
         "facilitators": "Jake Brown", 
         "id": "404", 
-        "location": "", 
+        "location": "Floor 2 - 213", 
         "pathways": "Don't Feed the Trolls, [youthZone] Pathway - News to me!", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "youthZone - Through the lens of youths", 
         "start": "11:30 AM", 
-        "title": "Parenting and Web Censorship (Room 213, 2nd floor)"
+        "title": "Parenting and Web Censorship"
     }, 
     {
         "description": "Lunch on Saturday is 12:30 - 13:300 and on Sunday 13:30 - 14:30. Come Join us in room 213 to learn coding Java with the new Java course by CodeAcademy", 
@@ -4242,12 +4243,12 @@
         ], 
         "facilitators": "Klasien van de Zandschulp, James Bryan Graves", 
         "id": "230", 
-        "location": "", 
+        "location": "Floor 2 - 205", 
         "pathways": "[youthZone] Music ", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "youthZone - Through the lens of youths", 
         "start": "11:30 AM", 
-        "title": "Modular frequencies - HearUsHere soundlab (Room 212, 2nd floor)"
+        "title": "Modular frequencies - HearUsHere soundlab"
     }, 
     {
         "day": "Sunday", 
@@ -4575,21 +4576,6 @@
         "space": "youthZone - Through the lens of youths", 
         "start": "All Weekend", 
         "title": "Craft - Bridging your digital divide (Open space, 2nd floor)"
-    }, 
-    {
-        "clone_flag": "True", 
-        "description": "This is a rolling session for youths that explores the link between youth instrumentalist (players of a musical instrument) as a pathway into engineering and tech support roles through developing a passion for all things music technology and as an instrumentalist.", 
-        "facilitator_array": [
-            "Luke Mayell - Musician"
-        ], 
-        "facilitators": "Luke Mayell - Musician", 
-        "id": "537", 
-        "location": "", 
-        "pathways": "[youthZone] Pathway - News to me!", 
-        "scheduleblock": "all-sunday", 
-        "space": "youthZone - Through the lens of youths", 
-        "start": "All Weekend", 
-        "title": "Music - 50% of software engineers are instrumentalist (Room 212, 2nd floor)"
     }, 
     {
         "clone_flag": "True", 
