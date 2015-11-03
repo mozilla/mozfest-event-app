@@ -1668,7 +1668,7 @@
         "title": "BadgeLAB Leeds: Testing open badges for arts engagement"
     }, 
     {
-        "description": "", 
+        "description": "A visual exhibition of Mozilla’s research endeavours across the world.", 
         "facilitator_array": [
             "Laura De Reynal. Mozilla Foundation"
         ], 
@@ -1678,7 +1678,7 @@
         "pathways": "Research", 
         "scheduleblock": "", 
         "space": "", 
-        "title": "The Research Gallery"
+        "title": "Studying the Global web"
     }, 
     {
         "day": "Saturday", 
@@ -2410,7 +2410,7 @@
         "scheduleblock": "saturday-session-block-1", 
         "space": "Localization", 
         "start": "10:45 AM", 
-        "title": "Photographing Smilies"
+        "title": "Photographing Smileys"
     }, 
     {
         "day": "Saturday", 
@@ -2423,7 +2423,7 @@
         "facilitators": "Mohomodou Houssouba, Jessica Bailey, Phillipa Bailey", 
         "id": "415", 
         "location": "", 
-        "pathways": "Seeing–Drawing–Producing Smilies, [youthZone] Links with us, ArtsAward pathway", 
+        "pathways": "Seeing–Drawing–Producing Smileys, [youthZone] Links with us, ArtsAward pathway", 
         "scheduleblock": "all-saturday", 
         "space": "Localization", 
         "start": "All Day", 
@@ -2454,20 +2454,20 @@
         "facilitators": "Metod Blejec", 
         "id": "42", 
         "location": "", 
-        "pathways": "Seeing–Drawing–Producing Smilies", 
+        "pathways": "Seeing–Drawing–Producing Smileys", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "Localization", 
         "start": "03:30 PM", 
-        "title": "Drawing these Smilies"
+        "title": "Drawing these Smileys"
     }, 
     {
         "day": "Sunday", 
-        "description": "Faces-in-places drawings will help us digitalise these smilies into vectors. We will trace or digitally recreate them in a vector graphic on the computer (using Illustrator, Inkscape, etc.). Then we will play with colour, framing, spacing and other design principles. Voila, smiley icon is done! Lets upload it.", 
+        "description": "Faces-in-places drawings will help us digitalise these Smileys into vectors. We will trace or digitally recreate them in a vector graphic on the computer (using Illustrator, Inkscape, etc.). Then we will play with colour, framing, spacing and other design principles. Voila, smiley icon is done! Lets upload it.", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "44", 
         "location": "", 
-        "pathways": "Seeing–Drawing–Producing Smilies", 
+        "pathways": "Seeing–Drawing–Producing Smileys", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "Localization", 
         "start": "02:45 PM", 
