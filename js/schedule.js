@@ -22,7 +22,7 @@ function Schedule(options) {
         ];
         schedule.sessionList = [];
         schedule.spaceList = [];
-
+        schedule.pathwayMap = [];
         // check for saved sessions in localStorage. Because localStorage only
         // takes strings, split on commas so we get an array of session IDs
         if (Modernizr.localstorage) {
@@ -76,6 +76,10 @@ function Schedule(options) {
             case "_space":
                 // show sessions in a space based on space slug in URL
                 schedule.displaySessionsOfSpace(pageID);
+                break;
+            case "_pathways": 
+                // shows list of all pathways
+                schedule.displayPathwaysList();
                 break;
             case "_pathway":
                 // show sessions in a pathway based on pathway slug in URL
@@ -142,7 +146,8 @@ function Schedule(options) {
         schedule.sessionList = _.sortBy(data, function(i) {
             // simple way to divide sessions into groups by length
             return i.length != '1 hour';
-        })
+        });
+        schedule.getPathwaysCountMap();
     }
 
     // writeSession() renders session data into a template fragment.
@@ -535,12 +540,57 @@ function Schedule(options) {
         schedule.getFilteredSessions("space", space_slug);
     }
 
+    // display the list of Pathways and their descriptions
+    schedule.displayPathwaysList = function() {
+        if (!schedule.sessionList.length) {
+            schedule.loadSessions(schedule.appendPathwayListItems);
+        } else {
+            schedule.appendPathwayListItems();
+        }
+    }
+
+    schedule.appendPathwayListItems = function() {
+        schedule.clearHighlightedPage();
+        schedule.$pageLinks.find('#pathways-page-link').addClass('active');
+        schedule.$container.html("");
+        schedule.addCaptionOverline("<h3><span>Pathways</span></h3>");
+
+        _.each(_.sortBy(_.keys(schedule.pathwayMap)), function(v, k) {
+            // prep the Pathway data for the template
+            var templateData = {
+                name: v,
+                numSessions: schedule.pathwayMap[v],
+                slugify: schedule.slugify
+            };
+            schedule.$container.append(schedule.pathwayMapTemplate(templateData));
+        });
+    }
+
+    schedule.getPathwaysCountMap = function() {
+        if ( schedule.pathwayMap.length == 0 ) {
+            var pathwaysArray = [];
+            _.each(schedule.sessionList, function(session) {
+                _.each(session.pathways.split(","), function(p) {
+                    pathwaysArray.push(p.trim());
+                });
+            });
+            schedule.pathwayMap = _.countBy(_.flatten(pathwaysArray));
+        }
+    }
+
+
     // add the standard listeners for various user interactions
     schedule.addListeners = function() {
         // clicking on the "Spaces" link on the nav bar displays the list of Spaces
-        schedule.$pageLinks.on('click', 'a', function(e) {
+        schedule.$pageLinks.on('click', '#spaces-page-link', function(e) {
             schedule.updateHash('spaces');
             schedule.displaySpacesList();
+        });
+
+        // clicking on the "Spaces" link on the nav bar displays the list of Spaces
+        schedule.$pageLinks.on('click', '#pathways-page-link', function(e) {
+            schedule.updateHash('pathways');
+            schedule.displayPathwaysList();
         });
 
         // clicking on "See all events in this Space" shows all sessions within that particular Space
@@ -550,6 +600,15 @@ function Schedule(options) {
             var space_slug = $(this).parents(".space-list-item").data("space");
             schedule.updateHash('space-'+space_slug);
             schedule.displaySessionsOfSpace(space_slug);
+        });
+
+        // clicking on "Pathway card" shows all sessions that tagged with that pathway
+        schedule.$container.on('click', '.pathway-list-item', function(e) {
+            e.preventDefault();
+
+            var pathway_slug = $(this).data("pathway");
+            schedule.updateHash('pathway-'+pathway_slug);
+            schedule.getFilteredSessions("pathways", pathway_slug);
         });
 
         // clicking on session "card" in a list opens session detail view
@@ -763,6 +822,10 @@ function Schedule(options) {
 
     schedule.spacesListTemplate = _.template(
         $("script#spaces-list-template").html()
+    );
+
+    schedule.pathwayMapTemplate = _.template(
+        $("script#pathways-list-template").html()
     );
 
     // fight me
