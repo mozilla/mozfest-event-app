@@ -4338,7 +4338,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "A special session aimed at adults who have never touched/used a Raspberry Pi before. We will cover a bit of electronics and coding(Why stop playing at eighteen? Fun for all your life)", 
+        "description": "A special session aimed at adults who have never touched/used a Raspberry Pi before. We will cover\n- An introduction to Raspberry Pi\n- Simple guide to hacking Minecraft Pi", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "4427", 
