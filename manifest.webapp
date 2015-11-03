@@ -1,7 +1,7 @@
 {
   "version": "1",
   "name": "MozFest Schedule",
-  "launch_path": "index.html",
+  "launch_path": "/mozfest-schedule-app/index.html",
   "description": "Mobile-oriented web app for displaying MozFest schedule data",
   "icons": {
     "16": "img/logo16.png",
