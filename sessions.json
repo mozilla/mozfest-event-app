@@ -4441,7 +4441,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/Explorer.jpg\" /></div>    \nLunch on Saturday is 12:30 - 13:300 and on Sunday 13:30 - 14:30. Come Join us in room 209 with your lunch fruit to make them do stuff, before you eat it!", 
+        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/Explorer.jpg\" /></div>    \nLunch on Saturday is 12:30 - 13:300 and on Sunday 13:30 - 14:30. Come Join us in room 209 with your lunch fruit to make them do stuff, before you eat it!   \nPush buttons are old hat! These days we all like touch sensitivity. In this workshop we'll be using the Raspberry Pi's Explorer HAT to control things by touch. What can we connect up to be sensitive? What can we do once something is touched? We'll try tin foil, play-doh and fruit for input and make sounds, run commands and light LEDs for output. Can we do even more? We just don't know....", 
         "facilitator_array": [
             "Jim Darby, @HackerJimbo"
         ], 
