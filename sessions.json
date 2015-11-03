@@ -789,6 +789,22 @@
         "title": "The Local Web"
     }, 
     {
+        "day": "Saturday", 
+        "description": "Innovation is too often seen as a business imperative rather than a means to improve lives.\nThe growing use of Open Innovation, co-creation and user centred design by businesses, and the public sector will enable more citizens than ever before to participate in shaping the future, not only of the web but all the products and services they experience.\nIn the session we shall take a few existing ideas and innovations and try to make them better using these approaches. We’re not looking for expertise, but passion to see and make a better future.\nBetter how? Well it could be a new audience, or solve an existing problem in a novel way. Our primary tool will be the ‘hacker ethic’ - access, freedom of information, and improvement to quality of life.\nYou’ll get to help design better weather warnings, or bring a problem of your own and share it.", 
+        "facilitator_array": [
+            "Michael Saunby, @msaunby, Met Office", 
+            "Shirley Chin"
+        ], 
+        "facilitators": "Michael Saunby, Shirley Chin", 
+        "id": "462", 
+        "location": "", 
+        "pathways": "Global Village Garden", 
+        "scheduleblock": "saturday-session-block-4", 
+        "space": "Voices of Diverse Leaders", 
+        "start": "03:30 PM", 
+        "title": "Innovating in the open for better lives (and better products)"
+    }, 
+    {
         "day": "Sunday", 
         "description": "A picture says a thousand words - and it’s never been easier to create images that can have real impact.\nIf you’d asked me a couple of years ago - “Can you draw?” I’d have said “Not really - I’m a programmer”. However, creating visual thoughts is now central to everything I do.\nThis session will aim to illustrate how a visual thought can be captured, created and shared and if this wasn’t just a lowly text form, I’d put a few examples in to show what I mean.\nUnfortunately, visual thoughts are limited by your ability to think…", 
         "facilitator_array": [
@@ -3597,48 +3613,6 @@
         "space": "Open Science", 
         "start": "02:15 PM", 
         "title": "How to run an Open Source Scientific Project"
-    }, 
-    {
-        "day": "Saturday", 
-        "description": "Innovation is too often seen as a business imperative rather than a means to improve lives.\nThe growing use of Open Innovation, co-creation and user centred design by businesses, and the public sector will enable more citizens than ever before to participate in shaping the future, not only of the web but all the products and services they experience.\nIn the session we shall take a few existing ideas and innovations and try to make them better using these approaches. We’re not looking for expertise, but passion to see and make a better future.\nBetter how? Well it could be a new audience, or solve an existing problem in a novel way. Our primary tool will be the ‘hacker ethic’ - access, freedom of information, and improvement to quality of life.\nYou’ll get to help design better weather warnings, or bring a problem of your own and share it.", 
-        "facilitator_array": [
-            "Michael Saunby, @msaunby, Met Office", 
-            "Shirley Chin"
-        ], 
-        "facilitators": "Michael Saunby, Shirley Chin", 
-        "id": "462", 
-        "location": "", 
-        "pathways": "Global Village Garden", 
-        "scheduleblock": "saturday-session-block-4", 
-        "space": "Voices of Diverse Leaders", 
-        "start": "03:30 PM", 
-        "title": "Innovating in the open for better lives (and better products)"
-    }, 
-    {
-        "description": "By the end of the session, the participants would be able to:\n- Have more effective conversations, regardless of how diverse their audience might be\n- Easily connect with and talk to someone from a very different professional or cultural background\n- Ask questions that allow others to want to share their knowledge or experience with you\n- Empathize with others\n- Build stronger personal and professional networks\n- Make others interested in something you are passionate about", 
-        "facilitator_array": [
-            "Bhuvan Shrivastava"
-        ], 
-        "facilitators": "Bhuvan Shrivastava", 
-        "id": "445", 
-        "location": "", 
-        "pathways": "Global Village Athena Library", 
-        "scheduleblock": "", 
-        "space": "Voices of Diverse Leaders", 
-        "title": "Building Networks Through the Art of Conversation"
-    }, 
-    {
-        "description": "The panel that I’m going to lead will allow young people to have insights into African music, how to do research and write about it online, how to represent it as a brand and other resource guides e.g. Vlogging.If you approve this proposal we can also include a performance from an African artist.", 
-        "facilitator_array": [
-            "Kevin Ovita Teddy"
-        ], 
-        "facilitators": "Kevin Ovita Teddy", 
-        "id": "109", 
-        "location": "", 
-        "pathways": "", 
-        "scheduleblock": "", 
-        "space": "Voices of Diverse Leaders", 
-        "title": "African perspectives on music for the open web"
     }, 
     {
         "day": "Saturday", 
