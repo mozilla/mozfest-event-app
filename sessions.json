@@ -3689,12 +3689,12 @@
         ], 
         "facilitators": "Dave Honess, Carrie Anne Philbin, Yasmin Bey and Joseph Thomas", 
         "id": "556", 
-        "location": "", 
+        "location": "Floor 2 - 209", 
         "pathways": "[youthZone] Pathway Tech - What else you can do with it, [youthZone] Teaching kit", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "youthZone - Through the lens of youths", 
         "start": "10:45 AM", 
-        "title": "Astro Pi - Your Code in Space (Room 209/10 2nd floor)"
+        "title": "Astro Pi - Your Code in Space"
     }, 
     {
         "day": "Saturday", 
@@ -3704,12 +3704,12 @@
         ], 
         "facilitators": "Erika Drushka", 
         "id": "206", 
-        "location": "", 
+        "location": "Floor 2 - 212", 
         "pathways": "Educator focused, Inclusive Communities, Youth Learning, [youthZone] Pathway - News to me!", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "youthZone - Through the lens of youths", 
         "start": "10:45 AM", 
-        "title": "What the heck are 'Jobs in tech'? (Room 212, 2nd floor) "
+        "title": "What the heck are 'Jobs in tech'?"
     }, 
     {
         "day": "Sunday", 
@@ -3735,7 +3735,7 @@
         ], 
         "facilitators": "Madalina Ana", 
         "id": "289", 
-        "location": "", 
+        "location": "Floor 2 - 205", 
         "pathways": "[youthZone] Pathway - News to me!", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "youthZone - Through the lens of youths", 
@@ -3829,7 +3829,7 @@
         ], 
         "facilitators": "Tom Farrow, Harry Smith", 
         "id": "440", 
-        "location": "", 
+        "location": "Floor 2 - 213", 
         "pathways": "Backdoors + Cryptowars, Don't Feed the Trolls, Youth Learning,", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "youthZone - Through the lens of youths", 
