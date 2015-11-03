@@ -162,6 +162,13 @@ function Schedule(options) {
         // add session information to the page
         targetBlock.append(template(templateData));
     }
+    
+    // remove all placeholder "Open" blocks on page
+    schedule.clearOpenBlocks = function() {
+        var openBlocks = schedule.$container.find('.open-block').parent();
+        openBlocks.prev('h3').remove();
+        openBlocks.remove();
+    }
 
     // prepares session data to be rendered into a template fragment
     schedule.makeSessionItemTemplateData = function(sessionItem, expanded) {
@@ -500,6 +507,7 @@ function Schedule(options) {
         schedule.$container.hide().empty().append('<p class="overline">Favorite sessions to store a list on this device</p>').append(schedule.sessionListTemplate);
         // use savedSessionList IDs to render favorited sessions to page
         schedule.addSessionsToSchedule(schedule.savedSessionList);
+        schedule.clearOpenBlocks();
         schedule.transitionElementIn(schedule.$container);
     }
 
@@ -688,7 +696,9 @@ function Schedule(options) {
                         var targetBlock = target.parents('.page-block');
                         target.remove();
                         if (!targetBlock.find('.session-list-item').length) {
-                            targetBlock.append('<div class="open-block">OPEN</div>');
+                            //targetBlock.append('<div class="open-block">OPEN</div>');
+                            targetBlock.prev('h3').remove();
+                            targetBlock.fadeOut('fast');
                         }
                     });
                 }
