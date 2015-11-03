@@ -3,8 +3,8 @@
         "description": "", 
         "facilitator_array": [], 
         "facilitators": "", 
-        "id": "100009", 
-        "location": "Floor 4 - Big Space", 
+        "id": "100000", 
+        "location": "Floor 4 - Big Space & 6 - All", 
         "pathways": "", 
         "scheduleblock": "18:00-friday", 
         "space": "", 
@@ -16,12 +16,12 @@
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "100001", 
-        "location": "", 
+        "location": "Floor 0 - Foyer", 
         "pathways": "", 
         "scheduleblock": "08:00-saturday", 
         "space": "", 
         "start": "All Day", 
-        "title": "Registration"
+        "title": "Saturday Registration"
     }, 
     {
         "day": "Saturday", 
@@ -68,12 +68,12 @@
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "100005", 
-        "location": "", 
+        "location": "Floor 0 - Foyer", 
         "pathways": "", 
         "scheduleblock": "09:00-sunday", 
         "space": "", 
         "start": "All Day", 
-        "title": "Registration"
+        "title": "Sunday Registration"
     }, 
     {
         "day": "Sunday", 
@@ -107,12 +107,24 @@
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "100008", 
-        "location": "Floor 4 - Big Space", 
+        "location": "Floor 0 - Walker Space", 
         "pathways": "", 
         "scheduleblock": "17:30-sunday", 
         "space": "", 
         "start": "All Day", 
-        "title": "Closing Demo"
+        "title": "Closing Demos"
+    }, 
+    {
+        "description": "", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "100009", 
+        "location": "Floor 2 - 208", 
+        "pathways": "", 
+        "scheduleblock": "all-saturday", 
+        "space": "", 
+        "start": "All Weekend", 
+        "title": "Creche"
     }, 
     {
         "description": "Web articles lead people on long journeys of hyperlinks and tab accumulation. This spreads the information out and can hurt your ability to see how it all connects. The session will focus on the discussion of these information networks and how they can be visualized. There will also be a group oriented activity that will have people working together to design a tool/UI that can be used to aid in this process.", 
@@ -4467,6 +4479,19 @@
         "space": "youthZone - Through the lens of youths", 
         "start": "All Day", 
         "title": "Getting started with Sonic Pi"
+    }, 
+    {
+        "clone_flag": "True", 
+        "description": "", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "100009", 
+        "location": "Floor 2 - 208", 
+        "pathways": "", 
+        "scheduleblock": "all-sunday", 
+        "space": "", 
+        "start": "All Weekend", 
+        "title": "Creche"
     }, 
     {
         "clone_flag": "True", 
