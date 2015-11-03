@@ -3731,14 +3731,16 @@
         "title": "How to run an Open Source Scientific Project"
     }, 
     {
-        "description": "", 
+        "day": "Saturday", 
+        "description": "We have indexed most of the world’s scientific knowledge, yet we still rely on a handful of proprietary tools to discover new content. Most of the time, we are restricted to a simple search interface. But do not worry: there is a world of open data and open source tools facilitating discovery that is emerging before our very eyes. In this session, we will look at this ecosystem to facilitate our own research. Participants will learn about open bibliographic and bibliometric data sources on the Web, as well as open source tools for discovery. We will examine how these data sources and tools can be used to stay on top of one’s research. You will even get your hands dirty and create an overview of your own research field.", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "265", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "", 
-        "space": "", 
+        "scheduleblock": "saturday-session-block-4", 
+        "space": "Open Science", 
+        "start": "03:30 PM", 
         "title": "The Student's and Researcher's Guide to Discovery: Exploring Scientific Fields with Open Data and Tools"
     }, 
     {
@@ -4097,12 +4099,11 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "Flexagons are fun paper toys or according to Wikipedia \"Flat models, constructed by folding strips of paper that can be flexed or folded in certain ways to reveal faces besides the two that were originally on the back and front.\": https://www.youtube.com/watch?v=VIVIegSt81k\nIn our maker party in Canada we decided to make flexagons with our own photos! I started this project from scratch and used customized flexagons as a fun tool to teach the web to students and the result was amazing! http://smansoury.github.io/Flexigon/\nThe main goal of this session is to enjoy making creative flexagons while teaching simple HTML, CSS to participants. The participants will be encouraged to come up with interesting ideas for designing flexagons and use the web tools to create their design while practicing team work. Here is how a potential result may look like: http://tinyurl.com/flexigon.\nFinally, we will talk about ways to participate in this project: https://github.com/smansoury/Flexigon", 
+        "description": "Flexagons are fun paper toys or according to Wikipedia \"Flat models, constructed by folding strips of paper that can be flexed or folded in certain ways to reveal faces besides the two that were originally on the back and front.\": https://www.youtube.com/watch?v=VIVIegSt81k\n\nIn our maker party in Canada we decided to make flexagons with our own photos! I started this project from scratch and used customized flexagons as a fun tool to teach the web to students and the result was amazing! https://sara-mansouri.github.io/Flexigon/\n\nThe main goal of this session is to enjoy making creative flexagons while teaching simple HTML, CSS to participants. The participants will be encouraged to come up with interesting ideas for designing flexagons and use the web tools to create their design while practicing team work. Here are some photos of our previus workshop: https://flic.kr/s/aHskgxPPaU.\n\nFinally, we will talk about ways to participate in this project: https://github.com/sara-mansouri/Flexigon", 
         "facilitator_array": [
-            "Sara Mansouri, @sara__mans", 
-            "Shahin Shadlou"
+            "Sara Mansouri, @sara__mansouri"
         ], 
-        "facilitators": "Sara Mansouri, Shahin Shadlou", 
+        "facilitators": "Sara Mansouri", 
         "id": "92", 
         "location": "Floor 2 - 213", 
         "pathways": "Craft - Bridging your digital divide", 
