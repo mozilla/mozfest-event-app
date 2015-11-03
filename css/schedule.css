@@ -293,9 +293,18 @@ header a {
 }
 
 #filter-form input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
     display: block;
     width: 100%;
-    margin-top: .5rem;
+    margin-top: 1rem;
+	border: 2px solid #D1D3D3;
+	border-radius: 30px;
+	padding: 1.8rem;
+	width: 100%;
+	height: 2rem;
+	font-size: 1.8rem;
+	line-height: 1.4;
 }
 #no-results {
 
