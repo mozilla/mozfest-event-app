@@ -540,7 +540,7 @@ function Schedule(options) {
         schedule.getFilteredSessions("space", space_slug);
     }
 
-    // display the list of Spaces and their descriptions
+    // display the list of Pathways and their descriptions
     schedule.displayPathwaysList = function() {
         if (!schedule.sessionList.length) {
             schedule.loadSessions(schedule.appendPathwayListItems);
