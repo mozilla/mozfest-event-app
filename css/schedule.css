@@ -282,7 +282,7 @@ header a {
     float: right;
 }
 #show-descriptions i {
-    color: #fc6e1f;
+    color: #D93F5F;
 }
 
 #filter-form {
@@ -297,6 +297,19 @@ header a {
     width: 100%;
     margin-top: .5rem;
 }
+
+.filter {
+    -webkit-appearance: none;
+    outline:none;
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    border: 1px solid #D1D3D3;
+}
+
+.filter:focus {
+    box-shadow: 0px 0px 0px 2px #D93F5F;
+}
+
 #no-results {
 
 }
