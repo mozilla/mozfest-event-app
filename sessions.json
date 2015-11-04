@@ -631,9 +631,9 @@
         "id": "550", 
         "location": "", 
         "pathways": "Global Village Garage, Space Hacking", 
-        "scheduleblock": "saturday-session-block-1", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "The Global Village", 
-        "start": "10:45 AM", 
+        "start": "02:15 PM", 
         "title": "The IoT Home Hub"
     }, 
     {
@@ -1395,7 +1395,7 @@
         "day": "Saturday", 
         "description": "KITES is a project about communication, distance and intimacy.\n\nit pairs up participants across India and the UK, and rvery day for a year asks them one simple questions sent to them by SMS. Their answer is shared with their partner so that gradually over the 365 days a portrait of the other person, their lives unfolding thousands of miles away is revealed.\n\nthis prototype will examine the question exchange between two strangers, simulating the core interaction at the heart of the project. Whereas KITES will send answer to questions from India to the UK, in this instance we will host two screens (probably ipads) that will serve up a series of questions allowing participants to send their answers and receive other’s in return working locally. The exchange will be quite casual and brief and be there to both test some of the content and see what questions elicit interesting or compelling answers as well as raise interest and awareness about the project.\n\n", 
         "facilitator_array": [
-            "Ben Eaton, Invisible Flock, "
+            "Ben Eaton, Invisible Flock, @invisibleflock"
         ], 
         "facilitators": "Ben Eaton", 
         "id": "613", 
