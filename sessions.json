@@ -1443,6 +1443,20 @@
         "title": "KITES prototype"
     }, 
     {
+        "description": "Displays showing slow tv & ambient media concepts in the library and garden throughout the weekend\n\nExploring slow TV and its ambient nature in an increasingly busy world", 
+        "facilitator_array": [
+            "Maxine Glancy"
+        ], 
+        "facilitators": "Maxine Glancy", 
+        "id": "580", 
+        "location": "", 
+        "pathways": "Global Village Garden", 
+        "scheduleblock": "all-saturday", 
+        "space": "The Global Village", 
+        "start": "All Weekend", 
+        "title": "Ambient animal and environmental data"
+    }, 
+    {
         "day": "Saturday", 
         "description": "Today's activist campaigns are innovative and connected, leveraging the web to build collective voice. Open source practice could amplify the power of contemporary activism by sharing resources and learning outcomes openly between movements. In this session we will use GitHub to codesign a framework for planning activist campaigns. It won't be too technical - if you can use a web browser you can learn to use GitHub during the session! We'll create a template to guide new movements with the benefit of your past experiences and together start to build a community-led repository for open source activism.", 
         "facilitator_array": [
@@ -4626,6 +4640,21 @@
         "space": "", 
         "start": "All Weekend", 
         "title": "Creche"
+    }, 
+    {
+        "clone_flag": "True", 
+        "description": "Displays showing slow tv & ambient media concepts in the library and garden throughout the weekend\n\nExploring slow TV and its ambient nature in an increasingly busy world", 
+        "facilitator_array": [
+            "Maxine Glancy"
+        ], 
+        "facilitators": "Maxine Glancy", 
+        "id": "580", 
+        "location": "", 
+        "pathways": "Global Village Garden", 
+        "scheduleblock": "all-sunday", 
+        "space": "The Global Village", 
+        "start": "All Weekend", 
+        "title": "Ambient animal and environmental data"
     }, 
     {
         "clone_flag": "True", 
