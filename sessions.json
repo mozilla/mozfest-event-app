@@ -1126,7 +1126,7 @@
         "description": "MozOpenHard Project's CHIRIMEN is a full open source hardware with Firefox OS(B2G) with software to control I2C and GPIO devices from the Web. It is designed for Web designers to extend their creativity to outside the screen (to real world). Last year, the team had an ideathon at the Mozilla festival to discuss specification and architecture. This year, we would like to show several manufacturing sample boards at the session. Those are functional and participants can touch and try the WoT world at the booth.\nAt the workshop session, participates can experience the development of CHIRIMEN based WoT device and have discussion about it.", 
         "facilitator_array": [
             "Daisuke Akatsuka, , Mozilla Japan", 
-            "Noriatsu Kudo, , Mozilla Japan"
+            "Noriatsu Kudo, Mozilla Japan"
         ], 
         "facilitators": "Daisuke Akatsuka, Noriatsu Kudo", 
         "id": "632", 
@@ -3884,9 +3884,9 @@
         "description": "Join us as Alasdair Davies, a Technical Specialist at the Zoological Society of London explores \"gamifying\" conservation. We'll look at how open data from wildlife tracking collars, hidden cameras and even drones can be used to create gaming experiences in real time. We'll hack and play the We are the Rangers Minecraft map and experiment with injecting open data from actual sensors.", 
         "facilitator_array": [
             "Alasdair Davies, @Al2kA, We Are the Rangers", 
-            "peter.jacobs@royalfoundation.com"
+            "Peter Jacobs, "
         ], 
-        "facilitators": "Alasdair Davies, peter.jacobs@royalfoundation.com", 
+        "facilitators": "Alasdair Davies, Peter Jacobs", 
         "id": "660", 
         "location": "", 
         "pathways": "", 
