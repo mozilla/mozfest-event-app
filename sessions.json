@@ -6,8 +6,9 @@
         "id": "100000", 
         "location": "Floor 4 - Big Space & 6 - All", 
         "pathways": "", 
-        "scheduleblock": "18:00-friday", 
+        "scheduleblock": "friday-science-fair", 
         "space": "", 
+        "start": "06:00 PM", 
         "title": "Science Fair"
     }, 
     {
