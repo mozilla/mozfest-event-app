@@ -3766,7 +3766,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "I created this HTML Puzzle Box which people can easily create because it's basically a papertoy, that you can print and craft by yourself. This boxes means to teach people, which has no knowledge about HTML basic languages, in a more fun way. Beside of teaching how to craft, we can play a HTML Puzzle Box Challenge which challenging how fast you can stack the boxes in right orders.", 
+        "description": "An HTML Puzzle Box I hear you ask? What could that possibly be?   \nIt is a really cool papertoy that you can create yourself! Along the way, you will learn some basic HTML and you can take part in the HTML Puzzle Box Challenge, how fast can you stack them in the right order?", 
         "facilitator_array": [
             "Yofie Setiawan, @yofiesetiawan, Mozilla Indonesia Community", 
             "Rizky Ariestiyansyah"
@@ -4304,7 +4304,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/np/makerparty.jpg\" /></div>\nSunday afternoon from 12:45 - 4pm, we are inviting you to come to the youthZone open space physical computing \"Play date\" for youths, kids and the not so young :)   \nHere we are going to work together with making our own Christmas cards that talk to us and some decorations with LED's, while our older youth will get to demo and work on whatever they want to do, with conductive ink for Minecraft, the Raspberry Pi, Arduino and bit of electronics to make stuff that include working on MET office youth hacks and hack winners PUDL.    \nWe will then demo at the science fair that evening what a sponsored by RS component \"Physical computing\" play date can create and make together as a community!   \n<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/np/makerparty2.jpg\" /></div>", 
+        "description": "    \n<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/np/makerparty2.jpg\" /></div>   \nSunday afternoon from 12:45 - 4pm, we are inviting you to come to the youthZone open space physical computing \"Play date\" for youths, kids and the not so young :)   \nHere we are going to work together with making our own Christmas cards that talk to us and some decorations with LED's, while our older youth will get to demo and work on whatever they want to do, with conductive ink for Minecraft, the Raspberry Pi, Arduino and bit of electronics to make stuff that include working on MET office youth hacks and hack winners PUDL.    \nWe will then demo at the science fair that evening what a sponsored by RS component \"Physical computing\" play date can create and make together as a community!   \n<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/np/makerparty.jpg\" /></div>   ", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "625", 
