@@ -4244,7 +4244,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "Learn a little bit of HTML and CSS, whilst saving kittens in the process. In Erase All Kittens (https://eraseallkittens.com/), players must explore a fantasy Internet universe, using code to change the world around them, in order to defeat the evil Operation E.A.K. - Erase All Kittens.\nE.A.K. is aimed at anyone aged 7+, but kids much younger than that have enjoyed learning with E.A.K. too.", 
+        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/np/kittens.png\" /></div>    \nLearn a little bit of HTML and CSS, whilst saving kittens in the process. In Erase All Kittens (https://eraseallkittens.com/), players must explore a fantasy Internet universe, using code to change the world around them, in order to defeat the evil Operation E.A.K. - Erase All Kittens.\nE.A.K. is aimed at anyone aged 7+, but kids much younger than that have enjoyed learning with E.A.K. too.\n", 
         "facilitator_array": [
             "Joe Dytrych, @SomeHats, Drum Roll HQ", 
             "Dee Saigal", 
@@ -4304,7 +4304,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": " Sunday afternoon from 12:45 - 4pm, we are inviting you to come to the youthZone open space physical computing \"Play date\" for youths, kids and the not so young :) here we are going to work together with making our own Christmas cards that talk to us and some decorations with LED's, while our older youth will get to demo and work on what they want to do, with conductive ink for Minecraft, the Raspberry Pi, Arduino and bit of electronics to make stuff that include working on MET office youth hacks and hack winners PUDL. We will then demo at the science fair that evening what a sponsored by RS component \"Physical computing\" play date can create and make together as a community :)", 
+        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/np/makerparty.jpg\" /></div>\nSunday afternoon from 12:45 - 4pm, we are inviting you to come to the youthZone open space physical computing \"Play date\" for youths, kids and the not so young :)   \nHere we are going to work together with making our own Christmas cards that talk to us and some decorations with LED's, while our older youth will get to demo and work on whatever they want to do, with conductive ink for Minecraft, the Raspberry Pi, Arduino and bit of electronics to make stuff that include working on MET office youth hacks and hack winners PUDL.    \nWe will then demo at the science fair that evening what a sponsored by RS component \"Physical computing\" play date can create and make together as a community!   \n<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/np/makerparty2.jpg\" /></div>", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "625", 
