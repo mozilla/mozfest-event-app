@@ -25,16 +25,16 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "", 
+        "description": "Opening Keynotes\nStart the day by hearing Mozillians discuss what's possible at MozFest", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "100002", 
         "location": "Floor 4 - Big Space", 
         "pathways": "", 
-        "scheduleblock": "saturday-opening-circle", 
+        "scheduleblock": "saturday-opening-keynotes", 
         "space": "", 
         "start": "09:00 AM", 
-        "title": "Saturday Opening Circle"
+        "title": "Saturday Opening Keynotes"
     }, 
     {
         "day": "Saturday", 
@@ -51,7 +51,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "", 
+        "description": "Conversation", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "100004", 
