@@ -1332,6 +1332,36 @@
     }, 
     {
         "day": "Saturday", 
+        "description": "\"Hello World!” Memory Bank is a memory sharing workshop revolved around technology. In sharing other's pasts we hope to improve the future in particular education of technology in the future. We hope to show the creators what to create and the teachers what to teach with the data you provide, whether it be the first time you used a computer or the time you hacked sony we want you to share with us. The workshop will use a physical timeline created from paper were people will use sticky notes to add there memories to the extensive timeline. There will also be a memory vault for all those secret memories and confessions that you don't want to have your name on.\n\nWe hope that the people participating in our workshop can be a part of a larger and more connected world through the sharing of their memories. By doing this we hope we can expand our knowledge on a world revolutionised by technology and the educational effect it had on people. After mozfest we hope to expand this idea through an app or website which could collate information from around the world and allow users to view and add to a century of technological memories in one place.\n\nFollow us on Twitter @mozfesttimeline and add your memories to the timeline from wherever you are in the world.", 
+        "facilitator_array": [
+            "Jude Thomas, @mozfesttimeline "
+        ], 
+        "facilitators": "Jude Thomas", 
+        "id": "609", 
+        "location": "", 
+        "pathways": "Global Village Garah", 
+        "scheduleblock": "saturday-session-block-2", 
+        "space": "The Global Village", 
+        "start": "12:00 PM", 
+        "title": "“Hello World!” Memory Bank"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "The web gives us access to precious manuscripts, books and artefacts in libraries, archives and museums all over the world. We can connect up and compare documents that have been dispersed across the world for hundreds of years. But can we do more than just passively look at these ancient survivals?\n\nThree presenters will discuss how we can use images to explore the history and story of manuscripts from Anglo-Saxon England (450-1066). Andrew Prescott from University of Glasgow will show how free online presentation of the manuscript of Beowulf , the first great English literary masterpiece, enables you to see parts of the manuscript that are hidden from the naked eye. Stewart Brookes of King’s College London will demonstrate the DigiPal project which is using images to help find out which scribe wrote which manuscript. Johanna Green from the University of Glasgow will talk about her work on the manuscript of one of the most famous collections of Old English poetry, the Exeter Book.", 
+        "facilitator_array": [
+            "Andrew Prescott, @ajprescott"
+        ], 
+        "facilitators": "Andrew Prescott", 
+        "id": "659", 
+        "location": "", 
+        "pathways": "The Global Village Garage", 
+        "scheduleblock": "sunday-session-block-7", 
+        "space": "The Global Village", 
+        "start": "02:45 PM", 
+        "title": "Wrangling The Past"
+    }, 
+    {
+        "day": "Saturday", 
         "description": "Today's activist campaigns are innovative and connected, leveraging the web to build collective voice. Open source practice could amplify the power of contemporary activism by sharing resources and learning outcomes openly between movements. In this session we will use GitHub to codesign a framework for planning activist campaigns. It won't be too technical - if you can use a web browser you can learn to use GitHub during the session! We'll create a template to guide new movements with the benefit of your past experiences and together start to build a community-led repository for open source activism.", 
         "facilitator_array": [
             "Sue Smith", 
