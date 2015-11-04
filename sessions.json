@@ -1105,7 +1105,7 @@
         "title": "MozOpenHard - Session"
     }, 
     {
-        "description": "", 
+        "description": "The web already powers the world's email, media, shopping, and more. Interacting with these things is a breeze because they all use the web. What if the electronics around us were the same?\n\nMeet FlyWeb. FlyWeb is a very simple idea at its core. Instead of phones interacting only with the cloud, they can discover and interact with electronics around them that are running empty web clients, such as TV's, projectors, game consoles, etc. The electronics come to life when connected to phones. The key here is that either the phones serve web apps to these electronics, or the electronics serve web apps to the phones.", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "628", 
