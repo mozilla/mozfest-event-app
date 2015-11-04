@@ -57,9 +57,9 @@
         "id": "100004", 
         "location": "Floor 4 - Big Space", 
         "pathways": "", 
-        "scheduleblock": "13:00-saturday", 
+        "scheduleblock": "saturday-lunch", 
         "space": "", 
-        "start": "All Day", 
+        "start": "01:00 PM", 
         "title": "Saturday Fireside Chat"
     }, 
     {
@@ -122,9 +122,9 @@
         "id": "100009", 
         "location": "Floor 4 - Big Space", 
         "pathways": "", 
-        "scheduleblock": "13:30-sunday", 
+        "scheduleblock": "sunday-lunch", 
         "space": "", 
-        "start": "All Day", 
+        "start": "01:30 PM", 
         "title": "Sunday Fireside Chat"
     }, 
     {
