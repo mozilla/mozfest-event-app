@@ -45,8 +45,11 @@
 
         <script type="text/template" id="session-list-template">
         <div id="saturday" class="schedule-tab">
-            <h3><span>Saturday 9:00 AM</span></h3>
-            <div id="saturday-opening-circle" class="page-block"><div class="open-block">OPEN</div></div>
+            <h3><span>Saturday 8 AM</span></h3>
+            <div id="saturday-registration" class="page-block"><div class="open-block">OPEN</div></div>
+
+            <h3><span>Saturday 9 AM</span></h3>
+            <div id="saturday-opening-keynotes" class="page-block"><div class="open-block">OPEN</div></div>
 
             <h3><span>All Day Saturday</span></h3>
             <div id="all-saturday" class="page-block"><div class="open-block">OPEN</div></div>
@@ -71,11 +74,13 @@
 
             <h3><span>Saturday Party</span></h3>
             <div id="saturday-evening-main-stage" class="page-block"><div class="open-block">OPEN</div></div>
-
         </div>
         
         <div id="sunday" class="schedule-tab">
-            <h3><span>Sunday Opening Circle</span></h3>
+            <h3><span>Sunday 9 AM</span></h3>
+            <div id="sunday-registration" class="page-block"><div class="open-block">OPEN</div></div>
+
+            <h3><span>Sunday 10 AM</span></h3>
             <div id="sunday-opening-circle" class="page-block"><div class="open-block">OPEN</div></div>
 
             <h3><span>All Day Sunday</span></h3>
@@ -182,7 +187,7 @@
                             <a href="#_space-<%= slugify(session.space) %>"><%= session.space %></a><% } %><% if (session.space&&session.location) { %>, <% } %><% if (session.location) { %><%= smartypants(session.location) %><% } %>
                     </div>
                     <% } %>
-                    <% if (session.pathwayArray) { %>
+                    <% if (session.pathways && session.pathwayArray.length) { %>
                     <div class="session-pathways">
                         <% session.pathwayArray.forEach(function(name, index) { %><% if (index > 0) { %>, <% } %>
                             <a href="#_pathway-<%= slugify(name) %>"><%= name %></a><% }) %>

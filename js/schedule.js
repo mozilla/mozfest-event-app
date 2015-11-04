@@ -364,6 +364,7 @@ function Schedule(options) {
         schedule.$container.html(schedule.sessionListTemplate);
         schedule.addCaptionOverline("<h2>" + schedule.filterKey + ": " + schedule.filterValue.replace(/-/g," ") + "</h2>");
         schedule.addSessionsToSchedule(schedule.filteredList);
+        schedule.clearOpenBlocks();
         schedule.transitionElementIn(schedule.$container);
     }
 
