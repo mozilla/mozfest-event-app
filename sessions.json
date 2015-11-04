@@ -19,9 +19,9 @@
         "id": "100001", 
         "location": "Floor 0 - Foyer", 
         "pathways": "", 
-        "scheduleblock": "08:00-saturday", 
+        "scheduleblock": "saturday-registration", 
         "space": "", 
-        "start": "All Day", 
+        "start": "08:00 AM", 
         "title": "Saturday Registration"
     }, 
     {
@@ -84,9 +84,9 @@
         "id": "100006", 
         "location": "Floor 0 - Foyer", 
         "pathways": "", 
-        "scheduleblock": "09:00-sunday", 
+        "scheduleblock": "sunday-registration", 
         "space": "", 
-        "start": "All Day", 
+        "start": "09:00 AM", 
         "title": "Sunday Registration"
     }, 
     {
@@ -4506,7 +4506,7 @@
         "pathways": "Tech - What else you can do with it, Craft - Bridging your digital divide", 
         "scheduleblock": "saturday-lunch", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "All Day", 
+        "start": "12:45 PM", 
         "title": "Musical fruit with the Explorer HAT (Room 209, 2nd floor)"
     }, 
     {
@@ -4616,7 +4616,7 @@
         "pathways": " Tech - What else you can do with it,  Craft - Bridging your digital divide", 
         "scheduleblock": "sunday-lunch", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "All Day", 
+        "start": "01:45 PM", 
         "title": "Musical fruit with the Explorer HAT (Room 209, 2nd floor)"
     }, 
     {
