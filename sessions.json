@@ -1038,6 +1038,7 @@
         "title": "Innovating in the open for better lives (and better products)"
     }, 
     {
+        "day": "Saturday", 
         "description": "The idea of this panel is to share experiences on the creation and sustainability of innovation and community-run spaces like hackerspaces, makerspaces and fablabs, with a special focus on the 3rd world and its specific challenges.\nIn other words, that means that every participant will be able to learn from others and share their own experiences about innovation/hacking/making community-run spaces from their own perspectives.\nA consequence of this is building stronger connections betwwen communities and spaces in the underdeveloped and developing world.", 
         "facilitator_array": [
             "Rodrigo Rodrigues da Silva"
@@ -1046,11 +1047,13 @@
         "id": "238", 
         "location": "", 
         "pathways": "Global Village Garage", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-2", 
         "space": "The Global Village", 
+        "start": "12:00 PM", 
         "title": "From Garoa Hacker Clube to Olabi: 5 years of hackerspaces, makerspaces, hardware startups and creative hubs in Brazil"
     }, 
     {
+        "day": "Saturday", 
         "description": "The purpose of this session is to challenge current thinking about the role of African tech hubs in society by sharing insights from research on hubs as creative spaces—institutions that engage in complex problem solving. There are at least 90 African tech hubs that serve as infrastructure to catalyze technology, entrepreneurship, and innovation. Not only do they act as physical infrastructure, providing access to power, internet, and space, but they also offer access to human, financial and social capital. By distributing these resources more efficiently, hubs make it easier to build start-ups, develop tech, and foster innovation.\nBut can hubs also create better solutions to complex social problems? Many tech hubs are engaged in developing tech solutions for education, health, and governance challenges. However, there is an opportunity to push past “there's an app for that” thinking and reconceive tech hubs as creative spaces that foster tech-enabled, innovative problem solving.", 
         "facilitator_array": [
             "Tayo Akinyemi"
@@ -1059,8 +1062,9 @@
         "id": "371", 
         "location": "", 
         "pathways": "Global Village Garage", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "The Global Village", 
+        "start": "02:15 PM", 
         "title": "Tech Hubs 2.0: What is a Tech Hub's Role in Society?"
     }, 
     {
