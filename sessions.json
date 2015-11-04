@@ -97,7 +97,7 @@
         "id": "100007", 
         "location": "Floor 4 - Big Space", 
         "pathways": "", 
-        "scheduleblock": "sunday-opening-circle", 
+        "scheduleblock": "sunday-keynotes", 
         "space": "", 
         "start": "10:00 AM", 
         "title": "Sunday Keynotes"
@@ -123,7 +123,7 @@
         "id": "100009", 
         "location": "Floor 4 - Big Space", 
         "pathways": "", 
-        "scheduleblock": "sunday-lunch", 
+        "scheduleblock": "sunday-fireside-chat", 
         "space": "", 
         "start": "01:30 PM", 
         "title": "Sunday Fireside Chat"
