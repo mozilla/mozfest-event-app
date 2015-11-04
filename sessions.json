@@ -1022,6 +1022,22 @@
         "title": "Connecting everything but the kitchen sink to Scratch"
     }, 
     {
+        "day": "Saturday", 
+        "description": "Innovation is too often seen as a business imperative rather than a means to improve lives.\n\nThe growing use of Open Innovation, co-creation and user centred design by businesses, and the public sector will enable more citizens than ever before to participate in shaping the future, not only of the web but all the products and services they experience.\n\nIn the session we shall take a few existing ideas and innovations and try to make them better using these approaches. We’re not looking for expertise, but passion to see and make a better future.", 
+        "facilitator_array": [
+            "Michael Saunby, The MET office, @msaunby", 
+            "Shirley Chin, @shirleychin"
+        ], 
+        "facilitators": "Michael Saunby, Shirley Chin", 
+        "id": "462", 
+        "location": "", 
+        "pathways": "Global Village Garden", 
+        "scheduleblock": "saturday-session-block-4", 
+        "space": "The Global Village", 
+        "start": "03:30 PM", 
+        "title": "Innovating in the open for better lives (and better products)"
+    }, 
+    {
         "description": "The idea of this panel is to share experiences on the creation and sustainability of innovation and community-run spaces like hackerspaces, makerspaces and fablabs, with a special focus on the 3rd world and its specific challenges.\nIn other words, that means that every participant will be able to learn from others and share their own experiences about innovation/hacking/making community-run spaces from their own perspectives.\nA consequence of this is building stronger connections betwwen communities and spaces in the underdeveloped and developing world.", 
         "facilitator_array": [
             "Rodrigo Rodrigues da Silva"
@@ -1061,30 +1077,16 @@
         "title": "Build your own FM radio station for $25 and control it from your phone"
     }, 
     {
-        "day": "Saturday", 
-        "description": "Innovation is too often seen as a business imperative rather than a means to improve lives.\n\nThe growing use of Open Innovation, co-creation and user centred design by businesses, and the public sector will enable more citizens than ever before to participate in shaping the future, not only of the web but all the products and services they experience.\n\nIn the session we shall take a few existing ideas and innovations and try to make them better using these approaches. We’re not looking for expertise, but passion to see and make a better future.", 
-        "facilitator_array": [
-            "Michael Saunby, The MET office, @msaunby", 
-            "Shirley Chin, @shirleychin"
-        ], 
-        "facilitators": "Michael Saunby, Shirley Chin", 
-        "id": "462", 
-        "location": "", 
-        "pathways": "Global Village Garden", 
-        "scheduleblock": "saturday-session-block-4", 
-        "space": "The Global Village", 
-        "start": "03:30 PM", 
-        "title": "Innovating in the open for better lives (and better products)"
-    }, 
-    {
+        "day": "Sunday", 
         "description": "", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "612", 
         "location": "", 
         "pathways": "Global Village Garage", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "The Global Village", 
+        "start": "11:30 AM", 
         "title": "Fabble: Making stories of Making something"
     }, 
     {
@@ -1308,6 +1310,21 @@
         "space": "The Global Village", 
         "start": "04:00 PM", 
         "title": "The last minute museum"
+    }, 
+    {
+        "day": "Saturday", 
+        "description": "We will work with participants in pairs to explore the broad theme of: MEETING PEOPLE | TELLING STORIES | CRAFTING EXPERIENCES. Beginning with a provocation around what each person personally wishes for around 'meaning' in a connected village, we will then pair them up to work out possible scenarios that explore these wishes. For example Neha’s automatic selfie generator that can help her stay in touch with her mother.\n\nWe will use design research techniques in order to share stories, build collaborative ideas and hopefully enable completely new ways to see our relationship with digital through the physical world.\n\nAll this over some Indian coffee and snacks under the Banyan Tree.", 
+        "facilitator_array": [
+            "Babitha George @unboxfestival "
+        ], 
+        "facilitators": "Babitha George @unboxfestival ", 
+        "id": "626", 
+        "location": "", 
+        "pathways": "Global Village Garage", 
+        "scheduleblock": "saturday-session-block-1", 
+        "space": "The Global Village", 
+        "start": "10:45 AM", 
+        "title": "Crafting physical digital interactions through shared stories"
     }, 
     {
         "day": "Saturday", 
