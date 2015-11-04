@@ -1090,14 +1090,18 @@
         "title": "Fabble: Making stories of Making something"
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "day": "Saturday", 
+        "description": "MozOpenHard Project's CHIRIMEN is a full open source hardware with Firefox OS(B2G) with software to control I2C and GPIO devices from the Web. It is designed for Web designers to extend their creativity to outside the screen (to real world). Last year, the team had an ideathon at the Mozilla festival to discuss specification and architecture. This year, we would like to show several manufacturing sample boards at the session. Those are functional and participants can touch and try the WoT world at the booth.\nAt the workshop session, participates can experience the development of CHIRIMEN based WoT device and have discussion about it.", 
+        "facilitator_array": [
+            "Mozilla Japan"
+        ], 
+        "facilitators": "Mozilla Japan", 
         "id": "632", 
         "location": "", 
         "pathways": "Global Village Garage", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "The Global Village", 
+        "start": "10:45 AM", 
         "title": "MozOpenHard - Session"
     }, 
     {
@@ -1315,9 +1319,9 @@
         "day": "Saturday", 
         "description": "We will work with participants in pairs to explore the broad theme of: MEETING PEOPLE | TELLING STORIES | CRAFTING EXPERIENCES. Beginning with a provocation around what each person personally wishes for around 'meaning' in a connected village, we will then pair them up to work out possible scenarios that explore these wishes. For example Neha’s automatic selfie generator that can help her stay in touch with her mother.\n\nWe will use design research techniques in order to share stories, build collaborative ideas and hopefully enable completely new ways to see our relationship with digital through the physical world.\n\nAll this over some Indian coffee and snacks under the Banyan Tree.", 
         "facilitator_array": [
-            "Babitha George @unboxfestival "
+            "Babitha George, @unboxfestival, Unbox Festival "
         ], 
-        "facilitators": "Babitha George @unboxfestival ", 
+        "facilitators": "Babitha George", 
         "id": "626", 
         "location": "", 
         "pathways": "Global Village Garage", 
