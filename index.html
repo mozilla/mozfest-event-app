@@ -71,7 +71,6 @@
 
             <h3><span>Saturday Party</span></h3>
             <div id="saturday-evening-main-stage" class="page-block"><div class="open-block">OPEN</div></div>
-
         </div>
         
         <div id="sunday" class="schedule-tab">
@@ -182,7 +181,7 @@
                             <a href="#_space-<%= slugify(session.space) %>"><%= session.space %></a><% } %><% if (session.location) { %>, <%= smartypants(session.location) %><% } %>
                     </div>
                     <% } %>
-                    <% if (session.pathwayArray) { %>
+                    <% if (session.pathways && session.pathwayArray.length) { %>
                     <div class="session-pathways">
                         <% session.pathwayArray.forEach(function(name, index) { %><% if (index > 0) { %>, <% } %>
                             <a href="#_pathway-<%= slugify(name) %>"><%= name %></a><% }) %>
