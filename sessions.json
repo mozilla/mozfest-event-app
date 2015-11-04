@@ -3881,6 +3881,22 @@
     }, 
     {
         "day": "Saturday", 
+        "description": "Join us as Alasdair Davies, a Technical Specialist at the Zoological Society of London explores \"gamifying\" conservation. We'll look at how open data from wildlife tracking collars, hidden cameras and even drones can be used to create gaming experiences in real time. We'll hack and play the We are the Rangers Minecraft map and experiment with injecting open data from actual sensors.", 
+        "facilitator_array": [
+            "Alasdair Davies, @Al2kA, We Are the Rangers", 
+            "peter.jacobs@royalfoundation.com"
+        ], 
+        "facilitators": "Alasdair Davies, peter.jacobs@royalfoundation.com", 
+        "id": "660", 
+        "location": "", 
+        "pathways": "", 
+        "scheduleblock": "saturday-session-block-3", 
+        "space": "Open Science", 
+        "start": "02:15 PM", 
+        "title": "The gamification of conservation using open data"
+    }, 
+    {
+        "day": "Saturday", 
         "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/Astro_Pi_Logo.png\" /></div>    \nTwo specially adapted Raspberry Pis will be travelling to the International Space Station with astronaut Tim Peake in December. This session introduces you to the Astro Pi project, how to set it up and how to use the many features of this genuine piece of space certified hardware and how you can link to this amazing project in your home and schools.", 
         "facilitator_array": [
             "Dave Honess, , Raspberry Pi Foundation", 
@@ -3952,7 +3968,7 @@
         "facilitators": "Rabimba Karanjai, Dietrich Ayala", 
         "id": "378", 
         "location": "", 
-        "pathways": "[youthZone] Pathway Tech - What else you can do with it, ArtsAward pathway", 
+        "pathways": " Tech - What else you can do with it, Arts Award pathway", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "youthZone - Through the lens of youths", 
         "start": "11:30 AM", 
@@ -3968,7 +3984,7 @@
         "facilitators": "Rabimba Karanjai, Dietrich Ayala", 
         "id": "3781", 
         "location": "", 
-        "pathways": " Tech - What else you can do with it, ArtsAward pathway", 
+        "pathways": " Tech - What else you can do with it, Arts Award pathway", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
         "start": "02:15 PM", 
@@ -3984,7 +4000,7 @@
         "facilitators": "Rabimba Karanjai, Dietrich Ayala", 
         "id": "3782", 
         "location": "", 
-        "pathways": " Tech - What else you can do with it, ArtsAward pathway", 
+        "pathways": " Tech - What else you can do with it, Arts Award pathway", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "youthZone - Through the lens of youths", 
         "start": "12:00 PM", 
@@ -4292,7 +4308,7 @@
         "facilitators": "Alan O'Donohoe, David Whale", 
         "id": "85", 
         "location": "Floor 2 - 212", 
-        "pathways": "News to me!, ArtsAward pathway", 
+        "pathways": "News to me!, Arts Award pathway", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "youthZone - Through the lens of youths", 
         "start": "12:00 PM", 
