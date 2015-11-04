@@ -1361,6 +1361,22 @@
         "title": "Wrangling The Past"
     }, 
     {
+        "day": "Sunday", 
+        "description": "In this workshop we want to go through the looking-glass and explore IoT in the context of our closest friend - the mirror. Our houses are full of mirrors. Silently looking back at us. Sharing ourselves with ourselves. This simple technological development of silver-backed glass is everywhere. So what will happen when it can be connected to the web? What will this mean?\n\nwe have no answers - just a LOT of questions... \n\nSo join us for an hour of reflecting on our digital selves and help us to understand more about what will happen when the web comes into our lives in this new physical way.", 
+        "facilitator_array": [
+            "Jayne Wallace, University of Northumbria, @jaynewellace", 
+            "Jon Rogers, University of Dundee,  @ileddigital"
+        ], 
+        "facilitators": "Jayne Wallace, Jon Rogers", 
+        "id": "627", 
+        "location": "", 
+        "pathways": "The Global Village Garage", 
+        "scheduleblock": "sunday-session-block-5", 
+        "space": "The Global Village", 
+        "start": "11:30 AM", 
+        "title": "Reflections on our digital selves"
+    }, 
+    {
         "day": "Saturday", 
         "description": "Today's activist campaigns are innovative and connected, leveraging the web to build collective voice. Open source practice could amplify the power of contemporary activism by sharing resources and learning outcomes openly between movements. In this session we will use GitHub to codesign a framework for planning activist campaigns. It won't be too technical - if you can use a web browser you can learn to use GitHub during the session! We'll create a template to guide new movements with the benefit of your past experiences and together start to build a community-led repository for open source activism.", 
         "facilitator_array": [
