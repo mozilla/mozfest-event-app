@@ -1108,9 +1108,11 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "From Beginning to End\n\nFacilitated by: Noriatsu Kudo\n\nFabble is a documentation service for your FAB projects. It covers the entire process of documentation from making Memos to share your great Recipes to the world.\n\nDo It With Others: Advance your projects with others! You can contribute your favorite projects by various ways. Making Memo or Recipes, comments on someone’s documents, suggest usages or give a star.\n\nFabble has a presentation mode which helps you to show your project to others. It generate step by step view version of recipes for your presentation.\n", 
+        "facilitator_array": [
+            "Noriatsu Kudo"
+        ], 
+        "facilitators": "Noriatsu Kudo", 
         "id": "612", 
         "location": "", 
         "pathways": "Global Village Garage", 
@@ -1136,8 +1138,10 @@
     }, 
     {
         "description": "The web already powers the world's email, media, shopping, and more. Interacting with these things is a breeze because they all use the web. What if the electronics around us were the same?\n\nMeet FlyWeb. FlyWeb is a very simple idea at its core. Instead of phones interacting only with the cloud, they can discover and interact with electronics around them that are running empty web clients, such as TV's, projectors, game consoles, etc. The electronics come to life when connected to phones. The key here is that either the phones serve web apps to these electronics, or the electronics serve web apps to the phones.", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "facilitator_array": [
+            "Doug Sherk"
+        ], 
+        "facilitators": "Doug Sherk", 
         "id": "628", 
         "location": "", 
         "pathways": "Global Village Garage", 
@@ -1146,20 +1150,11 @@
         "title": "FlyWeb"
     }, 
     {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "633", 
-        "location": "", 
-        "pathways": "Global Village Garage", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Firefox OS - Session"
-    }, 
-    {
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "Facilitators: Joe Cheng, Evelyn Hung, Jack Lin\n\nCome and check out what Firefox OS is like on a bigger screen Smart TV and get hands-on!\nThe Firefox OS Smart TV team is here and wants you to have fun with the TVs, such as tweeting your selfies on the TV (@fxos_tv) and playing a web game with a Firefox OS phone. Additionally, we will be happy to show you a quick product demonstration, future prototypes and how hacking can be done on the TV via WebIDE!\n", 
+        "facilitator_array": [
+            "Joe Cheng, @jcheng, Mozilla"
+        ], 
+        "facilitators": "Joe Cheng", 
         "id": "629", 
         "location": "", 
         "pathways": "Global Village Garage", 
@@ -1168,7 +1163,7 @@
         "title": "Firefox OS Smart TV - Games and Demos"
     }, 
     {
-        "description": "", 
+        "description": "MozOpenHard Project's CHIRIMEN is a full open source hardware with Firefox OS(B2G) with software to control I2C and GPIO devices from the Web. It is designed for Web designers to extend their creativity to outside the screen (to real world). Last year, the team had an ideathon at the Mozilla festival to discuss specification and architecture. This year, we would like to show several manufacturing sample boards at the session. Those are functional and participants can touch and try the WoT world at the booth.\nAt the workshop session, participates can experience the development of CHIRIMEN based WoT device and have discussion about it.", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "631", 
@@ -1179,7 +1174,7 @@
         "title": "MozOpenHard - Demo"
     }, 
     {
-        "description": "", 
+        "description": "A set of tools and libraries that makes Web of Things development easier. The goal is to lower entry barrier, enable cross-platform support and empower Makers/WebDevs to do more and do better.\nGet inspired, imagine the future.\n\nExhibition includes:\n\nWeb of Things Maker: A jsfiddle-like online editor that makes prototyping your WoT projects faster and easier, you can write simple JavaScript code to control Arduino board, and see it in action instantly in your browser. http://wotmaker.io/\n\nBrowser Johnny Five: A browser porting of the node.js robotics library johnny five. Browser j5 enabled possibilities to integrate things directly with WebAPIs, WebServices, WebApps, and browser add-ons. Currently supports Firefox OS, Android, iOS via Cordova (PhoneGap). https://wiki.mozilla.org/Browser_Johnny_Five\n\nFirefox OS Beacon Scanner: A Firefox OS add-on that demonstrates physical web integration, with this add-on installed, you can enable beacons scanner anytime by swiping up, and explore URLs or other information broadcast from nearby beacons right away. https://wiki.mozilla.org/FxOS_Beacon_Demos\n", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "634", 
