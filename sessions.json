@@ -576,7 +576,7 @@
         ], 
         "facilitators": "Adrian Gradinar, Dan Burnett, Paul Coulton", 
         "id": "559", 
-        "location": "", 
+        "location": "Floor 6 - 602", 
         "pathways": "Global Village Athena Library, Arts Award pathway", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "The Global Village", 
@@ -950,7 +950,7 @@
         "day": "Saturday", 
         "description": "Innovation is too often seen as a business imperative rather than a means to improve lives.\nThe growing use of Open Innovation, co-creation and user centred design by businesses, and the public sector will enable more citizens than ever before to participate in shaping the future, not only of the web but all the products and services they experience.\nIn the session we shall take a few existing ideas and innovations and try to make them better using these approaches. We’re not looking for expertise, but passion to see and make a better future.\nBetter how? Well it could be a new audience, or solve an existing problem in a novel way. Our primary tool will be the ‘hacker ethic’ - access, freedom of information, and improvement to quality of life.\nYou’ll get to help design better weather warnings, or bring a problem of your own and share it.", 
         "facilitator_array": [
-            "Michael Saunby, @msaunby, Met Office", 
+            "Michael Saunby, @msaunby", 
             "Shirley Chin"
         ], 
         "facilitators": "Michael Saunby, Shirley Chin", 
@@ -1067,7 +1067,7 @@
         "day": "Saturday", 
         "description": "Innovation is too often seen as a business imperative rather than a means to improve lives.\n\nThe growing use of Open Innovation, co-creation and user centred design by businesses, and the public sector will enable more citizens than ever before to participate in shaping the future, not only of the web but all the products and services they experience.\n\nIn the session we shall take a few existing ideas and innovations and try to make them better using these approaches. We’re not looking for expertise, but passion to see and make a better future.", 
         "facilitator_array": [
-            "Michael Saunby, The MET office, @msaunby", 
+            "Michael Saunby, @msaunby", 
             "Shirley Chin, @shirleychin"
         ], 
         "facilitators": "Michael Saunby, Shirley Chin", 
@@ -1126,9 +1126,10 @@
         "day": "Sunday", 
         "description": "From Beginning to End\n\nFacilitated by: Noriatsu Kudo\n\nFabble is a documentation service for your FAB projects. It covers the entire process of documentation from making Memos to share your great Recipes to the world.\n\nDo It With Others: Advance your projects with others! You can contribute your favorite projects by various ways. Making Memo or Recipes, comments on someone’s documents, suggest usages or give a star.\n\nFabble has a presentation mode which helps you to show your project to others. It generate step by step view version of recipes for your presentation.\n", 
         "facilitator_array": [
-            "Noriatsu Kudo, , Mozilla Japan"
+            "Ryo Oshima, @mozillafactory, Mozilla Japan", 
+            "Ken Fujiyoshi, @mozillafactory, Mozilla Japan"
         ], 
-        "facilitators": "Noriatsu Kudo", 
+        "facilitators": "Ryo Oshima, Ken Fujiyoshi", 
         "id": "612", 
         "location": "", 
         "pathways": "Global Village Garage", 
@@ -1141,8 +1142,8 @@
         "day": "Saturday", 
         "description": "MozOpenHard Project's CHIRIMEN is a full open source hardware with Firefox OS(B2G) with software to control I2C and GPIO devices from the Web. It is designed for Web designers to extend their creativity to outside the screen (to real world). Last year, the team had an ideathon at the Mozilla festival to discuss specification and architecture. This year, we would like to show several manufacturing sample boards at the session. Those are functional and participants can touch and try the WoT world at the booth.\nAt the workshop session, participates can experience the development of CHIRIMEN based WoT device and have discussion about it.", 
         "facilitator_array": [
-            "Daisuke Akatsuka, , Mozilla Japan", 
-            "Noriatsu Kudo, Mozilla Japan"
+            "Daisuke Akatsuka, @mozillafactory, Mozilla Japan", 
+            "Noriatsu Kudo, @mozillafactory, Mozilla Japan"
         ], 
         "facilitators": "Daisuke Akatsuka, Noriatsu Kudo", 
         "id": "632", 
@@ -1170,9 +1171,9 @@
     {
         "description": "Facilitators: Joe Cheng, Evelyn Hung, Jack Lin\n\nCome and check out what Firefox OS is like on a bigger screen Smart TV and get hands-on!\nThe Firefox OS Smart TV team is here and wants you to have fun with the TVs, such as tweeting your selfies on the TV (@fxos_tv) and playing a web game with a Firefox OS phone. Additionally, we will be happy to show you a quick product demonstration, future prototypes and how hacking can be done on the TV via WebIDE!\n", 
         "facilitator_array": [
-            "Joe Cheng, , Mozilla", 
-            "Evelyn Hung, , Mozilla", 
-            "Jack Lin, , Mozilla"
+            "Joe Cheng, @joechengla, Mozilla", 
+            "Evelyn Hung, @fxos_tv, Mozilla", 
+            "Jack Lin, @fxos_tv, Mozilla"
         ], 
         "facilitators": "Joe Cheng, Evelyn Hung, Jack Lin", 
         "id": "629", 
@@ -1185,8 +1186,8 @@
     {
         "description": "MozOpenHard Project's CHIRIMEN is a full open source hardware with Firefox OS(B2G) with software to control I2C and GPIO devices from the Web. It is designed for Web designers to extend their creativity to outside the screen (to real world). Last year, the team had an ideathon at the Mozilla festival to discuss specification and architecture. This year, we would like to show several manufacturing sample boards at the session. Those are functional and participants can touch and try the WoT world at the booth.\nAt the workshop session, participates can experience the development of CHIRIMEN based WoT device and have discussion about it.", 
         "facilitator_array": [
-            "Daisuke Akatsuka, , Mozilla Japan", 
-            "Noriatsu Kudo, , Mozilla Japan"
+            "Daisuke Akatsuka, @mozillafactory, Mozilla Japan", 
+            "Noriatsu Kudo, @mozillafactory, Mozilla Japan"
         ], 
         "facilitators": "Daisuke Akatsuka, Noriatsu Kudo", 
         "id": "631", 
@@ -1503,6 +1504,33 @@
         "title": "The Banyan Tree"
     }, 
     {
+        "description": "What's the vibe - it's going to feel like a festival within a festival. We have makers, designers, builders coders and creatives coming from all over the world and we want you to feel at home with them. Bring your friends, make things, bend rules and change the world!\n\nWant to 3D print a giant robot? Want to learn to build Firefox OS into everything? Want to make your first IoT idea come to life? Want to grow an idea you've had into something bigger? Want to just riff on some tech and human stuff? This is the place for you.\n\nHow can you find us? We're on the 6th floor right by the Banyan tree!", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "663", 
+        "location": "", 
+        "pathways": "Global Village Garage", 
+        "scheduleblock": "all-saturday", 
+        "space": "The Global Village", 
+        "start": "All Weekend", 
+        "title": "Global Village Garage - Weclome! "
+    }, 
+    {
+        "description": "Werewolf is played by two teams: the werewolf and the villagers. At the start of the game every player is given the identities, while the villagers at first know only the number of werewolf in the game.\n\nThere are two phases: \"night\" and \"day.\" At night certain players secretly perform special actions; during day players discuss and vote to \"lynch,\" or eliminate, one player. These phases alternate with each other until all werewolves have been eliminated or until the werewolves outnumbers the villagers.\n\nSome players have special abilities.\n\nFollow @cubicgarden and @ileddigital for information of where and when this weekend", 
+        "facilitator_array": [
+            "Ian Forrester, @cubicgarden", 
+            "Jon Rogers, @ileddigital"
+        ], 
+        "facilitators": "Ian Forrester, Jon Rogers", 
+        "id": "664", 
+        "location": "", 
+        "pathways": "Global Village Garden", 
+        "scheduleblock": "all-saturday", 
+        "space": "The Global Village", 
+        "start": "All Weekend", 
+        "title": "Secret game of Werewolf"
+    }, 
+    {
         "day": "Saturday", 
         "description": "Today's activist campaigns are innovative and connected, leveraging the web to build collective voice. Open source practice could amplify the power of contemporary activism by sharing resources and learning outcomes openly between movements. In this session we will use GitHub to codesign a framework for planning activist campaigns. It won't be too technical - if you can use a web browser you can learn to use GitHub during the session! We'll create a template to guide new movements with the benefit of your past experiences and together start to build a community-led repository for open source activism.", 
         "facilitator_array": [
@@ -1566,7 +1594,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "At Tools for Travelers on the Dark Side of the Internet you'll hear from: Violet Blue, Sarah Jeong, Kelley Misata, and Emrys Schoemaker about their work with reputation crisis training, online harassment, combatting cyberstalking, and digital purdah. In the first hour, you'll rotate through conversations with each expert where they'll describe their work and the workshop they have planned for the second hour.  In the second hour, you'll select a workshop on one of the topics raised and work with one of the experts. \n\n", 
+        "description": "At Tools for Travelers on the Dark Side of the Internet you'll hear from: Violet Blue, Sarah Jeong, and Kelley Misata about their work with reputation crisis training, online harassment, combatting cyberstalking, and digital purdah. In the first hour, you'll rotate through conversations with each expert where they'll describe their work and the workshop they have planned for the second hour.  In the second hour, you'll select a workshop on one of the topics raised and work with one of the experts. \n\n", 
         "facilitator_array": [
             "Violet Blue, @violetblue", 
             "Sarah Jeong, @sarahjeong", 
@@ -1584,7 +1612,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "At Tools for Travelers on the Dark Side of the Internet you'll hear from: Violet Blue, Sarah Jeong, Kelley Misata, and Emrys Schoemaker about their work with reputation crisis training, online harassment, combatting cyberstalking, and digital purdah. In the first hour, you'll rotate through conversations with each expert where they'll describe their work and the workshop they have planned for the second hour.  In the second hour, you'll select a workshop on one of the topics raised and work with one of the experts. \n\n", 
+        "description": "At Tools for Travelers on the Dark Side of the Internet you'll hear from: Violet Blue, Sarah Jeong, and Kelley Misata about their work with reputation crisis training, online harassment, combatting cyberstalking, and digital purdah. In the first hour, you'll rotate through conversations with each expert where they'll describe their work and the workshop they have planned for the second hour. In the second hour, you'll select a workshop on one of the topics raised and work with one of the experts.", 
         "facilitator_array": [
             "Violet Blue, @violetblue", 
             "Sarah Jeong, @sarahjeong", 
@@ -1733,7 +1761,7 @@
         "title": "Privacy Lab #4"
     }, 
     {
-        "day": "Sunday", 
+        "day": "Saturday", 
         "description": "Most open work happens through people talking to each other -- whether from meeting on IRC, Twitter, in-person, or a connection through an intro. At it’s core, “open” is about working collectively and leveraging community to do, make, build, tell stories, protect, share, talk, meet, etc. In this session, let’s work on the human network, develop shared principles and brainstorm for the future #openweb community.", 
         "facilitator_array": [
             "Georgia Bullen, @georgiamoon, Open Tech Institute"
@@ -1742,9 +1770,9 @@
         "id": "459", 
         "location": "", 
         "pathways": "Building a Crowd", 
-        "scheduleblock": "sunday-session-block-7", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "Digital Citizenship", 
-        "start": "02:45 PM", 
+        "start": "10:45 AM", 
         "title": "Building our #OpenWeb Community"
     }, 
     {
@@ -1829,10 +1857,9 @@
         "description": "During this session we will experience the various methods of participating and contributing to the Tor network. Tor, an open source software package combined with a global network of developers and volunteers, provides censorship circumvention and anonymous access for Internet users looking to access content or express themselves online.", 
         "facilitator_array": [
             "Tim Summut, @t1msammut, Amnesty International / Ford-Mozilla Fellow", 
-            "Tennyson Holloway, @barontennyson, Public Knowledge / Ford-Mozilla Fellow", 
-            "Arzhel Younsi"
+            "Tennyson Holloway, @barontennyson, Public Knowledge / Ford-Mozilla Fellow"
         ], 
-        "facilitators": "Tim Summut, Tennyson Holloway, Arzhel Younsi", 
+        "facilitators": "Tim Summut, Tennyson Holloway", 
         "id": "494", 
         "location": "", 
         "pathways": "Backdoors + Cryptowars", 
@@ -1969,7 +1996,7 @@
         ], 
         "facilitators": "Alison Smith", 
         "id": "207", 
-        "location": "", 
+        "location": "Floor 1 - Mezzanine", 
         "pathways": "Mapping Your MozFest Learning Journey", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "", 
@@ -1997,7 +2024,7 @@
         ], 
         "facilitators": "Pete O'Shea", 
         "id": "420", 
-        "location": "", 
+        "location": "Floor 1 - Mezzanine", 
         "pathways": "Mapping Your MozFest Learning Journey", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "", 
@@ -2011,7 +2038,7 @@
         ], 
         "facilitators": "DigitalMe", 
         "id": "36", 
-        "location": "", 
+        "location": "Floor 1 - Mezzanine", 
         "pathways": "Mapping Your MozFest Learning Journey", 
         "scheduleblock": "all-saturday", 
         "space": "", 
@@ -2025,7 +2052,7 @@
         ], 
         "facilitators": "DigitalMe", 
         "id": "37", 
-        "location": "", 
+        "location": "Floor 1 - Mezzanine", 
         "pathways": "Mapping Your MozFest Learning Journey", 
         "scheduleblock": "all-saturday", 
         "space": "", 
@@ -2039,7 +2066,7 @@
         ], 
         "facilitators": "DigitalMe", 
         "id": "38", 
-        "location": "", 
+        "location": "Floor 1 - Mezzanine", 
         "pathways": "Mapping Your MozFest Learning Journey", 
         "scheduleblock": "all-saturday", 
         "space": "", 
@@ -2055,7 +2082,7 @@
         ], 
         "facilitators": "Joseph Cavalla, Jon Adams", 
         "id": "61", 
-        "location": "", 
+        "location": "Floor 1 - Mezzanine", 
         "pathways": "Mapping Your MozFest Learning Journey", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "", 
@@ -2070,7 +2097,7 @@
         ], 
         "facilitators": "Robert Friedman", 
         "id": "189", 
-        "location": "", 
+        "location": "Floor 1 - Mezzanine", 
         "pathways": "Mapping Your MozFest Learning Journey", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "", 
@@ -2086,7 +2113,7 @@
         ], 
         "facilitators": "Dustin Stiver, Margaret Black", 
         "id": "372", 
-        "location": "", 
+        "location": "Floor 1 - Mezzanine", 
         "pathways": "Mapping Your MozFest Learning Journey", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "", 
@@ -2101,7 +2128,7 @@
         ], 
         "facilitators": "Grainne Hamilton", 
         "id": "284", 
-        "location": "", 
+        "location": "Floor 1 - Mezzanine", 
         "pathways": "Mapping Your MozFest Learning Journey", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Building Participation", 
@@ -2539,7 +2566,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "We all have colleagues who are smart, talented, award winning perhaps, but with little understanding of the digital foundation of their livelihood. They have accepted that apps and platforms can deliver content faster than their own bloated invasive websites. They forget the core purpose of the Web was to efficiently deliver text and media to a networked readership.\nAnd who could blame them?\nConsider an article of 40KB in text takes 2.5MB to deliver with auto-play ads, and 15s to load on a broadband connection on a publisher website. Imagine Facebook Instant Articles, Pocket, Apple News, or Flipboard and the inverse experience.\nTo preserve the publisher web site as something of relevance and within the control of publishers we need to rethink everything from content, ads, paywalls, and experience.\nThe goal is to determine whether to relinquish control and syndicate our content and continue a meaningful relationship with our audience.", 
+        "description": "We all have colleagues who are smart, talented, award winning perhaps, but with little understanding of the digital foundation of their livelihood. They have accepted that apps and platforms can deliver content faster than their own bloated invasive websites. They forget the core purpose of the Web was to efficiently deliver text and media to a networked readership.\n\nAnd who could blame them?\n\nConsider an article of 40KB in text takes 2.5MB to deliver with auto-play ads, and 15s to load on a broadband connection on a publisher website. Imagine Facebook Instant Articles, Pocket, Apple News, or Flipboard and the inverse experience.\n\nTo preserve the publisher web site as something of relevance and within the control of publishers we need to rethink everything from content, ads, paywalls, and experience.\n\nThe goal is to determine whether to relinquish control and syndicate our content and continue a meaningful relationship with our audience.\n\n### Agenda\nIdentify the problems in the system: Often we are our own worst enemies as an organization. We're in still flux (10 years later), or crisis depending on who you ask. In this period we are observing a number of short-term decisions at the potential expense of our long-term future.\n", 
         "facilitator_array": [
             "Michael Donohoe", 
             "Matt Dennewitz", 
@@ -2790,7 +2817,7 @@
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "605", 
-        "location": "", 
+        "location": "Floor 8 - 801", 
         "pathways": "", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "Mozilla Learning Networks", 
@@ -2848,7 +2875,7 @@
         ], 
         "facilitators": "Seeta Gangadharan", 
         "id": "391", 
-        "location": "", 
+        "location": "Floor 8 - 802", 
         "pathways": "Learning & Leading", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Mozilla Learning Networks", 
@@ -2863,7 +2890,7 @@
         ], 
         "facilitators": "Gem Barrett", 
         "id": "526", 
-        "location": "", 
+        "location": "Floor 8 - 801", 
         "pathways": "Learning & Leading", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "Mozilla Learning Networks", 
@@ -3140,7 +3167,7 @@
         ], 
         "facilitators": "Hera Hussein", 
         "id": "384", 
-        "location": "", 
+        "location": "Floor 8 - 801", 
         "pathways": " Voices of Diverse Leaders", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Mozilla Learning Networks", 
@@ -3960,7 +3987,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "There's a lot of talk about 'jobs in tech' but what does that actually \"Mean?\". In this interactive, non-intimidating session you'll create a \"Dream job\" based on what you're good at and what you like to do. You'll also hear a diverse panel share how they parlayed their skills and passions into a dynamic -- and often self-defined -- role in the tech industry. A great session for MozFest newbies, youth, and anyone considering transitioning their careers into this exciting field of new media. Everyone is welcome!", 
+        "description": "There's a lot of talk about 'jobs in tech' but what does that actually mean? In this interactive, non-intimidating session you'll create a 'dream job' based on what you're good at and what you like to do. You'll also hear a diverse panel share how they parlayed their skills and passions into a dynamic -- and often self-defined -- role in the tech industry. A great session for MozFest newbies, youth, and anyone considering transitioning their careers into this exciting field of new media. Everyone is welcome!", 
         "facilitator_array": [
             "Erika Drushka, @edrush, Mozilla Foundation"
         ], 
@@ -3991,7 +4018,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "deeper community participation using one of Mozilla's support tools (Army of Awesome) as a case study. We will use this to discuss and share what participation techniques and processes work in the open space and comment on challenges and opportunities.", 
+        "description": "Deeper community participation using one of Mozilla's support tools (Army of Awesome) as a case study. We will use this to discuss and share what participation techniques and processes work in the open space and comment on challenges and opportunities.", 
         "facilitator_array": [
             "Madalina Ana, @madalinaana, Mozilla"
         ], 
@@ -4767,13 +4794,42 @@
     }, 
     {
         "clone_flag": "True", 
+        "description": "What's the vibe - it's going to feel like a festival within a festival. We have makers, designers, builders coders and creatives coming from all over the world and we want you to feel at home with them. Bring your friends, make things, bend rules and change the world!\n\nWant to 3D print a giant robot? Want to learn to build Firefox OS into everything? Want to make your first IoT idea come to life? Want to grow an idea you've had into something bigger? Want to just riff on some tech and human stuff? This is the place for you.\n\nHow can you find us? We're on the 6th floor right by the Banyan tree!", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "663", 
+        "location": "", 
+        "pathways": "Global Village Garage", 
+        "scheduleblock": "all-sunday", 
+        "space": "The Global Village", 
+        "start": "All Weekend", 
+        "title": "Global Village Garage - Weclome! "
+    }, 
+    {
+        "clone_flag": "True", 
+        "description": "Werewolf is played by two teams: the werewolf and the villagers. At the start of the game every player is given the identities, while the villagers at first know only the number of werewolf in the game.\n\nThere are two phases: \"night\" and \"day.\" At night certain players secretly perform special actions; during day players discuss and vote to \"lynch,\" or eliminate, one player. These phases alternate with each other until all werewolves have been eliminated or until the werewolves outnumbers the villagers.\n\nSome players have special abilities.\n\nFollow @cubicgarden and @ileddigital for information of where and when this weekend", 
+        "facilitator_array": [
+            "Jon Rogers, @ileddigital", 
+            "Ian Forrester, @cubicgarden"
+        ], 
+        "facilitators": "Jon Rogers, Ian Forrester", 
+        "id": "664", 
+        "location": "", 
+        "pathways": "Global Village Garden", 
+        "scheduleblock": "all-sunday", 
+        "space": "The Global Village", 
+        "start": "All Weekend", 
+        "title": "Secret game of Werewolf"
+    }, 
+    {
+        "clone_flag": "True", 
         "description": "Drop by the DigitalMe stand to get some help to navigate MozFest. We'll ask you to pick a Persona so we can help identify what paths through the festival might work best for you.", 
         "facilitator_array": [
             "DigitalMe, @digitalme_"
         ], 
         "facilitators": "DigitalMe", 
         "id": "36", 
-        "location": "", 
+        "location": "Floor 1 - Mezzanine", 
         "pathways": "Mapping Your MozFest Learning Journey", 
         "scheduleblock": "all-sunday", 
         "space": "", 
@@ -4788,7 +4844,7 @@
         ], 
         "facilitators": "DigitalMe", 
         "id": "37", 
-        "location": "", 
+        "location": "Floor 1 - Mezzanine", 
         "pathways": "Mapping Your MozFest Learning Journey", 
         "scheduleblock": "all-sunday", 
         "space": "", 
@@ -4803,7 +4859,7 @@
         ], 
         "facilitators": "DigitalMe", 
         "id": "38", 
-        "location": "", 
+        "location": "Floor 1 - Mezzanine", 
         "pathways": "Mapping Your MozFest Learning Journey", 
         "scheduleblock": "all-sunday", 
         "space": "", 
