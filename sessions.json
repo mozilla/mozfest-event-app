@@ -1503,6 +1503,18 @@
         "title": "The Banyan Tree"
     }, 
     {
+        "description": "What's the vibe - it's going to feel like a festival within a festival. We have makers, designers, builders coders and creatives coming from all over the world and we want you to feel at home with them. Bring your friends, make things, bend rules and change the world!\n\nWant to 3D print a giant robot? Want to learn to build Firefox OS into everything? Want to make your first IoT idea come to life? Want to grow an idea you've had into something bigger? Want to just riff on some tech and human stuff? This is the place for you.\n\nHow can you find us? We're on the 6th floor right by the Banyan tree!", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "663", 
+        "location": "", 
+        "pathways": "Global Village Garage", 
+        "scheduleblock": "all-saturday", 
+        "space": "The Global Village", 
+        "start": "All Weekend", 
+        "title": "Global Village Garage - Weclome! "
+    }, 
+    {
         "day": "Saturday", 
         "description": "Today's activist campaigns are innovative and connected, leveraging the web to build collective voice. Open source practice could amplify the power of contemporary activism by sharing resources and learning outcomes openly between movements. In this session we will use GitHub to codesign a framework for planning activist campaigns. It won't be too technical - if you can use a web browser you can learn to use GitHub during the session! We'll create a template to guide new movements with the benefit of your past experiences and together start to build a community-led repository for open source activism.", 
         "facilitator_array": [
@@ -4764,6 +4776,19 @@
         "space": "The Global Village", 
         "start": "All Weekend", 
         "title": "The Banyan Tree"
+    }, 
+    {
+        "clone_flag": "True", 
+        "description": "What's the vibe - it's going to feel like a festival within a festival. We have makers, designers, builders coders and creatives coming from all over the world and we want you to feel at home with them. Bring your friends, make things, bend rules and change the world!\n\nWant to 3D print a giant robot? Want to learn to build Firefox OS into everything? Want to make your first IoT idea come to life? Want to grow an idea you've had into something bigger? Want to just riff on some tech and human stuff? This is the place for you.\n\nHow can you find us? We're on the 6th floor right by the Banyan tree!", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "663", 
+        "location": "", 
+        "pathways": "Global Village Garage", 
+        "scheduleblock": "all-sunday", 
+        "space": "The Global Village", 
+        "start": "All Weekend", 
+        "title": "Global Village Garage - Weclome! "
     }, 
     {
         "clone_flag": "True", 
