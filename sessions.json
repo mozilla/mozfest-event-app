@@ -1126,9 +1126,10 @@
         "day": "Sunday", 
         "description": "From Beginning to End\n\nFacilitated by: Noriatsu Kudo\n\nFabble is a documentation service for your FAB projects. It covers the entire process of documentation from making Memos to share your great Recipes to the world.\n\nDo It With Others: Advance your projects with others! You can contribute your favorite projects by various ways. Making Memo or Recipes, comments on someone’s documents, suggest usages or give a star.\n\nFabble has a presentation mode which helps you to show your project to others. It generate step by step view version of recipes for your presentation.\n", 
         "facilitator_array": [
-            "Noriatsu Kudo, , Mozilla Japan"
+            "Ryo Oshima, @mozillafactory, Mozilla Japan", 
+            "Ken Fujiyoshi, @mozillafactory, Mozilla Japan"
         ], 
-        "facilitators": "Noriatsu Kudo", 
+        "facilitators": "Ryo Oshima, Ken Fujiyoshi", 
         "id": "612", 
         "location": "", 
         "pathways": "Global Village Garage", 
@@ -1141,8 +1142,8 @@
         "day": "Saturday", 
         "description": "MozOpenHard Project's CHIRIMEN is a full open source hardware with Firefox OS(B2G) with software to control I2C and GPIO devices from the Web. It is designed for Web designers to extend their creativity to outside the screen (to real world). Last year, the team had an ideathon at the Mozilla festival to discuss specification and architecture. This year, we would like to show several manufacturing sample boards at the session. Those are functional and participants can touch and try the WoT world at the booth.\nAt the workshop session, participates can experience the development of CHIRIMEN based WoT device and have discussion about it.", 
         "facilitator_array": [
-            "Daisuke Akatsuka, , Mozilla Japan", 
-            "Noriatsu Kudo, Mozilla Japan"
+            "Daisuke Akatsuka, @mozillafactory, Mozilla Japan", 
+            "Noriatsu Kudo, @mozillafactory, Mozilla Japan"
         ], 
         "facilitators": "Daisuke Akatsuka, Noriatsu Kudo", 
         "id": "632", 
@@ -1170,9 +1171,9 @@
     {
         "description": "Facilitators: Joe Cheng, Evelyn Hung, Jack Lin\n\nCome and check out what Firefox OS is like on a bigger screen Smart TV and get hands-on!\nThe Firefox OS Smart TV team is here and wants you to have fun with the TVs, such as tweeting your selfies on the TV (@fxos_tv) and playing a web game with a Firefox OS phone. Additionally, we will be happy to show you a quick product demonstration, future prototypes and how hacking can be done on the TV via WebIDE!\n", 
         "facilitator_array": [
-            "Joe Cheng, , Mozilla", 
-            "Evelyn Hung, , Mozilla", 
-            "Jack Lin, , Mozilla"
+            "Joe Cheng, @joechengla, Mozilla", 
+            "Evelyn Hung, @fxos_tv, Mozilla", 
+            "Jack Lin, @fxos_tv, Mozilla"
         ], 
         "facilitators": "Joe Cheng, Evelyn Hung, Jack Lin", 
         "id": "629", 
@@ -1185,8 +1186,8 @@
     {
         "description": "MozOpenHard Project's CHIRIMEN is a full open source hardware with Firefox OS(B2G) with software to control I2C and GPIO devices from the Web. It is designed for Web designers to extend their creativity to outside the screen (to real world). Last year, the team had an ideathon at the Mozilla festival to discuss specification and architecture. This year, we would like to show several manufacturing sample boards at the session. Those are functional and participants can touch and try the WoT world at the booth.\nAt the workshop session, participates can experience the development of CHIRIMEN based WoT device and have discussion about it.", 
         "facilitator_array": [
-            "Daisuke Akatsuka, , Mozilla Japan", 
-            "Noriatsu Kudo, , Mozilla Japan"
+            "Daisuke Akatsuka, @mozillafactory, Mozilla Japan", 
+            "Noriatsu Kudo, @mozillafactory, Mozilla Japan"
         ], 
         "facilitators": "Daisuke Akatsuka, Noriatsu Kudo", 
         "id": "631", 
