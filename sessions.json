@@ -3441,9 +3441,9 @@
     {
         "description": "The main goals of our session would be:\n1)  Learning about cosmic rays, their importance and devices used to detect them.\n2)  Learning about the grid and it’s significance.\n3)  Open Cosmics Data Format.\nThese will include:\n1) Short description on particle physics and cosmic rays and a further description on the devices used for detecting cosmic rays, namely Cloud Chambers and Cosmic Pi, accompanied by videos and images taken first hand.\n2) Introduction to Open Cosmics and technologies used for our grid of cosmic devices.\n3) Introducing the Open Cosmics Data Format and the NASA FITS format.\n4) Introduction to CrowdCrafting.\n5) Tutorial on contributing to our project on CrowdCrafting.\nTake Away: Contribution to a citizen science project, knowledge about Open Cosmics and cosmic rays.\nBonus Take Away: Access to the Grid, knowledge and technical know-how of extracting useful data from videos captured by cloud chambers and other devices.", 
         "facilitator_array": [
-            "Gabriella Azzopardi"
+            "Shubham Gupta"
         ], 
-        "facilitators": "Gabriella Azzopardi", 
+        "facilitators": "Shubham Gupta", 
         "id": "260", 
         "location": "", 
         "pathways": "Open data", 
@@ -3837,7 +3837,7 @@
         "day": "Sunday", 
         "description": "A valuable but hidden set of data: research trainees spend months to years confirming previously published data. These experiments are not considered publishable. Other trainees in the same field “reinvent the wheel” due to lack of publicly available information. - See more at: http://beta.briefideas.org/ideas/af37b26a8f59d0cc6779845f841dd397#sthash.vsfx5eql.dpuf", 
         "facilitator_array": [
-            "Girija Goyal"
+            "Girija Goyal, , Harvard"
         ], 
         "facilitators": "Girija Goyal", 
         "id": "641", 
