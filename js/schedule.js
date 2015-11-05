@@ -1,6 +1,6 @@
 function Schedule(options) {
     var schedule = {};
-    
+
     schedule.init = function(options) {
         // TODO: make these configurable, passed in as options
         // when you create a Schedule() instance on the page
@@ -22,7 +22,7 @@ function Schedule(options) {
         ];
         schedule.sessionList = [];
         schedule.spaceList = [];
-        
+        schedule.pathwayMap = [];
         // check for saved sessions in localStorage. Because localStorage only
         // takes strings, split on commas so we get an array of session IDs
         if (Modernizr.localstorage) {
@@ -49,17 +49,16 @@ function Schedule(options) {
             schedule.makeSchedule();
         } else {
             // otherwise determine relevant detail page and call route()
-            var hashArray = window.location.hash.substring(1).split('-');
+            var hashArray = window.location.hash.substring(1).split(/-(.+)?/);
             schedule.route(hashArray[0], hashArray[1]);
         }
     }
-    
+
     // this is a single page app, and route() functions like a URL router
     schedule.route = function(pageType, pageID) {
         // currently this app supports two types of detail pages:
         // 1) _session (which gets a detail page for a given session)
         // 2) _show (which gets a session list for a specific tab)
-console.log(pageType, pageID);
         switch(pageType) {
             case "_session":
                 // get session details based on ID value from the URL
@@ -71,9 +70,20 @@ console.log(pageType, pageID);
                 schedule.makeSchedule();
                 break;
             case "_spaces":
+                // shows list of Spaces and their description
                 schedule.displaySpacesList();
                 break;
             case "_space":
+                // show sessions in a space based on space slug in URL
+                schedule.displaySessionsOfSpace(pageID);
+                break;
+            case "_pathways": 
+                // shows list of all pathways
+                schedule.displayPathwaysList();
+                break;
+            case "_pathway":
+                // show sessions in a pathway based on pathway slug in URL
+                schedule.getFilteredSessions("pathways", pageID);
                 break;
         }
     }
@@ -136,7 +146,8 @@ console.log(pageType, pageID);
         schedule.sessionList = _.sortBy(data, function(i) {
             // simple way to divide sessions into groups by length
             return i.length != '1 hour';
-        })
+        });
+        schedule.getPathwaysCountMap();
     }
 
     // writeSession() renders session data into a template fragment.
@@ -152,6 +163,13 @@ console.log(pageType, pageID);
         targetBlock.append(template(templateData));
     }
     
+    // remove all placeholder "Open" blocks on page
+    schedule.clearOpenBlocks = function() {
+        var openBlocks = schedule.$container.find('.open-block').parent();
+        openBlocks.prev('h3').remove();
+        openBlocks.remove();
+    }
+
     // prepares session data to be rendered into a template fragment
     schedule.makeSessionItemTemplateData = function(sessionItem, expanded) {
         var templatedata = {
@@ -167,10 +185,10 @@ console.log(pageType, pageID);
             templatedata.showDay = true;
             templatedata.showFacilitators = true;
         }
-        
+
         return templatedata;
     }
-    
+
     // addSessionsToSchedule() will take a list of session objects
     // and write them all onto the page
     schedule.addSessionsToSchedule = function(sessionList) {
@@ -196,11 +214,11 @@ console.log(pageType, pageID);
                 schedule.writeSession(targetBlock, templateData);
             }
         });
-        
+
         // add "fav" star controls to all session items on the page
         schedule.addStars('.session-list-item');
     }
-    
+
     // showSessionDetail() renders session data into the detail template,
     // including full session description, etc.
     schedule.showSessionDetail = function() {
@@ -214,8 +232,32 @@ console.log(pageType, pageID);
             // if sessionList has a session matching chosen ID, render it
             var templateData = {
                 session: session,
+                slugify: schedule.slugify, // context function for string-matching
                 smartypants: schedule.smartypants // context function for nice typography
             }
+
+            // turn facilitator_array into array of individual facilitator objects
+            templateData.session.facilitator_array = _.map(session.facilitator_array, function(facilitator) {
+                var metaArray = facilitator.split(",");
+                var meta = {
+                    name: metaArray.splice(0,1),
+                    description: ""
+                };
+                var otherMeta = _.each(metaArray, function(value) {
+                    if (value.indexOf("@") > -1) {
+                        meta.twitter = schedule.trim(value);
+                    } else {
+                        meta.description += schedule.trim(value);
+                    }
+                });
+                return meta;
+            })
+
+            // add pathway array for individual links
+            templateData.session.pathwayArray = _.each(session.pathways.split(','), function(i) {
+                schedule.trim(i);
+            })
+
             // clear currently highlighted tab/page link
             schedule.clearHighlightedPage();
 
@@ -227,19 +269,19 @@ console.log(pageType, pageID);
             schedule.makeSchedule();
         }
     }
-    
+
     // utility function to clean up element that held session detail
     schedule.clearSessionDetail = function() {
         $('#session-detail-wrapper').remove();
     }
-    
+
     // call getSessionDetail() when you have a sessionID value, but you
     // can't be sure that the app has loaded session data. E.g. initial
     // pageload goes directly to a session detail view
     schedule.getSessionDetail = function(sessionID) {
         // store sessionID in case we need it later
         schedule.sessionID = sessionID;
-        
+
         if (schedule.sessionList.length) {
             // if the data's loaded, render the detail page
             schedule.showSessionDetail();
@@ -253,17 +295,21 @@ console.log(pageType, pageID);
     schedule.updateHash = function(value) {
         var baseURL = window.location.href.replace(window.location.hash, '');
         var newURL = (!!value) ? baseURL + "#_" + value : baseURL;
-        
+
         window.history.pushState(value, "", newURL);
         // make sure we *have* a window.history before we try to manipulate it
         window.history.ready = true;
     }
-    
+
     // utility function to make sure transitions are the same across functions
-    schedule.transitionElementIn = function(element) {
-        element.fadeIn(50);
+    schedule.transitionElementIn = function(element, callback) {
+        element.fadeIn(50, function() {
+            if (callback) {
+                callback();
+            }
+        });
     }
-    
+
     // add fav stars that tap to store session ID values in localStorage
     schedule.addStars = function(containerClass) {
         if (Modernizr.localstorage) {
@@ -275,13 +321,27 @@ console.log(pageType, pageID);
         }
     }
     
+    // add icons for collapsible scheduleblocks
+    schedule.addBlockToggles = function() {
+        var blocks = schedule.$container.find('.page-block');
+        blocks.prev('h3').addClass('slider-control').append('<i class="fa fa-chevron-circle-down"></i>');
+        blocks.addClass('slider');
+        _.each(blocks, function(b) {
+            var block = $(b);
+            var blockHeight = block.height()+'px';
+            block.attr('data-max-height', blockHeight).css('max-height', blockHeight);
+        });
+        
+        schedule.$container.prepend('<a href="#" id="slider-collapse-all" class="page-control" data-action="collapse">Hide all sessions</a>')
+    }
+
     // add a set of tabs across the top of page as toggles that change display
     schedule.addToggles = function() {
         if (Modernizr.localstorage) {
             // only add "Favorites" tab if browser supports localStorage
             schedule.tabList.splice(schedule.tabList.length-1, 0, { name: 'Favorites', displayName: '<i class="fa fa-heart"></i>' });
         }
-        
+
         // set toggle width as percentage based on total number of tabs
         var toggleWidth = (1 / schedule.tabList.length) * 100;
 
@@ -294,7 +354,7 @@ console.log(pageType, pageID);
             );
         });
     }
-    
+
     // getChosenTab() sets value of chosenTab if none exists, likely because
     // the app is just being loaded. Show "today's" tab if possible
     schedule.getChosenTab = function() {
@@ -303,7 +363,7 @@ console.log(pageType, pageID);
             var favoredTab = _.find(schedule.tabList, function(i) {
                 return (!i.tabDate) ? false : i.tabDate.toDateString() == today
             })
-        
+
             if (favoredTab) {
                 // if we can match today's date, show it by default
                 schedule.chosenTab = favoredTab.name.toLowerCase();
@@ -313,14 +373,44 @@ console.log(pageType, pageID);
             }
         }
     }
-    
+
+    // given a JSON key name `filterKey`, find session objects with values
+    // that contain the string `filterValue`. This is a substring comparison
+    // based on slugified versions of key and value, e.g. "my-great-pathway"
+    schedule.getFilteredSessions = function(filterKey, filterValue) {
+        schedule.filterKey = filterKey || schedule.filterKey;
+        schedule.filterValue = filterValue || schedule.filterValue;
+
+        if (!schedule.sessionList.length) {
+            // this is first page load so fetch session data
+            schedule.loadSessions(schedule.showFilteredSessions);
+        } else {
+            schedule.showFilteredSessions();
+        }
+    }
+    schedule.showFilteredSessions = function() {
+        schedule.clearHighlightedPage();
+
+        if (!!schedule.filterKey) {
+            schedule.filteredList = _.filter(schedule.sessionList, function(v, k) {
+                return (schedule.slugify(v[schedule.filterKey]).indexOf(schedule.slugify(schedule.filterValue)) >= 0);
+            });
+        }
+
+        schedule.$container.html(schedule.sessionListTemplate);
+        schedule.addCaptionOverline("<h2>" + schedule.filterKey + ": " + schedule.filterValue.replace(/-/g," ") + "</h2>");
+        schedule.addSessionsToSchedule(schedule.filteredList);
+        schedule.clearOpenBlocks();
+        schedule.transitionElementIn(schedule.$container);
+    }
+
     // based on the value of chosenTab, render the proper session list
     schedule.loadChosenTab = function() {
         // clear currently highlighted tab/page link
         // and make sure the selected tab is lit
         schedule.clearHighlightedPage();
         $('#show-'+schedule.chosenTab).addClass('active');
-        
+
         if (schedule.chosenTab == 'favorites') {
             // "favorites" class changes display of session items
             schedule.$container.removeClass().addClass('favorites');
@@ -343,12 +433,12 @@ console.log(pageType, pageID);
             schedule.$container.html(schedule.sessionListTemplate);
             schedule.loadSessions(schedule.addSessionsToSchedule);
             schedule.transitionElementIn(schedule.$container);
-            
+
             schedule.$container.find('.schedule-tab').hide();
-            schedule.transitionElementIn($('#'+schedule.chosenTab));
+            schedule.transitionElementIn($('#'+schedule.chosenTab), schedule.addBlockToggles);
         }
     }
-    
+
     // the list view is treated differently than normal tabs that have "cards"
     // to tap on. This shows expanded data, and includes search/filtering
     schedule.showFullSessionList = function() {
@@ -363,24 +453,24 @@ console.log(pageType, pageID);
         fullList = _.sortBy(fullList, function(i) {
             return i.title;
         });
-        
+
         // render the list
         _.each(fullList, function(v, k) {
             var templateData = schedule.makeSessionItemTemplateData(v, true);
             schedule.writeSession(schedule.$container, templateData, schedule.sessionListItemTemplate);
         });
-        
+
         // add fav stars
         schedule.addStars('.session-list-item');
         schedule.transitionElementIn(schedule.$container);
     }
-    
+
     // provide some user instructions at top of page
-    schedule.addCaptionOverline = function() {
-        // provide some user instructions at top of page
-        //schedule.$container.append('<p class="overline"><i class="fa fa-cc"></i> icon indicates sessions with <a href="http://srccon.org/transcription/">live captions</a> available to stream on your laptop or device</p>');
+    schedule.addCaptionOverline = function(captionHTML) {
+        schedule.$container.prepend("<div class='page-caption'></div>");
+        schedule.$container.find('.page-caption').html(captionHTML);
     }
-    
+
     schedule.clearHighlightedPage = function() {
         // clear currently highlighted tab (if any) from "schedule-controls"
         schedule.$toggles.find('a').removeClass('active');
@@ -391,15 +481,15 @@ console.log(pageType, pageID);
     // adds search filter and expanded data toggle to top of "All" sessions list
     schedule.addListControls = function() {
         schedule.addCaptionOverline();
-        
+
         var filterForm = '<div id="filter-form">\
-                <label for="list-filter">Search names, facilitators and descriptions</label>\
+                <label for="list-filter">Search names, facilitators, spaces, pathways, and descriptions:</label>\
                 <input class="filter" type="text" id="list-filter" />\
             </div>';
         $(filterForm).appendTo(schedule.$container);
 
-        var expand = $('<a id="show-descriptions" data-action="show" href="#"><i class="fa fa-plus-circle"></i> Show descriptions</a>').appendTo(schedule.$container);
-        
+        var expand = $('<a id="show-descriptions" class="page-control" data-action="show" href="#"><i class="fa fa-plus-circle"></i> Show descriptions</a>').appendTo(schedule.$container);
+
         var filteredList = $('#schedule');
         // watch search input for changes, and filter the session list accordingly
         $('#list-filter').change(function() {
@@ -417,7 +507,7 @@ console.log(pageType, pageID);
                 });
                 // get the IDs of the matching sessions ...
                 var filteredIDs = _.pluck(filteredSessions, 'id');
-                
+
                 // ... temporarily hide all the sessions on the page ...
                 $('.session-list-item').hide()
                 $('.session-description').hide();
@@ -434,11 +524,11 @@ console.log(pageType, pageID);
                 // show the "expand" toggle
                 expand.show();
             }
-        
+
             // show "no results" if search input value matches zero items
             if ($('.session-list-item:visible').length == 0) {
                 $('#no-results').remove();
-                $('#filter-form').after('<p id="no-results">No matching results found.</p>');
+                $('#filter-form label').after('<p id="no-results">No matching results found.</p>');
             } else {
                 $('#no-results').remove();
             }
@@ -447,16 +537,17 @@ console.log(pageType, pageID);
             $(this).change();
         });
     }
-    
+
     // showFavorites() handles display when someone chooses the "Favorites" tab
     schedule.showFavorites = function() {
         // provide some user instructions at top of page
         schedule.$container.hide().empty().append('<p class="overline">Favorite sessions to store a list on this device</p>').append(schedule.sessionListTemplate);
         // use savedSessionList IDs to render favorited sessions to page
         schedule.addSessionsToSchedule(schedule.savedSessionList);
+        schedule.clearOpenBlocks();
         schedule.transitionElementIn(schedule.$container);
     }
-    
+
     // uses savedSessionIDs list to compile data for favorited sessions
     schedule.updateSavedSessionList = function() {
         schedule.savedSessionList = _.filter(schedule.sessionList, function(v, k) {
@@ -465,21 +556,23 @@ console.log(pageType, pageID);
             return (!!v.everyone) || _.contains(schedule.savedSessionIDs, v.id);
         });
     }
-    
+
     // display the list of Spaces and their descriptions
     schedule.displaySpacesList = function() {
         schedule.clearHighlightedPage();
         schedule.$pageLinks.find('#spaces-page-link').addClass('active');
+        schedule.$container.html("");
+        schedule.addCaptionOverline("<h3><span>Spaces</span></h3>");
 
         schedule.loadSpaces(function() {
-            schedule.$container.html("");
             _.each(schedule.spaceList, function(v, k) {
                 // prep the Space data for the template
                 var templateData = {
                     space: {
                         name: v.name,
                         description: v.description,
-                        iconSrc: v.iconSrc
+                        iconSrc: v.iconSrc,
+                        slugify: schedule.slugify
                     }
                 };
                 schedule.$container.append(schedule.spacesListTemplate(templateData));
@@ -487,12 +580,80 @@ console.log(pageType, pageID);
         });
     }
 
+    // display all sessions of a particular Space
+    schedule.displaySessionsOfSpace = function(space_slug) {
+        schedule.getFilteredSessions("space", space_slug);
+    }
+
+    // display the list of Pathways and their descriptions
+    schedule.displayPathwaysList = function() {
+        if (!schedule.sessionList.length) {
+            schedule.loadSessions(schedule.appendPathwayListItems);
+        } else {
+            schedule.appendPathwayListItems();
+        }
+    }
+
+    schedule.appendPathwayListItems = function() {
+        schedule.clearHighlightedPage();
+        schedule.$pageLinks.find('#pathways-page-link').addClass('active');
+        schedule.$container.html("");
+        schedule.addCaptionOverline("<h3><span>Pathways</span></h3>");
+
+        _.each(_.sortBy(_.keys(schedule.pathwayMap)), function(v, k) {
+            // prep the Pathway data for the template
+            var templateData = {
+                name: v,
+                numSessions: schedule.pathwayMap[v],
+                slugify: schedule.slugify
+            };
+            schedule.$container.append(schedule.pathwayMapTemplate(templateData));
+        });
+    }
+
+    schedule.getPathwaysCountMap = function() {
+        if ( schedule.pathwayMap.length == 0 ) {
+            var pathwaysArray = [];
+            _.each(schedule.sessionList, function(session) {
+                _.each(session.pathways.split(","), function(p) {
+                    pathwaysArray.push(p.trim());
+                });
+            });
+            schedule.pathwayMap = _.countBy(_.flatten(pathwaysArray));
+        }
+    }
+
+
     // add the standard listeners for various user interactions
     schedule.addListeners = function() {
         // clicking on the "Spaces" link on the nav bar displays the list of Spaces
-        schedule.$pageLinks.on('click', 'a', function(e) {
-            console.log("page link clicked");
+        schedule.$pageLinks.on('click', '#spaces-page-link', function(e) {
+            schedule.updateHash('spaces');
             schedule.displaySpacesList();
+        });
+
+        // clicking on the "Spaces" link on the nav bar displays the list of Spaces
+        schedule.$pageLinks.on('click', '#pathways-page-link', function(e) {
+            schedule.updateHash('pathways');
+            schedule.displayPathwaysList();
+        });
+
+        // clicking on "See all events in this Space" shows all sessions within that particular Space
+        schedule.$container.on('click', '.see-all-events-in-this-space', function(e) {
+            e.preventDefault();
+
+            var space_slug = $(this).parents(".space-list-item").data("space");
+            schedule.updateHash('space-'+space_slug);
+            schedule.displaySessionsOfSpace(space_slug);
+        });
+
+        // clicking on "Pathway card" shows all sessions that tagged with that pathway
+        schedule.$container.on('click', '.pathway-list-item', function(e) {
+            e.preventDefault();
+
+            var pathway_slug = $(this).data("pathway");
+            schedule.updateHash('pathway-'+pathway_slug);
+            schedule.getFilteredSessions("pathways", pathway_slug);
         });
 
         // clicking on session "card" in a list opens session detail view
@@ -510,7 +671,7 @@ console.log(pageType, pageID);
         // return to full schedule from session detail view
         schedule.$container.on('click', '#show-full-schedule', function(e) {
             e.preventDefault();
-            
+
             if (window.history.ready && !schedule.offlineMode) {
                 // use history.back() if possible to keep state in sync
                 window.history.back();
@@ -525,17 +686,17 @@ console.log(pageType, pageID);
         // scroll down to transcription inside session detail view
         schedule.$container.on('click', '#show-transcription', function(e) {
             e.preventDefault();
-            
+
             var targetPos = schedule.$container.offset().top + $("#transcription").offset().top;
             $("#session-detail-wrapper").scrollTop(targetPos);
         });
-        
+
         // toggle session descriptions on "All" sessions tab
         schedule.$container.on('click', '#show-descriptions', function(e) {
             e.preventDefault();
             var clicked = $(this);
             var action = clicked.data('action');
-            
+
             if (action == 'show') {
                 $('.session-list-item').find('.session-description').show();
                 clicked.html('<i class="fa fa-minus-circle"></i> Hide descriptions').data('action', 'hide');
@@ -545,15 +706,54 @@ console.log(pageType, pageID);
             }
         });
 
+        // toggle individual schedule blocks on header tap
+        schedule.$container.on('click', '.slider-control', function(e) {
+            var clicked = $(this);
+            var targetBlock = clicked.next('.page-block');
+            schedule.animateBlockToggle(targetBlock);
+            clicked.find('.fa').toggleClass('fa-chevron-circle-left fa-chevron-circle-down')
+        });
+        
+        // toggle all schedule blocks at once
+        schedule.$container.on('click', '#slider-collapse-all', function(e) {
+            e.preventDefault();
+            var clicked = $(this);
+            var action = clicked.data('action');
+            var targetBlocks = schedule.$container.find('.page-block');
+
+            _.each(targetBlocks, function(b) {
+                targetBlock = $(b);
+                schedule.animateBlockToggle(targetBlock);
+            });
+            schedule.$container.find('h3 .fa').toggleClass('fa-chevron-circle-left fa-chevron-circle-down');
+            
+            if (action == 'collapse') {
+                clicked.html('Show all sessions').data('action', 'expand');
+            } else {
+                clicked.html('Hide all sessions').data('action', 'collapse');
+            }
+        });
+
+        // helper function for "toggle block" and "toggle all" controls
+        schedule.animateBlockToggle = function(targetBlock) {
+            targetBlock.toggleClass('closed');
+            
+            if (targetBlock.hasClass('closed')) {
+                targetBlock.css('max-height', 0)
+            } else {
+                targetBlock.css('max-height', targetBlock.data('max-height'))
+            }
+        }
+        
         // tap stars to favorite/unfavorite via localstorage
         schedule.$container.on('click', '.favorite', function(e) {
             e.preventDefault();
             e.stopPropagation();
-            
+
             var clicked = $(this);
             var sessionID = clicked.parent().data('session').toString();
             var targets = $('[data-session="' + sessionID + '"]').find('.favorite');
-            
+
             // first toggle the star class so favorited sessions are lit
             targets.toggleClass('favorite-active');
             if (clicked.hasClass('favorite-active')) {
@@ -572,7 +772,9 @@ console.log(pageType, pageID);
                         var targetBlock = target.parents('.page-block');
                         target.remove();
                         if (!targetBlock.find('.session-list-item').length) {
-                            targetBlock.append('<div class="open-block">OPEN</div>');
+                            //targetBlock.append('<div class="open-block">OPEN</div>');
+                            targetBlock.prev('h3').remove();
+                            targetBlock.fadeOut('fast');
                         }
                     });
                 }
@@ -586,15 +788,15 @@ console.log(pageType, pageID);
         // tap a schedule tab to toggle to a different view
         schedule.$toggles.on('click', 'a', function(e) {
             e.preventDefault();
-            
+
             var clicked = $(this).attr('id');
             schedule.updateHash(clicked);
-            
+
             schedule.chosenTab = clicked.replace('show-','');
             schedule.trackEvent('Tab change', schedule.chosenTab);
             schedule.loadChosenTab();
         });
-        
+
         // this is a single-page app, but we need to support the back button
         window.onpopstate = function(event) {
             // if window.history isn't available, bail out
@@ -602,7 +804,7 @@ console.log(pageType, pageID);
             schedule.clearSessionDetail();
             schedule.load();
         };
-        
+
         // check for new appcache on page load
         window.addEventListener('load', function(e) {
             window.applicationCache.addEventListener('updateready', function(e) {
@@ -615,7 +817,7 @@ console.log(pageType, pageID);
             }, false);
         }, false);
     }
-    
+
     // utility function to track events in Google Analytics
     schedule.trackEvent = function(action, label) {
         ga('send', 'event', 'Schedule App', action, label);
@@ -639,6 +841,54 @@ console.log(pageType, pageID);
             .replace(/\.{3}/g, '\u2026');
     }
 
+    // underscore.string formatters
+    schedule.escapeRegExp = function(str) {
+        if (str == null) return '';
+        return String(str).replace(/([.*+?^=!:${}()|[\]\/\\])/g, '\\$1');
+    }
+    schedule.defaultToWhiteSpace = function(characters) {
+        if (characters == null)
+            return '\\s';
+        else if (characters.source)
+            return characters.source;
+        else
+            return '[' + escapeRegExp(characters) + ']';
+    }
+    schedule.nativeTrim = String.prototype.trim;
+    schedule.trim = function(str, characters) {
+        if (str == null) return '';
+        if (!characters && schedule.nativeTrim) return schedule.nativeTrim.call(str);
+        characters = schedule.defaultToWhiteSpace(characters);
+        return String(str).replace(new RegExp('\^' + characters + '+|' + characters + '+$', 'g'), '');
+    }
+    schedule.defaultToWhiteSpace = function(characters) {
+        if (characters == null)
+            return '\\s';
+        else if (characters.source)
+            return characters.source;
+        else
+            return '[' + schedule.escapeRegExp(characters) + ']';
+    }
+    schedule.dasherize = function(str) {
+      return schedule.trim(str).replace(/([A-Z])/g, '-$1').replace(/[-_\s]+/g, '-').toLowerCase();
+    }
+
+    // utility function to turn strings into "slugs" for easier matching
+    // e.g. "My Great Pathway" -> "my-great-pathway"
+    schedule.slugify = function(str) {
+        if (!str) { return '' }
+        var from = "ąàáäâãåæăćęèéëêìíïîłńòóöôõøśșțùúüûñçżź",
+            to = "aaaaaaaaaceeeeeiiiilnoooooosstuuuunczz",
+            regex = new RegExp(schedule.defaultToWhiteSpace(from), 'g');
+
+        str = String(str).toLowerCase().replace(regex, function(c){
+          var index = from.indexOf(c);
+          return to.charAt(index) || '-';
+        });
+
+        return schedule.dasherize(str.replace(/[^\w\s-]/g, ''));
+    }
+
     // compile the Underscore templates
     schedule.sessionListTemplate = _.template(
         $("script#session-list-template").html()
@@ -658,6 +908,10 @@ console.log(pageType, pageID);
 
     schedule.spacesListTemplate = _.template(
         $("script#spaces-list-template").html()
+    );
+
+    schedule.pathwayMapTemplate = _.template(
+        $("script#pathways-list-template").html()
     );
 
     // fight me

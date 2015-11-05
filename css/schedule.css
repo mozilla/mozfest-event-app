@@ -54,6 +54,12 @@
 .fa-cc:before {
   content: "\f20a";
 }
+.fa-chevron-circle-left:before {
+  content: "\f137";
+}
+.fa-chevron-circle-down:before {
+  content: "\f13a";
+}
 
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
@@ -184,23 +190,30 @@ header a {
 
 }
 
-.schedule-tab h3 {
+.page-caption h2 {
+    text-transform: uppercase;
+}
+
+.schedule-tab h3,
+.page-caption h3 {
     position: relative;
     font-weight: 500;
     text-transform: uppercase;
     margin: 7rem 0 5rem 0;
     text-align: center;
     z-index: 1;
+    clear: both;
 }
-.schedule-tab h3 span {
+.schedule-tab h3 span,
+.page-caption h3 span {
     font-family: "Open Sans", sans-serif;
     color: #B94D60;
     background-color: #fff;
     padding: 0 2rem;
-    /*font-size: 3.5rem;*/
     font-size: 3rem;
 }
-.schedule-tab h3:before {
+.schedule-tab h3:before,
+.page-caption h3:before {
     content: "";
     border-top: 1px solid #B94D60;
     position: absolute;
@@ -209,18 +222,24 @@ header a {
     width: 100%;
     z-index: -1;
 }
-
-#session-detail-wrapper {
-    /*background-color: #fff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 99;
-    width: 100%;
-    height: 100%;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;*/
+.slider {
+    overflow-y: hidden;
+    transition-property: all;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 }
+.schedule-tab h3 .fa {
+    text-decoration: none;
+    float: right;
+    font-size: 3.1rem;
+    padding: .5rem .1rem .5rem .8rem;
+    background-color: #fff;
+    color: #b7baba;
+}
+h3.slider-control {
+    cursor: pointer;
+}
+
 .session-detail {
     position: relative;
 }
@@ -230,14 +249,14 @@ header a {
 }
 .session-detail .favorite {
     top: 1.5rem;
-    left: 1.5rem;
+    right: 1.5rem;
 }
 .session-detail .meta {
     background-color: #F5F5F5;
     padding: 1.5rem;
 }
 .session-detail h2 {
-    margin: 0 0 .5rem 5rem;
+    margin: 0 5rem .5rem 0;
     line-height: 1.2;
     font-size: 3.2rem;
     font-weight: 800;
@@ -246,10 +265,11 @@ header a {
 }
 
 .session-list-item,
-.open-block {
+.open-block,
+.pathway-list-item  {
     display: block;
     clear: both;
-    position: relative;.
+    position: relative;
     cursor: pointer;
     padding: 4rem;
     margin: 0 0 3rem 0;
@@ -259,14 +279,16 @@ header a {
     background: #F5F5F5;
 }
 
-.session-list-item {
+.session-list-item,
+.pathway-list-item {
     color: #55565A;
     text-decoration: none;
 }
 
 .session-list-item h4,
-.space-list-item h4 {
-    margin: 0 0 2rem 6rem;
+.space-list-item h4,
+.pathway-list-item  h4 {
+    margin: 0 6rem 2rem 0;
     line-height: 1.2;
     font-size: 3rem;
     font-weight: 800;
@@ -276,15 +298,16 @@ header a {
     word-wrap: break-word;
 }
 
-#show-descriptions {
-    padding: 2.5rem 0 0;
+.page-control {
+    padding: 2.5rem 0;
     display: block;
     text-decoration: none;
     margin-right: 2%;
     float: right;
+    cursor: pointer;
 }
-#show-descriptions i {
-    color: #fc6e1f;
+a.page-control {
+    color: #d93f5f
 }
 
 #filter-form {
@@ -313,16 +336,11 @@ header a {
     position: absolute;
     cursor: pointer;
     top: 3.5rem;
-    left: 4rem;
+    right: 4rem;
     line-height: 1;
     margin-top: .7rem;
     text-align: center;
 
-}
-
-.session-detail .favorite,
-.all-sessions .favorite {
-    
 }
 
 .favorite-active .fa-heart-o:before {
@@ -387,7 +405,7 @@ header a {
 }
 
 .session-length-long {
-    
+
 }
 
 .session-everyone,
@@ -441,7 +459,8 @@ header a {
     padding: 4rem;
 }
 
-.space-list-item h4 {
+.space-list-item h4,
+.pathway-list-item h4 {
     margin-left: 0;
 }
 
@@ -460,7 +479,8 @@ header a {
     background: #f5f5f5;
 }
 
-.space-list-item p:last-child {
+.space-list-item p:last-child,
+.pathway-list-item p:last-child {
     margin-bottom: 0;
 }
 
@@ -503,14 +523,14 @@ header a {
     #filter-form {
         width: 100%;
     }
-    #show-descriptions {
+    .page-control {
         display: inline-block;
         padding: 0;
         margin: 0 0 2em 0;
     }
     .favorite {
         top: 1rem;
-        left: 2rem;
+        right: 2rem;
         font-size: 4.5rem;
     }
     .session-list-item,
