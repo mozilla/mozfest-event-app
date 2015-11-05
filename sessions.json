@@ -950,7 +950,7 @@
         "day": "Saturday", 
         "description": "Innovation is too often seen as a business imperative rather than a means to improve lives.\nThe growing use of Open Innovation, co-creation and user centred design by businesses, and the public sector will enable more citizens than ever before to participate in shaping the future, not only of the web but all the products and services they experience.\nIn the session we shall take a few existing ideas and innovations and try to make them better using these approaches. We’re not looking for expertise, but passion to see and make a better future.\nBetter how? Well it could be a new audience, or solve an existing problem in a novel way. Our primary tool will be the ‘hacker ethic’ - access, freedom of information, and improvement to quality of life.\nYou’ll get to help design better weather warnings, or bring a problem of your own and share it.", 
         "facilitator_array": [
-            "Michael Saunby, @msaunby, Met Office", 
+            "Michael Saunby, @msaunby", 
             "Shirley Chin"
         ], 
         "facilitators": "Michael Saunby, Shirley Chin", 
@@ -1067,7 +1067,7 @@
         "day": "Saturday", 
         "description": "Innovation is too often seen as a business imperative rather than a means to improve lives.\n\nThe growing use of Open Innovation, co-creation and user centred design by businesses, and the public sector will enable more citizens than ever before to participate in shaping the future, not only of the web but all the products and services they experience.\n\nIn the session we shall take a few existing ideas and innovations and try to make them better using these approaches. We’re not looking for expertise, but passion to see and make a better future.", 
         "facilitator_array": [
-            "Michael Saunby, The MET office, @msaunby", 
+            "Michael Saunby, @msaunby", 
             "Shirley Chin, @shirleychin"
         ], 
         "facilitators": "Michael Saunby, Shirley Chin", 
@@ -1513,6 +1513,21 @@
         "space": "The Global Village", 
         "start": "All Weekend", 
         "title": "Global Village Garage - Weclome! "
+    }, 
+    {
+        "description": "Werewolf is played by two teams: the werewolf and the villagers. At the start of the game every player is given the identities, while the villagers at first know only the number of werewolf in the game.\n\nThere are two phases: \"night\" and \"day.\" At night certain players secretly perform special actions; during day players discuss and vote to \"lynch,\" or eliminate, one player. These phases alternate with each other until all werewolves have been eliminated or until the werewolves outnumbers the villagers.\n\nSome players have special abilities.\n\nFollow @cubicgarden and @ileddigital for information of where and when this weekend", 
+        "facilitator_array": [
+            "Ian Forrester, @cubicgarden", 
+            "Jon Rogers, @ileddigital"
+        ], 
+        "facilitators": "Ian Forrester, Jon Rogers", 
+        "id": "664", 
+        "location": "", 
+        "pathways": "Global Village Garden", 
+        "scheduleblock": "all-saturday", 
+        "space": "The Global Village", 
+        "start": "All Weekend", 
+        "title": "Secret game of Werewolf"
     }, 
     {
         "day": "Saturday", 
@@ -4789,6 +4804,22 @@
         "space": "The Global Village", 
         "start": "All Weekend", 
         "title": "Global Village Garage - Weclome! "
+    }, 
+    {
+        "clone_flag": "True", 
+        "description": "Werewolf is played by two teams: the werewolf and the villagers. At the start of the game every player is given the identities, while the villagers at first know only the number of werewolf in the game.\n\nThere are two phases: \"night\" and \"day.\" At night certain players secretly perform special actions; during day players discuss and vote to \"lynch,\" or eliminate, one player. These phases alternate with each other until all werewolves have been eliminated or until the werewolves outnumbers the villagers.\n\nSome players have special abilities.\n\nFollow @cubicgarden and @ileddigital for information of where and when this weekend", 
+        "facilitator_array": [
+            "Jon Rogers, @ileddigital", 
+            "Ian Forrester, @cubicgarden"
+        ], 
+        "facilitators": "Jon Rogers, Ian Forrester", 
+        "id": "664", 
+        "location": "", 
+        "pathways": "Global Village Garden", 
+        "scheduleblock": "all-sunday", 
+        "space": "The Global Village", 
+        "start": "All Weekend", 
+        "title": "Secret game of Werewolf"
     }, 
     {
         "clone_flag": "True", 
