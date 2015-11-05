@@ -3455,7 +3455,7 @@
         "day": "Saturday", 
         "description": "Participants should come away with the knowledge and software tools to load data, process and visualise it, using Python, pandas and matplotlib, and to share Jupyter notebook files online.", 
         "facilitator_array": [
-            "Thomas Kluyver, @takluyver, "
+            "Thomas Kluyver, @takluyver, Jupyter"
         ], 
         "facilitators": "Thomas Kluyver", 
         "id": "543", 
