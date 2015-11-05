@@ -277,7 +277,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "This session will provide resources, recommendations, and tools, to build foundations for inclusion and diversity in your project, team, group, club, or class, and to grow participation from diverse voices.  Attention will be paid to how to understand and work on specific issues including unconscious bias, working as an ally (or needing allies), impostor syndrome, intersectionality, and more.", 
+        "description": "Diversity and Inclusion in the Global Community\": What do the words and ideas \"diversity\" and \"inclusion\" mean to you and your community? Come brainstorm and hack on how we come together globally with a shared understanding of these concepts that we can use to build communities that empower the best in everyone.", 
         "facilitator_array": [
             "Larissa Brown Shapiro, @larissashapiro, Mozilla"
         ], 
@@ -285,9 +285,9 @@
         "id": "261", 
         "location": "", 
         "pathways": "Leading and Building Community Through Participation,", 
-        "scheduleblock": "saturday-session-block-2", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "Building Participation", 
-        "start": "12:00 PM", 
+        "start": "03:30 PM", 
         "title": "Tools for growing an inclusive diverse project"
     }, 
     {
