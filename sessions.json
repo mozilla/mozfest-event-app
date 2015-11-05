@@ -4084,7 +4084,7 @@
         "title": "Algorithms are ancient and not so scary. Let's write one with crayons. (Open space, 2nd floor)"
     }, 
     {
-        "day": "Sunday", 
+        "day": "Saturday", 
         "description": "This session will introduce participants to the Maker Cart and the Maker   Movement. The Maker Cart is a mobile cost and space saving mobile unit that   contains the main ingredients to start a Makerspace and Maker Programme. It   consists of a 3d printer, digital cutter, electronics, micro-controllers and   robotics. The Maker Cart has been designed for schools, libraries and youth   centres but can also be use at home!  People will learn about the Maker movement, the tools and machinery   associated and the kind of projects that can be developed with the Maker   Cart.  People will have a chance to make something using some of the tools and   machines in the Maker Cart.", 
         "facilitator_array": [
             "Carlos Izsak, @Carlitosi71, STEAM ahead", 
@@ -4092,15 +4092,15 @@
         ], 
         "facilitators": "Carlos Izsak,  ", 
         "id": "182", 
-        "location": "", 
+        "location": "Floor 2 - 212", 
         "pathways": " Craft - Bridging your digital divide", 
-        "scheduleblock": "all-sunday", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "All Day", 
-        "title": "The Maker Cart: a hands on introduction to Maker Education (Room 205, 2nd floor)"
+        "start": "03:30 PM", 
+        "title": "The Maker Cart: a hands on introduction to Maker Education"
     }, 
     {
-        "day": "Saturday", 
+        "day": "Sunday", 
         "description": "This session will introduce participants to the Maker Cart and the Maker   Movement. The Maker Cart is a mobile cost and space saving mobile unit that   contains the main ingredients to start a Makerspace and Maker Programme. It   consists of a 3d printer, digital cutter, electronics, micro-controllers and   robotics. The Maker Cart has been designed for schools, libraries and youth   centres but can also be use at home!  People will learn about the Maker movement, the tools and machinery   associated and the kind of projects that can be developed with the Maker   Cart.  People will have a chance to make something using some of the tools and   machines in the Maker Cart.", 
         "facilitator_array": [
             "Carlos Izsak, @Carlitosi71, STEAM ahead", 
@@ -4110,9 +4110,9 @@
         "id": "1821", 
         "location": "Floor 2 - 212", 
         "pathways": "Craft - Bridging your digital divide", 
-        "scheduleblock": "saturday-session-block-4", 
+        "scheduleblock": "all-sunday", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "03:30 PM", 
+        "start": "All Day", 
         "title": "The Maker Cart: a hands on introduction to Maker Education"
     }, 
     {
@@ -4131,7 +4131,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "The Mozilla tools to teach the web have evolved - some new, some updated and some are the same old gems. Participants will learn about the changes and how to continue to use the tools to teach core Web Literacy skills. This includes X-Ray Goggles, Thimble and Webmaker.\n", 
+        "description": "Search for music you like on the Open Web and create your own playlist to share with your friends. We'll use Mozilla's Thimble editor to create web pages with your playlist. You'll learn how to embed media files into a web page. No previous experience necessary! Come and have fun!", 
         "facilitator_array": [
             "Hannah Kane, @hannahkane, Mozilla Foundation", 
             "Chad Sansing"
@@ -4143,7 +4143,7 @@
         "scheduleblock": "saturday-session-block-3", 
         "space": "youthZone - Through the lens of youths", 
         "start": "02:15 PM", 
-        "title": "Allow me re-introduce myself, my name is .... (tools to teach the web)"
+        "title": "Remix Your Own Playlist on the Web"
     }, 
     {
         "day": "Sunday", 
@@ -4454,15 +4454,29 @@
         "title": "Parenting and Web Censorship"
     }, 
     {
+        "day": "Saturday", 
         "description": "Lunch on Saturday is 12:30 - 13:300 and on Sunday 13:30 - 14:30. Come Join us in room 213 to learn coding Java with the new Java course by CodeAcademy", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "623", 
         "location": "Floor 2 - 213", 
         "pathways": "News to me!", 
-        "scheduleblock": "all-saturday", 
+        "scheduleblock": "saturday-lunch", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "All Weekend", 
+        "start": "All Day", 
+        "title": "Java CodeAcademy Lunch session (Room 213, 2nd floor)"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "Lunch on Saturday is 12:30 - 13:300 and on Sunday 13:30 - 14:30. Come Join us in room 213 to learn coding Java with the new Java course by CodeAcademy", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "623", 
+        "location": "Floor 2 - 213", 
+        "pathways": "News to me!", 
+        "scheduleblock": "sunday-lunch", 
+        "space": "youthZone - Through the lens of youths", 
+        "start": "All Day", 
         "title": "Java CodeAcademy Lunch session (Room 213, 2nd floor)"
     }, 
     {
@@ -4648,19 +4662,6 @@
         "title": "Getting started with Sonic Pi"
     }, 
     {
-        "day": "Sunday", 
-        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/sonicpi.png\" /></div>    \nIn these drop in workshops, you get to try out Sonic Pi on the Raspberry Pi. Sonic Pi is a very easy to use interface for making awesome music with very simple code!    \nAnd even if you are hopeless at music, chances are you will still be able to make some pretty cool stuff with Sonic Pi.", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "44212", 
-        "location": "Floor 8 - 804", 
-        "pathways": "Tech - What else you can do with it", 
-        "scheduleblock": "all-sunday", 
-        "space": "youthZone - Through the lens of youths", 
-        "start": "All Day", 
-        "title": "Getting started with Sonic Pi"
-    }, 
-    {
         "clone_flag": "True", 
         "description": "", 
         "facilitator_array": [], 
@@ -4835,19 +4836,6 @@
         "space": "youthZone - Through the lens of youths", 
         "start": "All Weekend", 
         "title": "Craft - Bridging your digital divide (Open space, 2nd floor)"
-    }, 
-    {
-        "clone_flag": "True", 
-        "description": "Lunch on Saturday is 12:30 - 13:300 and on Sunday 13:30 - 14:30. Come Join us in room 213 to learn coding Java with the new Java course by CodeAcademy", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "623", 
-        "location": "Floor 2 - 213", 
-        "pathways": "News to me!", 
-        "scheduleblock": "all-sunday", 
-        "space": "youthZone - Through the lens of youths", 
-        "start": "All Weekend", 
-        "title": "Java CodeAcademy Lunch session (Room 213, 2nd floor)"
     }, 
     {
         "clone_flag": "True", 
