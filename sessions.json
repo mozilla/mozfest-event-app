@@ -3758,9 +3758,10 @@
         "day": "Saturday", 
         "description": "Introduce and demonstrate pdf processing tools and toolkits, including Tabula, DocumentCloud's docsplit, and other common pdf processing tools.  Participants should depart the session with an understanding of how to extract basic components from PDFs.", 
         "facilitator_array": [
-            "Mike Tigas, @knowtheory, DocumentCloud"
+            "Mike Tigas, @mtigas, Tabula", 
+            "Ted Han, @knowtheory, DocumentCloud"
         ], 
-        "facilitators": "Mike Tigas", 
+        "facilitators": "Mike Tigas, Ted Han", 
         "id": "527", 
         "location": "", 
         "pathways": "Tools and Analysis,Open data", 
