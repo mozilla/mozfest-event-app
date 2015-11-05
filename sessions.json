@@ -3469,9 +3469,11 @@
         "day": "Sunday", 
         "description": "The CERN Webfest is an annual weekend hackathon organised by and for summer students at CERN, with the support of Mozilla Science Lab and the Citizen Cyberscience Centre. In this session, participants will learn about some of the cool open source and open data projects from this year's Webfest, which span everything from particle physics games to humanitarian projects, and get hands-on experience with one of the projects.", 
         "facilitator_array": [
-            "Daniel Dobos"
+            "Konstantinos Samaras-Tsakiris, , CERN", 
+            "ихаил Белоус, , CERN", 
+            "Nefeli Iliana Kousi, , CERN"
         ], 
-        "facilitators": "Daniel Dobos", 
+        "facilitators": "Konstantinos Samaras-Tsakiris, ихаил Белоус, Nefeli Iliana Kousi", 
         "id": "342", 
         "location": "", 
         "pathways": "Open Research Accelerator", 
