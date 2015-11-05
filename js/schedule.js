@@ -692,12 +692,7 @@ function Schedule(options) {
         schedule.$container.on('click', '.slider-control', function(e) {
             var clicked = $(this);
             var targetBlock = clicked.next('.page-block');
-            targetBlock.toggleClass('closed');
-            if (targetBlock.hasClass('closed')) {
-                targetBlock.css('max-height', 0)
-            } else {
-                targetBlock.css('max-height', targetBlock.data('max-height'))
-            }
+            schedule.animateBlockToggle(targetBlock);
             clicked.find('.fa').toggleClass('fa-chevron-circle-left fa-chevron-circle-down')
         });
         
@@ -708,14 +703,9 @@ function Schedule(options) {
             var action = clicked.data('action');
             var targetBlocks = schedule.$container.find('.page-block');
 
-            targetBlocks.toggleClass('closed');
             _.each(targetBlocks, function(b) {
                 targetBlock = $(b);
-                if (targetBlock.hasClass('closed')) {
-                    targetBlock.css('max-height', 0)
-                } else {
-                    targetBlock.css('max-height', targetBlock.data('max-height'))
-                }
+                schedule.animateBlockToggle(targetBlock);
             });
             schedule.$container.find('h3 .fa').toggleClass('fa-chevron-circle-left fa-chevron-circle-down');
             
@@ -726,6 +716,17 @@ function Schedule(options) {
             }
         });
 
+        // helper function for "toggle block" and "toggle all" controls
+        schedule.animateBlockToggle = function(targetBlock) {
+            targetBlock.toggleClass('closed');
+            
+            if (targetBlock.hasClass('closed')) {
+                targetBlock.css('max-height', 0)
+            } else {
+                targetBlock.css('max-height', targetBlock.data('max-height'))
+            }
+        }
+        
         // tap stars to favorite/unfavorite via localstorage
         schedule.$container.on('click', '.favorite', function(e) {
             e.preventDefault();
