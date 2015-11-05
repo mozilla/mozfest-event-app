@@ -1474,6 +1474,37 @@
     }, 
     {
         "day": "Saturday", 
+        "description": "The digital humanities is a movement that creates digital resources to study history, literature, art and many other subjects. It explores how mapping, quantification, visualization and other digital techniques can be used in those subjects, and brings a humanities perspective on current issues in the digital world such as identity, intellectual property and globalization.\n\nHow does the digital humanities work with the artists, makers, performers, coders and wranglers at events like Mozilla Festival? How do we build better connections between the world of digital makers and that of historians and literary critics? These issues will be discussed by Jon Rogers of Dundee University with two leading commentators on the digital humanities, Tobias Blanke of King’s College London and Andrew Prescott of Glasgow University, AHRC Fellow for the ‘Digital Transformations’ theme.", 
+        "facilitator_array": [
+            "Andrew Prescott, University of Glasgow, @AJPrescott", 
+            "Tobias Blanke, Kings College London "
+        ], 
+        "facilitators": "Andrew Prescott, Tobias Blanke", 
+        "id": "661", 
+        "location": "", 
+        "pathways": "Global Village Garage", 
+        "scheduleblock": "saturday-session-block-2", 
+        "space": "The Global Village", 
+        "start": "12:00 PM", 
+        "title": "Exploring Digital Humanities"
+    }, 
+    {
+        "description": "Facilitated by Unbox Festival\n\nOver the ages, across cultures, the banyan tree has been a congregation point in India- for villagers to share stories, learn from others, and do things together. It has also been a place for passers-by to catch up with the local elders and find sign posts for their onward journey.\nAt this Banyan Tree at Mozfest 2015, UnBox invites you to come together to share thoughts, exchange wishes and collaborate with someone on making an idea. Here we will collectively explore our wishes and ideas for the future of a connected village... \nSit around and rest awhile\nMake a new friend\nStart a conversation\nBrew some coffee \nHelp co-create the future tree", 
+        "facilitator_array": [
+            "Babitha George, Unbox Festival, @unboxfestival", 
+            "Neha Singh, Unbox Festival, @unboxfestival "
+        ], 
+        "facilitators": "Babitha George, Neha Singh", 
+        "id": "662", 
+        "location": "", 
+        "pathways": "Global Village Garage", 
+        "scheduleblock": "all-saturday", 
+        "space": "The Global Village", 
+        "start": "All Weekend", 
+        "title": "The Banyan Tree"
+    }, 
+    {
+        "day": "Saturday", 
         "description": "Today's activist campaigns are innovative and connected, leveraging the web to build collective voice. Open source practice could amplify the power of contemporary activism by sharing resources and learning outcomes openly between movements. In this session we will use GitHub to codesign a framework for planning activist campaigns. It won't be too technical - if you can use a web browser you can learn to use GitHub during the session! We'll create a template to guide new movements with the benefit of your past experiences and together start to build a community-led repository for open source activism.", 
         "facilitator_array": [
             "Sue Smith", 
@@ -3452,7 +3483,7 @@
         "title": "Open Cosmics: cosmic-ray physics for everyone"
     }, 
     {
-        "day": "Saturday", 
+        "day": "Sunday", 
         "description": "Participants should come away with the knowledge and software tools to load data, process and visualise it, using Python, pandas and matplotlib, and to share Jupyter notebook files online.", 
         "facilitator_array": [
             "Thomas Kluyver, @takluyver, Jupyter"
@@ -3461,9 +3492,9 @@
         "id": "543", 
         "location": "", 
         "pathways": "Tools and Analysis,Science communication", 
-        "scheduleblock": "saturday-session-block-4", 
+        "scheduleblock": "sunday-session-block-7", 
         "space": "Open Science", 
-        "start": "03:30 PM", 
+        "start": "02:45 PM", 
         "title": "Jupyter notebooks and Python data analysis"
     }, 
     {
@@ -3663,7 +3694,7 @@
         "title": "Data is beautiful. What’s Wikidata and why does it matter to me?"
     }, 
     {
-        "day": "Sunday", 
+        "day": "Saturday", 
         "description": "It will teach them about Docker and what it can do to help them iterate more quickly, easily and repeatably.\nFor developers they'll have a tool that can guarantee parity between development and production environments -- leading to fewer bugs and runtime problems.\nFor scientists they'll have an easier way to create, share, and guarantee the reproducibility of their results.\nIf all goes as planned everyone (or small groups of people) will have created and executed a Docker container.", 
         "facilitator_array": [
             "Daniel Craigmile, @x110dc, The Texas Tribune"
@@ -3672,9 +3703,9 @@
         "id": "524", 
         "location": "", 
         "pathways": "New Technologies for Participation -- Challenge,Tools and Analysis", 
-        "scheduleblock": "sunday-session-block-7", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "Open Science", 
-        "start": "02:45 PM", 
+        "start": "03:30 PM", 
         "title": "Diving into Docker: Developing a Darn Fast, Repeatable Workflow"
     }, 
     {
@@ -4703,6 +4734,22 @@
         "space": "The Global Village", 
         "start": "All Weekend", 
         "title": "Ambient animal and environmental data"
+    }, 
+    {
+        "clone_flag": "True", 
+        "description": "Facilitated by Unbox Festival\n\nOver the ages, across cultures, the banyan tree has been a congregation point in India- for villagers to share stories, learn from others, and do things together. It has also been a place for passers-by to catch up with the local elders and find sign posts for their onward journey.\nAt this Banyan Tree at Mozfest 2015, UnBox invites you to come together to share thoughts, exchange wishes and collaborate with someone on making an idea. Here we will collectively explore our wishes and ideas for the future of a connected village... \nSit around and rest awhile\nMake a new friend\nStart a conversation\nBrew some coffee \nHelp co-create the future tree", 
+        "facilitator_array": [
+            "Neha Singh, Unbox Festival, @unboxfestival ", 
+            "Babitha George, Unbox Festival, @unboxfestival"
+        ], 
+        "facilitators": "Neha Singh, Babitha George", 
+        "id": "662", 
+        "location": "", 
+        "pathways": "Global Village Garage", 
+        "scheduleblock": "all-sunday", 
+        "space": "The Global Village", 
+        "start": "All Weekend", 
+        "title": "The Banyan Tree"
     }, 
     {
         "clone_flag": "True", 
