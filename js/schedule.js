@@ -235,6 +235,24 @@ function Schedule(options) {
                 slugify: schedule.slugify, // context function for string-matching
                 smartypants: schedule.smartypants // context function for nice typography
             }
+
+            // turn facilitator_array into array of individual facilitator objects
+            templateData.session.facilitator_array = _.map(session.facilitator_array, function(facilitator) {
+                var metaArray = facilitator.split(",");
+                var meta = {
+                    name: metaArray.splice(0,1),
+                    description: ""
+                };
+                var otherMeta = _.each(metaArray, function(value) {
+                    if (value.indexOf("@") > -1) {
+                        meta.twitter = schedule.trim(value);
+                    } else {
+                        meta.description += schedule.trim(value);
+                    }
+                });
+                return meta;
+            })
+
             // add pathway array for individual links
             templateData.session.pathwayArray = _.each(session.pathways.split(','), function(i) {
                 schedule.trim(i);

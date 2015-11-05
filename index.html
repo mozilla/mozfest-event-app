@@ -194,7 +194,7 @@
                     <% } %>
                     <% if (session.facilitators) { %>
                     <div class="session-facilitators">
-                        <%= smartypants(session.facilitators) %>
+                        <% session.facilitator_array.forEach(function(facilitator, index) { %><% if (index > 0) { %>, <br><% } %><%= facilitator.name %><% if (facilitator.twitter) { %> <a href="https://twitter.com/<%= facilitator.twitter %>"><%= facilitator.twitter %></a><% } %><% if (facilitator.description.length>0) { %> <%= facilitator.description %><% } %><% }) %>
                     </div>
                     <% } %>
                 </div>
