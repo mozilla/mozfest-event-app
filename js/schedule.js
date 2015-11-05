@@ -240,10 +240,10 @@ function Schedule(options) {
             templateData.session.facilitator_array = _.map(session.facilitator_array, function(facilitator) {
                 var metaArray = facilitator.split(",");
                 var meta = {
-                    name: metaArray[0],
+                    name: metaArray.splice(0,1),
                     description: ""
                 };
-                var otherMeta = _.each(metaArray.slice(1), function(value) {
+                var otherMeta = _.each(metaArray, function(value) {
                     if (value.indexOf("@") > -1) {
                         meta.twitter = schedule.trim(value);
                     } else {
