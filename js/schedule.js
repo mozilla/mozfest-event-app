@@ -236,7 +236,7 @@ function Schedule(options) {
                 smartypants: schedule.smartypants // context function for nice typography
             }
 
-            // turn facilitator_array into arrau of individual facilitator objects
+            // turn facilitator_array into array of individual facilitator objects
             templateData.session.facilitator_array = _.map(session.facilitator_array, function(facilitator) {
                 var metaArray = facilitator.split(",");
                 var meta = {
