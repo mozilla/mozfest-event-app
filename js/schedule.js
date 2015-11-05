@@ -314,7 +314,7 @@ function Schedule(options) {
             block.attr('data-max-height', blockHeight).css('max-height', blockHeight);
         });
         
-        schedule.$container.prepend('<a href="#" id="slider-collapse-all" class="page-control" data-action="collapse"><i class="fa fa-chevron-circle-left"></i> Collapse all</a>')
+        schedule.$container.prepend('<a href="#" id="slider-collapse-all" class="page-control" data-action="collapse">Collapse all</a>')
     }
 
     // add a set of tabs across the top of page as toggles that change display
@@ -720,9 +720,9 @@ function Schedule(options) {
             schedule.$container.find('h3 .fa').toggleClass('fa-chevron-circle-left fa-chevron-circle-down');
             
             if (action == 'collapse') {
-                clicked.html('<i class="fa fa-chevron-circle-down"></i> Expand all').data('action', 'expand');
+                clicked.html('Expand all').data('action', 'expand');
             } else {
-                clicked.html('<i class="fa fa-chevron-circle-left"></i> Collapse all').data('action', 'collapse');
+                clicked.html('Collapse all').data('action', 'collapse');
             }
         });
 
