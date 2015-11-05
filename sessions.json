@@ -1383,7 +1383,6 @@
         "title": "Crafting physical digital interactions through shared stories"
     }, 
     {
-        "day": "Saturday", 
         "description": "\"Hello World!” Memory Bank is a memory sharing workshop revolved around technology. In sharing other's pasts we hope to improve the future in particular education of technology in the future. We hope to show the creators what to create and the teachers what to teach with the data you provide, whether it be the first time you used a computer or the time you hacked sony we want you to share with us. The workshop will use a physical timeline created from paper were people will use sticky notes to add there memories to the extensive timeline. There will also be a memory vault for all those secret memories and confessions that you don't want to have your name on.\n\nWe hope that the people participating in our workshop can be a part of a larger and more connected world through the sharing of their memories. By doing this we hope we can expand our knowledge on a world revolutionised by technology and the educational effect it had on people. After mozfest we hope to expand this idea through an app or website which could collate information from around the world and allow users to view and add to a century of technological memories in one place.\n\nFollow us on Twitter @mozfesttimeline and add your memories to the timeline from wherever you are in the world.", 
         "facilitator_array": [
             "Jude Thomas, @mozfesttimeline "
@@ -1392,9 +1391,9 @@
         "id": "609", 
         "location": "", 
         "pathways": "Global Village Garage", 
-        "scheduleblock": "saturday-session-block-2", 
+        "scheduleblock": "all-saturday", 
         "space": "The Global Village", 
-        "start": "12:00 PM", 
+        "start": "All Weekend", 
         "title": "“Hello World!” Memory Bank"
     }, 
     {
@@ -3572,10 +3571,10 @@
         ], 
         "facilitators": "Michael Saunby, Niall Robinson, Rachel Prudden", 
         "id": "301", 
-        "location": "Floor Science in the Browser with WebGL", 
+        "location": "", 
         "pathways": "Science in the Browser with WebGL", 
         "scheduleblock": "science-in-the-browser-with-webgl", 
-        "space": "Science in the Browser with WebGL", 
+        "space": "Open Science", 
         "title": "Science in the Browser with WebGL"
     }, 
     {
@@ -4719,6 +4718,21 @@
         "space": "The Global Village", 
         "start": "All Weekend", 
         "title": "Garbage Disposal Room"
+    }, 
+    {
+        "clone_flag": "True", 
+        "description": "\"Hello World!” Memory Bank is a memory sharing workshop revolved around technology. In sharing other's pasts we hope to improve the future in particular education of technology in the future. We hope to show the creators what to create and the teachers what to teach with the data you provide, whether it be the first time you used a computer or the time you hacked sony we want you to share with us. The workshop will use a physical timeline created from paper were people will use sticky notes to add there memories to the extensive timeline. There will also be a memory vault for all those secret memories and confessions that you don't want to have your name on.\n\nWe hope that the people participating in our workshop can be a part of a larger and more connected world through the sharing of their memories. By doing this we hope we can expand our knowledge on a world revolutionised by technology and the educational effect it had on people. After mozfest we hope to expand this idea through an app or website which could collate information from around the world and allow users to view and add to a century of technological memories in one place.\n\nFollow us on Twitter @mozfesttimeline and add your memories to the timeline from wherever you are in the world.", 
+        "facilitator_array": [
+            "Jude Thomas, @mozfesttimeline "
+        ], 
+        "facilitators": "Jude Thomas", 
+        "id": "609", 
+        "location": "", 
+        "pathways": "Global Village Garage", 
+        "scheduleblock": "all-sunday", 
+        "space": "The Global Village", 
+        "start": "All Weekend", 
+        "title": "“Hello World!” Memory Bank"
     }, 
     {
         "clone_flag": "True", 
