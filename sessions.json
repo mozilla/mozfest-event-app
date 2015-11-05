@@ -6,7 +6,7 @@
         "id": "100000", 
         "location": "Floor 4 - Big Space & 6 - All", 
         "pathways": "", 
-        "scheduleblock": "friday-science-fair", 
+        "scheduleblock": "friday-evening", 
         "space": "", 
         "start": "06:00 PM", 
         "title": "Science Fair"
@@ -32,7 +32,7 @@
         "id": "100002", 
         "location": "Floor 4 - Big Space", 
         "pathways": "", 
-        "scheduleblock": "saturday-opening-keynotes", 
+        "scheduleblock": "saturday-opening", 
         "space": "", 
         "start": "09:00 AM", 
         "title": "Saturday Opening Keynotes"
@@ -71,7 +71,7 @@
         "id": "100005", 
         "location": "Floor 4 - Big Space", 
         "pathways": "", 
-        "scheduleblock": "saturday-evening-main-stage", 
+        "scheduleblock": "saturday-evening", 
         "space": "", 
         "start": "05:30 PM", 
         "title": "Conversations with Medium"
@@ -97,7 +97,7 @@
         "id": "100007", 
         "location": "Floor 4 - Big Space", 
         "pathways": "", 
-        "scheduleblock": "sunday-keynotes", 
+        "scheduleblock": "sunday-opening", 
         "space": "", 
         "start": "10:00 AM", 
         "title": "Sunday Keynotes"
@@ -136,7 +136,7 @@
         "id": "100010", 
         "location": "Floor 0 - Walker Space", 
         "pathways": "", 
-        "scheduleblock": "sunday-demo-party", 
+        "scheduleblock": "sunday-evening", 
         "space": "", 
         "start": "05:30 PM", 
         "title": "Closing Demos"
@@ -4224,7 +4224,7 @@
         "title": "Build your custom Sumobot (Open space, 2nd floor)"
     }, 
     {
-        "description": "In our sessions young people will learn an introduction to creative programming and basic electronics through workshops in making music with Sonic Pi, hacking Minecraft Pi with Python, playing with electronics with Python and ScratchGPIO and creating games with Scratch.", 
+        "description": "There is a whole stack of Raspberry Pi workshops running over the Mozfest weekend up in room 209 in the YouthZone!   \nWorkshops ranging from music fruit, to hacking Minecraft to even playing with real space certified astronaut hardware! All our workshops are suitable for Raspberry Pi/coding beginners, but make sure to arrive at least 5 minutes before the start of the sessions to make sure you can get a seat!   \n\nThe workshop list is below    \n**Saturday**    \n- **10:45-12:30** - [Astro Pi - Your Code in Space](https://schedule.mozillafestival.org/#_session-556)   \n- **12:45-13:45** - Musical fruit with the Explorer HAT   \n- **14:15-15:15** - Scratch-ing the surface of space   \n- **15:30-16:30** - Hacking Minecraft Pi with Python   \n- **16:30-17:00** - Getting started with Pi for adults   \n   \n**Sunday**", 
         "facilitator_array": [
             "Andrew Mulholland, @gbaman1, ", 
             "Frank Thomas-Hockey, @fth_nix", 
@@ -4807,7 +4807,7 @@
     }, 
     {
         "clone_flag": "True", 
-        "description": "In our sessions young people will learn an introduction to creative programming and basic electronics through workshops in making music with Sonic Pi, hacking Minecraft Pi with Python, playing with electronics with Python and ScratchGPIO and creating games with Scratch.", 
+        "description": "There is a whole stack of Raspberry Pi workshops running over the Mozfest weekend up in room 209 in the YouthZone!   \nWorkshops ranging from music fruit, to hacking Minecraft to even playing with real space certified astronaut hardware! All our workshops are suitable for Raspberry Pi/coding beginners, but make sure to arrive at least 5 minutes before the start of the sessions to make sure you can get a seat!   \n\nThe workshop list is below    \n**Saturday**    \n- **10:45-12:30** - [Astro Pi - Your Code in Space](https://schedule.mozillafestival.org/#_session-556)   \n- **12:45-13:45** - Musical fruit with the Explorer HAT   \n- **14:15-15:15** - Scratch-ing the surface of space   \n- **15:30-16:30** - Hacking Minecraft Pi with Python   \n- **16:30-17:00** - Getting started with Pi for adults   \n   \n**Sunday**", 
         "facilitator_array": [
             "Frank Thomas-Hockey, @fth_nix", 
             "Covent Garden Raspberry Jam team", 
