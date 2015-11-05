@@ -576,7 +576,7 @@
         ], 
         "facilitators": "Adrian Gradinar, Dan Burnett, Paul Coulton", 
         "id": "559", 
-        "location": "", 
+        "location": "Floor 6 - 602", 
         "pathways": "Global Village Athena Library, Arts Award pathway", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "The Global Village", 
@@ -1594,7 +1594,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "At Tools for Travelers on the Dark Side of the Internet you'll hear from: Violet Blue, Sarah Jeong, Kelley Misata, and Emrys Schoemaker about their work with reputation crisis training, online harassment, combatting cyberstalking, and digital purdah. In the first hour, you'll rotate through conversations with each expert where they'll describe their work and the workshop they have planned for the second hour.  In the second hour, you'll select a workshop on one of the topics raised and work with one of the experts. \n\n", 
+        "description": "At Tools for Travelers on the Dark Side of the Internet you'll hear from: Violet Blue, Sarah Jeong, and Kelley Misata about their work with reputation crisis training, online harassment, combatting cyberstalking, and digital purdah. In the first hour, you'll rotate through conversations with each expert where they'll describe their work and the workshop they have planned for the second hour.  In the second hour, you'll select a workshop on one of the topics raised and work with one of the experts. \n\n", 
         "facilitator_array": [
             "Violet Blue, @violetblue", 
             "Sarah Jeong, @sarahjeong", 
@@ -1612,7 +1612,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "At Tools for Travelers on the Dark Side of the Internet you'll hear from: Violet Blue, Sarah Jeong, Kelley Misata, and Emrys Schoemaker about their work with reputation crisis training, online harassment, combatting cyberstalking, and digital purdah. In the first hour, you'll rotate through conversations with each expert where they'll describe their work and the workshop they have planned for the second hour.  In the second hour, you'll select a workshop on one of the topics raised and work with one of the experts. \n\n", 
+        "description": "At Tools for Travelers on the Dark Side of the Internet you'll hear from: Violet Blue, Sarah Jeong, and Kelley Misata about their work with reputation crisis training, online harassment, combatting cyberstalking, and digital purdah. In the first hour, you'll rotate through conversations with each expert where they'll describe their work and the workshop they have planned for the second hour. In the second hour, you'll select a workshop on one of the topics raised and work with one of the experts.", 
         "facilitator_array": [
             "Violet Blue, @violetblue", 
             "Sarah Jeong, @sarahjeong", 
@@ -3987,7 +3987,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "There's a lot of talk about 'jobs in tech' but what does that actually \"Mean?\". In this interactive, non-intimidating session you'll create a \"Dream job\" based on what you're good at and what you like to do. You'll also hear a diverse panel share how they parlayed their skills and passions into a dynamic -- and often self-defined -- role in the tech industry. A great session for MozFest newbies, youth, and anyone considering transitioning their careers into this exciting field of new media. Everyone is welcome!", 
+        "description": "There's a lot of talk about 'jobs in tech' but what does that actually mean? In this interactive, non-intimidating session you'll create a 'dream job' based on what you're good at and what you like to do. You'll also hear a diverse panel share how they parlayed their skills and passions into a dynamic -- and often self-defined -- role in the tech industry. A great session for MozFest newbies, youth, and anyone considering transitioning their careers into this exciting field of new media. Everyone is welcome!", 
         "facilitator_array": [
             "Erika Drushka, @edrush, Mozilla Foundation"
         ], 
@@ -4018,7 +4018,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "deeper community participation using one of Mozilla's support tools (Army of Awesome) as a case study. We will use this to discuss and share what participation techniques and processes work in the open space and comment on challenges and opportunities.", 
+        "description": "Deeper community participation using one of Mozilla's support tools (Army of Awesome) as a case study. We will use this to discuss and share what participation techniques and processes work in the open space and comment on challenges and opportunities.", 
         "facilitator_array": [
             "Madalina Ana, @madalinaana, Mozilla"
         ], 
