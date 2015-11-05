@@ -1761,7 +1761,7 @@
         "title": "Privacy Lab #4"
     }, 
     {
-        "day": "Sunday", 
+        "day": "Saturday", 
         "description": "Most open work happens through people talking to each other -- whether from meeting on IRC, Twitter, in-person, or a connection through an intro. At it’s core, “open” is about working collectively and leveraging community to do, make, build, tell stories, protect, share, talk, meet, etc. In this session, let’s work on the human network, develop shared principles and brainstorm for the future #openweb community.", 
         "facilitator_array": [
             "Georgia Bullen, @georgiamoon, Open Tech Institute"
@@ -1770,9 +1770,9 @@
         "id": "459", 
         "location": "", 
         "pathways": "Building a Crowd", 
-        "scheduleblock": "sunday-session-block-7", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "Digital Citizenship", 
-        "start": "02:45 PM", 
+        "start": "10:45 AM", 
         "title": "Building our #OpenWeb Community"
     }, 
     {
@@ -1857,10 +1857,9 @@
         "description": "During this session we will experience the various methods of participating and contributing to the Tor network. Tor, an open source software package combined with a global network of developers and volunteers, provides censorship circumvention and anonymous access for Internet users looking to access content or express themselves online.", 
         "facilitator_array": [
             "Tim Summut, @t1msammut, Amnesty International / Ford-Mozilla Fellow", 
-            "Tennyson Holloway, @barontennyson, Public Knowledge / Ford-Mozilla Fellow", 
-            "Arzhel Younsi"
+            "Tennyson Holloway, @barontennyson, Public Knowledge / Ford-Mozilla Fellow"
         ], 
-        "facilitators": "Tim Summut, Tennyson Holloway, Arzhel Younsi", 
+        "facilitators": "Tim Summut, Tennyson Holloway", 
         "id": "494", 
         "location": "", 
         "pathways": "Backdoors + Cryptowars", 
