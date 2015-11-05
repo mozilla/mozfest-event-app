@@ -302,8 +302,12 @@ function Schedule(options) {
     }
 
     // utility function to make sure transitions are the same across functions
-    schedule.transitionElementIn = function(element) {
-        element.fadeIn(50);
+    schedule.transitionElementIn = function(element, callback) {
+        element.fadeIn(50, function() {
+            if (callback) {
+                callback();
+            }
+        });
     }
 
     // add fav stars that tap to store session ID values in localStorage
@@ -315,6 +319,20 @@ function Schedule(options) {
                 $('[data-session="' + i + '"]').find('.favorite').addClass('favorite-active');
             })
         }
+    }
+    
+    // add icons for collapsible scheduleblocks
+    schedule.addBlockToggles = function() {
+        var blocks = schedule.$container.find('.page-block');
+        blocks.prev('h3').addClass('slider-control').append('<i class="fa fa-chevron-circle-down"></i>');
+        blocks.addClass('slider');
+        _.each(blocks, function(b) {
+            var block = $(b);
+            var blockHeight = block.height()+'px';
+            block.attr('data-max-height', blockHeight).css('max-height', blockHeight);
+        });
+        
+        schedule.$container.prepend('<a href="#" id="slider-collapse-all" class="page-control" data-action="collapse">Collapse all</a>')
     }
 
     // add a set of tabs across the top of page as toggles that change display
@@ -417,7 +435,7 @@ function Schedule(options) {
             schedule.transitionElementIn(schedule.$container);
 
             schedule.$container.find('.schedule-tab').hide();
-            schedule.transitionElementIn($('#'+schedule.chosenTab));
+            schedule.transitionElementIn($('#'+schedule.chosenTab), schedule.addBlockToggles);
         }
     }
 
@@ -470,7 +488,7 @@ function Schedule(options) {
             </div>';
         $(filterForm).appendTo(schedule.$container);
 
-        var expand = $('<a id="show-descriptions" data-action="show" href="#"><i class="fa fa-plus-circle"></i> Show descriptions</a>').appendTo(schedule.$container);
+        var expand = $('<a id="show-descriptions" class="page-control" data-action="show" href="#"><i class="fa fa-plus-circle"></i> Show descriptions</a>').appendTo(schedule.$container);
 
         var filteredList = $('#schedule');
         // watch search input for changes, and filter the session list accordingly
@@ -688,6 +706,45 @@ function Schedule(options) {
             }
         });
 
+        // toggle individual schedule blocks on header tap
+        schedule.$container.on('click', '.slider-control', function(e) {
+            var clicked = $(this);
+            var targetBlock = clicked.next('.page-block');
+            schedule.animateBlockToggle(targetBlock);
+            clicked.find('.fa').toggleClass('fa-chevron-circle-left fa-chevron-circle-down')
+        });
+        
+        // toggle all schedule blocks at once
+        schedule.$container.on('click', '#slider-collapse-all', function(e) {
+            e.preventDefault();
+            var clicked = $(this);
+            var action = clicked.data('action');
+            var targetBlocks = schedule.$container.find('.page-block');
+
+            _.each(targetBlocks, function(b) {
+                targetBlock = $(b);
+                schedule.animateBlockToggle(targetBlock);
+            });
+            schedule.$container.find('h3 .fa').toggleClass('fa-chevron-circle-left fa-chevron-circle-down');
+            
+            if (action == 'collapse') {
+                clicked.html('Expand all').data('action', 'expand');
+            } else {
+                clicked.html('Collapse all').data('action', 'collapse');
+            }
+        });
+
+        // helper function for "toggle block" and "toggle all" controls
+        schedule.animateBlockToggle = function(targetBlock) {
+            targetBlock.toggleClass('closed');
+            
+            if (targetBlock.hasClass('closed')) {
+                targetBlock.css('max-height', 0)
+            } else {
+                targetBlock.css('max-height', targetBlock.data('max-height'))
+            }
+        }
+        
         // tap stars to favorite/unfavorite via localstorage
         schedule.$container.on('click', '.favorite', function(e) {
             e.preventDefault();
