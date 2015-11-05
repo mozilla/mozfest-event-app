@@ -3617,10 +3617,10 @@
         "description": "Citizen science and engagement: How can we use the web to get you more engaged with the science of the European Commission (EC)? The EC offers a rich set of information that anybody could benefit from. At the same time, the science carried out to support evidence-based policy making could benefit from citizen contributions. How can we use the web to make the existing information more accessible? What might be the mechanisms to embed Citizen Science into the EC’s research processes?\nThe session elaborates on these questions as an initial attempt to bridge the gap between citizens and EC research. It will point to some open data sources (especially related to environmental monitoring) and offer an open dialogue in order to transform the current scientific processes using web technologies. The session will be facilitated by EC’s in-house scientific service (the Joint Research Centre - JRC) and the Citizen Sense project.", 
         "facilitator_array": [
             "Sven Schade, @innovatearth, European Commission – Joint Research Centre (JRC)", 
-            "Jennifer Gabrys", 
+            "Jennifer Gabrys , , Goldsmiths, University of London - European Research Council project: Citizen Sense", 
             "Helen Pritchard, Francesco Cara, Jack Townsend"
         ], 
-        "facilitators": "Sven Schade, Jennifer Gabrys, Helen Pritchard", 
+        "facilitators": "Sven Schade, Jennifer Gabrys , Helen Pritchard", 
         "id": "290", 
         "location": "", 
         "pathways": "Citizen Science,Open Research Accelerator", 
@@ -3633,11 +3633,11 @@
         "day": "Sunday", 
         "description": "Maps are popular visualizations applied to all scientific disciplines. Likewise, learning how to best apply cartographic tools to spatial problems is an important component to making sense of our world visually and physicially. At all scales, this skill can provide complex information with spatial clarity: where orbital maps drive an understanding subatomic dynamics at one zoom, and help us understand interactions in our cosmos at another. Still, sometimes the tools to build maps can be as obscure and proprietary as the data we are trying to parse.\nThis session will be a brief intro to open source mapping tools, a tutorial in map-making for science, and a drop in clinic to play with, manage, and map geospatial data. Participants will make maps with sample science data, or test /troubleshoot their own with open source software.", 
         "facilitator_array": [
-            "Aurelia Moser", 
-            "Dave Riordan", 
-            "Stuart Lynn"
+            "Aurelia Moser, @auremoser, CartoDB", 
+            "David Riordan, @riordan, Mapzen", 
+            "Stuart Lynn, , CartoDB"
         ], 
-        "facilitators": "Aurelia Moser, Dave Riordan, Stuart Lynn", 
+        "facilitators": "Aurelia Moser, David Riordan, Stuart Lynn", 
         "id": "91", 
         "location": "", 
         "pathways": "Tools and Analysis,Science communication", 
@@ -3650,8 +3650,8 @@
         "day": "Sunday", 
         "description": "", 
         "facilitator_array": [
-            "Jens Ohlig", 
-            "Nicole Ebber"
+            "Jens Ohlig, @johl, Wikimedia", 
+            "Nicole Ebber, , Wikimedia"
         ], 
         "facilitators": "Jens Ohlig, Nicole Ebber", 
         "id": "560", 
@@ -3666,7 +3666,7 @@
         "day": "Sunday", 
         "description": "It will teach them about Docker and what it can do to help them iterate more quickly, easily and repeatably.\nFor developers they'll have a tool that can guarantee parity between development and production environments -- leading to fewer bugs and runtime problems.\nFor scientists they'll have an easier way to create, share, and guarantee the reproducibility of their results.\nIf all goes as planned everyone (or small groups of people) will have created and executed a Docker container.", 
         "facilitator_array": [
-            "Daniel Craigmile"
+            "Daniel Craigmile, @x110dc, The Texas Tribune"
         ], 
         "facilitators": "Daniel Craigmile", 
         "id": "524", 
@@ -3681,7 +3681,7 @@
         "day": "Saturday", 
         "description": "We will create a new form of decentralised learning experience together, where everyone has their own data, their own domain, and can run these on their own hardware.\nWe will connect the learning space we create at Mozfest to other spaces around the world, so that participants can experience this new way of writing, creating and researching together. Nominally the topic is about the science of space, and the moon. However we will use this subject to explore collaboration, science and federated learning.\nParticipants will:\n1) Learn to set up and install software on a Raspberry Pi\n2) Learn to set up and install a NodeJS server running Fedwiki\n3) Learn how to share data and media with other spaces using a serverless architecture based on decentralised technologies such as IPFS\nFinally we will have a lot of fun, exploring the moon.", 
         "facilitator_array": [
-            "David Bovill"
+            "David Bovill, @fortyfoxes, Viral Academy"
         ], 
         "facilitators": "David Bovill", 
         "id": "373", 
@@ -3696,7 +3696,7 @@
         "day": "Sunday", 
         "description": "Crowdsourcing, open data/science/research, all that can sound very appealing to those of us who were born and raised on the web with all its collaboration. But all of these ideals can become a problem when working on what ethicists call “human subject research”. Psychology, sociology, life sciences, medicine and many other disciplines face this struggle between wanting to be open about science and data and the need to protect participants.\nThis session serves as a discussion platform, bringing together people of a diverse background to figure out how we can square open science with ethical research conduct.", 
         "facilitator_array": [
-            "Bastian Greshake"
+            "Bastian Greshake, @gedankenstuecke, openSNP"
         ], 
         "facilitators": "Bastian Greshake", 
         "id": "126", 
@@ -3711,9 +3711,9 @@
         "day": "Saturday", 
         "description": "The session will focus on new directions in education, and will revolve around a prototype built in the CERN Webfest, 2015.\nThe project lets you use a regular smartphone as a 3D controller to control educational 3D models projected on a large screen and/or multiple monitors, and all *without* installing any extra application on the smartphone or the screen. All using a regular browser.\nThe demo is hosted at : http://52.20.81.77/\nOpen the link on your smart phone and select \"Heart Receiver\"\nOpen the same link on your laptop and select \"Heart Renderer\"\nThe principal goal of the session will be discuss approaches to use this and other similar ideas to liberate education from blackboards, and add an extra dimension to hands on education. Especially in developing countries.", 
         "facilitator_array": [
-            "Sharada Mohanty"
+            "S.P. Mohanty, @MeMohanty, CERN"
         ], 
-        "facilitators": "Sharada Mohanty", 
+        "facilitators": "S.P. Mohanty", 
         "id": "123", 
         "location": "", 
         "pathways": "Science communication", 
@@ -3726,7 +3726,7 @@
         "day": "Saturday", 
         "description": "Our world is a environment where a lot of things happen. Every day we refer to locations to meet, memories of places, that wonderful restaurant that you should totally go to or 101 other things. To a computer though, our vague designations of \"That bakery off Chicago avenue near the book store\" or even just \"State and Lake\" can be confusing and hard to pin down. The programs that link our human understanding of the world to definite points of latitude and longitude on a map are called geocoders. In this session attendees will learn how to use various geocoders to make their data geospatial and understand where they might go wrong and the pitfalls involved.", 
         "facilitator_array": [
-            "Stuart Lynn"
+            "Stuart Lynn, @stuart_lynn, CartoDB"
         ], 
         "facilitators": "Stuart Lynn", 
         "id": "112", 
@@ -3741,10 +3741,11 @@
         "day": "Sunday", 
         "description": "This session will focus on new technologies that make science and research faster, more open, more discoverable and accessible to everyone. We can improve scientific collaboration and communication to increase efficiency in the accumulation of knowledge – and to best achieve this, science should look to improve technologies to document and connect the entire lifecycle of research projects. What are these research technologies and how are they best used to increase the accumulation of knowledge? This session will gather information from the group and discover how others are using these technologies, which are working best and what gains are being made through their use.", 
         "facilitator_array": [
-            "Tim Alby", 
-            "Al Hyndman"
+            "Tim Alby, @Overleaf, Overleaf", 
+            "Alan Hyndman, @figshare, Figshare", 
+            "Mary Anne Baynes, , Overleaf"
         ], 
-        "facilitators": "Tim Alby, Al Hyndman", 
+        "facilitators": "Tim Alby, Alan Hyndman, Mary Anne Baynes", 
         "id": "361", 
         "location": "", 
         "pathways": "Citizen Science,Science communication,Open data", 
@@ -3757,7 +3758,7 @@
         "day": "Saturday", 
         "description": "Introduce and demonstrate pdf processing tools and toolkits, including Tabula, DocumentCloud's docsplit, and other common pdf processing tools.  Participants should depart the session with an understanding of how to extract basic components from PDFs.", 
         "facilitator_array": [
-            "Mike Tigas"
+            "Mike Tigas, @knowtheory, DocumentCloud"
         ], 
         "facilitators": "Mike Tigas", 
         "id": "527", 
