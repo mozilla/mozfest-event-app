@@ -686,8 +686,9 @@
         "id": "582", 
         "location": "", 
         "pathways": "Global Village Garage", 
-        "scheduleblock": "", 
+        "scheduleblock": "all-saturday", 
         "space": "The Global Village", 
+        "start": "All Weekend", 
         "title": "Garbage Disposal Room"
     }, 
     {
@@ -4669,6 +4670,21 @@
         "space": "", 
         "start": "All Weekend", 
         "title": "Creche"
+    }, 
+    {
+        "clone_flag": "True", 
+        "description": "Series of three sessions about e-waste under the Global Innovation Network", 
+        "facilitator_array": [
+            "Geraldine Debastion, @Geralbine"
+        ], 
+        "facilitators": "Geraldine Debastion", 
+        "id": "582", 
+        "location": "", 
+        "pathways": "Global Village Garage", 
+        "scheduleblock": "all-sunday", 
+        "space": "The Global Village", 
+        "start": "All Weekend", 
+        "title": "Garbage Disposal Room"
     }, 
     {
         "clone_flag": "True", 
