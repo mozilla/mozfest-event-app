@@ -523,6 +523,7 @@
         "title": "Digging deep...a workshop on community research"
     }, 
     {
+        "day": "Sunday", 
         "description": "Come and check out what it is like to hack on a bigger screen Smart TV! In this session, participants will learn about the Firefox OS Smart TV with a quick product demonstration. To unleash the hacker in all of you, we will demonstrate how to hack on the TV via WebIDE and share how to build TV optimized apps. To unleash the hacker in all of you, we will demonstrate how to hack on the TV via WebIDE and share how to build TV optimized apps. Bring your laptop for some hands-on experience!", 
         "facilitator_array": [
             "Joe Chen", 
@@ -532,8 +533,9 @@
         "id": "636", 
         "location": "", 
         "pathways": "New Technologies for Participation -- Challenge", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "Building Participation", 
+        "start": "11:30 AM", 
         "title": "Hack on Firefox OS Smart TV"
     }, 
     {
