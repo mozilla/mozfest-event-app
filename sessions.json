@@ -4099,7 +4099,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "The session will introduce people to the awesomeness of the Raspberry Pi, electric circuits and coding with Scratch and Python.  They will learn about using the command line, setting up electronic circuits safely, what the GPIO pins are used for and just having a bit of fun with blinking LEDs and resisters. It will also introduce them to Computational thinking and problem solving.", 
+        "description": "The session will introduce people to the awesomeness of the Raspberry Pi, electric circuits and coding with Scratch and Python. They will learn about using the command line, setting up electronic circuits safely, what the GPIO pins are used for and just having a bit of fun with blinking LEDs and resisters. It will also introduce them to Computational thinking and problem solving.", 
         "facilitator_array": [
             "Femi Owolade-Coombes", 
             "Grace Owolade-Coombes, @gowolade, Raspberry Pi certified Educator"
@@ -4131,7 +4131,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "People often hear the word \"algorithm\" and think that it entails complicated math or heavy computer programming. At it's core, though, an algorithm is a simple set of rules that are relatively easy to understand. You can write an algorithm for almost anything — making a sandwich, deciding what to make for dinner, doing long division, naming children, and more. This session seeks above all to take away the mystery of a concept that influences our lives each day. It will help people understand how algorithms work and will allow participants to explore the concept of algorithms using simple English and no code.", 
+        "description": "People often hear the word \"algorithm\" and think that it entails complicated math or heavy computer programming. At it's core, though, an algorithm is a simple set of rules that are relatively easy to understand. You can write an algorithm for almost anything, for example    \n- Making a sandwich    \n- Deciding what to make for dinner     \n- Doing long division    \n- Naming children   \n- And much much more    \nThis session seeks above all to take away the mystery of a concept that influences our lives each day. It will help you understand how algorithms work and will allow you to explore the concept of algorithms using simple English and no code.   ", 
         "facilitator_array": [
             "Ryan  Graff, @rcgraff, Knight Lab"
         ], 
@@ -4255,7 +4255,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "This session will enable people to learn a digital musical instrument version of a traditional Samba instrument called pandeiro, using a webapp similar to the 80`s game Simon. They will be able to record their own creations and share them with others to improve their technique. After the session they will also capable to actually play the real instrument. We'll form a digital pandeiro orchestra during mozFest and exchange original songs with one another.", 
+        "description": "In this session, you will get the opertunity to learn a digital musical instrument version of a traditional Samba instrument called pandeiro, using a webapp similar to the 80`s game Simon. You will then get a chance to record your own creations and share them with others to improve their technique.    \nAfter the session you will also be capable to actually play the real instrument. We'll form a digital pandeiro orchestra during MozFest and exchange original songs with one another.   ", 
         "facilitator_array": [
             "Adriano Cupello, @londrix, Mozilla rep - Brazillian Community", 
             "Andre Garzia"
