@@ -4328,7 +4328,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/np/flexagons.jpg\" /></div>    \nFlexagons are fun paper toys or according to Wikipedia \"Flat models, constructed by folding strips of paper that can be flexed or folded in certain ways to reveal faces besides the two that were originally on the back and front.\": https://www.youtube.com/watch?v=VIVIegSt81k\n\nIn our maker party in Canada we decided to make flexagons with our own photos! I started this project from scratch and used customized flexagons as a fun tool to teach the web to students and the result was amazing! https://sara-mansouri.github.io/Flexigon/\n\nThe main goal of this session is to enjoy making creative flexagons while teaching simple HTML, CSS to participants. The participants will be encouraged to come up with interesting ideas for designing flexagons and use the web tools to create their design while practicing team work. Here are some photos of our previus workshop: https://flic.kr/s/aHskgxPPaU.\n\nFinally, we will talk about ways to participate in this project: https://github.com/sara-mansouri/Flexigon", 
+        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/np/flexagons.jpg\" /></div>    \nFlexagons are fun paper toys or according to Wikipedia \"Flat models, constructed by folding strips of paper that can be flexed or folded in certain ways to reveal faces besides the two that were originally on the back and front.\"   \nhttps://www.youtube.com/watch?v=VIVIegSt81k   \n\nIn our maker party in Canada we decided to make flexagons with our own photos! I started this project from scratch and used customized flexagons as a fun tool to teach the web to students and the result was amazing! https://sara-mansouri.github.io/Flexigon/\n\nThe main goal of this session is to enjoy making creative flexagons while teaching simple HTML, CSS to participants. The participants will be encouraged to come up with interesting ideas for designing flexagons and use the web tools to create their design while practicing team work. Here are some photos of our previus workshop: https://flic.kr/s/aHskgxPPaU.\n\nFinally, we will talk about ways to participate in this project: https://github.com/sara-mansouri/Flexigon", 
         "facilitator_array": [
             "Sara Mansouri, @sara__mansouri"
         ], 
@@ -4343,7 +4343,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "Imagine an open source microscope that is powerful and cheap enough for school children to study the nano world, the world of atoms and molecules that is 1000 times smaller than what traditional optical microscopes can see. That is the objective of the LEGO2NANO project. This workshop will introduce to you the hardware and software developed so far for the world's first open source atomic force microscope. We'll also introduce how we are documenting this project on the Web, how we are involving Chinese school children in building and using the microscope, and sharing data from the microscope for crowdsourced analysis in Web-based citizen science projects. LEGO2NANO is in an international summer school in China, involving students and mentors from University College London, Tsinghua University, Peking University, Academia Sinica, MIT, Tufts University and University of Geneva. http://www.openafm.com", 
+        "description": "Imagine an open source microscope that is powerful and cheap enough for school children to study the nano world, the world of atoms and molecules that is 1000 times smaller than what traditional optical microscopes can see. That is the objective of the LEGO2NANO project. This workshop will introduce to you the hardware and software developed so far for the world's first open source atomic force microscope. We'll also introduce how we are documenting this project on the Web, how we are involving Chinese school children in building and using the microscope, and sharing data from the microscope for crowdsourced analysis in Web-based citizen science projects. LEGO2NANO is in an international summer school in China, involving students and mentors from University College London, Tsinghua University, Peking University, Academia Sinica, MIT, Tufts University and University of Geneva.    \nhttp://www.openafm.com", 
         "facilitator_array": [
             "Joe Bailey, @LEGO2NANO, University College London", 
             "Tom Catling", 
@@ -4377,7 +4377,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "This workshop aims to provide participants with a flexible model that can be used for their own community & education events. Minecraft is a 3D virtual world which can be used to collaboratively create objects and environments then explore them. On the Raspberry Pi computer, Minecraft allows the use of Python to control how these objects interact. Through taking part in this Minecraft Mini Hack Jam, participants will work in teams to create a Minecraft challenge assault course, working in teams. This session is suitable for learners of all ages and backgrounds as well as educators and community leaders. This session will be led by Alan O’Donohoe an experienced educator in Computing & Raspberry Pi and David Whale an experienced software developer, author and STEM ambassador.", 
+        "description": "This workshop aims to provide participants with a flexible model that can be used for their own community & education events. Minecraft is a 3D virtual world which can be used to collaboratively create objects and environments then explore them. On the Raspberry Pi computer, Minecraft allows the use of Python to control how these objects interact. Through taking part in this Minecraft Mini Hack Jam, you will work in teams to create a Minecraft challenge assault course. This session is suitable for learners of all ages and backgrounds as well as educators and community leaders and will be led by Alan O’Donohoe an experienced educator in Computing & Raspberry Pi and David Whale an experienced software developer, author and STEM ambassador.", 
         "facilitator_array": [
             "Alan O'Donohoe, @teknoteacher, Exa Networks", 
             "David Whale"
@@ -4409,7 +4409,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "Attendees will brainstorm ways of encouraging young developers to be code contributors. We will discuss some of the strategies I found most helpful, such as having thorough, well-written documentation and better communication strategies for encouraging participation.", 
+        "description": "How can we encourage young developers to be code contributors?    \nWe will discuss some of the strategies I found most helpful, such as having thorough, well-written documentation and better communication strategies for encouraging participation and will brainstorm possible other ideas from the audience.", 
         "facilitator_array": [
             "Ryan Warsaw"
         ], 
@@ -4468,7 +4468,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "During this session  participants will learn to leverage student excitement of Minecraft and how it connects to making a positive impact on the Web and in the real world. This session seeks to explore how we might better build tomorrow’s leaders through digital citizenship, design thinking and civic engagement by exploring self efficacy and agency in the built environment- both virtual and real.", 
+        "description": "During this session you will learn to leverage the student excitement of Minecraft and how it connects to making a positive impact on the Web and in the real world.   \nThis session seeks to explore how we might better build tomorrow’s leaders through digital citizenship, design thinking and civic engagement by exploring self efficacy and agency in the built environment - both virtual and real.", 
         "facilitator_array": [
             "Gina Grant, @chiarchitecture, Chicago Architecture Foundation", 
             "Edgar “Edge” Quintanilla, @edgeq_"
@@ -4516,7 +4516,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "Lunch on Saturday is 12:30 - 13:300 and on Sunday 13:30 - 14:30. Come Join us in room 213 to learn coding Java with the new Java course by CodeAcademy", 
+        "description": "Lunch on Saturday is 12:30 - 13:30. Come Join us in room 213 to learn coding Java with the new Java course by CodeAcademy!", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "623", 
@@ -4529,7 +4529,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "Lunch on Saturday is 12:30 - 13:300 and on Sunday 13:30 - 14:30. Come Join us in room 213 to learn coding Java with the new Java course by CodeAcademy", 
+        "description": "Lunch on Sunday is 13:30 - 14:30. Come Join us in room 213 to learn coding Java with the new Java course by CodeAcademy!", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "623", 
@@ -4542,7 +4542,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "In the ‘Modular frequencies’ workshop we’ll create a spacial audio installation! The HearUsHere app (location based audio) combined with iBeacons allows us to create a new sonic experience. Every iBeacon is a frequency that carriers a sound, when you get closer to one of these frequencies the audio will automatically fade in and cross fade with others. Using the speakers of our phones, we’ll create a collective audio experience. This results in unique and constantly changing soundscape created by the visitors and their navigation in the space.\nRoughly the result of the workshop is a zoo that the children create themselves in drawings and sounds, using iBeacons and HearUsHere. They will do this in a playful workshop full of sharpies and crayons that blends with tech.", 
+        "description": "In the ‘Modular frequencies’ workshop we’ll create a spacial audio installation! The HearUsHere app (location based audio) combined with iBeacons allows us to create a new sonic experience. Every iBeacon is a frequency that carriers a sound, when you get closer to one of these frequencies the audio will automatically fade in and cross fade with others. Using the speakers of our phones, we’ll create a collective audio experience. This results in unique and constantly changing soundscape created by the visitors and their navigation in the space.\nRoughly the result of the workshop is a zoo that the children create themselves in drawings and sounds, using iBeacons and HearUsHere. This playful workshop will full of sharpies and crayons that blends with tech.", 
         "facilitator_array": [
             "Klasien van de Zandschulp, @klasienz, HearUsHere", 
             "James Bryan Graves"
