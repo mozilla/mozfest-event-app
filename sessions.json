@@ -523,6 +523,7 @@
         "title": "Digging deep...a workshop on community research"
     }, 
     {
+        "day": "Sunday", 
         "description": "Come and check out what it is like to hack on a bigger screen Smart TV! In this session, participants will learn about the Firefox OS Smart TV with a quick product demonstration. To unleash the hacker in all of you, we will demonstrate how to hack on the TV via WebIDE and share how to build TV optimized apps. To unleash the hacker in all of you, we will demonstrate how to hack on the TV via WebIDE and share how to build TV optimized apps. Bring your laptop for some hands-on experience!", 
         "facilitator_array": [
             "Joe Chen", 
@@ -532,8 +533,9 @@
         "id": "636", 
         "location": "", 
         "pathways": "New Technologies for Participation -- Challenge", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "Building Participation", 
+        "start": "11:30 AM", 
         "title": "Hack on Firefox OS Smart TV"
     }, 
     {
@@ -4097,7 +4099,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "The session will introduce people to the awesomeness of the Raspberry Pi, electric circuits and coding with Scratch and Python.  They will learn about using the command line, setting up electronic circuits safely, what the GPIO pins are used for and just having a bit of fun with blinking LEDs and resisters. It will also introduce them to Computational thinking and problem solving.", 
+        "description": "The session will introduce people to the awesomeness of the Raspberry Pi, electric circuits and coding with Scratch and Python. They will learn about using the command line, setting up electronic circuits safely, what the GPIO pins are used for and just having a bit of fun with blinking LEDs and resisters. It will also introduce them to Computational thinking and problem solving.", 
         "facilitator_array": [
             "Femi Owolade-Coombes", 
             "Grace Owolade-Coombes, @gowolade, Raspberry Pi certified Educator"
@@ -4113,7 +4115,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "This session will allow people to teach web privacy at a basic level. They will have a good knowledge of key concepts such as data permanence, cookies, tracking, third party data mining and how they can introduce these concepts to others with little to no knowledge on the subject. This session will empower the participants to facilitate sessions of their own and create their own session material.", 
+        "description": "Interested in teaching web privacy at a basic level? Then this session is for you! By the end of it, you will have a good knowledge of key concepts such as data permanence, cookies, tracking, third party data mining and how you can introduce these concepts to others with little to no knowledge on the subject.    \nThis session will empower you to facilitate sessions of you own and create your own session material.", 
         "facilitator_array": [
             "Tom Farrow, , Mozilla", 
             "Harry Smith, @Zebetus"
@@ -4129,7 +4131,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "People often hear the word \"algorithm\" and think that it entails complicated math or heavy computer programming. At it's core, though, an algorithm is a simple set of rules that are relatively easy to understand. You can write an algorithm for almost anything — making a sandwich, deciding what to make for dinner, doing long division, naming children, and more. This session seeks above all to take away the mystery of a concept that influences our lives each day. It will help people understand how algorithms work and will allow participants to explore the concept of algorithms using simple English and no code.", 
+        "description": "People often hear the word \"algorithm\" and think that it entails complicated math or heavy computer programming. At it's core, though, an algorithm is a simple set of rules that are relatively easy to understand. You can write an algorithm for almost anything, for example    \n- Making a sandwich    \n- Deciding what to make for dinner     \n- Doing long division    \n- Naming children   \n- And much much more    \nThis session seeks above all to take away the mystery of a concept that influences our lives each day. It will help you understand how algorithms work and will allow you to explore the concept of algorithms using simple English and no code.   ", 
         "facilitator_array": [
             "Ryan  Graff, @rcgraff, Knight Lab"
         ], 
@@ -4144,7 +4146,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "This session will introduce participants to the Maker Cart and the Maker   Movement. The Maker Cart is a mobile cost and space saving mobile unit that   contains the main ingredients to start a Makerspace and Maker Programme. It   consists of a 3d printer, digital cutter, electronics, micro-controllers and   robotics. The Maker Cart has been designed for schools, libraries and youth   centres but can also be use at home!  People will learn about the Maker movement, the tools and machinery   associated and the kind of projects that can be developed with the Maker   Cart.  People will have a chance to make something using some of the tools and   machines in the Maker Cart.", 
+        "description": "This session will introduce you to the Maker Cart and the Maker Movement. The Maker Cart is a mobile cost and space saving mobile unit that contains the main ingredients to start a Makerspace and Maker Programme. It consists of a 3d printer, digital cutter, electronics, micro-controllers and robotics. The Maker Cart has been designed for schools, libraries and youth centres but can also be use at home!  You will learn about the Maker movement, the tools and machinery associated and the kind of projects that can be developed with the Maker Cart.  You will have a chance to make something using some of the tools and machines in the Maker Cart!", 
         "facilitator_array": [
             "Carlos Izsak, @Carlitosi71, STEAM ahead", 
             " , @Lachallota"
@@ -4160,7 +4162,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "This session will introduce participants to the Maker Cart and the Maker   Movement. The Maker Cart is a mobile cost and space saving mobile unit that   contains the main ingredients to start a Makerspace and Maker Programme. It   consists of a 3d printer, digital cutter, electronics, micro-controllers and   robotics. The Maker Cart has been designed for schools, libraries and youth   centres but can also be use at home!  People will learn about the Maker movement, the tools and machinery   associated and the kind of projects that can be developed with the Maker   Cart.  People will have a chance to make something using some of the tools and   machines in the Maker Cart.", 
+        "description": "This session will introduce you to the Maker Cart and the Maker Movement. The Maker Cart is a mobile cost and space saving mobile unit that contains the main ingredients to start a Makerspace and Maker Programme. It consists of a 3d printer, digital cutter, electronics, micro-controllers and robotics. The Maker Cart has been designed for schools, libraries and youth centres but can also be use at home!  You will learn about the Maker movement, the tools and machinery associated and the kind of projects that can be developed with the Maker Cart.  You will have a chance to make something using some of the tools and machines in the Maker Cart!", 
         "facilitator_array": [
             "Carlos Izsak, @Carlitosi71, STEAM ahead", 
             " , @Lachallota"
@@ -4253,7 +4255,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "This session will enable people to learn a digital musical instrument version of a traditional Samba instrument called pandeiro, using a webapp similar to the 80`s game Simon. They will be able to record their own creations and share them with others to improve their technique. After the session they will also capable to actually play the real instrument. We'll form a digital pandeiro orchestra during mozFest and exchange original songs with one another.", 
+        "description": "In this session, you will get the opertunity to learn a digital musical instrument version of a traditional Samba instrument called pandeiro, using a webapp similar to the 80`s game Simon. You will then get a chance to record your own creations and share them with others to improve their technique.    \nAfter the session you will also be capable to actually play the real instrument. We'll form a digital pandeiro orchestra during MozFest and exchange original songs with one another.   ", 
         "facilitator_array": [
             "Adriano Cupello, @londrix, Mozilla rep - Brazillian Community", 
             "Andre Garzia"
@@ -4283,7 +4285,7 @@
         "title": "Build your custom Sumobot (Open space, 2nd floor)"
     }, 
     {
-        "description": "There is a whole stack of Raspberry Pi workshops running over the Mozfest weekend up in room 209 in the YouthZone!   \nWorkshops ranging from music fruit, to hacking Minecraft to even playing with real space certified astronaut hardware! All our workshops are suitable for Raspberry Pi/coding beginners, but make sure to arrive at least 5 minutes before the start of the sessions to make sure you can get a seat!   \n\nThe workshop list is below    \n**Saturday**    \n- **10:45-12:30** - [Astro Pi - Your Code in Space](https://schedule.mozillafestival.org/#_session-556)   \n- **12:45-13:45** - Musical fruit with the Explorer HAT   \n- **14:15-15:15** - Scratch-ing the surface of space   \n- **15:30-16:30** - Hacking Minecraft Pi with Python   \n- **16:30-17:00** - Getting started with Pi for adults   \n   \n**Sunday**\n\n- **11:30-12:30** - Flappy AstroPI   \n- **12:45-13:30** - Scratch-ing the Surface with GPIO   \n- **13:30-14:15** - Musical fruit with the Explorer HAT   \n- **14:45-15:45** - Hacking Minecraft Pi with Python   \n- **16:00-17:00** - Getting started with Pi for adults\n", 
+        "description": "There is a whole stack of Raspberry Pi workshops running over the Mozfest weekend up in room 209 in the YouthZone and some dropin activites elsewhere.   \nWe have 2 sets of dropin activities running    \n**Saturday**   \n- **14:15-15:15** - [Getting started with Sonic Pi drop in workshop](https://schedule.mozillafestival.org/#_session-44211)   \n- **All day** - [Dot-To-Dot with Minecraft and electronic paint](https://schedule.mozillafestival.org/#_session-4420)   \n   \n**Sunday**   \n- **All day** - [Getting started with Sonic Pi drop in workshop](https://schedule.mozillafestival.org/#_session-44212)   \n- **All day** - [Dot-To-Dot with Minecraft and electronic paint](https://schedule.mozillafestival.org/#_session-4420)    \n   \nWe then have our workshops ranging from music fruit, to hacking Minecraft to even playing with real space certified astronaut hardware! All our workshops are suitable for Raspberry Pi/coding beginners but make sure to arrive at least 5 minutes before the start of the sessions to make sure you can get a seat!   \n\nThe workshop list is below    \n**Saturday**    \n- **10:45-12:30** - [Astro Pi - Your Code in Space](https://schedule.mozillafestival.org/#_session-556)   \n- **12:45-13:45** - [Musical fruit with the Explorer HAT](https://schedule.mozillafestival.org/#_session-4421)   \n- **14:15-15:15** - [Scratch-ing the surface of space](https://schedule.mozillafestival.org/#_session-4422)   \n- **15:30-16:30** - [Hacking Minecraft Pi with Python](https://schedule.mozillafestival.org/#_session-4423)  \n- **16:30-17:00** - [Getting started with Pi for adults]()   \n   \n**Sunday**\n\n- **11:30-12:30** - [Flappy AstroPi](https://schedule.mozillafestival.org/#_session-4424)   \n- **12:45-13:30** - [Scratch-ing the Surface with GPIO](https://schedule.mozillafestival.org/#_session-4425)   \n- **13:30-14:15** - [Musical fruit with the Explorer HAT](https://schedule.mozillafestival.org/#_session-4428)   \n- **14:45-15:45** - [Hacking Minecraft Pi with Python](https://schedule.mozillafestival.org/#_session-4426)   \n- **16:00-17:00** - [Getting started with Pi for adults](https://schedule.mozillafestival.org/#_session-4427)\n", 
         "facilitator_array": [
             "Andrew Mulholland, @gbaman1, ", 
             "Frank Thomas-Hockey, @fth_nix", 
@@ -4326,7 +4328,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "Flexagons are fun paper toys or according to Wikipedia \"Flat models, constructed by folding strips of paper that can be flexed or folded in certain ways to reveal faces besides the two that were originally on the back and front.\": https://www.youtube.com/watch?v=VIVIegSt81k\n\nIn our maker party in Canada we decided to make flexagons with our own photos! I started this project from scratch and used customized flexagons as a fun tool to teach the web to students and the result was amazing! https://sara-mansouri.github.io/Flexigon/\n\nThe main goal of this session is to enjoy making creative flexagons while teaching simple HTML, CSS to participants. The participants will be encouraged to come up with interesting ideas for designing flexagons and use the web tools to create their design while practicing team work. Here are some photos of our previus workshop: https://flic.kr/s/aHskgxPPaU.\n\nFinally, we will talk about ways to participate in this project: https://github.com/sara-mansouri/Flexigon", 
+        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/np/flexagons.jpg\" /></div>    \nFlexagons are fun paper toys or according to Wikipedia \"Flat models, constructed by folding strips of paper that can be flexed or folded in certain ways to reveal faces besides the two that were originally on the back and front.\": https://www.youtube.com/watch?v=VIVIegSt81k\n\nIn our maker party in Canada we decided to make flexagons with our own photos! I started this project from scratch and used customized flexagons as a fun tool to teach the web to students and the result was amazing! https://sara-mansouri.github.io/Flexigon/\n\nThe main goal of this session is to enjoy making creative flexagons while teaching simple HTML, CSS to participants. The participants will be encouraged to come up with interesting ideas for designing flexagons and use the web tools to create their design while practicing team work. Here are some photos of our previus workshop: https://flic.kr/s/aHskgxPPaU.\n\nFinally, we will talk about ways to participate in this project: https://github.com/sara-mansouri/Flexigon", 
         "facilitator_array": [
             "Sara Mansouri, @sara__mansouri"
         ], 
@@ -4926,7 +4928,7 @@
     }, 
     {
         "clone_flag": "True", 
-        "description": "There is a whole stack of Raspberry Pi workshops running over the Mozfest weekend up in room 209 in the YouthZone!   \nWorkshops ranging from music fruit, to hacking Minecraft to even playing with real space certified astronaut hardware! All our workshops are suitable for Raspberry Pi/coding beginners, but make sure to arrive at least 5 minutes before the start of the sessions to make sure you can get a seat!   \n\nThe workshop list is below    \n**Saturday**    \n- **10:45-12:30** - [Astro Pi - Your Code in Space](https://schedule.mozillafestival.org/#_session-556)   \n- **12:45-13:45** - Musical fruit with the Explorer HAT   \n- **14:15-15:15** - Scratch-ing the surface of space   \n- **15:30-16:30** - Hacking Minecraft Pi with Python   \n- **16:30-17:00** - Getting started with Pi for adults   \n   \n**Sunday**\n\n- **11:30-12:30** - Flappy AstroPI   \n- **12:45-13:30** - Scratch-ing the Surface with GPIO   \n- **13:30-14:15** - Musical fruit with the Explorer HAT   \n- **14:45-15:45** - Hacking Minecraft Pi with Python   \n- **16:00-17:00** - Getting started with Pi for adults\n", 
+        "description": "There is a whole stack of Raspberry Pi workshops running over the Mozfest weekend up in room 209 in the YouthZone and some dropin activites elsewhere.   \nWe have 2 sets of dropin activities running    \n**Saturday**   \n- **14:15-15:15** - [Getting started with Sonic Pi drop in workshop](https://schedule.mozillafestival.org/#_session-44211)   \n- **All day** - [Dot-To-Dot with Minecraft and electronic paint](https://schedule.mozillafestival.org/#_session-4420)   \n   \n**Sunday**   \n- **All day** - [Getting started with Sonic Pi drop in workshop](https://schedule.mozillafestival.org/#_session-44212)   \n- **All day** - [Dot-To-Dot with Minecraft and electronic paint](https://schedule.mozillafestival.org/#_session-4420)    \n   \nWe then have our workshops ranging from music fruit, to hacking Minecraft to even playing with real space certified astronaut hardware! All our workshops are suitable for Raspberry Pi/coding beginners but make sure to arrive at least 5 minutes before the start of the sessions to make sure you can get a seat!   \n\nThe workshop list is below    \n**Saturday**    \n- **10:45-12:30** - [Astro Pi - Your Code in Space](https://schedule.mozillafestival.org/#_session-556)   \n- **12:45-13:45** - [Musical fruit with the Explorer HAT](https://schedule.mozillafestival.org/#_session-4421)   \n- **14:15-15:15** - [Scratch-ing the surface of space](https://schedule.mozillafestival.org/#_session-4422)   \n- **15:30-16:30** - [Hacking Minecraft Pi with Python](https://schedule.mozillafestival.org/#_session-4423)  \n- **16:30-17:00** - [Getting started with Pi for adults]()   \n   \n**Sunday**\n\n- **11:30-12:30** - [Flappy AstroPi](https://schedule.mozillafestival.org/#_session-4424)   \n- **12:45-13:30** - [Scratch-ing the Surface with GPIO](https://schedule.mozillafestival.org/#_session-4425)   \n- **13:30-14:15** - [Musical fruit with the Explorer HAT](https://schedule.mozillafestival.org/#_session-4428)   \n- **14:45-15:45** - [Hacking Minecraft Pi with Python](https://schedule.mozillafestival.org/#_session-4426)   \n- **16:00-17:00** - [Getting started with Pi for adults](https://schedule.mozillafestival.org/#_session-4427)\n", 
         "facilitator_array": [
             "Frank Thomas-Hockey, @fth_nix", 
             "Covent Garden Raspberry Jam team", 
