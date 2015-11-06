@@ -4006,7 +4006,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "An HTML Puzzle Box I hear you ask? What could that possibly be?   \nIt is a really cool papertoy that you can create yourself! Along the way, you will learn some basic HTML and you can take part in the HTML Puzzle Box Challenge, how fast can you stack them in the right order?", 
+        "description": "An HTML Puzzle Box I hear you ask? What could that possibly be?    It is a really cool papertoy that you can create yourself! Along the way, you will learn some basic HTML and you can take part in the HTML Puzzle Box Challenge, how fast can you stack them in the right order?", 
         "facilitator_array": [
             "Yofie Setiawan, @yofiesetiawan, Mozilla Indonesia Community", 
             "Rizky Ariestiyansyah"
@@ -4022,7 +4022,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "Deeper community participation using one of Mozilla's support tools (Army of Awesome) as a case study. We will use this to discuss and share what participation techniques and processes work in the open space and comment on challenges and opportunities.", 
+        "description": "Tech support is at the heart of any organisation that uses a lot of technology be they a micro company of under 10 people or a corporate with thousands of employee", 
         "facilitator_array": [
             "Madalina Ana, @madalinaana, Mozilla"
         ], 
@@ -4037,7 +4037,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/np/webvr.jpg\" /></div>    \nEver wanted to try out **Virtual Reality**? Now's your chance!       \nThis session will cover building your own cardboard VR cutout headset which you can then use with a smartphone!   \nThe plan for the session is    \n- Create your own DIY cardbard VR headset (don't worry, we will provide templates, scissors and fun things to decorate them with!)\n- Show you how awesome VR can be for telling stories on the web.   \n- Teach you how to create your own immersive content with consumer-grade 360/180 degree cameras.   \n- Show you how to hack at our example stories so you can tell your own stories with WebVR.   ", 
+        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/np/webvr.jpg\" /></div>     Ever wanted to try out **Virtual Reality**? Now's your chance!        This session will cover building your own cardboard VR cutout headset which you can then use with a smartphone!    The plan for the session is     - Create your own DIY cardbard VR headset (don't worry, we will provide templates, scissors and fun things to decorate them with!) - Show you how awesome VR can be for telling stories on the web.    - Teach you how to create your own immersive content with consumer-grade 360/180 degree cameras.    - Show you how to hack at our example stories so you can tell your own stories with WebVR.   ", 
         "facilitator_array": [
             "Rabimba Karanjai, @rabimba, RICE University / Mozillian", 
             "Dietrich Ayala"
@@ -4053,7 +4053,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/np/webvr.jpg\" /></div>    \nEver wanted to try out **Virtual Reality**? Now's your chance!       \nThis session will cover building your own cardboard VR cutout headset which you can then use with a smartphone!   \nThe plan for the session is    \n- Create your own DIY cardbard VR headset (don't worry, we will provide templates, scissors and fun things to decorate them with!)\n- Show you how awesome VR can be for telling stories on the web.   \n- Teach you how to create your own immersive content with consumer-grade 360/180 degree cameras.   \n- Show you how to hack at our example stories so you can tell your own stories with WebVR.   ", 
+        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/np/webvr.jpg\" /></div>     Ever wanted to try out **Virtual Reality**? Now's your chance!        This session will cover building your own cardboard VR cutout headset which you can then use with a smartphone!    The plan for the session is     - Create your own DIY cardbard VR headset (don't worry, we will provide templates, scissors and fun things to decorate them with!) - Show you how awesome VR can be for telling stories on the web.    - Teach you how to create your own immersive content with consumer-grade 360/180 degree cameras.    - Show you how to hack at our example stories so you can tell your own stories with WebVR.   ", 
         "facilitator_array": [
             "Rabimba Karanjai, @rabimba, RICE University / Mozillian", 
             "Dietrich Ayala"
