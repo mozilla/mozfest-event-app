@@ -345,7 +345,7 @@
         ], 
         "facilitators": "Emma Irwin", 
         "id": "606", 
-        "location": "Floor 5 - 503", 
+        "location": "Floor 4 - 403", 
         "pathways": "Scaling Participatory Learning Experiences", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Building Participation", 
@@ -360,7 +360,7 @@
         ], 
         "facilitators": "Robert Friedman", 
         "id": "314", 
-        "location": "Floor 5 - 500", 
+        "location": "Floor 4 - 400", 
         "pathways": "Leading and Building Community Through Participation,", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Building Participation", 
@@ -375,7 +375,7 @@
         ], 
         "facilitators": "Henrik  Mitsch", 
         "id": "397", 
-        "location": "Floor 5 - 504", 
+        "location": "Floor 4 -  404", 
         "pathways": "Leading and Building Community Through Participation", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "Building Participation", 
@@ -390,7 +390,7 @@
         ], 
         "facilitators": "Errietta Kostala", 
         "id": "154", 
-        "location": "Floor 5 - 501", 
+        "location": "Floor 4 - 401", 
         "pathways": "New Technologies for Participation -- Challenge, ", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "Building Participation", 
@@ -405,7 +405,7 @@
         ], 
         "facilitators": "Greg McVerry", 
         "id": "409", 
-        "location": "Floor 5 - 503", 
+        "location": "Floor 4 -  403", 
         "pathways": "Scaling Participatory Learning Experiences,", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "Building Participation", 
@@ -420,7 +420,7 @@
         ], 
         "facilitators": "Francisco Jordano ", 
         "id": "139", 
-        "location": "Floor 5 - 501", 
+        "location": "Floor 4 - 401", 
         "pathways": "New Technologies for Participation -- Challenge, ", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Building Participation", 
@@ -435,7 +435,7 @@
         ], 
         "facilitators": "Gloria Dwomoh", 
         "id": "452", 
-        "location": "Floor 5 - 502", 
+        "location": "Floor 4 - 402", 
         "pathways": "Scaling Participatory Learning Experiences,", 
         "scheduleblock": "saturday-session-block-2", 
         "space": "Building Participation", 
@@ -451,7 +451,7 @@
         ], 
         "facilitators": "Francesco Iovine, Maurizio Pedriale", 
         "id": "428", 
-        "location": "Floor 5 - 505", 
+        "location": "Floor 4 - 405", 
         "pathways": "Leading and Building Community Through Participation, ", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Building Participation", 
@@ -467,7 +467,7 @@
         ], 
         "facilitators": "Emma Irwin, George Roter", 
         "id": "608", 
-        "location": "Floor 5 - 500", 
+        "location": "Floor 4 - 400", 
         "pathways": "New Technologies for Participation -- Challenge", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Building Participation", 
@@ -499,7 +499,7 @@
         ], 
         "facilitators": "Ting Jung (TJ) Lee, George Roter", 
         "id": "624", 
-        "location": "Floor 5 - 505", 
+        "location": "Floor 4 - 405", 
         "pathways": "Leading and Building Community Through Participation,Science communication", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "Building Participation", 
@@ -515,7 +515,7 @@
         ], 
         "facilitators": "Rina Jensen, Jared Cole", 
         "id": "635", 
-        "location": "Floor 5 - 503", 
+        "location": "Floor 4 - 403", 
         "pathways": "Leading and Building Community Through Participation,", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Building Participation", 
@@ -531,7 +531,7 @@
         ], 
         "facilitators": "Joe Chen, Jack Lin", 
         "id": "636", 
-        "location": "Floor 5 - 500", 
+        "location": "Floor 4 - 400", 
         "pathways": "New Technologies for Participation -- Challenge", 
         "scheduleblock": "sunday-session-block-5", 
         "space": "Building Participation", 
@@ -3976,6 +3976,23 @@
     }, 
     {
         "day": "Saturday", 
+        "description": "Have you ever used Mozilla's X-Ray Goggles tool to \"look under the hood\" of your favorite website? We're revamping the tool with a fun new experience for first time users, and we'd love your help testing it out. Drop by the MLN Help Desk (8th floor) any time between 12pm and 1pm to spend a few minutes testing the activity and tell us what you think!", 
+        "facilitator_array": [
+            "Kristina Shu", 
+            "Pomax", 
+            "Hannah Kane"
+        ], 
+        "facilitators": "Kristina Shu, Pomax, Hannah Kane", 
+        "id": "666", 
+        "location": "Floor 8 - 800", 
+        "pathways": "Learning & Leading", 
+        "scheduleblock": "saturday-session-block-2", 
+        "space": "Mozilla Learning Networks", 
+        "start": "12:00 PM", 
+        "title": "Help us test the new X-Ray Goggles!"
+    }, 
+    {
+        "day": "Saturday", 
         "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/Astro_Pi_Logo.png\" /></div>    \nTwo specially adapted Raspberry Pis will be travelling to the International Space Station with astronaut Tim Peake in December. This session introduces you to the Astro Pi project, how to set it up and how to use the many features of this genuine piece of space certified hardware and how you can link to this amazing project in your home and schools.", 
         "facilitator_array": [
             "Dave Honess, , Raspberry Pi Foundation", 
@@ -4647,7 +4664,7 @@
         "title": "Youth Physical computing \"Play date\" come play with us! (Open space, 2nd floor)"
     }, 
     {
-        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/V1-small-500x341.jpg\" /></div>         \nWhat if you could draw something with paint and then see it in 3D inside Minecraft?   \nAndrew Mulholland, our #youthZone Raspberry Pi youth leader decided this would be fun, so he coded it up himself to work with a set of special Raspberry Pi DOTs boards (developed by Rachel Rayns from Raspberry Pi Foundation) just for you to get creative!    \nDOTs Boards are very simple circuit boards, that once you have drawn your creation, are attached to the Raspberry Pi to see it come to life in 3D.    \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://2015.mozillafestival.org/schedule/#_session-4429)!", 
+        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/V1-small-500x341.jpg\" /></div>         \nWhat if you could draw something with paint and then see it in 3D inside Minecraft?   \nAndrew Mulholland, our #youthZone Raspberry Pi youth leader decided this would be fun, so he coded it up himself to work with a set of special Raspberry Pi DOTs boards (developed by Rachel Rayns from Raspberry Pi Foundation) just for you to get creative!    \nDOTs Boards are very simple circuit boards, that once you have drawn your creation, are attached to the Raspberry Pi to see it come to life in 3D.    \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://app.mozillafestival.org/#_session-4429)!", 
         "facilitator_array": [
             "Andrew Mulholland, @gbaman1, Farset Labs", 
             "Frank Thomas-Hockey, @fth_nix, Covent Garden Raspberry Jam"
@@ -4663,7 +4680,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/Explorer.jpg\" /></div>    \nLunch on Saturday is 12:30 - 13:300 and on Sunday 13:30 - 14:30. Come Join us in room 209 with your lunch fruit to make them do stuff, before you eat it!   \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://2015.mozillafestival.org/schedule/#_session-4429)!", 
+        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/Explorer.jpg\" /></div>    \nLunch on Saturday is 12:30 - 13:300 and on Sunday 13:30 - 14:30. Come Join us in room 209 with your lunch fruit to make them do stuff, before you eat it!   \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://app.mozillafestival.org/#_session-4429)!", 
         "facilitator_array": [
             "Jim Darby, @HackerJimbo"
         ], 
@@ -4678,7 +4695,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/astrogalaxy.png\" /></div>    \nA fun scratch workshop where you'll be able to create your very own galaxy with code!  You'll be using the tools of a real astronuat, with the Raspberry pi and sense hat add on board, using the LED Matrix on top go visualise your own galaxy.  In this workshop you'll learn the following     \n- Linking hats on the Raspberry Pi   \n- Understanding the scratch interface   \n- Writing code to initiate the LED Matrix    \n- Creating your own programs to create a galaxy    \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://2015.mozillafestival.org/schedule/#_session-4429)!", 
+        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/astrogalaxy.png\" /></div>    \nA fun scratch workshop where you'll be able to create your very own galaxy with code!  You'll be using the tools of a real astronuat, with the Raspberry pi and sense hat add on board, using the LED Matrix on top go visualise your own galaxy.  In this workshop you'll learn the following     \n- Linking hats on the Raspberry Pi   \n- Understanding the scratch interface   \n- Writing code to initiate the LED Matrix    \n- Creating your own programs to create a galaxy    \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://app.mozillafestival.org/#_session-4429)!", 
         "facilitator_array": [
             "Milton De Paula, @miltonio94", 
             "Connor Ballard, @connorbanona"
@@ -4694,7 +4711,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/MinecraftCover.png\" /></div>    \nLearn how to hack the extremely popular game, Minecraft on the Raspberry Pi using some simple lines of Python code. You will learn some basic python in order to build and customise your very own castle, whenever you want at the push of a button!    \nThis workshop will include\n- An introduction to playing Minecraft on the Raspberry Pi\n- How to place blocks with code\n- Building a simple castle with code\n- A number of challenges to make your awesome program even more awesome!\n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://2015.mozillafestival.org/schedule/#_session-4429)!", 
+        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/MinecraftCover.png\" /></div>    \nLearn how to hack the extremely popular game, Minecraft on the Raspberry Pi using some simple lines of Python code. You will learn some basic python in order to build and customise your very own castle, whenever you want at the push of a button!    \nThis workshop will include\n- An introduction to playing Minecraft on the Raspberry Pi\n- How to place blocks with code\n- Building a simple castle with code\n- A number of challenges to make your awesome program even more awesome!\n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://app.mozillafestival.org/#_session-4429)!", 
         "facilitator_array": [
             "Yasmin Bey, @RPi_Yaz14", 
             "Zach Igielman, @zacharyigielman", 
@@ -4711,7 +4728,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/flappy.png\" /></div>    \nLearn how to create an awesome Flappy Bird style game using the Space Certified Astro Pi (Sense HAT) addon board with the Raspberry Pi.   \nThis session will be well suited to those with perhaps a little previous Python (or other programming language) experience.   \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://2015.mozillafestival.org/schedule/#_session-4429)!", 
+        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/flappy.png\" /></div>    \nLearn how to create an awesome Flappy Bird style game using the Space Certified Astro Pi (Sense HAT) addon board with the Raspberry Pi.   \nThis session will be well suited to those with perhaps a little previous Python (or other programming language) experience.   \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://app.mozillafestival.org/#_session-4429)!", 
         "facilitator_array": [
             "Frank Thomas-Hockey, @fth_nix, Covent Garden Raspberry Jam"
         ], 
@@ -4726,7 +4743,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/pistop.jpg\" /></div>    \nEver wondered what a Raspberry Pi is for? You’ve heard about projects people have made with one, but have no idea where to start? Well this workshop is for you!   \nAimed at young (or simply young at heart) beginners, you will be shown how to get started with a Raspberry Pi using Scratch!    \nFirst you will be introduced to the Pi itself and understand all the things you need to get any computer working. Next, you’ll find out about the mysterious GPIO pins and how they can be used with LEDs, buttons, buzzers, speakers and various electronic add-ons. Finally, using block-based coding language Scratch, we will show you how to use a Raspberry Pi to code a set of traffic lights with a motion sensor and from there, your only limit is your imagination.   \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://2015.mozillafestival.org/schedule/#_session-4429)!", 
+        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/pistop.jpg\" /></div>    \nEver wondered what a Raspberry Pi is for? You’ve heard about projects people have made with one, but have no idea where to start? Well this workshop is for you!   \nAimed at young (or simply young at heart) beginners, you will be shown how to get started with a Raspberry Pi using Scratch!    \nFirst you will be introduced to the Pi itself and understand all the things you need to get any computer working. Next, you’ll find out about the mysterious GPIO pins and how they can be used with LEDs, buttons, buzzers, speakers and various electronic add-ons. Finally, using block-based coding language Scratch, we will show you how to use a Raspberry Pi to code a set of traffic lights with a motion sensor and from there, your only limit is your imagination.   \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://app.mozillafestival.org/#_session-4429)!", 
         "facilitator_array": [
             "Cat Lamin, @catlamin"
         ], 
@@ -4741,7 +4758,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/MinecraftCover.png\" /></div>    \nLearn how to hack the extremely popular game, Minecraft on the Raspberry Pi using some simple lines of Python code. You will learn some basic python in order to build and customise your very own castle, whenever you want at the push of a button!    \nThis workshop will include\n- An introduction to playing Minecraft on the Raspberry Pi\n- How to place blocks with code\n- Building a simple castle with code\n- A number of challenges to make your awesome program even more awesome!\n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://2015.mozillafestival.org/schedule/#_session-4429)!", 
+        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/MinecraftCover.png\" /></div>    \nLearn how to hack the extremely popular game, Minecraft on the Raspberry Pi using some simple lines of Python code. You will learn some basic python in order to build and customise your very own castle, whenever you want at the push of a button!    \nThis workshop will include\n- An introduction to playing Minecraft on the Raspberry Pi\n- How to place blocks with code\n- Building a simple castle with code\n- A number of challenges to make your awesome program even more awesome!\n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://app.mozillafestival.org/#_session-4429)!", 
         "facilitator_array": [
             "Yasmin Bey, @RPi_Yaz14", 
             "Zach Igielman, @zacharyigielman", 
@@ -4758,7 +4775,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/picademy.jpeg\" /></div>     \nA special session aimed at adults who have never touched/used a Raspberry Pi before. We will cover\n- An introduction to Raspberry Pi\n- Simple guide to hacking Minecraft Pi\n- Using the Sense HAT LED matrix\n    \nThis session is especially aimed at adult beginners who may have never picked up a Raspberry Pi before.   \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://2015.mozillafestival.org/schedule/#_session-4429)!", 
+        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/picademy.jpeg\" /></div>     \nA special session aimed at adults who have never touched/used a Raspberry Pi before. We will cover\n- An introduction to Raspberry Pi\n- Simple guide to hacking Minecraft Pi\n- Using the Sense HAT LED matrix\n    \nThis session is especially aimed at adult beginners who may have never picked up a Raspberry Pi before.   \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://app.mozillafestival.org/#_session-4429)!", 
         "facilitator_array": [
             "Frank Thomas-Hockey, @fth_nix, Covent Garden Raspberry Jam"
         ], 
@@ -4773,7 +4790,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/Explorer.jpg\" /></div>    \nLunch on Saturday is 12:30 - 13:300 and on Sunday 13:30 - 14:30. Come Join us in room 209 with your lunch fruit to make them do stuff, before you eat it!   \nPush buttons are old hat! These days we all like touch sensitivity. In this workshop we'll be using the Raspberry Pi's Explorer HAT to control things by touch. What can we connect up to be sensitive? What can we do once something is touched? We'll try tin foil, play-doh and fruit for input and make sounds, run commands and light LEDs for output. Can we do even more? We just don't know....   \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://2015.mozillafestival.org/schedule/#_session-4429)!", 
+        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/Explorer.jpg\" /></div>    \nLunch on Saturday is 12:30 - 13:300 and on Sunday 13:30 - 14:30. Come Join us in room 209 with your lunch fruit to make them do stuff, before you eat it!   \nPush buttons are old hat! These days we all like touch sensitivity. In this workshop we'll be using the Raspberry Pi's Explorer HAT to control things by touch. What can we connect up to be sensitive? What can we do once something is touched? We'll try tin foil, play-doh and fruit for input and make sounds, run commands and light LEDs for output. Can we do even more? We just don't know....   \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://app.mozillafestival.org/#_session-4429)!", 
         "facilitator_array": [
             "Jim Darby, @HackerJimbo"
         ], 
@@ -4788,7 +4805,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/sonicpi.png\" /></div>    \nIn these drop in workshops, you get to try out Sonic Pi on the Raspberry Pi. Sonic Pi is a very easy to use interface for making awesome music with very simple code!\nAnd even if you are hopeless at music, chances are you will still be able to make some pretty cool stuff with Sonic Pi.   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://2015.mozillafestival.org/schedule/#_session-4429)!", 
+        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/sonicpi.png\" /></div>    \nIn these drop in workshops, you get to try out Sonic Pi on the Raspberry Pi. Sonic Pi is a very easy to use interface for making awesome music with very simple code!\nAnd even if you are hopeless at music, chances are you will still be able to make some pretty cool stuff with Sonic Pi.   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://app.mozillafestival.org/#_session-4429)!", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "44211", 
@@ -5065,7 +5082,7 @@
     }, 
     {
         "clone_flag": "True", 
-        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/V1-small-500x341.jpg\" /></div>         \nWhat if you could draw something with paint and then see it in 3D inside Minecraft?   \nAndrew Mulholland, our #youthZone Raspberry Pi youth leader decided this would be fun, so he coded it up himself to work with a set of special Raspberry Pi DOTs boards (developed by Rachel Rayns from Raspberry Pi Foundation) just for you to get creative!    \nDOTs Boards are very simple circuit boards, that once you have drawn your creation, are attached to the Raspberry Pi to see it come to life in 3D.    \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://2015.mozillafestival.org/schedule/#_session-4429)!", 
+        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/V1-small-500x341.jpg\" /></div>         \nWhat if you could draw something with paint and then see it in 3D inside Minecraft?   \nAndrew Mulholland, our #youthZone Raspberry Pi youth leader decided this would be fun, so he coded it up himself to work with a set of special Raspberry Pi DOTs boards (developed by Rachel Rayns from Raspberry Pi Foundation) just for you to get creative!    \nDOTs Boards are very simple circuit boards, that once you have drawn your creation, are attached to the Raspberry Pi to see it come to life in 3D.    \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://app.mozillafestival.org/#_session-4429)!", 
         "facilitator_array": [
             "Frank Thomas-Hockey, @fth_nix, Covent Garden Raspberry Jam", 
             "Andrew Mulholland, @gbaman1, Farset Labs"
