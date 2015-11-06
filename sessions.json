@@ -2585,7 +2585,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "In the last year journalism it was invaded by two technological devices Virtual Reality. In this workshop we will show concrete examples and play a bit to understand how this technology sets the pace for the telepresence, immersion and understanding of situations.\nWe will try to see ways of telling stories that may occur using this technology. Each person may apply in their stories or articles otes using technologies.", 
+        "description": "In the last year journalism it was invaded by two technological devices Virtual Reality. In this workshop we will show concrete examples and play a bit to understand how this technology sets the pace for the telepresence, immersion and understanding of situations.\n\nWe will try to see ways of telling stories that may occur using this technology. Each person may apply in their stories or articles otes using technologies.\n\nThis workshop will run for two hours.", 
         "facilitator_array": [
             "Martin Nahuel Rabaglia"
         ], 
@@ -3629,9 +3629,9 @@
         "facilitator_array": [
             "Francois Grey, @FrancoisGrey, CERN & Citizen Cyberlab", 
             "Rosy Mondardini, , Citizen Cyberlab", 
-            "Liz Barry (Public Lab) and Ruba Ishak (ONE.org)\nDavid McNair and (ONE.org)"
+            "Ruba Ishak, , (ONE.org)\nDavid McNair, , (ONE.org)"
         ], 
-        "facilitators": "Francois Grey, Rosy Mondardini, Liz Barry (Public Lab) and Ruba Ishak (ONE.org)\nDavid McNair and (ONE.org)", 
+        "facilitators": "Francois Grey, Rosy Mondardini, Ruba Ishak", 
         "id": "300", 
         "location": "", 
         "pathways": "Citizen Science,Open data", 
