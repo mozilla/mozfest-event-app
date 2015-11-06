@@ -854,18 +854,6 @@ function Schedule(options) {
             schedule.clearSessionDetail();
             schedule.load();
         };
-
-        // check for new appcache on page load
-        window.addEventListener('load', function(e) {
-            window.applicationCache.addEventListener('updateready', function(e) {
-                if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
-                    // new appcache downloaded
-                    if (confirm('A new version of the schedule is available. Load it?')) {
-                        window.location.reload();
-                    }
-                }
-            }, false);
-        }, false);
     }
 
     // utility function to track events in Google Analytics
