@@ -108,8 +108,12 @@ function Schedule(options) {
             }
         } else {
             // if there's no session data yet, fetch from JSON
-            $.getJSON(schedule.sourceJSON)
+            $.getJSON(schedule.sourceJSON, function() {
+                    // temporarily show loading text
+                    $('.open-block').html('<span class="loading">LOADING SCHEDULE DATA <span>.</span><span>.</span><span>.</span></span>');
+                })
                 .done(function(results) {
+                    $('.open-block').text('OPEN');
                     schedule.sortSessionGroups(results);
                     // update savedSessionList with any new data
                     schedule.updateSavedSessionList();
