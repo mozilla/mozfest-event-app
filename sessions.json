@@ -176,7 +176,7 @@
         ], 
         "facilitators": "Nicole Yee, Douglas Sherk, Kannan Vijayan", 
         "id": "539", 
-        "location": "Floor 5 - 500", 
+        "location": "Floor 4 - 400", 
         "pathways": "New Technologies for Participation -- Challenge", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "Building Participation", 
@@ -192,7 +192,7 @@
         ], 
         "facilitators": "Phillip Smith, Matth Thompson", 
         "id": "325", 
-        "location": "Floor 5 - 503", 
+        "location": "Floor 4 - 403", 
         "pathways": "Scaling Participatory Learning Experiences", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Building Participation", 
@@ -207,7 +207,7 @@
         ], 
         "facilitators": "Helen Lee", 
         "id": "506", 
-        "location": "Floor 5 - 505", 
+        "location": "Floor 4 - 405", 
         "pathways": "Leading and Building Community Through Participation, ", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Building Participation", 
@@ -222,7 +222,7 @@
         ], 
         "facilitators": "Julie Koslowsky", 
         "id": "365", 
-        "location": "Floor 5 - 502", 
+        "location": "Floor 4 - 402", 
         "pathways": "Scaling Participatory Learning Experiences, ", 
         "scheduleblock": "sunday-session-block-6", 
         "space": "Building Participation", 
@@ -238,7 +238,7 @@
         ], 
         "facilitators": "Havid Hoffman, Dietrich Ayala", 
         "id": "607", 
-        "location": "Floor 5 - 503", 
+        "location": "Floor 4 - 403", 
         "pathways": "Scaling Participatory Learning Experiences", 
         "scheduleblock": "sunday-session-block-7", 
         "space": "Building Participation", 
@@ -253,7 +253,7 @@
         ], 
         "facilitators": "Adriano Cupello", 
         "id": "510", 
-        "location": "Floor 5 - 504", 
+        "location": "Floor 4 - 504", 
         "pathways": "Leading and Building Community Through Participation,", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Building Participation", 
@@ -268,7 +268,7 @@
         ], 
         "facilitators": "Grainne Hamilton", 
         "id": "284", 
-        "location": "Floor 5 - 502", 
+        "location": "Floor 4 - 402", 
         "pathways": "Scaling Participatory Learning Experiences,  Mapping Your MozFest Learning Journey", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "Building Participation", 
@@ -283,7 +283,7 @@
         ], 
         "facilitators": "Larissa Brown Shapiro", 
         "id": "261", 
-        "location": "Floor 5 - 504", 
+        "location": "Floor 4 - 404", 
         "pathways": "Leading and Building Community Through Participation,", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "Building Participation", 
@@ -315,7 +315,7 @@
         ], 
         "facilitators": "Jessica Lord, Mu-An Chiou", 
         "id": "259", 
-        "location": "Floor 5 - 500", 
+        "location": "Floor 4 - 400", 
         "pathways": "New Technologies for Participation -- Challenge,Science communication", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "Building Participation", 
@@ -330,7 +330,7 @@
         ], 
         "facilitators": "Soumya Deb", 
         "id": "217", 
-        "location": "Floor 5 - 501", 
+        "location": "Floor 4 - 401", 
         "pathways": "Scaling Participatory Learning Experiences, Science communication", 
         "scheduleblock": "saturday-session-block-4", 
         "space": "Building Participation", 
@@ -4647,7 +4647,7 @@
         "title": "Youth Physical computing \"Play date\" come play with us! (Open space, 2nd floor)"
     }, 
     {
-        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/V1-small-500x341.jpg\" /></div>         \nWhat if you could draw something with paint and then see it in 3D inside Minecraft?   \nAndrew Mulholland, our #youthZone Raspberry Pi youth leader decided this would be fun, so he coded it up himself to work with a set of special Raspberry Pi DOTs boards (developed by Rachel Rayns from Raspberry Pi Foundation) just for you to get creative!    \nDOTs Boards are very simple circuit boards, that once you have drawn your creation, are attached to the Raspberry Pi to see it come to life in 3D.    \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://2015.mozillafestival.com/schedule/#_session-4429)!", 
+        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/V1-small-500x341.jpg\" /></div>         \nWhat if you could draw something with paint and then see it in 3D inside Minecraft?   \nAndrew Mulholland, our #youthZone Raspberry Pi youth leader decided this would be fun, so he coded it up himself to work with a set of special Raspberry Pi DOTs boards (developed by Rachel Rayns from Raspberry Pi Foundation) just for you to get creative!    \nDOTs Boards are very simple circuit boards, that once you have drawn your creation, are attached to the Raspberry Pi to see it come to life in 3D.    \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://2015.mozillafestival.org/schedule/#_session-4429)!", 
         "facilitator_array": [
             "Andrew Mulholland, @gbaman1, Farset Labs", 
             "Frank Thomas-Hockey, @fth_nix, Covent Garden Raspberry Jam"
@@ -4663,7 +4663,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/Explorer.jpg\" /></div>    \nLunch on Saturday is 12:30 - 13:300 and on Sunday 13:30 - 14:30. Come Join us in room 209 with your lunch fruit to make them do stuff, before you eat it!   \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://2015.mozillafestival.com/schedule/#_session-4429)!", 
+        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/Explorer.jpg\" /></div>    \nLunch on Saturday is 12:30 - 13:300 and on Sunday 13:30 - 14:30. Come Join us in room 209 with your lunch fruit to make them do stuff, before you eat it!   \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://2015.mozillafestival.org/schedule/#_session-4429)!", 
         "facilitator_array": [
             "Jim Darby, @HackerJimbo"
         ], 
@@ -4678,7 +4678,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/astrogalaxy.png\" /></div>    \nA fun scratch workshop where you'll be able to create your very own galaxy with code!  You'll be using the tools of a real astronuat, with the Raspberry pi and sense hat add on board, using the LED Matrix on top go visualise your own galaxy.  In this workshop you'll learn the following     \n- Linking hats on the Raspberry Pi   \n- Understanding the scratch interface   \n- Writing code to initiate the LED Matrix    \n- Creating your own programs to create a galaxy    \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://2015.mozillafestival.com/schedule/#_session-4429)!", 
+        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/astrogalaxy.png\" /></div>    \nA fun scratch workshop where you'll be able to create your very own galaxy with code!  You'll be using the tools of a real astronuat, with the Raspberry pi and sense hat add on board, using the LED Matrix on top go visualise your own galaxy.  In this workshop you'll learn the following     \n- Linking hats on the Raspberry Pi   \n- Understanding the scratch interface   \n- Writing code to initiate the LED Matrix    \n- Creating your own programs to create a galaxy    \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://2015.mozillafestival.org/schedule/#_session-4429)!", 
         "facilitator_array": [
             "Milton De Paula, @miltonio94", 
             "Connor Ballard, @connorbanona"
@@ -5065,7 +5065,7 @@
     }, 
     {
         "clone_flag": "True", 
-        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/V1-small-500x341.jpg\" /></div>         \nWhat if you could draw something with paint and then see it in 3D inside Minecraft?   \nAndrew Mulholland, our #youthZone Raspberry Pi youth leader decided this would be fun, so he coded it up himself to work with a set of special Raspberry Pi DOTs boards (developed by Rachel Rayns from Raspberry Pi Foundation) just for you to get creative!    \nDOTs Boards are very simple circuit boards, that once you have drawn your creation, are attached to the Raspberry Pi to see it come to life in 3D.    \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://2015.mozillafestival.com/schedule/#_session-4429)!", 
+        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/V1-small-500x341.jpg\" /></div>         \nWhat if you could draw something with paint and then see it in 3D inside Minecraft?   \nAndrew Mulholland, our #youthZone Raspberry Pi youth leader decided this would be fun, so he coded it up himself to work with a set of special Raspberry Pi DOTs boards (developed by Rachel Rayns from Raspberry Pi Foundation) just for you to get creative!    \nDOTs Boards are very simple circuit boards, that once you have drawn your creation, are attached to the Raspberry Pi to see it come to life in 3D.    \n   \nThis workshops is part of the YouthZone Raspberry Pi workshops series. We are running a stack of other Raspberry Pi workshops throughout Mozfest, check out the full list [here](https://2015.mozillafestival.org/schedule/#_session-4429)!", 
         "facilitator_array": [
             "Frank Thomas-Hockey, @fth_nix, Covent Garden Raspberry Jam", 
             "Andrew Mulholland, @gbaman1, Farset Labs"
