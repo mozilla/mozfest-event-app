@@ -3742,9 +3742,10 @@
         "day": "Saturday", 
         "description": "We will create a new form of decentralised learning experience together, where everyone has their own data, their own domain, and can run these on their own hardware.\nWe will connect the learning space we create at Mozfest to other spaces around the world, so that participants can experience this new way of writing, creating and researching together. Nominally the topic is about the science of space, and the moon. However we will use this subject to explore collaboration, science and federated learning.\nParticipants will:\n1) Learn to set up and install software on a Raspberry Pi\n2) Learn to set up and install a NodeJS server running Fedwiki\n3) Learn how to share data and media with other spaces using a serverless architecture based on decentralised technologies such as IPFS\nFinally we will have a lot of fun, exploring the moon.", 
         "facilitator_array": [
-            "David Bovill, @fortyfoxes, Viral Academy"
+            "David Bovill, @fortyfoxes, Viral Academy", 
+            "Ksenya Serova (Bellman), ,"
         ], 
-        "facilitators": "David Bovill", 
+        "facilitators": "David Bovill, Ksenya Serova (Bellman)", 
         "id": "373", 
         "location": "", 
         "pathways": "", 
@@ -3803,10 +3804,9 @@
         "description": "This session will focus on new technologies that make science and research faster, more open, more discoverable and accessible to everyone. We can improve scientific collaboration and communication to increase efficiency in the accumulation of knowledge – and to best achieve this, science should look to improve technologies to document and connect the entire lifecycle of research projects. What are these research technologies and how are they best used to increase the accumulation of knowledge? This session will gather information from the group and discover how others are using these technologies, which are working best and what gains are being made through their use.", 
         "facilitator_array": [
             "Tim Alby, @Overleaf, Overleaf", 
-            "Alan Hyndman, @figshare, Figshare", 
-            "Mary Anne Baynes, , Overleaf"
+            "Alan Hyndman, @figshare, Figshare"
         ], 
-        "facilitators": "Tim Alby, Alan Hyndman, Mary Anne Baynes", 
+        "facilitators": "Tim Alby, Alan Hyndman", 
         "id": "361", 
         "location": "", 
         "pathways": "Citizen Science,Science communication,Open data", 
@@ -3819,10 +3819,9 @@
         "day": "Saturday", 
         "description": "Introduce and demonstrate pdf processing tools and toolkits, including Tabula, DocumentCloud's docsplit, and other common pdf processing tools.  Participants should depart the session with an understanding of how to extract basic components from PDFs.", 
         "facilitator_array": [
-            "Mike Tigas, @mtigas, Tabula", 
-            "Ted Han, @knowtheory, DocumentCloud"
+            "Mike Tigas, @mtigas, Tabula"
         ], 
-        "facilitators": "Mike Tigas, Ted Han", 
+        "facilitators": "Mike Tigas", 
         "id": "527", 
         "location": "", 
         "pathways": "Tools and Analysis,Open data", 
