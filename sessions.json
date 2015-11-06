@@ -701,11 +701,11 @@
         ], 
         "facilitators": "Evan Raskob", 
         "id": "54", 
-        "location": "", 
-        "pathways": "Global Village Kitchen", 
-        "scheduleblock": "sunday-session-block-5", 
+        "location": "Floor 6 - 601", 
+        "pathways": "Global Village Garden", 
+        "scheduleblock": "sunday-session-block-6", 
         "space": "The Global Village", 
-        "start": "11:30 AM", 
+        "start": "12:45 PM", 
         "title": "Switched On(line) Lighting"
     }, 
     {
@@ -1527,7 +1527,7 @@
         ], 
         "facilitators": "Michael Saunby", 
         "id": "665", 
-        "location": "", 
+        "location": "Floor 6 - 601", 
         "pathways": "Global Village Garden", 
         "scheduleblock": "all-saturday", 
         "space": "The Global Village", 
@@ -4317,19 +4317,34 @@
         "title": "Programming without code"
     }, 
     {
-        "description": "The session will be designed and co created by young people and core industry partners and tech and ideation specialists. Our main co creators are Hyper Island, wearedotdotdot, Erica Neve Limited, The YP Collective (links below) and young people. Using the weardotdotdot hyperlocal network of digital training providers and tech city businesses, we have brought together a team of adults and young people to co create and run the workshop.\nThe young people leading the session are weardotdotdot ambassadors and apprentices in Tech City.  We’d also bring along young people to Mozfest from our network, outreach work and partnerships.\n**What the session looks like\nThe session will use Hyper Island tool boxes (see link below) to give the participants the opportunities to try tools and techniques to learn new ways to ideate and come up with exciting ideas that enable them to come up with proof of concepts and prototypes rapidly.  This will give them something to take away and also enable them to answer a civic challenge brief, using the tool boxes, the mentors and work shop session.\nIn small teams, the participants will come up with a pitch and a very simple business canvas for a tech solution for a civic challenge of their choosing. The session will enable the participants to develop an idea and prototype, equally working on 3 areas:\n•        Addressing a (civic) challenge or issue\no        How significant is the civic problem?\no        How impactful is the solution?\no        What difference will this make in people’s lives?\n•        Deciding on the technology:\no        How innovative and creative is the solution?\no        Making good use of technology ?\no        How well does the idea  work from a tech perspective?\n•        Leadership and Entrepreneurship:\no        Is this project practical from a business perspective?\no        Would there be consumer demand for this project? Is it scalable?\nOutputs –\n•        A (very) simple business canvas\n•        Up to 3 minute video pitch\n•        An opportunity to be part of a Teen Tech Global’s civic hackathon  and  Youth Summit (as a participant, mentor or supporter.\nThis workshops would fit really well into wearedotdot’s wider work with Teen Tech Global.\nWearedotdotdot are UK Global partners with Teen Tech Global. We are organising and supporting others to organise Civic Hackathons in Oct- Nov 2015.\nWhilst we are hosting a UK Teentech Youth Summit on 5th December alongside the main Youth Summit and live streaming with the US at 16.00 on the day of the summit, with our Civic Hackathon teams presenting their pitches.", 
+        "day": "Sunday", 
+        "description": "Join Tech insiders to change the world, be it with an app, robot swarm, AI, drone tech, medical tech, green tech… you decide how you’ll solve social challenge with tech!", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "574", 
-        "location": "", 
+        "location": "Floor 1 - 101", 
         "pathways": " News to me!", 
-        "scheduleblock": "", 
+        "scheduleblock": "sunday-session-block-7", 
         "space": "youthZone - Through the lens of youths", 
+        "start": "02:45 PM", 
+        "title": "Tech for Social Impact  ‘No one is better than all of US :) finding  Glo-Cal solutions from a Hype local perspective!"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "Join Tech insiders to change the world, be it with an app, robot swarm, AI, drone tech, medical tech, green tech… you decide how you’ll solve social challenge with tech!", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "574", 
+        "location": "Floor 1 - 101", 
+        "pathways": " News to me!", 
+        "scheduleblock": "sunday-session-block-5", 
+        "space": "youthZone - Through the lens of youths", 
+        "start": "11:30 AM", 
         "title": "Tech for Social Impact  ‘No one is better than all of US :) finding  Glo-Cal solutions from a Hype local perspective!"
     }, 
     {
         "day": "Saturday", 
-        "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/np/flexagons.jpg\" /></div>    \nFlexagons are fun paper toys or according to Wikipedia \"Flat models, constructed by folding strips of paper that can be flexed or folded in certain ways to reveal faces besides the two that were originally on the back and front.\"   \nhttps://www.youtube.com/watch?v=VIVIegSt81k   \n\nIn our maker party in Canada we decided to make flexagons with our own photos! I started this project from scratch and used customized flexagons as a fun tool to teach the web to students and the result was amazing! https://sara-mansouri.github.io/Flexigon/\n\nThe main goal of this session is to enjoy making creative flexagons while teaching simple HTML, CSS to participants. The participants will be encouraged to come up with interesting ideas for designing flexagons and use the web tools to create their design while practicing team work. Here are some photos of our previus workshop: https://flic.kr/s/aHskgxPPaU.\n\nFinally, we will talk about ways to participate in this project: https://github.com/sara-mansouri/Flexigon", 
+        "description": "", 
         "facilitator_array": [
             "Sara Mansouri, @sara__mansouri"
         ], 
@@ -4344,7 +4359,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "Imagine an open source microscope that is powerful and cheap enough for school children to study the nano world, the world of atoms and molecules that is 1000 times smaller than what traditional optical microscopes can see. That is the objective of the LEGO2NANO project. This workshop will introduce to you the hardware and software developed so far for the world's first open source atomic force microscope. We'll also introduce how we are documenting this project on the Web, how we are involving Chinese school children in building and using the microscope, and sharing data from the microscope for crowdsourced analysis in Web-based citizen science projects. LEGO2NANO is in an international summer school in China, involving students and mentors from University College London, Tsinghua University, Peking University, Academia Sinica, MIT, Tufts University and University of Geneva.    \nhttp://www.openafm.com", 
+        "description": "This workshop enables you to create a tech solution and teaches you tools you'll use time and time again. You can take your idea further, whatever your age or experience.", 
         "facilitator_array": [
             "Joe Bailey, @LEGO2NANO, University College London", 
             "Tom Catling", 
@@ -4886,7 +4901,7 @@
         ], 
         "facilitators": "Michael Saunby", 
         "id": "665", 
-        "location": "", 
+        "location": "Floor 6 - 601", 
         "pathways": "Global Village Garden", 
         "scheduleblock": "all-sunday", 
         "space": "The Global Village", 
