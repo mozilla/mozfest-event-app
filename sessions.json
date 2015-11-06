@@ -7,7 +7,7 @@
         "location": "Floor 4 - Big Space & 6 - All", 
         "pathways": "", 
         "scheduleblock": "friday-evening", 
-        "space": "", 
+        "space": "Everyone", 
         "start": "06:00 PM", 
         "title": "Science Fair"
     }, 
@@ -20,7 +20,7 @@
         "location": "Floor 0 - Foyer", 
         "pathways": "", 
         "scheduleblock": "saturday-registration", 
-        "space": "", 
+        "space": "Everyone", 
         "start": "08:00 AM", 
         "title": "Saturday Registration"
     }, 
@@ -33,7 +33,7 @@
         "location": "Floor 4 - Big Space", 
         "pathways": "", 
         "scheduleblock": "saturday-opening", 
-        "space": "", 
+        "space": "Everyone", 
         "start": "09:00 AM", 
         "title": "Saturday Opening Keynotes"
     }, 
@@ -46,7 +46,7 @@
         "location": "Floor 0 - Walker Space", 
         "pathways": "", 
         "scheduleblock": "saturday-lunch", 
-        "space": "", 
+        "space": "Everyone", 
         "start": "12:30 PM", 
         "title": "Saturday Lunch"
     }, 
@@ -59,7 +59,7 @@
         "location": "Floor 4 - Big Space", 
         "pathways": "", 
         "scheduleblock": "saturday-lunch", 
-        "space": "", 
+        "space": "Everyone", 
         "start": "01:00 PM", 
         "title": "Saturday Fireside Chat"
     }, 
@@ -72,7 +72,7 @@
         "location": "Floor 4 - Big Space", 
         "pathways": "", 
         "scheduleblock": "saturday-evening", 
-        "space": "", 
+        "space": "Everyone", 
         "start": "05:30 PM", 
         "title": "Conversations with Medium"
     }, 
@@ -85,7 +85,7 @@
         "location": "Floor 0 - Foyer", 
         "pathways": "", 
         "scheduleblock": "sunday-registration", 
-        "space": "", 
+        "space": "Everyone", 
         "start": "09:00 AM", 
         "title": "Sunday Registration"
     }, 
@@ -98,7 +98,7 @@
         "location": "Floor 4 - Big Space", 
         "pathways": "", 
         "scheduleblock": "sunday-opening", 
-        "space": "", 
+        "space": "Everyone", 
         "start": "10:00 AM", 
         "title": "Sunday Keynotes"
     }, 
@@ -111,7 +111,7 @@
         "location": "Floor 0 - Walker Space", 
         "pathways": "", 
         "scheduleblock": "sunday-lunch", 
-        "space": "", 
+        "space": "Everyone", 
         "start": "01:30 PM", 
         "title": "Sunday Lunch"
     }, 
@@ -124,7 +124,7 @@
         "location": "Floor 4 - Big Space", 
         "pathways": "", 
         "scheduleblock": "sunday-lunch", 
-        "space": "", 
+        "space": "Everyone", 
         "start": "01:30 PM", 
         "title": "Sunday Fireside Chat"
     }, 
@@ -137,7 +137,7 @@
         "location": "Floor 0 - Walker Space", 
         "pathways": "", 
         "scheduleblock": "sunday-evening", 
-        "space": "", 
+        "space": "Everyone", 
         "start": "05:30 PM", 
         "title": "Closing Demos"
     }, 
@@ -1027,19 +1027,6 @@
         "title": "sevensecondsago "
     }, 
     {
-        "day": "Sunday", 
-        "description": "Disaster aid takes time to reach the people who need it. Stockpiled and flown in, even getting it through customs, the aid can be hugely expensive. The aim of Communitere is to create shared space for relief organizations and locals, with the aim of sharing resources and fostering communication and collaboration. Lessons learned from the spaces in Haiti and the Philippines, as well as the new Resource Center in Nepal will be presented and ways to innovate disaster relief through small scale manufacturing, space sharing and other simple means to disrupt traditional aid supply chains will be discussed.", 
-        "facilitator_array": [], 
-        "facilitators": "", 
-        "id": "588", 
-        "location": "Floor 6 - 605", 
-        "pathways": "Global Village Garage", 
-        "scheduleblock": "sunday-session-block-6", 
-        "space": "The Global Village", 
-        "start": "12:45 PM", 
-        "title": "Innovative Disaster Relief – Examples from Haiti and Nepal "
-    }, 
-    {
         "description": "1. To provide a comprehensive view of the iHub ecosystem and how balance is maintained\n2. To showcase how iHub has evolved towards sustainability\n3. To highlight ever-present sustainability challenges iHub faces\n4. To openly brainstorm with the audience on how to overcome challenges", 
         "facilitator_array": [
             "Evans Campbell"
@@ -1091,25 +1078,26 @@
         "id": "238", 
         "location": "Floor 6 - 605", 
         "pathways": "Global Village Garage", 
-        "scheduleblock": "saturday-session-block-2", 
+        "scheduleblock": "saturday-session-block-4", 
         "space": "The Global Village", 
-        "start": "12:00 PM", 
-        "title": "From Garoa Hacker Clube to Olabi: 5 years of hackerspaces, makerspaces, hardware startups and creative hubs in Brazil"
+        "start": "03:30 PM", 
+        "title": "Space Prototyping - Build Your Own Hacker/Maker/Fab/Whatever-space in One Hour"
     }, 
     {
         "day": "Saturday", 
         "description": "The purpose of this session is to challenge current thinking about the role of African tech hubs in society by sharing insights from research on hubs as creative spaces—institutions that engage in complex problem solving. There are at least 90 African tech hubs that serve as infrastructure to catalyze technology, entrepreneurship, and innovation. Not only do they act as physical infrastructure, providing access to power, internet, and space, but they also offer access to human, financial and social capital. By distributing these resources more efficiently, hubs make it easier to build start-ups, develop tech, and foster innovation.\nBut can hubs also create better solutions to complex social problems? Many tech hubs are engaged in developing tech solutions for education, health, and governance challenges. However, there is an opportunity to push past “there's an app for that” thinking and reconceive tech hubs as creative spaces that foster tech-enabled, innovative problem solving.", 
         "facilitator_array": [
-            "Tayo Akinyemi"
+            "Tayo Akinyemi, AfriLabs, @afriLabs", 
+            "Sam Bloch, Communitere, @intCommunitere"
         ], 
-        "facilitators": "Tayo Akinyemi", 
+        "facilitators": "Tayo Akinyemi, Sam Bloch", 
         "id": "371", 
         "location": "Floor 6 - 605", 
         "pathways": "Global Village Garage", 
         "scheduleblock": "saturday-session-block-3", 
         "space": "The Global Village", 
         "start": "02:15 PM", 
-        "title": "Tech Hubs 2.0: What is a Tech Hub's Role in Society?"
+        "title": "From disaster relief to green tech innovation - the role of innovation hubs in society. "
     }, 
     {
         "description": "With a Raspberry Pi, a bit of wire, and a phone, learn how to convert your Pi into an FM transmitter for your house-share of community cafe, and load it with audio content that everybody in range can edit and playlist.", 
@@ -4476,9 +4464,9 @@
         "id": "367", 
         "location": "Floor 2 - 213", 
         "pathways": "Get project assistance for your research, Pathway - News to me!, Teaching kit, Arts Award pathway", 
-        "scheduleblock": "saturday-session-block-2", 
+        "scheduleblock": "saturday-session-block-1", 
         "space": "youthZone - Through the lens of youths", 
-        "start": "12:00 PM", 
+        "start": "10:45 AM", 
         "title": "Calling all Minecraft Builders!"
     }, 
     {
