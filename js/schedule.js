@@ -351,18 +351,23 @@ function Schedule(options) {
     
     // add icons for collapsible scheduleblocks
     schedule.addBlockToggles = function() {
-        var blocks = schedule.$container.find('.page-block');
+        var blocks = schedule.$container.find('.page-block:visible');
         blocks.prev('h3').addClass('slider-control').append('<i class="fa fa-chevron-circle-down"></i>');
         blocks.addClass('slider');
+        schedule.calculateBlockHeights(blocks);
+        schedule.$container.prepend('<a href="#" id="slider-collapse-all" class="page-control" data-action="collapse">Hide all sessions</a>');
+    }
+
+    // calculate and store block heights for animations
+    schedule.calculateBlockHeights = function(blocks) {
+        var blocks = blocks || schedule.$container.find('.page-block');
         _.each(blocks, function(b) {
             var block = $(b);
             var blockHeight = block.height()+'px';
             block.attr('data-max-height', blockHeight).css('max-height', blockHeight);
         });
-        
-        schedule.$container.prepend('<a href="#" id="slider-collapse-all" class="page-control" data-action="collapse">Hide all sessions</a>')
     }
-
+    
     // add a set of tabs across the top of page as toggles that change display
     schedule.addToggles = function() {
         if (Modernizr.localstorage) {
@@ -429,7 +434,7 @@ function Schedule(options) {
         schedule.addCaptionOverline("<h2>" + schedule.filterKey + ": " + schedule.filterValue.replace(/-/g," ") + "</h2>");
         schedule.addSessionsToSchedule(schedule.filteredList);
         schedule.clearOpenBlocks();
-        schedule.transitionElementIn(schedule.$container);
+        schedule.$container.fadeIn(1);
     }
 
     // based on the value of chosenTab, render the proper session list
@@ -460,10 +465,13 @@ function Schedule(options) {
             schedule.addCaptionOverline();
             schedule.$container.html(schedule.sessionListTemplate);
             schedule.loadSessions(schedule.addSessionsToSchedule);
-            schedule.transitionElementIn(schedule.$container);
+            schedule.$container.show();
 
             schedule.$container.find('.schedule-tab').hide();
-            schedule.transitionElementIn($('#'+schedule.chosenTab), schedule.addBlockToggles);
+            //schedule.transitionElementIn($('#'+schedule.chosenTab), schedule.addBlockToggles);
+            $('#'+schedule.chosenTab).fadeIn(1, function() {
+                schedule.addBlockToggles();
+            });
         }
     }
 
@@ -490,7 +498,7 @@ function Schedule(options) {
 
         // add fav stars
         schedule.addStars('.session-list-item');
-        schedule.transitionElementIn(schedule.$container);
+        schedule.$container.fadeIn(1);
     }
 
     // provide some user instructions at top of page
@@ -573,7 +581,7 @@ function Schedule(options) {
         // use savedSessionList IDs to render favorited sessions to page
         schedule.addSessionsToSchedule(schedule.savedSessionList);
         schedule.clearOpenBlocks();
-        schedule.transitionElementIn(schedule.$container);
+        schedule.$container.fadeIn(1);
     }
 
     // uses savedSessionIDs list to compile data for favorited sessions
