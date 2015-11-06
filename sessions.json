@@ -4145,7 +4145,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "This session will introduce you to the Maker Cart and the Maker Movement. The Maker Cart is a mobile cost and space saving mobile unit that contains the main ingredients to start a Makerspace and Maker Programme. It consists of a 3d printer, digital cutter, electronics, micro-controllers and robotics. The Maker Cart has been designed for schools, libraries and youth centres but can also be use at home!  You will learn about the Maker movement, the tools and machinery associated and the kind of projects that can be developed with the Maker Cart.  You will have a chance to make something using some of the tools and machines in the Maker Cart!", 
+        "description": "So you want to know about the Maker Movement? The Maker Cart is a mobile cost and space saving unit designed for schools, libraries and youth centres, containing the main ingredients to start a Makerspace and Maker Education programme. It consists of a 3D printer, digital cutter, electronics, micro-controllers and robotics. Learn about the kind of projects that can be developed and have fun using some of the tools and machines in the Maker Cart.", 
         "facilitator_array": [
             "Carlos Izsak, @Carlitosi71, STEAM ahead", 
             " , @Lachallota"
@@ -4161,7 +4161,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "This session will introduce you to the Maker Cart and the Maker Movement. The Maker Cart is a mobile cost and space saving mobile unit that contains the main ingredients to start a Makerspace and Maker Programme. It consists of a 3d printer, digital cutter, electronics, micro-controllers and robotics. The Maker Cart has been designed for schools, libraries and youth centres but can also be use at home!  You will learn about the Maker movement, the tools and machinery associated and the kind of projects that can be developed with the Maker Cart.  You will have a chance to make something using some of the tools and machines in the Maker Cart!", 
+        "description": "So you want to know about the Maker Movement? The Maker Cart is a mobile cost and space saving unit designed for schools, libraries and youth centres, containing the main ingredients to start a Makerspace and Maker Education programme. It consists of a 3D printer, digital cutter, electronics, micro-controllers and robotics. Learn about the kind of projects that can be developed and have fun using some of the tools and machines in the Maker Cart.\n", 
         "facilitator_array": [
             "Carlos Izsak, @Carlitosi71, STEAM ahead", 
             " , @Lachallota"
@@ -4593,7 +4593,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "In the ‘Modular frequencies’ workshop we’ll create a spacial audio installation! The HearUsHere app (location based audio) combined with iBeacons allows us to create a new sonic experience. Every iBeacon is a frequency that carriers a sound, when you get closer to one of these frequencies the audio will automatically fade in and cross fade with others. Using the speakers of our phones, we’ll create a collective audio experience. This results in unique and constantly changing soundscape created by the visitors and their navigation in the space.\nRoughly the result of the workshop is a zoo that the children create themselves in drawings and sounds, using iBeacons and HearUsHere. This playful workshop will full of sharpies and crayons that blends with tech.", 
+        "description": "HearUsHere\nCreate a Zoo using iBeacons attached to your drawings.\nLearn about iBeacons (bluetooth transmitters) and how to use them in a fun way. Draw (fantasy) animals and record their sounds, using recording devices. Use tools like Little Bits (KORG) to create soundscapes. The drawings will be connected through iBeacons, therefore when you approach one of the drawings using the HearUsHere app, you’ll hear to the animal’s sound.\n", 
         "facilitator_array": [
             "Klasien van de Zandschulp, @klasienz, HearUsHere", 
             "James Bryan Graves"
