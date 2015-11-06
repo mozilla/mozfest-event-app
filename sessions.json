@@ -4791,6 +4791,19 @@
         "title": "Getting started with Sonic Pi"
     }, 
     {
+        "day": "Sunday", 
+        "description": "PUDL in a prototype app encouraging people to collect rainwater that won the Met Office Hackathon at the V&A during London Design Festival 2015. This session will look at how to generate ideas to solve social problems through the example of PUDL.", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "801", 
+        "location": "Floor 2 - 200", 
+        "pathways": " Tech - What else you can do with it", 
+        "scheduleblock": "sunday-session-block-6", 
+        "space": "youthZone - Through the lens of youths", 
+        "start": "12:45 PM", 
+        "title": "PUDL - The idea behind an idea"
+    }, 
+    {
         "clone_flag": "True", 
         "description": "", 
         "facilitator_array": [], 
