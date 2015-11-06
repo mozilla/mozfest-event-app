@@ -224,7 +224,14 @@ function Schedule(options) {
         // or fall back to schedule.sessionList
         var sessionList = sessionList || schedule.sessionList;
 
-        _.each(sessionList, function(v, k) {
+        var visibleIDs = $('.page-block:visible').map(function() {
+            return this.id;
+        })
+        var visibleSessionList = _.filter(sessionList, function(s) {
+            return _.contains(visibleIDs, s.scheduleblock)
+        })
+
+        _.each(visibleSessionList, function(v, k) {
             // find the correct schedule block on the page for this session
             var targetBlock = $('#'+v.scheduleblock);
             // prep the session data for the template
@@ -434,7 +441,6 @@ function Schedule(options) {
         schedule.addCaptionOverline("<h2>" + schedule.filterKey + ": " + schedule.filterValue.replace(/-/g," ") + "</h2>");
         schedule.addSessionsToSchedule(schedule.filteredList);
         schedule.clearOpenBlocks();
-        schedule.$container.fadeIn(1);
     }
 
     // based on the value of chosenTab, render the proper session list
@@ -461,24 +467,19 @@ function Schedule(options) {
             schedule.loadSessions(schedule.showFullSessionList);
         } else {
             // handle standard tabs like "Thursday" or "Friday"
-            schedule.$container.removeClass().hide().empty();
-            schedule.addCaptionOverline();
             schedule.$container.html(schedule.sessionListTemplate);
-            schedule.loadSessions(schedule.addSessionsToSchedule);
-            schedule.$container.show();
-
             schedule.$container.find('.schedule-tab').hide();
-            //schedule.transitionElementIn($('#'+schedule.chosenTab), schedule.addBlockToggles);
-            $('#'+schedule.chosenTab).fadeIn(1, function() {
-                schedule.addBlockToggles();
-            });
+            $('#'+schedule.chosenTab).show();
+            schedule.addCaptionOverline();
+            schedule.loadSessions(schedule.addSessionsToSchedule);
+            schedule.addBlockToggles();
         }
     }
 
     // the list view is treated differently than normal tabs that have "cards"
     // to tap on. This shows expanded data, and includes search/filtering
     schedule.showFullSessionList = function() {
-        schedule.$container.hide().empty();
+        schedule.$container.empty();
         schedule.addListControls();
 
         // exclude "everyone" sessions like lunch, dinner, etc.
@@ -498,7 +499,6 @@ function Schedule(options) {
 
         // add fav stars
         schedule.addStars('.session-list-item');
-        schedule.$container.fadeIn(1);
     }
 
     // provide some user instructions at top of page
@@ -577,11 +577,10 @@ function Schedule(options) {
     // showFavorites() handles display when someone chooses the "Favorites" tab
     schedule.showFavorites = function() {
         // provide some user instructions at top of page
-        schedule.$container.hide().empty().append('<p class="overline">Favorite sessions to store a list on this device</p>').append(schedule.sessionListTemplate);
+        schedule.$container.empty().append('<p class="overline">Favorite sessions to store a list on this device</p>').append(schedule.sessionListTemplate);
         // use savedSessionList IDs to render favorited sessions to page
         schedule.addSessionsToSchedule(schedule.savedSessionList);
         schedule.clearOpenBlocks();
-        schedule.$container.fadeIn(1);
     }
 
     // uses savedSessionIDs list to compile data for favorited sessions
