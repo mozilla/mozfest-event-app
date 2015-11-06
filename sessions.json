@@ -1011,7 +1011,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "Join the Seven Seconds Ago team as we delve into a world of 360 virtual reality experiences, connected to the wild! We'll explore the concept of near-realtime virtual presence, the technologies needed, our progress so far and a demo of our Google Cardboard meerkat experiment.", 
+        "description": "Join the Seven Seconds Ago team as we delve into a world of 360 virtual reality experiences, connected to the wild! We'll explore the concept of near-realtime virtual presence, the technologies needed, our progress so far and a demo of our Google Cardboard meerkat experiment. Come along to discuss and design VR user experiences, hardware and video streaming.", 
         "facilitator_array": [
             "Adrian Cockle, @ade ", 
             "Alasdair Davies, @al2ka", 
@@ -1024,7 +1024,7 @@
         "scheduleblock": "saturday-session-block-4", 
         "space": "The Global Village", 
         "start": "03:30 PM", 
-        "title": "sevensecondsago "
+        "title": "Conservation, live streaming and VR"
     }, 
     {
         "description": "1. To provide a comprehensive view of the iHub ecosystem and how balance is maintained\n2. To showcase how iHub has evolved towards sustainability\n3. To highlight ever-present sustainability challenges iHub faces\n4. To openly brainstorm with the audience on how to overcome challenges", 
@@ -1072,9 +1072,10 @@
         "day": "Saturday", 
         "description": "The idea of this panel is to share experiences on the creation and sustainability of innovation and community-run spaces like hackerspaces, makerspaces and fablabs, with a special focus on the 3rd world and its specific challenges.\nIn other words, that means that every participant will be able to learn from others and share their own experiences about innovation/hacking/making community-run spaces from their own perspectives.\nA consequence of this is building stronger connections betwwen communities and spaces in the underdeveloped and developing world.", 
         "facilitator_array": [
-            "Rodrigo Rodrigues da Silva"
+            "Rodrigo Pitanga, ,@rodrigopitanga", 
+            "Geraldine de Bastion, Global Innovation Gathering, @geralbine"
         ], 
-        "facilitators": "Rodrigo Rodrigues da Silva", 
+        "facilitators": "Rodrigo Pitanga, Geraldine de Bastion", 
         "id": "238", 
         "location": "Floor 6 - 605", 
         "pathways": "Global Village Garage", 
