@@ -797,7 +797,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "In the ‘Modular frequencies’ workshop we’ll create a spacial audio installation! The HearUsHere app (location based audio) combined with iBeacons allows us to create a new sonic experience. Every iBeacon is a frequency that carriers a sound, when you get closer to one of these frequencies the audio will automatically fade in and cross fade with others. Using the speakers of our phones, we’ll create a collective audio experience. This results in unique and constantly changing soundscape created by the visitors and their navigation in the space.\nWithin the workshop you won’t only experience these modular frequencies. You’ll learn about frequencies, location based audio and you’ll hack the beacons to create your own ‘pirate radio’! (No coding skills required).", 
+        "description": "HearUsHere is creating an online MozFest radio station using the Internet of Things, connecting people and floors of Ravensbourne\n with Bluetooth signals. Download the HearUsHere app and listen to one \nof the stations on the floors or find the ‘moving’ wrangler stations. \nYour movement through the building changes the frequency of our radio \nstation at the Global Village!Find us at Global Village or learn more on Sunday afternoon during a session at the Garbage recycling space.", 
         "facilitator_array": [
             "Klasien van de Zandschulp"
         ], 
@@ -4005,7 +4005,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "An HTML Puzzle Box I hear you ask? What could that possibly be?    It is a really cool papertoy that you can create yourself! Along the way, you will learn some basic HTML and you can take part in the HTML Puzzle Box Challenge, how fast can you stack them in the right order?", 
+        "description": "An HTML Puzzle Box I hear you ask? What could that possibly be? It is a really cool papertoy that you can create yourself! Along the way, you will learn some basic HTML and you can take part in the HTML Puzzle Box Challenge, how fast can you stack them in the right order?\n", 
         "facilitator_array": [
             "Yofie Setiawan, @yofiesetiawan, Mozilla Indonesia Community", 
             "Rizky Ariestiyansyah"
@@ -4083,7 +4083,7 @@
         "title": "Bringing VR to the masses with your story! on the Web (Open space, 2nd floor)"
     }, 
     {
-        "description": "Arts Award is managed by Trinity College London in association with Arts Council England.  It is an evidenced based qualification which provides a framework for schools, arts, cultural and youth sector organisations.  It supports young people to gain creativity and leadership skills. The focus is on iteration as a process post project to help teach young people how to create a project independently from inception to creation in any media they may wish to express themselves in aged 0-25.  Arts Award is offered at five levels, four qualifications and an introductory award", 
+        "description": "Come join us at Arts Award to discover the festival and become digital leaders. Our Arts Award roadmap will merge your creative interests with your tech skills, with confidence! Follow our pathways to go and explore, then return to show off your skills with us online and in person. You can complete the Arts Award Discover certificate or try out the Bronze Award today!", 
         "facilitator_array": [
             "Julie Neville, , Arts Award"
         ], 
@@ -4949,7 +4949,7 @@
     }, 
     {
         "clone_flag": "True", 
-        "description": "Arts Award is managed by Trinity College London in association with Arts Council England.  It is an evidenced based qualification which provides a framework for schools, arts, cultural and youth sector organisations.  It supports young people to gain creativity and leadership skills. The focus is on iteration as a process post project to help teach young people how to create a project independently from inception to creation in any media they may wish to express themselves in aged 0-25.  Arts Award is offered at five levels, four qualifications and an introductory award", 
+        "description": "Come join us at Arts Award to discover the festival and become digital leaders. Our Arts Award roadmap will merge your creative interests with your tech skills, with confidence! Follow our pathways to go and explore, then return to show off your skills with us online and in person. You can complete the Arts Award Discover certificate or try out the Bronze Award today!", 
         "facilitator_array": [
             "Julie Neville, , Arts Award"
         ], 
