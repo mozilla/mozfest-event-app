@@ -590,7 +590,7 @@ function Schedule(options) {
         schedule.savedSessionList = _.filter(schedule.sessionList, function(v, k) {
             // by default include "everyone" sessions on favorites list
             // just to make temporal wayfinding easier
-            return (!!v.everyone) || _.contains(schedule.savedSessionIDs, v.id);
+            return (v.space == 'Everyone') || _.contains(schedule.savedSessionIDs, v.id);
         });
     }
 

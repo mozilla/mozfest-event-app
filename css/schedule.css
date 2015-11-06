@@ -408,13 +408,8 @@ a.page-control {
 
 }
 
-.session-everyone,
-.open-block {
-
-}
-
-.session-everyone h4 {
-    margin-left: 0;
+.session-everyone {
+    border-bottom: 10px solid #d93f5f;
 }
 
 .session-ghost {
@@ -560,7 +555,7 @@ a.page-control {
     }
     .session-list-item,
     .session-detail .header {
-        padding: 2rem;
+        padding: 3rem;
     }
     .session-facilitators:before {
         top: 2px;
