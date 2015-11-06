@@ -617,7 +617,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "The BBC want to deliver new media experiences of the future - in doing so we want to use a mix of sensors and personal data to drive these experiences. This session is to understand people's attitudes in relation to acceptable and unacceptable uses of personal data as well as ideate around how best to communicate the use of personal data in everyday activities.", 
+        "description": "Provide people with an awareness of the consequences of sharing seemingly insignificant pieces of personal data\n\nDetails: James Bond / MI5 themed activities.\n\nParticipants will use assumptions and clues to find out WHO the mole is and WHERE they are meeting their accomplice.", 
         "facilitator_array": [
             "Lianne Kerlin", 
             "Mia Roscoe"
@@ -629,7 +629,7 @@
         "scheduleblock": "sunday-session-block-5", 
         "space": "The Global Village", 
         "start": "11:30 AM", 
-        "title": "Experiences of the Future Home"
+        "title": "Data makes a story: catching the MI5 mole?"
     }, 
     {
         "day": "Saturday", 
@@ -814,11 +814,10 @@
         "day": "Saturday", 
         "description": "This is a 20mins workshop starts 1530.\n\nToday's society can be isolating and difficult to connect with other people around us. Were glued to our screens (ambient intimacy) and fear looking people in the eye incase they get the wrong or a different idea (fear of rejection). Calling on Sherry Turkle's book Alone Together and Aziz Ansari's Modern Romance", 
         "facilitator_array": [
-            "Ian Forrester, @cubicgarden", 
             "Jennifer Geacone-Cruz", 
             "Laura Gordon"
         ], 
-        "facilitators": "Ian Forrester, Jennifer Geacone-Cruz, Laura Gordon", 
+        "facilitators": "Jennifer Geacone-Cruz, Laura Gordon", 
         "id": "591", 
         "location": "Floor 6 - 603", 
         "pathways": "Global Village Athena Library", 
@@ -905,7 +904,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "Discussion about the happiness and how it relates to the  digital era.\nOutcomes - every participant to fell inspired and empowered to create positive interactions in their work and life.\nAwareness of the role of the individual, the media and technological impact on individual and community psychology.\nIdeas for how to create trust and positivity in their communities.", 
+        "description": "Fun and games - ways of piratically creating happiness in the digital era. Every participant will create some happiness for others and feel inspired and empowered to create positive interactions in their work and daily life. Awareness of the role of the individual in creating positive effects on themselves and their community digitally and offline. Positive psychology in action!!", 
         "facilitator_array": [
             "Laura Gordon"
         ], 
@@ -1520,6 +1519,20 @@
         "space": "The Global Village", 
         "start": "All Weekend", 
         "title": "Secret game of Werewolf"
+    }, 
+    {
+        "description": "All day in the Global Village Garden we'll be turning graphics into text and text into graphics through human imagination.", 
+        "facilitator_array": [
+            "Michael Saunby, Met Office, @msaunby "
+        ], 
+        "facilitators": "Michael Saunby", 
+        "id": "665", 
+        "location": "", 
+        "pathways": "Global Village Garden", 
+        "scheduleblock": "all-saturday", 
+        "space": "The Global Village", 
+        "start": "All Weekend", 
+        "title": "Graphical Whispers"
     }, 
     {
         "day": "Saturday", 
@@ -4864,6 +4877,21 @@
         "space": "The Global Village", 
         "start": "All Weekend", 
         "title": "Secret game of Werewolf"
+    }, 
+    {
+        "clone_flag": "True", 
+        "description": "All day in the Global Village Garden we'll be turning graphics into text and text into graphics through human imagination.", 
+        "facilitator_array": [
+            "Michael Saunby, Met Office, @msaunby "
+        ], 
+        "facilitators": "Michael Saunby", 
+        "id": "665", 
+        "location": "", 
+        "pathways": "Global Village Garden", 
+        "scheduleblock": "all-sunday", 
+        "space": "The Global Village", 
+        "start": "All Weekend", 
+        "title": "Graphical Whispers"
     }, 
     {
         "clone_flag": "True", 
