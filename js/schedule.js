@@ -252,6 +252,9 @@ function Schedule(options) {
 
         // add "fav" star controls to all session items on the page
         schedule.addStars('.session-list-item');
+
+        // run the callback after adding all available sessions.
+        schedule.addBlockToggles();
     }
 
     // showSessionDetail() renders session data into the detail template,
@@ -472,7 +475,6 @@ function Schedule(options) {
             $('#'+schedule.chosenTab).show();
             schedule.addCaptionOverline();
             schedule.loadSessions(schedule.addSessionsToSchedule);
-            schedule.addBlockToggles();
         }
     }
 
