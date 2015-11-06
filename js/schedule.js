@@ -6,6 +6,7 @@ function Schedule(options) {
         // when you create a Schedule() instance on the page
         schedule.sourceJSON = 'sessions.json';
         schedule.spacesJSON = 'spaces.json';
+        schedule.pathwaysJSON = 'pathways.json';
         schedule.$container = $('#schedule');
         schedule.$toggles = $('<ul>').appendTo('#schedule-controls');
         schedule.$pageLinks = $('#page-links');
@@ -21,7 +22,8 @@ function Schedule(options) {
             { name: 'All', displayName: 'All' }
         ];
         schedule.sessionList = [];
-        schedule.spaceList = [];
+        schedule.spaceMetaList = [];
+        schedule.pathwayMetaList = [];
         schedule.pathwayMap = [];
         // check for saved sessions in localStorage. Because localStorage only
         // takes strings, split on commas so we get an array of session IDs
@@ -106,8 +108,12 @@ function Schedule(options) {
             }
         } else {
             // if there's no session data yet, fetch from JSON
-            $.getJSON(schedule.sourceJSON)
+            $.getJSON(schedule.sourceJSON, function() {
+                    // temporarily show loading text
+                    $('.open-block').html('<span class="loading">LOADING SCHEDULE DATA <span>.</span><span>.</span><span>.</span></span>');
+                })
                 .done(function(results) {
+                    $('.open-block').text('OPEN');
                     schedule.sortSessionGroups(results);
                     // update savedSessionList with any new data
                     schedule.updateSavedSessionList();
@@ -118,26 +124,48 @@ function Schedule(options) {
         }
     }
 
-    // loadSpaces() gets Spaces data and sorts it for display. Checks
+    // loadSpaces() gets Spaces meta data and sorts it for display. Checks
     // for local data first, then falls back to ajax call to spacesJSON file.
     // An optional callback function can be passed in.
     schedule.loadSpaces = function(callback) {
-        if (schedule.spaceList.length) {
-            // if the app already has collected Spaces data, fire the callback
+        if (schedule.spaceMetaList.length) {
+            // if the app already has collected Spaces meta data, fire the callback
             if (callback) {
                 callback();
             }
         } else {
-            // if there's no Spaces data yet, fetch from JSON
+            // if there's no Spaces meta data yet, fetch from JSON
             $.getJSON(schedule.spacesJSON)
                 .done(function(results) {
-                    schedule.spaceList = results;
+                    schedule.spaceMetaList = results;
                     if (callback) {
                         callback();
                     }
                 });
         }
     }
+
+    // loadPathways() gets Pathways meta data and sorts it for display. Checks
+    // for local data first, then falls back to ajax call to loadPathways file.
+    // An optional callback function can be passed in.
+    schedule.loadPathways = function(callback) {
+        if (schedule.pathwayMetaList.length) {
+            // if the app already has collected Pathways meta data, fire the callback
+            if (callback) {
+                callback();
+            }
+        } else {
+            // if there's no Pathways meta data yet, fetch from JSON
+            $.getJSON(schedule.pathwaysJSON)
+                .done(function(results) {
+                    schedule.pathwayMetaList = results;
+                    if (callback) {
+                        callback();
+                    }
+                });
+        }
+    }
+
 
     // sortSessionGroups() performs basic sorting so session lists
     // are rendered in proper order
@@ -196,7 +224,14 @@ function Schedule(options) {
         // or fall back to schedule.sessionList
         var sessionList = sessionList || schedule.sessionList;
 
-        _.each(sessionList, function(v, k) {
+        var visibleIDs = $('.page-block:visible').map(function() {
+            return this.id;
+        })
+        var visibleSessionList = _.filter(sessionList, function(s) {
+            return _.contains(visibleIDs, s.scheduleblock)
+        })
+
+        _.each(visibleSessionList, function(v, k) {
             // find the correct schedule block on the page for this session
             var targetBlock = $('#'+v.scheduleblock);
             // prep the session data for the template
@@ -217,6 +252,9 @@ function Schedule(options) {
 
         // add "fav" star controls to all session items on the page
         schedule.addStars('.session-list-item');
+
+        // run the callback after adding all available sessions.
+        schedule.addBlockToggles();
     }
 
     // showSessionDetail() renders session data into the detail template,
@@ -323,18 +361,23 @@ function Schedule(options) {
     
     // add icons for collapsible scheduleblocks
     schedule.addBlockToggles = function() {
-        var blocks = schedule.$container.find('.page-block');
+        var blocks = schedule.$container.find('.page-block:visible');
         blocks.prev('h3').addClass('slider-control').append('<i class="fa fa-chevron-circle-down"></i>');
         blocks.addClass('slider');
+        schedule.calculateBlockHeights(blocks);
+        schedule.$container.prepend('<a href="#" id="slider-collapse-all" class="page-control" data-action="collapse">Hide all sessions</a>');
+    }
+
+    // calculate and store block heights for animations
+    schedule.calculateBlockHeights = function(blocks) {
+        var blocks = blocks || schedule.$container.find('.page-block');
         _.each(blocks, function(b) {
             var block = $(b);
             var blockHeight = block.height()+'px';
             block.attr('data-max-height', blockHeight).css('max-height', blockHeight);
         });
-        
-        schedule.$container.prepend('<a href="#" id="slider-collapse-all" class="page-control" data-action="collapse">Hide all sessions</a>')
     }
-
+    
     // add a set of tabs across the top of page as toggles that change display
     schedule.addToggles = function() {
         if (Modernizr.localstorage) {
@@ -401,7 +444,6 @@ function Schedule(options) {
         schedule.addCaptionOverline("<h2>" + schedule.filterKey + ": " + schedule.filterValue.replace(/-/g," ") + "</h2>");
         schedule.addSessionsToSchedule(schedule.filteredList);
         schedule.clearOpenBlocks();
-        schedule.transitionElementIn(schedule.$container);
     }
 
     // based on the value of chosenTab, render the proper session list
@@ -428,21 +470,18 @@ function Schedule(options) {
             schedule.loadSessions(schedule.showFullSessionList);
         } else {
             // handle standard tabs like "Thursday" or "Friday"
-            schedule.$container.removeClass().hide().empty();
-            schedule.addCaptionOverline();
             schedule.$container.html(schedule.sessionListTemplate);
-            schedule.loadSessions(schedule.addSessionsToSchedule);
-            schedule.transitionElementIn(schedule.$container);
-
             schedule.$container.find('.schedule-tab').hide();
-            schedule.transitionElementIn($('#'+schedule.chosenTab), schedule.addBlockToggles);
+            $('#'+schedule.chosenTab).show();
+            schedule.addCaptionOverline();
+            schedule.loadSessions(schedule.addSessionsToSchedule);
         }
     }
 
     // the list view is treated differently than normal tabs that have "cards"
     // to tap on. This shows expanded data, and includes search/filtering
     schedule.showFullSessionList = function() {
-        schedule.$container.hide().empty();
+        schedule.$container.empty();
         schedule.addListControls();
 
         // exclude "everyone" sessions like lunch, dinner, etc.
@@ -462,7 +501,6 @@ function Schedule(options) {
 
         // add fav stars
         schedule.addStars('.session-list-item');
-        schedule.transitionElementIn(schedule.$container);
     }
 
     // provide some user instructions at top of page
@@ -541,11 +579,10 @@ function Schedule(options) {
     // showFavorites() handles display when someone chooses the "Favorites" tab
     schedule.showFavorites = function() {
         // provide some user instructions at top of page
-        schedule.$container.hide().empty().append('<p class="overline">Favorite sessions to store a list on this device</p>').append(schedule.sessionListTemplate);
+        schedule.$container.empty().append('<p class="overline">Favorite sessions to store a list on this device</p>').append(schedule.sessionListTemplate);
         // use savedSessionList IDs to render favorited sessions to page
         schedule.addSessionsToSchedule(schedule.savedSessionList);
         schedule.clearOpenBlocks();
-        schedule.transitionElementIn(schedule.$container);
     }
 
     // uses savedSessionIDs list to compile data for favorited sessions
@@ -553,7 +590,7 @@ function Schedule(options) {
         schedule.savedSessionList = _.filter(schedule.sessionList, function(v, k) {
             // by default include "everyone" sessions on favorites list
             // just to make temporal wayfinding easier
-            return (!!v.everyone) || _.contains(schedule.savedSessionIDs, v.id);
+            return (v.space == 'Everyone') || _.contains(schedule.savedSessionIDs, v.id);
         });
     }
 
@@ -565,7 +602,7 @@ function Schedule(options) {
         schedule.addCaptionOverline("<h3><span>Spaces</span></h3>");
 
         schedule.loadSpaces(function() {
-            _.each(schedule.spaceList, function(v, k) {
+            _.each(schedule.spaceMetaList, function(v, k) {
                 // prep the Space data for the template
                 var templateData = {
                     space: {
@@ -600,14 +637,27 @@ function Schedule(options) {
         schedule.$container.html("");
         schedule.addCaptionOverline("<h3><span>Pathways</span></h3>");
 
-        _.each(_.sortBy(_.keys(schedule.pathwayMap)), function(v, k) {
-            // prep the Pathway data for the template
-            var templateData = {
-                name: v,
-                numSessions: schedule.pathwayMap[v],
-                slugify: schedule.slugify
-            };
-            schedule.$container.append(schedule.pathwayMapTemplate(templateData));
+        schedule.loadPathways(function() {
+            var pathwaysListKeys = _.map(schedule.pathwayMetaList, function(pathway) {
+                return pathway.name;
+            });
+
+            _.each(_.sortBy(_.keys(schedule.pathwayMap)), function(v, k) {
+                // index in pathwaysListKeys 
+                var index = pathwaysListKeys.indexOf(v);
+                // prep the Pathway data for the template
+                var templateData = {
+                    name: v,
+                    numSessions: schedule.pathwayMap[v],
+                    description: [],
+                    slugify: schedule.slugify
+                };
+
+                if (index > -1) {
+                    templateData.description = schedule.pathwayMetaList[index].description;
+                }
+                schedule.$container.append(schedule.pathwayMapTemplate(templateData));
+            });
         });
     }
 
@@ -804,18 +854,6 @@ function Schedule(options) {
             schedule.clearSessionDetail();
             schedule.load();
         };
-
-        // check for new appcache on page load
-        window.addEventListener('load', function(e) {
-            window.applicationCache.addEventListener('updateready', function(e) {
-                if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
-                    // new appcache downloaded
-                    if (confirm('A new version of the schedule is available. Load it?')) {
-                        window.location.reload();
-                    }
-                }
-            }, false);
-        }, false);
     }
 
     // utility function to track events in Google Analytics

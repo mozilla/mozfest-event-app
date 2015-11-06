@@ -9,9 +9,6 @@ Design notes:
 * tapping on a session opens its full description (using a template that allows for additional data if necessary)
 * provides a full-text, searchable session list in addition to day-by-day schedule tabs
 * session favoriting (using browser localstorage) populates a per-device custom schedule tab
-* can use appcache, such as it is, to provide offline support for those special conference wifi moments
-    * repo includes local versions of OpenSans font files, to get around cache manifest fetching bugs in some browsers
-    * does its best to handle "back" navigation in offline mode, where there is no `window.history`
 * highlights schedule tab for current date if possible
 * colors denote normal-length and long sessions, and long sessions are "ghosted" into the following schedule block to show that they're still going on
 

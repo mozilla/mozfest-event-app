@@ -109,7 +109,7 @@
         </script>
 
         <script type="text/template" id="session-card-template">
-        <a href="#_session-<%= sessionID %>" id="session-<%= sessionID %>" class="session-list-item session-<%= sessionClass %>" data-session="<%= sessionID.replace('-ghost','') %>">
+        <a href="#_session-<%= sessionID %>" id="session-<%= sessionID %>" class="session-list-item<% if (session.space == 'Everyone') { %> session-everyone<% } %>" data-session="<%= sessionID.replace('-ghost','') %>">
             <h4><%= smartypants(session.title) %></h4>
             <div>
                 <% if (showFacilitators && session.facilitators) { %>
@@ -227,6 +227,9 @@
             <a href="#_pathway-<%= slugify(name) %>" class="pathway-list-item" data-pathway="<%= slugify(name) %>">
                 <h4><%= name %></h4>
                 <p><%= numSessions %> session<% if (numSessions>1) { %>s<% } %></p>
+                <% if (description.length) { %><% description.forEach(function(p) { %>
+                    <%= marked(p) %>
+                <% }) %><% } %>
             </a>
             <% } %>
         </script>
