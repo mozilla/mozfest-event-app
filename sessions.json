@@ -1053,19 +1053,6 @@
         "title": "Sustaining an Innovation Hub: Lessons from the iHub"
     }, 
     {
-        "description": "In the session I aim to get participants using Scratch (a fun interactive block based programming language) with Scratch extensions both created by myself and others. These extensions allow you to do many different things with Scratch but in the session we will focus on connecting Scratch to the outside world using hardware such as as Arduinos or mobile phones and the open source extensions I have developed. If there is time we will also look at several other different Scratch extensions that others have produced that I've found interesting and also briefly detail how participants can make their own extensions.", 
-        "facilitator_array": [
-            "Thomas Preece"
-        ], 
-        "facilitators": "Thomas Preece", 
-        "id": "233", 
-        "location": "Floor 6 - 601", 
-        "pathways": "Global Village Garden", 
-        "scheduleblock": "", 
-        "space": "The Global Village", 
-        "title": "Connecting everything but the kitchen sink to Scratch"
-    }, 
-    {
         "day": "Saturday", 
         "description": "Innovation is too often seen as a business imperative rather than a means to improve lives.\n\nThe growing use of Open Innovation, co-creation and user centred design by businesses, and the public sector will enable more citizens than ever before to participate in shaping the future, not only of the web but all the products and services they experience.\n\nIn the session we shall take a few existing ideas and innovations and try to make them better using these approaches. We’re not looking for expertise, but passion to see and make a better future.", 
         "facilitator_array": [
