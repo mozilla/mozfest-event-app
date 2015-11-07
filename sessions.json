@@ -491,10 +491,11 @@
     {
         "description": "Come and check out what it is like to hack on a bigger screen Smart TV! In this session, participants will learn about the Firefox OS Smart TV with a quick product demonstration. To unleash the hacker in all of you, we will demonstrate how to hack on the TV via WebIDE and share how to build TV optimized apps. To unleash the hacker in all of you, we will demonstrate how to hack on the TV via WebIDE and share how to build TV optimized apps. Bring your laptop for some hands-on experience!", 
         "facilitator_array": [
-            "Joe Chen", 
-            "Jack Lin"
+            "Joe Cheng", 
+            "Jack Lin", 
+            "Evelyn Hung"
         ], 
-        "facilitators": "Joe Chen, Jack Lin", 
+        "facilitators": "Joe Cheng, Jack Lin, Evelyn Hung", 
         "id": "636", 
         "location": "Floor 4 - 400", 
         "pathways": "New Technologies for Participation -- Challenge", 
@@ -3361,9 +3362,11 @@
     {
         "description": "The Mozilla web literacy map is being refactored to include 21st Century skills needed for leadership development, and written in a language more approachable and accessible to diverse audiences.  We invite anyone interested in teaching web literacy skills to provide us with your insights and creative input on a draft 2.0 content and design, and  help us determine what curriculum and tools are needed to make the digital-age skills more relevant to more people. Come spend a few minutes with us moving around pieces of the map, and sharing stories of how you would use the map.", 
         "facilitator_array": [
-            "An-Me Chung"
+            "An-Me Chung", 
+            "Iris Bond Gill", 
+            "Sabrina Ng"
         ], 
-        "facilitators": "An-Me Chung", 
+        "facilitators": "An-Me Chung, Iris Bond Gill, Sabrina Ng", 
         "id": "551", 
         "location": "Floor 8 - 801", 
         "pathways": " Learning & Leading", 
