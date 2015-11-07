@@ -3604,7 +3604,7 @@
         "id": "604", 
         "location": "Floor 8 - 801", 
         "pathways": " Learning & Leading, Teaching Web Literacy with Mozilla Clubs, Voices of Diverse Leaders", 
-        "scheduleblock": "all-sunday", 
+        "scheduleblock": "sunday-lunch", 
         "space": "Mozilla Learning Networks", 
         "start": "All Day", 
         "title": "MLN Sunday Lunchtime Learning"
@@ -3630,7 +3630,7 @@
         "id": "603", 
         "location": "Floor 8 - 801", 
         "pathways": " Learning & Leading,Teaching Web Literacy with Mozilla Clubs, Voices of Diverse Leaders", 
-        "scheduleblock": "all-saturday", 
+        "scheduleblock": "saturday-lunch", 
         "space": "Mozilla Learning Networks", 
         "start": "All Day", 
         "title": "MLN Saturday Lunchtime Learning"
