@@ -693,7 +693,7 @@
         "title": "Garbage Disposal Room"
     }, 
     {
-        "day": "Sunday", 
+        "day": "Saturday", 
         "description": "A diverse group of artists/industry practitioners will come together to develop a web-based interactive lighting system.\nA collaboration between Ravensbourne's Design & Coding and Product Design courses and Goldsmith's Creative Computing Department to develop a workshop on interactive lighting/gaming/web-based/physical computing, a hack session to show the tool-kit developed in order to invite students/industry to hack them. The project aims to develop 3D printed lights to install around the building which would be networked through the web.", 
         "facilitator_array": [
             "Evan Raskob"
@@ -702,9 +702,9 @@
         "id": "54", 
         "location": "Floor 6 - 601", 
         "pathways": "Global Village Garden", 
-        "scheduleblock": "sunday-session-block-6", 
+        "scheduleblock": "saturday-session-block-3", 
         "space": "The Global Village", 
-        "start": "12:45 PM", 
+        "start": "02:15 PM", 
         "title": "Switched On(line) Lighting"
     }, 
     {
