@@ -3779,6 +3779,21 @@
         "title": "Help us test the new X-Ray Goggles!"
     }, 
     {
+        "day": "Sunday", 
+        "description": "Calling all creative youth and spirited adults - we need you to use a variety of talents towards a common goal. Join us by adding to an activity course for the Sphero, to create a colourful, interactive end result by the end of the weekend. For example, you might decide to make a tunnel or see-saw bridge etc... to add to the course attach a MakeyMakey, Raspberry Pi and Arduino and program it using Scratch, S4A or Mind+ etc... to code a response to an input for example a noise of some sort or traffic lights to change at another section. The possibilities are endless and the final product will be a mystery (until the end!). Come be apart of a live-making exercise where all skills are valued.", 
+        "facilitator_array": [
+            "Su Adams, @SuAdamsEdIT"
+        ], 
+        "facilitators": "Su Adams", 
+        "id": "12726345", 
+        "location": "Floor 8 - 804", 
+        "pathways": " Teaching Web Literacy with Mozilla Clubs", 
+        "scheduleblock": "all-sunday", 
+        "space": "Mozilla Learning Networks", 
+        "start": "All Day", 
+        "title": "Run the Gauntlet"
+    }, 
+    {
         "description": "<div style=\"text-align:center\"><img src =\"https://dl.dropboxusercontent.com/u/1122948/dnd/mozfest2015/Astro_Pi_Logo.png\" /></div>    \nTwo specially adapted Raspberry Pis will be travelling to the International Space Station with astronaut Tim Peake in December. This session introduces you to the Astro Pi project, how to set it up and how to use the many features of this genuine piece of space certified hardware and how you can link to this amazing project in your home and schools.", 
         "facilitator_array": [
             "Dave Honess, , Raspberry Pi Foundation", 
