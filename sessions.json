@@ -163,9 +163,9 @@
         "id": "100012", 
         "location": "Floor 4 - Big Space", 
         "pathways": "", 
-        "scheduleblock": "sunday-lunch", 
-        "space": "Everyone", 
-        "start": "All Day", 
+        "scheduleblock": "sunday-session-block-6", 
+        "space": "", 
+        "start": "12:45 PM", 
         "title": "Giving Users More Superpowers - a fireside chat with Doc Searls"
     }, 
     {
@@ -180,7 +180,7 @@
         "location": "Floor 4 - Library", 
         "pathways": "R-E-S-P-E-C-T", 
         "scheduleblock": "saturday-session-block-1", 
-        "space": "", 
+        "space": "Digital Citizenship", 
         "start": "10:45 AM", 
         "title": "Becoming a human rights CSI"
     }, 
