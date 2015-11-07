@@ -365,7 +365,7 @@ function Schedule(options) {
         blocks.prev('h3').addClass('slider-control').append('<i class="fa fa-chevron-circle-down"></i>');
         blocks.addClass('slider');
         schedule.calculateBlockHeights(blocks);
-        schedule.$container.prepend('<a href="#" id="slider-collapse-all" class="page-control" data-action="collapse">Hide all sessions</a>');
+        schedule.$container.find('.page-caption').append('<a href="#" id="slider-collapse-all" class="page-control" data-action="collapse">Hide all sessions</a>');
     }
 
     // calculate and store block heights for animations

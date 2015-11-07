@@ -192,6 +192,7 @@ header a {
 
 .page-caption h2 {
     text-transform: uppercase;
+    color: inherit;
 }
 
 .schedule-tab h3,
@@ -299,7 +300,6 @@ h3.slider-control {
 }
 
 .page-control {
-    padding: 2.5rem 0;
     display: block;
     text-decoration: none;
     margin-right: 2%;
