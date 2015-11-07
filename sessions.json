@@ -179,8 +179,9 @@
         "id": "1000014", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "saturday-19:00", 
+        "scheduleblock": "saturday-7pm", 
         "space": "Everyone", 
+        "start": "07:00 PM", 
         "title": "Happy hour - Namco"
     }, 
     {
@@ -190,8 +191,9 @@
         "id": "1000015", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "saturday-19:00", 
+        "scheduleblock": "saturday-7pm", 
         "space": "Everyone", 
+        "start": "07:00 PM", 
         "title": "Happy hour - Sky Bar"
     }, 
     {
