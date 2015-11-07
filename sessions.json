@@ -1809,7 +1809,7 @@
         "title": "Your Digital Footprint -- It's Larger Than You Think!"
     }, 
     {
-        "day": "Saturday", 
+        "day": "Sunday", 
         "description": "Net neutrality discussions in countries with a digital divide often raise discussions on zero rating, which offer crumbs from the Internet's table in the form of free access to walled-garden services as a solution. In 2015 more than one million Indians wrote to their government demanding strong commitment to Net neutrality, and campaigned against zero-rating projects like freebasics by Facebook. Countries like Zimbabwe are still at early warning stage with startups raising furore. This session explores various perspectives and concerns from global south countries and discuss impact on start-ups and web innovation. This session provides a space to discuss various open questions on net neutrality, digital inclusion and zero rating.", 
         "facilitator_array": [
             "Kudzai M Mubaiwa", 
@@ -1819,9 +1819,9 @@
         "id": "249", 
         "location": "", 
         "pathways": "Building a Crowd, Global Innovation Network", 
-        "scheduleblock": "saturday-session-block-1", 
+        "scheduleblock": "sunday-session-block-7", 
         "space": "Digital Citizenship", 
-        "start": "10:45 AM", 
+        "start": "02:45 PM", 
         "title": "Net Neutrality and Zero Rating in the Global South"
     }, 
     {
