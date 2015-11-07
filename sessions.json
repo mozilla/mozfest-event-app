@@ -284,7 +284,7 @@
         ], 
         "facilitators": "Adriano Cupello", 
         "id": "510", 
-        "location": "Floor 4 - 504", 
+        "location": "Floor 4 - 404", 
         "pathways": "Leading and Building Community Through Participation,", 
         "scheduleblock": "saturday-session-block-1", 
         "space": "Building Participation", 
@@ -2371,18 +2371,18 @@
         "title": "Fixing Indifference and Corruption in the Public Service Delivery: Leveraging Data to Get to those Responsible "
     }, 
     {
-        "day": "Saturday", 
+        "day": "Sunday", 
         "description": "After a brief introduction of games created using Twine, you'll be using this popular open-source tool to brainstorm and create your own Choose-Your-Own-Adventure newsgame during the workshop. No coding experience necessary, as Twine will do all of the programming work for you, and generate an HTML file that is ready to publish anywhere. Plus, those with HTML/CSS and Javascript experience can also build upon and customize their games.", 
         "facilitator_array": [
             "Linda Sandvik"
         ], 
         "facilitators": "Linda Sandvik", 
         "id": "463", 
-        "location": "Floor 7 - 702", 
+        "location": "Floor 1 - Mezzanine", 
         "pathways": "Games and Understanding, Arts Award pathway", 
-        "scheduleblock": "saturday-session-block-2", 
+        "scheduleblock": "sunday-session-block-8", 
         "space": "Journalism", 
-        "start": "12:00 PM", 
+        "start": "04:00 PM", 
         "title": "Make your own choose your own adventure news game with twine"
     }, 
     {
