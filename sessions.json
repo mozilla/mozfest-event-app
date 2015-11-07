@@ -173,14 +173,16 @@
         "title": "Becoming a human rights CSI"
     }, 
     {
+        "day": "Saturday", 
         "description": "", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "1000014", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "", 
-        "space": "", 
+        "scheduleblock": "all-saturday", 
+        "space": "Everyone", 
+        "start": "All Day", 
         "title": "Happy hour"
     }, 
     {
