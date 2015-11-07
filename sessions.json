@@ -872,21 +872,6 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "Rapidly-changing digital policies across the world are contributing to the decline of the democratizing power of the hyperlink and its ability to create the interconnected information space that was imagined by Tim Berners-Lee. One such example is the ancillary copyright law implemented in Spain in 2014–a proposal that was rejected EuroParl for EU-wide implementation, but threatens to return with the drafting of updates to the Copyright Directive. To fight back against these policies, an international network of over 90 digital rights organizations, businesses, journalists and Internet users from 30 countries have convened under the banner of “SaveTheLink” to catalogue and push back against sustained threats to the link. In this session, participants will learn about new policies that make it easier for governments and corporations to demand and implement link censorship, and will help identify threats and brainstorm tactics/solutions to address these threats to the link in an interactive workshop.", 
-        "facilitator_array": [
-            "Meghan Sali"
-        ], 
-        "facilitators": "Meghan Sali", 
-        "id": "330", 
-        "location": "Floor 6 - 603", 
-        "pathways": "Global Village Athena Library, What's your policy?", 
-        "scheduleblock": "saturday-session-block-2", 
-        "space": "The Global Village", 
-        "start": "12:00 PM", 
-        "title": "Is the hyperlink dead?"
-    }, 
-    {
-        "day": "Saturday", 
         "description": "Come and explore some of the best interactive factual narratives that have been recently released. This is an opportunity for you to experience factual interactive narratives, be inspired by them and maybe change the way you understand and perceive the world!", 
         "facilitator_array": [
             "Sandra Gaudenzi ", 
@@ -1975,6 +1960,36 @@
         "space": "Digital Citizenship", 
         "start": "10:45 AM", 
         "title": "Ending Online Tracking - Do Not Track And Beyond"
+    }, 
+    {
+        "day": "Saturday", 
+        "description": "Rapidly-changing digital policies across the world are contributing to the decline of the democratizing power of the hyperlink and its ability to create the interconnected information space that was imagined by Tim Berners-Lee. One such example is the ancillary copyright law implemented in Spain in 2014–a proposal that was rejected EuroParl for EU-wide implementation, but threatens to return with the drafting of updates to the Copyright Directive. To fight back against these policies, an international network of over 90 digital rights organizations, businesses, journalists and Internet users from 30 countries have convened under the banner of “SaveTheLink” to catalogue and push back against sustained threats to the link. In this session, participants will learn about new policies that make it easier for governments and corporations to demand and implement link censorship, and will help identify threats and brainstorm tactics/solutions to address these threats to the link in an interactive workshop.", 
+        "facilitator_array": [
+            "Meghan Sali"
+        ], 
+        "facilitators": "Meghan Sali", 
+        "id": "330", 
+        "location": "Floor 4 - Library", 
+        "pathways": "Global Village Athena Library, What's your policy?", 
+        "scheduleblock": "saturday-session-block-2", 
+        "space": "Digital Citizenship", 
+        "start": "12:00 PM", 
+        "title": "Is the hyperlink dead?"
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "Come hear about the Library Freedom Project!", 
+        "facilitator_array": [
+            "Kevin Sanders, @moananddrone, Library Freedom Project"
+        ], 
+        "facilitators": "Kevin Sanders", 
+        "id": "14543798", 
+        "location": "Floor 4 - Library", 
+        "pathways": "Backdoors and Cryptowars", 
+        "scheduleblock": "sunday-session-block-8", 
+        "space": "Digital Citizenship", 
+        "start": "04:00 PM", 
+        "title": "Library Freedom Project: Practical Privacy Tools"
     }, 
     {
         "day": "Saturday", 
