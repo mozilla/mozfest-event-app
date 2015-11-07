@@ -68,7 +68,7 @@
         "pathways": "", 
         "scheduleblock": "saturday-evening", 
         "space": "Everyone", 
-        "start": "05:00 PM", 
+        "start": "05:30 PM", 
         "title": "Conversations with Medium"
     }, 
     {
@@ -179,9 +179,20 @@
         "id": "1000014", 
         "location": "", 
         "pathways": "", 
-        "scheduleblock": "", 
+        "scheduleblock": "saturday-19:00", 
         "space": "Everyone", 
         "title": "Happy hour - Namco"
+    }, 
+    {
+        "description": "If you would prefer something more low key on the Saturday night, the Sky Bar (www.londonskybar.com) on the 8th floor of the H10 hotel will be booked for Mozilla guests to relax in a quieter space from 7pm until 11pm.\nAddress: 284-302 Waterloo Rd, London SE1 8RQ", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "1000015", 
+        "location": "", 
+        "pathways": "", 
+        "scheduleblock": "saturday-19:00", 
+        "space": "Everyone", 
+        "title": "Happy hour - Sky Bar"
     }, 
     {
         "description": "Web articles lead people on long journeys of hyperlinks and tab accumulation. This spreads the information out and can hurt your ability to see how it all connects. The session will focus on the discussion of these information networks and how they can be visualized. There will also be a group oriented activity that will have people working together to design a tool/UI that can be used to aid in this process.", 
