@@ -1463,6 +1463,22 @@
         "title": "Graphical Whispers"
     }, 
     {
+        "description": "Let’s attract your inner Zombie (Yes, we are using the Z-word)…\nSet in a world overrun by the undead, you get to choose which characters can best face the apocalypse and survive, using only what nature and circumstance has given them.", 
+        "facilitator_array": [
+            "Melanie Grant", 
+            "Leena Haque", 
+            "Samina Rafiq"
+        ], 
+        "facilitators": "Melanie Grant, Leena Haque, Samina Rafiq", 
+        "id": "93647298", 
+        "location": "Floor 6 - 603", 
+        "pathways": "Global Village Athena Library, Inclusive Communities", 
+        "scheduleblock": "sunday-session-block-5", 
+        "space": "The Global Village", 
+        "start": "11:30 AM", 
+        "title": "The reality of diversity: The working dead"
+    }, 
+    {
         "description": "Today's activist campaigns are innovative and connected, leveraging the web to build collective voice. Open source practice could amplify the power of contemporary activism by sharing resources and learning outcomes openly between movements. In this session we will use GitHub to codesign a framework for planning activist campaigns. It won't be too technical - if you can use a web browser you can learn to use GitHub during the session! We'll create a template to guide new movements with the benefit of your past experiences and together start to build a community-led repository for open source activism.", 
         "facilitator_array": [
             "Sue Smith", 
