@@ -291,22 +291,6 @@
         "title": "Tools for growing an inclusive diverse project"
     }, 
     {
-        "day": "Sunday", 
-        "description": "This session is about challenging existing factual web narrative structures and inventing whole new ways to bring the user inside the reality that we want to change with our stories. You will work on real stories that are looking to be produced soon!", 
-        "facilitator_array": [
-            "Sandra Gaudenzi, @sgaudenzi", 
-            "Philo van Kemenade, @phivk"
-        ], 
-        "facilitators": "Sandra Gaudenzi, Philo van Kemenade", 
-        "id": "467", 
-        "location": "Floor 1 - Mezzanine", 
-        "pathways": "Leading and Building Community Through Participation, Storytellers & coders united: together we can change the world!,Science communication", 
-        "scheduleblock": "sunday-session-block-5", 
-        "space": "Building Participation", 
-        "start": "11:30 AM", 
-        "title": "Use your skills to actually change the world!"
-    }, 
-    {
         "day": "Saturday", 
         "description": "This session shares all the ways in which you can utilize GitHub’s free hosting for all repositories and accounts. Attendees will learn how to set up static websites and blogs for their projects or documentation.", 
         "facilitator_array": [
@@ -473,22 +457,6 @@
         "space": "Building Participation", 
         "start": "10:45 AM", 
         "title": "Mozilla Participation - Tech Challange!"
-    }, 
-    {
-        "day": "Saturday", 
-        "description": "Code like you give a damn! Why not using your skills to co-design interactive stories that can change the world? Today, coders and storytellers rarely work together from day one. Join this session to be part of the solution and meet storytellers and coders you'll want to work with!", 
-        "facilitator_array": [
-            "Sandra Gaudenzi, @sgaudenzi", 
-            "Filip Fastenaekels"
-        ], 
-        "facilitators": "Sandra Gaudenzi, Filip Fastenaekels", 
-        "id": "468", 
-        "location": "Floor 1 - Mezzanine", 
-        "pathways": "New Technologies for Participation -- Challenge, Storytellers & coders united: together we can change the world!,Science communication", 
-        "scheduleblock": "saturday-session-block-2", 
-        "space": "Building Participation", 
-        "start": "12:00 PM", 
-        "title": "Change the world through code: how to meet the person you need in your team to do so"
     }, 
     {
         "day": "Saturday", 
@@ -2231,6 +2199,38 @@
         "space": "", 
         "start": "02:45 PM", 
         "title": " If you build it... How to create a Learning Circles Kit  "
+    }, 
+    {
+        "day": "Sunday", 
+        "description": "This session is about challenging existing factual web narrative structures and inventing whole new ways to bring the user inside the reality that we want to change with our stories. You will work on real stories that are looking to be produced soon!", 
+        "facilitator_array": [
+            "Sandra Gaudenzi, @sgaudenzi", 
+            "Philo van Kemenade, @phivk"
+        ], 
+        "facilitators": "Sandra Gaudenzi, Philo van Kemenade", 
+        "id": "467", 
+        "location": "Floor 1 - Mezzanine", 
+        "pathways": "Leading and Building Community Through Participation, Storytellers & coders united: together we can change the world!,Science communication", 
+        "scheduleblock": "sunday-session-block-5", 
+        "space": "", 
+        "start": "11:30 AM", 
+        "title": "Use your skills to actually change the world!"
+    }, 
+    {
+        "day": "Saturday", 
+        "description": "Code like you give a damn! Why not using your skills to co-design interactive stories that can change the world? Today, coders and storytellers rarely work together from day one. Join this session to be part of the solution and meet storytellers and coders you'll want to work with!", 
+        "facilitator_array": [
+            "Sandra Gaudenzi, @sgaudenzi", 
+            "Filip Fastenaekels"
+        ], 
+        "facilitators": "Sandra Gaudenzi, Filip Fastenaekels", 
+        "id": "468", 
+        "location": "Floor 1 - Mezzanine", 
+        "pathways": "New Technologies for Participation -- Challenge, Storytellers & coders united: together we can change the world!,Science communication", 
+        "scheduleblock": "saturday-session-block-2", 
+        "space": "", 
+        "start": "12:00 PM", 
+        "title": "Change the world through code: how to meet the person you need in your team to do so"
     }, 
     {
         "day": "Sunday", 
