@@ -154,6 +154,37 @@
         "title": "Creche"
     }, 
     {
+        "day": "Sunday", 
+        "description": "Browsers are tools, and they belong to USERS. They give Users a superpower. We can give the User new superpowers: more control, User Agency and letting them shape the web on their terms. \n\nJoin us on the main stage around noon for a chat with Doc, who is advising Content Services at MoCo.\n", 
+        "facilitator_array": [
+            "Doc Searls, @dsearls, MoCo"
+        ], 
+        "facilitators": "Doc Searls", 
+        "id": "100012", 
+        "location": "Floor 4 - Big Space", 
+        "pathways": "", 
+        "scheduleblock": "sunday-lunch", 
+        "space": "Everyone", 
+        "start": "All Day", 
+        "title": "Giving Users More Superpowers - a fireside chat with Doc Searls"
+    }, 
+    {
+        "day": "Saturday", 
+        "description": "Join us for a mini human rights investigation – you will experience first-hand what it takes to be a human rights CSI: you will search for evidence, think of chains of custody, document and verify open source intelligence like satellite imagery, videos, images, text based reports, etc. and build an evidence wall. ", 
+        "facilitator_array": [
+            "Milena Marin, Amnesty International", 
+            "Francesco Sebregondi, Forensic Architecture"
+        ], 
+        "facilitators": "Milena Marin, Francesco Sebregondi", 
+        "id": "100013", 
+        "location": "Floor 4 - Library", 
+        "pathways": "R-E-S-P-E-C-T", 
+        "scheduleblock": "saturday-session-block-1", 
+        "space": "", 
+        "start": "10:45 AM", 
+        "title": "Becoming a human rights CSI"
+    }, 
+    {
         "description": "Web articles lead people on long journeys of hyperlinks and tab accumulation. This spreads the information out and can hurt your ability to see how it all connects. The session will focus on the discussion of these information networks and how they can be visualized. There will also be a group oriented activity that will have people working together to design a tool/UI that can be used to aid in this process.", 
         "facilitator_array": [
             "Michael Martinez"
@@ -1887,21 +1918,6 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "Join Amnesty International for a mini human rights investigation – you will experience first-hand what it takes to be a human rights CSI: you will search for evidence, think of chains of custody, document and verify open source intelligence like satellite imagery, videos, images, text based reports, etc. and build an evidence wall", 
-        "facilitator_array": [
-            "Milena Marin"
-        ], 
-        "facilitators": "Milena Marin", 
-        "id": "129", 
-        "location": "", 
-        "pathways": "R-E-S-P-E-C-T", 
-        "scheduleblock": "sunday-session-block-8", 
-        "space": "Digital Citizenship", 
-        "start": "04:00 PM", 
-        "title": "Become a Human Rights CSI"
-    }, 
-    {
-        "day": "Sunday", 
         "description": "In this session we will remix the Feminist Principles of the Internet. We will come up with a version of these Principles aimed at people that love the Internet and believe in gender equality. And added fun challenge will be to make sure these Principles are tweetable (having 140 characters or less).\n\nNo laptop is needed for this session. All you need is eagerness to discuss the relation between women and the Internet and its related components (freedom of expression, violence, access, representation, economy and more).\n\nThese Principles were published by the APC (Association for Progressive Communications).", 
         "facilitator_array": [
             "Andrea Del Rio, @andredelrio, Association for Progressive Communications / Ford-Mozilla Fellow"
@@ -2281,21 +2297,6 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "People will learn how to get sense of multi-dimensional (more then 3 variables) data sets in a visual way, with a help of a browser and JavaScript based web tools.\nSpecifically we will learn how to search for patterns, correlations, exceptional values. We will use such a methods as scatterplot matrices, interactive tables, and dimensionality reduction algorithms. We will work with example data sets to make a practical exercises.", 
-        "facilitator_array": [
-            "Anatoly Bondarenko"
-        ], 
-        "facilitators": "Anatoly Bondarenko", 
-        "id": "451", 
-        "location": "Floor 7 - 706", 
-        "pathways": "Tools and Analysis", 
-        "scheduleblock": "sunday-session-block-8", 
-        "space": "Journalism", 
-        "start": "04:00 PM", 
-        "title": "Breaking the curse (of dimensionality)"
-    }, 
-    {
-        "day": "Sunday", 
         "description": "Attendees will learn core machine learning techniques and basic data analysis skills, how to apply them with popular Python packages like scikit-learn and pandas, and the pitfalls and ethical dilemmas that can occur.", 
         "facilitator_array": [
             "Francis Tseng"
@@ -2539,7 +2540,7 @@
     }, 
     {
         "day": "Saturday", 
-        "description": "The field of computational sociology is growing in exciting ways. This session will introduce folks to some of the resources, tools, and ideas that computational sociologists are working with. We'll talk about the increased visibility and interest in conducting research on online communities and online harassment and what that might look like with a computational sociology lens. The session will also touch on similarities between computational sociology and data journalism.", 
+        "description": "Online communities are complex. We've seen online communities facilitate incredible positive change as well as intense harassment and abuse. Let's talk about how to better understand online communities, so we can think about designing them differently! Agent-based modeling can be used to understand and simulate complex systems. We'll talk about some of the questions that are being asked about online communities, examples of popular agent-based models, and ways in which we can think about modeling community dynamics.", 
         "facilitator_array": [
             "Tara Adiseshan"
         ], 
@@ -2550,7 +2551,7 @@
         "scheduleblock": "saturday-session-block-4", 
         "space": "Journalism", 
         "start": "03:30 PM", 
-        "title": "Computational Sociology (and Online Communities)"
+        "title": "Modeling Online Communities (Computational Sociology)"
     }, 
     {
         "day": "Saturday", 
