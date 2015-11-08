@@ -2321,6 +2321,22 @@
     }, 
     {
         "day": "Sunday", 
+        "description": "Democracy Street is an interactive digital arts and learning project, developed and curated by the artist Jon Adams. Commissioned by the Houses of Parliament and Arts Council England, and created in collaboration with Mozilla and Si digital, Democracy Street aims to raise awareness of the power of democracy and the importance of free and open information.\nWe do this by engaging the public in the generation of a Digital Interactive Map that gives insight into the people and events that shaped our political landscape since the sealing of Magna Carta.\nWe have created a mobile web app and website for users to discover the history of the people behind the names of their local streets - and how they contributed to democracy.\nDuring the session participants can engage with the project directly via smartphones and mobile devices, seeing their discoveries adding data to the Interactive Map in real-time.", 
+        "facilitator_array": [
+            "Joseph Cavalla", 
+            "Jon Adams"
+        ], 
+        "facilitators": "Joseph Cavalla, Jon Adams", 
+        "id": "39650745", 
+        "location": "Floor 1 - 101", 
+        "pathways": "Mapping Your MozFest Learning Journey", 
+        "scheduleblock": "sunday-session-block-7", 
+        "space": "", 
+        "start": "02:45 PM", 
+        "title": "Democracy Street - Gamifying and Learning from Open Data"
+    }, 
+    {
+        "day": "Sunday", 
         "description": "This session will introduce people to the different ways animation can enhance data visualizations and then teach participants how to use with Snap.svg (a JavaScript library for creating, animating, and interacting with SVG in modern browsers) in their data-driven projects.", 
         "facilitator_array": [
             "Julia Smith"
