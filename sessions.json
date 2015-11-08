@@ -1559,6 +1559,19 @@
         "title": "The reality of diversity: The working dead"
     }, 
     {
+        "day": "Sunday", 
+        "description": "", 
+        "facilitator_array": [], 
+        "facilitators": "", 
+        "id": "2345986332", 
+        "location": "Floor 6 - 603", 
+        "pathways": "", 
+        "scheduleblock": "sunday-session-block-7", 
+        "space": "", 
+        "start": "02:45 PM", 
+        "title": "Hacking Dyslexia on the open web"
+    }, 
+    {
         "day": "Saturday", 
         "description": "Today's activist campaigns are innovative and connected, leveraging the web to build collective voice. Open source practice could amplify the power of contemporary activism by sharing resources and learning outcomes openly between movements. In this session we will use GitHub to codesign a framework for planning activist campaigns. It won't be too technical - if you can use a web browser you can learn to use GitHub during the session! We'll create a template to guide new movements with the benefit of your past experiences and together start to build a community-led repository for open source activism.", 
         "facilitator_array": [
