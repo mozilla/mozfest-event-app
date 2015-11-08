@@ -3098,6 +3098,7 @@
         "title": "Critical Care Datathon: Answering clinically relevant questions with the MIMIC Critical Care Dataset"
     }, 
     {
+        "day": "Sunday", 
         "description": "Science in the Browser with WebGL", 
         "facilitator_array": [
             "Michael Saunby, @msaunby, Met Office Informatics Lab", 
@@ -3108,8 +3109,9 @@
         "id": "301", 
         "location": "Floor 9 - 902", 
         "pathways": "Science in the Browser with WebGL", 
-        "scheduleblock": "science-in-the-browser-with-webgl", 
+        "scheduleblock": "sunday-session-block-5", 
         "space": "Open Science", 
+        "start": "11:30 AM", 
         "title": "Science in the Browser with WebGL"
     }, 
     {
