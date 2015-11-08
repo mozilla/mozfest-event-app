@@ -3479,14 +3479,16 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "description": "\n", 
+        "facilitator_array": [
+            "James, @aboynejames, Dsensor"
+        ], 
+        "facilitators": "James", 
         "id": "667", 
-        "location": "", 
+        "location": "Floor 9 - 900", 
         "pathways": "", 
         "scheduleblock": "sunday-session-block-5", 
-        "space": "", 
+        "space": "Open Science", 
         "start": "11:30 AM", 
         "title": "Programmable Science - dsensor.org"
     }, 
