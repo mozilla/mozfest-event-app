@@ -1561,8 +1561,10 @@
     {
         "day": "Sunday", 
         "description": "Come for an informal discussion of dyslexia tools and services. We will talk about reasons so few open tools exist.", 
-        "facilitator_array": [], 
-        "facilitators": "", 
+        "facilitator_array": [
+            "Ian Forrester, @cubicgarden"
+        ], 
+        "facilitators": "Ian Forrester", 
         "id": "2345986332", 
         "location": "Floor 6 - 603", 
         "pathways": "", 
