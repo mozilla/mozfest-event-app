@@ -117,7 +117,7 @@
     }, 
     {
         "day": "Sunday", 
-        "description": "The Web Ahead\nA conversation with Mitchell Baker, Mozilla's Executive Chairwoman in the executive suite on the eighth floor", 
+        "description": "A discussion between Mark Surman and Mitchell Baker.", 
         "facilitator_array": [], 
         "facilitators": "", 
         "id": "100009", 
@@ -125,7 +125,7 @@
         "pathways": "", 
         "scheduleblock": "sunday-lunch", 
         "space": "Everyone", 
-        "start": "01:30 PM", 
+        "start": "01:00 PM", 
         "title": "Sunday Fireside Chat"
     }, 
     {
