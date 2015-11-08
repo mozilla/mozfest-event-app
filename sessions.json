@@ -123,9 +123,9 @@
         "id": "100009", 
         "location": "Floor 8 - 802", 
         "pathways": "", 
-        "scheduleblock": "sunday-lunch", 
+        "scheduleblock": "sunday-session-block-7", 
         "space": "Everyone", 
-        "start": "01:00 PM", 
+        "start": "02:45 PM", 
         "title": "Sunday Fireside Chat"
     }, 
     {
