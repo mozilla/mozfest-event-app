@@ -480,7 +480,7 @@ a.page-control {
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 .clearfix:before,
