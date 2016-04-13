@@ -28,9 +28,6 @@
             <a href="https://2015.mozillafestival.org/"><img src="img/logo-mozilla-festival.svg" alt="MozFest"></a>
           </div>
           <div id="page-links">
-            <a href="https://2015.mozillafestival.org/tickets">Tickets</a>
-            <a href="#_spaces" id="spaces-page-link">Spaces</a>
-            <a href="#_pathways" id="pathways-page-link">Pathways</a>
           </div>
         </div>
       </nav>
@@ -115,7 +112,7 @@
     </script>
 
     <script type="text/template" id="session-card-template">
-    <a href="#_session-<%= sessionID %>" id="session-<%= sessionID %>" class="session-list-item<% if (session.space == 'Everyone') { %> session-everyone<% } %>" data-session="<%= sessionID.replace('-ghost','') %>">
+    <a href="#_session-<%= sessionID %>" id="session-<%= sessionID %>" class="session-list-item<% if (session.category == 'Everyone') { %> session-everyone<% } %>" data-session="<%= sessionID.replace('-ghost','') %>">
       <h4><%= smartypants(session.title) %></h4>
       <div>
         <% if (showFacilitators && session.facilitators) { %>
@@ -128,14 +125,14 @@
           <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %>
         </div>
         <% } %>
-        <% if (session.space || session.location) { %>
-        <div class="session-space-and-location">
-          <% if (session.space) { %><%= session.space %><% } %><% if (session.space&&session.location) { %>, <% } %><% if (session.location) { %><%= smartypants(session.location) %><% } %>
+        <% if (session.category || session.location) { %>
+        <div class="session-category-and-location">
+          <% if (session.category) { %><%= session.category %><% } %><% if (session.category&&session.location) { %>, <% } %><% if (session.location) { %><%= smartypants(session.location) %><% } %>
         </div>
         <% } %>
-        <% if (session.pathways) { %>
-        <div class="session-pathways">
-          <%= session.pathways %>
+        <% if (session.tags) { %>
+        <div class="session-tags">
+          <%= session.tags %>
         </div>
         <% } %>
       </div>
@@ -150,14 +147,14 @@
         <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %>
       </div>
       <% } %>
-      <% if (session.space || session.location) { %>
-      <div class="session-space-and-location">
-        <% if (session.space) { %><%= session.space %><% } %><% if (session.space&&session.location) { %>, <% } %><% if (session.location) { %><%= smartypants(session.location) %><% } %>
+      <% if (session.category || session.location) { %>
+      <div class="session-category-and-location">
+        <% if (session.category) { %><%= session.category %><% } %><% if (session.category&&session.location) { %>, <% } %><% if (session.location) { %><%= smartypants(session.location) %><% } %>
       </div>
       <% } %>
-       <% if (session.pathways) { %>
-      <div class="session-pathways">
-        <%= session.pathways %>
+       <% if (session.tags) { %>
+      <div class="session-tags">
+        <%= session.tags %>
       </div>
       <% } %>
       <% if (showFacilitators && session.facilitators.length > 0) { %>
@@ -186,16 +183,16 @@
             <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %>
           </div>
           <% } %>
-          <% if (session.space || session.location) { %>
-          <div class="session-space-and-location">
-            <% if (session.space) { %>
-              <a href="#_space-<%= slugify(session.space) %>"><%= session.space %></a><% } %><% if (session.space&&session.location) { %>, <% } %><% if (session.location) { %><%= smartypants(session.location) %><% } %>
+          <% if (session.category || session.location) { %>
+          <div class="session-category-and-location">
+            <% if (session.category) { %>
+              <a href="#_<%= customCategoryLabel %>-<%= slugify(session.category) %>"><%= session.category %></a><% } %><% if (session.category&&session.location) { %>, <% } %><% if (session.location) { %><%= smartypants(session.location) %><% } %>
           </div>
           <% } %>
-          <% if (session.pathways && session.pathwayArray.length) { %>
-          <div class="session-pathways">
-            <% session.pathwayArray.forEach(function(name, index) { %><% if (index > 0) { %>, <% } %>
-              <a href="#_pathway-<%= slugify(name) %>"><%= name %></a><% }) %>
+          <% if (session.tags && session.tagArray.length) { %>
+          <div class="session-tags">
+            <% session.tagArray.forEach(function(name, index) { %><% if (index > 0) { %>, <% } %>
+              <a href="#_<%= customTagLabel %>-<%= slugify(name) %>"><%= name %></a><% }) %>
           </div>
           <% } %>
           <% if (session.facilitators) { %>
@@ -213,24 +210,24 @@
     </div>
     </script>
 
-    <script type="text/template" id="spaces-list-template">
-      <div class="space-list-item" data-space="<%= space.slugify(space.name) %>">
-        <div class="space-icon-container">
-          <img src=<%= space.iconSrc %>>
+    <script type="text/template" id="categories-list-template">
+      <div class="category-list-item" data-category="<%= category.slugify(category.name) %>">
+        <div class="category-icon-container">
+          <img src=<%= category.iconSrc %>>
         </div>
-        <h4><%= space.name %></h4>
+        <h4><%= category.name %></h4>
         <div>
-          <a class="see-all-events-in-this-space" href="#_space-<%= space.slugify(space.name) %>">See all events in this Space</a>
-          <% space.description.forEach(function(p) { %>
+          <a class="see-all-events-in-this-category" href="#_<%= customCategoryLabel %>-<%= category.slugify(category.name) %>">See all events in this <%= customCategoryLabel %></a>
+          <% category.description.forEach(function(p) { %>
             <%= marked(p) %>
           <% }) %>
         </div>
       </div>
     </script>
 
-    <script type="text/template" id="pathways-list-template">
+    <script type="text/template" id="tags-list-template">
       <% if (name) { %>
-      <a href="#_pathway-<%= slugify(name) %>" class="pathway-list-item" data-pathway="<%= slugify(name) %>">
+      <a href="#_<%= customTagLabel %>-<%= slugify(name) %>" class="tag-list-item" data-tag="<%= slugify(name) %>">
         <h4><%= name %></h4>
         <p><%= numSessions %> session<% if (numSessions>1) { %>s<% } %></p>
         <% if (description.length) { %><% description.forEach(function(p) { %>
@@ -244,5 +241,37 @@
     <script src="js/underscore-min.js"></script>
     <script src="js/marked.min.js"></script>
     <script src="js/schedule.js"></script>
+    <script>
+      var customConfig = {
+        displayNameForCategory: {
+          singular:'theSpace',
+          plural: 'theSpaces'
+        },
+        displayNameForTag: {
+          singular:'thePathway',
+          plural: 'thePathways'
+        },
+        pathToSessionsJson: 'sessions-converted.json',
+        pathToCategoriesJson: 'spaces.json',
+        pathToTagsJson: 'pathways.json',
+        localStoragePrefix: 'test-event',
+        // MozFest calls this "session" while Hive Buzz calls this "moonshot"
+        categoryType: 'session',
+        tabList: [
+          { name: 'Friday', displayName: 'Fri', tabDate: new Date(2015,10,6) },
+          { name: 'Saturday', displayName: 'Sat', tabDate: new Date(2015,10,7) },
+          { name: 'Sunday', displayName: 'Sun', tabDate: new Date(2015,10,8) },
+          { name: 'All', displayName: 'All' }
+        ],
+        additionalNavItems: [
+          {
+            label: "Ticket",
+            link: "https://2015.mozillafestival.org/tickets",
+          }
+        ]
+      }
+      // instantiate the app
+      new Schedule(customConfig);
+    </script>
   </body>
 </html>
