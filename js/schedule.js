@@ -1,12 +1,25 @@
-function Schedule(options) {
+function Schedule(customConfig) {
   var schedule = {};
+  var LOCALSTORGE_KEY_SAVED_SESSIONS = customConfig.localStoragePrefix+'_saved_sessions';
+  var CATEGORY_NAV_LINK_ID = "categories-page-link";
+  var TAG_NAV_LINK_ID = "tags-page-link";
+  var DISPLAY_NAME_FOR_CATEGORY = {
+    singular: customConfig.displayNameForCategory.singular.toLowerCase(),
+    plural: customConfig.displayNameForCategory.plural.toLowerCase(),
+  }
+  var DISPLAY_NAME_FOR_TAG = {
+    singular: customConfig.displayNameForTag.singular.toLowerCase(),
+    plural: customConfig.displayNameForTag.plural.toLowerCase(),
+  }
 
   schedule.init = function(options) {
+    schedule.buildNavbar();
+
     // TODO: make these configurable, passed in as options
     // when you create a Schedule() instance on the page
-    schedule.sourceJSON = 'sessions.json';
-    schedule.spacesJSON = 'spaces.json';
-    schedule.pathwaysJSON = 'pathways.json';
+    schedule.pathToSessionsJson = options.pathToSessionsJson;
+    schedule.pathToCategoriesJson = options.pathToCategoriesJson;
+    schedule.pathToTagsJson = options.pathToTagsJson;
     schedule.$container = $('#schedule');
     schedule.$toggles = $('<ul>').appendTo('#schedule-controls');
     schedule.$pageLinks = $('#page-links');
@@ -15,21 +28,16 @@ function Schedule(options) {
 
     // TODO: determine list of unique tab names and dates
     // after loadSessions() gets actual session data
-    schedule.tabList = [
-      { name: 'Friday', displayName: 'Fri', tabDate: new Date(2015,10,6) },
-      { name: 'Saturday', displayName: 'Sat', tabDate: new Date(2015,10,7) },
-      { name: 'Sunday', displayName: 'Sun', tabDate: new Date(2015,10,8) },
-      { name: 'All', displayName: 'All' }
-    ];
+    schedule.tabList = options.tabList;
     schedule.sessionList = [];
-    schedule.spaceMetaList = [];
-    schedule.pathwayMetaList = [];
-    schedule.pathwayMap = [];
+    schedule.categoryMetaList = [];
+    schedule.tagMetaList = [];
+    schedule.tagMap = [];
     // check for saved sessions in localStorage. Because localStorage only
     // takes strings, split on commas so we get an array of session IDs
     if (Modernizr.localstorage) {
-      localStorage['mozfest2015_saved_sessions'] = localStorage['mozfest2015_saved_sessions'] || '';
-      schedule.savedSessionIDs = _.compact(localStorage['mozfest2015_saved_sessions'].split(',')) || [];
+      localStorage[LOCALSTORGE_KEY_SAVED_SESSIONS] = localStorage[LOCALSTORGE_KEY_SAVED_SESSIONS] || '';
+      schedule.savedSessionIDs = _.compact(localStorage[LOCALSTORGE_KEY_SAVED_SESSIONS].split(',')) || [];
     }
 
     // add UI elements
@@ -71,21 +79,21 @@ function Schedule(options) {
         schedule.chosenTab = pageID;
         schedule.makeSchedule();
         break;
-      case "_spaces":
-        // shows list of Spaces and their description
-        schedule.displaySpacesList();
+      case "_"+DISPLAY_NAME_FOR_CATEGORY.plural:
+        // shows list of Categories and their description
+        schedule.displayCategoriesList();
         break;
-      case "_space":
-        // show sessions in a space based on space slug in URL
-        schedule.displaySessionsOfSpace(pageID);
+       case "_"+DISPLAY_NAME_FOR_CATEGORY.singular:
+        // show sessions in a Category based on the Category (or the equivalent custom label) slug in URL
+        schedule.displaySessionsOfCategory(pageID);
         break;
-      case "_pathways": 
-        // shows list of all pathways
-        schedule.displayPathwaysList();
+      case "_"+DISPLAY_NAME_FOR_TAG.plural:
+        // shows list of all Tags
+        schedule.displayTagsList();
         break;
-      case "_pathway":
-        // show sessions in a pathway based on pathway slug in URL
-        schedule.getFilteredSessions("pathways", pageID);
+      case "_"+DISPLAY_NAME_FOR_TAG.singular:
+        // show sessions in a Tag based on the Tag(or the equivalent custom label) slug in URL
+        schedule.getFilteredSessions("tags", pageID);
         break;
     }
   }
@@ -96,7 +104,7 @@ function Schedule(options) {
   }
 
   // loadSessions() gets session data and sorts it for display. Checks
-  // for local data first, then falls back to ajax call to sourceJSON file.
+  // for local data first, then falls back to ajax call to pathToSessionsJson file.
   // An optional callback function can be passed in.
   schedule.loadSessions = function(callback) {
     if (schedule.sessionList.length) {
@@ -108,7 +116,7 @@ function Schedule(options) {
       }
     } else {
       // if there's no session data yet, fetch from JSON
-      $.getJSON(schedule.sourceJSON, function() {
+      $.getJSON(schedule.pathToSessionsJson, function() {
           // temporarily show loading text
           $('.open-block').html('<span class="loading">LOADING SCHEDULE DATA <span>.</span><span>.</span><span>.</span></span>');
         })
@@ -124,20 +132,20 @@ function Schedule(options) {
     }
   }
 
-  // loadSpaces() gets Spaces meta data and sorts it for display. Checks
-  // for local data first, then falls back to ajax call to spacesJSON file.
+  // loadCategories() gets Category meta data and sorts it for display. Checks
+  // for local data first, then falls back to ajax call to pathToCategoriesJson file.
   // An optional callback function can be passed in.
-  schedule.loadSpaces = function(callback) {
-    if (schedule.spaceMetaList.length) {
-      // if the app already has collected Spaces meta data, fire the callback
+  schedule.loadCategories = function(callback) {
+    if (schedule.categoryMetaList.length) {
+      // if the app already has collected Categories meta data, fire the callback
       if (callback) {
         callback();
       }
     } else {
-      // if there's no Spaces meta data yet, fetch from JSON
-      $.getJSON(schedule.spacesJSON)
+      // if there's no Categoreis meta data yet, fetch from JSON
+      $.getJSON(schedule.pathToCategoriesJson)
         .done(function(results) {
-          schedule.spaceMetaList = results;
+          schedule.categoryMetaList = results;
           if (callback) {
             callback();
           }
@@ -145,20 +153,20 @@ function Schedule(options) {
     }
   }
 
-  // loadPathways() gets Pathways meta data and sorts it for display. Checks
-  // for local data first, then falls back to ajax call to loadPathways file.
+  // loadTags() gets Tags meta data and sorts it for display. Checks
+  // for local data first, then falls back to ajax call to loadTags file.
   // An optional callback function can be passed in.
-  schedule.loadPathways = function(callback) {
-    if (schedule.pathwayMetaList.length) {
-      // if the app already has collected Pathways meta data, fire the callback
+  schedule.loadTags = function(callback) {
+    if (schedule.tagMetaList.length) {
+      // if the app already has collected Tags meta data, fire the callback
       if (callback) {
         callback();
       }
     } else {
-      // if there's no Pathways meta data yet, fetch from JSON
-      $.getJSON(schedule.pathwaysJSON)
+      // if there's no Tags meta data yet, fetch from JSON
+      $.getJSON(schedule.pathToTagsJson)
         .done(function(results) {
-          schedule.pathwayMetaList = results;
+          schedule.tagMetaList = results;
           if (callback) {
             callback();
           }
@@ -175,7 +183,7 @@ function Schedule(options) {
       // simple way to divide sessions into groups by length
       return i.length != '1 hour';
     });
-    schedule.getPathwaysCountMap();
+    schedule.getTagsCountMap();
   }
 
   // writeSession() renders session data into a template fragment.
@@ -271,7 +279,9 @@ function Schedule(options) {
       var templateData = {
         session: session,
         slugify: schedule.slugify, // context function for string-matching
-        smartypants: schedule.smartypants // context function for nice typography
+        smartypants: schedule.smartypants, // context function for nice typography
+        customCategoryLabel: DISPLAY_NAME_FOR_CATEGORY.singular,
+        customTagLabel: DISPLAY_NAME_FOR_TAG.singular
       }
 
       // turn facilitator_array into array of individual facilitator objects
@@ -291,8 +301,8 @@ function Schedule(options) {
         return meta;
       })
 
-      // add pathway array for individual links
-      templateData.session.pathwayArray = _.each(session.pathways.split(','), function(i) {
+      // add Tags array for individual links
+      templateData.session.tagArray = _.each(session.tags.split(','), function(i) {
         schedule.trim(i);
       })
 
@@ -419,7 +429,7 @@ function Schedule(options) {
 
   // given a JSON key name `filterKey`, find session objects with values
   // that contain the string `filterValue`. This is a substring comparison
-  // based on slugified versions of key and value, e.g. "my-great-pathway"
+  // based on slugified versions of key and value, e.g. "my-great-tag"
   schedule.getFilteredSessions = function(filterKey, filterValue) {
     schedule.filterKey = filterKey || schedule.filterKey;
     schedule.filterValue = filterValue || schedule.filterValue;
@@ -519,9 +529,12 @@ function Schedule(options) {
   // adds search filter and expanded data toggle to top of "All" sessions list
   schedule.addListControls = function() {
     schedule.addCaptionOverline();
+    var generateHelpText = function() {
+      return "Search names, facilitators, " + DISPLAY_NAME_FOR_CATEGORY.plural + ", " + DISPLAY_NAME_FOR_TAG.plural +", and descriptions:";
+    }
 
     var filterForm = '<div id="filter-form">\
-        <label for="list-filter">Search names, facilitators, spaces, pathways, and descriptions:</label>\
+        <label for="list-filter">'+generateHelpText()+'</label>\
         <input class="filter" type="text" id="list-filter" />\
       </div>';
     $(filterForm).appendTo(schedule.$container);
@@ -535,12 +548,12 @@ function Schedule(options) {
       if (filterVal) {
         // compare current value of search input across session data,
         // matching against titles, session leader names, descriptions,
-        // pathways and spaces
+        // Categories and Tags
         var filteredSessions = _.filter(schedule.sessionList, function(v, k) {
           return (v.title.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                || (v.facilitators.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
-               || (v.pathways.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
-               || (v.space.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
+               || (v.tags.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
+               || (v.category.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                || (v.description.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0);
         });
         // get the IDs of the matching sessions ...
@@ -590,120 +603,123 @@ function Schedule(options) {
     schedule.savedSessionList = _.filter(schedule.sessionList, function(v, k) {
       // by default include "everyone" sessions on favorites list
       // just to make temporal wayfinding easier
-      return (v.space == 'Everyone') || _.contains(schedule.savedSessionIDs, v.id);
+      return (v.category == 'Everyone') || _.contains(schedule.savedSessionIDs, v.id);
     });
   }
 
-  // display the list of Spaces and their descriptions
-  schedule.displaySpacesList = function() {
+  // display the list of Categories and their descriptions
+  schedule.displayCategoriesList = function() {
     schedule.clearHighlightedPage();
-    schedule.$pageLinks.find('#spaces-page-link').addClass('active');
+    schedule.$pageLinks.find('#categories-page-link').addClass('active');
     schedule.$container.html("");
-    schedule.addCaptionOverline("<h3><span>Spaces</span></h3>");
+    schedule.addCaptionOverline("<h3><span>" + DISPLAY_NAME_FOR_CATEGORY.plural + "</span></h3>");
 
-    schedule.loadSpaces(function() {
-      _.each(schedule.spaceMetaList, function(v, k) {
-        // prep the Space data for the template
+    schedule.loadCategories(function() {
+      _.each(schedule.categoryMetaList, function(v, k) {
+        // prep the Category data for the template
         var templateData = {
-          space: {
+          category: {
             name: v.name,
             description: v.description,
             iconSrc: v.iconSrc,
             slugify: schedule.slugify
-          }
+          },
+          customCategoryLabel: DISPLAY_NAME_FOR_CATEGORY.singular
         };
-        schedule.$container.append(schedule.spacesListTemplate(templateData));
+        schedule.$container.append(schedule.categoriesListTemplate(templateData));
       });
     });
   }
 
-  // display all sessions of a particular Space
-  schedule.displaySessionsOfSpace = function(space_slug) {
-    schedule.getFilteredSessions("space", space_slug);
+  // display all sessions of a particular Category
+  schedule.displaySessionsOfCategory = function(category_slug) {
+    schedule.getFilteredSessions("category", category_slug);
   }
 
-  // display the list of Pathways and their descriptions
-  schedule.displayPathwaysList = function() {
+  // display the list of Tags and their descriptions
+  schedule.displayTagsList = function() {
     if (!schedule.sessionList.length) {
-      schedule.loadSessions(schedule.appendPathwayListItems);
+      schedule.loadSessions(schedule.appendTagListItems);
     } else {
-      schedule.appendPathwayListItems();
+      schedule.appendTagListItems();
     }
   }
 
-  schedule.appendPathwayListItems = function() {
+  schedule.appendTagListItems = function() {
     schedule.clearHighlightedPage();
-    schedule.$pageLinks.find('#pathways-page-link').addClass('active');
+    schedule.$pageLinks.find('#tags-page-link').addClass('active');
     schedule.$container.html("");
-    schedule.addCaptionOverline("<h3><span>Pathways</span></h3>");
+    schedule.addCaptionOverline("<h3><span>"+DISPLAY_NAME_FOR_TAG.plural+"</span></h3>");
 
-    schedule.loadPathways(function() {
-      var pathwaysListKeys = _.map(schedule.pathwayMetaList, function(pathway) {
-        return pathway.name;
+    schedule.loadTags(function() {
+      var tagsListKeys = _.map(schedule.tagMetaList, function(tag) {
+        return tag.name;
       });
 
-      _.each(_.sortBy(_.keys(schedule.pathwayMap)), function(v, k) {
-        // index in pathwaysListKeys 
-        var index = pathwaysListKeys.indexOf(v);
-        // prep the Pathway data for the template
+      _.each(_.sortBy(_.keys(schedule.tagMap)), function(v, k) {
+        // index in tagsListKeys 
+        var index = tagsListKeys.indexOf(v);
+        // prep the Tag data for the template
         var templateData = {
           name: v,
-          numSessions: schedule.pathwayMap[v],
+          numSessions: schedule.tagMap[v],
           description: [],
-          slugify: schedule.slugify
+          slugify: schedule.slugify,
+          customCategoryLabel: DISPLAY_NAME_FOR_CATEGORY.singular,
+          customTagLabel: DISPLAY_NAME_FOR_TAG.singular
         };
 
         if (index > -1) {
-          templateData.description = schedule.pathwayMetaList[index].description;
+          templateData.description = schedule.tagMetaList[index].description;
         }
-        schedule.$container.append(schedule.pathwayMapTemplate(templateData));
+        schedule.$container.append(schedule.tagMapTemplate(templateData));
       });
     });
   }
 
-  schedule.getPathwaysCountMap = function() {
-    if ( schedule.pathwayMap.length == 0 ) {
-      var pathwaysArray = [];
+  schedule.getTagsCountMap = function() {
+    if ( schedule.tagMap.length == 0 ) {
+      var tagsArray = [];
       _.each(schedule.sessionList, function(session) {
-        _.each(session.pathways.split(","), function(p) {
-          pathwaysArray.push(p.trim());
+        _.each(session.tags.split(","), function(p) {
+          tagsArray.push(p.trim());
         });
       });
-      schedule.pathwayMap = _.countBy(_.flatten(pathwaysArray));
+      schedule.tagMap = _.countBy(_.flatten(tagsArray));
     }
   }
 
 
   // add the standard listeners for various user interactions
   schedule.addListeners = function() {
-    // clicking on the "Spaces" link on the nav bar displays the list of Spaces
-    schedule.$pageLinks.on('click', '#spaces-page-link', function(e) {
-      schedule.updateHash('spaces');
-      schedule.displaySpacesList();
+    // clicking on the [Categories] link on the nav bar displays the list of Categories
+    schedule.$pageLinks.on('click', '#'+CATEGORY_NAV_LINK_ID, function(e) {
+      schedule.updateHash(DISPLAY_NAME_FOR_CATEGORY.plural);
+      schedule.displayCategoriesList();
     });
 
-    // clicking on the "Spaces" link on the nav bar displays the list of Spaces
-    schedule.$pageLinks.on('click', '#pathways-page-link', function(e) {
-      schedule.updateHash('pathways');
-      schedule.displayPathwaysList();
+    // clicking on the [Tags] link on the nav bar displays the list of Tags
+    schedule.$pageLinks.on('click', '#'+TAG_NAV_LINK_ID, function(e) {
+      schedule.updateHash(DISPLAY_NAME_FOR_TAG.plural);
+      schedule.displayTagsList();
     });
 
-    // clicking on "See all events in this Space" shows all sessions within that particular Space
-    schedule.$container.on('click', '.see-all-events-in-this-space', function(e) {
+    // clicking on "See all events in this [Category] shows all sessions within that particular [Category]
+    schedule.$container.on('click', '.see-all-events-in-this-category', function(e) {
       e.preventDefault();
 
-      var space_slug = $(this).parents(".space-list-item").data("space");
-      schedule.updateHash('space-'+space_slug);
-      schedule.displaySessionsOfSpace(space_slug);
+      var category_slug = $(this).parents(".category-list-item").data("category");
+      schedule.updateHash(DISPLAY_NAME_FOR_CATEGORY.singular+'-'+category_slug);
+      schedule.displaySessionsOfCategory(category_slug);
     });
 
-    // clicking on "Pathway card" shows all sessions that tagged with that pathway
-    schedule.$container.on('click', '.pathway-list-item', function(e) {
+    // clicking on "[Tag] card" shows all Sessions that tagged with that [Tag]
+    schedule.$container.on('click', '.tag-list-item', function(e) {
       e.preventDefault();
 
-      var pathway_slug = $(this).data("pathway");
-      schedule.updateHash('pathway-'+pathway_slug);
-      schedule.getFilteredSessions("pathways", pathway_slug);
+      var tag_slug = $(this).data("tag");
+      schedule.updateHash(DISPLAY_NAME_FOR_TAG.singular+'-'+tag_slug);
+      schedule.getFilteredSessions("tags", tag_slug);
     });
 
     // clicking on session "card" in a list opens session detail view
@@ -830,7 +846,7 @@ function Schedule(options) {
         }
       }
       // stash the list as a string in localStorage
-      localStorage['mozfest2015_saved_sessions'] = schedule.savedSessionIDs.join();
+      localStorage[LOCALSTORGE_KEY_SAVED_SESSIONS] = schedule.savedSessionIDs.join();
       // update the data associated with this user's favorites
       schedule.updateSavedSessionList();
     });
@@ -912,7 +928,7 @@ function Schedule(options) {
   }
 
   // utility function to turn strings into "slugs" for easier matching
-  // e.g. "My Great Pathway" -> "my-great-pathway"
+  // e.g. "My Great Tag" -> "my-great-tag"
   schedule.slugify = function(str) {
     if (!str) { return '' }
     var from = "ąàáäâãåæăćęèéëêìíïîłńòóöôõøśșțùúüûñçżź",
@@ -944,16 +960,38 @@ function Schedule(options) {
     $("script#session-detail-template").html()
   );
 
-  schedule.spacesListTemplate = _.template(
-    $("script#spaces-list-template").html()
+  schedule.categoriesListTemplate = _.template(
+    $("script#categories-list-template").html()
   );
 
-  schedule.pathwayMapTemplate = _.template(
-    $("script#pathways-list-template").html()
+  schedule.tagMapTemplate = _.template(
+    $("script#tags-list-template").html()
   );
+
+  schedule.buildNavbar = function() {
+    var navItems = [
+      {
+        label: DISPLAY_NAME_FOR_CATEGORY.plural,
+        link: "#_"+DISPLAY_NAME_FOR_CATEGORY.plural,
+        id: CATEGORY_NAV_LINK_ID
+      },
+      {
+        label: DISPLAY_NAME_FOR_TAG.plural,
+        link: "#_"+DISPLAY_NAME_FOR_TAG.plural,
+        id: TAG_NAV_LINK_ID
+      },
+    ];
+    var navbarContainer = $("#page-links");
+    navItems.concat(customConfig.additionalNavItems).forEach(function(navItem){
+      $("<a>"+navItem.label+"</a>")
+        .attr("href",navItem.link)
+        .attr("id", navItem.id || '')
+        .appendTo(navbarContainer);
+    });
+  };
 
   // fight me
-  schedule.init();
+  schedule.init(customConfig);
 }
 
 // settings for marked library, to allow markdown formatting in session details
@@ -961,6 +999,3 @@ marked.setOptions({
   tables: false,
   smartypants: true
 });
-
-// instantiate the app
-new Schedule();

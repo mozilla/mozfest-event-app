@@ -267,7 +267,7 @@ h3.slider-control {
 
 .session-list-item,
 .open-block,
-.pathway-list-item  {
+.tag-list-item  {
   display: block;
   clear: both;
   position: relative;
@@ -281,14 +281,14 @@ h3.slider-control {
 }
 
 .session-list-item,
-.pathway-list-item {
+.tag-list-item {
   color: #55565A;
   text-decoration: none;
 }
 
 .session-list-item h4,
-.space-list-item h4,
-.pathway-list-item  h4 {
+.category-list-item h4,
+.tag-list-item  h4 {
   margin: 0 6rem 2rem 0;
   line-height: 1.2;
   font-size: 3rem;
@@ -353,16 +353,16 @@ a.page-control {
 
 .session-facilitators,
 .session-time,
-.session-space-and-location,
-.session-pathways {
+.session-category-and-location,
+.session-tags {
   position: relative;
   padding-left: 25px;
 }
 
 .session-facilitators:before,
 .session-time:before,
-.session-space-and-location:before,
-.session-pathways:before {
+.session-category-and-location:before,
+.session-tags:before {
   display: block;
   content: "";
   background-size: 20px auto;
@@ -382,12 +382,12 @@ a.page-control {
   top: 4px;
 }
 
-.session-space-and-location:before {
+.session-category-and-location:before {
   background-image: url(../img/icon-space.svg);
   top: 6px;
 }
 
-.session-pathways:before {
+.session-tags:before {
   background-image: url(../img/icon-pathway.svg);
   top: 4px;
 }
@@ -439,7 +439,7 @@ a.page-control {
 .session-time {
 
 }
-.session-space-and-location {
+.session-category-and-location {
 
 }
 
@@ -450,32 +450,32 @@ a.page-control {
   margin-bottom: 2rem;
 }
 
-.space-list-item {
+.category-list-item {
   padding: 4rem;
 }
 
-.space-list-item h4,
-.pathway-list-item h4 {
+.category-list-item h4,
+.tag-list-item h4 {
   margin-left: 0;
 }
 
-.space-list-item .space-icon-container {
+.category-list-item .category-icon-container {
   float: left;
   padding-left: 1rem;
   padding-right: 2rem;
 }
 
-.space-list-item .space-icon-container img {
+.category-list-item .category-icon-container img {
   width: 12rem;
   height: auto;
 }
 
-.space-list-item:nth-child(2n+1) {
+.category-list-item:nth-child(2n+1) {
   background: #f5f5f5;
 }
 
-.space-list-item p:last-child,
-.pathway-list-item p:last-child {
+.category-list-item p:last-child,
+.tag-list-item p:last-child {
   margin-bottom: 0;
 }
 
@@ -565,11 +565,11 @@ a.page-control {
     top: 2px;
   }
 
-  .session-space-and-location:before {
+  .session-category-and-location:before {
     top: 3px;
   }
 
-  .session-pathways:before {
+  .session-tags:before {
     top: 2px;
   }
 }
