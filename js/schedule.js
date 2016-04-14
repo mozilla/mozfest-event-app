@@ -541,7 +541,6 @@ function Schedule(customConfig) {
 
     var expand = $('<a id="show-descriptions" class="page-control" data-action="show" href="#"><i class="fa fa-plus-circle"></i> Show descriptions</a>').appendTo(schedule.$container);
 
-    var filteredList = $('#schedule');
     // watch search input for changes, and filter the session list accordingly
     $('#list-filter').change(function() {
       var filterVal = $(this).val();
@@ -571,7 +570,7 @@ function Schedule(customConfig) {
       } else {
         // no value in search input, so make sure all items are visible
         $('.session-description').hide();
-        filteredList.find('.session-list-item').css('display','block');
+        schedule.$container.find('.session-list-item').css('display','block');
         // show the "expand" toggle
         expand.show();
       }
