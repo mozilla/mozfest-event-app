@@ -383,12 +383,12 @@ a.page-control {
 }
 
 .session-category-and-location:before {
-  background-image: url(https://mozilla.github.io/schedule-app-core/img/icon-space.svg);
+  background-image: url(https://mozilla.github.io/schedule-app-core/img/icon-category.svg);
   top: 6px;
 }
 
 .session-tags:before {
-  background-image: url(https://mozilla.github.io/schedule-app-core/img/icon-pathway.svg);
+  background-image: url(https://mozilla.github.io/schedule-app-core/img/icon-tag.svg);
   top: 4px;
 }
 
