@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Open Sans';
-  src: url('../fonts/OpenSans-Regular-webfont.eot');
-  src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-     url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
-     url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
-     url('../fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
+  src: url('https://mozilla.github.io/schedule-app-core/fonts/OpenSans-Regular-webfont.eot');
+  src: url('https://mozilla.github.io/schedule-app-core/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+     url('https://mozilla.github.io/schedule-app-core/fonts/OpenSans-Regular-webfont.woff') format('woff'),
+     url('https://mozilla.github.io/schedule-app-core/fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+     url('https://mozilla.github.io/schedule-app-core/fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
   font-weight: normal;
   font-weight: 400;
   font-style: normal;
@@ -12,11 +12,11 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: url('../fonts/OpenSans-Bold-webfont.eot');
-  src: url('../fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-     url('../fonts/OpenSans-Bold-webfont.woff') format('woff'),
-     url('../fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
-     url('../fonts/OpenSans-Bold-webfont.svg#OpenSansBold') format('svg');
+  src: url('https://mozilla.github.io/schedule-app-core/fonts/OpenSans-Bold-webfont.eot');
+  src: url('https://mozilla.github.io/schedule-app-core/fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+     url('https://mozilla.github.io/schedule-app-core/fonts/OpenSans-Bold-webfont.woff') format('woff'),
+     url('https://mozilla.github.io/schedule-app-core/fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+     url('https://mozilla.github.io/schedule-app-core/fonts/OpenSans-Bold-webfont.svg#OpenSansBold') format('svg');
   font-weight: bold;
   font-weight: 700;
   font-style: normal;
@@ -24,8 +24,8 @@
 
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
-  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+  src: url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.eot?v=4.3.0');
+  src: url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -373,22 +373,22 @@ a.page-control {
 }
 
 .session-facilitators:before {
-  background-image: url(../img/icon-facilitator.svg);
+  background-image: url(https://mozilla.github.io/schedule-app-core/img/icon-facilitator.svg);
   top: 4px;
 }
 
 .session-time:before {
-  background-image: url(../img/icon-clock.svg);
+  background-image: url(https://mozilla.github.io/schedule-app-core/img/icon-clock.svg);
   top: 4px;
 }
 
 .session-category-and-location:before {
-  background-image: url(../img/icon-space.svg);
+  background-image: url(https://mozilla.github.io/schedule-app-core/img/icon-space.svg);
   top: 6px;
 }
 
 .session-tags:before {
-  background-image: url(../img/icon-pathway.svg);
+  background-image: url(https://mozilla.github.io/schedule-app-core/img/icon-pathway.svg);
   top: 4px;
 }
 
