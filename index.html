@@ -184,25 +184,24 @@
         mainHeaderText: "2015 Mozfest Schedule",
         subHeaderText: "November 6-8  ·  Ravensbourne, London",
         displayNameForCategory: {
-          singular:'theSpace',
-          plural: 'theSpaces'
+          singular:'Space', // this can only be one word
+          plural: 'Spaces' // this can only be one word
         },
         displayNameForTag: {
-          singular:'thePathway',
-          plural: 'thePathways'
+          singular:'Pathway', // this can only be one word
+          plural: 'Pathways' // this can only be one word
         },
         pathToSessionsJson: 'sessions-new-format.json',
         pathToCategoriesJson: 'spaces.json',
         pathToTagsJson: 'pathways.json',
         localStoragePrefix: 'test-event',
-        categoryType: 'session',
         tabList: [
           { name: 'Friday', displayName: 'Fri', tabDate: new Date(2015,10,6) },
           { name: 'Saturday', displayName: 'Sat', tabDate: new Date(2015,10,7) },
           { name: 'Sunday', displayName: 'Sun', tabDate: new Date(2015,10,8) },
           { name: 'All', displayName: 'All' }
         ],
-        additionalNavItems: [
+        additionalNavItems: [ // additionalNavItems is optional
           {
             label: "Ticket",
             link: "https://2015.mozillafestival.org/tickets",
