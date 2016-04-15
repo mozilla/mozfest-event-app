@@ -1,19 +1,21 @@
-function Schedule(customConfig) {
+function Schedule(CUSTOM_CONFIG) {
   var schedule = {};
-  var LOCALSTORGE_KEY_SAVED_SESSIONS = customConfig.localStoragePrefix+'_saved_sessions';
+  var LOCALSTORGE_KEY_SAVED_SESSIONS = CUSTOM_CONFIG.localStoragePrefix+'_saved_sessions';
   var CATEGORY_NAV_LINK_ID = "categories-page-link";
   var TAG_NAV_LINK_ID = "tags-page-link";
   var DISPLAY_NAME_FOR_CATEGORY = {
-    singular: customConfig.displayNameForCategory.singular.toLowerCase(),
-    plural: customConfig.displayNameForCategory.plural.toLowerCase(),
+    singular: CUSTOM_CONFIG.displayNameForCategory.singular.toLowerCase(),
+    plural: CUSTOM_CONFIG.displayNameForCategory.plural.toLowerCase(),
   }
   var DISPLAY_NAME_FOR_TAG = {
-    singular: customConfig.displayNameForTag.singular.toLowerCase(),
-    plural: customConfig.displayNameForTag.plural.toLowerCase(),
+    singular: CUSTOM_CONFIG.displayNameForTag.singular.toLowerCase(),
+    plural: CUSTOM_CONFIG.displayNameForTag.plural.toLowerCase(),
   }
 
   schedule.init = function(options) {
+    // Build shared UI components
     schedule.buildNavbar();
+    schedule.buildMainHeading();
 
     // TODO: make these configurable, passed in as options
     // when you create a Schedule() instance on the page
@@ -206,6 +208,32 @@ function Schedule(customConfig) {
     openBlocks.remove();
   }
 
+  // dynamically generate a list of container <div> based on the scheduleblock values in the given sessionList
+  schedule.generateListOfScheduleBlocks = function(sessionList) {
+    console.log("//// generateListOfScheduleBlocks ///");
+    var scheduleBlocks = sessionList.map(function(session,i) {
+      return session.scheduleblock;
+    });
+    schedule.generateScheduleBlock(_.uniq(scheduleBlocks));
+  }
+
+  // insert schedule block container into DOM
+  schedule.generateScheduleBlock = function(scheduleBlocks) {
+    // TODO: need to make sure blocks are being inserted in proper order
+    _.each(scheduleBlocks,function(blockName) {
+      // TODO: can probably use template for this
+      // schedule block header
+      var header = $("<h3><span>"+blockName+"</span></h3>");
+      // container
+      var container = $("<div></div>")
+                        .attr("id", blockName)
+                        .attr("class", "page-block")
+                        .html("<div class='open-block'>OPEN</div>");
+      schedule.$container.find(".schedule-tab:visible").append(header)
+                                                       .append(container);
+    });
+  }
+
   // prepares session data to be rendered into a template fragment
   schedule.makeSessionItemTemplateData = function(sessionItem, expanded) {
     var templatedata = {
@@ -232,14 +260,10 @@ function Schedule(customConfig) {
     // or fall back to schedule.sessionList
     var sessionList = sessionList || schedule.sessionList;
 
-    var visibleIDs = $('.page-block:visible').map(function() {
-      return this.id;
-    })
-    var visibleSessionList = _.filter(sessionList, function(s) {
-      return _.contains(visibleIDs, s.scheduleblock)
-    })
+    console.log("sessionList.length = ", sessionList.length);
+    schedule.generateListOfScheduleBlocks(sessionList);
 
-    _.each(visibleSessionList, function(v, k) {
+    _.each(sessionList, function(v, k) {
       // find the correct schedule block on the page for this session
       var targetBlock = $('#'+v.scheduleblock);
       // prep the session data for the template
@@ -431,6 +455,8 @@ function Schedule(customConfig) {
   // that contain the string `filterValue`. This is a substring comparison
   // based on slugified versions of key and value, e.g. "my-great-tag"
   schedule.getFilteredSessions = function(filterKey, filterValue) {
+    console.log("filterd key & value = ", filterKey, filterValue );
+
     schedule.filterKey = filterKey || schedule.filterKey;
     schedule.filterValue = filterValue || schedule.filterValue;
 
@@ -442,7 +468,9 @@ function Schedule(customConfig) {
     }
   }
   schedule.showFilteredSessions = function() {
-    schedule.clearHighlightedPage();
+    if ( schedule.filterKey !== "day" ) {
+      schedule.clearHighlightedPage();
+    }
 
     if (!!schedule.filterKey) {
       schedule.filteredList = _.filter(schedule.sessionList, function(v, k) {
@@ -458,6 +486,7 @@ function Schedule(customConfig) {
 
   // based on the value of chosenTab, render the proper session list
   schedule.loadChosenTab = function() {
+    console.log("=======loadChosenTab=========== ", schedule.chosenTab);
     // clear currently highlighted tab/page link
     // and make sure the selected tab is lit
     schedule.clearHighlightedPage();
@@ -484,7 +513,11 @@ function Schedule(customConfig) {
       schedule.$container.find('.schedule-tab').hide();
       $('#'+schedule.chosenTab).show();
       schedule.addCaptionOverline();
-      schedule.loadSessions(schedule.addSessionsToSchedule);
+      // TODO (for the data processor service): make sure "day" in sessions.json are all lowercase
+      console.log(schedule.chosenTab);
+      var capitalizedDayValue = schedule.chosenTab.charAt(0).toUpperCase() + schedule.chosenTab.slice(1);
+      schedule.getFilteredSessions("day", capitalizedDayValue);
+      $('#show-'+schedule.chosenTab).addClass('active');
     }
   }
 
@@ -980,17 +1013,28 @@ function Schedule(customConfig) {
         id: TAG_NAV_LINK_ID
       },
     ];
-    var navbarContainer = $("#page-links");
-    navItems.concat(customConfig.additionalNavItems).forEach(function(navItem){
+    var $navbarContainer = $("#page-links");
+    navItems.concat(CUSTOM_CONFIG.additionalNavItems).forEach(function(navItem){
       $("<a>"+navItem.label+"</a>")
         .attr("href",navItem.link)
         .attr("id", navItem.id || '')
-        .appendTo(navbarContainer);
+        .appendTo($navbarContainer);
     });
   };
 
+  schedule.buildMainHeading = function() {
+    var $mainHeadingContainer = $(".main-heading");
+    console.log($mainHeadingContainer);
+    $("<h1></h1>")
+      .html(CUSTOM_CONFIG.mainHeaderText)
+      .appendTo($mainHeadingContainer);
+    $("<h2></h2>")
+      .html(CUSTOM_CONFIG.subHeaderText)
+      .appendTo($mainHeadingContainer);
+  }
+
   // fight me
-  schedule.init(customConfig);
+  schedule.init(CUSTOM_CONFIG);
 }
 
 // settings for marked library, to allow markdown formatting in session details
