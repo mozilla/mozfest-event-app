@@ -6,7 +6,7 @@
     <title>MozFest 2015 Schedule</title>
     <meta name="description" content="Schedule for MozFest 2015, Nov. 7 & 8 in London.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/schedule.css">
+    <link rel="stylesheet" href="https://mozilla.github.io/schedule-app-core/css/schedule.css">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon.png">
     <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
     <script>
@@ -17,7 +17,7 @@
       ga('create', 'UA-51039715-2', 'auto');
       ga('send', 'pageview');
     </script>
-    <script src="js/modernizr.js"></script>
+    <script src="https://mozilla.github.io/schedule-app-core/js/modernizr.js"></script>
   </head>
   <body>
 
@@ -25,7 +25,7 @@
       <nav>
         <div class="container">
           <div class="logo">
-            <a href="https://2015.mozillafestival.org/"><img src="img/logo-mozilla-festival.svg" alt="MozFest"></a>
+            <a href="https://2015.mozillafestival.org/"><img src="https://mozilla.github.io/schedule-app-core/img/logo-mozilla-festival.svg" alt="MozFest"></a>
           </div>
           <div id="page-links"></div>
         </div>
@@ -175,10 +175,10 @@
       <% } %>
     </script>
 
-    <script src="js/jquery-2.1.0.min.js"></script>
-    <script src="js/underscore-min.js"></script>
-    <script src="js/marked.min.js"></script>
-    <script src="js/schedule.js"></script>
+    <script src="https://mozilla.github.io/schedule-app-core/js/jquery-2.1.0.min.js"></script>
+    <script src="https://mozilla.github.io/schedule-app-core/js/underscore-min.js"></script>
+    <script src="https://mozilla.github.io/schedule-app-core/js/marked.min.js"></script>
+    <script src="https://mozilla.github.io/schedule-app-core/js/schedule.js"></script>
     <script>
       var customConfig = {
         mainHeaderText: "2015 Mozfest Schedule",
@@ -191,9 +191,9 @@
           singular:'Pathway', // this can only be one word
           plural: 'Pathways' // this can only be one word
         },
-        pathToSessionsJson: 'sessions-new-format.json',
-        pathToCategoriesJson: 'spaces.json',
-        pathToTagsJson: 'pathways.json',
+        pathToSessionsJson: 'https://mozilla.github.io/schedule-app-core/sessions-new-format.json',
+        pathToCategoriesJson: 'https://mozilla.github.io/schedule-app-core/spaces.json',
+        pathToTagsJson: 'https://mozilla.github.io/schedule-app-core/pathways.json',
         localStoragePrefix: 'test-event',
         tabList: [
           { name: 'Friday', displayName: 'Fri', tabDate: new Date(2015,10,6) },
