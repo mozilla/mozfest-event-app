@@ -1,248 +1,215 @@
 <!DOCTYPE html>
 <html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>MozFest 2015 Schedule</title>
-        <meta name="description" content="Schedule for MozFest 2015, Nov. 7 & 8 in London.">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/schedule.css">
-        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon.png">
-        <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-51039715-2', 'auto');
-            ga('send', 'pageview');
-        </script>
-        <script src="js/modernizr.js"></script>
-    </head>
-    <body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>MozFest 2015 Schedule</title>
+    <meta name="description" content="Schedule for MozFest 2015, Nov. 7 & 8 in London.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/schedule.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-51039715-2', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script src="js/modernizr.js"></script>
+  </head>
+  <body>
 
-        <header>
-            <nav>
-                <div class="container">
-                    <div class="logo">
-                        <a href="https://2015.mozillafestival.org/"><img src="img/logo-mozilla-festival.svg" alt="MozFest"></a>
-                    </div>
-                    <div id="page-links">
-                        <a href="https://2015.mozillafestival.org/tickets">Tickets</a>
-                        <a href="#_spaces" id="spaces-page-link">Spaces</a>
-                        <a href="#_pathways" id="pathways-page-link">Pathways</a>
-                    </div>
-                </div>
-            </nav>
-        </header>
-            
+    <header>
+      <nav>
         <div class="container">
-            <h1>2015 Mozfest Schedule</h1>
-            <h2>November 6-8  ·  Ravensbourne, London</h2>
-            <div id="schedule-controls"></div>
-            <article id="schedule"></article>
+          <div class="logo">
+            <a href="https://2015.mozillafestival.org/"><img src="img/logo-mozilla-festival.svg" alt="MozFest"></a>
+          </div>
+          <div id="page-links"></div>
         </div>
+      </nav>
+    </header>
+      
+    <div class="container">
+      <div class="main-heading"></div>
+      <div id="schedule-controls"></div>
+      <article id="schedule"></article>
+    </div>
 
-        <script type="text/template" id="session-list-template">
-        <div id="friday" class="schedule-tab">
-            <h3><span>Friday 6 PM</span></h3>
-            <div id="friday-evening" class="page-block"><div class="open-block">OPEN</div></div>
+    <script type="text/template" id="session-list-template">
+    <div id="friday" class="schedule-tab">
+    </div>
+    
+    <div id="saturday" class="schedule-tab">
+    </div>
+    
+    <div id="sunday" class="schedule-tab">
+    </div>
+    </script>
+
+    <script type="text/template" id="session-card-template">
+    <a href="#_session-<%= sessionID %>" id="session-<%= sessionID %>" class="session-list-item<% if (session.category == 'Everyone') { %> session-everyone<% } %>" data-session="<%= sessionID.replace('-ghost','') %>">
+      <h4><%= smartypants(session.title) %></h4>
+      <div>
+        <% if (showFacilitators && session.facilitators) { %>
+        <div class="session-facilitators">
+          <%= smartypants(session.facilitators) %>
         </div>
-        
-        <div id="saturday" class="schedule-tab">
-            <h3><span>Saturday 8 AM</span></h3>
-            <div id="saturday-registration" class="page-block"><div class="open-block">OPEN</div></div>
-
-            <h3><span>Saturday 9 AM</span></h3>
-            <div id="saturday-opening" class="page-block"><div class="open-block">OPEN</div></div>
-
-            <h3><span>All Day Saturday</span></h3>
-            <div id="all-saturday" class="page-block"><div class="open-block">OPEN</div></div>
-
-            <h3><span>Saturday 10:45 AM</span></h3>
-            <div id="saturday-session-block-1" class="page-block"><div class="open-block">OPEN</div></div>
-
-            <h3><span>Saturday 12 PM</span></h3>
-            <div id="saturday-session-block-2" class="page-block"><div class="open-block">OPEN</div></div>
-
-            <h3><span>Saturday Lunch 12:30 PM</span></h3>
-            <div id="saturday-lunch" class="page-block"><div class="open-block">OPEN</div></div>
-
-            <h3><span>Saturday 2:15 PM</span></h3>
-            <div id="saturday-session-block-3" class="page-block"><div class="open-block">OPEN</div></div>
-
-            <h3><span>Saturday 3:30 PM</span></h3>
-            <div id="saturday-session-block-4" class="page-block"><div class="open-block">OPEN</div></div>
-
-            <h3><span>Saturday Evening Main Stage 5:00 PM</span></h3>
-            <div id="saturday-evening" class="page-block"><div class="open-block">OPEN</div></div>
-
-            <h3><span>Saturday 7:00 PM</span></h3>
-            <div id="saturday-7pm" class="page-block"><div class="open-block">OPEN</div></div>
+        <% } %>
+        <% if (session.start) { %>
+        <div class="session-time">
+          <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %>
         </div>
-        
-        <div id="sunday" class="schedule-tab">
-            <h3><span>Sunday 9 AM</span></h3>
-            <div id="sunday-registration" class="page-block"><div class="open-block">OPEN</div></div>
-
-            <h3><span>Sunday 10 AM</span></h3>
-            <div id="sunday-opening" class="page-block"><div class="open-block">OPEN</div></div>
-
-            <h3><span>All Day Sunday</span></h3>
-            <div id="all-sunday" class="page-block"><div class="open-block">OPEN</div></div>
-            
-            <h3><span>Sunday 11:30 AM</span></h3>
-            <div id="sunday-session-block-5" class="page-block"><div class="open-block">OPEN</div></div>
-
-            <h3><span>Sunday 12:45 PM</span></h3>
-            <div id="sunday-session-block-6" class="page-block"><div class="open-block">OPEN</div></div>
-
-            <h3><span>Sunday Lunch 1:30 PM</span></h3>
-            <div id="sunday-lunch" class="page-block"><div class="open-block">OPEN</div></div>
-
-            <h3><span>Sunday 1:45 PM</span></h3>
-            <div id="sunday-0145pm" class="page-block"><div class="open-block">OPEN</div></div>
-
-            <h3><span>Sunday 2:45 PM</span></h3>
-            <div id="sunday-session-block-7" class="page-block"><div class="open-block">OPEN</div></div>
-
-            <h3><span>Sunday 4 PM</span></h3>
-            <div id="sunday-session-block-8" class="page-block"><div class="open-block">OPEN</div></div>
-
-            <h3><span>Sunday 5:30 PM</span></h3>
-            <div id="sunday-evening" class="page-block"><div class="open-block">OPEN</div></div>
+        <% } %>
+        <% if (session.category || session.location) { %>
+        <div class="session-category-and-location">
+          <% if (session.category) { %><%= session.category %><% } %><% if (session.category&&session.location) { %>, <% } %><% if (session.location) { %><%= smartypants(session.location) %><% } %>
         </div>
-        </script>
-
-        <script type="text/template" id="session-card-template">
-        <a href="#_session-<%= sessionID %>" id="session-<%= sessionID %>" class="session-list-item<% if (session.space == 'Everyone') { %> session-everyone<% } %>" data-session="<%= sessionID.replace('-ghost','') %>">
-            <h4><%= smartypants(session.title) %></h4>
-            <div>
-                <% if (showFacilitators && session.facilitators) { %>
-                <div class="session-facilitators">
-                    <%= smartypants(session.facilitators) %>
-                </div>
-                <% } %>
-                <% if (session.start) { %>
-                <div class="session-time">
-                    <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %>
-                </div>
-                <% } %>
-                <% if (session.space || session.location) { %>
-                <div class="session-space-and-location">
-                    <% if (session.space) { %><%= session.space %><% } %><% if (session.space&&session.location) { %>, <% } %><% if (session.location) { %><%= smartypants(session.location) %><% } %>
-                </div>
-                <% } %>
-                <% if (session.pathways) { %>
-                <div class="session-pathways">
-                    <%= session.pathways %>
-                </div>
-                <% } %>
-            </div>
-        </a>
-        </script>
-
-        <script type="text/template" id="session-list-item-template">
-        <a href="#_session-<%= sessionID %>" id="session-<%= sessionID %>" class="session-list-item" data-session="<%= sessionID.replace('-ghost','') %>">
-            <h4><%= smartypants(session.title) %></h4>
-            <% if (session.start) { %>
-            <div class="session-time">
-                <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %>
-            </div>
-            <% } %>
-            <% if (session.space || session.location) { %>
-            <div class="session-space-and-location">
-                <% if (session.space) { %><%= session.space %><% } %><% if (session.space&&session.location) { %>, <% } %><% if (session.location) { %><%= smartypants(session.location) %><% } %>
-            </div>
-            <% } %>
-             <% if (session.pathways) { %>
-            <div class="session-pathways">
-                <%= session.pathways %>
-            </div>
-            <% } %>
-            <% if (showFacilitators && session.facilitators.length > 0) { %>
-            <div class="session-facilitators">
-                <%= smartypants(session.facilitators) %>
-            </div>
-            <% } %>
-            <div class="hidden session-description">
-            <% if (session.description) { %>
-                <%= marked(session.description.replace('http://','').replace('https://','')) %>
-            <% } %>
-            </div>
-        </a>
-        </script>
-
-        <script type="text/template" id="session-detail-template">
-        <div id="session-detail-wrapper">
-            <a id="show-full-schedule" href="/">Back to full schedule</a>
-            <div id="session-detail-<%= session.id %>" class="session-detail" data-session="<%= session.id %>">
-                <div class="header">
-                    <h2><%= smartypants(session.title) %></h2>
-                </div>
-                <div class="meta">
-                    <% if (session.start) { %>
-                    <div class="session-time">
-                        <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %>
-                    </div>
-                    <% } %>
-                    <% if (session.space || session.location) { %>
-                    <div class="session-space-and-location">
-                        <% if (session.space) { %>
-                            <a href="#_space-<%= slugify(session.space) %>"><%= session.space %></a><% } %><% if (session.space&&session.location) { %>, <% } %><% if (session.location) { %><%= smartypants(session.location) %><% } %>
-                    </div>
-                    <% } %>
-                    <% if (session.pathways && session.pathwayArray.length) { %>
-                    <div class="session-pathways">
-                        <% session.pathwayArray.forEach(function(name, index) { %><% if (index > 0) { %>, <% } %>
-                            <a href="#_pathway-<%= slugify(name) %>"><%= name %></a><% }) %>
-                    </div>
-                    <% } %>
-                    <% if (session.facilitators) { %>
-                    <div class="session-facilitators">
-                        <% session.facilitator_array.forEach(function(facilitator, index) { %><% if (index > 0) { %>, <br><% } %><%= facilitator.name %><% if (facilitator.twitter) { %> <a href="https://twitter.com/<%= facilitator.twitter %>"><%= facilitator.twitter %></a><% } %><% if (facilitator.description.length>0) { %>, <%= facilitator.description %><% } %><% }) %>
-                    </div>
-                    <% } %>
-                </div>
-                <% if (session.description) { %>
-                <div class="session-description">
-                    <%= marked(session.description) %>
-                </div>
-                <% } %>
-            </div>
+        <% } %>
+        <% if (session.tags) { %>
+        <div class="session-tags">
+          <%= session.tags %>
         </div>
-        </script>
+        <% } %>
+      </div>
+    </a>
+    </script>
 
-        <script type="text/template" id="spaces-list-template">
-            <div class="space-list-item" data-space="<%= space.slugify(space.name) %>">
-                <div class="space-icon-container">
-                    <img src=<%= space.iconSrc %>>
-                </div>
-                <h4><%= space.name %></h4>
-                <div>
-                    <a class="see-all-events-in-this-space" href="#_space-<%= space.slugify(space.name) %>">See all events in this Space</a>
-                    <% space.description.forEach(function(p) { %>
-                        <%= marked(p) %>
-                    <% }) %>
-                </div>
-            </div>
-        </script>
+    <script type="text/template" id="session-list-item-template">
+    <a href="#_session-<%= sessionID %>" id="session-<%= sessionID %>" class="session-list-item" data-session="<%= sessionID.replace('-ghost','') %>">
+      <h4><%= smartypants(session.title) %></h4>
+      <% if (session.start) { %>
+      <div class="session-time">
+        <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %>
+      </div>
+      <% } %>
+      <% if (session.category || session.location) { %>
+      <div class="session-category-and-location">
+        <% if (session.category) { %><%= session.category %><% } %><% if (session.category&&session.location) { %>, <% } %><% if (session.location) { %><%= smartypants(session.location) %><% } %>
+      </div>
+      <% } %>
+       <% if (session.tags) { %>
+      <div class="session-tags">
+        <%= session.tags %>
+      </div>
+      <% } %>
+      <% if (showFacilitators && session.facilitators.length > 0) { %>
+      <div class="session-facilitators">
+        <%= smartypants(session.facilitators) %>
+      </div>
+      <% } %>
+      <div class="hidden session-description">
+      <% if (session.description) { %>
+        <%= marked(session.description.replace('http://','').replace('https://','')) %>
+      <% } %>
+      </div>
+    </a>
+    </script>
 
-        <script type="text/template" id="pathways-list-template">
-            <% if (name) { %>
-            <a href="#_pathway-<%= slugify(name) %>" class="pathway-list-item" data-pathway="<%= slugify(name) %>">
-                <h4><%= name %></h4>
-                <p><%= numSessions %> session<% if (numSessions>1) { %>s<% } %></p>
-                <% if (description.length) { %><% description.forEach(function(p) { %>
-                    <%= marked(p) %>
-                <% }) %><% } %>
-            </a>
-            <% } %>
-        </script>
+    <script type="text/template" id="session-detail-template">
+    <div id="session-detail-wrapper">
+      <a id="show-full-schedule" href="/">Back to full schedule</a>
+      <div id="session-detail-<%= session.id %>" class="session-detail" data-session="<%= session.id %>">
+        <div class="header">
+          <h2><%= smartypants(session.title) %></h2>
+        </div>
+        <div class="meta">
+          <% if (session.start) { %>
+          <div class="session-time">
+            <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %>
+          </div>
+          <% } %>
+          <% if (session.category || session.location) { %>
+          <div class="session-category-and-location">
+            <% if (session.category) { %>
+              <a href="#_<%= customCategoryLabel %>-<%= slugify(session.category) %>"><%= session.category %></a><% } %><% if (session.category&&session.location) { %>, <% } %><% if (session.location) { %><%= smartypants(session.location) %><% } %>
+          </div>
+          <% } %>
+          <% if (session.tags && session.tagArray.length) { %>
+          <div class="session-tags">
+            <% session.tagArray.forEach(function(name, index) { %><% if (index > 0) { %>, <% } %>
+              <a href="#_<%= customTagLabel %>-<%= slugify(name) %>"><%= name %></a><% }) %>
+          </div>
+          <% } %>
+          <% if (session.facilitators) { %>
+          <div class="session-facilitators">
+            <% session.facilitator_array.forEach(function(facilitator, index) { %><% if (index > 0) { %>, <br><% } %><%= facilitator.name %><% if (facilitator.twitter) { %> <a href="https://twitter.com/<%= facilitator.twitter %>"><%= facilitator.twitter %></a><% } %><% if (facilitator.description.length>0) { %>, <%= facilitator.description %><% } %><% }) %>
+          </div>
+          <% } %>
+        </div>
+        <% if (session.description) { %>
+        <div class="session-description">
+          <%= marked(session.description) %>
+        </div>
+        <% } %>
+      </div>
+    </div>
+    </script>
 
-        <script src="js/jquery-2.1.0.min.js"></script>
-        <script src="js/underscore-min.js"></script>
-        <script src="js/marked.min.js"></script>
-        <script src="js/schedule.js"></script>
-    </body>
+    <script type="text/template" id="categories-list-template">
+      <div class="category-list-item" data-category="<%= category.slugify(category.name) %>">
+        <div class="category-icon-container">
+          <img src=<%= category.iconSrc %>>
+        </div>
+        <h4><%= category.name %></h4>
+        <div>
+          <a class="see-all-events-in-this-category" href="#_<%= customCategoryLabel %>-<%= category.slugify(category.name) %>">See all events in this <%= customCategoryLabel %></a>
+          <% category.description.forEach(function(p) { %>
+            <%= marked(p) %>
+          <% }) %>
+        </div>
+      </div>
+    </script>
+
+    <script type="text/template" id="tags-list-template">
+      <% if (name) { %>
+      <a href="#_<%= customTagLabel %>-<%= slugify(name) %>" class="tag-list-item" data-tag="<%= slugify(name) %>">
+        <h4><%= name %></h4>
+        <p><%= numSessions %> session<% if (numSessions>1) { %>s<% } %></p>
+        <% if (description.length) { %><% description.forEach(function(p) { %>
+          <%= marked(p) %>
+        <% }) %><% } %>
+      </a>
+      <% } %>
+    </script>
+
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="js/underscore-min.js"></script>
+    <script src="js/marked.min.js"></script>
+    <script src="js/schedule.js"></script>
+    <script>
+      var customConfig = {
+        mainHeaderText: "2015 Mozfest Schedule",
+        subHeaderText: "November 6-8  ·  Ravensbourne, London",
+        displayNameForCategory: {
+          singular:'Space', // this can only be one word
+          plural: 'Spaces' // this can only be one word
+        },
+        displayNameForTag: {
+          singular:'Pathway', // this can only be one word
+          plural: 'Pathways' // this can only be one word
+        },
+        pathToSessionsJson: 'sessions-new-format.json',
+        pathToCategoriesJson: 'spaces.json',
+        pathToTagsJson: 'pathways.json',
+        localStoragePrefix: 'test-event',
+        tabList: [
+          { name: 'Friday', displayName: 'Fri', tabDate: new Date(2015,10,6) },
+          { name: 'Saturday', displayName: 'Sat', tabDate: new Date(2015,10,7) },
+          { name: 'Sunday', displayName: 'Sun', tabDate: new Date(2015,10,8) },
+          { name: 'All', displayName: 'All' }
+        ],
+        additionalNavItems: [ // additionalNavItems is optional
+          {
+            label: "Ticket",
+            link: "https://2015.mozillafestival.org/tickets",
+          }
+        ]
+      }
+      // instantiate the app
+      new Schedule(customConfig);
+    </script>
+  </body>
 </html>
