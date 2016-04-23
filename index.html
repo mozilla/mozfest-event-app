@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>MozFest 2015 Schedule</title>
+    <title>Schedule App</title>
     <meta name="description" content="Schedule for MozFest 2015, Nov. 7 & 8 in London.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://mozilla.github.io/schedule-app-core/css/schedule.css">
@@ -152,7 +152,7 @@
     <script type="text/template" id="categories-list-template">
       <div class="category-list-item" data-category="<%= category.slugify(category.name) %>">
         <div class="category-icon-container">
-          <img src=<%= category.iconSrc %>>
+          <% if (category.iconSrc) { %><img src=<%= category.iconSrc %>><% } %>
         </div>
         <h4><%= category.name %></h4>
         <div>
@@ -195,7 +195,7 @@
         pathToSessionsJson: 'iron-chef-sessions.json',
         pathToCategoriesJson: 'categories.json',
         pathToTagsJson: 'tags.json',
-        localStoragePrefix: 'test-event',
+        localStoragePrefix: 'iron-chef',
         tabList: [
           { name: 'Saturday', displayName: 'Sat', tabDate: new Date(2016,5,21) },
           { name: 'Sunday', displayName: 'Sun', tabDate: new Date(2016,5,22) },
