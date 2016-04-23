@@ -124,7 +124,8 @@ function Schedule(CUSTOM_CONFIG) {
         })
         .done(function(results) {
           $('.open-block').text('OPEN');
-          schedule.sortSessionGroups(results);
+          schedule.formatTimeblocks(results.timeblocks);
+          schedule.sortSessionGroups(results.sessions);
           // update savedSessionList with any new data
           schedule.updateSavedSessionList();
           if (callback) {
@@ -176,6 +177,13 @@ function Schedule(CUSTOM_CONFIG) {
     }
   }
 
+  schedule.formatTimeblocks = function(data) {
+    schedule.timeblocks = _.sortBy(data, function(i) {
+      return parseInt(i.order);
+    });
+    console.log(schedule.timeblocks);
+  }
+
 
   // sortSessionGroups() performs basic sorting so session lists
   // are rendered in proper order
@@ -208,25 +216,24 @@ function Schedule(CUSTOM_CONFIG) {
     openBlocks.remove();
   }
 
-  // dynamically generate a list of container <div> based on the scheduleblock values in the given sessionList
-  schedule.generateListOfScheduleBlocks = function(sessionList) {
-    console.log("//// generateListOfScheduleBlocks ///");
-    var scheduleBlocks = sessionList.map(function(session,i) {
-      return session.scheduleblock;
+  schedule.generateListOftimeblocks = function() {
+    // TODO: need to make sure blocks are sorted in proper order
+    //       eg., Friday goes before Saturday, Monday goes before Tuesday etc
+    var timeblocks =  _.sortBy(schedule.timeblocks, function(i) {
+      return i.day;
     });
-    schedule.generateScheduleBlock(_.uniq(scheduleBlocks));
+    schedule.generateTimeblock(timeblocks);
   }
 
   // insert schedule block container into DOM
-  schedule.generateScheduleBlock = function(scheduleBlocks) {
-    // TODO: need to make sure blocks are being inserted in proper order
-    _.each(scheduleBlocks,function(blockName) {
+  schedule.generateTimeblock = function(timeblocks) {
+    _.each(timeblocks,function(timeblock,i) {
       // TODO: can probably use template for this
       // schedule block header
-      var header = $("<h3><span>"+blockName+"</span></h3>");
+      var header = $("<h3><span>"+timeblock['timeblock name']+"</span></h3>");
       // container
       var container = $("<div></div>")
-                        .attr("id", blockName)
+                        .attr("id", timeblock.key)
                         .attr("class", "page-block")
                         .html("<div class='open-block'>OPEN</div>");
       schedule.$container.find(".schedule-tab:visible").append(header)
@@ -261,11 +268,11 @@ function Schedule(CUSTOM_CONFIG) {
     var sessionList = sessionList || schedule.sessionList;
 
     console.log("sessionList.length = ", sessionList.length);
-    schedule.generateListOfScheduleBlocks(sessionList);
+    schedule.generateListOftimeblocks();
 
     _.each(sessionList, function(v, k) {
       // find the correct schedule block on the page for this session
-      var targetBlock = $('#'+v.scheduleblock);
+      var targetBlock = $('#'+v.timeblock);
       // prep the session data for the template
       var templateData = schedule.makeSessionItemTemplateData(v);
       // render it in
@@ -277,7 +284,7 @@ function Schedule(CUSTOM_CONFIG) {
         templateData.sessionID += '-ghost';
         templateData.sessionClass += ' session-ghost';
 
-        var targetBlock = $('#'+v.scheduleblock.replace('-1','-2'));
+        var targetBlock = $('#'+v.timeblock.replace('-1','-2'));
         schedule.writeSession(targetBlock, templateData);
       }
     });
@@ -393,7 +400,7 @@ function Schedule(CUSTOM_CONFIG) {
     }
   }
   
-  // add icons for collapsible scheduleblocks
+  // add icons for collapsible timeblocks
   schedule.addBlockToggles = function() {
     var blocks = schedule.$container.find('.page-block:visible');
     blocks.prev('h3').addClass('slider-control').append('<i class="fa fa-chevron-circle-down"></i>');
@@ -480,6 +487,8 @@ function Schedule(CUSTOM_CONFIG) {
 
     schedule.$container.html(schedule.sessionListTemplate);
     schedule.addCaptionOverline("<h2>" + schedule.filterKey + ": " + schedule.filterValue.replace(/-/g," ") + "</h2>");
+
+    console.log("schedule.filteredList = ", schedule.filteredList);
     schedule.addSessionsToSchedule(schedule.filteredList);
     schedule.clearOpenBlocks();
   }
@@ -514,7 +523,6 @@ function Schedule(CUSTOM_CONFIG) {
       $('#'+schedule.chosenTab).show();
       schedule.addCaptionOverline();
       // TODO (for the data processor service): make sure "day" in sessions.json are all lowercase
-      console.log(schedule.chosenTab);
       var capitalizedDayValue = schedule.chosenTab.charAt(0).toUpperCase() + schedule.chosenTab.slice(1);
       schedule.getFilteredSessions("day", capitalizedDayValue);
       $('#show-'+schedule.chosenTab).addClass('active');
@@ -1014,7 +1022,7 @@ function Schedule(CUSTOM_CONFIG) {
       },
     ];
     var $navbarContainer = $("#page-links");
-    navItems.concat(CUSTOM_CONFIG.additionalNavItems).forEach(function(navItem){
+    navItems.concat(CUSTOM_CONFIG.additionalNavItems || []).forEach(function(navItem){
       $("<a>"+navItem.label+"</a>")
         .attr("href",navItem.link)
         .attr("id", navItem.id || '')
@@ -1024,7 +1032,6 @@ function Schedule(CUSTOM_CONFIG) {
 
   schedule.buildMainHeading = function() {
     var $mainHeadingContainer = $(".main-heading");
-    console.log($mainHeadingContainer);
     $("<h1></h1>")
       .html(CUSTOM_CONFIG.mainHeaderText)
       .appendTo($mainHeadingContainer);

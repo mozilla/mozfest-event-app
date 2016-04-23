@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Italian",
+    "description": [
+      "Italian cuisine Italian cuisine Italian cuisine Italian cuisine Italian cuisine Italian cuisine Italian cuisine Italian cuisine Italian cuisine Italian cuisine Italian cuisine Italian cuisine Italian cuisine Italian cuisine"
+    ],
+    "iconSrc": "http://www.mapsopensource.com/images/flag-of-italy.gif"
+  },
+  {
+    "name": "Japanese",
+    "description": [
+      "Japanese cuisine Japanese cuisine Japanese cuisine Japanese cuisine Japanese cuisine Japanese cuisine Japanese cuisine Japanese cuisine Japanese cuisine Japanese cuisine"
+    ],
+    "iconSrc": "http://www.mapsopensource.com/images/flag-of-japan.gif"
+  }
+]
