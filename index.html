@@ -14,8 +14,9 @@
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-51039715-2', 'auto');
-      ga('send', 'pageview');
+      // replace the 2nd parameter with you UA code, e.g., UA-12345678-1
+      // ga('create', 'replace-with-your-UA-code-here', 'auto');
+      // ga('send', 'pageview');
     </script>
     <script src="https://mozilla.github.io/schedule-app-core/js/modernizr.js"></script>
   </head>
@@ -25,7 +26,7 @@
       <nav>
         <div class="container">
           <div class="logo">
-            <a href="https://2015.mozillafestival.org/"><img src="https://mozilla.github.io/schedule-app-core/img/logo-mozilla-festival.svg" alt="MozFest"></a>
+            LOGO HERE
           </div>
           <div id="page-links"></div>
         </div>
@@ -178,34 +179,27 @@
     <script src="https://mozilla.github.io/schedule-app-core/js/jquery-2.1.0.min.js"></script>
     <script src="https://mozilla.github.io/schedule-app-core/js/underscore-min.js"></script>
     <script src="https://mozilla.github.io/schedule-app-core/js/marked.min.js"></script>
-    <script src="https://mozilla.github.io/schedule-app-core/js/schedule.js"></script>
+    <script src="js/schedule.js"></script>
     <script>
       var customConfig = {
-        mainHeaderText: "2015 Mozfest Schedule",
-        subHeaderText: "November 6-8  ·  Ravensbourne, London",
+        mainHeaderText: "Iron Chef Training Conference",
+        subHeaderText: "June 21-22  · Hawaii",
         displayNameForCategory: {
-          singular:'Space', // this can only be one word
-          plural: 'Spaces' // this can only be one word
+          singular:'theme', // this can only be one word
+          plural: 'themes' // this can only be one word
         },
         displayNameForTag: {
-          singular:'Pathway', // this can only be one word
-          plural: 'Pathways' // this can only be one word
+          singular:'tag', // this can only be one word
+          plural: 'tags' // this can only be one word
         },
-        pathToSessionsJson: 'https://mozilla.github.io/schedule-app-core/sessions-new-format.json',
-        pathToCategoriesJson: 'https://mozilla.github.io/schedule-app-core/spaces.json',
-        pathToTagsJson: 'https://mozilla.github.io/schedule-app-core/pathways.json',
+        pathToSessionsJson: 'iron-chef-sessions.json',
+        pathToCategoriesJson: 'categories.json',
+        pathToTagsJson: 'tags.json',
         localStoragePrefix: 'test-event',
         tabList: [
-          { name: 'Friday', displayName: 'Fri', tabDate: new Date(2015,10,6) },
-          { name: 'Saturday', displayName: 'Sat', tabDate: new Date(2015,10,7) },
-          { name: 'Sunday', displayName: 'Sun', tabDate: new Date(2015,10,8) },
+          { name: 'Saturday', displayName: 'Sat', tabDate: new Date(2016,5,21) },
+          { name: 'Sunday', displayName: 'Sun', tabDate: new Date(2016,5,22) },
           { name: 'All', displayName: 'All' }
-        ],
-        additionalNavItems: [ // additionalNavItems is optional
-          {
-            label: "Ticket",
-            link: "https://2015.mozillafestival.org/tickets",
-          }
         ]
       }
       // instantiate the app
