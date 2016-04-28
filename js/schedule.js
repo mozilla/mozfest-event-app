@@ -486,7 +486,16 @@ function Schedule(CUSTOM_CONFIG) {
     }
 
     schedule.$container.html(schedule.sessionListTemplate);
-    schedule.addCaptionOverline("<h2>" + schedule.filterKey + ": " + schedule.filterValue.replace(/-/g," ") + "</h2>");
+    if ( schedule.filterKey !== 'day' ) {
+      var label = schedule.filterKey;
+      if ( schedule.filterKey === 'category' ) {
+        label = DISPLAY_NAME_FOR_CATEGORY.singular;
+      }
+      if ( schedule.filterKey === 'tags' ) {
+        label = DISPLAY_NAME_FOR_TAG.singular;
+      }
+      schedule.addCaptionOverline("<h2>" + label + ": " + schedule.filterValue.replace(/-/g," ") + "</h2>");
+    }
 
     console.log("schedule.filteredList = ", schedule.filteredList);
     schedule.addSessionsToSchedule(schedule.filteredList);
