@@ -317,6 +317,9 @@ function Schedule(CUSTOM_CONFIG) {
 
       // turn facilitator_array into array of individual facilitator objects
       templateData.session.facilitator_array = _.map(session.facilitator_array, function(facilitator) {
+        // skip conversion if facilitator has already been converted into object
+        if (typeof facilitator === 'object') return facilitator;
+
         var metaArray = facilitator.split(",");
         var meta = {
           name: metaArray.splice(0,1),
