@@ -880,36 +880,35 @@ function Schedule(CUSTOM_CONFIG) {
         .animate({
           fontSize: "+=5px",
         }, 200, function() {
-          $(this).toggleClass('favorite-active')
-        });
-
-      if (clicked.hasClass('favorite-active')) {
-        // if favorited, add the session ID to savedSessionIDs
-        schedule.savedSessionIDs.push(sessionID);
-        schedule.trackEvent('Session Faved', sessionID);
-      } else {
-        // otherwise, we have unfavorited, so remove the saved ID
-        schedule.savedSessionIDs = _.without(schedule.savedSessionIDs, sessionID);
-        schedule.trackEvent('Session Unfaved', sessionID);
-        // if we're actually *on* the "Favorites" tab,
-        // we need to remove this element from the page
-        if (schedule.chosenTab == 'favorites') {
-          targets.parent('.session-list-item').fadeOut('fast', function() {
-            var target = $(this);
-            var targetBlock = target.parents('.page-block');
-            target.remove();
-            if (!targetBlock.find('.session-list-item').length) {
-              //targetBlock.append('<div class="open-block">OPEN</div>');
-              targetBlock.prev('h3').remove();
-              targetBlock.fadeOut('fast');
+          clicked.toggleClass('favorite-active');
+          if (clicked.hasClass('favorite-active')) {
+            // if favorited, add the session ID to savedSessionIDs
+            schedule.savedSessionIDs.push(sessionID);
+            schedule.trackEvent('Session Faved', sessionID);
+          } else {
+            // otherwise, we have unfavorited, so remove the saved ID
+            schedule.savedSessionIDs = _.without(schedule.savedSessionIDs, sessionID);
+            schedule.trackEvent('Session Unfaved', sessionID);
+            // if we're actually *on* the "Favorites" tab,
+            // we need to remove this element from the page
+            if (schedule.chosenTab == 'favorites') {
+              targets.parent('.session-list-item').fadeOut('fast', function() {
+                var target = $(this);
+                var targetBlock = target.parents('.page-block');
+                target.remove();
+                if (!targetBlock.find('.session-list-item').length) {
+                  //targetBlock.append('<div class="open-block">OPEN</div>');
+                  targetBlock.prev('h3').remove();
+                  targetBlock.fadeOut('fast');
+                }
+              });
             }
-          });
-        }
-      }
-      // stash the list as a string in localStorage
-      localStorage[LOCALSTORGE_KEY_SAVED_SESSIONS] = schedule.savedSessionIDs.join();
-      // update the data associated with this user's favorites
-      schedule.updateSavedSessionList();
+          }
+          // stash the list as a string in localStorage
+          localStorage[LOCALSTORGE_KEY_SAVED_SESSIONS] = schedule.savedSessionIDs.join();
+          // update the data associated with this user's favorites
+          schedule.updateSavedSessionList();
+        });
     });
 
     // tap a schedule tab to toggle to a different view
