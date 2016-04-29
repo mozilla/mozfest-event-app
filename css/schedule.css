@@ -130,6 +130,11 @@ h2 {
   margin-top: 0;
 }
 
+input {
+  font-size: 1.8rem;
+  padding: 5px;
+}
+
 header a {
   white-space: nowrap;
 }
@@ -235,7 +240,7 @@ header a {
   font-size: 3.1rem;
   padding: .5rem .1rem .5rem .8rem;
   background-color: #fff;
-  color: #b7baba;
+  color: #D93F5F;
 }
 h3.slider-control {
   cursor: pointer;
@@ -271,7 +276,6 @@ h3.slider-control {
   display: block;
   clear: both;
   position: relative;
-  cursor: pointer;
   padding: 4rem;
   margin: 0 0 3rem 0;
   -webkit-border-radius: 2px;
@@ -313,7 +317,7 @@ a.page-control {
 #filter-form {
   padding: 0;
   margin-bottom: 3rem;
-  width: 50%;
+  width: 100%;
   float: left;
 }
 
@@ -322,6 +326,11 @@ a.page-control {
   width: 100%;
   margin-top: .5rem;
 }
+
+#show-descriptions {
+  margin-bottom: 20px;
+}
+
 #no-results {
 
 }
@@ -333,6 +342,7 @@ a.page-control {
 .favorite {
   color: #B94D60;
   font-size: 3.5rem;
+  width: 4rem;
   position: absolute;
   cursor: pointer;
   top: 3.5rem;
@@ -340,7 +350,6 @@ a.page-control {
   line-height: 1;
   margin-top: .7rem;
   text-align: center;
-
 }
 
 .favorite-active .fa-heart-o:before {
@@ -357,6 +366,7 @@ a.page-control {
 .session-tags {
   position: relative;
   padding-left: 25px;
+  text-transform: capitalize;
 }
 
 .session-facilitators:before,
@@ -540,9 +550,6 @@ a.page-control {
   .container {
     padding: 0 4rem;
   }
-  #filter-form {
-    width: 100%;
-  }
   .page-control {
     display: inline-block;
     padding: 0;
@@ -585,6 +592,7 @@ a.page-control {
     float: none;
   }
   #page-links {
+    display: block;
     float: none;
     margin-top: 0;
     margin-bottom: 2rem;

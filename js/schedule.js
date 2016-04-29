@@ -628,7 +628,7 @@ function Schedule(CUSTOM_CONFIG) {
       // show "no results" if search input value matches zero items
       if ($('.session-list-item:visible').length == 0) {
         $('#no-results').remove();
-        $('#filter-form label').after('<p id="no-results">No matching results found.</p>');
+        $('#filter-form input').after('<p id="no-results">No matching results found.</p>');
       } else {
         $('#no-results').remove();
       }
@@ -641,7 +641,7 @@ function Schedule(CUSTOM_CONFIG) {
   // showFavorites() handles display when someone chooses the "Favorites" tab
   schedule.showFavorites = function() {
     // provide some user instructions at top of page
-    schedule.$container.empty().append('<p class="overline">Favorite sessions to store a list on this device</p>').append(schedule.sessionListTemplate);
+    schedule.$container.empty().append('<p class="overline">Tap the hearts to add favorites to your list here.</p>').append(schedule.sessionListTemplate);
     // use savedSessionList IDs to render favorited sessions to page
     schedule.addSessionsToSchedule(schedule.savedSessionList);
     schedule.clearOpenBlocks();
@@ -771,10 +771,10 @@ function Schedule(CUSTOM_CONFIG) {
       schedule.getFilteredSessions("tags", tag_slug);
     });
 
-    // clicking on session "card" in a list opens session detail view
-    schedule.$container.on('click', '.session-list-item', function(e) {
+    // clicking on the header in a session "card" opens session detail view
+    schedule.$container.on('click', '.session-list-item h4 a', function(e) {
       e.preventDefault();
-      var clicked = $(this).data('session');
+      var clicked = $(this).parents('.session-list-item').data('session');
 
       // track interaction in Google Analytics
       schedule.trackEvent('Session Detail Opened', clicked);
@@ -870,7 +870,16 @@ function Schedule(CUSTOM_CONFIG) {
       var targets = $('[data-session="' + sessionID + '"]').find('.favorite');
 
       // first toggle the star class so favorited sessions are lit
-      targets.toggleClass('favorite-active');
+      targets
+        .animate({
+          fontSize: "-=5px"
+        }, 100)
+        .animate({
+          fontSize: "+=5px",
+        }, 200, function() {
+          $(this).toggleClass('favorite-active')
+        });
+
       if (clicked.hasClass('favorite-active')) {
         // if favorited, add the session ID to savedSessionIDs
         schedule.savedSessionIDs.push(sessionID);
