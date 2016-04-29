@@ -150,6 +150,11 @@
             <% session.facilitator_array.forEach(function(facilitator, index) { %><% if (index > 0) { %>, <br><% } %><%= facilitator.name %><% if (facilitator.twitter) { %> <a href="https://twitter.com/<%= facilitator.twitter %>"><%= facilitator.twitter %></a><% } %><% if (facilitator.description.length>0) { %>, <%= facilitator.description %><% } %><% }) %>
           </div>
           <% } %>
+          <% if (session['etherpad slug']) { %>
+          <div class="session-etherpad">
+            <a href="https://public.etherpad-mozilla.org/p/<%= session['etherpad slug'] %>" class="btn">Photos & Notes</a>
+          </div>
+          <% } %>
         </div>
         <% if (session.description) { %>
         <div class="session-description">

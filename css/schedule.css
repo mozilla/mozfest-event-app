@@ -139,6 +139,20 @@ header a {
   white-space: nowrap;
 }
 
+.btn {
+  display: inline-block;
+  background: #B94D60;
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: maroon;
+}
+
 #schedule {
   margin: 5rem 0 10rem 0;
 }
@@ -400,6 +414,10 @@ a.page-control {
 .session-tags:before {
   background-image: url(https://mozilla.github.io/schedule-app-core/img/icon-tag.svg);
   top: 4px;
+}
+
+.session-etherpad {
+  text-align: center;
 }
 
 .session-length-short {
