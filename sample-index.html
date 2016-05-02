@@ -210,12 +210,12 @@
         mainHeaderText: "Iron Chef Training Conference",
         subHeaderText: "June 21-22  · Hawaii",
         displayNameForCategory: {
-          singular:'theme', // this can only be one word
-          plural: 'themes' // this can only be one word
+          singular:'theme', // this can only be one word. letters only.
+          plural: 'themes' // this can only be one word. letters only.
         },
         displayNameForTag: {
-          singular:'tag', // this can only be one word
-          plural: 'tags' // this can only be one word
+          singular:'tag', // this can only be one word. letters only.
+          plural: 'tags' // this can only be one word. letters only.
         },
         pathToSessionsJson: 'iron-chef-sessions.json',
         pathToCategoriesJson: 'categories.json',
@@ -225,6 +225,14 @@
           { name: 'Saturday', displayName: 'Sat', tabDate: new Date(2016,5,21) },
           { name: 'Sunday', displayName: 'Sun', tabDate: new Date(2016,5,22) },
           { name: 'All', displayName: '<i class="fa fa-search"></i>' }
+        ],
+        // optional 
+        additionalNavItems: [
+          { 
+            label: "nameOfLink",
+            link: "url",
+            id: "id" // used for id attribute of the <a>
+          }
         ]
       }
       // instantiate the app
