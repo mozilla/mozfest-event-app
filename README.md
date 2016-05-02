@@ -11,4 +11,4 @@ About schedule-app-core
 ## Documentation ##
 
 Documentation to come. Stay tuned! :shipit: 
-Meanwhile... check out the example app [here](http://mmmavis.github.io/iron-chef-schedule-app/).
+Meanwhile... check out the example app [here](http://mmmavis.github.io/iron-chef-schedule-app/demo).
