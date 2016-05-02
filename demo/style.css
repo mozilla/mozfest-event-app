@@ -1,0 +1,62 @@
+body {
+  background: #e6e6e7;
+}
+
+nav {
+  background: #FFCE34;
+}
+
+#schedule-controls a {
+  background: #ADADB1;
+  border-color: #e6e6e7;
+}
+
+#schedule-controls a.active {
+  background: #FFCE34;
+}
+
+.schedule-tab h3 span, 
+.page-caption h3 span,
+.schedule-tab h3 .fa,
+a.page-control {
+  background: #e6e6e7;
+  color: #000;
+}
+
+h2 {
+  color: #FC913A;
+}
+
+.favorite {
+  color: #FF4E50; 
+}
+
+#page-links a.active {
+  color: #FC913A;
+}
+
+.schedule-tab h3::before, 
+.page-caption h3::before {
+  border-color: #000;
+}
+
+.logo .fa {
+  color: #FFF;
+  font-size: 50px;
+  margin-top: 5px;
+}
+
+.session-list-item, 
+.open-block, 
+.tag-list-item,
+.category-list-item:nth-child(2n+1) {
+  background: white;
+}
+
+
+
+
+
+#schedule-controls ul li {
+  width: 20%;
+}
