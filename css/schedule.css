@@ -113,7 +113,7 @@ nav .logo {
 }
 
 #page-links a.active {
-  color: #D93F5F;
+  color: #CF455D;
 }
 
 h1 {
@@ -126,7 +126,7 @@ h1 {
 h2 {
   text-align: center;
   font-size: 2.5rem;
-  color: #B94D60;
+  color: #CF455D;
   margin-top: 0;
 }
 
@@ -141,7 +141,7 @@ header a {
 
 .btn {
   display: inline-block;
-  background: #D93F5F;
+  background: #CF455D;
   padding: 5px 10px;
   border-radius: 3px;
   color: #fff;
@@ -150,7 +150,7 @@ header a {
 }
 
 .btn:hover {
-  background: #B94D60;
+  background: #CF455D;
 }
 
 #schedule {
@@ -201,7 +201,7 @@ header a {
   text-transform: uppercase;
 }
 #schedule-controls a.active {
-  background-color: #D93F5F;
+  background-color: #CF455D;
 }
 
 .schedule-tab,
@@ -227,7 +227,7 @@ header a {
 .schedule-tab h3 span,
 .page-caption h3 span {
   font-family: "Open Sans", sans-serif;
-  color: #B94D60;
+  color: #CF455D;
   background-color: #fff;
   padding: 0 2rem;
   font-size: 3rem;
@@ -235,7 +235,7 @@ header a {
 .schedule-tab h3:before,
 .page-caption h3:before {
   content: "";
-  border-top: 1px solid #B94D60;
+  border-top: 1px solid #C9CCCC;
   position: absolute;
   top: 50%;
   left: 0;
@@ -254,7 +254,7 @@ header a {
   font-size: 3.1rem;
   padding: .5rem .1rem .5rem .8rem;
   background-color: #fff;
-  color: #D93F5F;
+  color: #C9CCCC;
 }
 h3.slider-control {
   cursor: pointer;
@@ -325,7 +325,7 @@ h3.slider-control {
   cursor: pointer;
 }
 a.page-control {
-  color: #d93f5f
+  color: #CF455D
 }
 
 #filter-form {
@@ -354,7 +354,7 @@ a.page-control {
 }
 
 .favorite {
-  color: #B94D60;
+  color: #CF455D;
   font-size: 3.5rem;
   width: 4rem;
   position: absolute;
@@ -437,7 +437,7 @@ a.page-control {
 }
 
 .session-everyone {
-  border-bottom: 10px solid #d93f5f;
+  border-bottom: 10px solid #CF455D;
 }
 
 .session-ghost {
@@ -474,7 +474,7 @@ a.page-control {
 #show-full-schedule {
   display: block;
   font-size: 2rem;
-  color: #B94D60;
+  color: #CF455D;
   margin-bottom: 2rem;
 }
 
