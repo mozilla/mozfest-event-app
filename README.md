@@ -8,10 +8,6 @@ This project was derived from the [SRCCON app](https://github.com/OpenNews/srcco
 
 :large_orange_diamond: :large_orange_diamond: :large_orange_diamond: :large_orange_diamond: :large_orange_diamond: :large_orange_diamond: :large_orange_diamond: :large_orange_diamond: :large_orange_diamond: :large_orange_diamond: 
 
-More documentation to come. Stay tuned! :shipit: 
-Meanwhile... check out the example app [here](http://mozilla.github.io/schedule-app-core/demo/).
-
-
 # How to create your own schedule app #
 
 1. grab a copy of the sample `index.html` file [here](https://github.com/mozilla/schedule-app-core/blob/gh-pages/demo/index.html)
@@ -340,4 +336,6 @@ A `tags.json` file (or you can give it another file name) should a list of `tag`
 ]
 ```
 
+# Demo app #
 
+Check out the example app [here](http://mozilla.github.io/schedule-app-core/demo/). :shipit: 
