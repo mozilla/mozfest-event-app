@@ -38,18 +38,18 @@ Meanwhile... check out the example app [here](http://mozilla.github.io/schedule-
 
 These are the supported configs that you can pass when you initiate the `Schedule()` instance.
 
-| Key                      | Docs |
-|--------------------------|------|
-| `mainHeaderText`         |      |
-| `subHeaderText`          |      |
-| `displayNameForCategory` |      |
-| `displayNameForTag`      |      |
-| `pathToSessionsJson`     |      |
-| `pathToCategoriesJson`   |      |
-| `pathToTagsJson`         |      |
-| `localStoragePrefix`     |      |
-| `tabList`                |      |
-| `additionalNavItems`     |      |
+| Key                      | Link to doc                                                                  |
+|--------------------------|------------------------------------------------------------------------------|
+| `mainHeaderText`         | https://github.com/mozilla/schedule-app-core#mainheadertext-optional         |
+| `subHeaderText`          | https://github.com/mozilla/schedule-app-core#subheadertext-optional          |
+| `displayNameForCategory` | https://github.com/mozilla/schedule-app-core#displaynameforcategory-required |
+| `displayNameForTag`      | https://github.com/mozilla/schedule-app-core#displaynamefortag-required      |
+| `pathToSessionsJson`     | https://github.com/mozilla/schedule-app-core#pathtosessionsjson-required     |
+| `pathToCategoriesJson`   | https://github.com/mozilla/schedule-app-core#pathtocategoriesjson-required   |
+| `pathToTagsJson`         | https://github.com/mozilla/schedule-app-core#pathtotagsjson-required         |
+| `localStoragePrefix`     | https://github.com/mozilla/schedule-app-core#localstorageprefix-required     |
+| `tabList`                | https://github.com/mozilla/schedule-app-core#tablist-required                |
+| `additionalNavItems`     | https://github.com/mozilla/schedule-app-core#additionalnavitems-optional     |
 
 
 ### `mainHeaderText` (*optional*)
