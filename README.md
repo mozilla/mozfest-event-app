@@ -1,4 +1,4 @@
-This project was derived from the [SRCCON app](https://github.com/OpenNews/srccon-schedule). Hardcoded and event specific bits have been removed from the codebase. We have also made a few things configuarable! [TODO: add link to config doc]
+This project was derived from the [SRCCON app](https://github.com/OpenNews/srccon-schedule). Hardcoded and event specific bits have been removed from the codebase. We have also made a few things [configuarable](https://github.com/mozilla/schedule-app-core#custom-configs)!
 
 :large_orange_diamond: :large_orange_diamond: :large_orange_diamond: :large_orange_diamond: :large_orange_diamond: :large_orange_diamond: :large_orange_diamond: :large_orange_diamond: :large_orange_diamond: :large_orange_diamond: 
 
@@ -28,7 +28,7 @@ Meanwhile... check out the example app [here](http://mozilla.github.io/schedule-
       </div>
     ```
     - templates: this is everything that's marked within script type "text/template", i.e., `<script type="text/template">`
-4. modify custom config values before your initiate the `Schedule()` instance. For detailed configs doc see here. [TODO: link to config doc section]
+4. modify custom config values before your initiate the `Schedule()` instance. For detailed configs doc see [here](https://github.com/mozilla/schedule-app-core#custom-configs). 
 5. make sure the `.json` files you pass in to the app are in the correct format. For detailed data format doc see here. [TODO: link to json format doc section]
 6. :tada: open `index.html` on a browser to see your schedule app in action! 
 
