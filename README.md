@@ -27,9 +27,9 @@ Meanwhile... check out the example app [here](http://mozilla.github.io/schedule-
         <article id="schedule"></article>
       </div>
     ```
-    - templates: this is everything that's marked within script type "text/template", i.e., `<script type="text/template">`
+    - templates: this is everything that's marked with script type "text/template", i.e., `<script type="text/template">`
 4. modify custom config values before your initiate the `Schedule()` instance. For detailed configs doc see [here](https://github.com/mozilla/schedule-app-core#custom-configs). 
-5. make sure the `.json` files you pass in to the app are in the correct format. For detailed data format doc see here. [TODO: link to json format doc section]
+5. make sure the `.json` files you pass in to the app are in the correct format. For detailed data format doc see [here](https://github.com/mozilla/schedule-app-core#json-structures).
 6. :tada: open `index.html` on a browser to see your schedule app in action! 
 
 
@@ -129,7 +129,7 @@ These are the supported configs that you can pass when you initiate the `Schedul
 
 **Format**: `string`
 
-**Notes**: path or url to the file that contains the sessions data. For data schema see here [TODO: add link here]
+**Notes**: path or url to the file that contains the sessions data. For data schema see [here](https://github.com/mozilla/schedule-app-core#json-for-sessions)
   
 **Example Value**: 
 `"iron-chef-sessions.json"`
@@ -142,7 +142,7 @@ These are the supported configs that you can pass when you initiate the `Schedul
 
 **Format**: `string`
 
-**Notes**: path or url to the file that contains the categories data. For data schema see here [TODO: add link here]
+**Notes**: path or url to the file that contains the categories data. For data schema see [here](https://github.com/mozilla/schedule-app-core#json-for-categories)
 
 **Example Value**: 
 `"categories.json"`
@@ -155,7 +155,7 @@ These are the supported configs that you can pass when you initiate the `Schedul
 
 **Format**: `string`
 
-**Notes**: path or url to the file that contains the tags data. For data schema see here [TODO: add link here]
+**Notes**: path or url to the file that contains the tags data. For data schema see [here](https://github.com/mozilla/schedule-app-core#json-for-tags)
 
 **Example Value**: 
 `"tags.json"`
@@ -262,7 +262,7 @@ A `sessions.json` file (or you can give it another file name) should contains th
     "location": "Main ballroom", 
     "start": "09:00 AM", 
     "tags": "tag 1, tag 2, tag 3", // a string of tags, separated by commas
-    "timeblock": "saturday-morning-block-1", // a "slugified" string, value match key of a `timeblock` object. [TODO: add link to timeblock object doc]
+    "timeblock": "saturday-morning-block-1", // a "slugified" string, value match key of a `timeblock` object.
     "title": "Registration" // session title
   }, 
   { 
