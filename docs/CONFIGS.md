@@ -2,19 +2,20 @@
 
 These are the supported configs that you can pass when you initiate the `Schedule()` instance.
 
-| Key                      | Link to doc                                                                  |
+| Key                                                                                             |
 |--------------------------|------------------------------------------------------------------------------|
-| `mainHeaderText`         | https://github.com/mozilla/schedule-app-core#mainheadertext-optional         |
-| `subHeaderText`          | https://github.com/mozilla/schedule-app-core#subheadertext-optional          |
-| `displayNameForCategory` | https://github.com/mozilla/schedule-app-core#displaynameforcategory-required |
-| `displayNameForTag`      | https://github.com/mozilla/schedule-app-core#displaynamefortag-required      |
-| `pathToSessionsJson`     | https://github.com/mozilla/schedule-app-core#pathtosessionsjson-required     |
-| `pathToCategoriesJson`   | https://github.com/mozilla/schedule-app-core#pathtocategoriesjson-required   |
-| `pathToTagsJson`         | https://github.com/mozilla/schedule-app-core#pathtotagsjson-required         |
-| `localStoragePrefix`     | https://github.com/mozilla/schedule-app-core#localstorageprefix-required     |
-| `tabList`                | https://github.com/mozilla/schedule-app-core#tablist-required                |
-| `additionalNavItems`     | https://github.com/mozilla/schedule-app-core#additionalnavitems-optional     |
+| [`mainHeaderText`](https://github.com/mozilla/schedule-app-core/blob/gh-pages/docs/CONFIGS.md#mainheadertext-optional) |
+| [`subHeaderText`](https://github.com/mozilla/schedule-app-core/blob/gh-pages/docs/CONFIGS.md#subheadertext-optional) |
+| [`displayNameForCategory`](https://github.com/mozilla/schedule-app-core/blob/gh-pages/docs/CONFIGS.md#displaynameforcategory-required) |
+| [`displayNameForTag`](https://github.com/mozilla/schedule-app-core/blob/gh-pages/docs/CONFIGS.md#displaynamefortag-required) |
+| [`pathToSessionsJson`](https://github.com/mozilla/schedule-app-core/blob/gh-pages/docs/CONFIGS.md#pathtosessionsjson-required) |
+| [`pathToCategoriesJson`](https://github.com/mozilla/schedule-app-core/blob/gh-pages/docs/CONFIGS.md#pathtocategoriesjson-required) |
+| [`pathToTagsJson`](https://github.com/mozilla/schedule-app-core/blob/gh-pages/docs/CONFIGS.md#pathtotagsjson-required) |
+| [`localStoragePrefix`](https://github.com/mozilla/schedule-app-core/blob/gh-pages/docs/CONFIGS.md#localstorageprefix-required) |
+| [`tabList`](https://github.com/mozilla/schedule-app-core/blob/gh-pages/docs/CONFIGS.md#tablist-required) |
+| [`additionalNavItems`](https://github.com/mozilla/schedule-app-core/blob/gh-pages/docs/CONFIGS.md#additionalnavitems-optional) |
 
+-----
 
 ### `mainHeaderText` (*optional*)
 

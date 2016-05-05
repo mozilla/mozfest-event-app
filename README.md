@@ -31,12 +31,12 @@ This project was derived from the [SRCCON app](https://github.com/OpenNews/srcco
 
 # Configs #
 
-See [Configs Doc](). [TODO: add link here]
+See [Configs Doc](https://github.com/mozilla/schedule-app-core/blob/gh-pages/docs/CONFIGS.md). [TODO: add link here]
 
 
 # JSON Format #
 
-See [JSON Format](). [TODO: add link here]
+See [JSON Format](https://github.com/mozilla/schedule-app-core/blob/gh-pages/docs/JSON_FORMAT.md). [TODO: add link here]
 
 
 # Demo app #
