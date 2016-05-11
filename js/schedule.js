@@ -746,12 +746,16 @@ function Schedule(CUSTOM_CONFIG) {
   schedule.addListeners = function() {
     // clicking on the [Categories] link on the nav bar displays the list of Categories
     schedule.$pageLinks.on('click', '#'+CATEGORY_NAV_LINK_ID, function(e) {
+      e.preventDefault();
+
       schedule.updateHash(DISPLAY_NAME_FOR_CATEGORY.plural);
       schedule.displayCategoriesList();
     });
 
     // clicking on the [Tags] link on the nav bar displays the list of Tags
     schedule.$pageLinks.on('click', '#'+TAG_NAV_LINK_ID, function(e) {
+      e.preventDefault();
+
       schedule.updateHash(DISPLAY_NAME_FOR_TAG.plural);
       schedule.displayTagsList();
     });
