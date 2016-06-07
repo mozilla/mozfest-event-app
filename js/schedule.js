@@ -216,17 +216,8 @@ function Schedule(CUSTOM_CONFIG) {
     openBlocks.remove();
   }
 
-  schedule.generateListOftimeblocks = function() {
-    // TODO: need to make sure blocks are sorted in proper order
-    //       eg., Friday goes before Saturday, Monday goes before Tuesday etc
-    var timeblocks =  _.sortBy(schedule.timeblocks, function(i) {
-      return i.day;
-    });
-    schedule.generateTimeblock(timeblocks);
-  }
-
   // insert schedule block container into DOM
-  schedule.generateTimeblock = function(timeblocks) {
+  schedule.generateListOftimeblocks = function(timeblocks) {
     _.each(timeblocks,function(timeblock,i) {
       // TODO: can probably use template for this
       // schedule block header
@@ -268,7 +259,7 @@ function Schedule(CUSTOM_CONFIG) {
     var sessionList = sessionList || schedule.sessionList;
 
     console.log("sessionList.length = ", sessionList.length);
-    schedule.generateListOftimeblocks();
+    schedule.generateListOftimeblocks(schedule.timeblocks);
 
     _.each(sessionList, function(v, k) {
       // find the correct schedule block on the page for this session
