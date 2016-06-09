@@ -582,6 +582,7 @@ function Schedule(CUSTOM_CONFIG) {
         <input class="filter" type="text" id="list-filter" />\
       </div>';
     $(filterForm).appendTo(schedule.$container);
+    $('#list-filter').focus();
 
     var expand = $('<a id="show-descriptions" class="page-control" data-action="show" href="#"><i class="fa fa-plus-circle"></i> Show descriptions</a>').appendTo(schedule.$container);
 
