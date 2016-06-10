@@ -181,7 +181,6 @@ function Schedule(CUSTOM_CONFIG) {
     schedule.timeblocks = _.sortBy(data, function(i) {
       return parseInt(i.order);
     });
-    console.log(schedule.timeblocks);
   }
 
 
@@ -542,9 +541,15 @@ function Schedule(CUSTOM_CONFIG) {
     var fullList = _.reject(schedule.sessionList, function(i) {
       return i.everyone;
     });
-    // sort the data by session name, not by schedule time
+
+    var timeblocksMap = {};
+    schedule.timeblocks.forEach(function(timeblock) {
+      timeblocksMap[timeblock.key] = timeblock.order;
+    });
+
+    // sort the data by session start time
     fullList = _.sortBy(fullList, function(i) {
-      return i.title;
+      return timeblocksMap[i.timeblock];
     });
 
     // render the list
