@@ -115,6 +115,7 @@ nav {
 nav .logo {
   display: inline-block;
   float: left;
+  cursor: pointer;
 }
 
 #nav-links {
