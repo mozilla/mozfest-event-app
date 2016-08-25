@@ -76,6 +76,26 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
 }
+
+.search-mode .main-heading,
+.search-mode #schedule-controls,
+.search-mode #page-links,
+.search-mode .search-icon,
+.search-cancel {
+  display: none;
+}
+
+.search-mode .search-cancel {
+  display: block;
+}
+
+.detail-view header,
+.detail-view .main-heading,
+.detail-view #schedule-controls {
+  display: none;
+}
+ 
+
 .container {
   position: relative;
   max-width: 800px;
@@ -97,10 +117,14 @@ nav .logo {
   float: left;
 }
 
-#page-links {
+#nav-links {
   display: inline-block;
   float: right;
   margin-top: 3rem;
+}
+
+#page-links {
+  display: inline-block;
 }
 
 #page-links a {
@@ -115,6 +139,14 @@ nav .logo {
 #page-links a.active {
   color: #CF455D;
 }
+
+#search {
+  display: inline-block;
+  margin-left: 15px;
+  cursor: pointer;
+  text-transform: none;
+}
+
 
 h1 {
   text-align: center;
@@ -331,9 +363,7 @@ a.page-control {
 #filter-form {
   padding: 0;
   margin-bottom: 3rem;
-  width: 100%;
-  float: left;
-}
+  width: 100%; }
 
 #filter-form input {
   display: block;
@@ -473,6 +503,18 @@ a.page-control {
   font-size: 2rem;
   color: #CF455D;
   margin-bottom: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#show-full-schedule::before {
+  content: "<";
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#show-full-schedule:hover {
+  text-decoration: underline;
 }
 
 .category-list-item {
@@ -606,7 +648,7 @@ a.page-control {
   nav .logo {
     float: none;
   }
-  #page-links {
+  #nav-links {
     display: block;
     float: none;
     margin-top: 0;
