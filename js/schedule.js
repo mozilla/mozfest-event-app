@@ -560,6 +560,9 @@ function Schedule(CUSTOM_CONFIG) {
 
     // add fav stars
     schedule.addStars('.session-list-item');
+
+    // do not show any cards until user starts typing/searching
+    $(".session-list-item").hide();
   }
 
   // provide some user instructions at top of page
