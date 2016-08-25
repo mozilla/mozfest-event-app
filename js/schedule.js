@@ -578,15 +578,11 @@ function Schedule(CUSTOM_CONFIG) {
   // adds search filter and expanded data toggle to top of "All" sessions list
   schedule.addListControls = function() {
     schedule.addCaptionOverline();
-    var generateHelpText = function() {
-      return "Search names, facilitators, " + DISPLAY_NAME_FOR_CATEGORY.plural + ", " + DISPLAY_NAME_FOR_TAG.plural +", and descriptions:";
-    }
-
     var filterForm = '<div id="filter-form">\
-        <label for="list-filter">'+generateHelpText()+'</label>\
         <input class="filter" type="text" id="list-filter" />\
       </div>';
     $(filterForm).appendTo(schedule.$container);
+    $('#list-filter').attr("placeholder", "Search names, facilitators, " + DISPLAY_NAME_FOR_CATEGORY.plural + ", " + DISPLAY_NAME_FOR_TAG.plural +", and descriptions...");
     $('#list-filter').focus();
 
     // watch search input for changes, and filter the session list accordingly
