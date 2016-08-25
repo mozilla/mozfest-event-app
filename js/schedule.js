@@ -409,7 +409,6 @@ function Schedule(CUSTOM_CONFIG) {
     blocks.prev('h3').addClass('slider-control').append('<i class="fa fa-chevron-circle-down"></i>');
     blocks.addClass('slider');
     schedule.calculateBlockHeights(blocks);
-    schedule.$container.find('.page-caption').append('<a href="#" id="slider-collapse-all" class="page-control" data-action="collapse">Hide all sessions</a>');
   }
 
   // calculate and store block heights for animations
@@ -868,26 +867,6 @@ function Schedule(CUSTOM_CONFIG) {
       var targetBlock = clicked.next('.page-block');
       schedule.animateBlockToggle(targetBlock);
       clicked.find('.fa').toggleClass('fa-chevron-circle-left fa-chevron-circle-down')
-    });
-    
-    // toggle all schedule blocks at once
-    schedule.$container.on('click', '#slider-collapse-all', function(e) {
-      e.preventDefault();
-      var clicked = $(this);
-      var action = clicked.data('action');
-      var targetBlocks = schedule.$container.find('.page-block');
-
-      _.each(targetBlocks, function(b) {
-        targetBlock = $(b);
-        schedule.animateBlockToggle(targetBlock);
-      });
-      schedule.$container.find('h3 .fa').toggleClass('fa-chevron-circle-left fa-chevron-circle-down');
-      
-      if (action == 'collapse') {
-        clicked.html('Show all sessions').data('action', 'expand');
-      } else {
-        clicked.html('Hide all sessions').data('action', 'collapse');
-      }
     });
 
     // helper function for "toggle block" and "toggle all" controls
