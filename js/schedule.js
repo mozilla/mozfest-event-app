@@ -761,6 +761,13 @@ function Schedule(CUSTOM_CONFIG) {
 
   // add the standard listeners for various user interactions
   schedule.addListeners = function() {
+    $("nav .logo").on('click', function(e) {
+      e.preventDefault();
+
+      schedule.toggleSearchMode(false);
+      $("#schedule-controls a").eq(0).click(); // goes to first Day tab
+    });
+
     // tap a schedule tab to toggle to a different view
     schedule.$toggles.on('click', 'a', function(e) {
       e.preventDefault();
@@ -794,7 +801,7 @@ function Schedule(CUSTOM_CONFIG) {
     schedule.$pageLinks.on('click', '#'+TAG_NAV_LINK_ID, function(e) {
       e.preventDefault();
 
-      schedule.displayTagsList();
+      schedule.displayTagsList(true);
     });
 
     // clicking on "See all events in this [Category] shows all sessions within that particular [Category]
