@@ -589,8 +589,6 @@ function Schedule(CUSTOM_CONFIG) {
     $(filterForm).appendTo(schedule.$container);
     $('#list-filter').focus();
 
-    var expand = $('<a id="show-descriptions" class="page-control" data-action="show" href="#"><i class="fa fa-plus-circle"></i> Show descriptions</a>').appendTo(schedule.$container);
-
     // watch search input for changes, and filter the session list accordingly
     $('#list-filter').change(function() {
       var filterVal = $(this).val();
@@ -615,14 +613,10 @@ function Schedule(CUSTOM_CONFIG) {
         _.each(filteredIDs, function(i) {
           $('#session-'+i).show().find('.session-description').show();
         })
-        // because we're showing descriptions, hide the "expand" toggle
-        expand.hide();
       } else {
         // no value in search input, so make sure all items are visible
         $('.session-description').hide();
         schedule.$container.find('.session-list-item').css('display','block');
-        // show the "expand" toggle
-        expand.show();
       }
 
       // show "no results" if search input value matches zero items
@@ -808,21 +802,6 @@ function Schedule(CUSTOM_CONFIG) {
 
       var targetPos = schedule.$container.offset().top + $("#transcription").offset().top;
       $("#session-detail-wrapper").scrollTop(targetPos);
-    });
-
-    // toggle session descriptions on "All" sessions tab
-    schedule.$container.on('click', '#show-descriptions', function(e) {
-      e.preventDefault();
-      var clicked = $(this);
-      var action = clicked.data('action');
-
-      if (action == 'show') {
-        $('.session-list-item').find('.session-description').show();
-        clicked.html('<i class="fa fa-minus-circle"></i> Hide descriptions').data('action', 'hide');
-      } else {
-        $('.session-list-item').find('.session-description').hide();
-        clicked.html('<i class="fa fa-plus-circle"></i> Show descriptions').data('action', 'show');
-      }
     });
 
     // toggle individual schedule blocks on header tap
