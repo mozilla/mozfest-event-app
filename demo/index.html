@@ -6,7 +6,7 @@
     <title>Schedule App</title>
     <meta name="description" content="Schedule App">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
     <link rel="stylesheet" href="https://mozilla.github.io/schedule-app-core/css/schedule.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon.png">
@@ -31,7 +31,13 @@
             <!-- [Customize Me] add your logo here -->
             LOGO HERE
           </div>
-          <div id="page-links"></div>
+          <div id="nav-links">
+            <div id="page-links"></div>
+            <a id="search" data-tab="search">
+              <i class="fa fa-search search-icon"></i>
+              <div class="search-cancel">Cancel</div>
+            </a>
+          </div>
         </div>
       </nav>
     </header>
@@ -224,8 +230,7 @@
         localStoragePrefix: 'iron-chef', // letters and hyphens only
         tabList: [
           { name: 'Saturday', displayName: 'Sat', tabDate: new Date(2016,5,21) },
-          { name: 'Sunday', displayName: 'Sun', tabDate: new Date(2016,5,22) },
-          { name: 'All', displayName: '<i class="fa fa-search"></i>' }
+          { name: 'Sunday', displayName: 'Sun', tabDate: new Date(2016,5,22) }
         ],
         // optional 
         additionalNavItems: [
