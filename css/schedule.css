@@ -15,20 +15,27 @@
   box-sizing: border-box;
 }
 
-.search-mode .main-heading,
-.search-mode #schedule-controls,
+.main-heading,
+#schedule-controls,
+#page-links,
+.search-cancel,
 .search-mode #page-links,
-.search-mode .search-icon,
-.search-cancel {
+.search-mode .search-icon {
   display: none;
 }
 
+.day-view .main-heading,
+.day-view #schedule-controls,
+.day-view .search-icon,
 .search-mode .search-cancel {
   display: block;
 }
 
+.day-view #page-links {
+  display: inline-block;
+}
+
 .detail-view header,
-.detail-view .main-heading,
 .detail-view #schedule-controls {
   display: none;
 }
