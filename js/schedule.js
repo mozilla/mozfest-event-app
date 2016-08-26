@@ -72,6 +72,10 @@ function Schedule(CUSTOM_CONFIG) {
     // 1) _session (which gets a detail page for a given session)
     // 2) _show (which gets a session list for a specific tab)
     switch(decodeURIComponent(pageType)) {
+      case "_search":
+        schedule.chosenTab = "search";
+        schedule.toggleSearchMode(true);
+        break;
       case "_session":
         // get session details based on ID value from the URL
         schedule.getSessionDetail(pageID);
@@ -350,9 +354,15 @@ function Schedule(CUSTOM_CONFIG) {
   // call getSessionDetail() when you have a sessionID value, but you
   // can't be sure that the app has loaded session data. E.g. initial
   // pageload goes directly to a session detail view
-  schedule.getSessionDetail = function(sessionID) {
+  schedule.getSessionDetail = function(sessionID,updateHash) {
     // store sessionID in case we need it later
     schedule.sessionID = sessionID;
+
+    $("body").removeClass().addClass("detail-view");
+
+    if (updateHash) {
+      schedule.updateHash('session-'+sessionID);
+    }
 
     if (schedule.sessionList.length) {
       // if the data's loaded, render the detail page
@@ -399,7 +409,6 @@ function Schedule(CUSTOM_CONFIG) {
     blocks.prev('h3').addClass('slider-control').append('<i class="fa fa-chevron-circle-down"></i>');
     blocks.addClass('slider');
     schedule.calculateBlockHeights(blocks);
-    schedule.$container.find('.page-caption').append('<a href="#" id="slider-collapse-all" class="page-control" data-action="collapse">Hide all sessions</a>');
   }
 
   // calculate and store block heights for animations
@@ -416,7 +425,7 @@ function Schedule(CUSTOM_CONFIG) {
   schedule.addToggles = function() {
     if (Modernizr.localstorage) {
       // only add "Favorites" tab if browser supports localStorage
-      schedule.tabList.splice(schedule.tabList.length-1, 0, { name: 'Favorites', displayName: '<i class="fa fa-heart"></i>' });
+      schedule.tabList.splice(schedule.tabList.length, 0, { name: 'Favorites', displayName: '<i class="fa fa-heart"></i>' });
     }
 
     // set toggle width as percentage based on total number of tabs
@@ -426,7 +435,7 @@ function Schedule(CUSTOM_CONFIG) {
     _.each(schedule.tabList, function(tab) {
       schedule.$toggles.append(
         $('<li>').css('width', toggleWidth+'%').append(
-          $('<a>').html(tab.displayName).attr('href', '#').attr('id', 'show-'+tab.name.toLowerCase())
+          $('<a>').html(tab.displayName).attr('href', '#').attr('id', 'show-'+tab.name.toLowerCase()).attr("data-tab",tab.name.toLowerCase())
         )
       );
     });
@@ -495,6 +504,20 @@ function Schedule(CUSTOM_CONFIG) {
     schedule.clearOpenBlocks();
   }
 
+  schedule.toggleSearchMode = function(turnItOn) {
+    var searchModeClass = "search-mode";
+    if ( turnItOn ) {
+      schedule.$container.removeClass().addClass('all-sessions');
+      schedule.updateHash("search");
+      schedule.loadSessions(schedule.showFullSessionList);
+      $("body").addClass(searchModeClass);
+    } else {
+      $("body").removeClass(searchModeClass);
+      schedule.updateHash("show-"+schedule.chosenTab); // FIXME:TODO: shouldn't always go back to Saturday tab
+      schedule.loadChosenTab();
+    }
+  }
+
   // based on the value of chosenTab, render the proper session list
   schedule.loadChosenTab = function() {
     console.log("=======loadChosenTab=========== ", schedule.chosenTab);
@@ -513,11 +536,6 @@ function Schedule(CUSTOM_CONFIG) {
         // otherwise load session data and pass showFavorites() as callback
         schedule.loadSessions(schedule.showFavorites);
       }
-    } else if (schedule.chosenTab == 'all') {
-      schedule.$container.removeClass().addClass('all-sessions');
-      // loadSessions() is safe to call no matter what because it knows
-      // to look for local session data before calling for json
-      schedule.loadSessions(schedule.showFullSessionList);
     } else {
       // handle standard tabs like "Thursday" or "Friday"
       schedule.$container.html(schedule.sessionListTemplate);
@@ -560,6 +578,9 @@ function Schedule(CUSTOM_CONFIG) {
 
     // add fav stars
     schedule.addStars('.session-list-item');
+
+    // do not show any cards until user starts typing/searching
+    $(".session-list-item").hide();
   }
 
   // provide some user instructions at top of page
@@ -578,18 +599,12 @@ function Schedule(CUSTOM_CONFIG) {
   // adds search filter and expanded data toggle to top of "All" sessions list
   schedule.addListControls = function() {
     schedule.addCaptionOverline();
-    var generateHelpText = function() {
-      return "Search names, facilitators, " + DISPLAY_NAME_FOR_CATEGORY.plural + ", " + DISPLAY_NAME_FOR_TAG.plural +", and descriptions:";
-    }
-
     var filterForm = '<div id="filter-form">\
-        <label for="list-filter">'+generateHelpText()+'</label>\
         <input class="filter" type="text" id="list-filter" />\
       </div>';
     $(filterForm).appendTo(schedule.$container);
+    $('#list-filter').attr("placeholder", "Search names, facilitators, " + DISPLAY_NAME_FOR_CATEGORY.plural + ", " + DISPLAY_NAME_FOR_TAG.plural +", and descriptions...");
     $('#list-filter').focus();
-
-    var expand = $('<a id="show-descriptions" class="page-control" data-action="show" href="#"><i class="fa fa-plus-circle"></i> Show descriptions</a>').appendTo(schedule.$container);
 
     // watch search input for changes, and filter the session list accordingly
     $('#list-filter').change(function() {
@@ -615,14 +630,10 @@ function Schedule(CUSTOM_CONFIG) {
         _.each(filteredIDs, function(i) {
           $('#session-'+i).show().find('.session-description').show();
         })
-        // because we're showing descriptions, hide the "expand" toggle
-        expand.hide();
       } else {
         // no value in search input, so make sure all items are visible
         $('.session-description').hide();
         schedule.$container.find('.session-list-item').css('display','block');
-        // show the "expand" toggle
-        expand.show();
       }
 
       // show "no results" if search input value matches zero items
@@ -641,7 +652,7 @@ function Schedule(CUSTOM_CONFIG) {
   // showFavorites() handles display when someone chooses the "Favorites" tab
   schedule.showFavorites = function() {
     // provide some user instructions at top of page
-    schedule.$container.empty().append('<p class="overline">Tap the hearts to add favorites to your list here.</p>').append(schedule.sessionListTemplate);
+    schedule.$container.empty().append('<p>Tap the hearts to add favorites to your list here.</p>').append(schedule.sessionListTemplate);
     // use savedSessionList IDs to render favorited sessions to page
     schedule.addSessionsToSchedule(schedule.savedSessionList);
     schedule.clearOpenBlocks();
@@ -657,7 +668,8 @@ function Schedule(CUSTOM_CONFIG) {
   }
 
   // display the list of Categories and their descriptions
-  schedule.displayCategoriesList = function() {
+  schedule.displayCategoriesList = function(updateHash) {
+    schedule.updateHash(DISPLAY_NAME_FOR_CATEGORY.plural);
     schedule.clearHighlightedPage();
     schedule.$pageLinks.find('#categories-page-link').addClass('active');
     schedule.$container.html("");
@@ -681,12 +693,19 @@ function Schedule(CUSTOM_CONFIG) {
   }
 
   // display all sessions of a particular Category
-  schedule.displaySessionsOfCategory = function(category_slug) {
+  schedule.displaySessionsOfCategory = function(category_slug,updateHash) {
+    if (updateHash) {
+      schedule.updateHash(DISPLAY_NAME_FOR_CATEGORY.singular+'-'+category_slug);
+    }
     schedule.getFilteredSessions("category", category_slug);
   }
 
   // display the list of Tags and their descriptions
-  schedule.displayTagsList = function() {
+  schedule.displayTagsList = function(updateHash) {
+    if (updateHash) {
+      schedule.updateHash(DISPLAY_NAME_FOR_TAG.plural);
+    }
+
     if (!schedule.sessionList.length) {
       schedule.loadSessions(schedule.appendTagListItems);
     } else {
@@ -741,20 +760,47 @@ function Schedule(CUSTOM_CONFIG) {
 
   // add the standard listeners for various user interactions
   schedule.addListeners = function() {
+    $("nav .logo").on('click', function(e) {
+      e.preventDefault();
+
+      schedule.toggleSearchMode(false);
+      $("#schedule-controls a").eq(0).click(); // goes to first Day tab
+    });
+
+    // tap a schedule tab to toggle to a different view
+    schedule.$toggles.on('click', 'a', function(e) {
+      e.preventDefault();
+
+      var clicked = $(this).attr('id');
+      schedule.updateHash(clicked);
+      schedule.chosenTab = $(this).data("tab");
+      schedule.trackEvent('Tab change', schedule.chosenTab);
+      schedule.loadChosenTab();
+    });
+
+    $(".search-icon").on('click', function(e) {
+      e.preventDefault();
+
+      schedule.toggleSearchMode(true);
+    });
+
+    $(".search-cancel").on('click', function(e) {
+      e.preventDefault();
+
+      schedule.toggleSearchMode(false);
+    });
+
     // clicking on the [Categories] link on the nav bar displays the list of Categories
     schedule.$pageLinks.on('click', '#'+CATEGORY_NAV_LINK_ID, function(e) {
       e.preventDefault();
-
-      schedule.updateHash(DISPLAY_NAME_FOR_CATEGORY.plural);
-      schedule.displayCategoriesList();
+      schedule.displayCategoriesList(true);
     });
 
     // clicking on the [Tags] link on the nav bar displays the list of Tags
     schedule.$pageLinks.on('click', '#'+TAG_NAV_LINK_ID, function(e) {
       e.preventDefault();
 
-      schedule.updateHash(DISPLAY_NAME_FOR_TAG.plural);
-      schedule.displayTagsList();
+      schedule.displayTagsList(true);
     });
 
     // clicking on "See all events in this [Category] shows all sessions within that particular [Category]
@@ -762,8 +808,7 @@ function Schedule(CUSTOM_CONFIG) {
       e.preventDefault();
 
       var category_slug = $(this).parents(".category-list-item").data("category");
-      schedule.updateHash(DISPLAY_NAME_FOR_CATEGORY.singular+'-'+category_slug);
-      schedule.displaySessionsOfCategory(category_slug);
+      schedule.displaySessionsOfCategory(category_slug,true);
     });
 
     // clicking on "[Tag] card" shows all Sessions that tagged with that [Tag]
@@ -783,23 +828,29 @@ function Schedule(CUSTOM_CONFIG) {
       // track interaction in Google Analytics
       schedule.trackEvent('Session Detail Opened', clicked);
       // update the hash for proper routing
-      schedule.updateHash('session-'+clicked);
-      schedule.getSessionDetail(clicked);
+      schedule.getSessionDetail(clicked,true);
     });
 
     // return to full schedule from session detail view
     schedule.$container.on('click', '#show-full-schedule', function(e) {
       e.preventDefault();
 
-      if (window.history.ready && !schedule.offlineMode) {
-        // use history.back() if possible to keep state in sync
-        window.history.back();
-      } else {
-        // otherwise update hash and clear view manually
-        schedule.updateHash('');
-        schedule.clearSessionDetail();
-        schedule.makeSchedule();
-      }
+      $("body").removeClass();
+
+      // FIXME:TODO: this should probably go back to where user was
+      // if (window.history.ready && !schedule.offlineMode) {
+      //   // use history.back() if possible to keep state in sync
+      //   window.history.back();
+      // } else {
+      //   // otherwise update hash and clear view manually
+      //   schedule.updateHash('');
+      //   schedule.clearSessionDetail();
+      //   schedule.makeSchedule();
+      // }
+
+      schedule.updateHash('show-'+schedule.chosenTab);
+      schedule.clearSessionDetail();
+      schedule.makeSchedule();
     });
 
     // scroll down to transcription inside session detail view
@@ -810,47 +861,12 @@ function Schedule(CUSTOM_CONFIG) {
       $("#session-detail-wrapper").scrollTop(targetPos);
     });
 
-    // toggle session descriptions on "All" sessions tab
-    schedule.$container.on('click', '#show-descriptions', function(e) {
-      e.preventDefault();
-      var clicked = $(this);
-      var action = clicked.data('action');
-
-      if (action == 'show') {
-        $('.session-list-item').find('.session-description').show();
-        clicked.html('<i class="fa fa-minus-circle"></i> Hide descriptions').data('action', 'hide');
-      } else {
-        $('.session-list-item').find('.session-description').hide();
-        clicked.html('<i class="fa fa-plus-circle"></i> Show descriptions').data('action', 'show');
-      }
-    });
-
     // toggle individual schedule blocks on header tap
     schedule.$container.on('click', '.slider-control', function(e) {
       var clicked = $(this);
       var targetBlock = clicked.next('.page-block');
       schedule.animateBlockToggle(targetBlock);
       clicked.find('.fa').toggleClass('fa-chevron-circle-left fa-chevron-circle-down')
-    });
-    
-    // toggle all schedule blocks at once
-    schedule.$container.on('click', '#slider-collapse-all', function(e) {
-      e.preventDefault();
-      var clicked = $(this);
-      var action = clicked.data('action');
-      var targetBlocks = schedule.$container.find('.page-block');
-
-      _.each(targetBlocks, function(b) {
-        targetBlock = $(b);
-        schedule.animateBlockToggle(targetBlock);
-      });
-      schedule.$container.find('h3 .fa').toggleClass('fa-chevron-circle-left fa-chevron-circle-down');
-      
-      if (action == 'collapse') {
-        clicked.html('Show all sessions').data('action', 'expand');
-      } else {
-        clicked.html('Hide all sessions').data('action', 'collapse');
-      }
     });
 
     // helper function for "toggle block" and "toggle all" controls
@@ -910,18 +926,6 @@ function Schedule(CUSTOM_CONFIG) {
           // update the data associated with this user's favorites
           schedule.updateSavedSessionList();
         });
-    });
-
-    // tap a schedule tab to toggle to a different view
-    schedule.$toggles.on('click', 'a', function(e) {
-      e.preventDefault();
-
-      var clicked = $(this).attr('id');
-      schedule.updateHash(clicked);
-
-      schedule.chosenTab = clicked.replace('show-','');
-      schedule.trackEvent('Tab change', schedule.chosenTab);
-      schedule.loadChosenTab();
     });
 
     // this is a single-page app, but we need to support the back button
@@ -1042,12 +1046,12 @@ function Schedule(CUSTOM_CONFIG) {
         id: TAG_NAV_LINK_ID
       },
     ];
-    var $navbarContainer = $("#page-links");
+    var $pageLinksContainer = $("#page-links");
     navItems.concat(CUSTOM_CONFIG.additionalNavItems || []).forEach(function(navItem){
       $("<a>"+navItem.label+"</a>")
         .attr("href",navItem.link)
         .attr("id", navItem.id || '')
-        .appendTo($navbarContainer);
+        .appendTo($pageLinksContainer);
     });
   };
 

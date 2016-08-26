@@ -159,8 +159,7 @@ a tab object has the following keys
 ```js
 [
   { name: 'Saturday', displayName: 'Sat', tabDate: new Date(2016,5,21) },
-  { name: 'Sunday', displayName: 'Sun', tabDate: new Date(2016,5,22) },
-  { name: 'All', displayName: '<i class="fa fa-search"></i>' }
+  { name: 'Sunday', displayName: 'Sun', tabDate: new Date(2016,5,22) }
 ]
 ```
 
