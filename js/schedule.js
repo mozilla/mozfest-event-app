@@ -673,7 +673,6 @@ function Schedule(CUSTOM_CONFIG) {
     schedule.clearHighlightedPage();
     schedule.$pageLinks.find('#categories-page-link').addClass('active');
     schedule.$container.html("");
-    schedule.addCaptionOverline("<h3><span>" + DISPLAY_NAME_FOR_CATEGORY.plural + "</span></h3>");
 
     schedule.loadCategories(function() {
       _.each(schedule.categoryMetaList, function(v, k) {
@@ -717,7 +716,6 @@ function Schedule(CUSTOM_CONFIG) {
     schedule.clearHighlightedPage();
     schedule.$pageLinks.find('#tags-page-link').addClass('active');
     schedule.$container.html("");
-    schedule.addCaptionOverline("<h3><span>"+DISPLAY_NAME_FOR_TAG.plural+"</span></h3>");
 
     schedule.loadTags(function() {
       var tagsListKeys = _.map(schedule.tagMetaList, function(tag) {

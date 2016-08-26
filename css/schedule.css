@@ -173,15 +173,9 @@ p {
   text-decoration: none;
   border-right: 2px solid #fff;
   text-transform: uppercase;
-  font-size: 1.5rem;
-  line-height: 1;
 }
 #schedule-controls a.active {
   background-color: #CF455D;
-}
-
-#show-favorites .fa-heart {
-  font-size: 1.3rem;
 }
 
 .schedule-tab,
