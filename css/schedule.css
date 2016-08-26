@@ -231,6 +231,7 @@ p {
   float: right;
   font-size: 2rem;
   padding: .3rem .1rem .5rem .8rem;
+  background: white;
 }
 h3.slider-control {
   cursor: pointer;
