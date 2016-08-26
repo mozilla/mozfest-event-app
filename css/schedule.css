@@ -1,42 +1,12 @@
-@import url(https://mozilla.github.io/mofo-bootstrap/dest/css/mofo-bootstrap.css);
+@import url(mofo-bootstrap.css);
+@import url(font-awesome.min.css);
 
 @font-face {
   font-family: 'FontAwesome';
-  src: url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.eot?v=4.3.0');
-  src: url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+  src: url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.eot?v=4.6.3');
+  src: url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'), url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'), url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'), url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
-}
-
-.fa {
-  display: inline-block;
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.fa-heart:before {
-  content: "\f004";
-}
-.fa-heart-o:before {
-  content: "\f08a";
-}
-.fa-plus-circle:before {
-  content: "\f055";
-}
-.fa-minus-circle:before {
-  content: "\f056";
-}
-.fa-cc:before {
-  content: "\f20a";
-}
-.fa-chevron-circle-left:before {
-  content: "\f137";
-}
-.fa-chevron-circle-down:before {
-  content: "\f13a";
 }
 
 *, *:before, *:after {
@@ -74,18 +44,22 @@ nav {
   background: #F5F5F5;
   padding: 1rem 0;
   overflow: hidden;
+  text-align: center;
+}
+
+nav .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 nav .logo {
-  display: inline-block;
-  float: left;
   cursor: pointer;
 }
 
 #nav-links {
-  display: inline-block;
-  float: right;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 #page-links {
@@ -109,9 +83,11 @@ nav .logo {
   text-transform: none;
 }
 
+.main-heading {
+  text-align: center;
+}
 
 h1 {
-  text-align: center;
   margin-bottom: 0;
 }
 
@@ -202,6 +178,10 @@ p {
 }
 #schedule-controls a.active {
   background-color: #CF455D;
+}
+
+#show-favorites .fa-heart {
+  font-size: 1.3rem;
 }
 
 .schedule-tab,
@@ -304,17 +284,6 @@ h3.slider-control {
   word-wrap: break-word;
 }
 
-.page-control {
-  display: block;
-  text-decoration: none;
-  margin-right: 2%;
-  float: right;
-  cursor: pointer;
-}
-a.page-control {
-  color: #CF455D
-}
-
 #filter-form {
   padding: 0;
   margin-bottom: 3rem;
@@ -326,7 +295,7 @@ a.page-control {
   width: 100%;
   padding: 5px 10px;
   margin-bottom: 1rem;
-  border: none;
+  border: 1px solid #ccc;
 }
 
 #no-results {
@@ -523,96 +492,21 @@ a.page-control {
   }
 }
 
-@media only screen and (max-width: 767px) {
-  html {
-    font-size: 5px;
-  }
-  body {
-    font-size: 3rem;
-  }
-  .schedule-tab h3 span {
-    width: auto;
-    margin-left: 0;
-    text-align: left;
-  }
-  .container {
-    padding: 0 4rem;
-  }
-  .page-control {
-    display: inline-block;
-    padding: 0;
-    margin: 0 0 2em 0;
-  }
-  .favorite {
-    right: 4rem;
-    font-size: 4rem;
-  }
-  .session-detail .header {
-    padding: 3rem;
-  }
-  .session-facilitators:before {
-    top: 2px;
-  }
 
-  .session-time:before {
-    top: 2px;
-  }
 
-  .session-category-and-location:before {
-    top: 3px;
-  }
 
-  .session-tags:before {
-    top: 2px;
-  }
 
-  h2 {
-    font-size: 4rem;
-  }
 
-  #schedule-controls a,
-  .schedule-tab h3, 
-  .page-caption h3,
-  .schedule-tab h3 .fa {
-    font-size: 3.5rem;
-  }
 
-  h4 {
-    font-size: 3rem;
-  }
 
-  .schedule-tab h3, 
-  .page-caption h3 {
-    margin: 3rem 0;
-  }
 
-  p {
-    font-size: inherit;
-    line-height: 1;
-  }
-}
 
-@media only screen and (max-width: 480px) {
-  .container {
-    padding: 0 2rem;
-  }
-  nav {
-    text-align: center;
-  }
-  nav .logo {
-    float: none;
+
+@media screen and (min-width: 768px) { 
+  nav .container {
+    flex-direction: row;
   }
   #nav-links {
-    display: block;
-    float: none;
-    margin-top: 0;
-    margin-bottom: 2rem;
+    margin-top: 0rem;
   }
-  .session-description {
-    line-height: 1.4;
-  }
-}
-
-@media only screen and (max-width: 420px) {
-
 }
