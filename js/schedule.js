@@ -652,7 +652,7 @@ function Schedule(CUSTOM_CONFIG) {
   // showFavorites() handles display when someone chooses the "Favorites" tab
   schedule.showFavorites = function() {
     // provide some user instructions at top of page
-    schedule.$container.empty().append('<p class="overline">Tap the hearts to add favorites to your list here.</p>').append(schedule.sessionListTemplate);
+    schedule.$container.empty().append('<p>Tap the hearts to add favorites to your list here.</p>').append(schedule.sessionListTemplate);
     // use savedSessionList IDs to render favorited sessions to page
     schedule.addSessionsToSchedule(schedule.savedSessionList);
     schedule.clearOpenBlocks();
