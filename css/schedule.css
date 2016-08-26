@@ -227,6 +227,7 @@ p {
 .schedule-tab h3 span,
 .page-caption h3 span {
   padding: 0 2rem;
+  background: #fff;
 }
 .schedule-tab h3:before,
 .page-caption h3:before {
