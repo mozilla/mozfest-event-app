@@ -71,7 +71,7 @@ function Schedule(CUSTOM_CONFIG) {
     // currently this app supports two types of detail pages:
     // 1) _session (which gets a detail page for a given session)
     // 2) _show (which gets a session list for a specific tab)
-    switch(pageType) {
+    switch(decodeURIComponent(pageType)) {
       case "_search":
         schedule.chosenTab = "search";
         schedule.toggleSearchMode(true);
