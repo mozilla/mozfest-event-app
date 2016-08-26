@@ -17,8 +17,7 @@ nav {
 
 .schedule-tab h3 span, 
 .page-caption h3 span,
-.schedule-tab h3 .fa,
-a.page-control {
+.schedule-tab h3 .fa {
   background: #e6e6e7;
   color: #000;
 }
