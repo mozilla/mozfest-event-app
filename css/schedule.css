@@ -1,26 +1,4 @@
-@font-face {
-  font-family: 'Open Sans';
-  src: url('https://mozilla.github.io/schedule-app-core/fonts/OpenSans-Regular-webfont.eot');
-  src: url('https://mozilla.github.io/schedule-app-core/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-     url('https://mozilla.github.io/schedule-app-core/fonts/OpenSans-Regular-webfont.woff') format('woff'),
-     url('https://mozilla.github.io/schedule-app-core/fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
-     url('https://mozilla.github.io/schedule-app-core/fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
-  font-weight: normal;
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url('https://mozilla.github.io/schedule-app-core/fonts/OpenSans-Bold-webfont.eot');
-  src: url('https://mozilla.github.io/schedule-app-core/fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-     url('https://mozilla.github.io/schedule-app-core/fonts/OpenSans-Bold-webfont.woff') format('woff'),
-     url('https://mozilla.github.io/schedule-app-core/fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
-     url('https://mozilla.github.io/schedule-app-core/fonts/OpenSans-Bold-webfont.svg#OpenSansBold') format('svg');
-  font-weight: bold;
-  font-weight: 700;
-  font-style: normal;
-}
+@import url(https://mozilla.github.io/mofo-bootstrap/dest/css/mofo-bootstrap.css);
 
 @font-face {
   font-family: 'FontAwesome';
@@ -66,24 +44,30 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-html {
-  font-size: 62.5%;
+
+.search-mode .main-heading,
+.search-mode #schedule-controls,
+.search-mode #page-links,
+.search-mode .search-icon,
+.search-cancel {
+  display: none;
 }
-body {
-  color: #55565A;
-  font-size: 1.8rem;
-  background-color: #fff;
-  font-family: "Open Sans", sans-serif;
-  margin: 0;
+
+.search-mode .search-cancel {
+  display: block;
 }
+
+.detail-view header,
+.detail-view .main-heading,
+.detail-view #schedule-controls {
+  display: none;
+}
+ 
 .container {
   position: relative;
   max-width: 800px;
   margin: 0 auto;
   padding:  0 2rem;
-}
-a {
-  color: #184774;
 }
 
 nav {
@@ -95,48 +79,63 @@ nav {
 nav .logo {
   display: inline-block;
   float: left;
+  cursor: pointer;
+}
+
+#nav-links {
+  display: inline-block;
+  float: right;
+  margin-top: 1.5rem;
 }
 
 #page-links {
   display: inline-block;
-  float: right;
-  margin-top: 3rem;
 }
 
 #page-links a {
   display: inline-block;
   margin-left: 2rem;
   text-transform: uppercase;
-  color: #55565A;
-  font-weight: 700;
-  text-decoration: none;
 }
 
 #page-links a.active {
   color: #CF455D;
 }
 
+#search {
+  display: inline-block;
+  margin-left: 15px;
+  cursor: pointer;
+  text-transform: none;
+}
+
+
 h1 {
   text-align: center;
-  font-size: 3.5rem;
-  font-weight: 800;
   margin-bottom: 0;
 }
 
 h2 {
   text-align: center;
-  font-size: 2.5rem;
   color: #CF455D;
   margin-top: 0;
 }
 
+h4 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
 input {
-  font-size: 1.8rem;
   padding: 5px;
 }
 
 header a {
   white-space: nowrap;
+}
+
+p {
+  font-size: 1rem;
 }
 
 .btn {
@@ -154,13 +153,12 @@ header a {
 }
 
 #schedule {
-  margin: 5rem 0 10rem 0;
+  margin: 2rem 0 4rem 0;
 }
 
 #schedule-controls {
   clear: both;
-  font-family: "Open Sans", sans-serif;
-  margin: 3rem auto;
+  margin: 1rem auto;
 }
 
 #schedule-controls ul {
@@ -199,6 +197,8 @@ header a {
   text-decoration: none;
   border-right: 2px solid #fff;
   text-transform: uppercase;
+  font-size: 1.5rem;
+  line-height: 1;
 }
 #schedule-controls a.active {
   background-color: #CF455D;
@@ -217,20 +217,17 @@ header a {
 .schedule-tab h3,
 .page-caption h3 {
   position: relative;
-  font-weight: 500;
+  font-size: 2rem;
   text-transform: uppercase;
-  margin: 7rem 0 5rem 0;
+  margin: 2rem 0;
   text-align: center;
   z-index: 1;
   clear: both;
 }
 .schedule-tab h3 span,
 .page-caption h3 span {
-  font-family: "Open Sans", sans-serif;
-  color: #CF455D;
-  background-color: #fff;
   padding: 0 2rem;
-  font-size: 3rem;
+  background: #fff;
 }
 .schedule-tab h3:before,
 .page-caption h3:before {
@@ -251,10 +248,8 @@ header a {
 .schedule-tab h3 .fa {
   text-decoration: none;
   float: right;
-  font-size: 3.1rem;
-  padding: .5rem .1rem .5rem .8rem;
-  background-color: #fff;
-  color: #C9CCCC;
+  font-size: 2rem;
+  padding: .3rem .1rem .5rem .8rem;
 }
 h3.slider-control {
   cursor: pointer;
@@ -264,22 +259,19 @@ h3.slider-control {
   position: relative;
 }
 .session-detail .header {
-  padding: 1.5rem;
+  padding: 0 1.5rem;
   position: relative;
 }
 .session-detail .favorite {
-  top: 1.5rem;
+  top: 1rem;
   right: 1.5rem;
 }
 .session-detail .meta {
   background-color: #F5F5F5;
   padding: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 .session-detail h2 {
-  margin: 0 5rem .5rem 0;
-  line-height: 1.2;
-  font-size: 3.2rem;
-  font-weight: 800;
   text-align: left;
   color: #55565A;
 }
@@ -290,7 +282,7 @@ h3.slider-control {
   display: block;
   clear: both;
   position: relative;
-  padding: 4rem;
+  padding: 2rem;
   margin: 0 0 3rem 0;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -304,13 +296,8 @@ h3.slider-control {
   text-decoration: none;
 }
 
-.session-list-item h4,
-.category-list-item h4,
-.tag-list-item  h4 {
-  margin: 0 6rem 2rem 0;
-  line-height: 1.2;
-  font-size: 3rem;
-  font-weight: 800;
+.session-list-item h4 {
+  margin-right: 2.5rem;
 }
 
 .all-sessions .session-description {
@@ -331,19 +318,15 @@ a.page-control {
 #filter-form {
   padding: 0;
   margin-bottom: 3rem;
-  width: 100%;
-  float: left;
+  width: 100%; 
 }
 
 #filter-form input {
   display: block;
   width: 100%;
-  margin-top: .5rem;
-  font-size: 16px;
-}
-
-#show-descriptions {
-  margin-bottom: 20px;
+  padding: 5px 10px;
+  margin-bottom: 1rem;
+  border: none;
 }
 
 #no-results {
@@ -356,14 +339,13 @@ a.page-control {
 
 .favorite {
   color: #CF455D;
-  font-size: 3.5rem;
-  width: 4rem;
+  font-size: 1.8rem;
   position: absolute;
   cursor: pointer;
-  top: 3.5rem;
-  right: 4rem;
+  width: 2.4rem;
+  top: 2rem;
+  right: 2rem;
   line-height: 1;
-  margin-top: .7rem;
   text-align: center;
 }
 
@@ -399,22 +381,18 @@ a.page-control {
 
 .session-facilitators:before {
   background-image: url(https://mozilla.github.io/schedule-app-core/img/icon-facilitator.svg);
-  top: 4px;
 }
 
 .session-time:before {
   background-image: url(https://mozilla.github.io/schedule-app-core/img/icon-clock.svg);
-  top: 4px;
 }
 
 .session-category-and-location:before {
   background-image: url(https://mozilla.github.io/schedule-app-core/img/icon-category.svg);
-  top: 6px;
 }
 
 .session-tags:before {
   background-image: url(https://mozilla.github.io/schedule-app-core/img/icon-tag.svg);
-  top: 4px;
 }
 
 .session-notes-url {
@@ -451,20 +429,6 @@ a.page-control {
   text-align: center;
 }
 
-.overline {
-  clear: both;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-}
-.overline a {
-  text-decoration: none;
-  color: inherit;
-  border-bottom: 1px solid #ccc;
-}
-.overline a:hover {
-  border-color: inherit;
-}
-
 .session-time {
 
 }
@@ -474,18 +438,23 @@ a.page-control {
 
 #show-full-schedule {
   display: block;
-  font-size: 2rem;
-  color: #CF455D;
   margin-bottom: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#show-full-schedule::before {
+  content: "<";
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#show-full-schedule:hover {
+  text-decoration: underline;
 }
 
 .category-list-item {
-  padding: 4rem;
-}
-
-.category-list-item h4,
-.tag-list-item h4 {
-  margin-left: 0;
+  padding: 2rem;
 }
 
 .category-list-item .category-icon-container {
@@ -575,11 +544,9 @@ a.page-control {
     margin: 0 0 2em 0;
   }
   .favorite {
-    top: 1rem;
-    right: 2rem;
-    font-size: 4.5rem;
+    right: 4rem;
+    font-size: 4rem;
   }
-  .session-list-item,
   .session-detail .header {
     padding: 3rem;
   }
@@ -598,6 +565,31 @@ a.page-control {
   .session-tags:before {
     top: 2px;
   }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  #schedule-controls a,
+  .schedule-tab h3, 
+  .page-caption h3,
+  .schedule-tab h3 .fa {
+    font-size: 3.5rem;
+  }
+
+  h4 {
+    font-size: 3rem;
+  }
+
+  .schedule-tab h3, 
+  .page-caption h3 {
+    margin: 3rem 0;
+  }
+
+  p {
+    font-size: inherit;
+    line-height: 1;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -610,7 +602,7 @@ a.page-control {
   nav .logo {
     float: none;
   }
-  #page-links {
+  #nav-links {
     display: block;
     float: none;
     margin-top: 0;
