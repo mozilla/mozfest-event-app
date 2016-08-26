@@ -358,7 +358,7 @@ function Schedule(CUSTOM_CONFIG) {
     // store sessionID in case we need it later
     schedule.sessionID = sessionID;
 
-    $("body").removeClass().addClass("detail-view");
+    schedule.setBodyClass("detail-view");
 
     if (updateHash) {
       schedule.updateHash('session-'+sessionID);
@@ -505,14 +505,13 @@ function Schedule(CUSTOM_CONFIG) {
   }
 
   schedule.toggleSearchMode = function(turnItOn) {
-    var searchModeClass = "search-mode";
     if ( turnItOn ) {
       schedule.$container.removeClass().addClass('all-sessions');
       schedule.updateHash("search");
       schedule.loadSessions(schedule.showFullSessionList);
-      $("body").addClass(searchModeClass);
+      schedule.setBodyClass("search-mode");
     } else {
-      $("body").removeClass(searchModeClass);
+      schedule.setBodyClass();
       schedule.updateHash("show-"+schedule.chosenTab); // FIXME:TODO: shouldn't always go back to Saturday tab
       schedule.loadChosenTab();
     }
@@ -525,6 +524,7 @@ function Schedule(CUSTOM_CONFIG) {
     // and make sure the selected tab is lit
     schedule.clearHighlightedPage();
     $('#show-'+schedule.chosenTab).addClass('active');
+    schedule.setBodyClass("day-view");
 
     if (schedule.chosenTab == 'favorites') {
       // "favorites" class changes display of session items
@@ -669,6 +669,7 @@ function Schedule(CUSTOM_CONFIG) {
 
   // display the list of Categories and their descriptions
   schedule.displayCategoriesList = function(updateHash) {
+    schedule.setBodyClass();
     schedule.updateHash(DISPLAY_NAME_FOR_CATEGORY.plural);
     schedule.clearHighlightedPage();
     schedule.$pageLinks.find('#categories-page-link').addClass('active');
@@ -693,6 +694,7 @@ function Schedule(CUSTOM_CONFIG) {
 
   // display all sessions of a particular Category
   schedule.displaySessionsOfCategory = function(category_slug,updateHash) {
+    schedule.setBodyClass();
     if (updateHash) {
       schedule.updateHash(DISPLAY_NAME_FOR_CATEGORY.singular+'-'+category_slug);
     }
@@ -701,6 +703,7 @@ function Schedule(CUSTOM_CONFIG) {
 
   // display the list of Tags and their descriptions
   schedule.displayTagsList = function(updateHash) {
+    schedule.setBodyClass();
     if (updateHash) {
       schedule.updateHash(DISPLAY_NAME_FOR_TAG.plural);
     }
@@ -755,6 +758,9 @@ function Schedule(CUSTOM_CONFIG) {
     }
   }
 
+  schedule.setBodyClass = function(className) {
+    $("body").removeClass().addClass(className || "");
+  }
 
   // add the standard listeners for various user interactions
   schedule.addListeners = function() {
@@ -833,7 +839,7 @@ function Schedule(CUSTOM_CONFIG) {
     schedule.$container.on('click', '#show-full-schedule', function(e) {
       e.preventDefault();
 
-      $("body").removeClass();
+      schedule.setBodyClass();
 
       // FIXME:TODO: this should probably go back to where user was
       // if (window.history.ready && !schedule.offlineMode) {
