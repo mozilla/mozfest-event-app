@@ -19,7 +19,6 @@ nav {
 .page-caption h3 span,
 .schedule-tab h3 .fa {
   background: #e6e6e7;
-  color: #000;
 }
 
 h2 {
@@ -32,11 +31,6 @@ h2 {
 
 #page-links a.active {
   color: #FC913A;
-}
-
-.schedule-tab h3::before, 
-.page-caption h3::before {
-  border-color: #000;
 }
 
 .logo .fa {

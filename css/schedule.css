@@ -42,9 +42,9 @@
  
 .container {
   position: relative;
-  max-width: 800px;
+  max-width: 768px;
   margin: 0 auto;
-  padding:  0 2rem;
+  padding: 0 1rem;
 }
 
 nav {
@@ -94,19 +94,33 @@ nav .logo {
   text-align: center;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: normal;
+}
+
 h1 {
   margin-bottom: 0;
+  font-size: 2rem;
 }
 
 h2 {
   text-align: center;
   color: #CF455D;
   margin-top: 0;
+  font-size: 1.5rem;
+}
+
+h2.subhead {
+  font-size: .875rem;
 }
 
 h4 {
+  font-size: 1.125rem;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
 }
 
 input {
@@ -155,30 +169,30 @@ p {
   display: inline-block;
 }
 #schedule-controls li:first-child a {
-  -webkit-border-top-left-radius: 2px;
-  -webkit-border-bottom-left-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  -moz-border-radius-bottomleft: 2px;
-  border-top-left-radius: 2px;
-  border-bottom-left-radius: 2px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 #schedule-controls li:last-child a {
-  -webkit-border-top-right-radius: 2px;
-  -webkit-border-bottom-right-radius: 2px;
-  -moz-border-radius-topright: 2px;
-  -moz-border-radius-bottomright: 2px;
-  border-top-right-radius: 2px;
-  border-bottom-right-radius: 2px;
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   border-right: none;
 }
 #schedule-controls a {
   text-align: center;
   display: block;
-  padding: 1rem 0;
+  padding: 6px 0;
   color: #fff;
   background-color: #D1D3D3;
   text-decoration: none;
-  border-right: 2px solid #fff;
+  border-right: 5px solid #fff;
   text-transform: uppercase;
 }
 #schedule-controls a.active {
@@ -187,7 +201,7 @@ p {
 
 .schedule-tab,
 .page-block {
-
+  margin: 0 -.5rem;
 }
 
 .page-caption h2 {
@@ -200,20 +214,23 @@ p {
   position: relative;
   font-size: 2rem;
   text-transform: uppercase;
-  margin: 2rem 0;
+  margin-bottom: 1rem 0;
   text-align: center;
   z-index: 1;
   clear: both;
+  color: #555;
 }
 .schedule-tab h3 span,
 .page-caption h3 span {
-  padding: 0 2rem;
-  background: #fff;
+  padding: 0 1rem;
+  font-size: .875rem;
+  position: relative;
+  bottom: 5px;
 }
 .schedule-tab h3:before,
 .page-caption h3:before {
   content: "";
-  border-top: 1px solid #C9CCCC;
+  border-top: 1px solid #555;
   position: absolute;
   top: 50%;
   left: 0;
@@ -229,11 +246,12 @@ p {
 .schedule-tab h3 .fa {
   text-decoration: none;
   float: right;
-  font-size: 2rem;
-  padding: .3rem .1rem .5rem .8rem;
+  font-size: 1.3rem;
+  padding: .5rem .1rem .5rem .8rem;
   background: white;
 }
-h3.slider-control {
+
+.slider-control {
   cursor: pointer;
 }
 
@@ -245,8 +263,8 @@ h3.slider-control {
   position: relative;
 }
 .session-detail .favorite {
-  top: 1rem;
-  right: 1.5rem;
+  top: 60px;
+  right: 10px;
 }
 .session-detail .meta {
   background-color: #F5F5F5;
@@ -264,12 +282,13 @@ h3.slider-control {
   display: block;
   clear: both;
   position: relative;
-  padding: 2rem;
-  margin: 0 0 3rem 0;
+  padding: 15px 10px;
+  margin: 0 0 1rem 0;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
   background: #F5F5F5;
+  font-size: .875rem;
 }
 
 .session-list-item,
@@ -281,6 +300,11 @@ h3.slider-control {
 .session-list-item h4 {
   margin-right: 2.5rem;
 }
+
+.session-list-item h4 a {
+  font-weight: 500;
+}
+
 
 .all-sessions .session-description {
   word-wrap: break-word;
@@ -310,12 +334,12 @@ h3.slider-control {
 
 .favorite {
   color: #CF455D;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   position: absolute;
   cursor: pointer;
-  width: 2.4rem;
-  top: 2rem;
-  right: 2rem;
+  width: 1.6rem;
+  top: 15px;
+  right: 10px;
   line-height: 1;
   text-align: center;
 }
@@ -496,19 +520,15 @@ h3.slider-control {
 
 
 
-
-
-
-
-
-
-
-
 @media screen and (min-width: 768px) { 
   nav .container {
     flex-direction: row;
   }
   #nav-links {
     margin-top: 0rem;
+  }
+  .schedule-tab, 
+  .page-block {
+    margin: 0;
   }
 }

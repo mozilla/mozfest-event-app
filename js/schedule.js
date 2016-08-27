@@ -1064,7 +1064,7 @@ function Schedule(CUSTOM_CONFIG) {
     $("<h1></h1>")
       .html(CUSTOM_CONFIG.mainHeaderText)
       .appendTo($mainHeadingContainer);
-    $("<h2></h2>")
+    $("<h2 class='subhead'></h2>")
       .html(CUSTOM_CONFIG.subHeaderText)
       .appendTo($mainHeadingContainer);
   }
