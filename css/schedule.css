@@ -107,7 +107,6 @@ h1 {
 }
 
 h2 {
-  text-align: center;
   color: #CF455D;
   margin-top: 0;
   font-size: 1.5rem;
@@ -277,13 +276,12 @@ p {
   margin-bottom: 1.5rem;
 }
 .session-detail h2 {
-  text-align: left;
   color: #55565A;
 }
 
-
 .session-list-item,
 .open-block,
+.category-list-item,
 .tag-list-item {
   padding: 15px 10px;
 }
@@ -302,23 +300,12 @@ p {
   font-size: .875rem;
 }
 
-.session-list-item,
-.tag-list-item {
-  color: #55565A;
-  text-decoration: none;
-}
-
 .session-list-item h4 {
   margin-right: 2.5rem;
 }
 
 .session-list-item h4 a {
   font-weight: 500;
-}
-
-
-.all-sessions .session-description {
-  word-wrap: break-word;
 }
 
 #filter-form {
@@ -460,7 +447,6 @@ p {
 }
 
 .category-list-item {
-  padding: 2rem;
   margin-bottom: 1rem;
 }
 
