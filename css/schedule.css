@@ -117,6 +117,10 @@ h2.subhead {
   font-size: .875rem;
 }
 
+h3 {
+  font-weight: 400;
+}
+
 h4 {
   font-size: 1.125rem;
   margin-top: 0;
@@ -277,13 +281,19 @@ p {
   color: #55565A;
 }
 
+
 .session-list-item,
 .open-block,
-.tag-list-item  {
+.tag-list-item {
+  padding: 15px 10px;
+}
+
+.session-list-item,
+.open-block,
+.tag-list-item {
   display: block;
   clear: both;
   position: relative;
-  padding: 15px 10px;
   margin: 0 0 1rem 0;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -451,6 +461,7 @@ p {
 
 .category-list-item {
   padding: 2rem;
+  margin-bottom: 1rem;
 }
 
 .category-list-item .category-icon-container {
