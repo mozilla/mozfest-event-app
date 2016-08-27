@@ -76,7 +76,7 @@ nav .logo {
 #page-links a {
   display: inline-block;
   margin-left: 2rem;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 #page-links a.active {
@@ -196,7 +196,7 @@ p {
   background-color: #D1D3D3;
   text-decoration: none;
   border-right: 5px solid #fff;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 #schedule-controls a.active {
   background-color: #CF455D;
@@ -272,17 +272,14 @@ p {
 }
 .session-detail .meta {
   background-color: #F5F5F5;
-  padding: 1.5rem;
   margin-bottom: 1.5rem;
-}
-.session-detail h2 {
-  color: #55565A;
 }
 
 .session-list-item,
 .open-block,
 .category-list-item,
-.tag-list-item {
+.tag-list-item,
+.session-detail .meta {
   padding: 15px 10px;
 }
 
