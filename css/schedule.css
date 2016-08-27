@@ -226,6 +226,7 @@ p {
   font-size: .875rem;
   position: relative;
   bottom: 5px;
+  background: white;
 }
 .schedule-tab h3:before,
 .page-caption h3:before {
