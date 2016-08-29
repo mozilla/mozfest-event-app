@@ -198,10 +198,6 @@ p {
   background-color: #CF455D;
 }
 
-.timeblock {
-  margin: 0 -1rem;
-}
-
 .page-caption h2 {
   text-transform: uppercase;
   color: inherit;
@@ -457,14 +453,11 @@ p {
 }
 
 .clearfix:before,
-.clearfix:after,
-.timeblock:before,
-.timeblock:after {
+.clearfix:after {
   content: " ";
   display: table;
 }
-.clearfix:after,
-.timeblock:after {
+.clearfix:after {
   clear: both;
 }
 
