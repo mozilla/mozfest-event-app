@@ -16,17 +16,12 @@ nav {
 }
 
 .schedule-tab h3 span, 
-.page-caption h3 span,
 .schedule-tab h3 .fa {
   background: #e6e6e7;
 }
 
 h2 {
   color: #FC913A;
-}
-
-.favorite {
-  color: #FF4E50; 
 }
 
 #page-links a.active {
@@ -39,17 +34,13 @@ h2 {
   margin-top: 5px;
 }
 
-.session-list-item, 
+.session-card, 
 .open-block, 
 .tag-list-item,
 .category-list-item:nth-child(2n+1) {
   background: white;
 }
 
-
-
-
-
-#schedule-controls ul li {
-  width: 20%;
+.search-result {
+  background: pink;
 }
