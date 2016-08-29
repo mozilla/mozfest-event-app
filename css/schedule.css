@@ -207,10 +207,6 @@ p {
   color: inherit;
 }
 
-.schedule-tab {
-  border: 1px solid red;
-}
-
 .timeblock-header {
   position: relative;
   font-size: 2rem;
