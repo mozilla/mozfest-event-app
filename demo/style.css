@@ -15,8 +15,8 @@ nav {
   background: #FFCE34;
 }
 
-.schedule-tab h3 span, 
-.schedule-tab h3 .fa {
+.timeblock-header span, 
+.timeblock-header .fa {
   background: #e6e6e7;
 }
 
@@ -39,8 +39,4 @@ h2 {
 .tag-list-item,
 .category-list-item:nth-child(2n+1) {
   background: white;
-}
-
-.search-result {
-  background: pink;
 }

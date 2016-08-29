@@ -220,18 +220,20 @@ function Schedule(CUSTOM_CONFIG) {
   }
 
   // insert schedule block container into DOM
-  schedule.generateListOftimeblocks = function(timeblocks) {
+  schedule.generateListOfTimeblocks = function(timeblocks) {
     _.each(timeblocks,function(timeblock,i) {
       // TODO: can probably use template for this
       // schedule block header
       var header = $("<h3><span>"+timeblock['timeblock name']+"</span></h3>");
       // container
-      var container = $("<div></div>")
-                        .attr("id", timeblock.key)
-                        .attr("class", "timeblock")
-                        .html("<div class='open-block'>OPEN</div>");
-      schedule.$container.find(".schedule-tab:visible").append(header)
-                                                       .append(container);
+      var timeblockContainer = $("<div></div>")
+                                .attr("id", timeblock.key)
+                                .attr("class", "timeblock");
+      var sessionsContainer = $("<div></div>").attr("class", "sessions-container")
+                                              .html("<div class='open-block'>OPEN</div>");
+      timeblockContainer.append(header)
+                        .append(sessionsContainer);
+      schedule.$container.find(".schedule-tab").append(timeblockContainer);
     });
   }
 
@@ -262,11 +264,11 @@ function Schedule(CUSTOM_CONFIG) {
     var sessionList = sessionList || schedule.sessionList;
 
     console.log("sessionList.length = ", sessionList.length);
-    schedule.generateListOftimeblocks(schedule.timeblocks);
+    schedule.generateListOfTimeblocks(schedule.timeblocks);
 
     _.each(sessionList, function(v, k) {
       // find the correct schedule block on the page for this session
-      var targetBlock = $('#'+v.timeblock);
+      var targetBlock = $('#'+v.timeblock).find(".sessions-container");
       // prep the session data for the template
       var templateData = schedule.makeSessionItemTemplateData(v);
       // render it in
@@ -405,8 +407,8 @@ function Schedule(CUSTOM_CONFIG) {
   
   // add icons for collapsible timeblocks
   schedule.addBlockToggles = function() {
-    var blocks = schedule.$container.find('.timeblock:visible');
-    blocks.prev('h3').addClass('timeblock-header').append('<i class="fa fa-chevron-circle-down"></i>');
+    var blocks = schedule.$container.find('.timeblock .sessions-container');
+    blocks.prev('h3').addClass('timeblock-header').append('<i class="fa fa-chevron-circle-left"></i>');
     blocks.addClass('slider');
     schedule.calculateBlockHeights(blocks);
   }
@@ -417,7 +419,7 @@ function Schedule(CUSTOM_CONFIG) {
     _.each(blocks, function(b) {
       var block = $(b);
       var blockHeight = block.height()+'px';
-      block.attr('data-max-height', blockHeight).css('max-height', blockHeight);
+      block.attr('data-max-height', blockHeight).css('max-height', 0);
     });
   }
   
@@ -539,7 +541,6 @@ function Schedule(CUSTOM_CONFIG) {
     } else {
       // handle standard tabs like "Thursday" or "Friday"
       schedule.$container.html(schedule.sessionListTemplate);
-      schedule.$container.find('.schedule-tab').hide();
       $('#'+schedule.chosenTab).show();
       schedule.addCaptionOverline();
       // TODO (for the data processor service): make sure "day" in sessions.json are all lowercase
@@ -868,19 +869,19 @@ function Schedule(CUSTOM_CONFIG) {
     // toggle individual schedule blocks on header tap
     schedule.$container.on('click', '.timeblock-header', function(e) {
       var clicked = $(this);
-      var targetBlock = clicked.next('.timeblock');
+      var targetBlock = clicked.next('.sessions-container');
       schedule.animateBlockToggle(targetBlock);
       clicked.find('.fa').toggleClass('fa-chevron-circle-left fa-chevron-circle-down')
     });
 
     // helper function for "toggle block" and "toggle all" controls
     schedule.animateBlockToggle = function(targetBlock) {
-      targetBlock.toggleClass('closed');
+      targetBlock.toggleClass('expanded');
       
-      if (targetBlock.hasClass('closed')) {
-        targetBlock.css('max-height', 0)
+      if (targetBlock.hasClass('expanded')) {
+        targetBlock.css('max-height', targetBlock.data('max-height'));
       } else {
-        targetBlock.css('max-height', targetBlock.data('max-height'))
+        targetBlock.css('max-height', 0);
       }
     }
     
@@ -918,7 +919,6 @@ function Schedule(CUSTOM_CONFIG) {
                 var targetBlock = target.parents('.timeblock');
                 target.remove();
                 if (!targetBlock.find('.session-card').length) {
-                  //targetBlock.append('<div class="open-block">OPEN</div>');
                   targetBlock.prev('h3').remove();
                   targetBlock.fadeOut('fast');
                 }

@@ -207,20 +207,25 @@ p {
   color: inherit;
 }
 
-.schedule-tab h3 {
+.schedule-tab {
+  border: 1px solid red;
+}
+
+.timeblock-header {
   position: relative;
   font-size: 2rem;
   margin-bottom: 1rem;
   text-align: center;
+  cursor: pointer;
 }
-.schedule-tab h3 span {
+.timeblock-header span {
   padding: 0 1rem;
   font-size: .875rem;
   position: relative;
   bottom: 5px;
   background: white;
 }
-.schedule-tab h3:before {
+.timeblock-header:before {
   content: "";
   border-top: 1px solid #555;
   position: absolute;
@@ -235,7 +240,7 @@ p {
   transition-duration: .3s;
   transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 }
-.schedule-tab h3 .fa {
+.timeblock-header .fa {
   text-decoration: none;
   float: right;
   font-size: 1.3rem;
@@ -243,13 +248,10 @@ p {
   background: white;
 }
 
-.timeblock-header {
-  cursor: pointer;
-}
-
 .session-detail {
   position: relative;
 }
+
 .session-detail .header {
   padding: 0 1.5rem;
   position: relative;
