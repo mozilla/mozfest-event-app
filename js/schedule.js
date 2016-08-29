@@ -228,7 +228,7 @@ function Schedule(CUSTOM_CONFIG) {
       // container
       var container = $("<div></div>")
                         .attr("id", timeblock.key)
-                        .attr("class", "page-block")
+                        .attr("class", "timeblock")
                         .html("<div class='open-block'>OPEN</div>");
       schedule.$container.find(".schedule-tab:visible").append(header)
                                                        .append(container);
@@ -284,7 +284,7 @@ function Schedule(CUSTOM_CONFIG) {
     });
 
     // add "fav" star controls to all session items on the page
-    schedule.addStars('.session-list-item');
+    schedule.addStars('.session-card');
 
     // run the callback after adding all available sessions.
     schedule.addBlockToggles();
@@ -405,15 +405,15 @@ function Schedule(CUSTOM_CONFIG) {
   
   // add icons for collapsible timeblocks
   schedule.addBlockToggles = function() {
-    var blocks = schedule.$container.find('.page-block:visible');
-    blocks.prev('h3').addClass('slider-control').append('<i class="fa fa-chevron-circle-down"></i>');
+    var blocks = schedule.$container.find('.timeblock:visible');
+    blocks.prev('h3').addClass('timeblock-header').append('<i class="fa fa-chevron-circle-down"></i>');
     blocks.addClass('slider');
     schedule.calculateBlockHeights(blocks);
   }
 
   // calculate and store block heights for animations
   schedule.calculateBlockHeights = function(blocks) {
-    var blocks = blocks || schedule.$container.find('.page-block');
+    var blocks = blocks || schedule.$container.find('.timeblock');
     _.each(blocks, function(b) {
       var block = $(b);
       var blockHeight = block.height()+'px';
@@ -573,14 +573,14 @@ function Schedule(CUSTOM_CONFIG) {
     // render the list
     _.each(fullList, function(v, k) {
       var templateData = schedule.makeSessionItemTemplateData(v, true);
-      schedule.writeSession(schedule.$container, templateData, schedule.sessionListItemTemplate);
+      schedule.writeSession(schedule.$container, templateData, schedule.searchModeSessionCardTemplate);
     });
 
     // add fav stars
-    schedule.addStars('.session-list-item');
+    schedule.addStars('.session-card');
 
     // do not show any cards until user starts typing/searching
-    $(".session-list-item").hide();
+    $(".session-card").hide();
   }
 
   // provide some user instructions at top of page
@@ -624,7 +624,7 @@ function Schedule(CUSTOM_CONFIG) {
         var filteredIDs = _.pluck(filteredSessions, 'id');
 
         // ... temporarily hide all the sessions on the page ...
-        $('.session-list-item').hide()
+        $('.session-card').hide()
         $('.session-description').hide();
         // ... and then show matching sessions, including description
         _.each(filteredIDs, function(i) {
@@ -633,11 +633,11 @@ function Schedule(CUSTOM_CONFIG) {
       } else {
         // no value in search input, so make sure all items are visible
         $('.session-description').hide();
-        schedule.$container.find('.session-list-item').css('display','block');
+        schedule.$container.find('.session-card').css('display','block');
       }
 
       // show "no results" if search input value matches zero items
-      if ($('.session-list-item:visible').length == 0) {
+      if ($('.session-card:visible').length == 0) {
         $('#no-results').remove();
         $('#filter-form input').after('<p id="no-results">No matching results found.</p>');
       } else {
@@ -825,9 +825,9 @@ function Schedule(CUSTOM_CONFIG) {
     });
 
     // clicking on the header in a session "card" opens session detail view
-    schedule.$container.on('click', '.session-list-item h4 a', function(e) {
+    schedule.$container.on('click', '.session-card h4 a', function(e) {
       e.preventDefault();
-      var clicked = $(this).parents('.session-list-item').data('session');
+      var clicked = $(this).parents('.session-card').data('session');
 
       // track interaction in Google Analytics
       schedule.trackEvent('Session Detail Opened', clicked);
@@ -866,9 +866,9 @@ function Schedule(CUSTOM_CONFIG) {
     });
 
     // toggle individual schedule blocks on header tap
-    schedule.$container.on('click', '.slider-control', function(e) {
+    schedule.$container.on('click', '.timeblock-header', function(e) {
       var clicked = $(this);
-      var targetBlock = clicked.next('.page-block');
+      var targetBlock = clicked.next('.timeblock');
       schedule.animateBlockToggle(targetBlock);
       clicked.find('.fa').toggleClass('fa-chevron-circle-left fa-chevron-circle-down')
     });
@@ -913,11 +913,11 @@ function Schedule(CUSTOM_CONFIG) {
             // if we're actually *on* the "Favorites" tab,
             // we need to remove this element from the page
             if (schedule.chosenTab == 'favorites') {
-              targets.parent('.session-list-item').fadeOut('fast', function() {
+              targets.parent('.session-card').fadeOut('fast', function() {
                 var target = $(this);
-                var targetBlock = target.parents('.page-block');
+                var targetBlock = target.parents('.timeblock');
                 target.remove();
-                if (!targetBlock.find('.session-list-item').length) {
+                if (!targetBlock.find('.session-card').length) {
                   //targetBlock.append('<div class="open-block">OPEN</div>');
                   targetBlock.prev('h3').remove();
                   targetBlock.fadeOut('fast');
@@ -1014,15 +1014,15 @@ function Schedule(CUSTOM_CONFIG) {
 
   // compile the Underscore templates
   schedule.sessionListTemplate = _.template(
-    $("script#session-list-template").html()
+    $("script#schedule-tab-template").html()
   );
 
   schedule.sessionCardTemplate = _.template(
     $("script#session-card-template").html()
   );
 
-  schedule.sessionListItemTemplate = _.template(
-    $("script#session-list-item-template").html()
+  schedule.searchModeSessionCardTemplate = _.template(
+    $("script#search-mode-session-card-template").html()
   );
 
   schedule.sessionDetailTemplate = _.template(

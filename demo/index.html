@@ -55,27 +55,16 @@
     </div>
 
     <!-- template used in the day tab view -->
-    <script type="text/template" id="session-list-template">
-    <div id="friday" class="schedule-tab">
-    </div>
-    
-    <div id="saturday" class="schedule-tab">
-    </div>
-    
-    <div id="sunday" class="schedule-tab">
+    <script type="text/template" id="schedule-tab-template">
+    <div class="schedule-tab">
     </div>
     </script>
 
     <!-- template used in tabs other than the search(all sessions) tab view -->
     <script type="text/template" id="session-card-template">
-    <div id="session-<%= sessionID %>" class="session-list-item<% if (session.category == 'Everyone') { %> session-everyone<% } %>" data-session="<%= sessionID.replace('-ghost','') %>">
+    <div id="session-<%= sessionID %>" class="session-card<% if (session.category == 'Everyone') { %> session-everyone<% } %>" data-session="<%= sessionID.replace('-ghost','') %>">
       <h4><a href="#_session-<%= sessionID %>"><%= smartypants(session.title) %></a></h4>
       <div>
-        <% if (showFacilitators && session.facilitators) { %>
-        <div class="session-facilitators">
-          <%= smartypants(session.facilitators) %>
-        </div>
-        <% } %>
         <% if (session.start) { %>
         <div class="session-time">
           <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %>
@@ -96,8 +85,8 @@
     </script>
 
     <!-- template used in the search(all sessions) tab view -->
-    <script type="text/template" id="session-list-item-template">
-    <div id="session-<%= sessionID %>" class="session-list-item" data-session="<%= sessionID.replace('-ghost','') %>">
+    <script type="text/template" id="search-mode-session-card-template">
+    <div id="session-<%= sessionID %>" class="session-card search-result" data-session="<%= sessionID.replace('-ghost','') %>">
       <h4><a href="#_session-<%= sessionID %>"><%= smartypants(session.title) %></a></h4>
       <% if (session.start) { %>
       <div class="session-time">

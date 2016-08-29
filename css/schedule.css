@@ -156,11 +156,6 @@ p {
   margin: 2rem 0 4rem 0;
 }
 
-#schedule-controls {
-  clear: both;
-  margin: 1rem auto;
-}
-
 #schedule-controls ul {
   font-size: 2.5rem;
   padding: 0;
@@ -170,6 +165,7 @@ p {
 
 #schedule-controls li {
   display: inline-block;
+  margin: 0;
 }
 #schedule-controls li:first-child a {
   -webkit-border-top-left-radius: 5px;
@@ -202,9 +198,8 @@ p {
   background-color: #CF455D;
 }
 
-.schedule-tab,
-.page-block {
-  margin: 0 -.5rem;
+.timeblock {
+  margin: 0 -1rem;
 }
 
 .page-caption h2 {
@@ -212,27 +207,20 @@ p {
   color: inherit;
 }
 
-.schedule-tab h3,
-.page-caption h3 {
+.schedule-tab h3 {
   position: relative;
   font-size: 2rem;
-  text-transform: uppercase;
-  margin-bottom: 1rem 0;
+  margin-bottom: 1rem;
   text-align: center;
-  z-index: 1;
-  clear: both;
-  color: #555;
 }
-.schedule-tab h3 span,
-.page-caption h3 span {
+.schedule-tab h3 span {
   padding: 0 1rem;
   font-size: .875rem;
   position: relative;
   bottom: 5px;
   background: white;
 }
-.schedule-tab h3:before,
-.page-caption h3:before {
+.schedule-tab h3:before {
   content: "";
   border-top: 1px solid #555;
   position: absolute;
@@ -255,7 +243,7 @@ p {
   background: white;
 }
 
-.slider-control {
+.timeblock-header {
   cursor: pointer;
 }
 
@@ -275,7 +263,7 @@ p {
   margin-bottom: 1.5rem;
 }
 
-.session-list-item,
+.session-card,
 .open-block,
 .category-list-item,
 .tag-list-item,
@@ -283,11 +271,10 @@ p {
   padding: 15px 10px;
 }
 
-.session-list-item,
+.session-card,
 .open-block,
 .tag-list-item {
   display: block;
-  clear: both;
   position: relative;
   margin: 0 0 1rem 0;
   -webkit-border-radius: 2px;
@@ -297,11 +284,11 @@ p {
   font-size: .875rem;
 }
 
-.session-list-item h4 {
+.session-card h4 {
   margin-right: 2.5rem;
 }
 
-.session-list-item h4 a {
+.session-card h4 a {
   font-weight: 500;
 }
 
@@ -473,20 +460,15 @@ p {
 
 .clearfix:before,
 .clearfix:after,
-.page-block:before,
-.page-block:after {
+.timeblock:before,
+.timeblock:after {
   content: " ";
   display: table;
 }
 .clearfix:after,
-.page-block:after {
+.timeblock:after {
   clear: both;
 }
-.clearfix,
-.page-block {
-  *zoom: 1;
-}
-
 
 .loading span {
   animation-name: pulse;
@@ -522,8 +504,7 @@ p {
   #nav-links {
     margin-top: 0rem;
   }
-  .schedule-tab, 
-  .page-block {
+  .timeblock {
     margin: 0;
   }
 }
