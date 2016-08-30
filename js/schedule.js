@@ -12,6 +12,8 @@ function Schedule(CUSTOM_CONFIG) {
     plural: CUSTOM_CONFIG.displayNameForTag.plural.toLowerCase(),
   }
 
+  schedule.currentSearchTerm = "";
+
   schedule.init = function(options) {
     // Build shared UI components
     schedule.buildNavbar();
@@ -73,7 +75,6 @@ function Schedule(CUSTOM_CONFIG) {
     // 2) _show (which gets a session list for a specific tab)
     switch(decodeURIComponent(pageType)) {
       case "_search":
-        schedule.chosenTab = "search";
         schedule.toggleSearchMode(true);
         break;
       case "_session":
@@ -512,16 +513,18 @@ function Schedule(CUSTOM_CONFIG) {
       schedule.updateHash("search");
       schedule.loadSessions(schedule.showFullSessionList);
       schedule.setBodyClass("search-mode");
+      // if user came back from detail view of a matching session,
+      // this triggers the list of search result again
+      $('#list-filter').attr("value",schedule.currentSearchTerm).keyup();
     } else {
-      schedule.setBodyClass();
-      schedule.updateHash("show-"+schedule.chosenTab); // FIXME:TODO: shouldn't always go back to Saturday tab
-      schedule.loadChosenTab();
+      schedule.currentSearchTerm = "";
+      window.history.back();
     }
   }
 
   // based on the value of chosenTab, render the proper session list
   schedule.loadChosenTab = function() {
-    console.log("=======loadChosenTab=========== ", schedule.chosenTab);
+    console.log("= loadChosenTab =", schedule.chosenTab);
     // clear currently highlighted tab/page link
     // and make sure the selected tab is lit
     schedule.clearHighlightedPage();
@@ -610,10 +613,13 @@ function Schedule(CUSTOM_CONFIG) {
     // watch search input for changes, and filter the session list accordingly
     $('#list-filter').change(function() {
       var filterVal = $(this).val();
+      schedule.currentSearchTerm = filterVal;
+      $('.session-card').hide();
+
       if (filterVal) {
         // compare current value of search input across session data,
         // matching against titles, session leader names, descriptions,
-        // Categories and Tags
+        // [Categories] and [Tags]
         var filteredSessions = _.filter(schedule.sessionList, function(v, k) {
           return (v.title.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                || (v.facilitators.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
@@ -623,22 +629,14 @@ function Schedule(CUSTOM_CONFIG) {
         });
         // get the IDs of the matching sessions ...
         var filteredIDs = _.pluck(filteredSessions, 'id');
-
-        // ... temporarily hide all the sessions on the page ...
-        $('.session-card').hide()
-        $('.session-description').hide();
-        // ... and then show matching sessions, including description
+        // ... and then show matching sessions
         _.each(filteredIDs, function(i) {
-          $('#session-'+i).show().find('.session-description').show();
+          $('#session-'+i).show();
         })
-      } else {
-        // no value in search input, so make sure all items are visible
-        $('.session-description').hide();
-        schedule.$container.find('.session-card').css('display','block');
       }
 
       // show "no results" if search input value matches zero items
-      if ($('.session-card:visible').length == 0) {
+      if ($('.session-card').length == 0 && filterVal.length !== 0) {
         $('#no-results').remove();
         $('#filter-form input').after('<p id="no-results">No matching results found.</p>');
       } else {
@@ -842,20 +840,15 @@ function Schedule(CUSTOM_CONFIG) {
 
       schedule.setBodyClass();
 
-      // FIXME:TODO: this should probably go back to where user was
-      // if (window.history.ready && !schedule.offlineMode) {
-      //   // use history.back() if possible to keep state in sync
-      //   window.history.back();
-      // } else {
-      //   // otherwise update hash and clear view manually
-      //   schedule.updateHash('');
-      //   schedule.clearSessionDetail();
-      //   schedule.makeSchedule();
-      // }
-
-      schedule.updateHash('show-'+schedule.chosenTab);
-      schedule.clearSessionDetail();
-      schedule.makeSchedule();
+      if (window.history.ready && !schedule.offlineMode) {
+        // use history.back() if possible to keep state in sync
+        window.history.back();
+      } else {
+        // otherwise update hash and clear view manually
+        schedule.updateHash('show-'+schedule.chosenTab);
+        schedule.clearSessionDetail();
+        schedule.makeSchedule();
+      }
     });
 
     // scroll down to transcription inside session detail view
@@ -936,7 +929,6 @@ function Schedule(CUSTOM_CONFIG) {
     window.onpopstate = function(event) {
       // if window.history isn't available, bail out
       if (!window.history.ready) return;
-      schedule.clearSessionDetail();
       schedule.load();
     };
   }
