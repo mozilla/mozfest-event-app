@@ -28,6 +28,10 @@ h2 {
   color: #FC913A;
 }
 
+nav .logo {
+  border: 1px solid #555;
+}
+
 .logo .fa {
   color: #FFF;
   font-size: 50px;

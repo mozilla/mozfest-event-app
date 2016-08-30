@@ -374,14 +374,6 @@ p {
 
 }
 
-.favorites .session-length-short,
-.all-sessions .session-length-short {
-  float: none;
-  clear: both;
-  width: auto;
-  min-height: 0;
-}
-
 .session-length-long {
 
 }
