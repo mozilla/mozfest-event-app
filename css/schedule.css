@@ -73,8 +73,13 @@ nav .logo {
 }
 
 .day-view #schedule-page-link,
+#page-links a:hover,
 #page-links a.active {
   color: #CF455D;
+}
+
+#page-links a:hover {
+  text-decoration: none;
 }
 
 #search {
