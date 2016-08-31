@@ -246,7 +246,7 @@ p {
   position: relative;
   background: #fff;
   margin: 0 -1rem;
-  padding: 1rem;
+  padding: 1.5rem 1rem;
 }
 
 .session-detail .favorite {
@@ -424,7 +424,7 @@ p {
   display: block;
   margin: 0 -1rem 1rem -1rem;
   padding: 1rem;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-decoration: none;
   background: #F5F5F5;
 }
