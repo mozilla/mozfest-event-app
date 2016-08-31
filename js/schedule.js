@@ -1,6 +1,7 @@
 function Schedule(CUSTOM_CONFIG) {
   var schedule = {};
   var LOCALSTORGE_KEY_SAVED_SESSIONS = CUSTOM_CONFIG.localStoragePrefix+'_saved_sessions';
+  var SCHEDULE_NAV_LINK_ID = "schedule-page-link";
   var CATEGORY_NAV_LINK_ID = "categories-page-link";
   var TAG_NAV_LINK_ID = "tags-page-link";
   var DISPLAY_NAME_FOR_CATEGORY = {
@@ -791,6 +792,11 @@ function Schedule(CUSTOM_CONFIG) {
       e.preventDefault();
 
       schedule.toggleSearchMode(false);
+    });
+
+    // clicking on the Schedule link on the nav bar displays the first Day tab
+    schedule.$pageLinks.on('click', '#'+SCHEDULE_NAV_LINK_ID, function(e) {
+      $("nav .logo").click();
     });
 
     // clicking on the [Categories] link on the nav bar displays the list of Categories
