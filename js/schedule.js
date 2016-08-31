@@ -636,9 +636,9 @@ function Schedule(CUSTOM_CONFIG) {
       }
 
       // show "no results" if search input value matches zero items
-      if ($('.session-card').length == 0 && filterVal.length !== 0) {
+      if ($('.session-card:visible').length == 0 && filterVal.length !== 0) {
         $('#no-results').remove();
-        $('#filter-form input').after('<p id="no-results">No matching results found.</p>');
+        $('#filter-form input').after('<p id="no-results">Nothing found, please try another search.</p>');
       } else {
         $('#no-results').remove();
       }
