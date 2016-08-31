@@ -67,17 +67,18 @@ nav .logo {
 
 #page-links a {
   display: inline-block;
-  margin-left: 2rem;
+  margin-right: 2rem;
   text-transform: capitalize;
+  cursor: pointer;
 }
 
+.day-view #schedule-page-link,
 #page-links a.active {
   color: #CF455D;
 }
 
 #search {
   display: inline-block;
-  margin-left: 15px;
   cursor: pointer;
   text-transform: none;
 }

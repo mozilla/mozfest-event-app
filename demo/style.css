@@ -24,6 +24,7 @@ h2 {
   color: #FC913A;
 }
 
+.day-view #schedule-page-link,
 #page-links a.active {
   color: #FC913A;
 }
