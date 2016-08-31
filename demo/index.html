@@ -65,7 +65,7 @@
     <script type="text/template" id="session-card-template">
     <div id="session-<%= sessionID %>" class="session-card<% if (session.category == 'Everyone') { %> session-everyone<% } %>" data-session="<%= sessionID.replace('-ghost','') %>">
       <h4><a href="#_session-<%= sessionID %>"><%= smartypants(session.title) %></a></h4>
-      <div>
+      <div class="meta">
         <% if (session.start) { %>
         <div class="session-time">
           <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %>
@@ -120,10 +120,10 @@
     <!-- template used in the session detail view -->
     <script type="text/template" id="session-detail-template">
     <div id="session-detail-wrapper">
-      <a id="show-full-schedule" href="/">Back to full schedule</a>
+      <a id="show-full-schedule" href="/">Back</a>
       <div id="session-detail-<%= session.id %>" class="session-detail" data-session="<%= session.id %>">
         <div class="header">
-          <h2><%= smartypants(session.title) %></h2>
+          <h4><%= smartypants(session.title) %></h4>
         </div>
         <div class="meta">
           <% if (session.start) { %>
@@ -148,15 +148,15 @@
             <% session.facilitator_array.forEach(function(facilitator, index) { %><% if (index > 0) { %>, <br><% } %><%= facilitator.name %><% if (facilitator.twitter) { %> <a href="https://twitter.com/<%= facilitator.twitter %>"><%= facilitator.twitter %></a><% } %><% if (facilitator.description.length>0) { %>, <%= facilitator.description %><% } %><% }) %>
           </div>
           <% } %>
-          <% if (session['notes url']) { %>
-          <div class="session-notes-url">
-            <a href="<%= session['notes url'] %>" class="btn">Photos & Notes</a>
-          </div>
-          <% } %>
         </div>
         <% if (session.description) { %>
         <div class="session-description">
           <%= marked(session.description) %>
+        </div>
+        <% } %>
+        <% if (session['notes url']) { %>
+        <div class="session-notes-url">
+          <a href="<%= session['notes url'] %>" class="btn">Notes</a>
         </div>
         <% } %>
       </div>

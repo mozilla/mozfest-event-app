@@ -45,3 +45,7 @@ nav .logo {
 .category-list-item:nth-child(2n+1) {
   background: white;
 }
+
+#show-full-schedule {
+  background: #FFCE34;
+}

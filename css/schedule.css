@@ -27,6 +27,11 @@
   display: inline-block;
 }
 
+
+.detail-view #schedule {
+  margin: 0;
+}
+
 .detail-view header,
 .detail-view #schedule-controls {
   display: none;
@@ -239,26 +244,27 @@ p {
 
 .session-detail {
   position: relative;
+  background: #fff;
 }
 
-.session-detail .header {
-  padding: 0 1.5rem;
-  position: relative;
-}
 .session-detail .favorite {
-  top: 60px;
-  right: 10px;
+  top: 0;
 }
+
+.session-card .meta,
 .session-detail .meta {
-  background-color: #F5F5F5;
-  margin-bottom: 1.5rem;
+  color: #ADADAD;
+  font-weight: 300;
+}
+
+.session-detail .meta {
+  margin-bottom: .5rem;
 }
 
 .session-card,
 .open-block,
 .category-list-item,
-.tag-list-item,
-.session-detail .meta {
+.tag-list-item {
   padding: 15px 10px;
 }
 
@@ -274,12 +280,26 @@ p {
   background: #F5F5F5;
 }
 
-.session-card h4 {
+.session-card h4.
+.session-detail h4 {
   margin-right: 2.5rem;
 }
 
-.session-card h4 a {
+.session-card h4 a,
+.session-detail h4 {
   font-weight: 500;
+}
+
+.session-notes-url a {
+  border-color: #CF455D;
+  color: #CF455D;
+  background: none;
+  width: 100%;
+  text-transform: capitalize;
+}
+
+.session-notes-url a:hover {
+  color: white;
 }
 
 #filter-form {
@@ -400,13 +420,16 @@ p {
 
 #show-full-schedule {
   display: block;
-  margin-bottom: 2rem;
+  margin: 0 -1rem 1rem -1.5rem;
+  padding: 1rem;
   text-transform: uppercase;
   text-decoration: none;
+  background: #F5F5F5;
 }
 
 #show-full-schedule::before {
-  content: "<";
+  content: "\f104";
+  font-family: "FontAwesome";
   display: inline-block;
   margin-right: 10px;
 }
@@ -488,5 +511,11 @@ p {
   }
   .timeblock {
     margin: 0;
+  }
+  .session-notes-url a {
+    box-sizing: border-box;
+    width: auto;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
