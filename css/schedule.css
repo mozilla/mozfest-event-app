@@ -73,12 +73,12 @@ nav .logo {
 }
 
 .day-view #schedule-page-link,
-#page-links a:hover,
-#page-links a.active {
+#nav-links a:hover,
+#nav-links a.active {
   color: #CF455D;
 }
 
-#page-links a:hover {
+#nav-links a:hover {
   text-decoration: none;
 }
 
