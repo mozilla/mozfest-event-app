@@ -1,13 +1,5 @@
 @import url(mofo-bootstrap.css);
-@import url(font-awesome.min.css);
-
-@font-face {
-  font-family: 'FontAwesome';
-  src: url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.eot?v=4.6.3');
-  src: url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'), url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'), url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'), url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), url('https://mozilla.github.io/schedule-app-core/fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url(font-awesome.css);
 
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
@@ -113,7 +105,7 @@ h2 {
 }
 
 h2.subhead {
-  font-size: .875rem;
+  font-size: 1rem;
 }
 
 h3 {
@@ -212,7 +204,7 @@ p {
 }
 .timeblock-header span {
   padding: 0 1rem;
-  font-size: .875rem;
+  font-size: 1rem;
   position: relative;
   bottom: 5px;
   background: white;
@@ -275,7 +267,6 @@ p {
   -moz-border-radius: 2px;
   border-radius: 2px;
   background: #F5F5F5;
-  font-size: .875rem;
 }
 
 .session-card h4 {
@@ -341,29 +332,32 @@ p {
 .session-time:before,
 .session-category-and-location:before,
 .session-tags:before {
-  display: block;
+  display: inline-block;
   content: "";
-  background-size: 20px auto;
   position: absolute;
   left: 0;
   width: 20px;
-  height: 20px;
+  text-align: center;
 }
 
 .session-facilitators:before {
-  background-image: url(https://mozilla.github.io/schedule-app-core/img/icon-facilitator.svg);
+  content: "\f007";
+  font-family: "FontAwesome";
 }
 
 .session-time:before {
-  background-image: url(https://mozilla.github.io/schedule-app-core/img/icon-clock.svg);
+  content: "\f017";
+  font-family: "FontAwesome";
 }
 
 .session-category-and-location:before {
-  background-image: url(https://mozilla.github.io/schedule-app-core/img/icon-category.svg);
+  content: "\f041";
+  font-family: "FontAwesome";
 }
 
 .session-tags:before {
-  background-image: url(https://mozilla.github.io/schedule-app-core/img/icon-tag.svg);
+  content: "\f277";
+  font-family: "FontAwesome";
 }
 
 .session-notes-url {
