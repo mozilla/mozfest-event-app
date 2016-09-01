@@ -13,9 +13,10 @@ function Schedule(CUSTOM_CONFIG) {
     plural: CUSTOM_CONFIG.displayNameForTag.plural.toLowerCase(),
   }
 
-  schedule.currentSearchTerm = "";
-
   schedule.init = function(options) {
+    schedule.currentSearchTerm = "";
+    schedule.landedOnSearchMode = false;
+
     // Build shared UI components
     schedule.buildNavbar();
     schedule.buildMainHeading();
@@ -77,6 +78,7 @@ function Schedule(CUSTOM_CONFIG) {
     switch(decodeURIComponent(pageType)) {
       case "_search":
         schedule.toggleSearchMode(true);
+        schedule.landedOnSearchMode = true;
         break;
       case "_session":
         // get session details based on ID value from the URL
@@ -525,6 +527,11 @@ function Schedule(CUSTOM_CONFIG) {
       schedule.currentSearchTerm = "";
       if (backToPreviousView) {
         window.history.back();
+      } else {
+        if (schedule.landedOnSearchMode){
+          schedule.landedOnSearchMode = null;
+          schedule.tabControlClickHandler(); // goes to first Day tab view
+        }
       }
     }
   }
@@ -768,32 +775,32 @@ function Schedule(CUSTOM_CONFIG) {
     $("body").removeClass().addClass(className || "");
   }
 
+  schedule.tabControlClickHandler = function(e) {
+    if (e) e.preventDefault();
+
+    var $this = $(this);
+    var id, tab;
+
+    if ( !$(this).data("tab") ) { 
+      // when elem clicked isn't a tab control, e.g, it's the logo or the schedule link
+      // we bring users to the first day tab view instead
+      $this = $("#schedule-controls a").eq(0);
+    }
+
+    id = $this.attr('id');
+    tab = $this.data("tab");
+
+    schedule.toggleSearchMode(false);
+    schedule.updateHash(id);
+    schedule.chosenTab = tab;
+    schedule.loadChosenTab();
+  };
+
   // add the standard listeners for various user interactions
   schedule.addListeners = function() {
 
-    function tabControlClickHandler(e) {
-      e.preventDefault();
-
-      var $this = $(this);
-      var id, tab;
-
-      if ( !$(this).data("tab") ) { 
-        // when elem clicked isn't a tab control, e.g, it's the logo or the schedule link
-        // we bring users to the first day tab view instead
-        $this = $("#schedule-controls a").eq(0);
-      }
-
-      id = $this.attr('id');
-      tab = $this.data("tab");
-
-      schedule.toggleSearchMode(false);
-      schedule.updateHash(id);
-      schedule.chosenTab = tab;
-      schedule.loadChosenTab();
-    }
-
     // tap a schedule tab to toggle to a different view
-    schedule.$toggles.on('click', 'a', tabControlClickHandler);
+    schedule.$toggles.on('click', 'a', schedule.tabControlClickHandler);
 
     $(".search-icon").on('click', function(e) {
       e.preventDefault();
@@ -804,15 +811,19 @@ function Schedule(CUSTOM_CONFIG) {
     $(".search-cancel").on('click', function(e) {
       e.preventDefault();
 
-      schedule.toggleSearchMode(false,true);
+      if (schedule.landedOnSearchMode) {
+        schedule.toggleSearchMode(false);
+      } else {
+        schedule.toggleSearchMode(false,true);
+      }
     });
 
 
     // clicking on the logo displays the first Day tab
-    $("nav .logo").on('click', tabControlClickHandler);
+    $(".logo").on('click', schedule.tabControlClickHandler);
 
     // clicking on the Schedule link on the nav bar displays the first Day tab
-    schedule.$pageLinks.on('click', '#'+SCHEDULE_NAV_LINK_ID, tabControlClickHandler);
+    schedule.$pageLinks.on('click', '#'+SCHEDULE_NAV_LINK_ID, schedule.tabControlClickHandler);
 
     // clicking on the [Categories] link on the nav bar displays the list of Categories
     schedule.$pageLinks.on('click', '#'+CATEGORY_NAV_LINK_ID, function(e) {
