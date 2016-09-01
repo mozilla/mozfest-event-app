@@ -437,9 +437,13 @@ function Schedule(CUSTOM_CONFIG) {
 
     // add the toggle links
     _.each(schedule.tabList, function(tab) {
+      var tabName = tab.name.toLowerCase();
       schedule.$toggles.append(
         $('<li>').css('width', toggleWidth+'%').append(
-          $('<a>').html(tab.displayName).attr('href', '#').attr('id', 'show-'+tab.name.toLowerCase()).attr("data-tab",tab.name.toLowerCase())
+          $('<a>').html(tab.displayName)
+                  .attr('href', '#show-'+tabName)
+                  .attr('id', 'show-'+tabName)
+                  .attr("data-tab",tabName)
         )
       );
     });
@@ -508,7 +512,7 @@ function Schedule(CUSTOM_CONFIG) {
     schedule.clearOpenBlocks();
   }
 
-  schedule.toggleSearchMode = function(turnItOn) {
+  schedule.toggleSearchMode = function(turnItOn, backToPreviousView) {
     if ( turnItOn ) {
       schedule.$container.removeClass().addClass('all-sessions');
       schedule.updateHash("search");
@@ -519,7 +523,9 @@ function Schedule(CUSTOM_CONFIG) {
       $('#list-filter').attr("value",schedule.currentSearchTerm).keyup();
     } else {
       schedule.currentSearchTerm = "";
-      window.history.back();
+      if (backToPreviousView) {
+        window.history.back();
+      }
     }
   }
 
@@ -764,23 +770,30 @@ function Schedule(CUSTOM_CONFIG) {
 
   // add the standard listeners for various user interactions
   schedule.addListeners = function() {
-    $("nav .logo").on('click', function(e) {
+
+    function tabControlClickHandler(e) {
       e.preventDefault();
+
+      var $this = $(this);
+      var id, tab;
+
+      if ( !$(this).data("tab") ) { 
+        // when elem clicked isn't a tab control, e.g, it's the logo or the schedule link
+        // we bring users to the first day tab view instead
+        $this = $("#schedule-controls a").eq(0);
+      }
+
+      id = $this.attr('id');
+      tab = $this.data("tab");
 
       schedule.toggleSearchMode(false);
-      $("#schedule-controls a").eq(0).click(); // goes to first Day tab
-    });
+      schedule.updateHash(id);
+      schedule.chosenTab = tab;
+      schedule.loadChosenTab();
+    }
 
     // tap a schedule tab to toggle to a different view
-    schedule.$toggles.on('click', 'a', function(e) {
-      e.preventDefault();
-
-      var clicked = $(this).attr('id');
-      schedule.updateHash(clicked);
-      schedule.chosenTab = $(this).data("tab");
-      schedule.trackEvent('Tab change', schedule.chosenTab);
-      schedule.loadChosenTab();
-    });
+    schedule.$toggles.on('click', 'a', tabControlClickHandler);
 
     $(".search-icon").on('click', function(e) {
       e.preventDefault();
@@ -791,13 +804,15 @@ function Schedule(CUSTOM_CONFIG) {
     $(".search-cancel").on('click', function(e) {
       e.preventDefault();
 
-      schedule.toggleSearchMode(false);
+      schedule.toggleSearchMode(false,true);
     });
 
+
+    // clicking on the logo displays the first Day tab
+    $("nav .logo").on('click', tabControlClickHandler);
+
     // clicking on the Schedule link on the nav bar displays the first Day tab
-    schedule.$pageLinks.on('click', '#'+SCHEDULE_NAV_LINK_ID, function(e) {
-      $("nav .logo").click();
-    });
+    schedule.$pageLinks.on('click', '#'+SCHEDULE_NAV_LINK_ID, tabControlClickHandler);
 
     // clicking on the [Categories] link on the nav bar displays the list of Categories
     schedule.$pageLinks.on('click', '#'+CATEGORY_NAV_LINK_ID, function(e) {
@@ -941,7 +956,7 @@ function Schedule(CUSTOM_CONFIG) {
 
   // utility function to track events in Google Analytics
   schedule.trackEvent = function(action, label) {
-    ga('send', 'event', 'Schedule App', action, label);
+    // ga('send', 'event', 'Schedule App', action, label);
   }
 
   // utility function to pass into templates for nice typography
