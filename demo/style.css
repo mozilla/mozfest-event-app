@@ -24,8 +24,10 @@ h2 {
   color: #FC913A;
 }
 
-.day-view #schedule-page-link,
-#page-links a.active {
+.day-view #schedule-page-link, 
+#nav-links a:hover, 
+#nav-links a.active,
+.search-mode #search {
   color: #FC913A;
 }
 

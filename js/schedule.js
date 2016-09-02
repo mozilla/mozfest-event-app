@@ -15,7 +15,6 @@ function Schedule(CUSTOM_CONFIG) {
 
   schedule.init = function(options) {
     schedule.currentSearchTerm = "";
-    schedule.landedOnSearchMode = false;
 
     // Build shared UI components
     schedule.buildNavbar();
@@ -78,7 +77,6 @@ function Schedule(CUSTOM_CONFIG) {
     switch(decodeURIComponent(pageType)) {
       case "_search":
         schedule.toggleSearchMode(true);
-        schedule.landedOnSearchMode = true;
         break;
       case "_session":
         // get session details based on ID value from the URL
@@ -514,8 +512,9 @@ function Schedule(CUSTOM_CONFIG) {
     schedule.clearOpenBlocks();
   }
 
-  schedule.toggleSearchMode = function(turnItOn, backToPreviousView) {
+  schedule.toggleSearchMode = function(turnItOn) {
     if ( turnItOn ) {
+      schedule.$pageLinks.find("a").removeClass("active");
       schedule.$container.removeClass().addClass('all-sessions');
       schedule.updateHash("search");
       schedule.loadSessions(schedule.showFullSessionList);
@@ -525,14 +524,6 @@ function Schedule(CUSTOM_CONFIG) {
       $('#list-filter').attr("value",schedule.currentSearchTerm).keyup();
     } else {
       schedule.currentSearchTerm = "";
-      if (backToPreviousView) {
-        window.history.back();
-      } else {
-        if (schedule.landedOnSearchMode){
-          schedule.landedOnSearchMode = null;
-          schedule.tabControlClickHandler(); // goes to first Day tab view
-        }
-      }
     }
   }
 
@@ -802,22 +793,11 @@ function Schedule(CUSTOM_CONFIG) {
     // tap a schedule tab to toggle to a different view
     schedule.$toggles.on('click', 'a', schedule.tabControlClickHandler);
 
-    $(".search-icon").on('click', function(e) {
+    $("#search").on('click', function(e) {
       e.preventDefault();
 
       schedule.toggleSearchMode(true);
     });
-
-    $(".search-cancel").on('click', function(e) {
-      e.preventDefault();
-
-      if (schedule.landedOnSearchMode) {
-        schedule.toggleSearchMode(false);
-      } else {
-        schedule.toggleSearchMode(false,true);
-      }
-    });
-
 
     // clicking on the logo displays the first Day tab
     $(".logo").on('click', schedule.tabControlClickHandler);
