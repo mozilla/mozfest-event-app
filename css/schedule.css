@@ -9,25 +9,14 @@
 }
 
 .main-heading,
-#schedule-controls,
-#page-links,
-.search-cancel,
-.search-mode #page-links,
-.search-mode .search-icon {
+#schedule-controls {
   display: none;
 }
 
 .day-view .main-heading,
-.day-view #schedule-controls,
-.day-view .search-icon,
-.search-mode .search-cancel {
+.day-view #schedule-controls {
   display: block;
 }
-
-.day-view #page-links {
-  display: inline-block;
-}
-
 
 .detail-view #schedule {
   margin: 0;
@@ -80,7 +69,8 @@ nav .logo {
 
 .day-view #schedule-page-link,
 #nav-links a:hover,
-#nav-links a.active {
+#nav-links a.active,
+.search-mode #search {
   color: #CF455D;
 }
 
