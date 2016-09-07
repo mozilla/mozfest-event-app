@@ -61,8 +61,13 @@
 
     <!-- template used in tabs other than the search(all sessions) tab view -->
     <script type="text/template" id="session-card-template">
-    <div id="session-<%= sessionID %>" class="session-card<% if (session.category == 'Everyone') { %> session-everyone<% } %>" data-session="<%= sessionID.replace('-ghost','') %>">
-      <h4><a href="#_session-<%= sessionID %>"><%= smartypants(session.title) %></a></h4>
+    <div id="session-<%= sessionID %>" class="session-card<% if (session.everyone) { %> session-everyone<% } %>" data-session="<%= sessionID.replace('-ghost','') %>">
+      <h4>
+        <a href="#_session-<%= sessionID %>"><%= smartypants(session.title) %></a>
+        <% if (session.everyone) { %>
+        <span class="everyone label">everyone</span>
+        <% } %>
+      </h4>
       <div class="meta">
         <% if (session.start) { %>
         <div class="session-time">
@@ -86,7 +91,12 @@
     <!-- template used in the search(all sessions) tab view -->
     <script type="text/template" id="search-mode-session-card-template">
     <div id="session-<%= sessionID %>" class="session-card search-result" data-session="<%= sessionID.replace('-ghost','') %>">
-      <h4><a href="#_session-<%= sessionID %>"><%= smartypants(session.title) %></a></h4>
+      <h4>
+        <a href="#_session-<%= sessionID %>"><%= smartypants(session.title) %></a>
+        <% if (session.everyone) { %>
+        <span class="everyone label">everyone</span>
+        <% } %>
+      </h4>
       <% if (session.start) { %>
       <div class="session-time">
         <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %>
@@ -121,7 +131,12 @@
       <a id="show-full-schedule" href="/">Back</a>
       <div id="session-detail-<%= session.id %>" class="session-detail" data-session="<%= session.id %>">
         <div class="header">
-          <h4><%= smartypants(session.title) %></h4>
+          <h4>
+            <%= smartypants(session.title) %>
+            <% if (session.everyone) { %>
+            <span class="everyone label">everyone</span>
+            <% } %>
+          </h4>
         </div>
         <div class="meta">
           <% if (session.start) { %>

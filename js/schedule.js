@@ -244,7 +244,6 @@ function Schedule(CUSTOM_CONFIG) {
     var templatedata = {
       session: sessionItem,
       sessionID: sessionItem.id,
-      sessionClass: sessionItem.everyone ? 'everyone' : sessionItem.length == '1 hour' ? 'length-short' : 'length-long',
       showDay: false,
       showFacilitators: true,
       smartypants: schedule.smartypants
@@ -399,7 +398,7 @@ function Schedule(CUSTOM_CONFIG) {
   // add fav stars that tap to store session ID values in localStorage
   schedule.addStars = function(containerClass) {
     if (Modernizr.localstorage) {
-      $(containerClass+':not(.session-everyone)').append('<span class="favorite"><i class="fa fa-heart-o"></i></span>');
+      $(containerClass).append('<span class="favorite"><i class="fa fa-heart-o"></i></span>');
       // if any sessions have been faved, make sure their star is lit
       _.each(schedule.savedSessionIDs, function(i) {
         $('[data-session="' + i + '"]').find('.favorite').addClass('favorite-active');
@@ -564,10 +563,7 @@ function Schedule(CUSTOM_CONFIG) {
     schedule.$container.empty();
     schedule.addListControls();
 
-    // exclude "everyone" sessions like lunch, dinner, etc.
-    var fullList = _.reject(schedule.sessionList, function(i) {
-      return i.everyone;
-    });
+    var fullList = schedule.sessionList;
 
     var timeblocksMap = {};
     schedule.timeblocks.forEach(function(timeblock) {
@@ -626,11 +622,14 @@ function Schedule(CUSTOM_CONFIG) {
         // matching against titles, session leader names, descriptions,
         // [Categories] and [Tags]
         var filteredSessions = _.filter(schedule.sessionList, function(v, k) {
+          var tempEveryoneLabel = v.everyone ? "everyone" : "";
+
           return (v.title.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                || (v.facilitators.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                || (v.tags.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                || (v.category.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
-               || (v.description.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0);
+               || (v.description.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
+               || (tempEveryoneLabel.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0);
         });
         // get the IDs of the matching sessions ...
         var filteredIDs = _.pluck(filteredSessions, 'id');
@@ -665,9 +664,7 @@ function Schedule(CUSTOM_CONFIG) {
   // uses savedSessionIDs list to compile data for favorited sessions
   schedule.updateSavedSessionList = function() {
     schedule.savedSessionList = _.filter(schedule.sessionList, function(v, k) {
-      // by default include "everyone" sessions on favorites list
-      // just to make temporal wayfinding easier
-      return (v.category == 'Everyone') || _.contains(schedule.savedSessionIDs, v.id);
+      return _.contains(schedule.savedSessionIDs, v.id);
     });
   }
 
