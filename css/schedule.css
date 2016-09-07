@@ -146,6 +146,17 @@ p {
   background: #CF455D;
 }
 
+.label {
+  background: #4632C3;
+  font-weight: 300;
+  text-transform: capitalize;
+  border-radius: 1rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
 #schedule {
   margin: 2rem 0 4rem 0;
 }
@@ -388,10 +399,6 @@ p {
 
 .session-length-long {
 
-}
-
-.session-everyone {
-  border-bottom: 10px solid #CF455D;
 }
 
 .session-ghost {
