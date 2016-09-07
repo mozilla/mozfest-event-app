@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Schedule App</title>
-    <meta name="description" content="Schedule App">
+    <title>MozFest 2016 Schedule</title>
+    <meta name="description" content="Schedule for MozFest 2016">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://mozilla.github.io/schedule-app-core/css/schedule.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon.ico">
-    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="../img/favicon/favicon.ico">
+    <link rel="stylesheet" href="css/schedule.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="img/favicon/favicon.ico">
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -19,7 +19,7 @@
       // ga('create', 'replace-with-your-UA-code-here', 'auto');
       // ga('send', 'pageview');
     </script>
-    <script src="https://mozilla.github.io/schedule-app-core/js/modernizr.js"></script>
+    <script src="js/modernizr.js"></script>
   </head>
   <body>
 
@@ -27,8 +27,7 @@
       <nav>
         <div class="container">
           <a class="logo">
-            <!-- [Customize Me] add your logo here -->
-            LOGO HERE
+            <img src="img/logo-mozfest2016.svg" width="240px" />
           </a>
           <div id="nav-links">
             <div id="page-links">
@@ -41,7 +40,7 @@
         </div>
       </nav>
     </header>
-
+      
 <!-- 
   ************************************** 
   ***** DO NOT MODIFY portion begins 
@@ -197,37 +196,29 @@
   ************************************** 
 -->
 
-    <script src="https://mozilla.github.io/schedule-app-core/js/jquery-2.1.0.min.js"></script>
-    <script src="https://mozilla.github.io/schedule-app-core/js/underscore-min.js"></script>
-    <script src="https://mozilla.github.io/schedule-app-core/js/marked.min.js"></script>
-    <script src="https://mozilla.github.io/schedule-app-core/js/schedule.js"></script>
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="js/underscore-min.js"></script>
+    <script src="js/marked.min.js"></script>
+    <script src="js/schedule.js"></script>
     <script>
       var customConfig = {
-        mainHeaderText: "Iron Chef Training Conference",
-        subHeaderText: "June 21-22  · Hawaii",
+        subHeaderText: "October 28–30  •  Ravensbourne, London<br><small>(with dummy data for now)</small>",
         displayNameForCategory: {
-          singular:'theme', // this can only be one word. letters only.
-          plural: 'themes' // this can only be one word. letters only.
+          singular:'space', // this can only be one word
+          plural: 'spaces' // this can only be one word
         },
         displayNameForTag: {
-          singular:'tag', // this can only be one word. letters only.
-          plural: 'tags' // this can only be one word. letters only.
+          singular:'pathway', // this can only be one word
+          plural: 'pathways' // this can only be one word
         },
-        pathToSessionsJson: 'iron-chef-sessions.json',
-        pathToCategoriesJson: 'categories.json',
-        pathToTagsJson: 'tags.json',
-        localStoragePrefix: 'iron-chef', // letters and hyphens only
+        pathToSessionsJson: 'sessions.json',
+        pathToCategoriesJson: 'spaces.json',
+        pathToTagsJson: 'pathways.json',
+        localStoragePrefix: 'mozfest-2016',
         tabList: [
-          { name: 'Saturday', displayName: 'Sat', tabDate: new Date(2016,5,21) },
-          { name: 'Sunday', displayName: 'Sun', tabDate: new Date(2016,5,22) }
-        ],
-        // optional 
-        additionalNavItems: [
-          { 
-            label: "nameOfLink",
-            link: "url",
-            id: "id" // used for id attribute of the <a>
-          }
+          { name: 'Friday', displayName: 'Fri', tabDate: new Date(2016,10,28) },
+          { name: 'Saturday', displayName: 'Sat', tabDate: new Date(2016,10,29) },
+          { name: 'Sunday', displayName: 'Sun', tabDate: new Date(2016,10,30) }
         ]
       }
       // instantiate the app

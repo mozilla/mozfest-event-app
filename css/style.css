@@ -1,0 +1,102 @@
+/* *** colours
+  purple #4632C3
+  light purple #BDB7E3
+  teal #00FCDD
+  pink EB238B
+*** */
+
+body,
+.timeblock-header span, 
+.page-caption h3 span,
+.timeblock-header .fa {
+  background: #F5F5F5;
+}
+
+#schedule-controls a {
+  border-color: #F5F5F5;
+}
+
+
+/* *****
+  purple 
+***** */
+
+nav,
+#show-full-schedule,
+#schedule-controls a.active {
+  background: #4632C3; 
+}
+
+.timeblock-header, 
+.page-caption h3 span {
+  color: #4632C3;
+}
+
+.timeblock-header::before, 
+.page-caption h3::before {
+  border-color: #4632C3;
+}
+
+#show-full-schedule {
+  color: #fff;
+}
+
+/* *****
+  light purple 
+***** */
+
+#nav-links a,
+#nav-links a:link {
+  color: #BDB7E3;
+}
+
+#schedule-controls a {
+  background: #BDB7E3;  /* purple with opacity 30%, #BDB7E3 */
+}
+
+/* *****
+  pink 
+***** */
+
+.session-card h4 a,
+.favorite {
+  color: #EB238B;
+}
+
+
+/* *****
+  grey 
+***** */
+
+h2.subhead,
+.session-detail h2 {
+  color: #7A7A7A;
+}
+
+.session-card, 
+.tag-list-item,
+#search {
+  color: #ADADAD;
+}
+
+
+/* *****
+  white 
+***** */
+
+.day-view #schedule-page-link,
+#nav-links a:hover,
+#nav-links a.active,
+.search-mode #search {
+  color: #fff;
+}
+
+.session-card, 
+.open-block, 
+.tag-list-item,
+.category-list-item,
+.category-list-item:nth-child(2n+1),
+.session-detail .meta {
+  background: #fff;
+}
+
