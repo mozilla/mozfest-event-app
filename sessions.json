@@ -4,6 +4,7 @@
             "category": "Digital Arts and Culture", 
             "day": "Friday", 
             "description": "Science Fair description Science Fair description Science Fair description Science Fair description Science Fair description Science Fair description Science Fair description Science Fair description ", 
+            "end": "6:20pm", 
             "everyone": true, 
             "facilitator_array": [
                 "Pikachu"
@@ -12,7 +13,7 @@
             "id": "101", 
             "location": "Floor 1 - 101", 
             "notes url": "https://example.com", 
-            "start": "6:00 PM", 
+            "start": "6:00pm", 
             "tags": "pathway 1", 
             "timeblock": "friday-science-fair--friday-18-00-", 
             "title": "Science Fair"
@@ -21,6 +22,7 @@
             "category": "Open Science", 
             "day": "Saturday", 
             "description": "Cupcake ipsum dolor sit amet apple pie gummies. Jelly-o topping biscuit cupcake donut I love jujubes. Brownie liquorice I love soufflé icing cheesecake cheesecake. Wafer muffin candy caramels topping dragée tootsie roll gummies muffin. Brownie muffin wafer. Dragée gummi bears muffin chocolate cake gummies I love toffee. Candy jelly sesame snaps. Sweet muffin I love sweet roll jelly icing marshmallow muffin. Macaroon fruitcake candy tart. Jelly-o halvah dessert candy canes I love I love tootsie roll. Jelly cake sesame snaps topping. Cupcake liquorice marshmallow jujubes.", 
+            "end": "11:45am", 
             "everyone": false, 
             "facilitator_array": [
                 "Pink Ranger", 
@@ -30,7 +32,7 @@
             "id": "201", 
             "location": "Floor 4 - 403", 
             "notes url": "https://example.com", 
-            "start": "11:15 AM", 
+            "start": "11:15am", 
             "tags": "pathway 1", 
             "timeblock": "saturday-session-2--and-d-d-1---saturday-11-15-", 
             "title": "session aaa"
@@ -39,6 +41,7 @@
             "category": "Localisation", 
             "day": "Sunday", 
             "description": "Cupcake ipsum dolor sit amet croissant I love halvah tart. Wafer I love donut gummi bears I love. Biscuit fruitcake I love jelly beans pudding cookie sweet roll powder apple pie. Jelly gummies liquorice.", 
+            "end": "11:00am", 
             "everyone": false, 
             "facilitator_array": [
                 "Snow White"
@@ -47,7 +50,7 @@
             "id": "202", 
             "location": "Floor 5 - 502", 
             "notes url": "https://example.com", 
-            "start": "11:00 AM", 
+            "start": "11:00am", 
             "tags": "pathway 1, pathway 3", 
             "timeblock": "sunday-session-8--and-d-d-4---sunday-11-00-", 
             "title": "session bbb"
@@ -56,6 +59,7 @@
             "category": "Fuel The Movement", 
             "day": "Saturday", 
             "description": "Cupcake ipsum dolor sit amet pie. Candy tootsie roll donut chupa chups tiramisu I love. Danish liquorice lollipop cupcake brownie chocolate cake macaroon macaroon I love. Dessert sweet danish icing topping bear claw danish cake lollipop. Donut jelly beans pie muffin sweet. Soufflé cotton candy cake brownie jelly cake sesame snaps. Bonbon marzipan gummi bears muffin soufflé jujubes liquorice. Macaroon oat cake jelly-o marzipan I love I love candy canes halvah. Danish carrot cake gingerbread I love dessert carrot cake cake biscuit apple pie. I love chocolate cake pastry jelly. Tootsie roll jelly caramels marshmallow. Jujubes pudding toffee cake croissant carrot cake. Pastry cookie cake topping icing.", 
+            "end": "2:00pm", 
             "everyone": false, 
             "facilitator_array": [
                 "Bomblebee"
@@ -64,7 +68,7 @@
             "id": "203", 
             "location": "Floor 3 - 305", 
             "notes url": "https://example.com", 
-            "start": "2:00 PM", 
+            "start": "2:00pm", 
             "tags": "pathway 5", 
             "timeblock": "saturday-session-5--saturday-14-00-", 
             "title": "session ccc"
@@ -73,6 +77,7 @@
             "category": "Journalism", 
             "day": "Sunday", 
             "description": "Irony mixtape ennui heirloom 90's, food truck authentic artisan prism thundercats YOLO hoodie neutra. Squid banh mi coloring book, listicle hammock taxidermy man bun. IPhone synth chia leggings, edison bulb art party roof party everyday carry freegan raclette knausgaard literally green juice. Sustainable tacos scenester keffiyeh you probably haven't heard of them photo booth. Kombucha food truck affogato, poutine VHS snackwave everyday carry. Pork belly tattooed readymade gentrify, put a bird on it lomo fashion axe godard austin pour-over tousled distillery single-origin coffee. Austin coloring book celiac cred bicycle rights mixtape polaroid.", 
+            "end": "11:50am", 
             "everyone": false, 
             "facilitator_array": [
                 "Bomblebee"
@@ -81,7 +86,7 @@
             "id": "301", 
             "location": "Floor 7 - 720", 
             "notes url": "", 
-            "start": "11:00 AM", 
+            "start": "11:00am", 
             "tags": "", 
             "timeblock": "sunday-session-8--and-d-d-4---sunday-11-00-", 
             "title": "session ABC"
@@ -90,6 +95,7 @@
             "category": "Journalism", 
             "day": "Sunday", 
             "description": "Helvetica synth kale chips tote bag, intelligentsia PBR&B cray edison bulb mumblecore pug readymade taxidermy activated charcoal cred put a bird on it. Tumblr quinoa marfa mustache, pop-up gentrify hella pabst VHS actually post-ironic raclette fingerstache.", 
+            "end": "3:15pm", 
             "everyone": false, 
             "facilitator_array": [
                 "Pikachu", 
@@ -99,7 +105,7 @@
             "id": "302", 
             "location": "Floor 6 - 612", 
             "notes url": "", 
-            "start": "3:15 PM", 
+            "start": "3:15pm", 
             "tags": "", 
             "timeblock": "sunday-session-12--sunday-15-15-", 
             "title": "session XYZ"
@@ -108,6 +114,7 @@
             "category": "Open Badges", 
             "day": "Saturday", 
             "description": "Kombucha tattooed leggings, tilde post-ironic copper mug selfies chartreuse succulents vegan kale chips single-origin coffee venmo. Hashtag cardigan mlkshk, polaroid poutine activated charcoal keffiyeh tattooed subway tile skateboard lomo hoodie. Craft beer schlitz fashion axe cornhole mustache. Venmo keffiyeh williamsburg taxidermy semiotics. Art party kogi waistcoat, authentic meggings lomo vaporware.", 
+            "end": "12:15pm", 
             "everyone": false, 
             "facilitator_array": [
                 "Bomblebee", 
@@ -117,7 +124,7 @@
             "id": "303", 
             "location": "Floor 3 - 305", 
             "notes url": "", 
-            "start": "11:15 AM", 
+            "start": "11:15am", 
             "tags": "", 
             "timeblock": "saturday-session-2--and-d-d-1---saturday-11-15-", 
             "title": "session Hello world"
