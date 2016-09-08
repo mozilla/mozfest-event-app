@@ -128,6 +128,41 @@
             "tags": "", 
             "timeblock": "saturday-session-2--and-d-d-1---saturday-11-15-", 
             "title": "session Hello world"
+        }, 
+        {
+            "category": "Open Badges", 
+            "day": "Saturday", 
+            "description": "Kombucha tattooed leggings, tilde post-ironic copper mug selfies chartreuse succulents vegan kale chips single-origin coffee venmo. Hashtag cardigan mlkshk, polaroid poutine activated charcoal keffiyeh tattooed subway tile skateboard lomo hoodie. Craft beer schlitz fashion axe cornhole mustache. Venmo keffiyeh williamsburg taxidermy semiotics. Art party kogi waistcoat, authentic meggings lomo vaporware.", 
+            "end": "2:10pm", 
+            "everyone": false, 
+            "facilitator_array": [
+                "Bomblebee", 
+                "Snow White"
+            ], 
+            "facilitators": "Bomblebee, Snow White", 
+            "id": "401", 
+            "location": "Floor 6 - 612", 
+            "notes url": "", 
+            "start": "1:00pm", 
+            "tags": "", 
+            "timeblock": "saturday-sessions-4--and-d-d-2---saturday-13-00-", 
+            "title": "session badges"
+        }, 
+        {
+            "category": "", 
+            "day": "Sunday", 
+            "description": "", 
+            "end": "7:40pm", 
+            "everyone": true, 
+            "facilitator_array": [], 
+            "facilitators": "", 
+            "id": "1000", 
+            "location": "Floor 1 - Big Room", 
+            "notes url": "", 
+            "start": "6:00pm", 
+            "tags": "", 
+            "timeblock": "sunday-demos--sunday-18-00-", 
+            "title": "Closing Demos"
         }
     ], 
     "timeblocks": [

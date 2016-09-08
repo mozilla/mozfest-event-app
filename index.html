@@ -178,18 +178,17 @@
 
     <!-- template used in [categories] list view -->
     <script type="text/template" id="categories-list-template">
-      <div class="category-list-item" data-category="<%= category.slugify(category.name) %>">
-        <div class="category-icon-container">
+      <p>
+        Spaces are physical and thematic learning hubs based around a broad topic, like science, art, or journalism. A Space is made up of sessions, which are hands-on, educational gatherings based around a specific topic.
+      </p>
+      <% categories.forEach(function(category) { %>
+      <a class="category-list-item see-all-events-in-this-category" href="#_<%= customCategoryLabel %>-<%= category.slugify(category.name) %>" data-category="<%= category.slugify(category.name) %>">
+        <div class="icon-container">
           <% if (category.iconSrc) { %><img src=<%= category.iconSrc %>><% } %>
         </div>
         <h4><%= category.name %></h4>
-        <div>
-          <a class="see-all-events-in-this-category" href="#_<%= customCategoryLabel %>-<%= category.slugify(category.name) %>">See all events in this <%= customCategoryLabel %></a>
-          <% category.description.forEach(function(p) { %>
-            <%= marked(p) %>
-          <% }) %>
-        </div>
-      </div>
+      </a>
+      <% }) %>
     </script>
 
     <!-- template used in [tags] list view -->

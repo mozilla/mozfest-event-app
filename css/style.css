@@ -63,7 +63,11 @@ nav,
 ***** */
 
 .session-card h4 a,
-.favorite {
+.favorite,
+.category-list-item h4,
+.category-list-item:after,
+.page-caption .back,
+.page-caption .back:before {
   color: #EB238B;
 }
 
@@ -99,7 +103,6 @@ h2.subhead,
 .open-block, 
 .tag-list-item,
 .category-list-item,
-.category-list-item:nth-child(2n+1),
 .session-detail .meta {
   background: #fff;
 }

@@ -495,15 +495,42 @@ function Schedule(CUSTOM_CONFIG) {
     }
 
     schedule.$container.html(schedule.sessionListTemplate);
+
     if ( schedule.filterKey !== 'day' ) {
       var label = schedule.filterKey;
+      var description = "";
+
       if ( schedule.filterKey === 'category' ) {
-        label = DISPLAY_NAME_FOR_CATEGORY.singular;
+        schedule.loadCategories(function() {
+          var theCategory = schedule.categoryMetaList.filter(function(category){
+            return schedule.slugify(category.name) === schedule.filterValue;
+          });
+          if (theCategory.length > 0) {
+            description = theCategory[0].description.map(function(paragraph) {
+              return "<p>" + paragraph + "</p>";
+            }).join("");
+          }
+          schedule.$pageLinks.find('#categories-page-link').addClass('active');
+          schedule.addCaptionOverline(
+            "<a id='back-to-all-categories' class='back'>Back</a>" + 
+            "<h2>" + schedule.filterValue.replace(/-/g," ") + "</h2>" +
+            description
+          );
+          $("#back-to-all-categories").on('click',function(e) {
+            e.preventDefault();
+            schedule.displayCategoriesList(true);
+          });
+        });
       }
+
       if ( schedule.filterKey === 'tags' ) {
-        label = DISPLAY_NAME_FOR_TAG.singular;
+        schedule.$pageLinks.find('#tags-page-link').addClass('active');
+        schedule.addCaptionOverline(
+          "<h2>" + schedule.filterValue.replace(/-/g," ") + "</h2>" +
+          description
+        );
       }
-      schedule.addCaptionOverline("<h2>" + label + ": " + schedule.filterValue.replace(/-/g," ") + "</h2>");
+
     }
 
     console.log("schedule.filteredList = ", schedule.filteredList);
@@ -677,19 +704,20 @@ function Schedule(CUSTOM_CONFIG) {
     schedule.$container.html("");
 
     schedule.loadCategories(function() {
+      var templateData = {
+        customCategoryLabel: DISPLAY_NAME_FOR_CATEGORY.singular,
+        categories: []
+      };
       _.each(schedule.categoryMetaList, function(v, k) {
         // prep the Category data for the template
-        var templateData = {
-          category: {
-            name: v.name,
-            description: v.description,
-            iconSrc: v.iconSrc,
-            slugify: schedule.slugify
-          },
-          customCategoryLabel: DISPLAY_NAME_FOR_CATEGORY.singular
+        var category = {
+          name: v.name,
+          iconSrc: v.iconSrc,
+          slugify: schedule.slugify
         };
-        schedule.$container.append(schedule.categoriesListTemplate(templateData));
+        templateData.categories.push(category);
       });
+      schedule.$container.append(schedule.categoriesListTemplate(templateData));
     });
   }
 
@@ -816,11 +844,12 @@ function Schedule(CUSTOM_CONFIG) {
     });
 
     // clicking on "See all events in this [Category] shows all sessions within that particular [Category]
-    schedule.$container.on('click', '.see-all-events-in-this-category', function(e) {
+    schedule.$container.on('click', '.category-list-item', function(e) {
       e.preventDefault();
 
-      var category_slug = $(this).parents(".category-list-item").data("category");
+      var category_slug = $(this).data("category");
       schedule.displaySessionsOfCategory(category_slug,true);
+       window.scrollTo(0, 0);
     });
 
     // clicking on "[Tag] card" shows all Sessions that tagged with that [Tag]
