@@ -204,8 +204,16 @@ p {
 }
 
 .page-caption h2 {
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: inherit;
+  font-weight: 400;
+}
+
+.page-caption .back {
+  display: inline-block;
+  width: auto;
+  margin-bottom: 1rem;
+  cursor: pointer;
 }
 
 .timeblock-header {
@@ -427,7 +435,8 @@ p {
   background: #F5F5F5;
 }
 
-#show-full-schedule::before {
+#show-full-schedule::before,
+.page-caption .back:before {
   content: "\f104";
   font-family: "FontAwesome";
   display: inline-block;
@@ -439,22 +448,40 @@ p {
 }
 
 .category-list-item {
+  position: relative;
+  display: flex;
+  align-items: center;
   margin-bottom: 1rem;
 }
 
-.category-list-item .category-icon-container {
-  float: left;
-  padding-left: 1rem;
-  padding-right: 2rem;
+.category-list-item:hover {
+  text-decoration: none;
+  background: #EB238B;
+  color: #fff;
 }
 
-.category-list-item .category-icon-container img {
-  width: 12rem;
+.category-list-item:hover h4,
+.category-list-item:hover:after {
+  color: #fff;
+}
+
+.category-list-item:after {
+  content: "\f054";
+  font-family: "FontAwesome";
+  color: #EB238B;
+  position: absolute;
+  top: calc( 50% - 12px );
+  right: 10px;
+}
+
+.category-list-item .icon-container img {
+  width: 7rem;
   height: auto;
 }
 
-.category-list-item:nth-child(2n+1) {
-  background: #f5f5f5;
+.category-list-item h4 {
+  margin: 0 1.5rem 0 0;
+  color: #EB238B;
 }
 
 .category-list-item p:last-child,
