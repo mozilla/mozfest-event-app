@@ -71,7 +71,7 @@
       <div class="meta">
         <% if (session.start) { %>
         <div class="session-time">
-          <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %>
+          <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %><% if (session.end != session.start) { %>-<%= session.end %><% } %>
         </div>
         <% } %>
         <% if (session.category || session.location) { %>
@@ -99,7 +99,7 @@
       </h4>
       <% if (session.start) { %>
       <div class="session-time">
-        <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %>
+        <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %><% if (session.end != session.start) { %>-<%= session.end %><% } %>
       </div>
       <% } %>
       <% if (session.category || session.location) { %>
@@ -141,7 +141,7 @@
         <div class="meta">
           <% if (session.start) { %>
           <div class="session-time">
-            <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %>
+            <% if (session.day) { %><%= session.day %>, <% } %><%= session.start %><% if (session.end != session.start) { %>-<%= session.end %><% } %>
           </div>
           <% } %>
           <% if (session.category || session.location) { %>
