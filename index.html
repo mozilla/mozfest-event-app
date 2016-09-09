@@ -79,11 +79,6 @@
           <% if (session.category) { %><%= session.category %><% } %><% if (session.category&&session.location) { %>, <% } %><% if (session.location) { %><%= smartypants(session.location) %><% } %>
         </div>
         <% } %>
-        <% if (session.tags) { %>
-        <div class="session-tags">
-          <%= session.tags %>
-        </div>
-        <% } %>
       </div>
     </div>
     </script>
