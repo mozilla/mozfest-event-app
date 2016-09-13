@@ -3,7 +3,7 @@
         {
             "category": "Digital Arts and Culture", 
             "day": "Friday", 
-            "description": "Science Fair description Science Fair description Science Fair description Science Fair description Science Fair description Science Fair description Science Fair description Science Fair description ", 
+            "description": "<script>alert('sup');</script> hello i'm the description of Science Fair", 
             "end": "6:20pm", 
             "everyone": true, 
             "facilitator_array": [
