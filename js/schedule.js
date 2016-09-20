@@ -1106,5 +1106,6 @@ function Schedule(CUSTOM_CONFIG) {
 // settings for marked library, to allow markdown formatting in session details
 marked.setOptions({
   tables: false,
-  smartypants: true
+  smartypants: true,
+  sanitize: true
 });
