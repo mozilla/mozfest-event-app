@@ -65,12 +65,14 @@ nav,
   pink 
 ***** */
 
+a,
+a:link,
+a:focus,,
+a:hover,
 .session-card h4 a,
 .favorite,
 .category-list-item h4,
-.category-list-item:after,
-.page-caption .back,
-.page-caption .back:before {
+.category-list-item:after {
   color: #FA1BAB;
 }
 
