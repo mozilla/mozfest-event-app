@@ -649,14 +649,12 @@ function Schedule(CUSTOM_CONFIG) {
         // matching against titles, session leader names, descriptions,
         // [Categories] and [Tags]
         var filteredSessions = _.filter(schedule.sessionList, function(v, k) {
-          var tempEveryoneLabel = v.everyone ? "everyone" : "";
 
           return (v.title.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                || (v.facilitators.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                || (v.tags.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                || (v.category.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
-               || (v.description.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
-               || (tempEveryoneLabel.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0);
+               || (v.description.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0);
         });
         // get the IDs of the matching sessions ...
         var filteredIDs = _.pluck(filteredSessions, 'id');

@@ -263,6 +263,10 @@ p {
   top: 1rem;
 }
 
+.session-card.session-everyone {
+  border-left: 6px solid #EB238B;
+}
+
 .session-card .meta,
 .session-detail .meta {
   color: #ADADAD;
