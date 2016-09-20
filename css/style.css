@@ -1,8 +1,8 @@
-/* *** colours
-  purple #4632C3
-  light purple #BDB7E3
-  teal #00FCDD
-  pink EB238B
+/* *** finalized 2016 colours
+  blue #362FC1
+  light purple #998CEC
+  teal #00FBDD
+  pink #FA1BAB
 *** */
 
 body,
@@ -18,31 +18,34 @@ body,
 
 
 /* *****
-  purple 
+  blue 
 ***** */
 
 nav,
 #show-full-schedule,
 #schedule-controls a.active {
-  background: #4632C3; 
+  background: #362FC1; 
 }
 
 .timeblock-header, 
-.page-caption h3 span {
-  color: #4632C3;
+.page-caption h3 span,
+.session-notes-url a {
+  color: #362FC1;
 }
 
 .timeblock-header::before, 
-.page-caption h3::before {
-  border-color: #4632C3;
+.page-caption h3::before,
+.session-notes-url a {
+  border-color: #362FC1;
 }
 
 #show-full-schedule {
   color: #fff;
 }
 
-.label {
-  background: #4632C3;
+.label,
+.session-notes-url a:hover {
+  background: #362FC1;
 }
 
 /* *****
@@ -51,11 +54,11 @@ nav,
 
 #nav-links a,
 #nav-links a:link {
-  color: #BDB7E3;
+  color: #998CEC;
 }
 
 #schedule-controls a {
-  background: #BDB7E3;  /* purple with opacity 30%, #BDB7E3 */
+  background: #998CEC;
 }
 
 /* *****
@@ -68,7 +71,7 @@ nav,
 .category-list-item:after,
 .page-caption .back,
 .page-caption .back:before {
-  color: #EB238B;
+  color: #FA1BAB;
 }
 
 
