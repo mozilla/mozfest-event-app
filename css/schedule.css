@@ -147,7 +147,7 @@ p {
 }
 
 .label {
-  background: #4632C3;
+  background: #362FC1;
   font-weight: 300;
   text-transform: capitalize;
   border-radius: 1rem;
@@ -264,7 +264,7 @@ p {
 }
 
 .session-card.session-everyone {
-  border-left: 6px solid #EB238B;
+  border-left: 6px solid #FA1BAB;
 }
 
 .session-card .meta,
@@ -460,7 +460,7 @@ p {
 
 .category-list-item:hover {
   text-decoration: none;
-  background: #EB238B;
+  background: #FA1BAB;
   color: #fff;
 }
 
@@ -472,7 +472,7 @@ p {
 .category-list-item:after {
   content: "\f054";
   font-family: "FontAwesome";
-  color: #EB238B;
+  color: #FA1BAB;
   position: absolute;
   top: calc( 50% - 12px );
   right: 10px;
@@ -485,7 +485,7 @@ p {
 
 .category-list-item h4 {
   margin: 0 1.5rem 0 0;
-  color: #EB238B;
+  color: #FA1BAB;
 }
 
 .category-list-item p:last-child,
