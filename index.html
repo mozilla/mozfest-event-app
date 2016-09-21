@@ -90,30 +90,32 @@
       <h4>
         <a href="#_session-<%- sessionID %>"><%- smartypants(session.title) %></a>
       </h4>
-      <% if (session.start) { %>
-      <div class="session-time">
-        <% if (session.day) { %><%- session.day %>, <% } %><%- session.start %><% if (session.end != session.start) { %>-<%- session.end %><% } %>
-      </div>
-      <% } %>
-      <% if (session.category || session.location) { %>
-      <div class="session-category-and-location">
-        <% if (session.category) { %><%- session.category %><% } %><% if (session.category&&session.location) { %>, <% } %><% if (session.location) { %><%- smartypants(session.location) %><% } %>
-      </div>
-      <% } %>
-       <% if (session.tags) { %>
-      <div class="session-tags">
-        <%- session.tags %>
-      </div>
-      <% } %>
-      <% if (showFacilitators && session.facilitators.length > 0) { %>
-      <div class="session-facilitators">
-        <%- smartypants(session.facilitators) %>
-      </div>
-      <% } %>
-      <div class="hidden session-description">
-      <% if (session.description) { %>
-        <%= marked(session.description.replace('http://','').replace('https://','')) %>
-      <% } %>
+      <div class="meta">
+        <% if (session.start) { %>
+        <div class="session-time">
+          <% if (session.day) { %><%- session.day %>, <% } %><%- session.start %><% if (session.end != session.start) { %>-<%- session.end %><% } %>
+        </div>
+        <% } %>
+        <% if (session.category || session.location) { %>
+        <div class="session-category-and-location">
+          <% if (session.category) { %><%- session.category %><% } %><% if (session.category&&session.location) { %>, <% } %><% if (session.location) { %><%- smartypants(session.location) %><% } %>
+        </div>
+        <% } %>
+         <% if (session.tags) { %>
+        <div class="session-tags">
+          <%- session.tags %>
+        </div>
+        <% } %>
+        <% if (showFacilitators && session.facilitators.length > 0) { %>
+        <div class="session-facilitators">
+          <%- smartypants(session.facilitators) %>
+        </div>
+        <% } %>
+        <div class="hidden session-description">
+        <% if (session.description) { %>
+          <%= marked(session.description.replace('http://','').replace('https://','')) %>
+        <% } %>
+        </div>
       </div>
     </div>
     </script>
