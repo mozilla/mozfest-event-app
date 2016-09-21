@@ -496,19 +496,18 @@ function Schedule(CUSTOM_CONFIG) {
 
     schedule.$container.html(schedule.sessionListTemplate);
 
-    if ( schedule.filterKey !== 'day' ) {
+
+    if ( schedule.filterKey === 'day' ) {
+      schedule.addSessionsToSchedule(schedule.filteredList);
+      schedule.clearOpenBlocks();
+    } else {
       var label = schedule.filterKey;
       var description = "";
-
       // TODO:FIXME: we can clean up 'displaySingleTagView' and 'displaySingleTagView' since they are basically the same code
-
       if ( schedule.filterKey === 'category' ) {
         schedule.displaySingleCategoryView();
       } else if ( schedule.filterKey === 'tag' ) {
         schedule.displaySingleTagView();
-      } else {
-        schedule.addSessionsToSchedule(schedule.filteredList);
-        schedule.clearOpenBlocks();
       }
     }
   }
@@ -696,6 +695,7 @@ function Schedule(CUSTOM_CONFIG) {
 
   // display the single [Category] view
   schedule.displaySingleCategoryView = function() {
+    var description = "";
     schedule.loadCategories(function() {
       var theCategory = schedule.categoryMetaList.filter(function(category){
         return schedule.slugify(category.name) === schedule.filterValue;
@@ -768,6 +768,7 @@ function Schedule(CUSTOM_CONFIG) {
 
   // display the single [Tag] view
   schedule.displaySingleTagView = function() {
+    var description = "";
     schedule.loadTags(function() {
       var theTag = schedule.tagMetaList.filter(function(tag) {
         return schedule.slugify(tag.name) === schedule.filterValue;
