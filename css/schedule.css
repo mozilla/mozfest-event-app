@@ -451,25 +451,30 @@ p {
   text-decoration: underline;
 }
 
-.category-list-item {
+.category-list-item,
+.tag-list-item {
   position: relative;
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
 }
 
-.category-list-item:hover {
+.category-list-item:hover,
+.tag-list-item:hover {
   text-decoration: none;
   background: #FA1BAB;
   color: #fff;
 }
 
 .category-list-item:hover h4,
-.category-list-item:hover:after {
+.category-list-item:hover:after,
+.tag-list-item:hover h4,
+.tag-list-item:hover:after {
   color: #fff;
 }
 
-.category-list-item:after {
+.category-list-item:after,
+.tag-list-item:after {
   content: "\f054";
   font-family: "FontAwesome";
   color: #FA1BAB;
@@ -478,12 +483,14 @@ p {
   right: 10px;
 }
 
-.category-list-item .icon-container img {
+.category-list-item .icon-container img,
+.tag-list-item .icon-container img {
   width: 7rem;
   height: auto;
 }
 
-.category-list-item h4 {
+.category-list-item h4,
+.tag-list-item h4 {
   margin: 0 1.5rem 0 0;
   color: #FA1BAB;
 }

@@ -172,7 +172,7 @@
         Spaces are physical and thematic learning hubs based around the broad topics below.
       </p>
       <% categories.forEach(function(category) { %>
-      <a class="category-list-item see-all-events-in-this-category" href="#_<%- customCategoryLabel %>-<%- category.slugify(category.name) %>" data-category="<%- category.slugify(category.name) %>">
+      <a class="category-list-item" href="#_<%- customCategoryLabel %>-<%- slugify(category.name) %>" data-category="<%- slugify(category.name) %>">
         <div class="icon-container">
           <% if (category.iconSrc) { %><img src=<%- category.iconSrc %>><% } %>
         </div>
@@ -183,15 +183,14 @@
 
     <!-- template used in [tags] list view -->
     <script type="text/template" id="tags-list-template">
-      <% if (name) { %>
-      <div class="tag-list-item" data-tag="<%- slugify(name) %>">
-        <h4><a href="#_<%- customTagLabel %>-<%- slugify(name) %>"><%- name %></a></h4>
-        <p><%- numSessions %> session<% if (numSessions>1) { %>s<% } %></p>
-        <% if (description.length) { %><% description.forEach(function(p) { %>
-          <%= marked(p) %>
-        <% }) %><% } %>
-      </div>
-      <% } %>
+      <p>
+        Placeholder text of Pathways.
+      </p>
+      <% tags.forEach(function(tag) { %>
+      <a class="tag-list-item" data-tag="<%- slugify(tag.name) %>" href="#_<%- customTagLabel %>-<%- slugify(tag.name) %>">
+        <h4><%- tag.name %></h4>
+      </a>
+      <% }) %>
     </script>
 
 <!-- 

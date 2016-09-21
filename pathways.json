@@ -1,9 +1,38 @@
 [
   {
-    "name": "privacy",
+    "name": "Pathway number 1",
     "description": [
-      "description description description description description description description description description description description "
-    ],
-    "iconSrc": ""
+      "Pathway number 1's description description description description description description description description description description description "
+    ]
+  },
+  {
+    "name": "Pathway number 2",
+    "description": [
+      "Pathway number 2's description description description description description description description description description description description "
+    ]
+  },
+  {
+    "name": "Pathway number 3",
+    "description": [
+      "Pathway number 3's description description description description description description description description description description description "
+    ]
+  },
+  {
+    "name": "Pathway number 4",
+    "description": [
+      "Pathway number 4's description description description description description description description description description description description "
+    ]
+  },
+  {
+    "name": "Pathway number 5",
+    "description": [
+      "Pathway number 5's description description description description description description description description description description description "
+    ]
+  },
+  {
+    "name": "Pathway number 6",
+    "description": [
+      "Pathway number 6's description description description description description description description description description description description "
+    ]
   }
 ]
