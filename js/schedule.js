@@ -37,7 +37,6 @@ function Schedule(CUSTOM_CONFIG) {
     schedule.sessionList = [];
     schedule.categoryMetaList = [];
     schedule.tagMetaList = [];
-    schedule.tagMap = [];
     // check for saved sessions in localStorage. Because localStorage only
     // takes strings, split on commas so we get an array of session IDs
     if (Modernizr.localstorage) {
@@ -101,7 +100,7 @@ function Schedule(CUSTOM_CONFIG) {
         break;
       case "_"+DISPLAY_NAME_FOR_TAG.singular:
         // show sessions in a Tag based on the Tag(or the equivalent custom label) slug in URL
-        schedule.getFilteredSessions("tags", pageID);
+        schedule.displaySessionsOfTag(pageID);
         break;
     }
   }
@@ -198,7 +197,6 @@ function Schedule(CUSTOM_CONFIG) {
       // simple way to divide sessions into groups by length
       return i.length != '1 hour';
     });
-    schedule.getTagsCountMap();
   }
 
   // writeSession() renders session data into a template fragment.
@@ -490,7 +488,9 @@ function Schedule(CUSTOM_CONFIG) {
 
     if (!!schedule.filterKey) {
       schedule.filteredList = _.filter(schedule.sessionList, function(v, k) {
-        return (schedule.slugify(v[schedule.filterKey]).indexOf(schedule.slugify(schedule.filterValue)) >= 0);
+        // TODO:FIXME: figure out how to clean up this singular and plural terms confusion
+        var filterKey = (schedule.filterKey === "tag") ? "tags" : schedule.filterKey;
+        return (schedule.slugify(v[filterKey]).indexOf(schedule.slugify(schedule.filterValue)) >= 0);
       });
     }
 
@@ -500,42 +500,17 @@ function Schedule(CUSTOM_CONFIG) {
       var label = schedule.filterKey;
       var description = "";
 
+      // TODO:FIXME: we can clean up 'displaySingleTagView' and 'displaySingleTagView' since they are basically the same code
+
       if ( schedule.filterKey === 'category' ) {
-        schedule.loadCategories(function() {
-          var theCategory = schedule.categoryMetaList.filter(function(category){
-            return schedule.slugify(category.name) === schedule.filterValue;
-          });
-          if (theCategory.length > 0) {
-            description = theCategory[0].description.map(function(paragraph) {
-              return "<p>" + paragraph + "</p>";
-            }).join("");
-          }
-          schedule.$pageLinks.find('#categories-page-link').addClass('active');
-          schedule.addCaptionOverline(
-            "<a id='back-to-all-categories' class='back'>Back</a>" + 
-            "<h2>" + schedule.filterValue.replace(/-/g," ") + "</h2>" +
-            description
-          );
-          $("#back-to-all-categories").on('click',function(e) {
-            e.preventDefault();
-            schedule.displayCategoriesList(true);
-          });
-        });
+        schedule.displaySingleCategoryView();
+      } else if ( schedule.filterKey === 'tag' ) {
+        schedule.displaySingleTagView();
+      } else {
+        schedule.addSessionsToSchedule(schedule.filteredList);
+        schedule.clearOpenBlocks();
       }
-
-      if ( schedule.filterKey === 'tags' ) {
-        schedule.$pageLinks.find('#tags-page-link').addClass('active');
-        schedule.addCaptionOverline(
-          "<h2>" + schedule.filterValue.replace(/-/g," ") + "</h2>" +
-          description
-        );
-      }
-
     }
-
-    console.log("schedule.filteredList = ", schedule.filteredList);
-    schedule.addSessionsToSchedule(schedule.filteredList);
-    schedule.clearOpenBlocks();
   }
 
   schedule.toggleSearchMode = function(turnItOn) {
@@ -704,18 +679,45 @@ function Schedule(CUSTOM_CONFIG) {
     schedule.loadCategories(function() {
       var templateData = {
         customCategoryLabel: DISPLAY_NAME_FOR_CATEGORY.singular,
-        categories: []
+        categories: [],
+        slugify: schedule.slugify
       };
       _.each(schedule.categoryMetaList, function(v, k) {
         // prep the Category data for the template
         var category = {
           name: v.name,
-          iconSrc: v.iconSrc,
-          slugify: schedule.slugify
+          iconSrc: v.iconSrc
         };
         templateData.categories.push(category);
       });
       schedule.$container.append(schedule.categoriesListTemplate(templateData));
+    });
+  }
+
+  // display the single [Category] view
+  schedule.displaySingleCategoryView = function() {
+    schedule.loadCategories(function() {
+      var theCategory = schedule.categoryMetaList.filter(function(category){
+        return schedule.slugify(category.name) === schedule.filterValue;
+      });
+      if (theCategory.length > 0) {
+        description = theCategory[0].description.map(function(paragraph) {
+          return "<p>" + paragraph + "</p>";
+        }).join("");
+      }
+      schedule.$pageLinks.find('#categories-page-link').addClass('active');
+      schedule.addCaptionOverline(
+        "<a id='back-to-all-categories' class='back'>Back</a>" + 
+        "<h2>" + schedule.filterValue.replace(/-/g," ") + "</h2>" +
+        description
+      );
+      $("#back-to-all-categories").on('click',function(e) {
+        e.preventDefault();
+        schedule.displayCategoriesList(true);
+      });
+
+      schedule.addSessionsToSchedule(schedule.filteredList);
+      schedule.clearOpenBlocks();
     });
   }
 
@@ -748,41 +750,56 @@ function Schedule(CUSTOM_CONFIG) {
     schedule.$container.html("");
 
     schedule.loadTags(function() {
-      var tagsListKeys = _.map(schedule.tagMetaList, function(tag) {
-        return tag.name;
-      });
-
-      _.each(_.sortBy(_.keys(schedule.tagMap)), function(v, k) {
-        // index in tagsListKeys 
-        var index = tagsListKeys.indexOf(v);
+      var templateData = {
+        customTagLabel: DISPLAY_NAME_FOR_TAG.singular,
+        slugify: schedule.slugify,
+        tags: []
+      };
+      _.each(schedule.tagMetaList, function(v, k) {
         // prep the Tag data for the template
-        var templateData = {
-          name: v,
-          numSessions: schedule.tagMap[v],
-          description: [],
-          slugify: schedule.slugify,
-          customCategoryLabel: DISPLAY_NAME_FOR_CATEGORY.singular,
-          customTagLabel: DISPLAY_NAME_FOR_TAG.singular
+        var tag = {
+          name: v.name
         };
-
-        if (index > -1) {
-          templateData.description = schedule.tagMetaList[index].description;
-        }
-        schedule.$container.append(schedule.tagMapTemplate(templateData));
+        templateData.tags.push(tag);
       });
+      schedule.$container.append(schedule.tagListTemplate(templateData));
     });
   }
 
-  schedule.getTagsCountMap = function() {
-    if ( schedule.tagMap.length == 0 ) {
-      var tagsArray = [];
-      _.each(schedule.sessionList, function(session) {
-        _.each(session.tags.split(","), function(p) {
-          tagsArray.push(p.trim());
-        });
+  // display the single [Tag] view
+  schedule.displaySingleTagView = function() {
+    schedule.loadTags(function() {
+      var theTag = schedule.tagMetaList.filter(function(tag) {
+        return schedule.slugify(tag.name) === schedule.filterValue;
       });
-      schedule.tagMap = _.countBy(_.flatten(tagsArray));
+      if (theTag.length > 0) {
+        description = theTag[0].description.map(function(paragraph) {
+          return "<p>" + paragraph + "</p>";
+        }).join("");
+      }
+      schedule.$pageLinks.find('#tags-page-link').addClass('active');
+      schedule.addCaptionOverline(
+        "<a id='back-to-all-tags' class='back'>Back</a>" + 
+        "<h2>" + schedule.filterValue.replace(/-/g," ") + "</h2>" +
+        description
+      );
+      $("#back-to-all-tags").on('click',function(e) {
+        e.preventDefault();
+        schedule.displayTagsList(true);
+      });
+
+      schedule.addSessionsToSchedule(schedule.filteredList);
+      schedule.clearOpenBlocks();
+    });
+  }
+
+  // display all sessions of a particular [Tag]
+  schedule.displaySessionsOfTag = function(tag_slug,updateHash) {
+    schedule.setBodyClass();
+    if (updateHash) {
+      schedule.updateHash(DISPLAY_NAME_FOR_TAG.singular+'-'+tag_slug);
     }
+    schedule.getFilteredSessions("tag", tag_slug);
   }
 
   schedule.setBodyClass = function(className) {
@@ -856,7 +873,7 @@ function Schedule(CUSTOM_CONFIG) {
 
       var tag_slug = $(this).data("tag");
       schedule.updateHash(DISPLAY_NAME_FOR_TAG.singular+'-'+tag_slug);
-      schedule.getFilteredSessions("tags", tag_slug);
+      schedule.displaySessionsOfTag(tag_slug,true);
     });
 
     // clicking on the header in a session "card" opens session detail view
@@ -1061,7 +1078,7 @@ function Schedule(CUSTOM_CONFIG) {
     $("script#categories-list-template").html()
   );
 
-  schedule.tagMapTemplate = _.template(
+  schedule.tagListTemplate = _.template(
     $("script#tags-list-template").html()
   );
 
