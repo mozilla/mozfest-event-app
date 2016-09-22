@@ -321,6 +321,8 @@ function Schedule(CUSTOM_CONFIG) {
       schedule.$container.html(schedule.sessionDetailTemplate(templateData));
       // allowing faving from detail page too
       schedule.addStars('.session-detail');
+      
+      $("#"+SCHEDULE_NAV_LINK_ID).addClass("active");
     } else {
       // if no matching ID found, just make a full session list
       schedule.makeSchedule();
