@@ -150,7 +150,7 @@
           <% } %>
           <% if (session.facilitators) { %>
           <div class="session-facilitators">
-            <% session.facilitator_array.forEach(function(facilitator, index) { %><% if (index > 0) { %>, <br><% } %><%- facilitator.name %><% if (facilitator.twitter) { %> <a href="https://twitter.com/<%- facilitator.twitter %>"><%- facilitator.twitter %></a><% } %><% if (facilitator.description.length>0) { %>, <%- facilitator.description %><% } %><% }) %>
+            <% for (index in session.facilitators) { %><% if (index > 1) { %><br><% } %><% if (session.facilitators[index].twitter) { %> <a href="https://twitter.com/<%- session.facilitators[index].twitter %>"><%- session.facilitators[index].name %></a><% } else { %><%- session.facilitators[index].name %><% } %><% if (session.facilitators[index]['affiliated org']) { %>, <%- session.facilitators[index]['affiliated org'] %><% } %><% } %>
           </div>
           <% } %>
         </div>
