@@ -115,6 +115,10 @@ h4 {
   margin-bottom: .5rem;
 }
 
+h5 {
+  font-size: 1rem;
+}
+
 input {
   padding: 5px;
 }
@@ -354,10 +358,7 @@ p {
 
 }
 
-.session-facilitators,
-.session-time,
-.session-category-and-location,
-.session-tags {
+.meta .item {
   position: relative;
   padding-left: 25px;
   text-transform: capitalize;
@@ -366,7 +367,8 @@ p {
 .session-facilitators:before,
 .session-time:before,
 .session-category-and-location:before,
-.session-tags:before {
+.session-tags:before,
+.session-additional-language:before {
   display: inline-block;
   content: "";
   position: absolute;
@@ -392,6 +394,11 @@ p {
 
 .session-tags:before {
   content: "\f277";
+  font-family: "FontAwesome";
+}
+
+.session-additional-language:before {
+  content: "\f1ab";
   font-family: "FontAwesome";
 }
 
