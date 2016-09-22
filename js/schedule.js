@@ -310,26 +310,6 @@ function Schedule(CUSTOM_CONFIG) {
         customTagLabel: DISPLAY_NAME_FOR_TAG.singular
       }
 
-      // turn facilitator_array into array of individual facilitator objects
-      templateData.session.facilitator_array = _.map(session.facilitator_array, function(facilitator) {
-        // skip conversion if facilitator has already been converted into object
-        if (typeof facilitator === 'object') return facilitator;
-
-        var metaArray = facilitator.split(",");
-        var meta = {
-          name: metaArray.splice(0,1),
-          description: ""
-        };
-        var otherMeta = _.each(metaArray, function(value) {
-          if (value.indexOf("@") > -1) {
-            meta.twitter = schedule.trim(value);
-          } else {
-            meta.description += schedule.trim(value);
-          }
-        });
-        return meta;
-      })
-
       // add Tags array for individual links
       templateData.session.tagArray = _.each(session.tags.split(','), function(i) {
         schedule.trim(i);
@@ -623,9 +603,8 @@ function Schedule(CUSTOM_CONFIG) {
         // matching against titles, session leader names, descriptions,
         // [Categories] and [Tags]
         var filteredSessions = _.filter(schedule.sessionList, function(v, k) {
-
           return (v.title.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
-               || (v.facilitators.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
+               || (v.facilitators_names.join(" ").toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                || (v.tags.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                || (v.category.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                || (v.description.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0);

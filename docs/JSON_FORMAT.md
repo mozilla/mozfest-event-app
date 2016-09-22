@@ -14,12 +14,26 @@ A `sessions.json` file (or you can give it another file name) should contains th
     "category": "For All Participants", // required
     "day": "Saturday", // required
     "description": "", // required
-    "facilitator_array": [
-      "facilitator #1",
-      "facilitator #2"
+    "facilitators": {
+      "1": {
+          "name": "name of facilitator 1",
+          "affiliated org": "afflicated org of facilitator 1", 
+          "twitter": "twitter handle of facilitator 1"
+      },
+      "2": {
+          "name": "name of facilitator 2",
+          "affiliated org": "afflicated org of facilitator 2", 
+          "twitter": "twitter handle of facilitator 2"
+      },
       ...
-    ], 
-    "facilitators": "facilitator #1, facilitator #2, ...", // a string of facilitators, separated by commas
+      ...
+      ...
+    },
+    facilitators_names: [
+      "name of facilitator 1",
+      "name of facilitator 2",
+      "name of facilitator 3"
+    ],
     "id": "1", // required, each session MUST has an unique id
     "location": "Main ballroom", 
     "start": "09:00 AM", 
