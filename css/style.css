@@ -28,14 +28,13 @@ nav,
 }
 
 .timeblock-header, 
-.page-caption h3 span,
-.session-notes-url a {
+.page-caption h3 span {
   color: #362FC1;
+}
 }
 
 .timeblock-header::before, 
-.page-caption h3::before,
-.session-notes-url a {
+.page-caption h3::before {
   border-color: #362FC1;
 }
 
@@ -43,8 +42,7 @@ nav,
   color: #fff;
 }
 
-.label,
-.session-notes-url a:hover {
+.label {
   background: #362FC1;
 }
 
@@ -72,8 +70,17 @@ a:hover,
 .session-card h4 a,
 .favorite,
 .category-list-item h4,
-.category-list-item:after {
+.category-list-item:after,
+.session-notes-url a {
   color: #FA1BAB;
+}
+
+.session-notes-url a {
+  border-color: #FA1BAB
+}
+
+.session-notes-url a:hover {
+  background: #FA1BAB;
 }
 
 
