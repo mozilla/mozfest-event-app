@@ -809,6 +809,22 @@ function Schedule(CUSTOM_CONFIG) {
     schedule.loadChosenTab();
   };
 
+  schedule.categoryItemClickHandler = function(e) {
+    e.preventDefault();
+
+    var category_slug = $(this).data("category");
+    schedule.displaySessionsOfCategory(category_slug,true);
+     window.scrollTo(0, 0);
+  }
+
+  schedule.tagItemClickHandler = function(e) {
+    e.preventDefault();
+
+    var tag_slug = $(this).data("tag");
+    schedule.updateHash(DISPLAY_NAME_FOR_TAG.singular+'-'+tag_slug);
+    schedule.displaySessionsOfTag(tag_slug,true);
+  }
+
   // add the standard listeners for various user interactions
   schedule.addListeners = function() {
 
@@ -840,23 +856,13 @@ function Schedule(CUSTOM_CONFIG) {
       schedule.displayTagsList(true);
     });
 
-    // clicking on "See all events in this [Category] shows all sessions within that particular [Category]
-    schedule.$container.on('click', '.category-list-item', function(e) {
-      e.preventDefault();
+    // clicking on [Category] shows all sessions within that particular [Category]
+    schedule.$container.on('click', '.category-list-item', schedule.categoryItemClickHandler);
+    schedule.$container.on('click', '.meta .category', schedule.categoryItemClickHandler);
 
-      var category_slug = $(this).data("category");
-      schedule.displaySessionsOfCategory(category_slug,true);
-       window.scrollTo(0, 0);
-    });
-
-    // clicking on "[Tag] card" shows all Sessions that tagged with that [Tag]
-    schedule.$container.on('click', '.tag-list-item', function(e) {
-      e.preventDefault();
-
-      var tag_slug = $(this).data("tag");
-      schedule.updateHash(DISPLAY_NAME_FOR_TAG.singular+'-'+tag_slug);
-      schedule.displaySessionsOfTag(tag_slug,true);
-    });
+    // clicking on [Tag] shows all Sessions within that particular [Tag]
+    schedule.$container.on('click', '.tag-list-item', schedule.tagItemClickHandler);
+    schedule.$container.on('click', '.meta .tag', schedule.tagItemClickHandler);
 
     // clicking on the header in a session "card" opens session detail view
     schedule.$container.on('click', '.session-card h4 a', function(e) {
