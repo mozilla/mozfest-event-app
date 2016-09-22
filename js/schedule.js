@@ -688,14 +688,9 @@ function Schedule(CUSTOM_CONFIG) {
       }
       schedule.$pageLinks.find('#categories-page-link').addClass('active');
       schedule.addCaptionOverline(
-        "<a id='back-to-all-categories' class='back'>Back</a>" + 
         "<h2>" + schedule.filterValue.replace(/-/g," ") + "</h2>" +
         description
       );
-      $("#back-to-all-categories").on('click',function(e) {
-        e.preventDefault();
-        schedule.displayCategoriesList(true);
-      });
 
       schedule.addSessionsToSchedule(schedule.filteredList);
       schedule.clearOpenBlocks();
@@ -761,14 +756,9 @@ function Schedule(CUSTOM_CONFIG) {
       }
       schedule.$pageLinks.find('#tags-page-link').addClass('active');
       schedule.addCaptionOverline(
-        "<a id='back-to-all-tags' class='back'>Back</a>" + 
         "<h2>" + schedule.filterValue.replace(/-/g," ") + "</h2>" +
         description
       );
-      $("#back-to-all-tags").on('click',function(e) {
-        e.preventDefault();
-        schedule.displayTagsList(true);
-      });
 
       schedule.addSessionsToSchedule(schedule.filteredList);
       schedule.clearOpenBlocks();
