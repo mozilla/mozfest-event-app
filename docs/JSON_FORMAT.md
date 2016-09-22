@@ -11,9 +11,10 @@ A `sessions.json` file (or you can give it another file name) should contains th
 ```js
 [
   {
-    "category": "For All Participants", // required
-    "day": "Saturday", // required
-    "description": "", // required
+    "additional language": "", // name of the language (other than English), if available
+    "category": "For All Participants",
+    "day": "Saturday",
+    "description": "i'm the description. i'm the description. ", // session description in English
     "facilitators": {
       "1": {
           "name": "name of facilitator 1",
@@ -34,12 +35,15 @@ A `sessions.json` file (or you can give it another file name) should contains th
       "name of facilitator 2",
       "name of facilitator 3"
     ],
-    "id": "1", // required, each session MUST has an unique id
-    "location": "Main ballroom", 
+    "id": "1", // each session MUST has an unique id
+    "localized description": "...", // localized session description, if any
+    "localized title": "...", // localized session title, if any
+    "location": "name of the location",
+    "notes url": "https://example.com", // notes url
     "start": "09:00 AM", 
     "tags": "tag 1, tag 2, tag 3", // a string of tags, separated by commas
     "timeblock": "saturday-morning-block-1", // a "slugified" string, value match key of a `timeblock` object.
-    "title": "Registration" // session title
+    "title": "Registration" // session title in English
   }, 
   { 
     // another session object

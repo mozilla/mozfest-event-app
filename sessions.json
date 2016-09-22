@@ -1,6 +1,7 @@
 {
     "sessions": [
         {
+            "additional language": "", 
             "category": "Digital Arts and Culture", 
             "day": "Friday", 
             "description": "<script>alert('sup');</script> hello i'm the description of Science Fair", 
@@ -10,12 +11,12 @@
                 "1": {
                     "affiliated org": "The Fake Pikachu Foundation", 
                     "name": "Pikachu", 
-                    "twitter": "@FakeTwitterHandler1234567890"
+                    "twitter": "@FakeTwitterHandle1234567890"
                 }, 
                 "2": {
                     "affiliated org": "The Fake Squirtle Foundation", 
                     "name": "Squirtle", 
-                    "twitter": "@FakeTwitterHandler1234567890Squirtle"
+                    "twitter": "@FakeTwitterHandle1234567890Squirtle"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -29,6 +30,8 @@
                 ""
             ], 
             "id": "101", 
+            "localized description": "", 
+            "localized title": "", 
             "location": "Floor 1 - 101", 
             "notes url": "https://example.com", 
             "start": "6:00pm", 
@@ -37,6 +40,85 @@
             "title": "Science Fair"
         }, 
         {
+            "additional language": "العربية", 
+            "category": "Localisation", 
+            "day": "Friday", 
+            "description": "Let's learn more about the open Web. Let's learn more about the open Web. Let's learn more about the open Web. Let's learn more about the open Web. Let's learn more about the open Web. Let's learn more about the open Web. Let's learn more about the open Web. Let's learn more about the open Web. Let's learn more about the open Web. Let's learn more about the open Web. Let's learn more about the open Web. Let's learn more about the open Web. Let's learn more about the open Web. Let's learn more about the open Web. ", 
+            "end": "7:40pm", 
+            "everyone": false, 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "The Fake Aladdin Foundation", 
+                    "name": "Aladdin", 
+                    "twitter": "@FakeTwitterHandleAladdin"
+                }, 
+                "2": {
+                    "affiliated org": "The Fake Aladdin Foundation", 
+                    "name": "Jafar", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Aladdin", 
+                "Jafar", 
+                ""
+            ], 
+            "id": "102", 
+            "localized description": "دعونا نتعلم المزيد عن الإنترنت المفتوح. دعونا نتعلم المزيد عن الإنترنت المفتوح. دعونا نتعلم المزيد عن الإنترنت المفتوح. دعونا نتعلم المزيد عن الإنترنت المفتوح. دعونا نتعلم المزيد عن الإنترنت المفتوح. دعونا نتعلم المزيد عن الإنترنت المفتوح. دعونا نتعلم المزيد عن الإنترنت المفتوح. دعونا نتعلم المزيد عن الإنترنت المفتوح. دعونا نتعلم المزيد عن الإنترنت المفتوح. دعونا نتعلم المزيد عن الإنترنت المفتوح. دعونا نتعلم المزيد عن الإنترنت المفتوح. دعونا نتعلم المزيد عن الإنترنت المفتوح. دعونا نتعلم المزيد عن الإنترنت المفتوح. دعونا نتعلم المزيد عن الإنترنت المفتوح.", 
+            "localized title": "مرحبا فتح صفحة ويب", 
+            "location": "Floor 1 - Big Room", 
+            "notes url": "https://example.com/hello/there/haha", 
+            "start": "6:00pm", 
+            "tags": "Pathway number 6", 
+            "timeblock": "friday-science-fair--friday-18-00-", 
+            "title": "Hello Open Web"
+        }, 
+        {
+            "additional language": "Français", 
+            "category": "Digital Arts and Culture", 
+            "day": "Friday", 
+            "description": "hello world's description in English. hello world's description in English. hello world's description in English. hello world's description in English. hello world's description in English. hello world's description in English. hello world's description in English. hello world's description in English. ", 
+            "end": "7:40pm", 
+            "everyone": false, 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Beauty and the Beast", 
+                    "name": "Belle", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "Beauty and the Beast", 
+                    "name": "Beast", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "Beauty and the Beast", 
+                    "name": "Lumière ", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Belle", 
+                "Beast", 
+                "Lumière "
+            ], 
+            "id": "200", 
+            "localized description": "bonjour la description du monde en anglais. bonjour la description du monde en anglais. bonjour la description du monde en anglais. bonjour la description du monde en anglais. bonjour la description du monde en anglais. bonjour la description du monde en anglais. bonjour la description du monde en anglais. bonjour la description du monde en anglais. ", 
+            "localized title": "Bonjour le monde", 
+            "location": "Floor 1 - Big Room", 
+            "notes url": "https://example.com/hello/there", 
+            "start": "6:00pm", 
+            "tags": "Pathway number 1, Pathway number 2, Pathway number 3, Pathway number 4", 
+            "timeblock": "friday-science-fair--friday-18-00-", 
+            "title": "Hello world\n"
+        }, 
+        {
+            "additional language": "", 
             "category": "Open Science", 
             "day": "Saturday", 
             "description": "Cupcake ipsum dolor sit amet apple pie gummies. Jelly-o topping biscuit cupcake donut I love jujubes. Brownie liquorice I love soufflé icing cheesecake cheesecake. Wafer muffin candy caramels topping dragée tootsie roll gummies muffin. Brownie muffin wafer. Dragée gummi bears muffin chocolate cake gummies I love toffee. Candy jelly sesame snaps. Sweet muffin I love sweet roll jelly icing marshmallow muffin. Macaroon fruitcake candy tart. Jelly-o halvah dessert candy canes I love I love tootsie roll. Jelly cake sesame snaps topping. Cupcake liquorice marshmallow jujubes.", 
@@ -65,6 +147,8 @@
                 ""
             ], 
             "id": "201", 
+            "localized description": "", 
+            "localized title": "", 
             "location": "Floor 4 - 403", 
             "notes url": "https://example.com", 
             "start": "11:15am", 
@@ -73,6 +157,7 @@
             "title": "session aaa"
         }, 
         {
+            "additional language": "", 
             "category": "Localisation", 
             "day": "Sunday", 
             "description": "Cupcake ipsum dolor sit amet croissant I love halvah tart. Wafer I love donut gummi bears I love. Biscuit fruitcake I love jelly beans pudding cookie sweet roll powder apple pie. Jelly gummies liquorice.", 
@@ -101,6 +186,8 @@
                 ""
             ], 
             "id": "202", 
+            "localized description": "", 
+            "localized title": "", 
             "location": "Floor 5 - 502", 
             "notes url": "https://example.com", 
             "start": "11:00am", 
@@ -109,6 +196,7 @@
             "title": "session bbb"
         }, 
         {
+            "additional language": "", 
             "category": "Fuel The Movement", 
             "day": "Saturday", 
             "description": "Cupcake ipsum dolor sit amet pie. Candy tootsie roll donut chupa chups tiramisu I love. Danish liquorice lollipop cupcake brownie chocolate cake macaroon macaroon I love. Dessert sweet danish icing topping bear claw danish cake lollipop. Donut jelly beans pie muffin sweet. Soufflé cotton candy cake brownie jelly cake sesame snaps. Bonbon marzipan gummi bears muffin soufflé jujubes liquorice. Macaroon oat cake jelly-o marzipan I love I love candy canes halvah. Danish carrot cake gingerbread I love dessert carrot cake cake biscuit apple pie. I love chocolate cake pastry jelly. Tootsie roll jelly caramels marshmallow. Jujubes pudding toffee cake croissant carrot cake. Pastry cookie cake topping icing.", 
@@ -137,6 +225,8 @@
                 ""
             ], 
             "id": "203", 
+            "localized description": "", 
+            "localized title": "", 
             "location": "Floor 3 - 305", 
             "notes url": "https://example.com", 
             "start": "2:00pm", 
@@ -145,6 +235,7 @@
             "title": "session ccc"
         }, 
         {
+            "additional language": "", 
             "category": "Journalism", 
             "day": "Sunday", 
             "description": "Irony mixtape ennui heirloom 90's, food truck authentic artisan prism thundercats YOLO hoodie neutra. Squid banh mi coloring book, listicle hammock taxidermy man bun. IPhone synth chia leggings, edison bulb art party roof party everyday carry freegan raclette knausgaard literally green juice. Sustainable tacos scenester keffiyeh you probably haven't heard of them photo booth. Kombucha food truck affogato, poutine VHS snackwave everyday carry. Pork belly tattooed readymade gentrify, put a bird on it lomo fashion axe godard austin pour-over tousled distillery single-origin coffee. Austin coloring book celiac cred bicycle rights mixtape polaroid.", 
@@ -173,6 +264,8 @@
                 ""
             ], 
             "id": "301", 
+            "localized description": "", 
+            "localized title": "", 
             "location": "Floor 7 - 720", 
             "notes url": "", 
             "start": "11:00am", 
@@ -181,6 +274,7 @@
             "title": "session ABC"
         }, 
         {
+            "additional language": "", 
             "category": "Journalism", 
             "day": "Sunday", 
             "description": "Helvetica synth kale chips tote bag, intelligentsia PBR&B cray edison bulb mumblecore pug readymade taxidermy activated charcoal cred put a bird on it. Tumblr quinoa marfa mustache, pop-up gentrify hella pabst VHS actually post-ironic raclette fingerstache.", 
@@ -209,6 +303,8 @@
                 ""
             ], 
             "id": "302", 
+            "localized description": "", 
+            "localized title": "", 
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "start": "3:15pm", 
@@ -217,6 +313,7 @@
             "title": "session XYZ"
         }, 
         {
+            "additional language": "", 
             "category": "Open Badges", 
             "day": "Saturday", 
             "description": "Kombucha tattooed leggings, tilde post-ironic copper mug selfies chartreuse succulents vegan kale chips single-origin coffee venmo. Hashtag cardigan mlkshk, polaroid poutine activated charcoal keffiyeh tattooed subway tile skateboard lomo hoodie. Craft beer schlitz fashion axe cornhole mustache. Venmo keffiyeh williamsburg taxidermy semiotics. Art party kogi waistcoat, authentic meggings lomo vaporware.", 
@@ -245,6 +342,8 @@
                 ""
             ], 
             "id": "303", 
+            "localized description": "", 
+            "localized title": "", 
             "location": "Floor 3 - 305", 
             "notes url": "", 
             "start": "11:15am", 
@@ -253,7 +352,8 @@
             "title": "session Hello world"
         }, 
         {
-            "category": "Open Badges", 
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
             "day": "Saturday", 
             "description": "Kombucha tattooed leggings, tilde post-ironic copper mug selfies chartreuse succulents vegan kale chips single-origin coffee venmo. Hashtag cardigan mlkshk, polaroid poutine activated charcoal keffiyeh tattooed subway tile skateboard lomo hoodie. Craft beer schlitz fashion axe cornhole mustache. Venmo keffiyeh williamsburg taxidermy semiotics. Art party kogi waistcoat, authentic meggings lomo vaporware.", 
             "end": "2:10pm", 
@@ -281,6 +381,8 @@
                 ""
             ], 
             "id": "401", 
+            "localized description": "", 
+            "localized title": "", 
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "start": "1:00pm", 
@@ -289,6 +391,7 @@
             "title": "session badges"
         }, 
         {
+            "additional language": "", 
             "category": "", 
             "day": "Sunday", 
             "description": "", 
@@ -317,6 +420,8 @@
                 ""
             ], 
             "id": "1000", 
+            "localized description": "", 
+            "localized title": "", 
             "location": "Floor 1 - Big Room", 
             "notes url": "", 
             "start": "6:00pm", 
