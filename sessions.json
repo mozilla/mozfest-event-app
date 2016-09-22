@@ -32,7 +32,7 @@
             "location": "Floor 1 - 101", 
             "notes url": "https://example.com", 
             "start": "6:00pm", 
-            "tags": "pathway 1", 
+            "tags": "Pathway number 1", 
             "timeblock": "friday-science-fair--friday-18-00-", 
             "title": "Science Fair"
         }, 
@@ -68,7 +68,7 @@
             "location": "Floor 4 - 403", 
             "notes url": "https://example.com", 
             "start": "11:15am", 
-            "tags": "pathway 1", 
+            "tags": "Pathway number 1", 
             "timeblock": "saturday-session-2--and-d-d-1---saturday-11-15-", 
             "title": "session aaa"
         }, 
@@ -104,7 +104,7 @@
             "location": "Floor 5 - 502", 
             "notes url": "https://example.com", 
             "start": "11:00am", 
-            "tags": "pathway 1, pathway 3", 
+            "tags": "Pathway number 1, Pathway number 3", 
             "timeblock": "sunday-session-8--and-d-d-4---sunday-11-00-", 
             "title": "session bbb"
         }, 
@@ -140,7 +140,7 @@
             "location": "Floor 3 - 305", 
             "notes url": "https://example.com", 
             "start": "2:00pm", 
-            "tags": "pathway 5", 
+            "tags": "Pathway number 5", 
             "timeblock": "saturday-session-5--saturday-14-00-", 
             "title": "session ccc"
         }, 
@@ -176,7 +176,7 @@
             "location": "Floor 7 - 720", 
             "notes url": "", 
             "start": "11:00am", 
-            "tags": "", 
+            "tags": "Pathway number 2", 
             "timeblock": "sunday-session-8--and-d-d-4---sunday-11-00-", 
             "title": "session ABC"
         }, 
@@ -248,7 +248,7 @@
             "location": "Floor 3 - 305", 
             "notes url": "", 
             "start": "11:15am", 
-            "tags": "", 
+            "tags": "Pathway number 2, Pathway number 3, Pathway number 4", 
             "timeblock": "saturday-session-2--and-d-d-1---saturday-11-15-", 
             "title": "session Hello world"
         }, 
@@ -284,7 +284,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "start": "1:00pm", 
-            "tags": "", 
+            "tags": "Pathway number 6", 
             "timeblock": "saturday-sessions-4--and-d-d-2---saturday-13-00-", 
             "title": "session badges"
         }, 
