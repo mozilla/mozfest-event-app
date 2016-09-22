@@ -139,13 +139,13 @@
           <% if (session.category || session.location) { %>
           <div class="session-category-and-location">
             <% if (session.category) { %>
-              <a href="#_<%- customCategoryLabel %>-<%- slugify(session.category) %>"><%- session.category %></a><% } %><% if (session.category&&session.location) { %>, <% } %><% if (session.location) { %><%- smartypants(session.location) %><% } %>
+              <a href="#_<%- customCategoryLabel %>-<%- slugify(session.category) %>" class="category" data-category="<%- slugify(session.category) %>"><%- session.category %></a><% } %><% if (session.category&&session.location) { %>, <% } %><% if (session.location) { %><%- smartypants(session.location) %><% } %>
           </div>
           <% } %>
           <% if (session.tags && session.tagArray.length) { %>
           <div class="session-tags">
-            <% session.tagArray.forEach(function(name, index) { %><% if (index > 0) { %>, <% } %>
-              <a href="#_<%- customTagLabel %>-<%- slugify(name) %>"><%- name %></a><% }) %>
+            <% session.tagArray.forEach(function(tag, index) { %><% if (index > 0) { %>, <% } %>
+              <a href="#_<%- customTagLabel %>-<%- slugify(tag) %>" class="tag" data-tag="<%- slugify(tag) %>"><%- tag %></a><% }) %>
           </div>
           <% } %>
           <% if (session.facilitators) { %>
