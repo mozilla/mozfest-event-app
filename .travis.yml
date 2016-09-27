@@ -1,0 +1,9 @@
+language: node_js
+deploy:
+  provider: s3
+  access_key_id: AKIAJ4C7PHDJ6ZSQYQ7A
+  secret_access_key:
+    secure: "B5usBi1/3eFO6WRpn7P9BElcxqclm2WYlhA440TcbgzQjpVrhqZEAFMRuhmgo+QjjuPKx7soSDhZdh021I8ER9x/75BzwzNym4GzAPC9IsTWbeB1wBRuKVck/Fl3I5x4LYB7P6AftGJTU/Bt/a7JAkKEa5uDMQCeg2Y/3v2SM3xrdx12/qjZdiD/10h9f2DT85iCCeW17FLGdFxqPduL49g933Nm8IFkgAUhFYvyAnhEx4UzuytpETKMxEJ+m0NBsPgWK6MbABV3RB5qayNJqZKxX0sMP8aAaWocyCNAto2QL9pfvVfvhUwHOTB7Uk4o+sutQlyLo+Ttk5CpgcnTfFhoRBsAbpHhFVWmUU80VDGdwJ6AreLxCMSZjV2ySyKV8Mm+qvxafd3aFoNmBfsazK1FYmzQHcVseLVz1Ssdssmh9d1s437iaHZj+JDTROqm0nuwVa4vn3ZCbp4Jt760HbgRlcROk9s1SXqIzDfNtpR4GiWW2FeCpUlOUfE6Ilad6Tmglwjnrdb2C2/FqTW/QNheoWW4jnRqoZl5kg7w9Yeg5cwf+yJRTLYHMBeNeMVef5sUZAC3jH4Nk0BW2cJ47+nXw/vGiy75eRotMsNXVbMyqHZVGuoQElY65JBAmOurlam38wIjPAEew+BXTp5gr3L1m8aH0nBbeDFokTA9Wig="
+  bucket: 2016-mozfest-app-staging
+  on:
+    branch: master
