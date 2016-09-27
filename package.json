@@ -1,0 +1,22 @@
+{
+  "name": "mozfest-event-app",
+  "version": "1.0.0",
+  "description": "2016 Mozfest Event App",
+  "main": "index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \\\"No tests to run\\\"; exit 0;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mozilla/mozfest-event-app.git"
+  },
+  "author": "Mozilla Foundation",
+  "license": "mpl-2.0",
+  "bugs": {
+    "url": "https://github.com/mozilla/mozfest-event-app/issues"
+  },
+  "homepage": "https://github.com/mozilla/mozfest-event-app#readme"
+}
