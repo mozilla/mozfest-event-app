@@ -35,7 +35,7 @@
             "location": "Floor 1 - 101", 
             "notes url": "https://example.com", 
             "start": "6:00pm", 
-            "tags": "Pathway number 1", 
+            "tags": "Storytelling", 
             "timeblock": "friday-science-fair--friday-18-00-", 
             "title": "Science Fair"
         }, 
@@ -74,7 +74,7 @@
             "location": "Floor 1 - Big Room", 
             "notes url": "https://example.com/hello/there/haha", 
             "start": "6:00pm", 
-            "tags": "Pathway number 6", 
+            "tags": "Multi-lingual MozFest", 
             "timeblock": "friday-science-fair--friday-18-00-", 
             "title": "Hello Open Web"
         }, 
@@ -113,7 +113,7 @@
             "location": "Floor 1 - Big Room", 
             "notes url": "https://example.com/hello/there", 
             "start": "6:00pm", 
-            "tags": "Pathway number 1, Pathway number 2, Pathway number 3, Pathway number 4", 
+            "tags": "Storytelling, The Future of the Web, AR, VR & Machine Learning, Digital Inclusion", 
             "timeblock": "friday-science-fair--friday-18-00-", 
             "title": "Hello world\n"
         }, 
@@ -152,7 +152,7 @@
             "location": "Floor 4 - 403", 
             "notes url": "https://example.com", 
             "start": "11:15am", 
-            "tags": "Pathway number 1", 
+            "tags": "Storytelling", 
             "timeblock": "saturday-session-2--and-d-d-1---saturday-11-15-", 
             "title": "session aaa"
         }, 
@@ -191,7 +191,7 @@
             "location": "Floor 5 - 502", 
             "notes url": "https://example.com", 
             "start": "11:00am", 
-            "tags": "Pathway number 1, Pathway number 3", 
+            "tags": "Storytelling, AR, VR & Machine Learning", 
             "timeblock": "sunday-session-8--and-d-d-4---sunday-11-00-", 
             "title": "session bbb"
         }, 
@@ -230,7 +230,7 @@
             "location": "Floor 3 - 305", 
             "notes url": "https://example.com", 
             "start": "2:00pm", 
-            "tags": "Pathway number 5", 
+            "tags": "Advocacy & Web Literacy", 
             "timeblock": "saturday-session-5--saturday-14-00-", 
             "title": "session ccc"
         }, 
@@ -269,7 +269,7 @@
             "location": "Floor 7 - 720", 
             "notes url": "", 
             "start": "11:00am", 
-            "tags": "Pathway number 2", 
+            "tags": "The Future of the Web", 
             "timeblock": "sunday-session-8--and-d-d-4---sunday-11-00-", 
             "title": "session ABC"
         }, 
@@ -347,7 +347,7 @@
             "location": "Floor 3 - 305", 
             "notes url": "", 
             "start": "11:15am", 
-            "tags": "Pathway number 2, Pathway number 3, Pathway number 4", 
+            "tags": "The Future of the Web, AR, VR & Machine Learning, Digital Inclusion", 
             "timeblock": "saturday-session-2--and-d-d-1---saturday-11-15-", 
             "title": "session Hello world"
         }, 
@@ -386,7 +386,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "start": "1:00pm", 
-            "tags": "Pathway number 6", 
+            "tags": "Multi-lingual MozFest", 
             "timeblock": "saturday-sessions-4--and-d-d-2---saturday-13-00-", 
             "title": "session badges"
         }, 
