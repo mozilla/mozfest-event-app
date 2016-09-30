@@ -225,7 +225,8 @@ p {
   cursor: pointer;
 }
 
-.category-description {
+.category-description,
+.tag-description {
   margin-top: 1.5rem;
 }
 
