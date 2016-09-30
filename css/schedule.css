@@ -129,6 +129,7 @@ header a {
 
 p {
   font-size: 1rem;
+  line-height: 1.4;
 }
 
 .btn {
@@ -202,10 +203,19 @@ p {
   background-color: #CF455D;
 }
 
+.page-caption .category-header {
+  display: flex;
+  align-items: center;
+}
+
+.page-caption .icon-container {
+  margin-right: 15px;
+}
+
 .page-caption h2 {
-  text-transform: capitalize;
   color: inherit;
   font-weight: 400;
+  margin-bottom: 0;
 }
 
 .page-caption .back {
@@ -213,6 +223,10 @@ p {
   width: auto;
   margin-bottom: 1rem;
   cursor: pointer;
+}
+
+.category-description {
+  margin-top: 1.5rem;
 }
 
 .timeblock-header {
@@ -482,9 +496,16 @@ p {
   right: 10px;
 }
 
-.category-list-item .icon-container img,
-.tag-list-item .icon-container img {
-  width: 7rem;
+.category-list-item .icon-container,
+.tag-list-item .icon-container { 
+  width: 25px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.category-list-item img,
+.tag-list-item img {
   height: auto;
 }
 
@@ -492,6 +513,11 @@ p {
 .tag-list-item h4 {
   margin: 0 1.5rem 0 0;
   color: #FA1BAB;
+}
+
+.category-list-item .icon-container + h4,
+.tag-list-item .icon-container + h4 {
+  margin-left: 5px;
 }
 
 .category-list-item p:last-child,
