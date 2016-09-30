@@ -769,7 +769,7 @@ function Schedule(CUSTOM_CONFIG) {
       schedule.$pageLinks.find('#tags-page-link').addClass('active');
       schedule.addCaptionOverline(
         "<h2>" + tagName + "</h2>" +
-        description
+        "<div class='tag-description'>" + description + "</div>"
       );
 
       schedule.addSessionsToSchedule(schedule.filteredList);
