@@ -196,9 +196,11 @@
       </p>
       <% categories.forEach(function(category) { %>
       <a class="category-list-item" href="#_<%- customCategoryLabel %>-<%- slugify(category.name) %>" data-category="<%- slugify(category.name) %>">
+        <% if (category.iconSrc && category.iconWidth) { %>
         <div class="icon-container">
-          <% if (category.iconSrc) { %><img src=<%- category.iconSrc %>><% } %>
+          <img src=<%- category.iconSrc %> width=<%- category.iconWidth %> >
         </div>
+        <% } %>
         <h4><%- category.name %></h4>
       </a>
       <% }) %>

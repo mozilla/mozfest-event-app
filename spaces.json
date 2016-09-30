@@ -3,62 +3,82 @@
     "name": "Digital Arts and Culture",
     "description": [
       "In the 21st Century, the relationship between art and technology has grown deeper and more nuanced than ever before. We use technology to create art. We view and share art using new and impressive digital tools. And often, technology itself — from products to web pages — is art. In this space we unpack the relationship between art, technology, and the web."
-    ]
+    ],
+    "iconSrc": "img/space/digitalArts.svg",
+    "iconWidth": "18"
   },
   {
     "name": "Journalism",
     "description": [
       "Journalism doesn't just tell the story of the Internet — it's part of it. Software like Django, D3, and Backbone has emerged from newsrooms to power some of the most innovative work on the open Web. And reporting entertains and challenges millions of readers online every day, giving them the information they need to engage with their communities. In this space we explore how journalism can change our lives, both in person and online."
-    ]
+    ],
+    "iconSrc": "img/space/journalism.svg",
+    "iconWidth": "15"
   },
   {
     "name": "Open Science",
     "description": [
       "Science and the web both help us understand the world around us. We cover topics like open data and research, citizen science, and science communication — all the while learning news skills and tools. In this space we explore, remix, and hack at the intersection of science and the Internet, and learn how the web is transforming research and discovery."
-    ]
+    ],
+    "iconSrc": "img/space/openScience.svg",
+    "iconWidth": "20"
   }
   ,
   {
     "name": "Open Badges",
     "description": [
       "Open Badges are transforming how we recognise and reward learning. These digital credentials showcase and communicate learners’ skills — from HTML to design — in a way that traditional CVs and transcripts cannot. In this space we showcase exciting badges projects, hack on and build badge infrastructure, and encourage new partners and networks adopt badges."
-    ]
+    ],
+    "iconSrc": "img/space/openBadges.svg",
+    "iconWidth": "16"
   },
   {
     "name": "Fuel The Movement",
     "description": [
       "Current copyright laws aren't equipped for the internet age. Right now, we have a unique opportunity in the European Union to update and reform copyright laws to enhance -- not hinder -- creativity and innovation. In this space we will help participants explore how these and other laws impact them -- and what YOU can do about it."
-    ]
+    ],
+    "iconSrc": "img/space/fuelMovement.svg",
+    "iconWidth": "20"
   },
   {
     "name": "Localisation",
     "description": [
       "The internet spans many cultures and languages and this space reflects the diversity of the web and the people who use it. We’ll explore how people participate in the digital world in a way that reflects their unique culture and identity. In this space, localisation experts and amateurs alike will share localisation tools, discuss their experiences on a multicultural Internet, and explore how we can create a Web that’s truly inclusive of all languages and societies."
-    ]
+    ],
+    "iconSrc": "img/space/localisation.svg",
+    "iconWidth": "12"
   },
   {
     "name": "Youth Zone",
     "description": [
       "Too often, current-day education systems are prescriptive. Learning is based around certain objectives, like exams. And independent thinking isn’t encouraged. In this space we’re creating an environment where independent thinking isn’t just encouraged — it’s rewarded. Our space is a sandbox for kids, teens, and adults alike to tinker, hack, build, and play as a means of learning."
-    ]
+    ],
+    "iconSrc": "img/space/youthZone.svg",
+    "iconWidth": "19"
   },
   {
     "name": "Demystify the Web",
     "description": [
       "Grab your ticket to our carnival of learning! All who enter will gain the most important skills of our age: the ability to read, write and participate in our digital world. This space invites teachers and learners of all ages to join our funhouse of Web literacy. Embrace the unknown! Experience the thrills! Imagine and share the full potential of the Web with everyone!"
-    ]
+    ],
+    "iconSrc": "img/space/demystify.svg",
+    "iconWidth": "13"
   },
   {
     "name": "Dilemmas in Connected Spaces",
     "description": [
       "As our lives and physical environments become even more connected online, we're faced with dilemmas. Should I allow my personal data to be used if it improves my daily life? Should my everyday objects be online? This space allows makers and learners to explore these dilemmas through a series of interactive experiences and mischievous interventions. "
-    ]
+    ],
+    "iconSrc": "img/space/dilemmas.svg",
+    "iconWidth": "16"
   },
   {
-    "name": "MozEx (Art Exhibit)",
+    "name": "MozEx",
     "description": [
       "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through Web literacy, digital inclusion and accessibility, privacy, policy, and hacking."
-    ]
+    ],
+    "iconSrc": "img/space/mozEx.svg",
+    "iconWidth": "18"
   },
   {
     "name": "Dialogue and Debate Speakers Series",

@@ -666,7 +666,8 @@ function Schedule(CUSTOM_CONFIG) {
         // prep the Category data for the template
         var category = {
           name: v.name,
-          iconSrc: v.iconSrc
+          iconSrc: v.iconSrc,
+          iconWidth: v.iconWidth
         };
         templateData.categories.push(category);
       });
@@ -676,20 +677,29 @@ function Schedule(CUSTOM_CONFIG) {
 
   // display the single [Category] view
   schedule.displaySingleCategoryView = function() {
+    // TODO:FIXME: use underscore template for this?
+    var header = "";
     var description = "";
+    var icon = "";
     schedule.loadCategories(function() {
       var theCategory = schedule.categoryMetaList.filter(function(category){
         return schedule.slugify(category.name) === schedule.filterValue;
       });
       if (theCategory.length > 0) {
-        description = theCategory[0].description.map(function(paragraph) {
+        theCategory = theCategory[0];
+        categoryName = theCategory.name;
+        icon = "<img src='" + theCategory.iconSrc + "' width='" + theCategory.iconWidth*2.5 + "' class='category-icon'>";
+        description = theCategory.description.map(function(paragraph) {
           return "<p>" + paragraph + "</p>";
         }).join("");
       }
       schedule.$pageLinks.find('#categories-page-link').addClass('active');
       schedule.addCaptionOverline(
-        "<h2>" + schedule.filterValue.replace(/-/g," ") + "</h2>" +
-        description
+        "<div class='category-header'>" +
+          "<div class=icon-container>" + icon + "</div>" +
+          "<h2>" + categoryName + "</h2>" +
+        "</div>" +
+        "<div class='category-description'>" + description + "</div>"
       );
 
       schedule.addSessionsToSchedule(schedule.filteredList);
@@ -750,13 +760,15 @@ function Schedule(CUSTOM_CONFIG) {
         return schedule.slugify(tag.name) === schedule.filterValue;
       });
       if (theTag.length > 0) {
-        description = theTag[0].description.map(function(paragraph) {
+        theTag = theTag[0];
+        tagName = theTag.name;
+        description = theTag.description.map(function(paragraph) {
           return "<p>" + paragraph + "</p>";
         }).join("");
       }
       schedule.$pageLinks.find('#tags-page-link').addClass('active');
       schedule.addCaptionOverline(
-        "<h2>" + schedule.filterValue.replace(/-/g," ") + "</h2>" +
+        "<h2>" + tagName + "</h2>" +
         description
       );
 
