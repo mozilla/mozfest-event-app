@@ -46,7 +46,8 @@ nav,
 ***** */
 
 #nav-links a,
-#nav-links a:link {
+#nav-links a:link,
+.timeblock-header .fa {
   color: #998CEC;
 }
 
@@ -108,8 +109,6 @@ h2.subhead,
 
 .session-card, 
 .open-block, 
-.tag-list-item,
-.category-list-item,
 .session-detail .meta {
   background: #fff;
 }

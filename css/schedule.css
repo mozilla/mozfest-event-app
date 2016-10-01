@@ -214,7 +214,8 @@ p {
 
 .page-caption h2 {
   color: inherit;
-  font-weight: 400;
+  font-size: 1.125rem;
+  font-weight: 500;
   margin-bottom: 0;
 }
 
@@ -245,7 +246,7 @@ p {
 }
 .timeblock-header:before {
   content: "";
-  border-top: 1px solid #555;
+  border-top: 1px solid #C7C7CA;
   position: absolute;
   top: 50%;
   left: 0;
@@ -261,8 +262,8 @@ p {
 .timeblock-header .fa {
   text-decoration: none;
   float: right;
-  font-size: 1.3rem;
-  padding: .5rem .1rem .5rem .8rem;
+  font-size: .875rem;
+  padding: .8rem .1rem .5rem .8rem;
   background: white;
 }
 
@@ -292,10 +293,13 @@ p {
 }
 
 .session-card,
-.open-block,
+.open-block {
+  padding: 15px 10px;
+}
+
 .category-list-item,
 .tag-list-item {
-  padding: 15px 10px;
+  padding: 15px 0;
 }
 
 .session-card,
@@ -470,36 +474,12 @@ p {
   position: relative;
   display: flex;
   align-items: center;
-  margin-bottom: 1rem;
-}
-
-.category-list-item:hover,
-.tag-list-item:hover {
   text-decoration: none;
-  background: #FA1BAB;
-  color: #fff;
-}
-
-.category-list-item:hover h4,
-.category-list-item:hover:after,
-.tag-list-item:hover h4,
-.tag-list-item:hover:after {
-  color: #fff;
-}
-
-.category-list-item:after,
-.tag-list-item:after {
-  content: "\f054";
-  font-family: "FontAwesome";
-  color: #FA1BAB;
-  position: absolute;
-  top: calc( 50% - 12px );
-  right: 10px;
 }
 
 .category-list-item .icon-container,
 .tag-list-item .icon-container { 
-  width: 25px;
+  width: 50px;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -512,18 +492,29 @@ p {
 
 .category-list-item h4,
 .tag-list-item h4 {
-  margin: 0 1.5rem 0 0;
+  margin: 0;
   color: #FA1BAB;
+  font-weight: 500;
 }
 
 .category-list-item .icon-container + h4,
 .tag-list-item .icon-container + h4 {
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
-.category-list-item p:last-child,
-.tag-list-item p:last-child {
-  margin-bottom: 0;
+.category-list-item:hover h4,
+.tag-list-item:hover h4 {
+  text-decoration: underline;
+}
+
+.category-list-item h4:after,
+.tag-list-item h4:after {
+  content: "\f054";
+  font-family: "FontAwesome";
+  color: #FA1BAB;
+  margin-left: 10px;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .hidden {
