@@ -417,8 +417,9 @@ p {
 }
 
 .session-additional-language:before {
-  content: "\f1ab";
+  content: "\f075";
   font-family: "FontAwesome";
+  font-size: .875rem;
 }
 
 .session-notes-url {
