@@ -688,7 +688,7 @@ function Schedule(CUSTOM_CONFIG) {
       if (theCategory.length > 0) {
         theCategory = theCategory[0];
         categoryName = theCategory.name;
-        icon = "<img src='" + theCategory.iconSrc + "' width='" + theCategory.iconWidth*2.5 + "' class='category-icon'>";
+        icon = "<img src='" + theCategory.iconSrc + "' width='" + theCategory.iconWidth + "' class='category-icon'>";
         description = theCategory.description.map(function(paragraph) {
           return "<p>" + paragraph + "</p>";
         }).join("");
