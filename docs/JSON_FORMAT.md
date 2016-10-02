@@ -62,7 +62,6 @@ A `sessions.json` file (or you can give it another file name) should contains th
     "day": "Saturday", 
     "key": "reserved-saturday-registration", // a "slugified" string, has to be unique
     "order": "1", // the order this timeblock section should appear on the day tab. For example, on the app this "reserved-saturday-registration" block will appear as the 2nd block on the Saturday tab.
-    // "reserved for everyone": "yes", 
     "start time": "09:00 ", // in 24-hr format
     "timeblock name": "Saturday Registration" // label to show on the app
   },

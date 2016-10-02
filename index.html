@@ -65,7 +65,7 @@
 
     <!-- template used in tabs other than the search(all sessions) tab view -->
     <script type="text/template" id="session-card-template">
-    <div id="session-<%- sessionID %>" class="session-card<% if (session.everyone) { %> session-everyone<% } %>" data-session="<%- sessionID.replace('-ghost','') %>">
+    <div id="session-<%- sessionID %>" class="session-card<% if (session.programmatic) { %> session-programmatic<% } %>" data-session="<%- sessionID.replace('-ghost','') %>">
       <h4>
         <a href="#_session-<%- sessionID %>"><% if (session['localized title']) { %><%- smartypants(session['localized title']) %><% } else { %><%- smartypants(session.title) %><% } %></a>
       </h4>
@@ -91,7 +91,7 @@
 
     <!-- template used in the search(all sessions) tab view -->
     <script type="text/template" id="search-mode-session-card-template">
-    <div id="session-<%- sessionID %>" class="session-card search-result<% if (session.everyone) { %> session-everyone<% } %>"" data-session="<%- sessionID.replace('-ghost','') %>">
+    <div id="session-<%- sessionID %>" class="session-card search-result<% if (session.programmatic) { %> session-programmatic<% } %>"" data-session="<%- sessionID.replace('-ghost','') %>">
       <h4>
         <a href="#_session-<%- sessionID %>"><% if (session['localized title']) { %><%- smartypants(session['localized title']) %><% } else { %><%- smartypants(session.title) %><% } %></a>
       </h4>
@@ -230,7 +230,7 @@
     <script src="js/schedule.js"></script>
     <script>
       var customConfig = {
-        subHeaderText: "October 28–30  •  Ravensbourne, London<br><small>(with dummy data for now)</small>",
+        subHeaderText: "October 28–30  •  Ravensbourne, London<br><small>(with working in progress schedule data for now)</small>",
         displayNameForCategory: {
           singular:'space', // this can only be one word
           plural: 'spaces' // this can only be one word
