@@ -11805,8 +11805,9 @@
         {
             "additional language": "", 
             "category": "Open badges", 
+            "day": "Saturday", 
             "description": "Get started with Maker badges - learning and showcasing skills in partnership with organisations and employers.\nLearners will make, hack and create across the web, gaining recognition for their skills through Open Badges.\nWww.openbadgeacademy.com/obamakers", 
-            "duration": "", 
+            "end": "10:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "DigitalMe", 
@@ -11835,8 +11836,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": "", 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "OBA Makers"
         }, 
         {
@@ -12693,7 +12695,7 @@
         {
             "additional language": "", 
             "category": "Open badges", 
-            "description": "How can employers use Open Badges to elicit more detailed profiles from job candidates earlier in the hiring process? How can badges save hiring managers time and lead to a better job fit?\nHank Holiday and Benjamin Roome are co-founders of the Open Badge platform Badge List. We’ve designed a new type of hiring process that reorganizes the early stages of a standard recruitment workflow around badges. We will begin this hands-on session by explaining the workflow. Then we will guide everyone through a four-step design process which is being developed in partnership with a global group of employers from many different industries.\nThis session will be relevant to anyone interested in how to hire high quality candidates in their organization. Everyone should bring a laptop and one or more job descriptions. Everyone will leave with a working Badge List badge group and a draft hiring plan.", 
+            "description": "How can employers use Open Badges to elicit more detailed profiles from job candidates earlier in the hiring process? How can badges save hiring managers time and lead to a better job fit?\n\nHank Holiday and Benjamin Roome are co-founders of the Open Badge platform Badge List. \nWe are developing a new type of hiring process specifically geared towards matching college students and recent college graduates with entry level job roles. Employers looking to hire for similar entry level jobs will collaborate to create constellations of badges that fit well with the types of badges students earn during their higher ed experience.\n\nWe will begin this hands-on session by explaining the workflow. Then we will guide participants through a design process which is being developed to help streamline the process of finding high quality job candidates for entry-level jobs.\n\nThis session will be relevant to anyone interested in hiring for entry-level positions in their organization. Everyone should bring a laptop and one or more job descriptions. Everyone will leave with a with the knowledge they need to go out to start their own coalition to simplify the process of hiring candidates for entry level jobs.", 
             "duration": "", 
             "facilitators": {
                 "1": {
@@ -12767,7 +12769,7 @@
         {
             "additional language": "", 
             "category": "Open badges", 
-            "description": "This session will take MozFest attendees on the journey through creating London CLC's Digital Champions curriculum, based on doteveryone's Basic Digital Skills Framework and Mozilla's Web Literacy Map.\nThe curriculum recognises that some of the most disadvantaged adults in London (specifically those with disabilities, older people and those from lower socio-economic backgrounds) are multiply disadvantaged because they do not have the digital skills needed to fully function in society. This is done using Open Badges, a standard invented and incubated by the Mozilla Foundation. The highest level badge currently available is for mentorship, something that breeds confidence and self-esteem in those that earn it.", 
+            "description": "This session will help attendees understand the concept of 'flexible frameworks', using examples from London Connected Learning Centre and Sussex Downs College. This draws on doteveryone's Basic Digital Skills Framework and Mozilla's Web Literacy Map. It will be a conversation-led session with visual thoughts captured by [Bryan Mathers](http://visualthinkery.com).", 
             "duration": "", 
             "facilitators": {
                 "1": {
@@ -12878,7 +12880,7 @@
         {
             "additional language": "", 
             "category": "Open badges", 
-            "description": "In this session participants will be taken through We Are Open Co-op's 'thinkathon' approach, to help people think about knotty problems in an open, inclusive, and participatory way. We've used this successfully in non-profit and for-profit settings, and now we want to both share the approach and see if it works in a setting like MozFest.\nThe process involves as much drawing as it does thinking and writing, and is solution-oriented. We use the wealth of experience that participants and facilitators have to take apart a problem and look at it from a different angle. We will go off at tangents and down rabbit holes, but that's all part of the process!\nOur starting point will be whatever issues participants bring to the table after our icebreaker activity, but we have a few ideas up our sleeves, such as Open Badges for employability, digital skills, and 'passion projects'.", 
+            "description": "In this session participants will be taken through a modified version of We Are Open Co-op's 'thinkathon' approach, to help people think about knotty problems in an open, inclusive, and participatory way. The process involves as much drawing as it does thinking and writing, and is solution-oriented.\n\nWe use the wealth of experience that participants and facilitators have to take apart a problem and look at it from a different angle. We will go off at tangents and down rabbit holes, but that's all part of the process!\n\nOur starting point will be whatever issues participants bring to the table after our icebreaker activity, but we have a few ideas up our sleeves, such as Open Badges for employability, digital skills, and 'passion projects'.", 
             "duration": "", 
             "facilitators": {
                 "1": {
@@ -12910,7 +12912,7 @@
             "programmatic": false, 
             "tags": "", 
             "timeblock": "", 
-            "title": "The Thinkathon: the art of thinking sideways"
+            "title": "The Thinkasprint: the art of thinking sideways"
         }, 
         {
             "additional language": "", 
@@ -13026,7 +13028,7 @@
         {
             "additional language": "", 
             "category": "Open badges", 
-            "description": "Using the starting points of doteveryone's Basic Digital Skills, Workplace Skills, and Digital Leadership Skills programmes, NCVO's Skills Lab work, and London CLC's Digital Champions Curriculum, this workshop will find commonalities, overlaps, and ways forward for badges relating to digital skills.\nWe'll map out existing programmes, badges and pathways and then work to flesh out, fill gaps and imagine new links and partnerships between established players as well as welcoming new entrants to the digital skills space.", 
+            "description": "Using the starting points of doteveryone's Basic Digital Skills, Workplace Skills, and Digital Leadership Skills programmes, NCVO's Skills Lab work, and London CLC's Digital Champions Curriculum, this workshop will find commonalities, overlaps, and ways forward for badges-based flexible frameworks. It links closely to [this fireside chat](https://github.com/MozillaFoundation/mozfest-program-2016/issues/349).\n\nWe'll provide examples of existing programmes, badges and pathways and then work to flesh out, fill gaps and imagine new links and partnerships between established players as well as welcoming new entrants to the digital skills space. This will be a hands-on, practical session.\n", 
             "duration": "", 
             "facilitators": {
                 "1": {
