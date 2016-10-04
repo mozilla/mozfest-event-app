@@ -816,15 +816,15 @@ function Schedule(CUSTOM_CONFIG) {
 
     var category_slug = $(this).data("category");
     schedule.displaySessionsOfCategory(category_slug,true);
-     window.scrollTo(0, 0);
+    window.scrollTo(0,0);
   }
 
   schedule.tagItemClickHandler = function(e) {
     e.preventDefault();
 
     var tag_slug = $(this).data("tag");
-    schedule.updateHash(DISPLAY_NAME_FOR_TAG.singular+'-'+tag_slug);
     schedule.displaySessionsOfTag(tag_slug,true);
+    window.scrollTo(0, 0);
   }
 
   // add the standard listeners for various user interactions
