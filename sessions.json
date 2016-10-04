@@ -4372,9 +4372,9 @@
             "duration": "", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "Designswarm", 
-                    "name": "Alex DS", 
-                    "twitter": "@iotwatch"
+                    "affiliated org": "The Good home", 
+                    "name": "Alexandra Deschamps-Sonsino", 
+                    "twitter": "@goodhomeproject"
                 }, 
                 "2": {
                     "affiliated org": "The waving cat", 
@@ -4388,7 +4388,7 @@
                 }
             }, 
             "facilitators_names": [
-                "Alex DS", 
+                "Alexandra Deschamps-Sonsino", 
                 "Peter Bihr", 
                 ""
             ], 
@@ -4401,6 +4401,386 @@
             "tags": "Digital Inclusion", 
             "timeblock": "", 
             "title": "Living in the UK post Brexit"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
+            "day": "Saturday", 
+            "description": "The ThingsCon community fosters the creation of a human-centric and responsible Internet of Things (IoT). We want to support consumer rights organizations like EFF and Consumer Reports in this area. Help us draft materials that can help these organizations navigate the challenges surrounding IoT.\nAfter a quick intro to the state of affairs in consumer rights and IoT, we'll have a group discussion of the major pitfalls and opportunities for consumer rights groups in that area.", 
+            "end": "12:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "ThingsCon", 
+                    "name": "Peter Bihr", 
+                    "twitter": "@thingscon"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Peter Bihr", 
+                "", 
+                ""
+            ], 
+            "id": "902", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 612", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "11:15am", 
+            "tags": "", 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
+            "title": "ThingsCon: Responsible IoT for Consumer Rights Orgs"
+        }, 
+        {
+            "additional language": "French, German", 
+            "category": "Dilemmas in Connected Spaces", 
+            "day": "Saturday", 
+            "description": "Build flags that are a mashup of where attendees come from, showing that 'home', place of birth and origins aren't the same thing.\nWe'll be making new fiction flags that represent our current homes from paper.", 
+            "end": "1:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "The Good home", 
+                    "name": "Alexandra Deschamps-Sonsino", 
+                    "twitter": "@goodhomeproject"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Alexandra Deschamps-Sonsino", 
+                "", 
+                ""
+            ], 
+            "id": "903", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 612", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "12:30pm", 
+            "tags": "", 
+            "timeblock": "sat-12-30pm--saturday-12-30-", 
+            "title": "Flag-o-ra-ma"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
+            "day": "Saturday", 
+            "description": "Interview (in person or via Skype) about art & migration, with James Bridle and/or Fiona Romeo (TBC)\nHow does migration and Brexit shape art, how can art explore complex issues like migration and Brexit?\nThis is for anyone with an interest in art and/or politics and migration.\n", 
+            "end": "3:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "The Good home", 
+                    "name": "Alexandra Deschamps-Sonsino", 
+                    "twitter": "@goodhomeproject"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Alexandra Deschamps-Sonsino", 
+                "", 
+                ""
+            ], 
+            "id": "904", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 612", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "2:00pm", 
+            "tags": "", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
+            "title": "Framing migration"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
+            "day": "Saturday", 
+            "description": "Talk about families in a global sense and discuss objects we take with us, rituals we carry with us from the ‘mother land’ how we take home away from home.\nDraw those objects, make a paper quilt out of it that we exhibit throughout the weekend.\nThis is for anyone interested in global migration, a connected to home, and how objects carry and shape what \"home\" means for us.", 
+            "end": "4:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "The Good home", 
+                    "name": "Alexandra Deschamps-Sonsino", 
+                    "twitter": "@goodhomeproject"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Alexandra Deschamps-Sonsino", 
+                "", 
+                ""
+            ], 
+            "id": "905", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 612", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "3:15pm", 
+            "tags": "", 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
+            "title": "Motherland objects / Tea time"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
+            "day": "Saturday", 
+            "description": "Exhibition opening of all the things made throughout the day at the Good Home space.\nWe'll give a little introduction to the Good Home and the exhibitions on display and close the day with some drinks.\nFor anyone interested in better living in the 21 century, connected homes, migratory living, technologists, designers.\n", 
+            "end": "7:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "The Good home", 
+                    "name": "Alexandra Deschamps-Sonsino", 
+                    "twitter": "@goodhomeproject"
+                }, 
+                "2": {
+                    "affiliated org": "The waving cat", 
+                    "name": "Peter Bihr", 
+                    "twitter": "@peterbihr"
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Alexandra Deschamps-Sonsino", 
+                "Peter Bihr", 
+                ""
+            ], 
+            "id": "906", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 612", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "6:00pm", 
+            "tags": "", 
+            "timeblock": "sat-evening-activities--saturday-18-00-", 
+            "title": "Closing drinks & exhibition"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
+            "description": "\"Papers, please!\" is an award winning serious game by Lucas Pope set in a fictional 1980s Eastern Bloc country. It explores the absurdities that shape migration experiences, and the hidden agendas and dilemmas that influence decision making at border control. The game will be available for self-directed play throughout the weekend.\n\nPlaying this game makes you think about the decision making and ethical dilemmas that a border guard might face while deciding about the fate of migrations. We recommend playing this in small groups of 2-3.\n\nThis is a game for all ages, but we recommend having an adult in the group to provide some context and explanations.", 
+            "duration": "", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "The Good home", 
+                    "name": "Alexandra Deschamps-Sonsino", 
+                    "twitter": "@goodhomeproject"
+                }, 
+                "2": {
+                    "affiliated org": "The waving cat", 
+                    "name": "Peter Bihr", 
+                    "twitter": "@peterbihr"
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Alexandra Deschamps-Sonsino", 
+                "Peter Bihr", 
+                ""
+            ], 
+            "id": "907", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 612", 
+            "notes url": "", 
+            "programmatic": false, 
+            "tags": "", 
+            "timeblock": "", 
+            "title": "PAPERS, PLEASE"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
+            "description": "Pegmodular is a kit which allows low-income, transient homemakers the opportunity to live with interesting, adaptable and affordable furniture.\nThis exhibit explores low-cost, flexible furniture and furthermore shows that even the youngest among us have valuable contributions to make to this conversation: The artist is only 16 years old.", 
+            "duration": "", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Student", 
+                    "name": "Jude Thomas", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Jude Thomas", 
+                "", 
+                ""
+            ], 
+            "id": "908", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 612", 
+            "notes url": "", 
+            "programmatic": false, 
+            "tags": "", 
+            "timeblock": "", 
+            "title": "Pegmodular"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
+            "description": "Cloud Index is a series of simulations: a weather forecast for possible futures. The simulations depict proposed cloud structures which correspond to measured electoral scenarios. These are dreams of the weather, hallucinated by machines. If we wish to change the future, we must change the weather. First: a binary choice. To leave, or to remain. Cloud Index is commissioned by Serpentine Galleries.\n\nFor Technologists, citizens, anyone with an interest in politics as well as the shaping powers of technology.", 
+            "duration": "", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Serpentine Galleries", 
+                    "name": "James Bridle", 
+                    "twitter": "@jamesbridle"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "James Bridle", 
+                "", 
+                ""
+            ], 
+            "id": "909", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 612", 
+            "notes url": "", 
+            "programmatic": false, 
+            "tags": "", 
+            "timeblock": "", 
+            "title": "Cloud Index"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
+            "description": "A physical brick that helps you manage your home data and your city services to connect to you in a better way.\n\nYour home has a deep shadow of data, it is not just the physical materials that make the walls, floors, ceiling, the pipes and wires that provide the services, there is information on the construction, how it sits in the physical landscape, where it sits in the legal landscape. A whole lot of information goes into a home and a whole lot more just keeps coming out of it. Data Brick explores how we can navigate and control this kind of data in the future.", 
+            "duration": "", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Central Saint Martins", 
+                    "name": "Mark Simpkins", 
+                    "twitter": "@marksimpkins"
+                }, 
+                "2": {
+                    "affiliated org": "The Good home", 
+                    "name": "Alexandra Deschamps-Sonsino", 
+                    "twitter": "@goodhomeproject"
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Mark Simpkins", 
+                "Alexandra Deschamps-Sonsino", 
+                ""
+            ], 
+            "id": "910", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 612", 
+            "notes url": "", 
+            "programmatic": false, 
+            "tags": "", 
+            "timeblock": "", 
+            "title": "Data Brick"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
+            "description": "Teleport Machine allows migrants to switch their IP addresses to a location of their choice, enabling them to connect to local online content in their home countries, like connecting to the BBC from abroad. Teleport Machines is part of a Privacy Machines, a family of experimental devices that explore better and easier way of controlling privacy levels in a connected home. Created in a collaboration with Mozilla Open IoT Studio. Collaborators also include Vladan Joler and Rachel Uwa.\n\nTeleport Machine helps explore what it means to live abroad through banal, day-to-day interactions like trying to watch the newscasts and pop culture you grew up with.", 
+            "duration": "", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "The waving cat", 
+                    "name": "Peter Bihr", 
+                    "twitter": "@peterbihr"
+                }, 
+                "2": {
+                    "affiliated org": "University of Dundee", 
+                    "name": "Martin Skelly", 
+                    "twitter": "@martin_skelly"
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Peter Bihr", 
+                "Martin Skelly", 
+                ""
+            ], 
+            "id": "911", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 612", 
+            "notes url": "", 
+            "programmatic": false, 
+            "tags": "", 
+            "timeblock": "", 
+            "title": "Teleport Machine (Privacy Machines Part III)"
         }, 
         {
             "additional language": "", 
