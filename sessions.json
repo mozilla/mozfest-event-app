@@ -4340,20 +4340,20 @@
                     "twitter": "@libbymiller"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "BBC R&D", 
+                    "name": "Tim Cowlishaw", 
+                    "twitter": "@mistertim"
                 }, 
                 "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "BBC R&D", 
+                    "name": "Henry Cooke", 
+                    "twitter": "@prehensile"
                 }
             }, 
             "facilitators_names": [
                 "Libby Miller", 
-                "", 
-                ""
+                "Tim Cowlishaw", 
+                "Henry Cooke"
             ], 
             "id": "900", 
             "localized description": "", 
@@ -4781,6 +4781,43 @@
             "tags": "", 
             "timeblock": "", 
             "title": "Teleport Machine (Privacy Machines Part III)"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
+            "description": "Put on the headset and let your creative spirit loose in an infinite and unconstrainted space, expressing yourself visually with A-Painter, a virtual reality painting experience delivered through WebVR.", 
+            "duration": "", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Mozilla", 
+                    "name": "Dietrich Ayala", 
+                    "twitter": "@dietrich"
+                }, 
+                "2": {
+                    "affiliated org": "Rice University", 
+                    "name": "Rabimba Karanjai", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Dietrich Ayala", 
+                "Rabimba Karanjai", 
+                ""
+            ], 
+            "id": "912", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6", 
+            "notes url": "", 
+            "programmatic": false, 
+            "tags": "", 
+            "timeblock": "", 
+            "title": "Painting with Virtual Reality and A-Painter"
         }, 
         {
             "additional language": "", 
@@ -5941,8 +5978,8 @@
                     "twitter": "slifty"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "The Internet Archive", 
+                    "name": "Tracey Jaquith", 
                     "twitter": ""
                 }, 
                 "3": {
@@ -5953,7 +5990,7 @@
             }, 
             "facilitators_names": [
                 "Daniel Schultz", 
-                "", 
+                "Tracey Jaquith", 
                 ""
             ], 
             "id": "743", 
@@ -6015,8 +6052,8 @@
                     "twitter": "@charlex"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "Los Angeles Times", 
+                    "name": "James Perez", 
                     "twitter": ""
                 }, 
                 "3": {
@@ -6027,7 +6064,7 @@
             }, 
             "facilitators_names": [
                 "H. Charley Bodkin", 
-                "", 
+                "James Perez", 
                 ""
             ], 
             "id": "733", 
@@ -6052,8 +6089,8 @@
                     "twitter": "@juliachanb"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "Stanford University", 
+                    "name": "Allison McCartney", 
                     "twitter": ""
                 }, 
                 "3": {
@@ -6064,7 +6101,7 @@
             }, 
             "facilitators_names": [
                 "Julia B. Chan", 
-                "", 
+                "Allison McCartney", 
                 ""
             ], 
             "id": "727", 
@@ -6089,8 +6126,8 @@
                     "twitter": "@riordan"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "Stanford University", 
+                    "name": "Allison McCartney", 
                     "twitter": ""
                 }, 
                 "3": {
@@ -6101,7 +6138,7 @@
             }, 
             "facilitators_names": [
                 "David Riordan", 
-                "", 
+                "Allison McCartney", 
                 ""
             ], 
             "id": "724", 
@@ -6121,14 +6158,14 @@
             "duration": "", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "", 
+                    "affiliated org": "Trint", 
                     "name": "Mark Boas", 
-                    "twitter": ""
+                    "twitter": "@maboa"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "Trint", 
+                    "name": "Laurian Gridinoc", 
+                    "twitter": "@gridinoc"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -6138,7 +6175,7 @@
             }, 
             "facilitators_names": [
                 "Mark Boas", 
-                "", 
+                "Laurian Gridinoc", 
                 ""
             ], 
             "id": "686", 
@@ -6200,8 +6237,8 @@
                     "twitter": "@jburnmurdoch"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "Knight-Mozilla OpenNews, Los Angeles Times", 
+                    "name": "Christine Zhang", 
                     "twitter": ""
                 }, 
                 "3": {
@@ -6212,7 +6249,7 @@
             }, 
             "facilitators_names": [
                 "John Burn-Murdoch", 
-                "", 
+                "Christine Zhang", 
                 ""
             ], 
             "id": "654", 
@@ -6269,13 +6306,13 @@
             "duration": "", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "", 
+                    "affiliated org": "Ford-Mozilla OpenWeb Fellow", 
                     "name": "Suchana Seth", 
                     "twitter": ""
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "Ford-Mozilla OpenWeb Fellow", 
+                    "name": "Siddharth Rao", 
                     "twitter": ""
                 }, 
                 "3": {
@@ -6286,7 +6323,7 @@
             }, 
             "facilitators_names": [
                 "Suchana Seth", 
-                "", 
+                "Siddharth Rao", 
                 ""
             ], 
             "id": "616", 
@@ -6343,9 +6380,9 @@
             "duration": "", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "OpenNews", 
+                    "affiliated org": "Knight-Mozilla OpenNews, Coral Project", 
                     "name": "Dan Zajdband", 
-                    "twitter": "impronunciable"
+                    "twitter": "@impronunciable"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -6417,13 +6454,13 @@
             "duration": "", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "", 
+                    "affiliated org": "BuzzFeed Open Lab", 
                     "name": "Lam Vo", 
-                    "twitter": "lamthuyvo"
+                    "twitter": "@lamthuyvo"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "Correct!v", 
+                    "name": "Simon Jockers", 
                     "twitter": ""
                 }, 
                 "3": {
@@ -6434,7 +6471,7 @@
             }, 
             "facilitators_names": [
                 "Lam Vo", 
-                "", 
+                "Simon Jockers", 
                 ""
             ], 
             "id": "532", 
@@ -6459,8 +6496,8 @@
                     "twitter": "@haddadme"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "Al Jazeera", 
+                    "name": "Konstantinos Antonopoulos", 
                     "twitter": ""
                 }, 
                 "3": {
@@ -6471,7 +6508,7 @@
             }, 
             "facilitators_names": [
                 "Mohammed Haddad", 
-                "", 
+                "Konstantinos Antonopoulos", 
                 ""
             ], 
             "id": "489", 
@@ -6528,7 +6565,7 @@
             "duration": "", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "Knight-Mozilla OpenNews Fellow at NPR", 
+                    "affiliated org": "Knight-Mozilla OpenNews, NPR", 
                     "name": "Lisa Charlotte Rost", 
                     "twitter": "@lisacrost"
                 }, 
@@ -6565,14 +6602,14 @@
             "duration": "", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "The Coral Project + New York Times", 
+                    "affiliated org": "Knight-Mozilla OpenNews, Coral Project", 
                     "name": "Martin Shelton", 
                     "twitter": "@mshelton"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "Ford-Mozilla OpenWeb Fellow", 
+                    "name": "Matthew Mitchell", 
+                    "twitter": "@geminiimatt"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -6582,7 +6619,7 @@
             }, 
             "facilitators_names": [
                 "Martin Shelton", 
-                "", 
+                "Matthew Mitchell", 
                 ""
             ], 
             "id": "370", 
@@ -6608,8 +6645,8 @@
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "name": "Mark Cridge", 
+                    "twitter": "mySociety"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -6619,7 +6656,7 @@
             }, 
             "facilitators_names": [
                 "Louise Crow", 
-                "", 
+                "Mark Cridge", 
                 ""
             ], 
             "id": "345", 
@@ -6639,13 +6676,13 @@
             "duration": "", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "Knight-Mozilla Fellow at Vox Media", 
+                    "affiliated org": "Knight-Mozilla OpenNews, Vox", 
                     "name": "Pietro Passarelli", 
                     "twitter": "@pietropassarell"
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Niels Ladefoged", 
                     "twitter": ""
                 }, 
                 "3": {
@@ -6656,7 +6693,7 @@
             }, 
             "facilitators_names": [
                 "Pietro Passarelli", 
-                "", 
+                "Niels Ladefoged", 
                 ""
             ], 
             "id": "284", 
@@ -9628,43 +9665,6 @@
             "tags": "", 
             "timeblock": "", 
             "title": "Some of My Favourite Songs"
-        }, 
-        {
-            "additional language": "", 
-            "category": "", 
-            "description": "", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "", 
-                "", 
-                ""
-            ], 
-            "id": "", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
-            "notes url": "", 
-            "programmatic": false, 
-            "tags": "", 
-            "timeblock": "", 
-            "title": "46 sessions here but on Github there are 56 tickets tagged with MozEx"
         }, 
         {
             "additional language": "", 
