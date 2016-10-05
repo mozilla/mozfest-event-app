@@ -7,6 +7,11 @@
     "doc": "docs"
   },
   "scripts": {
+    "start": "npm run build && npm run watch:scss",
+    "build": "npm-run-all --parallel build:scss add-vendor-prefix",
+    "build:scss": "node-sass scss --recursive --output-style expanded --output css",
+    "add-vendor-prefix": "postcss --use autoprefixer css/style.css -d css",
+    "watch:scss": "chokidar 'scss/**/*.scss' -c 'npm run build'",
     "test": "echo \\\"No tests to run\\\"; exit 0;"
   },
   "repository": {
@@ -18,5 +23,14 @@
   "bugs": {
     "url": "https://github.com/mozilla/mozfest-event-app/issues"
   },
-  "homepage": "https://github.com/mozilla/mozfest-event-app#readme"
+  "homepage": "https://github.com/mozilla/mozfest-event-app#readme",
+  "dependencies": {
+    "autoprefixer": "^6.5.0",
+    "postcss": "^5.2.4"
+  },
+  "devDependencies": {
+    "chokidar": "^1.6.0",
+    "chokidar-cli": "^1.2.0",
+    "npm-run-all": "^3.1.0"
+  }
 }
