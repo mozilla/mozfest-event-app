@@ -345,8 +345,7 @@ p {
 }
 
 .session-card,
-.open-block,
-.tag-list-item {
+.open-block {
   display: block;
   position: relative;
   margin: 0 0 1rem 0;
@@ -499,6 +498,7 @@ p {
 .category-list-item .icon-container,
 .tag-list-item .icon-container {
   width: 50px;
+  max-height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -526,6 +526,7 @@ p {
   content: "\f054";
   font-family: "FontAwesome";
   color: #FA1BAB;
+  font-size: .7rem;
   margin-left: 10px;
   text-decoration: none;
   display: inline-block;
