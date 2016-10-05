@@ -1446,45 +1446,9 @@
         {
             "additional language": "", 
             "category": "Digital arts and culture", 
-            "description": "KiraKira allows girls to create and design objects that they are interested in, ranging from iPhone cases, jewelry, sculptures, masks, fashion and more!", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "KiraKira", 
-                    "name": "Suz Somersall", 
-                    "twitter": "kirakira3d"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Suz Somersall", 
-                "", 
-                ""
-            ], 
-            "id": "33", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
-            "notes url": "", 
-            "programmatic": false, 
-            "tags": "", 
-            "timeblock": "", 
-            "title": "KiraKira: Mechanical Engineering and 3D Printing for Girls"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Digital arts and culture", 
+            "day": "Saturday", 
             "description": "The new Web Animations API standards offer powerful tools for developers to use code to add animation to their web apps. But there's a lot more to this API than tools for programmers. There's new opportunities for artists and others to learn and use these digital tools for creative expression and fun.", 
-            "duration": "", 
+            "end": "10:15am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla Foundation", 
@@ -1493,40 +1457,121 @@
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Eri Sekiguchi", 
                     "twitter": ""
                 }, 
                 "3": {
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Jet Villegas", 
+                "", 
+                "Eri Sekiguchi", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "40", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": "", 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Web Animation for Artists & Others"
         }, 
         {
             "additional language": "", 
             "category": "Digital arts and culture", 
+            "day": "Saturday", 
             "description": "EK Theater will present a workshop of “Niobe,” a piece from the company’s repertoire, based on a story from Ovid’s Metamorphoses. In this video game puppetry piece, Apollo is re-imagined as a sniper in Halo: Reach, and the performance uses two system-linked Xbox 360 consoles. The workshop will be led by director Eddie Kim and several volunteers from the Mozilla community.\n\nAfter demonstrations of scenes from “Niobe,” workshop participants will be introduced to the company’s video game puppetry techniques and be given opportunities to perform in scenes.\n\nIn addition to demonstrating the relevance of classics in this digital age, EK Theater hopes to inspire others to tell their own stories using video games with this workshop.\nNote: the workshop will use the video game Halo: Reach, a first-person shooter game", 
-            "duration": "", 
+            "end": "1:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "ek theater", 
                     "name": "Edward Kim", 
+                    "twitter": "@EKTheater"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "Max Callahan", 
                     "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "Shaun Smith", 
+                    "twitter": ""
+                }, 
+                "4": {
+                    "name": "Ailsa Abraham"
+                }, 
+                "5": {
+                    "name": "Stanyo Zhelev"
+                }, 
+                "6": {
+                    "name": "Daniel Delargy"
+                }, 
+                "7": {
+                    "name": "Jenine Carron"
+                }, 
+                "8": {
+                    "name": "Alan Stewart"
+                }
+            }, 
+            "facilitators_names": [
+                "Edward Kim", 
+                "Ailsa Abraham", 
+                "Max Callahan", 
+                "Shaun Smith", 
+                "Stanyo Zhelev", 
+                "Daniel Delargy", 
+                "Jenine Carron", 
+                "Alan Stewart"
+            ], 
+            "id": "42", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 1 - 101", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "12:30pm", 
+            "tags": "Storytelling", 
+            "timeblock": "sat-12-30pm--saturday-12-30-", 
+            "title": "Video Game Puppetry Workshop with EK Theater"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Digital arts and culture", 
+            "day": "Sunday", 
+            "description": "EK Theater will present a workshop of “Niobe,” a piece from the company’s repertoire, based on a story from Ovid’s Metamorphoses. In this video game puppetry piece, Apollo is re-imagined as a sniper in Halo: Reach, and the performance uses two system-linked Xbox 360 consoles. The workshop will be led by director Eddie Kim and several volunteers from the Mozilla community.\n\nAfter demonstrations of scenes from “Niobe,” workshop participants will be introduced to the company’s video game puppetry techniques and be given opportunities to perform in scenes.\n\nIn addition to demonstrating the relevance of classics in this digital age, EK Theater hopes to inspire others to tell their own stories using video games with this workshop.\nNote: the workshop will use the video game Halo: Reach, a first-person shooter game", 
+            "end": "4:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "ek theater", 
+                    "name": "Edward Kim", 
+                    "twitter": "@EKTheater"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -1535,30 +1580,52 @@
                 }, 
                 "3": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Shaun Smith", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": "Ailsa Abraham"
+                }, 
+                "5": {
+                    "name": "Stanyo Zhelev"
+                }, 
+                "6": {
+                    "name": "Daniel Delargy"
+                }, 
+                "7": {
+                    "name": "Jenine Carron"
+                }, 
+                "8": {
+                    "name": "Alan Stewart"
                 }
             }, 
             "facilitators_names": [
                 "Edward Kim", 
+                "Ailsa Abraham", 
                 "", 
-                ""
+                "Shaun Smith", 
+                "Stanyo Zhelev", 
+                "Daniel Delargy", 
+                "Jenine Carron", 
+                "Alan Stewart"
             ], 
-            "id": "42", 
+            "id": "", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": "Storytelling", 
-            "timeblock": "", 
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Video Game Puppetry Workshop with EK Theater"
         }, 
         {
             "additional language": "", 
             "category": "Digital arts and culture", 
+            "day": "Saturday", 
             "description": "Participants will find out how 1623 theatre company created an online experience for audiences to engage with Shakespeare's play Troilus and Cressida, as part of the Royal Shakespeare Company's myShakespeare project, one of the digital elements of the London 2012 Cultural Olympiad. They will have the opportunity to interact with the project, offer their feedback on ways in which the project could be improved and start to think about how their arts practice could incorporate digital elements to engage new audiences.", 
-            "duration": "", 
+            "end": "4:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "1623 theatre company", 
@@ -1567,35 +1634,57 @@
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Jamie Brown", 
                     "twitter": ""
                 }, 
                 "3": {
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Ben Spiller", 
+                "", 
+                "Jamie Brown", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "77", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": "", 
-            "timeblock": "", 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Shakespeare in the Digital Age"
         }, 
         {
             "additional language": "", 
             "category": "Digital arts and culture", 
-            "description": "The Art of Vlogging (15 mins) suitable for everyone\nAgi K, an award winning young filmmaker and vlogger www.agik.co.uk will host a talk with demo and Q & A about Art’s role in vlogging futures.\nParticipants will have a Demo on how to use digital media inventively in vlogging. Learning a range of creative techniques. This will be followed by a discussion about:\n-How artists can use art to evolve vlogging genres?\n-How artists can use vlogging as a tool for sharing their work and reaching mass audiences?\n\n1,2,3, Vlog, Edit, Upload suitable for ages 12 plus (90 mins) (30 participants)\nAgi K, young vlogger and filmmaker www.agik.co.uk and Anita Kolaczynska, Arts Award Adviser www.artsawardwales.co.uk will facilitate a practical workshop on vlogging at live events.\n\nParticipants will learn how to use reportage and art techniques creatively to make an exciting, compelling vlog. They will watch a ‘how to’ example vlog, discuss and brainstorm in groups (with paper and sharpies) how to shoot engaging footage discussing elements like camera angles, speech, pace, visuals, humour. They will then have a vlogging race to go capture the essence of Mozfest shooting as much relevant footage as they can in 15 minutes. In pairs they will be shooting this footage in the style of 'dialogue vlog’ each pair commenting on different areas/aspects of Mozfest. Return to base to listen to a lightening talk about adding artistry through their editing of their footage. Then prepare to edit by making art to enhance their vlog with paper and sharpies), shoot this and any extra sound effects, titles, stills needed. Then use their editing phone apps to creatively edit their footage to create buzzing 50 second vlogs.\nUpload to Arts Award Voice. They will then be projected onto a screen to be watched by all. Everyone will be encouraged to tweet, comment and share, whilst watching.\nAgi K\nwww.agik.co.uk\n@agikproductions\n\nAnita Kolaczynska\nArts Award Adviser\noakwellbarns centre\nwww.artsawardwales.co.uk ", 
-            "duration": "", 
+            "day": "Sunday", 
+            "description": "The Art of Vlogging (15 mins) suitable for everyone\nAgi K, an award winning young filmmaker and vlogger www.agik.co.uk will host a talk with demo and Q & A about Art’s role in vlogging futures.\nParticipants will have a Demo on how to use digital media inventively in vlogging. Learning a range of creative techniques. This will be followed by a discussion about:\n-How artists can use art to evolve vlogging genres?\n-How artists can use vlogging as a tool for sharing their work and reaching mass audiences?\n\n1,2,3, Vlog, Edit, Upload, suitable for ages 12 plus (90 mins) (30 participants)\nAgi K, young vlogger and filmmaker and Anita Kolaczynska, Arts Award Adviser, will facilitate a practical workshop on vlogging at live events.\n\nParticipants will learn how to use reportage and art techniques creatively to make an exciting, compelling vlog. They will watch a ‘how to’ example vlog, discuss and brainstorm in groups (with paper and sharpies) how to shoot engaging footage discussing elements like camera angles, speech, pace, visuals, humour. They will then have a vlogging race to go capture the essence of Mozfest shooting as much relevant footage as they can in 15 minutes. In pairs they will be shooting this footage in the style of 'dialogue vlog’ each pair commenting on different areas/aspects of Mozfest. Return to base to listen to a lightening talk about adding artistry through their editing of their footage. Then prepare to edit by making art to enhance their vlog with paper and sharpies), shoot this and any extra sound effects, titles, stills needed. Then use their editing phone apps to creatively edit their footage to create buzzing 50 second vlogs.\nUpload to Arts Award Voice. They will then be projected onto a screen to be watched by all. Everyone will be encouraged to tweet, comment and share, whilst watching.\n\n", 
+            "end": "2:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -1604,35 +1693,57 @@
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Anita Kolaczynska", 
                     "twitter": ""
                 }, 
                 "3": {
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Agi Kolaczynska", 
+                "", 
+                "Anita Kolaczynska", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "78", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "", 
+            "location": "Floor 1 - 101", 
+            "notes url": "https://www.agik.co.uk \n\nhttps://www.artsawardwales.co.uk ", 
             "programmatic": false, 
+            "start": "12:15pm", 
             "tags": "Storytelling", 
-            "timeblock": "", 
+            "timeblock": "sun-12-15pm--sunday-12-15-", 
             "title": "The Art of Vlogging and 1,2,3 Vlog Edit Upload"
         }, 
         {
             "additional language": "", 
             "category": "Digital arts and culture", 
-            "description": "The Newsroom will enable Moz Fest visitors to engage with content generated by others during the Festival and also contribute their ideas and opinions to be shared online and offline. It will give them a chance to collaborate with Ravensbourne students studying both Web Media and Digital Advertising and Design. Hopefully they can learn from them about creating and distributing exciting mixed media content, as well as contributing ideas themselves to help the students. Content such as written interviews/videos/visuals will be collected from attendees and collated by the Web Media students into online and physical magazines. People will also be asked to help spread the word and contribute ideas for a promotional campaign, masterminded by the Digital Advertising and Design Students. The Newsroom will be a collaborative space open to all who wish to contribute to the project throughout the Festival.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "The Newsroom will enable Moz Fest visitors to engage with content generated by others during the Festival and also contribute their ideas and opinions to be shared online and offline. It will give them a chance to collaborate with Ravensbourne students studying both Web Media and Digital Advertising and Design. Hopefully they can learn from them about creating and distributing exciting mixed media content, as well as contributing ideas themselves to help the students. Content such as written interviews/videos/visuals will be collected from attendees and collated by the Web Media students into online and physical magazines. People will also be asked to help spread the word and contribute ideas for a promotional campaign, masterminded by the Digital Advertising and Design Students. The Newsroom will be a collaborative space open to all who wish to contribute to the project throughout the Festival. This is an all day event.", 
+            "end": "10:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Ravensbourne", 
@@ -1648,33 +1759,55 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Ruth Nicholls", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "93", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": "", 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "The Newsroom"
         }, 
         {
             "additional language": "", 
             "category": "Digital arts and culture", 
-            "description": "Using our new OHG Gaming Hub visitors (young people, adults, and families) will be able to design an avatar or gaming element using a range of hands on drawing/crafting techniques, taking inspiration from the people, collection and architecture of Orleans House Gallery. The artwork will then be scanned and uploaded to our platform and visitors can then drop it into their own game, either on a laptop or computer or on their own device during the workshop or at home.\nPlease check out our gaming hub http://ohggaminghub.co.uk to see and play on some of the existing games- please note the hub is still under construction but will be finished in time for Mozfest. Visitors will be able to play, build upon and share their game and others games after the workshop.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "The Newsroom will enable Moz Fest visitors to engage with content generated by others during the Festival and also contribute their ideas and opinions to be shared online and offline. It will give them a chance to collaborate with Ravensbourne students studying both Web Media and Digital Advertising and Design. Hopefully they can learn from them about creating and distributing exciting mixed media content, as well as contributing ideas themselves to help the students. Content such as written interviews/videos/visuals will be collected from attendees and collated by the Web Media students into online and physical magazines. People will also be asked to help spread the word and contribute ideas for a promotional campaign, masterminded by the Digital Advertising and Design Students. The Newsroom will be a collaborative space open to all who wish to contribute to the project throughout the Festival. This is an all day event.", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "Orleans House Gallery", 
-                    "name": "Kate Kennedy", 
-                    "twitter": "@Orleanshg"
+                    "affiliated org": "Ravensbourne", 
+                    "name": "Ruth Nicholls", 
+                    "twitter": "@ruthnicholls"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -1685,28 +1818,227 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Ruth Nicholls", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "93", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 1 - 101", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "2:00pm", 
+            "tags": "", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
+            "title": "The Newsroom"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Digital arts and culture", 
+            "day": "Sunday", 
+            "description": "The Newsroom will enable Moz Fest visitors to engage with content generated by others during the Festival and also contribute their ideas and opinions to be shared online and offline. It will give them a chance to collaborate with Ravensbourne students studying both Web Media and Digital Advertising and Design. Hopefully they can learn from them about creating and distributing exciting mixed media content, as well as contributing ideas themselves to help the students. Content such as written interviews/videos/visuals will be collected from attendees and collated by the Web Media students into online and physical magazines. People will also be asked to help spread the word and contribute ideas for a promotional campaign, masterminded by the Digital Advertising and Design Students. The Newsroom will be a collaborative space open to all who wish to contribute to the project throughout the Festival. This is an all day event.", 
+            "end": "12:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Ravensbourne", 
+                    "name": "Ruth Nicholls", 
+                    "twitter": "@ruthnicholls"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Ruth Nicholls", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "93", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 1 - 101", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": "", 
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "The Newsroom"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Digital arts and culture", 
+            "day": "Saturday", 
+            "description": "The Newsroom will enable Moz Fest visitors to engage with content generated by others during the Festival and also contribute their ideas and opinions to be shared online and offline. It will give them a chance to collaborate with Ravensbourne students studying both Web Media and Digital Advertising and Design. Hopefully they can learn from them about creating and distributing exciting mixed media content, as well as contributing ideas themselves to help the students. Content such as written interviews/videos/visuals will be collected from attendees and collated by the Web Media students into online and physical magazines. People will also be asked to help spread the word and contribute ideas for a promotional campaign, masterminded by the Digital Advertising and Design Students. The Newsroom will be a collaborative space open to all who wish to contribute to the project throughout the Festival. This is an all day event.", 
+            "end": "3:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Ravensbourne", 
+                    "name": "Ruth Nicholls", 
+                    "twitter": "@ruthnicholls"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Ruth Nicholls", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "93", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 1 - 101", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "2:00pm", 
+            "tags": "", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
+            "title": "The Newsroom"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Digital arts and culture", 
+            "day": "Saturday", 
+            "description": "Using our new OHG Gaming Hub visitors (young people, adults, and families) will be able to design an avatar or gaming element using a range of hands on drawing/crafting techniques, taking inspiration from the people, collection and architecture of Orleans House Gallery. The artwork will then be scanned and uploaded to our platform and visitors can then drop it into their own game, either on a laptop or computer or on their own device during the workshop or at home.\nPlease check out our gaming hub http://ohggaminghub.co.uk to see and play on some of the existing games- please note the hub is still under construction but will be finished in time for Mozfest. Visitors will be able to play, build upon and share their game and others games after the workshop.", 
+            "end": "12:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Orleans House Gallery", 
+                    "name": "Kate Kennedy", 
+                    "twitter": "@Orleanshg"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "Sphie Blagden", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Kate Kennedy", 
+                "", 
+                "Sphie Blagden", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "107", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": "", 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Orleans House Gallery Gaming Hub: GAME ON!"
         }, 
         {
             "additional language": "", 
             "category": "Digital arts and culture", 
-            "description": "The Mercury Theatre runs a summer school for young people fusing theatre making with game design and tactile technology. We would lead a session that allows people to take traditional drama games and drama delivery and embed technology and approaches to game design to enhance and enrich activities - we would use makey makeys, Raspberry Pi's, Arduinos and free to use software  to demonstrate that embedding technology neither be expensive or difficult and that trad drama activity can compliment technological approaches to learning and visa versa. We will also demonstrate that coding, gaming and technology can be a physical activity and can manipulate real space as well as digital space.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "The Mercury Theatre, Colchester, run a summer school for young people called hACkT, fusing theatre making with video game design and accessible technologies. This fireside chat will focus on the cross over between traditional art forms and emergent technologies and how a theatre can take an innovative approach to learning and participation for young people. We will share examples of activity and talk through our new methodologies such as using choreography to teach coding. Our drive is to demonstrate that STEM subjects need to be seen as creative and that the agenda should embrace the arts and move to STEAM. Additionally we’ll share how we embedded Arts Award into a week of activity.", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "The Mercury Theatre Colchester", 
@@ -1722,28 +2054,50 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Martin Russell", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "125", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:15am", 
             "tags": "", 
-            "timeblock": "", 
-            "title": "hACkT: Combining Drama and Technology for Learning"
+            "timeblock": "sat-11-15am--saturday-11-15-", 
+            "title": "hACkT: Drama and Technology for Creative Learning"
         }, 
         {
             "additional language": "", 
             "category": "Digital arts and culture", 
-            "description": "The session will provide a platform for the young presenters to showcase their film about local creative organisations and creative opportunities. This film will be produced by young people aged 15-18 as part of a week-long volunteer project taking place during the October holidays. As part of this film-making project the young volunteers will work towards achieving their Bronze Arts Award. This presentation will contribute towards an element of their Arts Award, sharing their film-making process and the skills they have learnt along the way.\nThe film itself will present what creativity means to the young film-makers and it will showcase the art forms that they are most interested in. The film will also signpost young people to creative opportunities in that they can engage with in the Royal Borough of Greenwich, and will highlight the potential to tie this in to an Arts Award.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "During the session a group of young volunteers aged 15-18 will talk about their film-making project and will present a trailer of their film which showcases creativity in the Royal Borough of Greenwich. This will be part of a week-long film-making project taking place during the October holidays, in which the young volunteers will work towards achieving their Bronze Arts Award. This presentation will contribute towards an element of their Arts Award, sharing their film-making process and the skills they have learnt along the way.", 
+            "end": "11:35am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "National Maritime Museum (Royal Museums Greenwich)", 
@@ -1759,27 +2113,48 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Martha Burns Findlay", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "160", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:15am", 
             "tags": "", 
-            "timeblock": "", 
-            "title": "Creative Greenwich – a film project by and for young people exploring creative opportunities across the Royal Borough of Greenwich"
+            "timeblock": "sat-11-15am--saturday-11-15-", 
+            "title": "Creative Greenwich – a film project by and for young people"
         }, 
         {
             "additional language": "", 
             "category": "Digital arts and culture", 
-            "description": "How do we make digital literacy & culture relevant to laymen? Facilitation leaders will take a group to the Tate Modern on Friday, 10-28 before MozFest is in full swing to visit the Networked Media space in the new building. This session will examine art as a powerful tool to create/deepen understanding, connection to, and participation with digital literacy & culture. Participants will discuss how digital fluency can enable laymen to become more active citizens and empowered educators, particularly when working with youth. It will also begin a time-based project to collect & document everyday digital use-cases, & more advanced research/learning resources, eventually leading to an open-source library. The goal is to work with educators, artists, advocates, technologists interested in creating more accessible means of participation for youth, novice digital educators, and civic-minded makers to have an in-person experience and discussion with MozEx & the Digital Arts & Culture Space.", 
+            "description": "The film trailer will present what creativity means to the young film-makers and it will showcase the art forms that they are most interested in. The film will also signpost young people to creative opportunities in the Royal Borough of Greenwich, and will highlight the potential to tie this in to an Arts Award.", 
             "duration": "", 
             "facilitators": {
                 "1": {
@@ -1796,17 +2171,37 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Ani Martinez", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "162", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
             "tags": "", 
@@ -1816,8 +2211,9 @@
         {
             "additional language": "", 
             "category": "Digital arts and culture", 
+            "day": "Sunday", 
             "description": "Can a computer make art? Sure. Can you make art with a computer? Absolutely! Even if you (think you) have never written code before.\nIn this practical workshop you will learn how to make a bot that tweets your generative art.\nWe will use [CheapBotsDoneQuick](http://cheapbotsdonequick.com), a tool that does the heavy lifting (Twitter API and such) so that we can focus on being creative with language and graphics.", 
-            "duration": "", 
+            "end": "3:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Ravensbourne", 
@@ -1833,106 +2229,113 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Matteo Menapace", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "223", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": "AR/VR/Machines", 
-            "timeblock": "", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Making bots that make art"
         }, 
         {
             "additional language": "", 
             "category": "Digital arts and culture", 
-            "description": "Imagine a performance stage that uses ethernetted cameras, Raspberry Pi computers, and computer vision software to respond to dancer and performer movement programmatically with music.\nWorkshop participants will use the Stage Genie response composition app to get their hands on and collaboratively soundscape the 'stage' (can be anywhere) .  Stage Genie will visually track an on-stage object (simplified for the workshop) and play music, tones, samples etc. for each position in the 3D space above the stage.\nOnce workshop participants complete their soundscapes, we'll invite all MozFest attendees to improvise dance or musical performances on the stage to experience first-hand the possibilities of response composition as an art form.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "Imagine a performance stage that uses ethernetted cameras, Raspberry Pi computers, and computer vision software to respond to dancer and performer movement programmatically with music.\n\nWorkshop participants will use the Stage Genie response composition app to collaboratively soundscape the 'stage' (can be anywhere). Stage Genie will visually track an on-stage object (simplified for the workshop) and play music, tones, samples etc. for each position in the 3D space above the stage.Once workshop participants complete their soundscapes, we'll invite all MozFest attendees to improvise dance or musical performances on the stage to experience first-hand the possibilities of response composition as an art form.\n\n", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Art120  & StudioMindStride", 
-                    "name": "Kathryn Warren", 
+                    "name": "Dan Mailman", 
                     "twitter": ""
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Erykah Goddard", 
                     "twitter": ""
                 }, 
                 "3": {
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
-                "Kathryn Warren", 
+                "Dan Mailman", 
+                "", 
+                "Erykah Goddard", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "282", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": "", 
-            "timeblock": "", 
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Stage Genie Response Composition Workshop"
         }, 
         {
             "additional language": "", 
             "category": "Digital arts and culture", 
-            "description": "IT WILL ALLOW PEOPLE OF ALL AGES TO CREATE A GAME OR TRAIL FROM OUR PLATFORM AND HOW AUGMENTED REALITY WILL TRANSFORM THE WORLD AS YOU KNOW IT. ALSO LEARN HOW ALL OF THIS CAN AND IS BEING USED AS AN EDUCATIONAL TOOL IN ARTS AND CULTURAL SETTINGS.", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Gamar Ltd", 
-                    "name": "Nicholas Bingham", 
-                    "twitter": ""
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Nicholas Bingham", 
-                "", 
-                ""
-            ], 
-            "id": "289", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
-            "notes url": "", 
-            "programmatic": false, 
-            "tags": "AR/VR/Machines", 
-            "timeblock": "", 
-            "title": "How to interact with your suroundings"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Digital arts and culture", 
-            "description": "Develop skills in digital arts journalism through an introduction to Arts Award Voice - the online magazine for young people who love the arts.  They will then head out to review and come back to post online.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "Join Arts Award Voice for an interactive session where we give you the basic skills required to start your own blogging adventure. \n\nArts Award Voice is an online magazine which writes about art and culture. The target audience is 16-25, although our content is universally accessible, and an interesting read regardless of age or interest - if we do say so ourselves!\n\nWorking with trained journalists, we will look at the basics of writing an article, how to conduct an interview, and how to upload to Arts Award Voice. You will then be given a writing brief, and invited to report on the festival for us, uploading to the website at your leisure. Your blogs could be seen by our thousands of readers, and you get to say your blog is posted on Voice! \n\nSo if you want to attend a session that will help you express your opinions, help you review the festival, or if you just want to ask an expert editor and trained journalist some industry tips, this is the session for you!\n", 
+            "end": "1:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Upstart Projects", 
-                    "name": "Emrys Green", 
+                    "name": "Tom Inness", 
                     "twitter": "@artsawardvoice"
                 }, 
                 "2": {
@@ -1944,102 +2347,109 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
-                "Emrys Green", 
+                "Tom Inness", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "311", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "", 
+            "location": "Floor 1 - 101", 
+            "notes url": "https://www.artsawardvoice.com", 
             "programmatic": false, 
+            "start": "12:30pm", 
             "tags": "", 
-            "timeblock": "", 
-            "title": "Journalism with Arts Award Voice"
+            "timeblock": "sat-12-30pm--saturday-12-30-", 
+            "title": "Digital Arts Journalism with Arts Award Voice"
         }, 
         {
             "additional language": "", 
             "category": "Digital arts and culture", 
-            "description": "Learn to become a digital arts journalist - exploring the process, the activity, the roles & the technical skill on how to write (and put this alongside multi-media)", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Upstart Projects", 
-                    "name": "Emrys Green", 
-                    "twitter": "@artsawardvoice"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Emrys Green", 
-                "", 
-                ""
-            ], 
-            "id": "312", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
-            "notes url": "", 
-            "programmatic": false, 
-            "tags": "", 
-            "timeblock": "", 
-            "title": "How to be a digital arts journalist"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Digital arts and culture", 
-            "description": "Description:  An interactive online graphic novel challenging you to move through a ‘perfect’ world, create the ‘perfect’ person and interact with what you find. Come and explore: www.curingperfect.com #CuringPerfect\nSee the process behind the making of Curing Perfect, an interactive online graphic novel, created by a team of learning disabled artists supported by Carousel, an arts organisation helping learning disabled artists to achieve their ambitions.\nSee original drawings, storyboards and meet the artists.\n2. Experience Curing Perfect, the online graphic novel, on five laptops. You make your way as a reject in perfect world, solving puzzles, reflecting on questions and making choices.\nParticipants will learn about the underlying ethical issues that gene therapy and stem cell research poses. What is ‘perfect’ and who decides? Participants will be challenged to consider these big questions as presented by the team of learning disabled artists.", 
-            "duration": "", 
+            "day": "Sunday", 
+            "description": "An interactive online graphic novel challenging you to move through a ‘perfect’ world, create the ‘perfect’ person and interact with what you find. Come and explore: www.curingperfect.com #CuringPerfect\nSee the process behind the making of Curing Perfect, an interactive online graphic novel, created by a team of learning disabled artists supported by Carousel, an arts organisation helping learning disabled artists to achieve their ambitions.\nSee original drawings, storyboards and meet the artists.\n\nExperience Curing Perfect, the online graphic novel, on five laptops. You make your way as a reject in perfect world, solving puzzles, reflecting on questions and making choices.\nParticipants will learn about the underlying ethical issues that gene therapy and stem cell research poses. What is ‘perfect’ and who decides? Participants will be challenged to consider these big questions as presented by the team of learning disabled artists.", 
+            "end": "1:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Carousel", 
-                    "name": "Julia Horbaschk", 
+                    "name": "Jason Ede", 
                     "twitter": "@carouselartuk"
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Kitty Wallace", 
                     "twitter": ""
                 }, 
                 "3": {
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
-                "Julia Horbaschk", 
+                "Jason Ede", 
+                "", 
+                "Kitty Wallace", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "336", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "12:15pm", 
             "tags": "Digital Inclusion", 
-            "timeblock": "", 
+            "timeblock": "sun-12-15pm--sunday-12-15-", 
             "title": "Curing Perfect Interactive Online Graphic Novel"
         }, 
         {
             "additional language": "", 
             "category": "Digital arts and culture", 
-            "description": "In a piece of music, musical fragments MUST come in a coherent series if the music is to make sense. Mozart (260th year this year) devised a clever game in the 18th century by throwing dice to make apparently “random” choices from a grid of musical examples. Thus an appropriate example is always selected. Whether or not the dice player understands to the process, s/he will always produce a coherent piece. Using a coded process the “player” can create a piece with even less prior musical knowledge.\nThe digital form of the game allows the participant much more flexibility to examine patterns as between music and coding. With a minimum of formal musical knowledge, the participant can gain insights into patterns and how they work. Currently working with Ealing Libraries, CCS (Cultural Community Solutions), partners in the Truth and Reconciliation project, April 2016-January 2017", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "In a piece of music, musical fragments must come in a coherent series if the music is to make sense. Mozart (260th year this year) devised a clever game in the 18th century by throwing dice to make apparently “random” choices from a grid of musical examples. Thus an appropriate example is always selected. Whether or not the dice player understands to the process, s/he will always produce a coherent piece. Using a coded process the “player” can create a piece with even less prior musical knowledge.\n\nThe digital form of the game allows the participant much more flexibility to examine patterns as between music and coding. With a minimum of formal musical knowledge, the participant can gain insights into patterns and how they work.", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "West London Arts Scene (Ealing Autumn Festival) and  Libraries and CCS (Cultural Community Solutions) partnering in the Truth and Reconciliation project", 
@@ -2055,28 +2465,50 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Gillian Spragg", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "348", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": "", 
-            "timeblock": "", 
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "The Digital MozArt"
         }, 
         {
             "additional language": "", 
             "category": "Digital arts and culture", 
+            "day": "Saturday", 
             "description": "The Digital Maker Collective is an evolving group of art school staff and students who work in collaboration. Our session would invite the public to join the collective in conversation & hands on activities, which explore an art school perspective of digital making & emergent practice in the arts. The public will be invited to participate in exploratory & collaborative 'works in progress' art & technology projects being developed by arts students & staff of the University of the Arts collective.", 
-            "duration": "", 
+            "end": "6:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Digital Maker Collective, University of the Arts London", 
@@ -2092,21 +2524,42 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Chris Follows", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "351", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": "", 
-            "timeblock": "", 
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Digital Maker Collective: Exploring emergent digital practice in the arts"
         }, 
         {
@@ -2129,17 +2582,37 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Liz Hull", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "372", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
             "tags": "", 
@@ -2166,17 +2639,37 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Gloria Dwomoh", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "385", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
             "tags": "", 
@@ -2203,17 +2696,37 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Matthew Heaney", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "419", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
             "tags": "", 
@@ -2240,17 +2753,37 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Stefania Ioana Chiorean", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "461", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
             "tags": "", 
@@ -2277,17 +2810,37 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Dave Darch", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "473", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
             "tags": "", 
@@ -2314,17 +2867,37 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Dave Darch", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "476", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
             "tags": "", 
@@ -2351,17 +2924,37 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Paul Rissen", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "477", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
             "tags": "Storytelling", 
@@ -2388,17 +2981,37 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Giovanny Andres Gongora Granada", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "502", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
             "tags": "", 
@@ -2425,17 +3038,37 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Bill Thompson", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "508", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
             "tags": "", 
@@ -2462,17 +3095,37 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Yannis Athanasiou", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "535", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
             "tags": "Digital Inclusion", 
@@ -2499,17 +3152,37 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Cheryl Gavin", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "557", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
             "tags": "", 
@@ -2536,17 +3209,37 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Douglas Noble", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "560", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
             "tags": "Digital Inclusion", 
@@ -2573,17 +3266,37 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Andreas Wuensche", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "620", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
             "tags": "Localized MozFest", 
@@ -2610,17 +3323,37 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Peter O'Shaughnessy", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "656", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
             "tags": "AR/VR/Machines, Localized MozFest", 
@@ -2647,17 +3380,37 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "miles bernie", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "673", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
             "tags": "AR/VR/Machines", 
@@ -2684,17 +3437,37 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Jo Pugh", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "720", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
             "tags": "", 
@@ -2721,17 +3494,37 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Stewart Brookes", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "740", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
             "tags": "", 
@@ -2758,17 +3551,37 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Niberca Polo", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "799", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
             "tags": "Localized MozFest", 
@@ -2795,17 +3608,37 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Alison Kelly", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "818", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
             "tags": "", 
@@ -2832,17 +3665,37 @@
                     "affiliated org": "", 
                     "name": "", 
                     "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
                 }
             }, 
             "facilitators_names": [
                 "Venu Tammabatula", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
                 "", 
                 ""
             ], 
             "id": "819", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
             "tags": "AR/VR/Machines", 
@@ -3503,7 +4356,7 @@
             "category": "Dilemmas in connected spaces", 
             "day": "Sunday", 
             "description": "The reality of innovation in 2016 is that the best ideas can come from anywhere.  This session will show that with encouragement , reassurance and a safe environment anyone can contribute to generating, selecting and refining great innovations.", 
-            "end": "12:00pm", 
+            "end": "1:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -3532,9 +4385,9 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "start": "11:00am", 
+            "start": "12:15pm", 
             "tags": "", 
-            "timeblock": "sun-11am--sunday-11-00-", 
+            "timeblock": "sun-12-15pm--sunday-12-15-", 
             "title": "Open Innovators"
         }, 
         {
@@ -3805,7 +4658,7 @@
             "category": "Dilemmas in connected spaces", 
             "day": "Sunday", 
             "description": "We want to explore hybrid gifts through a workshop. Gifting digital media through a physical object.", 
-            "end": "1:15pm", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "University of Nottingham and BBC", 
@@ -3834,9 +4687,9 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "start": "12:15pm", 
+            "start": "11:00am", 
             "tags": "", 
-            "timeblock": "sun-12-15pm--sunday-12-15-", 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Future Present"
         }, 
         {
@@ -6681,9 +7534,9 @@
                     "twitter": "@pietropassarell"
                 }, 
                 "2": {
-                    "affiliated org": "", 
+                    "affiliated org": "Insofar Media", 
                     "name": "Niels Ladefoged", 
-                    "twitter": ""
+                    "twitter": "@insofar_media"
                 }, 
                 "3": {
                     "affiliated org": "", 
