@@ -338,8 +338,7 @@ p {
 }
 
 .session-card,
-.open-block,
-.tag-list-item {
+.open-block {
   display: block;
   position: relative;
   margin: 0 0 1rem 0;
@@ -503,6 +502,7 @@ p {
 
   .icon-container { 
     width: 50px;
+    max-height: 50px;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -520,6 +520,7 @@ p {
       content: "\f054";
       font-family: "FontAwesome";
       color: $pink;
+      font-size: .7rem;
       margin-left: 10px;
       text-decoration: none;
       display: inline-block;
