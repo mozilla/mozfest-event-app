@@ -688,15 +688,18 @@ function Schedule(CUSTOM_CONFIG) {
       if (theCategory.length > 0) {
         theCategory = theCategory[0];
         categoryName = theCategory.name;
-        icon = "<img src='" + theCategory.iconSrc + "' width='" + theCategory.iconWidth + "' class='category-icon'>";
         description = theCategory.description.map(function(paragraph) {
           return "<p>" + paragraph + "</p>";
         }).join("");
+        if (theCategory.iconSrc) {
+          icon = "<img src='" + theCategory.iconSrc + "' width='" + theCategory.iconWidth + "' class='category-icon'>";
+          icon = "<div class=icon-container>" + icon + "</div>";
+        }
       }
       schedule.$pageLinks.find('#categories-page-link').addClass('active');
       schedule.addCaptionOverline(
         "<div class='category-header'>" +
-          "<div class=icon-container>" + icon + "</div>" +
+          icon +
           "<h2>" + categoryName + "</h2>" +
         "</div>" +
         "<div class='category-description'>" + description + "</div>"
