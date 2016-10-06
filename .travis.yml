@@ -18,5 +18,5 @@ deploy:
   skip_cleanup: true
   detect_encoding: true
   on:
-    repo: mozilla/mozfest-schedule-app
-    branch: master
+    repo: mozilla/mozfest-event-app
+    branch: backup-2015-mozfest-app
