@@ -5749,13 +5749,14 @@
         {
             "additional language": "", 
             "category": "Fuel the movement", 
-            "description": "A number of participants from Wikimedia (4-6) will present our public policy priorities, issues and initiatives in short lightning talks. Lighting talks will be (tbc) on copyright exceptions, database rights, orphan works.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "Chances are that, when it comes to advocacy campaigns, you have access to more data than you know what to do with. Mozilla’s Copyright Campaign has engaged tens of thousand of people across the EU in the last few months. If you are wondering where the most/least engaged supporters or how the campaign message resonates with different cultures across the continent, this is the session for you. Come explore, analyze and brainstorm ideas around key metrics and learn how to activate insights in your vast datasets.", 
+            "end": "3:15pm", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "Wikimedia", 
-                    "name": "Dimitar Dimitrov", 
-                    "twitter": "@dimi_z"
+                    "affiliated org": "Mozilla", 
+                    "name": "Vojtech Sedlak", 
+                    "twitter": "@vojtechsedlak"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -5769,30 +5770,32 @@
                 }
             }, 
             "facilitators_names": [
-                "Dimitar Dimitrov", 
+                "Vojtech Sedlak", 
                 "", 
                 ""
             ], 
             "id": "123", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
-            "timeblock": "", 
-            "title": "Public Policy Ping Pong"
+            "start": "3:15pm", 
+            "tags": "Concrete Skills", 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
+            "title": "Got Data? Now let's activate it!"
         }, 
         {
             "additional language": "", 
             "category": "Fuel the movement", 
-            "description": "This year MozFest will welcome people working on public policy from many different organisations: EDRi, Wikimedia, Communia, OKFN, CC and Mozilla itself.\nMany of these teams are rather new and their priorities sometimes not even defined yet. Yet we all work in the same domain and toward a shared vision. It would be important to take the opportunity of having everyone in the same location in order to map out what all of us are doing and how this fits in a \"grand free & open public policy master plan\".", 
-            "duration": "", 
+            "day": "Sunday", 
+            "description": "What's in store for net neutrality in 2017 and 2018? Let's do some ecosystem mapping to strategize around partnerships and outreach for effective net neutrality coalition work.", 
+            "end": "2:00pm", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "Wikimedia", 
-                    "name": "Dimitar Dimitrov", 
-                    "twitter": "@dimi_z"
+                    "affiliated org": "Open Technology Institute", 
+                    "name": "Georgia Bullen", 
+                    "twitter": "@gergiamoon"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -5806,19 +5809,20 @@
                 }
             }, 
             "facilitators_names": [
-                "Dimitar Dimitrov", 
+                "Georgia Bullen", 
                 "", 
                 ""
             ], 
             "id": "169", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": "", 
-            "timeblock": "", 
-            "title": "Public Policy Tea Time"
+            "timeblock": "sun-2pm--sunday-14-00-", 
+            "title": "Neutral Networking Building Workshop"
         }, 
         {
             "additional language": "", 
@@ -5860,8 +5864,9 @@
         {
             "additional language": "", 
             "category": "Fuel the movement", 
-            "description": "The session will allow people to understand the slew of laws in the US that chill speech and activity around tinkering and innovation. People will learn why and how laws make it illegal to reverse engineer your devices or explore uses of technology. They will also learn what is being done about it, how they can take part, and how they can join the fight to reform these laws and allow users the freedom to innovate.", 
-            "duration": "", 
+            "day": "Sunday", 
+            "description": "Come learn about the slew of laws in the US that chill speech and activity around tinkering and innovation. Users should have the freedom to innovate, but some laws make this impossible. What laws make reverse engineering illegal? What's being done about it? How can you take part and join the fight to reform these laws? ", 
+            "end": "4:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "EFF", 
@@ -5887,11 +5892,12 @@
             "id": "237", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": "", 
-            "timeblock": "", 
+            "timeblock": "sun-4-30pm--sunday-16-30-", 
             "title": "Protecting the Freedom to Innovate - Hacking Law in the US"
         }, 
         {
@@ -5934,8 +5940,9 @@
         {
             "additional language": "", 
             "category": "Fuel the movement", 
-            "description": "Many people find delegating to be one of the more difficult elements of leadership. This session will discuss barriers to delegating, how to overcome them, and how to give good feedback to others.\nDelegation is important because it helps to prevent burnout, develops skills in others, and generates a culture of enthusiasm, innovation, creativity, cooperation, and openness. Delegating allows you to be more effective and productive.\nIn this session, we'll talk about ways to effectively delegate, common barriers and concerns, and how you can help your delegatee be successful. We'll also talk about how to give good feedback to those you delegate to.", 
-            "duration": "", 
+            "day": "Sunday", 
+            "description": "What does it mean to be a good leader? How do you share responsibility and delegate? Delegation is important because it helps to prevent burnout, develops skills in others, and generates a culture of enthusiasm, innovation, creativity, cooperation, and openness. Come share your stories and discuss barriers to delegating, how to overcome them, and how to give good feedback to others.", 
+            "end": "3:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla", 
@@ -5961,11 +5968,12 @@
             "id": "280", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": "Concrete Skills", 
-            "timeblock": "", 
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Organizing for Action: Sharing Responsibility"
         }, 
         {
@@ -6045,43 +6053,6 @@
         {
             "additional language": "", 
             "category": "Fuel the movement", 
-            "description": "In 2016, Mozilla will publish it's first State of the Web report - an overview of the health of the web, brought to life by data and stories. This session will be an opportunity to dive in and give feedback on the first version, as well as collaborate on creative ideas for what more we could do in the future - imagining opportunities to bring more contributors,  media, data, stories and more into State of the Web 2.0 and beyond!", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Mozilla Foundation", 
-                    "name": "Sam Burton", 
-                    "twitter": "@TheSamBurton"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Sam Burton", 
-                "", 
-                ""
-            ], 
-            "id": "314", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
-            "notes url": "", 
-            "programmatic": false, 
-            "tags": "", 
-            "timeblock": "", 
-            "title": "What's next with the Internet Health Report?"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Fuel the movement", 
             "description": "We spend a lot of (important) effort repelling the threats to the commons. We fight ancillary copyright, SOPA, TPP, term extensions, and more. But a parallel track is leveraging copyright and public policy to work for us by advocating for open licensing policies for publicly funded digital resources.\nThese policies, possible within existing copyright framework, are necessary to guarantee access and reuse of taxpayer funded materials like scientific research, educational content, data, and even software. Via EU initiatives like Horizon 2020 and Erasmus+, there’s a huge opportunity to take a giant leap forward in populating the commons with a wealth of content that can be freely reused by all.\nThe session will explore several examples where this is already beginning to work. We’ll highlight advocacy tactics used across open licensing policy projects, and encourage everyone to engage in this work alongside other activism in support of the open web.", 
             "duration": "", 
             "facilitators": {
@@ -6154,10 +6125,11 @@
             "title": "Fighting Uphill Battles: What's Next for Digital Campaigning?"
         }, 
         {
-            "additional language": "", 
+            "additional language": "Italian", 
             "category": "Fuel the movement", 
-            "description": "WebExtensions let you customize your web browser in many ways, such as alter content from any website, augment the toolbar, manage windows and tabs, intercept network requests, and much more. Join us for a hands on workshop where we will build our own WebExtensions after a quick introduction to the tools and concepts. WebExtensions are zipped folders comprised of HTML, CSS, and JavaScript. With today’s WebExtension API, it’s possible to create a single extension that will run in Firefox, Chrome, and Opera. No advanced knowledge of WebExtensions is required but experience building a standard web page is recommended.\nPrerequisites\n* A computer with a keyboard (such as a laptop)\n* The following applications are required. Installers will be provided at the workshop but pre-installation is recommended.\n* Firefox Developer Edition\n* NodeJS, version 4.0.0 or higher\n* The web-ext command line tool", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "WebExtensions let you hack and \"remix\" your web browser in many ways, such as alter content from any website, augment the toolbar, manage windows and tabs, intercept network requests, and much more. Join us for a hands on workshop where we will build our own WebExtensions after a quick introduction to the tools and concepts. WebExtensions are zipped folders comprised of HTML, CSS, and JavaScript. With today’s WebExtension API, it’s possible to create a single extension that will run in Firefox, Chrome, and Opera. No advanced knowledge of WebExtensions is required but experience building a standard web page is recommended.", 
+            "end": "4:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla", 
@@ -6165,9 +6137,9 @@
                     "twitter": "@kumar303"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "Mozilla", 
+                    "name": "Luca Greco", 
+                    "twitter": "@lucagreco"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -6177,7 +6149,7 @@
             }, 
             "facilitators_names": [
                 "Kumar McMillan", 
-                "", 
+                "Luca Greco", 
                 ""
             ], 
             "id": "409", 
@@ -6186,9 +6158,10 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": "", 
-            "timeblock": "", 
-            "title": "Customizing Your Web Browser With Extensions"
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
+            "title": "Hack and Remix the Web with Web Extensions"
         }, 
         {
             "additional language": "", 
@@ -6226,43 +6199,6 @@
             "tags": "", 
             "timeblock": "", 
             "title": "Copyright and education: keep copyright out of classroom"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Fuel the movement", 
-            "description": "Many developers understand writing code, but rarely consider the packets that flow back and forth to allow distributed computing to work.  By crafting packets by hand, people learn how protocols work, and increase their digital literacy. It helps people understand issues from bandwidth to routing to metadata. This enables deeper discussion of internet related issues from peering to surveillance.\nWe will also visualise packets with a variety of tools, which can help with presentations or debugging.", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Open Web Fellow at Privacy International", 
-                    "name": "Eireann Leverett", 
-                    "twitter": "@blackswanburst"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Eireann Leverett", 
-                "", 
-                ""
-            ], 
-            "id": "537", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
-            "notes url": "", 
-            "programmatic": false, 
-            "tags": "", 
-            "timeblock": "", 
-            "title": "Artisinal Packet Crafting"
         }, 
         {
             "additional language": "", 
@@ -6378,8 +6314,9 @@
         {
             "additional language": "", 
             "category": "Fuel the movement", 
+            "day": "Sunday", 
             "description": "Participants will learn about ways to combat restrictive copyright measures and government censorship through defending the hyperlink, the foundation of the open web.\nWe’ll showcase our plans to develop an interactive map that identifies threats to the hyperlink around the world, and highlights actions users can take to defend it.\nThe map builds on our collaborative Save the Link Network (https://SaveTheLink.org), which consists of over 100 groups campaigning to defend the hyperlink\nWe will lead an idea-generating session on the key question: how to crowdsource threats from Internet users, allied organizations and experts, improve our threats map as an educational resource, and convene strategy sessions with key allies to defend the hyperlink worldwide.", 
-            "duration": "", 
+            "end": "3:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "OpenMedia", 
@@ -6405,11 +6342,12 @@
             "id": "648", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": "", 
-            "timeblock": "", 
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Save The Link: Threats Map Project"
         }, 
         {
