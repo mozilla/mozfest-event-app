@@ -1744,10 +1744,10 @@
         }, 
         {
             "additional language": "", 
-            "category": "Dialogue and Debate Speakers Series", 
+            "category": "Dialogues and Debates Speakers Series", 
             "day": "Saturday", 
             "description": "Zeynep Tufekci, a professor at the University of North Carolina and contributor to the New York Times, will speak on digital inclusion and decentralization.\n\nBrian Behlendorf, the Executive Director of the Hyperledger Project will give a talk titled “Bringing Back the Decentralized Web, with Blockchains and Other New Tools”.\n\nAnd Maggie Vail, the Executive Director of CASH Music, will weigh in on web literacy.\n\nEach talk will be followed by a brief, moderated Q&A and will be streamed live on https://facebook.com/mozilla", 
-            "end": "12:00pm", 
+            "end": "12:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "University of North Carolina", 
@@ -5529,12 +5529,12 @@
         {
             "additional language": "", 
             "category": "Dilemmas in connected spaces", 
-            "description": "We have produced a wallpaper design that allows for participants to scan different sections of it to gain content. Participants will be able to explore and hack the wallpaper gaining different content from others.", 
+            "description": "Imagine decorating your world with beautiful interactive patterns. Artcodes makes this possible!\n\nArtcodes is a new technology that allows users to interact with all manner of decorative imagery and patterns. As part of collaborative research between both designers and computer scientists at the University of Nottingham, funded by Horizon Digital Economy Research and the RCUK, we have developed a new interaction technology that relies upon drawing and creativity to drive it.\n\nWith artcodes you can: scan decorative patterns to trigger digital content, make existing patterns point at your content and learn how to draw your own interactive patterns.", 
             "duration": "", 
             "facilitators": {
                 "1": {
                     "affiliated org": "University of Nottingham", 
-                    "name": "Emily Thorn", 
+                    "name": "Emily-Clare Thorn", 
                     "twitter": "@artcodes_lab @HorizonDER"
                 }, 
                 "2": {
@@ -5549,7 +5549,7 @@
                 }
             }, 
             "facilitators_names": [
-                "Emily Thorn", 
+                "Emily-Clare Thorn", 
                 "", 
                 ""
             ], 
@@ -5566,29 +5566,29 @@
         {
             "additional language": "", 
             "category": "Dilemmas in connected spaces", 
-            "description": "This is a large scale interactive mural. Particpant are led through a story by scanning various parts of the mural. each time they scan a section they are given part of a narrative and told how to discover the next section. Essentially they are led on a tresure hunt through the piece. Some sections are physical interactions where they need to go and collect an envelope or they recieve a text. These can be spread out in other parts of the venue.", 
+            "description": "Artcodes presents storicodes. Our new narrative app.\n\nOur team have created a stunning interactive wall illustration called Stalker where we ask you to join the Stalker rebellion……\n\nWe are Stalkers, the resistance…….\nWe desperately need your help to defeat our enemy.\nWe are searching for the brave, the adventurous, the exceptional, the curious, the risk taker, for those of you who are strong enough to stand up for the truth and justice.\n\nWe are Stalkers, and we are all that stands between the Thakens and the complete destruction of our planet, the destruction of everything and everyone we love……. And when they have finished with our planet, they will come for yours.\nDo you have what it takes to join us in our fight against the Thakens?\nDo you have teh courage to step into our world of mystery, intrigue and surprise?\nDo you dare to take part, solve the clues and complete your mission?\nIf you are the person we are looking for please help us, a message is waiting for you.\n\nDownload the storicodes app. To activate our inter-dimensional communication device. Scan the image of the journal in the large picture and begin your journey.\n\nGood Luck\nThanks you for your help\nPreserve and Protect.", 
             "duration": "", 
             "facilitators": {
                 "1": {
                     "affiliated org": "University of Nottingham", 
-                    "name": "Emily Thorn", 
+                    "name": "Emily-Clare Thorn", 
                     "twitter": "@artcodes_lab @HorizonDER"
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Boriana Koleva", 
                     "twitter": ""
                 }, 
                 "3": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "William Preston", 
                     "twitter": ""
                 }
             }, 
             "facilitators_names": [
-                "Emily Thorn", 
-                "", 
-                ""
+                "Emily-Clare Thorn", 
+                "Boriana Koleva", 
+                "William Preston"
             ], 
             "id": "512", 
             "localized description": "", 
@@ -5598,7 +5598,7 @@
             "programmatic": false, 
             "tags": [], 
             "timeblock": "", 
-            "title": "Stalker with art codes"
+            "title": "Stalker"
         }, 
         {
             "additional language": "", 
@@ -8510,7 +8510,7 @@
             "title": "Helping African journalists find 'reliable' data sources"
         }, 
         {
-            "additional language": "", 
+            "additional language": "Italian", 
             "category": "Localisation", 
             "description": "Discover the importance of a glossary for the translations with the example of WordPress Polyglots team.\nGlotDict (a browser extension) change the way to see the translation and the review process in the WordPress Polyglots community around the world.", 
             "duration": "", 
@@ -8537,7 +8537,7 @@
                 ""
             ], 
             "id": "8", 
-            "localized description": "", 
+            "localized description": "\nScopriamo l'importanza del glossario per le traduzioni con l'esempio del WordPress Polyglots team. GlotDict (una estensione per il browser) ha cambiato il modo di vedere le traduzioni e le revisioni nelle WordPress Polygots community in tutto il mondo.", 
             "localized title": "", 
             "location": "", 
             "notes url": "", 
