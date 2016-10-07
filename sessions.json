@@ -2,6 +2,279 @@
     "sessions": [
         {
             "additional language": "", 
+            "category": "", 
+            "day": "Friday", 
+            "description": "", 
+            "end": "8:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "918", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 4 - Big Space", 
+            "notes url": "", 
+            "programmatic": true, 
+            "start": "6:00pm", 
+            "tags": [], 
+            "timeblock": "fri-science-fair--friday-18-00-", 
+            "title": "Science Fair"
+        }, 
+        {
+            "additional language": "", 
+            "category": "", 
+            "day": "Saturday", 
+            "description": "", 
+            "end": "9:20am", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "919", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 4 - Big Space", 
+            "notes url": "", 
+            "programmatic": true, 
+            "start": "9:00am", 
+            "tags": [], 
+            "timeblock": "sat-main-stage--saturday-09-00-", 
+            "title": "Welcome and Opening Keynote"
+        }, 
+        {
+            "additional language": "", 
+            "category": "", 
+            "day": "Saturday", 
+            "description": "", 
+            "end": "2:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "920", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "", 
+            "notes url": "", 
+            "programmatic": true, 
+            "start": "12:30pm", 
+            "tags": [], 
+            "timeblock": "sat-lunch--saturday-12-30-", 
+            "title": "Lunch"
+        }, 
+        {
+            "additional language": "", 
+            "category": "", 
+            "day": "Saturday", 
+            "description": "", 
+            "end": "1:20am", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "921", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "", 
+            "notes url": "", 
+            "programmatic": true, 
+            "start": "6:00pm", 
+            "tags": [], 
+            "timeblock": "sat-evening-activities--saturday-18-00-", 
+            "title": "Evening Activity"
+        }, 
+        {
+            "additional language": "", 
+            "category": "", 
+            "day": "Sunday", 
+            "description": "", 
+            "end": "11:15am", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "922", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 4 - Big Space", 
+            "notes url": "", 
+            "programmatic": true, 
+            "start": "10:00am", 
+            "tags": [], 
+            "timeblock": "sun-main-stage--sunday-10-00-", 
+            "title": "MozFest Networking Breakfast"
+        }, 
+        {
+            "additional language": "", 
+            "category": "", 
+            "day": "Sunday", 
+            "description": "", 
+            "end": "2:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "923", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "", 
+            "notes url": "", 
+            "programmatic": true, 
+            "start": "12:30pm", 
+            "tags": [], 
+            "timeblock": "sun-lunch--sunday-12-30-", 
+            "title": "Lunch"
+        }, 
+        {
+            "additional language": "", 
+            "category": "", 
+            "day": "Sunday", 
+            "description": "", 
+            "end": "8:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "924", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 4 - Big Space", 
+            "notes url": "", 
+            "programmatic": true, 
+            "start": "6:00pm", 
+            "tags": [], 
+            "timeblock": "sun-demos--sunday-18-00-", 
+            "title": "Closing Demo Party"
+        }, 
+        {
+            "additional language": "", 
             "category": "Demystify the web", 
             "description": "This will be run as a drop in activity over a period of time (suggest 2hours) which can be repeated through the festival to make it available and a project which can evolve.", 
             "duration": "", 
@@ -33,7 +306,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "The Reactor or Fort U-Telling (to fit in with the Funhouse theme?)"
         }, 
@@ -70,7 +343,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Interactive Video 'Who Is Terror?' | Creative Coding"
         }, 
@@ -107,7 +380,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Mozfest Curriculum Workshop"
         }, 
@@ -144,7 +417,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Storytelling", 
+            "tags": [
+                "Storytelling"
+            ], 
             "timeblock": "", 
             "title": "Fight for the Open Web! Using Minecraft for Internet Activism"
         }, 
@@ -181,7 +456,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Concrete Skills", 
+            "tags": [
+                "Advocacy & Web Literacy"
+            ], 
             "timeblock": "", 
             "title": "Offline Games for the Open Web"
         }, 
@@ -218,7 +495,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Moving Portfolios Forward: Designing Tools and Supports to Make Portfolio Development More Accessible"
         }, 
@@ -255,7 +532,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Future of the Web", 
+            "tags": [
+                "The Future of the Web"
+            ], 
             "timeblock": "", 
             "title": "Fostering Ethical Innovation by Hacking the High School CS Curriculum"
         }, 
@@ -292,7 +571,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Teach The Web, without the Web"
         }, 
@@ -329,7 +608,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Future of the Web", 
+            "tags": [
+                "The Future of the Web"
+            ], 
             "timeblock": "", 
             "title": "Privacy Trumps Vanity Trumps Privacy"
         }, 
@@ -366,7 +647,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Storytelling", 
+            "tags": [
+                "Storytelling"
+            ], 
             "timeblock": "", 
             "title": "My Safe Space : The Woman's Tale."
         }, 
@@ -403,7 +686,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Concrete Skills", 
+            "tags": [
+                "Advocacy & Web Literacy"
+            ], 
             "timeblock": "", 
             "title": "Hacking games to teach Web Literacy"
         }, 
@@ -440,7 +725,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Nature, in Code - learning JavaScript to reason about our world in code"
         }, 
@@ -477,7 +762,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Online learning, offline: Taking MOOCs face-to-face"
         }, 
@@ -514,7 +799,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Mozilla Clubs: A local, interest-based model for learning"
         }, 
@@ -551,7 +836,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Teaching Community Technology"
         }, 
@@ -588,7 +873,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Computer science meets the classroom"
         }, 
@@ -625,7 +910,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Open Leadership Camp - Planning workshop"
         }, 
@@ -662,7 +947,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Multiplayer Web Games: Build your own!"
         }, 
@@ -699,7 +984,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Concrete Skills", 
+            "tags": [
+                "Advocacy & Web Literacy"
+            ], 
             "timeblock": "", 
             "title": "Learning in a connected world: Why web literacy, why now?"
         }, 
@@ -736,7 +1023,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Hacking Light"
         }, 
@@ -773,7 +1060,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Reponsible Use of Internet and Ethics"
         }, 
@@ -810,7 +1097,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "FAB Lab - Teaching web literacy skills through student choice"
         }, 
@@ -847,7 +1134,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Digital Inclusion", 
+            "tags": [
+                "Digital Inclusion"
+            ], 
             "timeblock": "", 
             "title": "First Time Open Source Contributor Workshop"
         }, 
@@ -884,7 +1173,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Digital Inclusion", 
+            "tags": [
+                "Digital Inclusion"
+            ], 
             "timeblock": "", 
             "title": "<Open Hearts> <Open Hands> <Open Web>"
         }, 
@@ -921,7 +1212,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Digital Inclusion", 
+            "tags": [
+                "Digital Inclusion"
+            ], 
             "timeblock": "", 
             "title": "#a11yhacks -  Accessibilty Dojo's"
         }, 
@@ -958,7 +1251,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Storytelling", 
+            "tags": [
+                "Storytelling"
+            ], 
             "timeblock": "", 
             "title": "Who does the web think you are? Masking your identity on the web."
         }, 
@@ -995,7 +1290,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "The challenges of building the web for non digital natives"
         }, 
@@ -1032,7 +1327,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "What’s a “Progressive Web App” and How Do I Make One?"
         }, 
@@ -1069,7 +1364,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Let's Encrypt - Someone could listen"
         }, 
@@ -1106,7 +1401,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Towards sustainable development: crowdsourced mapping to end FGM in Tanzania"
         }, 
@@ -1143,7 +1438,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Remix your own Historical Narratives-- Web Literacy Skills for Librarians"
         }, 
@@ -1180,7 +1475,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Let's create a board game for empathy"
         }, 
@@ -1217,7 +1512,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Future of the Web", 
+            "tags": [
+                "The Future of the Web"
+            ], 
             "timeblock": "", 
             "title": "Crowdsourcing the Next Gigabit Cities: An Engagement Platform for Municipal Broadband"
         }, 
@@ -1254,7 +1551,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Future of the Web", 
+            "tags": [
+                "The Future of the Web"
+            ], 
             "timeblock": "", 
             "title": "From Broken to Brokering: Designing Digital Roadmaps to Connect Dots for Youth in Our Cities"
         }, 
@@ -1291,7 +1590,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Maker MOB: Bringing STEM Making Activities to Community Events"
         }, 
@@ -1328,7 +1627,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "The Web Garden: Planting the Seeds of Knowledge About the Web (WIP, more garden puns maybe)"
         }, 
@@ -1365,7 +1664,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Fireplace"
         }, 
@@ -1402,7 +1701,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Teen Leadership, Open-Source Inquiry, and Working in the Open"
         }, 
@@ -1439,9 +1738,48 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Why choose open when you can choose free?: A discussion of some of the issues surrounding free content on the Web"
+        }, 
+        {
+            "additional language": "", 
+            "category": "", 
+            "day": "Saturday", 
+            "description": "Zeynep Tufekci, a professor at the University of North Carolina and contributor to the New York Times, will speak on digital inclusion and decentralization.\n\nBrian Behlendorf, the Executive Director of the Hyperledger Project will give a talk titled “Bringing Back the Decentralized Web, with Blockchains and Other New Tools”.\n\nAnd Maggie Vail, the Executive Director of CASH Music, will weigh in on web literacy.\n\nEach talk will be followed by a brief, moderated Q&A and will be streamed live on facebook.com/mozilla", 
+            "end": "12:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "University of North Carolina", 
+                    "name": "Zeynep Tufekci", 
+                    "twitter": "@zeynep"
+                }, 
+                "2": {
+                    "affiliated org": "Hyperledger Project", 
+                    "name": "Brian Behlendorf", 
+                    "twitter": "@brianbehlendorf"
+                }, 
+                "3": {
+                    "affiliated org": "CASH Music", 
+                    "name": "Maggie Vail", 
+                    "twitter": "@magicbeans"
+                }
+            }, 
+            "facilitators_names": [
+                "Zeynep Tufekci", 
+                "Brian Behlendorf", 
+                "Maggie Vail"
+            ], 
+            "id": "913", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 0 - Walker Space", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "11:15am", 
+            "tags": [], 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
+            "title": "Dialogues & Debates: MozFest's Official Speaker Series"
         }, 
         {
             "additional language": "", 
@@ -1498,7 +1836,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "10:00am", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Web Animation for Artists & Others"
         }, 
@@ -1557,7 +1895,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "12:30pm", 
-            "tags": "Storytelling", 
+            "tags": [
+                "Storytelling"
+            ], 
             "timeblock": "sat-12-30pm--saturday-12-30-", 
             "title": "Video Game Puppetry Workshop with EK Theater"
         }, 
@@ -1616,7 +1956,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": "Storytelling", 
+            "tags": [
+                "Storytelling"
+            ], 
             "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Video Game Puppetry Workshop with EK Theater"
         }, 
@@ -1675,7 +2017,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Shakespeare in the Digital Age"
         }, 
@@ -1734,7 +2076,9 @@
             "notes url": "https://www.agik.co.uk \n\nhttps://www.artsawardwales.co.uk ", 
             "programmatic": false, 
             "start": "12:15pm", 
-            "tags": "Storytelling", 
+            "tags": [
+                "Storytelling"
+            ], 
             "timeblock": "sun-12-15pm--sunday-12-15-", 
             "title": "The Art of Vlogging and 1,2,3 Vlog Edit Upload"
         }, 
@@ -1793,7 +2137,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "10:00am", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-10am--saturday-10-00-", 
             "title": "The Newsroom"
         }, 
@@ -1852,7 +2196,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "The Newsroom"
         }, 
@@ -1911,7 +2255,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:00am", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sun-11am--sunday-11-00-", 
             "title": "The Newsroom"
         }, 
@@ -1970,7 +2314,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "The Newsroom"
         }, 
@@ -2029,7 +2373,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "10:00am", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Orleans House Gallery Gaming Hub: GAME ON!"
         }, 
@@ -2088,7 +2432,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:15am", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "hACkT: Drama and Technology for Creative Learning"
         }, 
@@ -2147,7 +2491,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:15am", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Creative Greenwich – a film project by and for young people"
         }, 
@@ -2204,7 +2548,7 @@
             "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Digital Literacy & Culture: On the Intersection of Art, Education, & Advocacy"
         }, 
@@ -2263,7 +2607,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "AR/VR/Machines", 
+            "tags": [
+                "AR, VR & Machine Learning"
+            ], 
             "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Making bots that make art"
         }, 
@@ -2322,7 +2668,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Stage Genie Response Composition Workshop"
         }, 
@@ -2381,7 +2727,7 @@
             "notes url": "https://www.artsawardvoice.com", 
             "programmatic": false, 
             "start": "12:30pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-12-30pm--saturday-12-30-", 
             "title": "Digital Arts Journalism with Arts Award Voice"
         }, 
@@ -2440,7 +2786,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "12:15pm", 
-            "tags": "Digital Inclusion", 
+            "tags": [
+                "Digital Inclusion"
+            ], 
             "timeblock": "sun-12-15pm--sunday-12-15-", 
             "title": "Curing Perfect Interactive Online Graphic Novel"
         }, 
@@ -2499,7 +2847,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "The Digital MozArt"
         }, 
@@ -2558,7 +2906,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Digital Maker Collective: Exploring emergent digital practice in the arts"
         }, 
@@ -2617,7 +2965,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "The Art of Coding"
         }, 
@@ -2676,7 +3024,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:00am", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Unleash the Creator in You!"
         }, 
@@ -2735,7 +3083,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:00am", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Creative Coding - Creating your own iPhone games"
         }, 
@@ -2794,7 +3142,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "10:00am", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Having fun sketching notes"
         }, 
@@ -2853,7 +3201,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Having fun sketching notes"
         }, 
@@ -2912,7 +3260,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:00am", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Having fun sketching notes"
         }, 
@@ -2971,7 +3319,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Having fun sketching notes"
         }, 
@@ -3030,7 +3378,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "10:00am", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-10am--saturday-10-00-", 
             "title": "iPad Orchestra"
         }, 
@@ -3089,7 +3437,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Ro-Botticelli, Creating Art with Robots"
         }, 
@@ -3148,7 +3496,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": "Storytelling", 
+            "tags": [
+                "Storytelling"
+            ], 
             "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Beyond the Hero's Journey - What do we mean when we talk about 'storytelling'?"
         }, 
@@ -3207,7 +3557,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Music From Things"
         }, 
@@ -3266,7 +3616,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:15am", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Bronze Arts Award with BBC micro:bit"
         }, 
@@ -3325,7 +3675,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "12:30pm", 
-            "tags": "Digital Inclusion", 
+            "tags": [
+                "Digital Inclusion"
+            ], 
             "timeblock": "sat-12-30pm--saturday-12-30-", 
             "title": "Open about disability online"
         }, 
@@ -3384,7 +3736,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Off the Beat - Digital Collaboration"
         }, 
@@ -3443,7 +3795,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": "Digital Inclusion", 
+            "tags": [
+                "Digital Inclusion"
+            ], 
             "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "DMLab Live"
         }, 
@@ -3502,7 +3856,10 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": "AR/VR/Machines, Localized MozFest", 
+            "tags": [
+                "Multi-lingual MozFest", 
+                "AR, VR & Machine Learning"
+            ], 
             "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Getting Started with Virtual Reality for the Web"
         }, 
@@ -3561,7 +3918,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "AR/VR/Machines", 
+            "tags": [
+                "AR, VR & Machine Learning"
+            ], 
             "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "VR and 360 video at BBC"
         }, 
@@ -3620,7 +3979,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:15am", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Culturebots and AnneDroid Brontës"
         }, 
@@ -3679,7 +4038,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "12:15pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sun-12-15pm--sunday-12-15-", 
             "title": "Getting Medieval, Getting Manuscripts"
         }, 
@@ -3738,7 +4097,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "12:15pm", 
-            "tags": "Localized MozFest", 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
             "timeblock": "sun-12-15pm--sunday-12-15-", 
             "title": "Learning Portfolio Builder"
         }, 
@@ -3797,7 +4158,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "How hard could it be? — Building the Research &\nEducation Space\n\n"
         }, 
@@ -3856,7 +4217,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "10:00am", 
-            "tags": "AR/VR/Machines", 
+            "tags": [
+                "AR, VR & Machine Learning"
+            ], 
             "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Exploring MozFest with Gamar"
         }, 
@@ -3915,7 +4278,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "AR/VR/Machines", 
+            "tags": [
+                "AR, VR & Machine Learning"
+            ], 
             "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Exploring MozFest with Gamar"
         }, 
@@ -3974,7 +4339,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:00am", 
-            "tags": "AR/VR/Machines", 
+            "tags": [
+                "AR, VR & Machine Learning"
+            ], 
             "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Exploring MozFest with Gamar"
         }, 
@@ -4033,7 +4400,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "AR/VR/Machines", 
+            "tags": [
+                "AR, VR & Machine Learning"
+            ], 
             "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Exploring MozFest with Gamar"
         }, 
@@ -4092,7 +4461,7 @@
             "notes url": "https://www.entertheswarm.com", 
             "programmatic": false, 
             "start": "10:00am", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Flags: When is code at its most creative?"
         }, 
@@ -4151,7 +4520,7 @@
             "notes url": "https://www.entertheswarm.com", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Flags: When is code at its most creative?"
         }, 
@@ -4210,7 +4579,7 @@
             "notes url": "https://www.entertheswarm.com", 
             "programmatic": false, 
             "start": "11:00am", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Flags: When is code at its most creative?"
         }, 
@@ -4269,7 +4638,7 @@
             "notes url": "https://www.entertheswarm.com", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Flags: When is code at its most creative?"
         }, 
@@ -4308,7 +4677,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sun-4-30pm--sunday-16-30-", 
             "title": "A Handmade Web"
         }, 
@@ -4347,7 +4716,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Ravensbourne Graphic Design x Met Office Collaboration"
         }, 
@@ -4386,7 +4755,10 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:15am", 
-            "tags": "AR/VR/Machines, Digital Inclusion", 
+            "tags": [
+                "Digital Inclusion", 
+                "AR, VR & Machine Learning"
+            ], 
             "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Town Hall 2020: Should an AI run your council services?"
         }, 
@@ -4423,7 +4795,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Supervigilantia"
         }, 
@@ -4460,7 +4832,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "The Museum of Technorealism"
         }, 
@@ -4499,7 +4871,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Dowse.eu  The Privacy Hub for the Internet of Things"
         }, 
@@ -4538,7 +4910,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "Future of the Web", 
+            "tags": [
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "The Kitchen Databox Demo"
         }, 
@@ -4577,7 +4951,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Databox: Hack an App"
         }, 
@@ -4616,7 +4990,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "12:15pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sun-12-15pm--sunday-12-15-", 
             "title": "Critical Challenges and Interfaces to Autonomous Systems"
         }, 
@@ -4653,7 +5027,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Design Sprint - IoT"
         }, 
@@ -4690,7 +5064,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "The Funnel"
         }, 
@@ -4727,7 +5101,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Building a connected thing"
         }, 
@@ -4764,7 +5138,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Light Fidelity- Data transfer using Light Bulbs"
         }, 
@@ -4803,7 +5177,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "12:30pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-12-30pm--saturday-12-30-", 
             "title": "Permission UIs : Making Privacy Tangible"
         }, 
@@ -4842,7 +5216,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Is Light a Drug?"
         }, 
@@ -4881,7 +5255,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sun-4-30pm--sunday-16-30-", 
             "title": "An exceedingly practical digital security first-aid kit for after you've been pwned"
         }, 
@@ -4918,7 +5292,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Steampunk with James Watt"
         }, 
@@ -4957,7 +5331,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "12:15pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sun-12-15pm--sunday-12-15-", 
             "title": "Open Innovators"
         }, 
@@ -4994,7 +5368,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Writing a future history for the Code of the Dark Temple"
         }, 
@@ -5031,7 +5405,9 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "AR/VR/Machines", 
+            "tags": [
+                "AR, VR & Machine Learning"
+            ], 
             "timeblock": "", 
             "title": "Are you well? When connected devices know more about you"
         }, 
@@ -5070,7 +5446,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Future toys"
         }, 
@@ -5109,7 +5485,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Chatting with the smart home"
         }, 
@@ -5146,7 +5522,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Telegram bot meets Arduino"
         }, 
@@ -5183,7 +5559,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Interactive Wallpaper"
         }, 
@@ -5220,7 +5596,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Stalker with art codes"
         }, 
@@ -5259,7 +5635,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:00am", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Future Present"
         }, 
@@ -5298,7 +5674,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:00am", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sun-11am--sunday-11-00-", 
             "title": "SenseMe, ConnectUs: a hands-on exploration of issues with the IoT"
         }, 
@@ -5335,7 +5711,9 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "AR/VR/Machines", 
+            "tags": [
+                "AR, VR & Machine Learning"
+            ], 
             "timeblock": "", 
             "title": "Infect the smart city with not so dumb bikes"
         }, 
@@ -5372,7 +5750,9 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Digital Inclusion", 
+            "tags": [
+                "Digital Inclusion"
+            ], 
             "timeblock": "", 
             "title": "Anybody Home?"
         }, 
@@ -5411,7 +5791,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "10:00am", 
-            "tags": "Future of the Web", 
+            "tags": [
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Town and Country"
         }, 
@@ -5448,7 +5830,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "IoT UX & Security"
         }, 
@@ -5487,7 +5869,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "Digital Inclusion", 
+            "tags": [
+                "Digital Inclusion"
+            ], 
             "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Pervasive Computing as a tool for Social Justice"
         }, 
@@ -5524,7 +5908,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "The Coughing Panda – Craft, Code, Community and Open Data"
         }, 
@@ -5563,7 +5947,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "My best friend's a flowchart"
         }, 
@@ -5600,7 +5984,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Crazy Connected Costumes"
         }, 
@@ -5637,7 +6021,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Anti-Surveillance Face Paint"
         }, 
@@ -5674,7 +6058,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "As seen on TV!!"
         }, 
@@ -5711,7 +6095,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "WARNING, MOZFEST INFECTED WITH VIRULENT IDEA OUTBREAK!"
         }, 
@@ -5748,15 +6132,16 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Nomad Tent Oasis"
         }, 
         {
             "additional language": "", 
             "category": "Dilemmas in Connected Spaces", 
+            "day": "Sunday", 
             "description": "This is a facilitated small space, designed to look like part of a living room, which uses Design Fiction props to get people to think about what they want from the TV of the future. We use attractive objects (fake packaging, instructions), printouts (hopefully in the form of glossy magazines), and a video to describe possible directions for TV. These are designed to make the future objects feel real, so people can make informed decisions about tradeoffs between privacy and convenience, and filtered content and the difficulties of choice. We may have some semi-working physical devices too.", 
-            "duration": "60", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "BBC R&D", 
@@ -5785,8 +6170,9 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
-            "timeblock": "", 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "What would TV be like if it were….?"
         }, 
         {
@@ -5822,7 +6208,9 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Digital Inclusion", 
+            "tags": [
+                "Digital Inclusion"
+            ], 
             "timeblock": "", 
             "title": "Living in the UK post Brexit"
         }, 
@@ -5861,7 +6249,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:15am", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "ThingsCon: Responsible IoT for Consumer Rights Orgs"
         }, 
@@ -5900,7 +6288,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "12:30pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-12-30pm--saturday-12-30-", 
             "title": "Flag-o-ra-ma"
         }, 
@@ -5939,7 +6327,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Framing migration"
         }, 
@@ -5978,7 +6366,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Motherland objects / Tea time"
         }, 
@@ -6017,7 +6405,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "6:00pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-evening-activities--saturday-18-00-", 
             "title": "Closing drinks & exhibition"
         }, 
@@ -6054,7 +6442,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "PAPERS, PLEASE"
         }, 
@@ -6091,7 +6479,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Pegmodular"
         }, 
@@ -6128,7 +6516,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Cloud Index"
         }, 
@@ -6165,7 +6553,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Data Brick"
         }, 
@@ -6202,7 +6590,7 @@
             "location": "Floor 6 - 612", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Teleport Machine (Privacy Machines Part III)"
         }, 
@@ -6239,7 +6627,7 @@
             "location": "Floor 6", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Painting with Virtual Reality and A-Painter"
         }, 
@@ -6276,7 +6664,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "#FixCopyright: Now is the Time to Act"
         }, 
@@ -6313,7 +6701,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "[Place holder] 350 session on organizing"
         }, 
@@ -6352,7 +6740,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": "Concrete Skills", 
+            "tags": [
+                "Advocacy & Web Literacy"
+            ], 
             "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Got Data? Now let's activate it!"
         }, 
@@ -6391,7 +6781,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Neutral Networking Building Workshop"
         }, 
@@ -6428,7 +6818,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "[Place Holder] Open Patents"
         }, 
@@ -6467,7 +6857,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sun-4-30pm--sunday-16-30-", 
             "title": "Protecting the Freedom to Innovate - Hacking Law in the US"
         }, 
@@ -6504,7 +6894,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "It's dangerous to go alone! -"
         }, 
@@ -6543,7 +6933,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": "Concrete Skills", 
+            "tags": [
+                "Advocacy & Web Literacy"
+            ], 
             "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Organizing for Action: Sharing Responsibility"
         }, 
@@ -6580,7 +6972,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Copyfails: Creating alliances to bring copyright to the XXI century"
         }, 
@@ -6617,7 +7009,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Bursting the EU bubble: Call for action for activists"
         }, 
@@ -6654,7 +7046,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Buy One, Get One: Open licensing policy advocacy for the commons"
         }, 
@@ -6691,7 +7083,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Fighting Uphill Battles: What's Next for Digital Campaigning?"
         }, 
@@ -6730,7 +7122,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Hack and Remix the Web with Web Extensions"
         }, 
@@ -6767,7 +7159,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Copyright and education: keep copyright out of classroom"
         }, 
@@ -6804,7 +7196,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Concrete Skills", 
+            "tags": [
+                "Advocacy & Web Literacy"
+            ], 
             "timeblock": "", 
             "title": "Hacking User Centred Design for Social Change"
         }, 
@@ -6841,7 +7235,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Best Case Scenarios for Copyright: national exceptions to copyright in the EU"
         }, 
@@ -6878,7 +7272,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Building a Shared Platform for Digital Rights Campaigners"
         }, 
@@ -6917,7 +7311,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Save The Link: Threats Map Project"
         }, 
@@ -6954,7 +7348,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Energy and Things made with atoms projects, how put them under Free Libre Opensource terms and conditions"
         }, 
@@ -6991,7 +7385,7 @@
             "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Discovering Local Content: What tech tools can we build?"
         }, 
@@ -7028,7 +7422,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "What Revolution?"
         }, 
@@ -7067,7 +7461,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:15am", 
-            "tags": "Concrete Skills", 
+            "tags": [
+                "Advocacy & Web Literacy"
+            ], 
             "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Beautiful Rising - fueling your movement with creative direct actions"
         }, 
@@ -7104,7 +7500,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Copyright Interventions"
         }, 
@@ -7141,7 +7537,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "[Place Holder] Diversity and Equity in Tech"
         }, 
@@ -7178,7 +7574,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Supporting Staff and Volunteers who experience Online Harassment: Best-Practices"
         }, 
@@ -7215,7 +7611,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Come write your first FOIA request!"
         }, 
@@ -7252,7 +7648,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Qué hacemos para automatizar el proceso (o parte) del chequeo de datos?"
         }, 
@@ -7289,7 +7685,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Stories of Gender Bias in Georgia: Education, Employment, and Birth"
         }, 
@@ -7326,7 +7722,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Human Rights and Gender Gap"
         }, 
@@ -7363,7 +7759,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Searchable Broadcasts (TV for Robotic Overlords)"
         }, 
@@ -7400,7 +7796,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Journalism is for Everyone"
         }, 
@@ -7437,7 +7833,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "User experience inside and out of the newsroom"
         }, 
@@ -7474,7 +7870,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Storytelling", 
+            "tags": [
+                "Storytelling"
+            ], 
             "timeblock": "", 
             "title": "Get on board: Story- and mood boarding your stories"
         }, 
@@ -7511,7 +7909,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "The Edge of Journalism: Bringing Outsiders In And Making Collaborations Work"
         }, 
@@ -7548,7 +7946,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Storytelling", 
+            "tags": [
+                "Storytelling"
+            ], 
             "timeblock": "", 
             "title": "How we can use 360 Video, Binaural Audio, VR and Pokemon Go to tell new stories"
         }, 
@@ -7585,7 +7985,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Build a Better Data Linter with DataProofer"
         }, 
@@ -7622,7 +8022,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Poetry for programmers: How arts and culture will save your life and improve your code"
         }, 
@@ -7659,7 +8059,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "What can theater, sports and education teach us about accessibility in journalism?"
         }, 
@@ -7696,7 +8096,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Measuring privacy risk and implied consent in app permissions"
         }, 
@@ -7733,7 +8133,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Creating Data Literacy: connecting the dots between Journalism, Government, Civil Society and Academia"
         }, 
@@ -7770,7 +8170,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "WebVR for the rest of us"
         }, 
@@ -7807,7 +8207,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Reverse-engineering newsroom workflow"
         }, 
@@ -7844,7 +8244,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Storytelling", 
+            "tags": [
+                "Storytelling"
+            ], 
             "timeblock": "", 
             "title": "News apps: how to make your audience care about your data"
         }, 
@@ -7881,7 +8283,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Web docs and longforms - Al Jazeera's approach"
         }, 
@@ -7918,7 +8320,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "To Bot or Not to Bot"
         }, 
@@ -7955,7 +8357,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Let's ask all our embarrassing data questions"
         }, 
@@ -7992,7 +8394,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Off the Record: Introduction to Encrypted Communications for Journalists"
         }, 
@@ -8029,7 +8431,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Alaveteli Professional - an FOI toolkit for journalists"
         }, 
@@ -8066,7 +8468,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "How to craft compelling stories out of video interviews? -Hands on Workshop"
         }, 
@@ -8103,7 +8505,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Helping African journalists find 'reliable' data sources"
         }, 
@@ -8140,7 +8542,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Localized MozFest", 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
             "timeblock": "", 
             "title": "GlotDict and the glossary in WordPress"
         }, 
@@ -8177,7 +8581,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Localized MozFest", 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
             "timeblock": "", 
             "title": "Translate Mozilla to your language"
         }, 
@@ -8214,7 +8620,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Localized MozFest", 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
             "timeblock": "", 
             "title": "Localization: Going global"
         }, 
@@ -8251,7 +8659,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Localized MozFest", 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
             "timeblock": "", 
             "title": "Making high quality translations, faster and simpler"
         }, 
@@ -8288,7 +8698,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Getting New Characters and Emoji into Unicode"
         }, 
@@ -8325,7 +8735,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Make HTML to PDF work in global languages"
         }, 
@@ -8362,7 +8772,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Designing for the limit case of personal privacy: when your voice is in the machine"
         }, 
@@ -8399,7 +8809,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Localized MozFest", 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
             "timeblock": "", 
             "title": "Localization at Evernote using Open Source solutions"
         }, 
@@ -8436,7 +8848,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Getting your message to a bigger audience: strategic reasons to localise"
         }, 
@@ -8473,7 +8885,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Some of my best friends are localisers"
         }, 
@@ -8510,7 +8922,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Localisation brief"
         }, 
@@ -8547,7 +8959,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Got something to say? Then print it! Publishing print on demand books"
         }, 
@@ -8584,7 +8996,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Multilingualism is Good for You!"
         }, 
@@ -8621,7 +9033,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Localized MozFest", 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
             "timeblock": "", 
             "title": "Developing terms in your own language"
         }, 
@@ -8658,7 +9072,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Creating a Style Guide"
         }, 
@@ -8695,7 +9109,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Empowerment through localization?"
         }, 
@@ -8734,7 +9148,7 @@
             "notes url": "http://ja.mozillafactory.org/post/151421168498/mozilla-festival", 
             "programmatic": false, 
             "start": "10:00am", 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Connecting remotely to global communities"
         }, 
@@ -8771,7 +9185,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Localized MozFest", 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
             "timeblock": "", 
             "title": "Playful introduction to localization challenges"
         }, 
@@ -8808,7 +9224,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Leveraging digital technology to enhance artistic and cultural expression in East Africa"
         }, 
@@ -8845,7 +9261,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "This house believes that everyone will use English by 2030. Will it happen? Does it matter?"
         }, 
@@ -8882,7 +9298,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Continuous localisation: possible or desirable"
         }, 
@@ -8919,7 +9335,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Diversity and equality in the Wikimedia projects"
         }, 
@@ -8956,7 +9372,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "How young Africans are embracing technology to enhance their lives"
         }, 
@@ -8993,7 +9409,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Making Digital Security Accessible, World-wide"
         }, 
@@ -9030,7 +9446,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Localized MozFest", 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
             "timeblock": "", 
             "title": "Curriculum remix party ? Crowdsourcing best practises"
         }, 
@@ -9067,7 +9485,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Makepedia: an open source platform for making and makers aimed at international development & humanitarian relief"
         }, 
@@ -9104,7 +9522,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Localized MozFest", 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
             "timeblock": "", 
             "title": "Mozilla Nativo, localización en lenguas nativas de latinoamérica"
         }, 
@@ -9141,7 +9561,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Localized MozFest", 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
             "timeblock": "", 
             "title": "Localization quality assurance with Transvision"
         }, 
@@ -9178,7 +9600,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Social Language Helper"
         }, 
@@ -9215,7 +9637,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Localized MozFest", 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
             "timeblock": "", 
             "title": "Internet Radio - amplifying & connecting local communities to global listeners"
         }, 
@@ -9252,7 +9676,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Learning about Localizers and Firefox"
         }, 
@@ -9289,7 +9713,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "L20n and Firefox"
         }, 
@@ -9326,7 +9750,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Taigh-tasgaidh gun Bhallachan  (Museum without Walls)"
         }, 
@@ -9363,7 +9787,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "in absence of body"
         }, 
@@ -9400,7 +9824,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Pardon the dust (09/03/2016, 13:44-13:47)"
         }, 
@@ -9437,7 +9861,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "@t_r_u_m_p_i_n_g"
         }, 
@@ -9474,7 +9898,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Poetry Was Never The Point"
         }, 
@@ -9511,7 +9935,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "CO2GLE"
         }, 
@@ -9548,7 +9972,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "In My Shoes"
         }, 
@@ -9585,7 +10009,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Digital Making Space-Hacker!"
         }, 
@@ -9622,7 +10046,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Forbidden Fruit Machine"
         }, 
@@ -9659,7 +10083,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Across Portrait"
         }, 
@@ -9696,7 +10120,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Utopian Realism"
         }, 
@@ -9733,7 +10157,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Megacorp."
         }, 
@@ -9770,7 +10194,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Somewhere Bot"
         }, 
@@ -9807,7 +10231,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Monotone"
         }, 
@@ -9844,7 +10268,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "#emptyweb"
         }, 
@@ -9881,7 +10305,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Tide"
         }, 
@@ -9918,7 +10342,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Forgotten Formats"
         }, 
@@ -9955,7 +10379,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Abstract Playground"
         }, 
@@ -9992,7 +10416,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "OOO"
         }, 
@@ -10029,7 +10453,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Shut Them Up With Your Flash Drive"
         }, 
@@ -10066,7 +10490,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "The Treasure Bands"
         }, 
@@ -10103,7 +10527,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Autonomous Network Architecture: the discussions"
         }, 
@@ -10140,7 +10564,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Need A Break"
         }, 
@@ -10177,7 +10601,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Sunny Day, 4PM"
         }, 
@@ -10214,7 +10638,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Ichographs MdelP"
         }, 
@@ -10251,7 +10675,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Earth"
         }, 
@@ -10288,7 +10712,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Self-Expanded"
         }, 
@@ -10325,7 +10749,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "remote-a-tower"
         }, 
@@ -10362,7 +10786,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "How To / Why Leave Facebook"
         }, 
@@ -10399,7 +10823,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "dissipate"
         }, 
@@ -10436,7 +10860,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "How To / Why Make Internet Art"
         }, 
@@ -10473,7 +10897,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "The colours of the countryside"
         }, 
@@ -10510,7 +10934,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "#u9273"
         }, 
@@ -10547,7 +10971,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "You Look Familiar"
         }, 
@@ -10584,7 +11008,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Maze Exhibition from the Digital Skills Observatory"
         }, 
@@ -10621,7 +11045,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Flown' - Drawings"
         }, 
@@ -10658,7 +11082,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Hi Jack"
         }, 
@@ -10695,7 +11119,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Virtual Strangers"
         }, 
@@ -10732,7 +11156,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Embodiment of cognition"
         }, 
@@ -10769,7 +11193,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "80s Child"
         }, 
@@ -10806,7 +11230,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Undersea Cable (Cabo do Mar)"
         }, 
@@ -10843,7 +11267,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Are You Clean? Real-time Technologies and Identity, Property and Privacy."
         }, 
@@ -10880,7 +11304,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Alerts in Flesh"
         }, 
@@ -10917,7 +11341,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Visualising Collective Thought: What we think about when we think about the Internet"
         }, 
@@ -10954,7 +11378,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Where Are Human Rights?"
         }, 
@@ -10991,7 +11415,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Archive Remix"
         }, 
@@ -11028,7 +11452,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Some of My Favourite Songs"
         }, 
@@ -11065,7 +11489,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "The Open Science and Reproducible Research Course"
         }, 
@@ -11102,7 +11526,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Demystifying Artificial Intelligence"
         }, 
@@ -11139,7 +11563,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "The Open Segments project: Taking back how we define our communities"
         }, 
@@ -11176,7 +11600,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Thinking Spatially: How location intelligence can enhance your data and let you uncover new insights."
         }, 
@@ -11213,7 +11637,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "CrowdAI - an open challenge platform for data science"
         }, 
@@ -11250,7 +11674,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Displaying interactive networks on the web"
         }, 
@@ -11287,7 +11711,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Collaborative github through Rstudio"
         }, 
@@ -11324,7 +11748,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "github 101 in Rstudio"
         }, 
@@ -11361,7 +11785,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Hacking CRISPR - Code Sprint"
         }, 
@@ -11398,7 +11822,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Science Support - How to get outside support for your projects"
         }, 
@@ -11435,7 +11859,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "CERN Webfest - from fundamental science to sustainable development"
         }, 
@@ -11472,7 +11896,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Open Science, Open Mic"
         }, 
@@ -11509,7 +11933,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Future of the Web", 
+            "tags": [
+                "The Future of the Web"
+            ], 
             "timeblock": "", 
             "title": "Drawing for maps: creating GEOmetries on the web"
         }, 
@@ -11546,7 +11972,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Navigating Privacy and Sharing in Biomedical Research"
         }, 
@@ -11583,7 +12009,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Spoofing Bio-Surveillance: Practices to protect your bioprivacy"
         }, 
@@ -11620,7 +12046,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Open Data Training Curriculum"
         }, 
@@ -11657,7 +12083,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Real-life Open Science workflows: use and interoperability of research tools"
         }, 
@@ -11694,7 +12120,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Open Knowledge Maps - A Visual Interface to the World’s Scientific Knowledge"
         }, 
@@ -11731,7 +12157,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "I didn’t know I could know so much! The open science way to do literature research"
         }, 
@@ -11768,7 +12194,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "How to make open data more open"
         }, 
@@ -11805,7 +12231,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Build and Share a Scientific Simulation Tool"
         }, 
@@ -11842,7 +12268,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Building Open Scientific Communities: a hands-on dive into online collaboration tools"
         }, 
@@ -11879,7 +12305,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Future of the Web", 
+            "tags": [
+                "The Future of the Web"
+            ], 
             "timeblock": "", 
             "title": "Look Around EU: Fighting Brexit with Data"
         }, 
@@ -11916,7 +12344,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "miniReproducibility Project: An open source web extension and portal to compare scientific figures and provide visibility for trainees"
         }, 
@@ -11953,7 +12381,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "miniReproducibility Project: Open source Chrome extension, relational database and dynamic wiki portal-learn, create and be recognized for your contributions"
         }, 
@@ -11990,7 +12418,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Building Bioinformatics capacities in Africa"
         }, 
@@ -12027,7 +12455,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Media Player for the severely impaired using brain-computer interface (BCI) and open data"
         }, 
@@ -12064,7 +12492,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Refactor applications using Container and Microservices"
         }, 
@@ -12101,7 +12529,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Nerdcator - Crowdsourced maps for nerd travellers"
         }, 
@@ -12138,7 +12566,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Feed the G3K; from the open web to a Giant Global Graph of Knowledge"
         }, 
@@ -12175,7 +12603,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Machine Learning for Humans"
         }, 
@@ -12212,7 +12640,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Open Cosmics: Bringing Cosmic-Ray Physics to Everyone"
         }, 
@@ -12249,7 +12677,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "An open platform for citizen science wildlife monitoring with DIY motion sensing cameras"
         }, 
@@ -12286,7 +12714,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Let's Construct Open Data Initiatives that Last"
         }, 
@@ -12323,7 +12751,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "A short introduction to Quantum computing"
         }, 
@@ -12360,7 +12788,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Connecting the Dots: Network Analysis for Organisational Value"
         }, 
@@ -12397,7 +12825,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Let us build our own offline Internet"
         }, 
@@ -12434,7 +12862,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Open Air Quality Science for Schools and Citizens: an online community."
         }, 
@@ -12471,7 +12899,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Tea + Linux = Developer Friendly OS"
         }, 
@@ -12508,7 +12936,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Processing environmental big-data in the browser for Science!!"
         }, 
@@ -12545,7 +12973,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Study Groups - Crossing the Boundaries of Discipline"
         }, 
@@ -12582,7 +13010,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Future of the Web", 
+            "tags": [
+                "The Future of the Web"
+            ], 
             "timeblock": "", 
             "title": "Open science in drug design: Analysis and visualization of an open experimental dataset of FDA approved cancer drugs"
         }, 
@@ -12619,7 +13049,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "How successful is my (open use) scientific software?"
         }, 
@@ -12656,7 +13086,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Fighting Alzheimer's with citizen science"
         }, 
@@ -12693,7 +13123,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Collective Knowledge: an open research SDK to share, evaluate and reuse artifacts"
         }, 
@@ -12730,7 +13160,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Imposter Syndrome: Do you need a science degree to communicate science?"
         }, 
@@ -12767,7 +13197,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Quantum Computing: A discussion on keeping the future of Computing Open"
         }, 
@@ -12804,7 +13234,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Become a neuroscientist"
         }, 
@@ -12841,7 +13271,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Making open data more accessible"
         }, 
@@ -12878,7 +13308,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Using open sourced Crowd mapping to improve citizen and government engagement"
         }, 
@@ -12915,7 +13345,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "Future of the Web", 
+            "tags": [
+                "The Future of the Web"
+            ], 
             "timeblock": "", 
             "title": "Data: from \"What, Why, and How\" to \"You, Here, and Now\""
         }, 
@@ -12952,7 +13384,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Networking science, citizens, & grassroots"
         }, 
@@ -12989,7 +13421,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Dreams on balloons"
         }, 
@@ -13026,7 +13458,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Crawling the web for genomic data with Node.js Streams and Bionode.io"
         }, 
@@ -13063,7 +13495,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Science in 4K: Using Advanced Broadband to Democratize Scientific Research, K-12 and Beyond"
         }, 
@@ -13100,7 +13532,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Gigabits, the Higgs boson, and citizen science"
         }, 
@@ -13137,7 +13569,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "GOSH! A roadmap for open science hardware"
         }, 
@@ -13174,7 +13606,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Go green with IoT"
         }, 
@@ -13211,7 +13643,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Dewizardification of Bioinformatics and Data Science"
         }, 
@@ -13248,7 +13680,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Creating fast, easy, & compelling interactives using Ant (augmented narrative toolkit)"
         }, 
@@ -13285,7 +13717,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Science safaris in the Maasai Mara, Kenya"
         }, 
@@ -13322,7 +13754,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Innovation ideas hub"
         }, 
@@ -13359,7 +13791,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Hack Brexit Workshop"
         }, 
@@ -13396,7 +13828,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "How can we Mozillas data to solve others problems?"
         }, 
@@ -13433,7 +13865,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Quantum computing - the next step"
         }, 
@@ -13470,7 +13902,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Digital evolution. Our destiny?"
         }, 
@@ -13507,7 +13939,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "SOS: Tips For Deploying Scientific Online Simulations and Data"
         }, 
@@ -13544,7 +13976,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Open Leadership Training Series Mentorship Office Hours"
         }, 
@@ -13601,7 +14033,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "10:00am", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-10am--saturday-10-00-", 
             "title": "OBA Makers"
         }, 
@@ -13658,7 +14094,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "12:30pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sun-lunch--sunday-12-30-", 
             "title": "I did an epic fail, it felt awesome"
         }, 
@@ -13715,7 +14155,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sun-1pm--sunday-13-00-", 
             "title": "The formula for the sweet spot for nano credentials"
         }, 
@@ -13772,7 +14216,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Go2B - Badging for Intercultural Exchanges"
         }, 
@@ -13829,7 +14277,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Improving informal learning through Open Badges in the developing of Cities of Learning"
         }, 
@@ -13886,7 +14338,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "12:30pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sun-lunch--sunday-12-30-", 
             "title": "Organic Badge Growth - A Case Study"
         }, 
@@ -13943,7 +14399,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "12:30pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sun-lunch--sunday-12-30-", 
             "title": "Creating a domino effect: what can we all do, however small, to make research more open and reproducible?"
         }, 
@@ -14000,7 +14460,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Siemens digital badges - sparking curiosity in STEM"
         }, 
@@ -14057,7 +14521,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Young Carers in Focus: Recognising youth advocacy through Open Badges"
         }, 
@@ -14114,7 +14582,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "12:30pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sun-lunch--sunday-12-30-", 
             "title": "Drilling into new potentials for Open Badges"
         }, 
@@ -14171,7 +14643,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Changing cultures and breaking down silos with Open Badges"
         }, 
@@ -14228,7 +14704,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:00am", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Corona-Norco Unified School District - Case Study"
         }, 
@@ -14285,7 +14765,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-1pm--saturday-13-00-", 
             "title": "BadgeMaker – Prototyping Monsters!"
         }, 
@@ -14342,7 +14826,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Supporting serendipitious encounters with open badges"
         }, 
@@ -14399,7 +14887,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sun-1pm--sunday-13-00-", 
             "title": "Open Badges and professional regulation"
         }, 
@@ -14456,7 +14948,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Capturing learning cycles with Open Badges"
         }, 
@@ -14513,7 +15009,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Changing cultures and breaking down silos with Open Badges"
         }, 
@@ -14570,7 +15070,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-1pm--saturday-13-00-", 
             "title": "Badge Education"
         }, 
@@ -14627,7 +15131,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-1pm--saturday-13-00-", 
             "title": "NHS badges and unintended outcomes"
         }, 
@@ -14684,7 +15192,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Open Badges- a means for promoting and displaying digital soft skills for employability"
         }, 
@@ -14741,7 +15253,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sun-1pm--sunday-13-00-", 
             "title": "Join the European Open Badge Network!"
         }, 
@@ -14798,7 +15314,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "12:30pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-12-30pm--saturday-12-30-", 
             "title": "Lessons learned in visual badge design - the good the bad and the downright ugly"
         }, 
@@ -14855,7 +15375,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-1pm--saturday-13-00-", 
             "title": "Open Badges are quality!"
         }, 
@@ -14912,7 +15436,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "How to Build a Hiring Process around Open Badges"
         }, 
@@ -14969,7 +15497,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-1pm--saturday-13-00-", 
             "title": "Building Open Badge Networks"
         }, 
@@ -15026,7 +15558,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Digital Champions: scaffolding adult digital and web literacies with badges"
         }, 
@@ -15083,7 +15619,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "12:30pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-12-30pm--saturday-12-30-", 
             "title": "Accrediting the role of IT Technicians in Education"
         }, 
@@ -15140,7 +15680,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "12:30pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-12-30pm--saturday-12-30-", 
             "title": "Competency-based Professional Development and Digital Badges"
         }, 
@@ -15197,7 +15741,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:15am", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "The Thinkasprint: the art of thinking sideways"
         }, 
@@ -15254,7 +15802,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:15am", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Code"
         }, 
@@ -15311,7 +15863,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Transformational Portfolios"
         }, 
@@ -15368,7 +15924,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:00am", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Architecture for Learning Pathways"
         }, 
@@ -15425,7 +15985,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:00am", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sun-11am--sunday-11-00-", 
             "title": "THE BIG BADGE THROW-DOWN"
         }, 
@@ -15482,7 +16046,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Beyond the Backpack: New approaches to storing, sharing and harvesting value from Open Badges"
         }, 
@@ -15539,7 +16107,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "An \"EPIC\" Approach to Connecting Youth & Business"
         }, 
@@ -15596,7 +16168,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "10:00am", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Open Badges Kickoff Roundtable"
         }, 
@@ -15653,7 +16229,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Cultivating Digital Pathways To The Creative Workforce"
         }, 
@@ -15710,7 +16290,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sun-1pm--sunday-13-00-", 
             "title": "Using Open Badges to Bridge the Gap Between Higher Ed and Employment"
         }, 
@@ -15767,7 +16351,11 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": "Web Literacy and Grassroots Advocacy, Digital Inclusion, Future of the Web ", 
+            "tags": [
+                "Advocacy & Web Literacy", 
+                "Digital Inclusion", 
+                "The Future of the Web"
+            ], 
             "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Digital Badges + ePortfolios = Learning Recognition Networks"
         }, 
@@ -15804,7 +16392,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Bringing Minecraft To Life"
         }, 
@@ -15841,7 +16429,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "GitHub's Patchwork"
         }, 
@@ -15878,7 +16466,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Rocket Rumble"
         }, 
@@ -15915,7 +16503,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "HTC Vive tilt brush; Minecraft for Artists."
         }, 
@@ -15952,7 +16540,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Getting to grips with OhBot"
         }, 
@@ -15989,7 +16577,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Playing with the King: Introducing Primary Students to Computational Thinking with a Giant Chess Board."
         }, 
@@ -16026,7 +16614,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "The Working Dead"
         }, 
@@ -16063,7 +16651,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "ND Daze"
         }, 
@@ -16100,7 +16688,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Tate Kids - Digital Makers"
         }, 
@@ -16137,7 +16725,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Book binding basics"
         }, 
@@ -16174,7 +16762,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Shaping Reality for AR Storytelling, from the idea to the prototype."
         }, 
@@ -16211,7 +16799,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "MAKE:VR ... Libraries: 21st century literacies and citizen tech"
         }, 
@@ -16248,7 +16836,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Code in Space"
         }, 
@@ -16285,7 +16873,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Hacking Minecraft with Raspberry Pi"
         }, 
@@ -16322,7 +16910,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Physical Computing with Scratch on the Raspberry Pi"
         }, 
@@ -16359,7 +16947,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Raspberry Jam"
         }, 
@@ -16396,7 +16984,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Building with the BBC Micro:bit"
         }, 
@@ -16433,7 +17021,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Making an Arduino Reaction game using a Raspberry Pi"
         }, 
@@ -16470,7 +17058,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Escalate"
         }, 
@@ -16507,7 +17095,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Get Interactive With Fiction"
         }, 
@@ -16544,7 +17132,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Minecraft Pi and the physical world"
         }, 
@@ -16581,7 +17169,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Magic Island"
         }, 
@@ -16618,7 +17206,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Think before you Click: Protect your Data"
         }, 
@@ -16655,7 +17243,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Off Grid - a game where data is your most powerful weapon"
         }, 
@@ -16692,7 +17280,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Virtual Living-Exploring Possibilities in VR"
         }, 
@@ -16729,7 +17317,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Build on WebVR and touch to interact! Come Augmented Reality for the web!"
         }, 
@@ -16766,7 +17354,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "SLRJam Robot Hack with the Crumble"
         }, 
@@ -16803,7 +17391,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "LASERS - and what you can make with them."
         }, 
@@ -16840,7 +17428,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "LASERS - and how you can use them to bring your drawings to life"
         }, 
@@ -16877,7 +17465,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "LASERS - and how you can use them to make geeky jewellery / keyrings"
         }, 
@@ -16914,7 +17502,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Castles, code and capacitive buttons : Building castles in Minecraft with the touch of a button"
         }, 
@@ -16951,7 +17539,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "SocialVR: Virtual Reality Storytelling for Youth and Non-Technical Adults"
         }, 
@@ -16988,7 +17576,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Arduino: an introduction into programing and robotics"
         }, 
@@ -17025,7 +17613,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "The Great Fire 1666, using Minecraft to"
         }, 
@@ -17062,7 +17650,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Hands on Workshop for building WebVR experiences with Aframe"
         }, 
@@ -17099,7 +17687,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Build the Real World in Minecraft on Raspberry Pi"
         }, 
@@ -17136,7 +17724,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Data Permanence: How can it affect your future"
         }, 
@@ -17173,7 +17761,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "How might we scrapbook MozFest? - a Lo-Fi Paper Circuitry Physical Computing Workshop"
         }, 
@@ -17210,7 +17798,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Raspberry Pi Robots"
         }, 
@@ -17247,7 +17835,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Redbridge library youth club"
         }, 
@@ -17284,7 +17872,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Programmable Posters with Paper Circuitry"
         }, 
@@ -17321,7 +17909,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Creating Crumble Robots"
         }, 
@@ -17358,7 +17946,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "GPIO and Physical Computing."
         }, 
@@ -17395,7 +17983,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Displaying Images And Animations On The Sense Hat"
         }, 
@@ -17432,7 +18020,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "CEED Universe - gamified learning on a Rasperry Pi"
         }, 
@@ -17469,7 +18057,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Scratch-ing the Surface of GPIO pins on Raspberry Pi"
         }, 
@@ -17506,7 +18094,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Physical Computing with very basic Python"
         }, 
@@ -17543,7 +18131,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Breadboard Basics - Circuit Building Fun!"
         }, 
@@ -17580,7 +18168,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Minecraft Mayhem"
         }, 
@@ -17617,7 +18205,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "The Butterfly Machine: Using technology to interpret art through music"
         }, 
@@ -17654,7 +18242,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Tiles for Tales"
         }, 
@@ -17691,7 +18279,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "RPi VPN: Using the Raspberry Pi to create a Virtual Private Network"
         }, 
@@ -17728,7 +18316,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Beginners guide to Scratching Maths with things from your kitchen"
         }, 
@@ -17765,7 +18353,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "The Grand Tour - experience our solar system in VR"
         }, 
@@ -17802,7 +18390,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Raspberry Pi Burping Jelly Babies"
         }, 
@@ -17839,7 +18427,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Automatic Twitter photo booth with the Raspberry Pi"
         }, 
@@ -17876,7 +18464,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "EduBlocks: Make the the transition from Scratch to Python."
         }, 
@@ -17913,7 +18501,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Spooktacular Sounds with Sonic Pi"
         }, 
@@ -17950,7 +18538,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Raspberry PIrate Radio!"
         }, 
@@ -17987,7 +18575,7 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": "", 
+            "tags": [], 
             "timeblock": "", 
             "title": "Raspberry Pi Rocket Launcher"
         }
