@@ -1744,9 +1744,9 @@
         }, 
         {
             "additional language": "", 
-            "category": "", 
+            "category": "Dialogue and Debate Speakers Series", 
             "day": "Saturday", 
-            "description": "Zeynep Tufekci, a professor at the University of North Carolina and contributor to the New York Times, will speak on digital inclusion and decentralization.\n\nBrian Behlendorf, the Executive Director of the Hyperledger Project will give a talk titled “Bringing Back the Decentralized Web, with Blockchains and Other New Tools”.\n\nAnd Maggie Vail, the Executive Director of CASH Music, will weigh in on web literacy.\n\nEach talk will be followed by a brief, moderated Q&A and will be streamed live on facebook.com/mozilla", 
+            "description": "Zeynep Tufekci, a professor at the University of North Carolina and contributor to the New York Times, will speak on digital inclusion and decentralization.\n\nBrian Behlendorf, the Executive Director of the Hyperledger Project will give a talk titled “Bringing Back the Decentralized Web, with Blockchains and Other New Tools”.\n\nAnd Maggie Vail, the Executive Director of CASH Music, will weigh in on web literacy.\n\nEach talk will be followed by a brief, moderated Q&A and will be streamed live on https://facebook.com/mozilla", 
             "end": "12:00pm", 
             "facilitators": {
                 "1": {
