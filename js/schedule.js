@@ -310,11 +310,6 @@ function Schedule(CUSTOM_CONFIG) {
         customTagLabel: DISPLAY_NAME_FOR_TAG.singular
       }
 
-      // add Tags array for individual links
-      templateData.session.tagArray = _.each(session.tags.split(','), function(i) {
-        schedule.trim(i);
-      })
-
       // clear currently highlighted tab/page link
       schedule.clearHighlightedPage();
 
@@ -607,7 +602,7 @@ function Schedule(CUSTOM_CONFIG) {
         var filteredSessions = _.filter(schedule.sessionList, function(v, k) {
           return (v.title.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                || (v.facilitators_names.join(" ").toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
-               || (v.tags.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
+               || (v.tags.join(",").toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                || (v.category.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                || (v.description.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0);
         });
@@ -681,6 +676,7 @@ function Schedule(CUSTOM_CONFIG) {
     var header = "";
     var description = "";
     var icon = "";
+    var categoryName = "";
     schedule.loadCategories(function() {
       var theCategory = schedule.categoryMetaList.filter(function(category){
         return schedule.slugify(category.name) === schedule.filterValue;
@@ -758,6 +754,7 @@ function Schedule(CUSTOM_CONFIG) {
   // display the single [Tag] view
   schedule.displaySingleTagView = function() {
     var description = "";
+    var tagName = "";
     schedule.loadTags(function() {
       var theTag = schedule.tagMetaList.filter(function(tag) {
         return schedule.slugify(tag.name) === schedule.filterValue;

@@ -105,7 +105,7 @@
           <% if (session.category) { %><%- session.category %><% } %><% if (session.category&&session.location) { %>, <% } %><% if (session.location) { %><%- smartypants(session.location) %><% } %>
         </div>
         <% } %>
-         <% if (session.tags) { %>
+         <% if (session.tags && session.tags.length > 0) { %>
         <div class="session-tags item">
           <%- session.tags %>
         </div>
@@ -151,10 +151,11 @@
               <a href="#_<%- customCategoryLabel %>-<%- slugify(session.category) %>" class="category" data-category="<%- slugify(session.category) %>"><%- session.category %></a><% } %><% if (session.category&&session.location) { %>, <% } %><% if (session.location) { %><%- smartypants(session.location) %><% } %>
           </div>
           <% } %>
-          <% if (session.tags && session.tagArray.length) { %>
+          <% if (session.tags && session.tags.length > 0) { %>
           <div class="session-tags item">
-            <% session.tagArray.forEach(function(tag, index) { %><% if (index > 0) { %>, <% } %>
-              <a href="#_<%- customTagLabel %>-<%- slugify(tag) %>" class="tag" data-tag="<%- slugify(tag) %>"><%- tag %></a><% }) %>
+            <% session.tags.forEach(function(tag, index) { %><% if (index > 0) { %>, <% } %>
+              <% var cleanTag = tag.replace("\"",""); %>
+              <a href="#_<%- customTagLabel %>-<%- slugify(tag) %>" class="tag" data-tag="<%- slugify(tag) %>"><%- cleanTag %></a><% }) %>
           </div>
           <% } %>
           <% if (session.facilitators) { %>
