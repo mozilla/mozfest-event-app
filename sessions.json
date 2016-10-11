@@ -193,7 +193,7 @@
             "start": "10:00am", 
             "tags": [], 
             "timeblock": "sun-main-stage--sunday-10-00-", 
-            "title": "MozFest Networking Breakfast"
+            "title": "MozFest Breakfast"
         }, 
         {
             "additional language": "", 
@@ -1746,7 +1746,7 @@
             "additional language": "", 
             "category": "Dialogues and Debates Speakers Series", 
             "day": "Saturday", 
-            "description": "Zeynep Tufekci, a professor at the University of North Carolina and contributor to the New York Times, will speak on digital inclusion and decentralization.\n\nBrian Behlendorf, the Executive Director of the Hyperledger Project will give a talk titled “Bringing Back the Decentralized Web, with Blockchains and Other New Tools”.\n\nAnd Maggie Vail, the Executive Director of CASH Music, will weigh in on web literacy.\n\nEach talk will be followed by a brief, moderated Q&A and will be streamed live on https://facebook.com/mozilla", 
+            "description": "Zeynep Tufekci, a professor at the University of North Carolina and contributor to the New York Times, will speak about digital inclusion and decentralization.\n\nBrian Behlendorf, the Executive Director of the Hyperledger Project will give a talk titled “Bringing Back the Decentralized Web, with Blockchains and Other New Tools.”\n\nAnd Maggie Vail, the Executive Director of CASH Music, will speak about web literacy.\n\nEach talk will be followed by a brief, moderated Q&A and will be streamed live on https://facebook.com/mozilla", 
             "end": "12:15pm", 
             "facilitators": {
                 "1": {
@@ -1779,6 +1779,162 @@
             "start": "11:15am", 
             "tags": [], 
             "timeblock": "sat-11-15am--saturday-11-15-", 
+            "title": "Dialogues & Debates: MozFest's Official Speaker Series"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dialogues and Debates Speakers Series", 
+            "day": "Saturday", 
+            "description": "Mark Surman, Executive Director of the Mozilla Foundation, will speak about Mozilla's five key issues.\n\nAnd Sahar Aziz, Professor of Law at Texas A&M University, will speak about privacy, security, and digital inclusion.\n\nEach talk will be followed by a brief, moderated Q&A and will be streamed live on https://facebook.com/mozilla", 
+            "end": "1:45pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Mozilla Foundation", 
+                    "name": "Mark Surman", 
+                    "twitter": "@msurman"
+                }, 
+                "2": {
+                    "affiliated org": "Texas A&M University", 
+                    "name": "Sahar Aziz", 
+                    "twitter": "@saharazizlaw"
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Mark Surman", 
+                "Sahar Aziz", 
+                ""
+            ], 
+            "id": "914", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 0 - Foyer", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sat-1pm--saturday-13-00-", 
+            "title": "Dialogues & Debates: MozFest's Official Speaker Series"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dialogues and Debates Speakers Series", 
+            "day": "Saturday", 
+            "description": "Katherine Maher, Executive Director of the Wikimedia Foundation, will speak about the open internet movement.\n\nChris Soghoian, Principal Technologist & Senior Policy Analyst at the ACLU, will speak about privacy and security.\n\nAnd Ashe Dryden, White House Fellow, will give a talk titled \"The Ethics of Unpaid Labor and Open Source Software.\"\n\nEach talk will be followed by a brief, moderated Q&A and will be streamed live on https://facebook.com/mozilla", 
+            "end": "4:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Wikimedia Foundation", 
+                    "name": "Katherine Maher", 
+                    "twitter": "@krmaher"
+                }, 
+                "2": {
+                    "affiliated org": "ACLU", 
+                    "name": "Chris Soghoian", 
+                    "twitter": "@csoghoian"
+                }, 
+                "3": {
+                    "affiliated org": "White House", 
+                    "name": "Ashe Dryden", 
+                    "twitter": "@ashedryden"
+                }
+            }, 
+            "facilitators_names": [
+                "Katherine Maher", 
+                "Chris Soghoian", 
+                "Ashe Dryden"
+            ], 
+            "id": "915", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 0 - Walker Space", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "3:15pm", 
+            "tags": [], 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
+            "title": "Dialogues & Debates: MozFest's Official Speaker Series"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dialogues and Debates Speakers Series", 
+            "day": "Sunday", 
+            "description": "Volker Birk, CTO of pretty Easy privacy and President of the p≡p Foundation Council, will speak about privacy and security.\n\nAnd Katharina Borchert, Chief Innovation Officer at Mozilla, will speak about equal rating.\n\nEach talk will be followed by a brief, moderated Q&A and will be streamed live on https://facebook.com/mozilla", 
+            "end": "1:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "pretty Easy privacy", 
+                    "name": "Volker Birk", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "Mozilla", 
+                    "name": "Katharina Borchert", 
+                    "twitter": "@lyssaslounge"
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Volker Birk", 
+                "Katharina Borchert", 
+                ""
+            ], 
+            "id": "916", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 0 - Walker Space", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "12:15pm", 
+            "tags": [], 
+            "timeblock": "sun-12-15pm--sunday-12-15-", 
+            "title": "Dialogues & Debates: MozFest's Official Speaker Series"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dialogues and Debates Speakers Series", 
+            "day": "Sunday", 
+            "description": "Simone Browne, Professorat University of Texas at Austin, will speak about privacy, security, and digital inclusion.\n\nAnd Eliot Higgins, Founder of Bellingcat and Brown Moses blog, will give a talk titled \"The End of Secrets: Conflict in the Engagement Age.\"\n\nEach talk will be followed by a brief, moderated Q&A and will be streamed live on https://facebook.com/mozilla", 
+            "end": "3:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "University of Texas at Austin", 
+                    "name": "Simone Browne", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "Bellingcat & Brown Moses Blog", 
+                    "name": "Eliot Higgins", 
+                    "twitter": "@EliotHiggins"
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Simone Browne", 
+                "Eliot Higgins", 
+                ""
+            ], 
+            "id": "917", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 0 - Walker Space", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "2:00pm", 
+            "tags": [], 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Dialogues & Debates: MozFest's Official Speaker Series"
         }, 
         {
@@ -1838,6 +1994,65 @@
             "start": "10:00am", 
             "tags": [], 
             "timeblock": "sat-10am--saturday-10-00-", 
+            "title": "Web Animation for Artists & Others"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Digital arts and culture", 
+            "day": "Sunday", 
+            "description": "The new Web Animations API standards offer powerful tools for developers to use code to add animation to their web apps. But there's a lot more to this API than tools for programmers. There's new opportunities for artists and others to learn and use these digital tools for creative expression and fun.", 
+            "end": "2:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Mozilla Foundation", 
+                    "name": "Jet Villegas", 
+                    "twitter": "@junglecode"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "Eri Sekiguchi", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "4": {
+                    "name": ""
+                }, 
+                "5": {
+                    "name": ""
+                }, 
+                "6": {
+                    "name": ""
+                }, 
+                "7": {
+                    "name": ""
+                }, 
+                "8": {
+                    "name": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Jet Villegas", 
+                "", 
+                "Eri Sekiguchi", 
+                "", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "500", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 1 - 101", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "2:00pm", 
+            "tags": [], 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Web Animation for Artists & Others"
         }, 
         {
@@ -2498,8 +2713,9 @@
         {
             "additional language": "", 
             "category": "Digital arts and culture", 
-            "description": "", 
-            "duration": "", 
+            "day": "Sunday", 
+            "description": "A dedicated space to join an ongoing conversation about how we as educators, artists, and technologists can better understand the intersection of art, advocacy, and digital literacy. This could include unique tools, conversations, or learning resources.  This conversation is ideal for all those representating education, digital literacy, youth work and the arts who want to gain a stronger understanding of these topics.\n\nThe aim of the session and it's fringe event taking place at Tate Modern is to build  a set of resources and individuals interested in advocating for a free and open internet, teaching youth, empowering citizens, and able to use art as a vehicle for all those things.\n", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "The Sprout Fund", 
@@ -2548,8 +2764,9 @@
             "location": "Floor 1 - 101", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Digital Literacy & Culture: On the Intersection of Art, Education, & Advocacy"
         }, 
         {
@@ -2855,7 +3072,7 @@
             "additional language": "", 
             "category": "Digital arts and culture", 
             "day": "Saturday", 
-            "description": "The Digital Maker Collective is an evolving group of art school staff and students who work in collaboration. Our session would invite the public to join the collective in conversation & hands on activities, which explore an art school perspective of digital making & emergent practice in the arts. The public will be invited to participate in exploratory & collaborative 'works in progress' art & technology projects being developed by arts students & staff of the University of the Arts collective. Come jam with us!", 
+            "description": "Come along and meet with the Digital Maker Collective, an interdisciplinary interest led gathering of arts staff, students and alumni from the University of the Arts London. The Collective explore and critique digital making, emergent\ndigital practice, collaboration and the sharing economy.  At MozFest members of the Collective will share art school perspectives of digital practice as well as exploring related connections across digital projects, concepts & technologies. Expect environment-mapping, interactive virtual worlds, creative uses of glitches, utopian art schools, photogrammetry, bio feedback devices, web & artistic agency and art school play with virtual reality HTC vive/Tiltbrush.\n", 
             "end": "6:00pm", 
             "facilitators": {
                 "1": {
@@ -4673,7 +4890,7 @@
             "id": "88", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 6 - 612", 
+            "location": "Floor 6 - 604", 
             "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
@@ -4712,7 +4929,7 @@
             "id": "94", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 6 - 612", 
+            "location": "Floor 6 - 604", 
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
@@ -5186,7 +5403,7 @@
             "category": "Dilemmas in connected spaces", 
             "day": "Saturday", 
             "description": "Activity - engaging citizen scientists and analytics experts:\nAttendees will be taught the basic principles of Human Centric Lighting and how the body’s organ functions are directly linked to the rise and fall of the sun. From NASA to horticulturists, light is increasingly recognised as a drug for living organisms. If used correctly, light can improve sleep as well as focus.\nExperiment with Smart Diffuser and experience the effects of the light:\nBased on research carried out in classrooms, offices and even on the International Space Station, attendees will be able to program a set of Quantum Dot enhanced lights (the Smart Diffuser TM) to shift colour temperature over a 10 minute period and find out the effect on their body. Nano-Lit will stream the data collected in real time to an online server to see if results are valuable and what they tell us about Human Centric Lighting.", 
-            "end": "5:30pm", 
+            "end": "4:45pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Nano-Lit Technologies", 
@@ -5212,12 +5429,12 @@
             "id": "342", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 6 - 612", 
+            "location": "Floor 6 - 604", 
             "notes url": "", 
             "programmatic": false, 
-            "start": "4:30pm", 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "sat-4-30pm--saturday-16-30-", 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Is Light a Drug?"
         }, 
         {
@@ -5299,9 +5516,9 @@
         {
             "additional language": "", 
             "category": "Dilemmas in connected spaces", 
-            "day": "Sunday", 
+            "day": "Saturday", 
             "description": "The reality of innovation in 2016 is that the best ideas can come from anywhere.  This session will show that with encouragement , reassurance and a safe environment anyone can contribute to generating, selecting and refining great innovations.", 
-            "end": "1:15pm", 
+            "end": "12:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -5309,30 +5526,30 @@
                     "twitter": "@msaunby"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "Be-novative", 
+                    "name": "Katalin Zöldi", 
                     "twitter": ""
                 }, 
                 "3": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "Be-novative", 
+                    "name": "Réka Boronkay ", 
                     "twitter": ""
                 }
             }, 
             "facilitators_names": [
                 "Michael Saunby", 
-                "", 
-                ""
+                "Katalin Zöldi", 
+                "Réka Boronkay "
             ], 
             "id": "442", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 6 - 612", 
+            "location": "Floor 6 - 604", 
             "notes url": "", 
             "programmatic": false, 
-            "start": "12:15pm", 
+            "start": "11:15am", 
             "tags": [], 
-            "timeblock": "sun-12-15pm--sunday-12-15-", 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Open Innovators"
         }, 
         {
@@ -5414,7 +5631,7 @@
         {
             "additional language": "", 
             "category": "Dilemmas in connected spaces", 
-            "day": "Sunday", 
+            "day": "Saturday", 
             "description": "Toys began as homemade things, often made by children themselves to designs passed down through generations.  The growth of the maker community, the capacity of the Internet to share ideas and the delight of a successful make, 3D printing, and more, should enable a resurgence of delightful, quirky, cheap, amazing, personal, empowering, life changing TOYS!  Let's make some!", 
             "end": "3:00pm", 
             "facilitators": {
@@ -5425,29 +5642,29 @@
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "name": "Martha Sedgwick", 
+                    "twitter": "@Whyweexplore"
                 }, 
                 "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "One Five West", 
+                    "name": "Anna Horton", 
+                    "twitter": "@onefivewest"
                 }
             }, 
             "facilitators_names": [
                 "Michael Saunby", 
-                "", 
-                ""
+                "Martha Sedgwick", 
+                "Anna Horton"
             ], 
             "id": "467", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 6 - 612", 
+            "location": "Floor 6 - 604", 
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "sun-2pm--sunday-14-00-", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Future toys"
         }, 
         {
@@ -5631,7 +5848,7 @@
             "id": "538", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 6 - 612", 
+            "location": "Floor 6 - 604", 
             "notes url": "", 
             "programmatic": false, 
             "start": "11:00am", 
@@ -5917,7 +6134,7 @@
             "category": "Dilemmas in connected spaces", 
             "day": "Saturday", 
             "description": "We take directions from our phones. On the web, helpful algorithms suggest what we should buy, where we should eat, who we should be friends with, which news articles are worth our time. In the wider world, they have been trading in the stock market, advising on prison sentences, and even deciding which Hollywood films should be made.\nThis session will explore our relationships with algorithms, as servants, advisors and scapegoats. We'll explore the need for careful design and transparency, as well as the need to retain some control.", 
-            "end": "4:15pm", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Met Office Informatics Lab", 
@@ -5943,12 +6160,12 @@
             "id": "689", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 6 - 612", 
+            "location": "Floor 6 - 604", 
             "notes url": "", 
             "programmatic": false, 
-            "start": "3:15pm", 
+            "start": "4:30pm", 
             "tags": [], 
-            "timeblock": "sat-3-15pm--saturday-15-15-", 
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "My best friend's a flowchart"
         }, 
         {
@@ -6632,15 +6849,16 @@
             "title": "Painting with Virtual Reality and A-Painter"
         }, 
         {
-            "additional language": "", 
+            "additional language": "French", 
             "category": "Fuel the movement", 
-            "description": "The European Commission's (EC) copyright reform proposal is expected for fall 2016. This session sets the scene of what to expect (or not to expect) from the the European Parliament and EU Member States when they discuss this proposals in 2017, and calls upon the support of the Mozillians to help steer the debate in the right direction. Participants should leave the session with a better understanding of why and how they can help to #FixCopyright.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "Did you know making a meme technically isn't allowed in many parts of the EU? And that it’s illegal to share a picture of the Eiffel Tower light display at night? Did you know in some parts of the EU, teachers aren’t legally allowed to screen films or share teaching materials in the classroom? Think that’s absurd? So do we and we've assembled a panel of experts to talk about what's wrong and what you can do. Come hear from friends at Creative Commons, Communia, Copyright 4 Creativity, European Digital Rights, the International Federation of Library Associations, and Mozilla. This session will set the stage so you can stand up for copyright reform across Europe.", 
+            "end": "10:00am", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "Copyright for Creativity (C4C)", 
-                    "name": "Caroline De Cock", 
-                    "twitter": "@linotherhino"
+                    "affiliated org": "Mozilla", 
+                    "name": "Raegan MacDonald", 
+                    "twitter": "@ShmaeganM"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -6654,25 +6872,27 @@
                 }
             }, 
             "facilitators_names": [
-                "Caroline De Cock", 
+                "Raegan MacDonald", 
                 "", 
                 ""
             ], 
             "id": "72", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
-            "title": "#FixCopyright: Now is the Time to Act"
+            "timeblock": "sat-10am--saturday-10-00-", 
+            "title": "Reform EU Copyright: What's Wrong With It, and What You Can Do"
         }, 
         {
             "additional language": "", 
             "category": "Fuel the movement", 
+            "day": "Sunday", 
             "description": "Will fill out when they respond (or they may fill out directly)", 
-            "duration": "", 
+            "end": "4:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -6698,11 +6918,12 @@
             "id": "76", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-4-30pm--sunday-16-30-", 
             "title": "[Place holder] 350 session on organizing"
         }, 
         {
@@ -6783,44 +7004,46 @@
             "start": "2:00pm", 
             "tags": [], 
             "timeblock": "sun-2pm--sunday-14-00-", 
-            "title": "Neutral Networking Building Workshop"
+            "title": "What's Next for NN in the EU after BEREC?"
         }, 
         {
             "additional language": "", 
             "category": "Fuel the movement", 
-            "description": "Mozilla Open Software Patent License (MOSPL) place holder. Raegan and Elvin will organize lightning talks around open patents.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "How can we use patents to foster innovation? How do patents impact all of us on a daily basis? Let's explore what's possible and impossible to do with Free/Libre Open Source (FLOS) and Open Hardware (OH) licences. We'll talk about the current obstacles/challenges that patents present to open software and open hardware, how patents can expressly permit everyone to openly innovate, and how open source patents can prevent patent trolls or proprietary entities from claiming technologies that are meant for everyone. The more entities that license their software patents to include and encourage open innovation (rather than reserve all rights to exclude) the healthier the open source ecosystem gets.", 
+            "end": "11:15am", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "", 
-                    "name": "Melissa Romaine", 
-                    "twitter": ""
+                    "affiliated org": "Mozilla", 
+                    "name": "Elvin Lee", 
+                    "twitter": "@learnedhoof"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "EFF", 
+                    "name": "Vera Ranieri", 
+                    "twitter": "@vranieri"
                 }, 
                 "3": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Antoine Chevrier", 
                     "twitter": ""
                 }
             }, 
             "facilitators_names": [
-                "Melissa Romaine", 
-                "", 
-                ""
+                "Elvin Lee", 
+                "Vera Ranieri", 
+                "Antoine Chevrier"
             ], 
             "id": "232", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:15am", 
             "tags": [], 
-            "timeblock": "", 
-            "title": "[Place Holder] Open Patents"
+            "timeblock": "sat-11-15am--saturday-11-15-", 
+            "title": "Patents for Innovation"
         }, 
         {
             "additional language": "", 
@@ -6864,13 +7087,13 @@
         {
             "additional language": "", 
             "category": "Fuel the movement", 
-            "description": "Learn about the challenges and opportunities that Intellectual Property (patents, copyright, etc.) present to open source software and the Web.", 
+            "description": "Check out our new game on patents to learn about the challenges and opportunities that Intellectual Property (patents, copyright, etc.) present to open source software and the Web.", 
             "duration": "", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "Mozilla Corporation", 
-                    "name": "Elvin Lee", 
-                    "twitter": "@learnedhoof"
+                    "affiliated org": "Mozilla", 
+                    "name": "Matthew Claypotch (Potch)", 
+                    "twitter": "@potch"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -6884,7 +7107,7 @@
                 }
             }, 
             "facilitators_names": [
-                "Elvin Lee", 
+                "Matthew Claypotch (Potch)", 
                 "", 
                 ""
             ], 
@@ -6942,8 +7165,9 @@
         {
             "additional language": "", 
             "category": "Fuel the movement", 
-            "description": "In this session we will be describing briefly the main failures (aka \"copyfails\" - https://edri.org/copyfails/) in existing EU copyright law and will investigate with other MozFest participants how to create alliances on specific topics: exceptions and limitations, copyright enforcement, geo-blocking and others. We will tackle this from an open web perspective and avoid legalese jargon to make understand how copyright affects everyone in different ways and how this is not a matter of \"authors vs pirates\".", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "What are the main failures in existing EU copyright law? Are there some best case scenarios? Let's talk about exceptions and limitations, copyright enforcement, geo-blocking and other topics from an open web perspective. Copyright affects everyone in different ways and how this is not a matter of \"rights holders vs pirates\".", 
+            "end": "12:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "European Digital Rights (EDRi)", 
@@ -6951,9 +7175,9 @@
                     "twitter": "@DNBSevilla"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "OMMUNIA Association for the Digital Public Domain", 
+                    "name": "Teresa Nobre", 
+                    "twitter": "@tenobre"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -6963,24 +7187,26 @@
             }, 
             "facilitators_names": [
                 "Diego Naranjo", 
-                "", 
+                "Teresa Nobre", 
                 ""
             ], 
             "id": "293", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "12:30pm", 
             "tags": [], 
-            "timeblock": "", 
-            "title": "Copyfails: Creating alliances to bring copyright to the XXI century"
+            "timeblock": "sat-12-30pm--saturday-12-30-", 
+            "title": "#CopyFails and Best-Case Scenarios for Copyright"
         }, 
         {
             "additional language": "", 
             "category": "Fuel the movement", 
-            "description": "We would like to discuss with and explain to MozFest participants how the EU works. As a second element of the session, we want to show how people can find their way through the Brussels labyrinth of EU officials, European Parliamentarians and other public institutions in order to advocate for the open web and digital rights.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "Brussels is a labyrinth of EU officials, European Parliamentarians and other public institutions. But it doesn't have to be! Come learn how the EU works, and how to engage activitsts and MEPs (Members of European Parliament) in order to advocate for the open web and digital rights.", 
+            "end": "4:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "European Digital Rights (EDRi)", 
@@ -6988,9 +7214,9 @@
                     "twitter": "@Kirst3nF"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "OpenMedia", 
+                    "name": "Ruth Coustick-Deal", 
+                    "twitter": "@Nesient"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -7000,34 +7226,36 @@
             }, 
             "facilitators_names": [
                 "Kirsten Fiedler", 
-                "", 
+                "Ruth Coustick-Deal", 
                 ""
             ], 
             "id": "297", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": [], 
-            "timeblock": "", 
-            "title": "Bursting the EU bubble: Call for action for activists"
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
+            "title": "Navigating Brussels: How to Engage Activists and MEPs in EU Parliament"
         }, 
         {
             "additional language": "", 
             "category": "Fuel the movement", 
-            "description": "We spend a lot of (important) effort repelling the threats to the commons. We fight ancillary copyright, SOPA, TPP, term extensions, and more. But a parallel track is leveraging copyright and public policy to work for us by advocating for open licensing policies for publicly funded digital resources.\nThese policies, possible within existing copyright framework, are necessary to guarantee access and reuse of taxpayer funded materials like scientific research, educational content, data, and even software. Via EU initiatives like Horizon 2020 and Erasmus+, there’s a huge opportunity to take a giant leap forward in populating the commons with a wealth of content that can be freely reused by all.\nThe session will explore several examples where this is already beginning to work. We’ll highlight advocacy tactics used across open licensing policy projects, and encourage everyone to engage in this work alongside other activism in support of the open web.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "How can everyday users of the internet get personalized and research-based recommendations to improve their digital security? What makes security education empowering and motivational? Citizen Lab is attempting to tackle these challenges with Security Planner, an online, interactive survey that provides easy-to-use security advice personalized to a user's technology platforms and risk factors. Help us improve Security Planner by providing feedback how we can adapt the tool and its recommendations to better meet your needs and those of the communities you work with.", 
+            "end": "2:00pm", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "Creative Commons", 
-                    "name": "Timothy Vollmer", 
-                    "twitter": "@tvol"
+                    "affiliated org": "Citizen Lab", 
+                    "name": "Christine Schoellhorn", 
+                    "twitter": "@CSchoellhorn"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "Citizen Lab", 
+                    "name": "John Scott Railton ", 
+                    "twitter": "@jsrailton"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -7036,30 +7264,32 @@
                 }
             }, 
             "facilitators_names": [
-                "Timothy Vollmer", 
-                "", 
+                "Christine Schoellhorn", 
+                "John Scott Railton ", 
                 ""
             ], 
             "id": "361", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
-            "title": "Buy One, Get One: Open licensing policy advocacy for the commons"
+            "timeblock": "sat-2pm--saturday-14-00-", 
+            "title": "Research-Based Digital Security Advice for Everyday Internet Users"
         }, 
         {
             "additional language": "", 
             "category": "Fuel the movement", 
-            "description": "Global rights campaigners are finding it harder and harder to engage activists in the most pressing fights of our time: Stopping global warming, LGBT rights, immigrant rights, digital rights, and more. Tactics and strategies that worked 2,3, or 5 years ago are no longer applicable. It's time to learn from present and past challenges to revisit strategies for engaging millions of people online and new metrics to define success.\nThis session will offer advocates, organizers, and communicators across different sectors, and from different regions around the world, the opportunity to share best practices in digital advocacy and to collaborate on strategies to better engage global rights activists in our respective (and related) fights.", 
-            "duration": "", 
+            "day": "Sunday", 
+            "description": "Global rights campaigners are finding it harder and harder to engage communities in the most pressing fights of our time: climate change, LGBT rights, immigrant rights, digital rights, and more. Tactics and strategies that worked in the past are no longer resonating. How can we learn from past challenges to redefine strategies for engaging millions of people online? How do we define success? Let's share best practices and collaborate on 2017 strategies; let's work together over the next 6 months and share our learning at events like RightsCon next year.", 
+            "end": "11:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Access Now", 
                     "name": "Josh Levy", 
-                    "twitter": "levjoy"
+                    "twitter": "@levjoy"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -7080,11 +7310,12 @@
             "id": "363", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Fighting Uphill Battles: What's Next for Digital Campaigning?"
         }, 
         {
@@ -7118,7 +7349,7 @@
             "id": "409", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
@@ -7129,13 +7360,14 @@
         {
             "additional language": "", 
             "category": "Fuel the movement", 
-            "description": "Education affects all of us - lifelong learning education is a standard, we all develop, progress and discover new things using various learning methods - the age doesn’t matter. Therefore copyright policy needs to empower – and not thwart – the activities of teaching and learning. While it is relatively well understood by the education community and institutions, there is low level of engagement in copyright reform debate of the open Internet movement. With participants of Mozfest we want to create an infographic to show challenges related to current copyright framework.\nAims of the workshop are to:\n1. Convince participants that copyright reform shall be a priority issue for everybody\n2. Engage people not involved yet in policy to support our call “Keep copyright out of classroom”\n3. Exchange experiences, gather new ideas to support Communia ongoing project “Copyright for education”", 
-            "duration": "", 
+            "day": "Sunday", 
+            "description": "How do you get people engaged with your cause? Come practice translating important (but potentially boring) messages into something exciting and emotional. Remember, less is always more!", 
+            "end": "11:00am", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "COMMUNIA Association", 
-                    "name": "Natalia Mileszyk", 
-                    "twitter": "@nmileszyk"
+                    "affiliated org": "Mozilla", 
+                    "name": "Jen Caltrider", 
+                    "twitter": "@caltrider"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -7149,25 +7381,27 @@
                 }
             }, 
             "facilitators_names": [
-                "Natalia Mileszyk", 
+                "Jen Caltrider", 
                 "", 
                 ""
             ], 
             "id": "536", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:00am", 
             "tags": [], 
-            "timeblock": "", 
-            "title": "Copyright and education: keep copyright out of classroom"
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "Everything in Life is about the TL;DR"
         }, 
         {
             "additional language": "", 
             "category": "Fuel the movement", 
-            "description": "This session will allow participants to understand how to strengthen their social change campaigning by employing the principles of user centred design employed by software/tech designers. The user-centred approach gives people working towards social change an opportunity to think about their efforts from the perspective of their stakeholders. Rather than thinking about how you will engage people, this approach will get you to better understand what motivates them to get engaged in the first place.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "What motivates people to get engaged? User-centered design can help you find out. An approach traditonally used by software/tech designers, it can help you view social change issues from the perspective of the stakeholder. Come find out how to use this tool to strengthen your campaign. ", 
+            "end": "2:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "FabRiders", 
@@ -7193,25 +7427,27 @@
             "id": "544", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [
                 "Advocacy & Web Literacy"
             ], 
-            "timeblock": "", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Hacking User Centred Design for Social Change"
         }, 
         {
-            "additional language": "", 
+            "additional language": "Spanish", 
             "category": "Fuel the movement", 
-            "description": "When advocating for copyright reform, we mostly react to something: a policy, a law proposal or a court decision. We take a more positive approach when we write down policy recommendations and position papers.\nThe problem with these writings is that they do not reach a wide audience. Maps, case studies, and simple factsheets do a better job.\nLast year, Communia issued a policy paper on the importance of copyright exceptions. Now we present the best examples of exceptions found in national laws of MS, which could be a model for harmonization of users rights in the EU.\nThe biggest obstacle we faced when selecting those cases is that no one has an overview of the national exceptions. So, Kennisland mapped down those legal provisions. This helps to visualize the balkanization of solutions in the EU.\nThe session will present these projects as tactics used when advocating for copyright reform.", 
-            "duration": "", 
+            "day": "Sunday", 
+            "description": "How do you learn from your mistakes? Activists around the globe share similar struggles and we can learn from each others' mistakes. Conferences alway show the best of the best, but failures can be as important as successes. In this session we'll explore ways to constructively talk about and learn from failures. Come listen to others and share your learnings and the strategies to turn failure into success. Outcomes are to start sharing our failures in the open in order to keep an honest community and to stop making the same mistakes. ", 
+            "end": "3:15pm", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "COMMUNIA Association for the Digital Public Domain", 
-                    "name": "Teresa Nobre", 
-                    "twitter": "@tenobre"
+                    "affiliated org": "Cívica Digital", 
+                    "name": "Rafael Cardenas", 
+                    "twitter": "@rafaelcr"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -7225,25 +7461,27 @@
                 }
             }, 
             "facilitators_names": [
-                "Teresa Nobre", 
+                "Rafael Cardenas", 
                 "", 
                 ""
             ], 
             "id": "582", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "", 
-            "title": "Best Case Scenarios for Copyright: national exceptions to copyright in the EU"
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
+            "title": "Failing Forward"
         }, 
         {
             "additional language": "", 
             "category": "Fuel the movement", 
-            "description": "Copyright and other key digital policy battles require ongoing online engagement tools from organizations that are often under-resourced or don’t have all the technical tools they need. What if we could solve this problem together, creating a open source “toolkit” of organizing tools -- from “click to call” your representative to automated letters to the editor -- that all of us can share?\nNewMode, in collaboration with OpenMedia and other open Internet advocates, wants to develop a digital rights campaign platform that provides advocates across the board with affordable access to advanced online advocacy tools. The platform will make use of OpenMedia’s tested stack of engagement tools, which have already been used in some of the world’s largest open Internet campaigns.\nIn this session, we’ll lay out the current vision for the campaign platform, then engage in interactive demos that allow participants to get their hands on OpenMedia’s existing tools, like our “Click to Target,” “Click to Call,” and “Automated Letter to the Editor” tools. Participants will then help shape the platform’s future, providing feedback, sharing ideas for feature requests and wishlists, and contributing to the roadmap and next steps.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "What if we could create a shared set of open source engagement tools? Copyright and other key digital policy battles require ongoing online engagement tools from organizations that are often under-resourced or don’t have all the technical tools they need. The digital rights campaign platform - from NewMode, in collaboration with OpenMedia and other open Internet advocates - will provide advocates with affordable access to advanced online advocacy tools. The platform will make use of OpenMedia’s tested stack of engagement tools, which have already been used in some of the world’s largest open Internet campaigns.", 
+            "end": "2:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "NewMode in collaboration with OpenMedia", 
@@ -7269,18 +7507,19 @@
             "id": "621", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Building a Shared Platform for Digital Rights Campaigners"
         }, 
         {
             "additional language": "", 
             "category": "Fuel the movement", 
             "day": "Sunday", 
-            "description": "What are some ways to combat restrictive copyright measures and government censorship? Can we do it  through defending the hyperlink? We’ll introduce our interactive map that identifies threats to the hyperlink around the world, and highlights actions users can take to defend it. Let's crowdsource threats from Internet users, build this map to be an educational resource, and defend the hyperlink worldwide.  \nThe map builds on our collaborative Save the Link Network (https://SaveTheLink.org), which consists of over 100 groups campaigning to defend the hyperlink", 
+            "description": "What are some ways to combat restrictive copyright measures and government censorship? Can we do it  through defending the hyperlink? We’ll introduce our interactive map that identifies threats to the hyperlink around the world, and highlights actions users can take to defend it. Let's crowdsource threats from Internet users, build this map to be an educational resource, and defend the hyperlink worldwide.", 
             "end": "3:15pm", 
             "facilitators": {
                 "1": {
@@ -7318,12 +7557,12 @@
         {
             "additional language": "", 
             "category": "Fuel the movement", 
-            "description": "Accross an existing on progress project (mini wind turbines), an humble 15-20 mn presentation for all comers (makers, openess people, fablab, hacklabs, ...) making a synthesis of what is possible and impossible to do with FLOS and OHL licences when we run a project of things made with atoms, issues and announcement of one solution which sounds possible according to laws around the world, followed by a 45mn free and smart discussion around those questions and solution we could build together.", 
+            "description": "", 
             "duration": "", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
-                    "name": "antoine chevrier", 
+                    "name": "", 
                     "twitter": ""
                 }, 
                 "2": {
@@ -7338,7 +7577,7 @@
                 }
             }, 
             "facilitators_names": [
-                "antoine chevrier", 
+                "", 
                 "", 
                 ""
             ], 
@@ -7350,13 +7589,14 @@
             "programmatic": false, 
             "tags": [], 
             "timeblock": "", 
-            "title": "Energy and Things made with atoms projects, how put them under Free Libre Opensource terms and conditions"
+            "title": "DIY Activist Gear Making"
         }, 
         {
             "additional language": "", 
             "category": "Fuel the movement", 
-            "description": "How would you discover locally relevant content?\nA session for designers, developers, and enthusiasts who care about localization, native content, and creating a web that's relevant to you, wherever you are. Let's brainstorm ideas -- maybe even build a prototype -- on how to surface locally relevant content through some sort of tech tool. ", 
-            "duration": "", 
+            "day": "Sunday", 
+            "description": "How would you discover locally relevant content? Let's brainstorm ideas -- maybe even build a prototype -- on how to surface locally relevant content through some sort of tech tool. A session for designers, developers, and enthusiasts who care about localization, native content, and creating a web that's relevant to you, wherever you are. ", 
+            "end": "2:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -7364,9 +7604,9 @@
                     "twitter": "@anknite"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "Mozilla", 
+                    "name": "Nisha Malhan", 
+                    "twitter": "@nisha_malhan"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -7376,7 +7616,7 @@
             }, 
             "facilitators_names": [
                 "Ankit Gadgil", 
-                "", 
+                "Nisha Malhan", 
                 ""
             ], 
             "id": "788", 
@@ -7385,8 +7625,9 @@
             "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Discovering Local Content: What tech tools can we build?"
         }, 
         {
@@ -7424,13 +7665,13 @@
             "programmatic": false, 
             "tags": [], 
             "timeblock": "", 
-            "title": "What Revolution?"
+            "title": "What Revolution? (ART - MozEx)"
         }, 
         {
             "additional language": "", 
             "category": "Fuel the movement", 
             "day": "Saturday", 
-            "description": "Movements multiply their chances of success when they can draw upon each other’s best strategic insights and creative approaches — which is precisely the role that the Beautiful Rising toolbox plays. We invite you for a test of what it can do, and how you can become part of serving it back to the movements where it belongs. Come play our game!", 
+            "description": "Movements multiply their chances of success when they can draw upon each other’s best strategic insights and creative approaches — which is precisely the role that the Beautiful Rising toolbox plays. We invite you for a test of what it can do, and how you can become part of serving it back to the movements where it belongs. Come play our free game and take it home with you!", 
             "end": "11:15am", 
             "facilitators": {
                 "1": {
@@ -7465,22 +7706,23 @@
                 "Advocacy & Web Literacy"
             ], 
             "timeblock": "sat-11-15am--saturday-11-15-", 
-            "title": "Beautiful Rising - fueling your movement with creative direct actions"
+            "title": "Beautiful Rising - A Campaign Strategy Card Game"
         }, 
         {
             "additional language": "", 
             "category": "Fuel the movement", 
-            "description": "This workshop will explore the design of copyright communication through a hands-on speculative design workshop. Digital media can act to obfuscate copyright understanding. The intangibility of exchanges of images, videos, audio clips and data in the form of vines, ebooks, music streaming and so on means that it can be hard for consumers to know their rights in regard to intellectual property and this fact is often exploited by organisations who rely on intellectual property as part of their business model. An important part of copyright reform is not only a reassessment of the legal rights of consumers but also a reassessment of how rights are communicated and how consumers are made tangibly aware of their rights in their interactions.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "Do you understand your rights? Digital media can obfuscate copyright understanding. The intangibility of exchanging images, videos, audio clips and data in the form of vines, ebooks, music streaming and so on means that it can be hard for consumers to know their rights in regard to intellectual property. This is often exploited by organisations who rely on intellectual property as part of their business model. An important part of copyright reform is not only a reassessment of the legal rights of consumers, but also a reassessment of how rights are communicated and how consumers are made tangibly aware of their rights in their interactions.", 
+            "end": "4:30pm", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "Strange Telemetry, Projects by IF", 
+                    "affiliated org": "Strange Telemetry", 
                     "name": "Tobias Revell", 
                     "twitter": ""
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "Projects by IF", 
+                    "name": "Marine Schepens", 
                     "twitter": ""
                 }, 
                 "3": {
@@ -7491,24 +7733,26 @@
             }, 
             "facilitators_names": [
                 "Tobias Revell", 
-                "", 
+                "Marine Schepens", 
                 ""
             ], 
             "id": "821", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Copyright Interventions"
         }, 
         {
             "additional language": "", 
             "category": "Fuel the movement", 
-            "description": "Participants will share their stories of self, and help surface the tensions around lack of representation and equity in the non profit, advocacy sector. (Mariana will share an outline shortly)", 
-            "duration": "", 
+            "day": "Sunday", 
+            "description": "Advocacy work is not immune from the challenges of classism, racism and sexism. In fact sometimes our work to do social good can obscure the problems and conflicts that arise internally and allows for implicit bias to occur. These issues can be opportunities to change “business as usual” by identifying problems and addressing gender/racial equity in our workplaces or activist communities. During this session we will discuss the challenges or barriers to equity and together craft solutions. For those interested in staying connected after the workshop, we will create a slack channel for ongoing peer support. ", 
+            "end": "11:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Kairos Fellowship", 
@@ -7534,18 +7778,20 @@
             "id": "828", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:00am", 
             "tags": [], 
-            "timeblock": "", 
-            "title": "[Place Holder] Diversity and Equity in Tech"
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "Chill Bro: Let's Build Diverse and Equitable Teams"
         }, 
         {
             "additional language": "", 
             "category": "Fuel the movement", 
-            "description": "In our line of advocacy work, it’s not rare for staff and volunteer to experience harassment as a result of their exposure. During MozFest, we’d like to convene a group of professionals to discuss what sorts of actions and policies are needed to provide support for staff and volunteers who experience this sort of harassment. We’d like to walk out of MozFest with a shareable document with these best-practices and concrete next steps to enact these policies for other organizations.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "In advocacy work, it’s not rare for staff and volunteer to experience harassment as a result of their exposure. During MozFest, we’d like to convene a group of professionals to discuss what sorts of actions and policies are needed to provide support for staff and volunteers who experience this sort of harassment. We’d like to walk out of MozFest with a shareable document with these best-practices and concrete next steps to enact these policies for other organizations.", 
+            "end": "12:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Kairos Fellowship", 
@@ -7571,12 +7817,163 @@
             "id": "829", 
             "localized description": "", 
             "localized title": "", 
+            "location": "Floor 4 - Library", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "12:30pm", 
+            "tags": [], 
+            "timeblock": "sat-12-30pm--saturday-12-30-", 
+            "title": "Supporting Staff and Volunteers Who Experience Online Harassment: Best-Practices"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Fuel The Movement", 
+            "day": "Saturday", 
+            "description": "Education affects all of us - lifelong learning education is a standard, we all develop, progress and discover new things using various learning methods - the age doesn’t matter. Therefore copyright policy needs to empower – and not thwart – the activities of teaching and learning. What changes should be introduced to make copyright framework more flexible and future-proof considering educational practices? What are pioneers in education doing, and how do the copyright rules enable or hold back these innovative (open) education practices? Come discuss and build an infographic to address these and other questions!", 
+            "end": "3:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "847", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 4 - Library", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "3:15pm", 
+            "tags": [], 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
+            "title": "Keep Copyright Out of the Classroom"
+        }, 
+        {
+            "additional language": "", 
+            "category": "", 
+            "description": "", 
+            "duration": "", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "", 
+            "localized description": "", 
+            "localized title": "", 
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
             "tags": [], 
             "timeblock": "", 
-            "title": "Supporting Staff and Volunteers who experience Online Harassment: Best-Practices"
+            "title": "Daily Paywall"
+        }, 
+        {
+            "additional language": "", 
+            "category": "", 
+            "description": "", 
+            "duration": "", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "", 
+            "notes url": "", 
+            "programmatic": false, 
+            "tags": [], 
+            "timeblock": "", 
+            "title": "What Revolution?"
+        }, 
+        {
+            "additional language": "", 
+            "category": "", 
+            "description": "", 
+            "duration": "", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "", 
+            "notes url": "", 
+            "programmatic": false, 
+            "tags": [], 
+            "timeblock": "", 
+            "title": "Marisa Zanotti's thing"
         }, 
         {
             "additional language": "", 
@@ -7930,15 +8327,15 @@
                     "twitter": "@gridinoc"
                 }, 
                 "3": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "Bayerischer Rundfunk", 
+                    "name": "Werner Bleisteiner", 
                     "twitter": ""
                 }
             }, 
             "facilitators_names": [
                 "Mark Boas", 
                 "Laurian Gridinoc", 
-                ""
+                "Werner Bleisteiner"
             ], 
             "id": "686", 
             "localized description": "", 
@@ -8512,8 +8909,9 @@
         {
             "additional language": "Italian", 
             "category": "Localisation", 
+            "day": "Sunday", 
             "description": "Discover the importance of a glossary for the translations with the example of WordPress Polyglots team.\nGlotDict (a browser extension) change the way to see the translation and the review process in the WordPress Polyglots community around the world.", 
-            "duration": "", 
+            "end": "1:40pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -8542,17 +8940,19 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "1:00pm", 
             "tags": [
                 "Multi-lingual MozFest"
             ], 
-            "timeblock": "", 
+            "timeblock": "sun-1pm--sunday-13-00-", 
             "title": "GlotDict and the glossary in WordPress"
         }, 
         {
-            "additional language": "", 
+            "additional language": "Spanish", 
             "category": "Localisation", 
-            "description": "One of the simplest ways to contribute to open source for people with technical knowledge is to translate. If your software is in a language that most users can't understand then it is no so cool.\nThis session is intended to teach non-techies how to quickly start translating Mozilla products using Pootle translation platform.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "One of the simplest ways to contribute to open source for people with technical knowledge is to translate. If Mozilla products are in a language that most people in your community can't understand, then __Mozilla needs you__ to help them with your translations.\nThis session is intended to teach non-techies how to quickly start translating Mozilla products using Pootle translation platform.", 
+            "end": "11:15am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Translate House", 
@@ -8576,22 +8976,24 @@
                 ""
             ], 
             "id": "23", 
-            "localized description": "", 
-            "localized title": "", 
+            "localized description": "Traducir es una de las maneras más fáciles que las personas sin\nconocimientos técnicos tienen para contribuír al código abierto. Si\nlos productos de Mozilla están en un idioma que la gente de su\ncomunidad local tiene dificultad para comprender, entonces __Mozilla\nle necesita__ para ayudarles con sus traducciones.\n\nEsta sesión está pensada para enseñarle a las personas no-técnicas", 
+            "localized title": "Traduzca Mozilla a su idioma", 
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:15am", 
             "tags": [
                 "Multi-lingual MozFest"
             ], 
-            "timeblock": "", 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Translate Mozilla to your language"
         }, 
         {
-            "additional language": "", 
+            "additional language": "Spanish", 
             "category": "Localisation", 
+            "day": "Sunday", 
             "description": "In a planet with seven billion human beings localization is the key to get to all of them. On this chat basics of localization will be explained, and some of its subtleties will be revealed, because it is not only translating. Questions will be answered and doubts will be gladly solved.", 
-            "duration": "", 
+            "end": "2:40pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Translate House", 
@@ -8615,22 +9017,24 @@
                 ""
             ], 
             "id": "24", 
-            "localized description": "", 
-            "localized title": "", 
+            "localized description": "En un planeta con siete mil millones de seres humanos la localización\nes la clave para llegar a todos ellos. En esta charla se explicarán\nlos conceptos básicos de la localización, así como algunas de sus\nsutilezas ya que la localización no es sólo traducir. Asimismo también\nse responderá con agrado cualquier pregunta o duda sobre la\nlocalización.", 
+            "localized title": "Localización: llegar a todos los rincones del planeta", 
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [
                 "Multi-lingual MozFest"
             ], 
-            "timeblock": "", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Localization: Going global"
         }, 
         {
-            "additional language": "", 
+            "additional language": "Spanish", 
             "category": "Localisation", 
+            "day": "Saturday", 
             "description": "The difference between high quality translations and bad ones is that the latter ones usually confuse readers, thus rendering the translation a worthless endeavor. But if you don't want to lose your and others time you can start making good translations now. We will teach you how to do so by using a style guide, terminology, translation memories, machine translation, automatic checkers and so on, and how incremental translations help you translate faster.", 
-            "duration": "", 
+            "end": "2:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Translate House", 
@@ -8654,22 +9058,24 @@
                 ""
             ], 
             "id": "30", 
-            "localized description": "", 
-            "localized title": "", 
+            "localized description": "La diferencia entre traducciones de alta calidad y traducciones de\nbaja calidad es que estas últimas con frecuencia confunden a los\nlectores, lo que en resumen convierte en inútil el esfuerzo de\ntradución. Pero si no dese perder su tiempo y el de otras personas\npuede comenzar a realizar traducciones de buena calidad ahora mismo.\nLe enseñaremos a hacerlo mediante la utilización de guía de estilo,\nterminología, memorias de traducción, traducción automática,\ncomprobaciones automáticas y otras ayudas, y le mostraremos cómo las\ntraducciones incrementales le ayudarán a traducir más rápido.", 
+            "localized title": "Realizar traducciones de alta calidad más rápido y fácil", 
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [
                 "Multi-lingual MozFest"
             ], 
-            "timeblock": "", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Making high quality translations, faster and simpler"
         }, 
         {
             "additional language": "", 
             "category": "Localisation", 
+            "day": "Saturday", 
             "description": "What is Unicode? What is its relationship to Emoji? What's the history of ASCII?\nThree years ago I wanted to type a symbol which didn’t exist. We all know there has been an explosion in the number of characters and emoji within Unicode. But how do those characters get in there? What’s the process for getting new symbols in? Is it even possible for a normal person to do this?\nThe forthcoming release of Unicode 9.0 contains 4 (and a half) new symbols - ⏻ ⏼ ⏽ ⭘ ⏾. Can’t see them? Upgrade your system :-) or install the font from http://unicodepowersymbol.com/\nThis is the THRILLING story (no really!) about where Unicode comes from. Why it exists. How you can change it. And the Poo Emoji. Always the Poo Emoji.\nIn short - learn how to create new symbols & emoji for Unicode.", 
-            "duration": "", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -8698,15 +9104,17 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:15am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Getting New Characters and Emoji into Unicode"
         }, 
         {
             "additional language": "", 
             "category": "Localisation", 
+            "day": "Sunday", 
             "description": "HTML to PDF tools connect the open web to the publishing supply chain, supporting original writing, research and journalism with revenue. In this workshop, you'll learn to use open source tools which will help you produce good-looking print and screen PDFs from HTML in complex human languages including Arabic, Chinese and Vietnamese. The workshop will be in English, and of course you'll be able to use these skills for making PDF in European languages too.", 
-            "duration": "", 
+            "end": "11:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Booktype GmbH", 
@@ -8735,8 +9143,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Make HTML to PDF work in global languages"
         }, 
         {
@@ -8777,7 +9186,7 @@
             "title": "Designing for the limit case of personal privacy: when your voice is in the machine"
         }, 
         {
-            "additional language": "", 
+            "additional language": "Spanish", 
             "category": "Localisation", 
             "description": "Discover how Evernote uses Open Source tools to localize their wide-range of products.", 
             "duration": "", 
@@ -8804,8 +9213,8 @@
                 ""
             ], 
             "id": "240", 
-            "localized description": "", 
-            "localized title": "", 
+            "localized description": "Descrubre cómo Evernote utiliza herramientas de código abierto para localizar su gama de productos.", 
+            "localized title": "Localización en Evernote usando soluciones de código abierto", 
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
@@ -9001,7 +9410,7 @@
             "title": "Multilingualism is Good for You!"
         }, 
         {
-            "additional language": "", 
+            "additional language": "French", 
             "category": "Localisation", 
             "description": "Localizers need to translate terms as part of the localization process. But how do you do that if the terms aren't established in your language? In this session we will look at how to coin new terms, how to choose between conflicting terms, and how to build up vocabularies to help you translate and localize. No previous experience will be needed.", 
             "duration": "", 
@@ -9153,7 +9562,7 @@
             "title": "Connecting remotely to global communities"
         }, 
         {
-            "additional language": "", 
+            "additional language": "French", 
             "category": "Localisation", 
             "description": "This session will be an interactive introduction to software and website localization (any of them). People will learn translation basics and how to avoid the common mistakes.", 
             "duration": "", 
@@ -9180,8 +9589,8 @@
                 ""
             ], 
             "id": "434", 
-            "localized description": "", 
-            "localized title": "", 
+            "localized description": "Cette séance se déroulera sous la forme d’une présentation interactive de la traduction de logiciels et de sites web (de tout type). Les participants découvriront les bases de la traduction et apprendront à éviter les erreurs les plus courantes.", 
+            "localized title": "\nPrésentation interactive des défis auxquels les traducteurs doivent faire face", 
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
@@ -9379,8 +9788,9 @@
         {
             "additional language": "", 
             "category": "Localisation", 
+            "day": "Sunday", 
             "description": "The session would be informational along with an open dialogue and Q&A segment. It would include an introduction to Localization Lab and the tools and communities we support as well as short demos of digital security and circumvention tools successfully localized and marketed for at-risk communities and examples reinforcing the importance of community engagement, co-design and thoughtful localization to ensure tools work for communities instead of confuse and potentially endanger them. Time would be allotted afterward for open conversation and Q&A about the differing and overlapping digital security and access needs of the participants' communities as well as urgent needs identified in particular regions suffering serious censorship and surveillance burdens.", 
-            "duration": "", 
+            "end": "4:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Localization Lab", 
@@ -9409,12 +9819,13 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Making Digital Security Accessible, World-wide"
         }, 
         {
-            "additional language": "", 
+            "additional language": "French", 
             "category": "Localisation", 
             "description": "We produce a lot of curriculum, and no matter what already exist, we always need to remix it to adapt it to our audience.\nHow can we set up our work to be easily remixable?\nHow can we publish work in an inspiring way for others?\nWhat are the dos and don't of curriculum remixing and creation?", 
             "duration": "", 
@@ -9490,7 +9901,7 @@
             "title": "Makepedia: an open source platform for making and makers aimed at international development & humanitarian relief"
         }, 
         {
-            "additional language": "", 
+            "additional language": "Spanish", 
             "category": "Localisation", 
             "description": "Las personas van a conocer sobre una nueva forma en la que estamos empoderar y construyendo una Web abierta e inclusiva. Construyendo comunidades encargadas de  localizar Firefox en sus lenguas nativas.", 
             "duration": "", 
@@ -9517,8 +9928,8 @@
                 ""
             ], 
             "id": "703", 
-            "localized description": "", 
-            "localized title": "", 
+            "localized description": "Las personas van a conocer sobre una nueva forma en la que estamos empoderar y construyendo una Web abierta e inclusiva. Construyendo comunidades encargadas de localizar Firefox en sus lenguas nativas.", 
+            "localized title": "Mozilla Nativo, localización en lenguas nativas de latinoamérica", 
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
@@ -9529,7 +9940,7 @@
             "title": "Mozilla Nativo, localización en lenguas nativas de latinoamérica"
         }, 
         {
-            "additional language": "", 
+            "additional language": "French", 
             "category": "Localisation", 
             "description": "We will demo https://transvision.mozfr.org/ , the l10n QA tool used across Mozilla and provided by the Mozilla French-speaking community. As one of the Transvision developers, I will also be able to hack on a new feature if participants are interested.", 
             "duration": "", 
@@ -9556,8 +9967,8 @@
                 ""
             ], 
             "id": "704", 
-            "localized description": "", 
-            "localized title": "", 
+            "localized description": "Nous réaliserons une démonstration de https://transvision.mozfr.org/ , l’outil de contrôle qualité des traductions utilisé par Mozilla, initialement conçu par la communauté Mozilla francophone. En tant que l’un des développeurs de Transvision, je pourrai également coder quelque chose en direct si les participants le souhaitent.", 
+            "localized title": "Contrôle qualité des traductions grâce à Transvision", 
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
@@ -9605,7 +10016,7 @@
             "title": "Social Language Helper"
         }, 
         {
-            "additional language": "", 
+            "additional language": "Spanish", 
             "category": "Localisation", 
             "description": "Internet Radio offers people a platform to curate their media, voice their values and amplify communities. In this session we want  people to understand the current context of Internet Radio as a tool for information dissemination, cultural advocacy and the local and global implications. Facilitators will also discuss strategies for bridging digital internet practices with terrestrial practices, cultures & communities. Participants will learn the basic tools/software/equipment needs for DIY Internet Radio and participate in a live radio broadcast of the session. Additionally, participants and facilitators will address the economical challenges of internet radio and brainstorm new possibilities together.", 
             "duration": "", 
@@ -9718,7 +10129,7 @@
             "title": "L20n and Firefox"
         }, 
         {
-            "additional language": "", 
+            "additional language": "Scotts Gaelic", 
             "category": "Localisation", 
             "description": "We will demonstrate how groups of schoolchildren from a far-flung Atlantic island rim in the Outer Hebrides can 'become university students', through collaborating with a mainland University in interpreting and enacting their local history bilingually. We will  explore strategies which helped in preparing classroom research, drama, song, music and storytelling for the St Andrews' immersive digital app and installation. The children's engagement and involvement have been recognised as highly innovative by the 'dreaded' H.M.I.", 
             "duration": "", 
@@ -12425,43 +12836,6 @@
         {
             "additional language": "", 
             "category": "Open science", 
-            "description": "Our session will give the audience an overview of brain-computer interface. The participants will have access to the media player built by us which caters to the severely impaired people.\nTo begin with, participants will be introduced to the lobes of the human brain and their functions, followed by the EEG bands and their characteristics. They will then learn about the various types BCI designs- invasive, partially invasive and non-invasive - along with the neuroimaging techniques such as ECoG, EEG, etc. associated with each. The input signals- which mirror imagined hand movements- are then pre-processed, significant features are extracted and classified into right and left hand movement. This is done using machine learning algorithms like Common Spatial Filter and Linear Discriminant Analysis. At the end, the participants can use the application (https://github.com/bhoom10/bci-media-player) and give us feedback. The larger goal is to build a community of developers for the project.", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Mozilla India", 
-                    "name": "Abhiram Ravikumar", 
-                    "twitter": "abhi12ravi"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Abhiram Ravikumar", 
-                "", 
-                ""
-            ], 
-            "id": "430", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
-            "notes url": "", 
-            "programmatic": false, 
-            "tags": [], 
-            "timeblock": "", 
-            "title": "Media Player for the severely impaired using brain-computer interface (BCI) and open data"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Open science", 
             "description": "Our Session comprises of Introduction to Docker Engine, Machine and its application through making some cool hacks. Our main aim of this session is to \"Package Once Deploy Anywhere(PODA)\". Docker simplifies software delivery by making it easy to build and share images that contain your application’s entire environment or application operating system.", 
             "duration": "", 
             "facilitators": {
@@ -13204,80 +13578,6 @@
         {
             "additional language": "", 
             "category": "Open science", 
-            "description": "I will facilitate a session where participants learn how to conduct neuroscience research on human brain imaging data. This session will teach participants how to:\n1. Access openly available neuroimaging datasets on the web.\n2. Access openly available analytic tools on the web.\n3. Formulate questions about the brain.\n4. Design an analysis that can potentially answer these questions.\n5. Make sense of the results!\nWhile the key to this workshop is providing the participants with the tools to do this kind of research on their own laptop, I will discuss theories in human neuroimaging and neuroscience to help participants formulate questions, design analysis strategies, and interpret results.", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "", 
-                    "name": "Kate Mills", 
-                    "twitter": "@le_feufollet"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Kate Mills", 
-                "", 
-                ""
-            ], 
-            "id": "618", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
-            "notes url": "", 
-            "programmatic": false, 
-            "tags": [], 
-            "timeblock": "", 
-            "title": "Become a neuroscientist"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Open science", 
-            "description": "My session will prompt people to think about accessibility from a human centered point of view. Open data could be even better utilized if it was formatted in easy to understand, use and access methods. The use of methods like interactive infographics and mobile phone friendly data may be some of the answers to promoting open data accessibility. This is especially true in developing countries where utilization of readily available data resources is poor.", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "", 
-                    "name": "Dennis Ndegwa", 
-                    "twitter": ""
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Dennis Ndegwa", 
-                "", 
-                ""
-            ], 
-            "id": "619", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
-            "notes url": "", 
-            "programmatic": false, 
-            "tags": [], 
-            "timeblock": "", 
-            "title": "Making open data more accessible"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Open science", 
             "description": "I will gather people and have them brainstorm about different problem statements that touch on citizen and government engagement in order to enhance public service delivery like education, healthcare, public health services. After the brainstorm each of these topics will highlight the different challenges  that need to be addressed or improved on. From the challenges, participants can organize categories while deciding which would be the best way to collect information from citizens regarding the specific issues. This will be a design brainstorming activity. The data collection could range from text messages, tweets and hashtags, facebook posts. The session will allow people to create to develop a paper prototype to illustrate how we can be able  to collect information from citizens based on Ushahidi and other emerging open sourced crowd mapping technologies.", 
             "duration": "", 
             "facilitators": {
@@ -13646,43 +13946,6 @@
             "tags": [], 
             "timeblock": "", 
             "title": "Dewizardification of Bioinformatics and Data Science"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Open science", 
-            "description": "We will walk participants through creating their own interactive data visualizations using a custom javascript framework called ANT.  The toolkit makes use of audio narration, rendered maps, plotted data, and animations to create a compelling experience that can be embedded on a web page. The outcome is a powerful piece that is responsive enough to look great on mobile & laptops.", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "founder of, cryptoharlem // 2016 mozilla-ford open web fellow", 
-                    "name": "Matthew Mitchelll", 
-                    "twitter": "geminiimatt"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Matthew Mitchelll", 
-                "", 
-                ""
-            ], 
-            "id": "758", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
-            "notes url": "", 
-            "programmatic": false, 
-            "tags": [], 
-            "timeblock": "", 
-            "title": "Creating fast, easy, & compelling interactives using Ant (augmented narrative toolkit)"
         }, 
         {
             "additional language": "", 
@@ -15142,7 +15405,7 @@
         {
             "additional language": "", 
             "category": "Open badges", 
-            "day": "Sunday", 
+            "day": "Saturday", 
             "description": "Soft skills such as communication, teamwork, creativity and entrepreneurship are more and more in demand on today’s labour market and these competencies may prove to be the distinguishing factor between two candidates with equivalent qualifications and experience.\nHow can we measure these skills?\nHow can students and young workers demonstrate these skills in a CV or e-Portfolio?\nWhat are today’s and tomorrow’s employers really looking for?\nHow the acquisition of soft skills can be promoted by using Open Badges?\nAn open badge is not simply an online representation of a skill you possess, but also a means that allows you to verify your skills, interests and achievements.\nThe aim of the session is to highlight how open badges can serve to promote the acquisition and demonstration soft skills demanded by the 21st century labour market.", 
             "end": "4:00pm", 
             "facilitators": {
@@ -15197,7 +15460,7 @@
                 "Digital Inclusion", 
                 "The Future of the Web"
             ], 
-            "timeblock": "sun-3-15pm--sunday-15-15-", 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Open Badges- a means for promoting and displaying digital soft skills for employability"
         }, 
         {
@@ -15748,67 +16011,6 @@
             ], 
             "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "The Thinkasprint: the art of thinking sideways"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Open badges", 
-            "day": "Saturday", 
-            "description": "I will talk about the open badges as a rewards system and how CoderDojo has integrated it into our new community platform as a rewarding system. 15 minute talk and demo of the Badges created and what they aim to reward and encourage people young and old to take part at their local Dojo. Teaching them about using open badges to reward creativity. (Not a technical talk).", 
-            "end": "11:30am", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "CoderDojo", 
-                    "name": "pete o'shea", 
-                    "twitter": ":CoderDojo"
-                }, 
-                "2": {
-                    "affiliated org": "CoderDojo", 
-                    "name": "Guillaume Feliciano", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "4": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "5": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "6": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "pete o'shea", 
-                "", 
-                "Guillaume Feliciano", 
-                "", 
-                "", 
-                ""
-            ], 
-            "id": "526", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
-            "notes url": "", 
-            "programmatic": false, 
-            "start": "11:15am", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
-            "timeblock": "sat-11-15am--saturday-11-15-", 
-            "title": "Code"
         }, 
         {
             "additional language": "", 
