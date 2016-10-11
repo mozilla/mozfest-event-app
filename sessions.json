@@ -83,7 +83,7 @@
             "category": "", 
             "day": "Saturday", 
             "description": "", 
-            "end": "2:30pm", 
+            "end": "2:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -112,9 +112,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": true, 
-            "start": "12:30pm", 
+            "start": "12:00pm", 
             "tags": [], 
-            "timeblock": "sat-lunch--saturday-12-30-", 
+            "timeblock": "sat-lunch--saturday-12-00-", 
             "title": "Lunch"
         }, 
         {
@@ -18817,19 +18817,19 @@
         }, 
         {
             "day": "Saturday", 
-            "key": "sat-12-30pm--saturday-12-30-", 
+            "key": "sat-lunch--saturday-12-00-", 
             "order": 5, 
             "reserved for everyone": "", 
-            "start time": "12:30 ", 
-            "timeblock name": "Sat 12:30PM"
+            "start time": "12:00 ", 
+            "timeblock name": "Sat Lunch"
         }, 
         {
             "day": "Saturday", 
-            "key": "sat-lunch--saturday-12-30-", 
+            "key": "sat-12-30pm--saturday-12-30-", 
             "order": 6, 
             "reserved for everyone": "", 
             "start time": "12:30 ", 
-            "timeblock name": "Sat Lunch"
+            "timeblock name": "Sat 12:30PM"
         }, 
         {
             "day": "Saturday", 
