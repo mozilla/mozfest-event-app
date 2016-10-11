@@ -161,7 +161,7 @@
             "category": "", 
             "day": "Sunday", 
             "description": "", 
-            "end": "11:15am", 
+            "end": "10:45am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -190,9 +190,9 @@
             "location": "Floor 4 - Big Space", 
             "notes url": "", 
             "programmatic": true, 
-            "start": "10:00am", 
+            "start": "9:30am", 
             "tags": [], 
-            "timeblock": "sun-main-stage--sunday-10-00-", 
+            "timeblock": "sun-breakfast--sunday-09-30-", 
             "title": "MozFest Breakfast"
         }, 
         {
@@ -18873,11 +18873,11 @@
         }, 
         {
             "day": "Sunday", 
-            "key": "sun-main-stage--sunday-10-00-", 
+            "key": "sun-breakfast--sunday-09-30-", 
             "order": 12, 
             "reserved for everyone": "", 
-            "start time": "10:00 ", 
-            "timeblock name": "Sun Main Stage"
+            "start time": "09:30 ", 
+            "timeblock name": "Sun Breakfast"
         }, 
         {
             "day": "Sunday", 
