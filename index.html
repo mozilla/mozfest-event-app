@@ -158,7 +158,7 @@
               <a href="#_<%- customTagLabel %>-<%- slugify(tag) %>" class="tag" data-tag="<%- slugify(tag) %>"><%- cleanTag %></a><% }) %>
           </div>
           <% } %>
-          <% if (session.facilitators) { %>
+          <% if (session.facilitators.length > 0) { %>
           <div class="session-facilitators item">
             <% for (index in session.facilitators) { %><% if (index > 1 && session.facilitators[index].name ) { %><br><% } %><% if (session.facilitators[index].twitter) { %> <a href="https://twitter.com/<%- session.facilitators[index].twitter %>"><%- session.facilitators[index].name %></a><% } else { %><%- session.facilitators[index].name %><% } %><% if (session.facilitators[index]['affiliated org']) { %>, <%- session.facilitators[index]['affiliated org'] %><% } %><% } %>
           </div>
