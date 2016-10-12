@@ -4982,8 +4982,9 @@
         {
             "additional language": "", 
             "category": "Dilemmas in connected spaces", 
+            "day": "Saturday", 
             "description": "The artwork depicts a constant and evolving view of the urban landscape and its inhabitants contstantly migtatting rom one point to the next.. The observed real time surveillance society is re worked into a series of grids. The artwork is an online networkd panoptic vision which collects live CCTV feeds from 200 cameras in USA in real time and reworks these video streams into multi-layered visual structures. The channels are always on, and therefore, the work is always changing. The work comprises of multiple grids that generate real time patterns using live images from all over USA.", 
-            "duration": "", 
+            "end": "1:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -5009,11 +5010,129 @@
             "id": "109", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 6 - 612", 
+            "location": "Floor 6 - 606", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
+            "title": "Supervigilantia"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Saturday", 
+            "description": "The artwork depicts a constant and evolving view of the urban landscape and its inhabitants contstantly migtatting rom one point to the next.. The observed real time surveillance society is re worked into a series of grids. The artwork is an online networkd panoptic vision which collects live CCTV feeds from 200 cameras in USA in real time and reworks these video streams into multi-layered visual structures. The channels are always on, and therefore, the work is always changing. The work comprises of multiple grids that generate real time patterns using live images from all over USA.", 
+            "end": "4:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "Stanza .", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Stanza .", 
+                "", 
+                ""
+            ], 
+            "id": "1109", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 606", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sat-1pm--saturday-13-00-", 
+            "title": "Supervigilantia"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Sunday", 
+            "description": "The artwork depicts a constant and evolving view of the urban landscape and its inhabitants contstantly migtatting rom one point to the next.. The observed real time surveillance society is re worked into a series of grids. The artwork is an online networkd panoptic vision which collects live CCTV feeds from 200 cameras in USA in real time and reworks these video streams into multi-layered visual structures. The channels are always on, and therefore, the work is always changing. The work comprises of multiple grids that generate real time patterns using live images from all over USA.", 
+            "end": "2:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "Stanza .", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Stanza .", 
+                "", 
+                ""
+            ], 
+            "id": "1110", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 606", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "Supervigilantia"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Sunday", 
+            "description": "The artwork depicts a constant and evolving view of the urban landscape and its inhabitants contstantly migtatting rom one point to the next.. The observed real time surveillance society is re worked into a series of grids. The artwork is an online networkd panoptic vision which collects live CCTV feeds from 200 cameras in USA in real time and reworks these video streams into multi-layered visual structures. The channels are always on, and therefore, the work is always changing. The work comprises of multiple grids that generate real time patterns using live images from all over USA.", 
+            "end": "5:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "Stanza .", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Stanza .", 
+                "", 
+                ""
+            ], 
+            "id": "1111", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 606", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "2:00pm", 
+            "tags": [], 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Supervigilantia"
         }, 
         {
@@ -5241,7 +5360,7 @@
             "id": "179", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 6 - 612", 
+            "location": "Floor 6 - 606", 
             "notes url": "", 
             "programmatic": false, 
             "tags": [], 
@@ -5251,8 +5370,9 @@
         {
             "additional language": "", 
             "category": "Dilemmas in connected spaces", 
+            "day": "Saturday", 
             "description": "This installation shows the double-edged and irreversible process of personalization, represented by popcorn and using the layout of the Mozfest event space to span four floors. Corn begins at the top of the third floor as multicolored (dyed) kernels that enter a funnel. The funnel leads through ductwork to the second floor and appears to enter one of three TVs, which play random video footage tinted in red, green, or blue. Tubing connects the three TVs to a fourth TV on the second floor, which plays full-color streamed footage and social media posts from the Mozfest event. Popcorn drops from the first floor to the ground floor through a tapered clear-plastic hopper, ending at a table with a regular-sized popcorn tub that fills with popcorn.", 
-            "duration": "", 
+            "end": "1:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla", 
@@ -5278,11 +5398,129 @@
             "id": "191", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 6 - 612", 
+            "location": "Floor 6 - 606", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
+            "title": "The Funnel"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Saturday", 
+            "description": "This installation shows the double-edged and irreversible process of personalization, represented by popcorn and using the layout of the Mozfest event space to span four floors. Corn begins at the top of the third floor as multicolored (dyed) kernels that enter a funnel. The funnel leads through ductwork to the second floor and appears to enter one of three TVs, which play random video footage tinted in red, green, or blue. Tubing connects the three TVs to a fourth TV on the second floor, which plays full-color streamed footage and social media posts from the Mozfest event. Popcorn drops from the first floor to the ground floor through a tapered clear-plastic hopper, ending at a table with a regular-sized popcorn tub that fills with popcorn.", 
+            "end": "5:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Mozilla", 
+                    "name": "Kevin Fann", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Kevin Fann", 
+                "", 
+                ""
+            ], 
+            "id": "1191", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 606", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "2:00pm", 
+            "tags": [], 
+            "timeblock": "sat-2pm--saturday-14-00-", 
+            "title": "The Funnel"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Sunday", 
+            "description": "This installation shows the double-edged and irreversible process of personalization, represented by popcorn and using the layout of the Mozfest event space to span four floors. Corn begins at the top of the third floor as multicolored (dyed) kernels that enter a funnel. The funnel leads through ductwork to the second floor and appears to enter one of three TVs, which play random video footage tinted in red, green, or blue. Tubing connects the three TVs to a fourth TV on the second floor, which plays full-color streamed footage and social media posts from the Mozfest event. Popcorn drops from the first floor to the ground floor through a tapered clear-plastic hopper, ending at a table with a regular-sized popcorn tub that fills with popcorn.", 
+            "end": "2:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Mozilla", 
+                    "name": "Kevin Fann", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Kevin Fann", 
+                "", 
+                ""
+            ], 
+            "id": "1192", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 606", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "The Funnel"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Sunday", 
+            "description": "This installation shows the double-edged and irreversible process of personalization, represented by popcorn and using the layout of the Mozfest event space to span four floors. Corn begins at the top of the third floor as multicolored (dyed) kernels that enter a funnel. The funnel leads through ductwork to the second floor and appears to enter one of three TVs, which play random video footage tinted in red, green, or blue. Tubing connects the three TVs to a fourth TV on the second floor, which plays full-color streamed footage and social media posts from the Mozfest event. Popcorn drops from the first floor to the ground floor through a tapered clear-plastic hopper, ending at a table with a regular-sized popcorn tub that fills with popcorn.", 
+            "end": "4:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Mozilla", 
+                    "name": "Kevin Fann", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Kevin Fann", 
+                "", 
+                ""
+            ], 
+            "id": "1193", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 606", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sun-1pm--sunday-13-00-", 
             "title": "The Funnel"
         }, 
         {
@@ -5315,7 +5553,7 @@
             "id": "212", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 6 - 612", 
+            "location": "Floor 6 - 606", 
             "notes url": "", 
             "programmatic": false, 
             "tags": [], 
@@ -5508,7 +5746,7 @@
             "id": "441", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 6 - 612", 
+            "location": "Floor 6 - 606", 
             "notes url": "", 
             "programmatic": false, 
             "tags": [], 
@@ -5584,7 +5822,7 @@
             "id": "454", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 6 - 612", 
+            "location": "Floor 6 - 606", 
             "notes url": "", 
             "programmatic": false, 
             "tags": [], 
@@ -5740,7 +5978,7 @@
             "id": "505", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 6 - 612", 
+            "location": "Floor 6 - 606", 
             "notes url": "", 
             "programmatic": false, 
             "tags": [], 
@@ -5750,8 +5988,9 @@
         {
             "additional language": "", 
             "category": "Dilemmas in connected spaces", 
+            "day": "Saturday", 
             "description": "Imagine decorating your world with beautiful interactive patterns. Artcodes makes this possible!\n\nArtcodes is a new technology that allows users to interact with all manner of decorative imagery and patterns. As part of collaborative research between both designers and computer scientists at the University of Nottingham, funded by Horizon Digital Economy Research and the RCUK, we have developed a new interaction technology that relies upon drawing and creativity to drive it.\n\nWith artcodes you can: scan decorative patterns to trigger digital content, make existing patterns point at your content and learn how to draw your own interactive patterns.", 
-            "duration": "", 
+            "end": "1:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "University of Nottingham", 
@@ -5777,18 +6016,137 @@
             "id": "510", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 6 - 612", 
+            "location": "Floor 6 - 603", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Interactive Wallpaper"
         }, 
         {
             "additional language": "", 
             "category": "Dilemmas in connected spaces", 
+            "day": "Saturday", 
+            "description": "Imagine decorating your world with beautiful interactive patterns. Artcodes makes this possible!\n\nArtcodes is a new technology that allows users to interact with all manner of decorative imagery and patterns. As part of collaborative research between both designers and computer scientists at the University of Nottingham, funded by Horizon Digital Economy Research and the RCUK, we have developed a new interaction technology that relies upon drawing and creativity to drive it.\n\nWith artcodes you can: scan decorative patterns to trigger digital content, make existing patterns point at your content and learn how to draw your own interactive patterns.", 
+            "end": "4:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "University of Nottingham", 
+                    "name": "Emily-Clare Thorn", 
+                    "twitter": "@artcodes_lab @HorizonDER"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Emily-Clare Thorn", 
+                "", 
+                ""
+            ], 
+            "id": "1510", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 603", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sat-1pm--saturday-13-00-", 
+            "title": "Interactive Wallpaper"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Sunday", 
+            "description": "Imagine decorating your world with beautiful interactive patterns. Artcodes makes this possible!\n\nArtcodes is a new technology that allows users to interact with all manner of decorative imagery and patterns. As part of collaborative research between both designers and computer scientists at the University of Nottingham, funded by Horizon Digital Economy Research and the RCUK, we have developed a new interaction technology that relies upon drawing and creativity to drive it.\n\nWith artcodes you can: scan decorative patterns to trigger digital content, make existing patterns point at your content and learn how to draw your own interactive patterns.", 
+            "end": "2:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "University of Nottingham", 
+                    "name": "Emily-Clare Thorn", 
+                    "twitter": "@artcodes_lab @HorizonDER"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Emily-Clare Thorn", 
+                "", 
+                ""
+            ], 
+            "id": "1511", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 603", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "Interactive Wallpaper"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Sunday", 
+            "description": "Imagine decorating your world with beautiful interactive patterns. Artcodes makes this possible!\n\nArtcodes is a new technology that allows users to interact with all manner of decorative imagery and patterns. As part of collaborative research between both designers and computer scientists at the University of Nottingham, funded by Horizon Digital Economy Research and the RCUK, we have developed a new interaction technology that relies upon drawing and creativity to drive it.\n\nWith artcodes you can: scan decorative patterns to trigger digital content, make existing patterns point at your content and learn how to draw your own interactive patterns.", 
+            "end": "4:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "University of Nottingham", 
+                    "name": "Emily-Clare Thorn", 
+                    "twitter": "@artcodes_lab @HorizonDER"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Emily-Clare Thorn", 
+                "", 
+                ""
+            ], 
+            "id": "1512", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 603", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sun-1pm--sunday-13-00-", 
+            "title": "Interactive Wallpaper"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Saturday", 
             "description": "Artcodes presents storicodes. Our new narrative app.\n\nOur team have created a stunning interactive wall illustration called Stalker where we ask you to join the Stalker rebellion……\n\nWe are Stalkers, the resistance…….\nWe desperately need your help to defeat our enemy.\nWe are searching for the brave, the adventurous, the exceptional, the curious, the risk taker, for those of you who are strong enough to stand up for the truth and justice.\n\nWe are Stalkers, and we are all that stands between the Thakens and the complete destruction of our planet, the destruction of everything and everyone we love……. And when they have finished with our planet, they will come for yours.\nDo you have what it takes to join us in our fight against the Thakens?\nDo you have teh courage to step into our world of mystery, intrigue and surprise?\nDo you dare to take part, solve the clues and complete your mission?\nIf you are the person we are looking for please help us, a message is waiting for you.\n\nDownload the storicodes app. To activate our inter-dimensional communication device. Scan the image of the journal in the large picture and begin your journey.\n\nGood Luck\nThanks you for your help\nPreserve and Protect.", 
-            "duration": "", 
+            "end": "2:45pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "University of Nottingham", 
@@ -5817,8 +6175,126 @@
             "location": "Floor 6 - 603", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:15am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
+            "title": "Stalker"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Saturday", 
+            "description": "Artcodes presents storicodes. Our new narrative app.\n\nOur team have created a stunning interactive wall illustration called Stalker where we ask you to join the Stalker rebellion……\n\nWe are Stalkers, the resistance…….\nWe desperately need your help to defeat our enemy.\nWe are searching for the brave, the adventurous, the exceptional, the curious, the risk taker, for those of you who are strong enough to stand up for the truth and justice.\n\nWe are Stalkers, and we are all that stands between the Thakens and the complete destruction of our planet, the destruction of everything and everyone we love……. And when they have finished with our planet, they will come for yours.\nDo you have what it takes to join us in our fight against the Thakens?\nDo you have teh courage to step into our world of mystery, intrigue and surprise?\nDo you dare to take part, solve the clues and complete your mission?\nIf you are the person we are looking for please help us, a message is waiting for you.\n\nDownload the storicodes app. To activate our inter-dimensional communication device. Scan the image of the journal in the large picture and begin your journey.\n\nGood Luck\nThanks you for your help\nPreserve and Protect.", 
+            "end": "4:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "University of Nottingham", 
+                    "name": "Emily-Clare Thorn", 
+                    "twitter": "@artcodes_lab @HorizonDER"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "Boriana Koleva", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "William Preston", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Emily-Clare Thorn", 
+                "Boriana Koleva", 
+                "William Preston"
+            ], 
+            "id": "1512", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 603", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sat-1pm--saturday-13-00-", 
+            "title": "Stalker"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Sunday", 
+            "description": "Artcodes presents storicodes. Our new narrative app.\n\nOur team have created a stunning interactive wall illustration called Stalker where we ask you to join the Stalker rebellion……\n\nWe are Stalkers, the resistance…….\nWe desperately need your help to defeat our enemy.\nWe are searching for the brave, the adventurous, the exceptional, the curious, the risk taker, for those of you who are strong enough to stand up for the truth and justice.\n\nWe are Stalkers, and we are all that stands between the Thakens and the complete destruction of our planet, the destruction of everything and everyone we love……. And when they have finished with our planet, they will come for yours.\nDo you have what it takes to join us in our fight against the Thakens?\nDo you have teh courage to step into our world of mystery, intrigue and surprise?\nDo you dare to take part, solve the clues and complete your mission?\nIf you are the person we are looking for please help us, a message is waiting for you.\n\nDownload the storicodes app. To activate our inter-dimensional communication device. Scan the image of the journal in the large picture and begin your journey.\n\nGood Luck\nThanks you for your help\nPreserve and Protect.", 
+            "end": "2:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "University of Nottingham", 
+                    "name": "Emily-Clare Thorn", 
+                    "twitter": "@artcodes_lab @HorizonDER"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "Boriana Koleva", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "William Preston", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Emily-Clare Thorn", 
+                "Boriana Koleva", 
+                "William Preston"
+            ], 
+            "id": "1513", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 603", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "Stalker"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Sunday", 
+            "description": "Artcodes presents storicodes. Our new narrative app.\n\nOur team have created a stunning interactive wall illustration called Stalker where we ask you to join the Stalker rebellion……\n\nWe are Stalkers, the resistance…….\nWe desperately need your help to defeat our enemy.\nWe are searching for the brave, the adventurous, the exceptional, the curious, the risk taker, for those of you who are strong enough to stand up for the truth and justice.\n\nWe are Stalkers, and we are all that stands between the Thakens and the complete destruction of our planet, the destruction of everything and everyone we love……. And when they have finished with our planet, they will come for yours.\nDo you have what it takes to join us in our fight against the Thakens?\nDo you have teh courage to step into our world of mystery, intrigue and surprise?\nDo you dare to take part, solve the clues and complete your mission?\nIf you are the person we are looking for please help us, a message is waiting for you.\n\nDownload the storicodes app. To activate our inter-dimensional communication device. Scan the image of the journal in the large picture and begin your journey.\n\nGood Luck\nThanks you for your help\nPreserve and Protect.", 
+            "end": "4:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "University of Nottingham", 
+                    "name": "Emily-Clare Thorn", 
+                    "twitter": "@artcodes_lab @HorizonDER"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "Boriana Koleva", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "William Preston", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Emily-Clare Thorn", 
+                "Boriana Koleva", 
+                "William Preston"
+            ], 
+            "id": "1514", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 603", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sun-1pm--sunday-13-00-", 
             "title": "Stalker"
         }, 
         {
@@ -5929,7 +6405,7 @@
             "id": "570", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 6 - 612", 
+            "location": "Floor 6 - 606", 
             "notes url": "", 
             "programmatic": false, 
             "tags": [
@@ -6048,7 +6524,7 @@
             "id": "599", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 6 - 612", 
+            "location": "Floor 6 - 606", 
             "notes url": "", 
             "programmatic": false, 
             "tags": [], 
@@ -6126,7 +6602,7 @@
             "id": "664", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 6 - 612", 
+            "location": "Floor 6 - 606", 
             "notes url": "", 
             "programmatic": false, 
             "tags": [], 
@@ -6202,7 +6678,7 @@
             "id": "729", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 6 - 612", 
+            "location": "Floor 6 - 606", 
             "notes url": "", 
             "programmatic": false, 
             "tags": [], 
@@ -6239,7 +6715,7 @@
             "id": "776", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 6 - 612", 
+            "location": "Floor 6 - 606", 
             "notes url": "", 
             "programmatic": false, 
             "tags": [], 
@@ -6863,6 +7339,45 @@
             "title": "Painting with Virtual Reality and A-Painter"
         }, 
         {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Friday", 
+            "description": "The Databox - www.databoxproject.uk - provides a radical alternative to widespread data harvesting and data processing ‘in the cloud’. Instead data processing takes place ‘on the box’ and is limited to what is needed to deliver specific services. We introduce the Databox platform to the Mozilla community and provide participants with the opportunity to get their hands on this novel privacy-preserving platform.", 
+            "end": "7:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "University of Nottingham", 
+                    "name": "James Colley", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "James Colley", 
+                "", 
+                ""
+            ], 
+            "id": "913", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 603", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "6:00pm", 
+            "tags": [], 
+            "timeblock": "fri-science-fair--friday-18-00-", 
+            "title": "Databox"
+        }, 
+        {
             "additional language": "French", 
             "category": "Fuel the movement", 
             "day": "Saturday", 
@@ -7104,7 +7619,7 @@
             "additional language": "", 
             "category": "Fuel the movement", 
             "day": "Saturday", 
-            "description": "Check out our new game on patents to learn about the challenges and opportunities that Intellectual Property (patents, copyright, etc.) present to open source software and the Web. ", 
+            "description": "What if our favorite storybook heroes had to deal with patents? Find out by playing PatentQuest and to learn about the challenges and opportunities that Intellectual Property (patents, copyright, etc.) present to open source software and the Web.", 
             "end": "10:00am", 
             "facilitators": {
                 "1": {
@@ -7137,7 +7652,7 @@
             "start": "10:00am", 
             "tags": [], 
             "timeblock": "sat-10am--saturday-10-00-", 
-            "title": "It's dangerous to go alone! - The patent game"
+            "title": "It's dangerous to go alone! - The PatentQuest game"
         }, 
         {
             "additional language": "", 
@@ -7585,7 +8100,7 @@
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Drew Wilson", 
                     "twitter": ""
                 }, 
                 "2": {
@@ -7600,7 +8115,7 @@
                 }
             }, 
             "facilitators_names": [
-                "", 
+                "Drew Wilson", 
                 "", 
                 ""
             ], 
@@ -7894,12 +8409,12 @@
             "additional language": "", 
             "category": "Fuel The Movement", 
             "day": "Saturday", 
-            "description": "", 
+            "description": "Daily Paywall explores modern economic models and the distribution of information as material to make works of art. The artist redistributes tens of thousands of formerly pay-per-view articles through a crowd funded model to pay both readers and writers. His work monetizes pirated content to inform the public about socio-economic issues.", 
             "end": "10:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Paolo Cirio", 
                     "twitter": ""
                 }, 
                 "2": {
@@ -7914,7 +8429,7 @@
                 }
             }, 
             "facilitators_names": [
-                "", 
+                "Paolo Cirio", 
                 "", 
                 ""
             ], 
@@ -7933,12 +8448,12 @@
             "additional language": "", 
             "category": "Fuel The Movement", 
             "day": "Saturday", 
-            "description": "", 
+            "description": "Daily Paywall explores modern economic models and the distribution of information as material to make works of art. The artist redistributes tens of thousands of formerly pay-per-view articles through a crowd funded model to pay both readers and writers. His work monetizes pirated content to inform the public about socio-economic issues.", 
             "end": "2:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Paolo Cirio", 
                     "twitter": ""
                 }, 
                 "2": {
@@ -7953,7 +8468,7 @@
                 }
             }, 
             "facilitators_names": [
-                "", 
+                "Paolo Cirio", 
                 "", 
                 ""
             ], 
@@ -7972,12 +8487,12 @@
             "additional language": "", 
             "category": "Fuel The Movement", 
             "day": "Sunday", 
-            "description": "", 
+            "description": "Daily Paywall explores modern economic models and the distribution of information as material to make works of art. The artist redistributes tens of thousands of formerly pay-per-view articles through a crowd funded model to pay both readers and writers. His work monetizes pirated content to inform the public about socio-economic issues.", 
             "end": "11:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Paolo Cirio", 
                     "twitter": ""
                 }, 
                 "2": {
@@ -7992,7 +8507,7 @@
                 }
             }, 
             "facilitators_names": [
-                "", 
+                "Paolo Cirio", 
                 "", 
                 ""
             ], 
@@ -8011,12 +8526,12 @@
             "additional language": "", 
             "category": "Fuel The Movement", 
             "day": "Sunday", 
-            "description": "", 
+            "description": "Daily Paywall explores modern economic models and the distribution of information as material to make works of art. The artist redistributes tens of thousands of formerly pay-per-view articles through a crowd funded model to pay both readers and writers. His work monetizes pirated content to inform the public about socio-economic issues.", 
             "end": "2:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Paolo Cirio", 
                     "twitter": ""
                 }, 
                 "2": {
@@ -8031,7 +8546,7 @@
                 }
             }, 
             "facilitators_names": [
-                "", 
+                "Paolo Cirio", 
                 "", 
                 ""
             ], 
@@ -8165,9 +8680,9 @@
         }, 
         {
             "additional language": "", 
-            "category": "", 
+            "category": "Fuel The Movement", 
             "day": "Saturday", 
-            "description": "", 
+            "description": "Three short videos from writer-director Marisa Zanotti, choreographer Lea Anderson, and composer Matthew Whiteside that remix content to share pointed, political and social messages.", 
             "end": "10:00am", 
             "facilitators": {
                 "1": {
@@ -8191,22 +8706,22 @@
                 "", 
                 ""
             ], 
-            "id": "", 
+            "id": "353", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
             "start": "10:00am", 
             "tags": [], 
             "timeblock": "sat-10am--saturday-10-00-", 
-            "title": "Marisa Zanotti videos"
+            "title": "Glamour, Salvage and Reconstruction"
         }, 
         {
             "additional language": "", 
-            "category": "", 
+            "category": "Fuel The Movement", 
             "day": "Saturday", 
-            "description": "", 
+            "description": "Three short videos from writer-director Marisa Zanotti, choreographer Lea Anderson, and composer Matthew Whiteside that remix content to share pointed, political and social messages.", 
             "end": "2:00pm", 
             "facilitators": {
                 "1": {
@@ -8230,22 +8745,22 @@
                 "", 
                 ""
             ], 
-            "id": "", 
+            "id": "353", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
             "tags": [], 
             "timeblock": "sat-2pm--saturday-14-00-", 
-            "title": "Marisa Zanotti videos"
+            "title": "Glamour, Salvage and Reconstruction"
         }, 
         {
             "additional language": "", 
-            "category": "", 
+            "category": "Fuel The Movement", 
             "day": "Sunday", 
-            "description": "", 
+            "description": "Three short videos from writer-director Marisa Zanotti, choreographer Lea Anderson, and composer Matthew Whiteside that remix content to share pointed, political and social messages.", 
             "end": "11:00am", 
             "facilitators": {
                 "1": {
@@ -8269,22 +8784,22 @@
                 "", 
                 ""
             ], 
-            "id": "", 
+            "id": "353", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 4 - Library", 
             "notes url": "", 
             "programmatic": false, 
             "start": "11:00am", 
             "tags": [], 
             "timeblock": "sun-11am--sunday-11-00-", 
-            "title": "Marisa Zanotti videos"
+            "title": "Glamour, Salvage and Reconstruction"
         }, 
         {
             "additional language": "", 
             "category": "Fuel The Movement", 
             "day": "Sunday", 
-            "description": "", 
+            "description": "Three short videos from writer-director Marisa Zanotti, choreographer Lea Anderson, and composer Matthew Whiteside that remix content to share pointed, political and social messages.", 
             "end": "2:00pm", 
             "facilitators": {
                 "1": {
@@ -8308,7 +8823,7 @@
                 "", 
                 ""
             ], 
-            "id": "", 
+            "id": "353", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 4 - Library", 
@@ -8317,7 +8832,7 @@
             "start": "2:00pm", 
             "tags": [], 
             "timeblock": "sun-2pm--sunday-14-00-", 
-            "title": "Marisa Zanotti videos"
+            "title": "Glamour, Salvage and Reconstruction"
         }, 
         {
             "additional language": "", 
@@ -8328,7 +8843,7 @@
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Drew Wilson", 
                     "twitter": ""
                 }, 
                 "2": {
@@ -8343,7 +8858,7 @@
                 }
             }, 
             "facilitators_names": [
-                "", 
+                "Drew Wilson", 
                 "", 
                 ""
             ], 
@@ -8367,7 +8882,7 @@
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Drew Wilson", 
                     "twitter": ""
                 }, 
                 "2": {
@@ -8382,7 +8897,7 @@
                 }
             }, 
             "facilitators_names": [
-                "", 
+                "Drew Wilson", 
                 "", 
                 ""
             ], 
@@ -8406,7 +8921,7 @@
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Drew Wilson", 
                     "twitter": ""
                 }, 
                 "2": {
@@ -8421,7 +8936,7 @@
                 }
             }, 
             "facilitators_names": [
-                "", 
+                "Drew Wilson", 
                 "", 
                 ""
             ], 
@@ -8440,13 +8955,13 @@
             "additional language": "", 
             "category": "Fuel The Movement", 
             "day": "Saturday", 
-            "description": "Check out our new game on patents to learn about the challenges and opportunities that Intellectual Property (patents, copyright, etc.) present to open source software and the Web.", 
+            "description": "What if our favorite storybook heroes had to deal with patents? Find out by playing PatentQuest and to learn about the challenges and opportunities that Intellectual Property (patents, copyright, etc.) present to open source software and the Web.", 
             "end": "2:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "name": "Matthew Claypotch (Potch)", 
+                    "twitter": "@potch"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -8460,7 +8975,7 @@
                 }
             }, 
             "facilitators_names": [
-                "", 
+                "Matthew Claypotch (Potch)", 
                 "", 
                 ""
             ], 
@@ -8473,19 +8988,19 @@
             "start": "2:00pm", 
             "tags": [], 
             "timeblock": "sat-2pm--saturday-14-00-", 
-            "title": "It's dangerous to go alone! - The patent game"
+            "title": "It's dangerous to go alone! - The PatentQuest game"
         }, 
         {
             "additional language": "", 
             "category": "Fuel The Movement", 
             "day": "Sunday", 
-            "description": "Check out our new game on patents to learn about the challenges and opportunities that Intellectual Property (patents, copyright, etc.) present to open source software and the Web.", 
+            "description": "What if our favorite storybook heroes had to deal with patents? Find out by playing PatentQuest and to learn about the challenges and opportunities that Intellectual Property (patents, copyright, etc.) present to open source software and the Web.", 
             "end": "11:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "name": "Matthew Claypotch (Potch)", 
+                    "twitter": "@potch"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -8499,7 +9014,7 @@
                 }
             }, 
             "facilitators_names": [
-                "", 
+                "Matthew Claypotch (Potch)", 
                 "", 
                 ""
             ], 
@@ -8512,19 +9027,19 @@
             "start": "11:00am", 
             "tags": [], 
             "timeblock": "sun-11am--sunday-11-00-", 
-            "title": "It's dangerous to go alone! - The patent game"
+            "title": "It's dangerous to go alone! - The PatentQuest game"
         }, 
         {
             "additional language": "", 
             "category": "Fuel The Movement", 
             "day": "Sunday", 
-            "description": "Check out our new game on patents to learn about the challenges and opportunities that Intellectual Property (patents, copyright, etc.) present to open source software and the Web.", 
+            "description": "What if our favorite storybook heroes had to deal with patents? Find out by playing PatentQuest and to learn about the challenges and opportunities that Intellectual Property (patents, copyright, etc.) present to open source software and the Web.", 
             "end": "2:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "name": "Matthew Claypotch (Potch)", 
+                    "twitter": "@potch"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -8538,7 +9053,7 @@
                 }
             }, 
             "facilitators_names": [
-                "", 
+                "Matthew Claypotch (Potch)", 
                 "", 
                 ""
             ], 
@@ -8551,18 +9066,18 @@
             "start": "2:00pm", 
             "tags": [], 
             "timeblock": "sun-2pm--sunday-14-00-", 
-            "title": "It's dangerous to go alone! - The patent game"
+            "title": "It's dangerous to go alone! - The PatentQuest game"
         }, 
         {
             "additional language": "", 
             "category": "Fuel The Movement", 
             "day": "Saturday", 
-            "description": "\nDon't miss this large art installation at the entrance to Fuel the Movement. It's a 3D canvas painting that is interactive and will encourage you to share via social media. ", 
+            "description": "\nCome check out the large, interactive, 3D art installation! Don't forget to share photos via social media. ", 
             "end": "10:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Eduardo Relero", 
                     "twitter": ""
                 }, 
                 "2": {
@@ -8577,31 +9092,31 @@
                 }
             }, 
             "facilitators_names": [
-                "", 
+                "Eduardo Relero", 
                 "", 
                 ""
             ], 
             "id": "", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 4 - Library", 
+            "location": "Floor 0 - Foyer", 
             "notes url": "", 
             "programmatic": false, 
             "start": "10:00am", 
             "tags": [], 
             "timeblock": "sat-10am--saturday-10-00-", 
-            "title": "3D Canvas Painting"
+            "title": "Don't Restrict Innovation: A 3D Interactive Painting"
         }, 
         {
             "additional language": "", 
             "category": "Fuel The Movement", 
             "day": "Saturday", 
-            "description": "Don't miss this large art installation at the entrance to Fuel the Movement. It's a 3D canvas painting that is interactive and will encourage you to share via social media.", 
+            "description": "\nCome check out the large, interactive, 3D art installation! Don't forget to share photos via social media. ", 
             "end": "2:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Eduardo Relero", 
                     "twitter": ""
                 }, 
                 "2": {
@@ -8616,31 +9131,31 @@
                 }
             }, 
             "facilitators_names": [
-                "", 
+                "Eduardo Relero", 
                 "", 
                 ""
             ], 
             "id": "", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 4 - Library", 
+            "location": "Floor 0 - Foyer", 
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
             "tags": [], 
             "timeblock": "sat-2pm--saturday-14-00-", 
-            "title": "3D Canvas Painting"
+            "title": "Don't Restrict Innovation: A 3D Interactive Painting"
         }, 
         {
             "additional language": "", 
             "category": "Fuel The Movement", 
             "day": "Sunday", 
-            "description": "Don't miss this large art installation at the entrance to Fuel the Movement. It's a 3D canvas painting that is interactive and will encourage you to share via social media.", 
+            "description": "\nCome check out the large, interactive, 3D art installation! Don't forget to share photos via social media. ", 
             "end": "11:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Eduardo Relero", 
                     "twitter": ""
                 }, 
                 "2": {
@@ -8655,31 +9170,31 @@
                 }
             }, 
             "facilitators_names": [
-                "", 
+                "Eduardo Relero", 
                 "", 
                 ""
             ], 
             "id": "", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 4 - Library", 
+            "location": "Floor 0 - Foyer", 
             "notes url": "", 
             "programmatic": false, 
             "start": "11:00am", 
             "tags": [], 
             "timeblock": "sun-11am--sunday-11-00-", 
-            "title": "3D Canvas Painting"
+            "title": "Don't Restrict Innovation: A 3D Interactive Painting"
         }, 
         {
             "additional language": "", 
             "category": "Fuel The Movement", 
             "day": "Sunday", 
-            "description": "Don't miss this large art installation at the entrance to Fuel the Movement. It's a 3D canvas painting that is interactive and will encourage you to share via social media.", 
+            "description": "\nCome check out the large, interactive, 3D art installation! Don't forget to share photos via social media. ", 
             "end": "2:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Eduardo Relero", 
                     "twitter": ""
                 }, 
                 "2": {
@@ -8694,20 +9209,20 @@
                 }
             }, 
             "facilitators_names": [
-                "", 
+                "Eduardo Relero", 
                 "", 
                 ""
             ], 
             "id": "", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 4 - Library", 
+            "location": "Floor 0 - Foyer", 
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
             "tags": [], 
             "timeblock": "sun-2pm--sunday-14-00-", 
-            "title": "3D Canvas Painting"
+            "title": "Don't Restrict Innovation: A 3D Interactive Painting"
         }, 
         {
             "additional language": "", 
@@ -9718,7 +10233,7 @@
                 "", 
                 ""
             ], 
-            "id": "", 
+            "id": "800", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 8 - Executive Suite", 
@@ -9757,7 +10272,7 @@
                 "", 
                 ""
             ], 
-            "id": "", 
+            "id": "801", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 8 - 805", 
@@ -9796,7 +10311,7 @@
                 "", 
                 ""
             ], 
-            "id": "", 
+            "id": "802", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 8 - 805", 
@@ -9835,7 +10350,7 @@
                 "", 
                 ""
             ], 
-            "id": "", 
+            "id": "797", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 8 - 805", 
