@@ -798,12 +798,16 @@ function Schedule(CUSTOM_CONFIG) {
 
     if ( !$(this).data("tab") ) { 
       // when elem clicked isn't a tab control, e.g, it's the logo or the schedule link
-      // we bring users to the first day tab view instead
-      $this = $("#schedule-controls a").eq(0);
+      // we bring users to the "favored" tab view instead
+      // see schedule.getChosenTab()'s implementation for details
+      id = null;
+      schedule.chosenTab = null;
+      schedule.getChosenTab();
+      tab = schedule.chosenTab;
+    } else {
+      id = $this.attr('id');
+      tab = $this.data("tab");
     }
-
-    id = $this.attr('id');
-    tab = $this.data("tab");
 
     schedule.toggleSearchMode(false);
     schedule.updateHash(id);
