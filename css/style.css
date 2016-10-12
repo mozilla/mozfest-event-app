@@ -319,11 +319,27 @@ p {
 .session-card .meta,
 .session-detail .meta {
   font-weight: 300;
+  font-size: .9375rem;
 }
 
 .session-card h4,
 .session-detail h4 {
   margin-right: 2.5rem;
+}
+
+.session-card .session-description,
+.session-card .session-title-and-description-in-english,
+.session-detail .session-description,
+.session-detail .session-title-and-description-in-english {
+  color: #48484A;
+  margin-top: 1.5rem;
+}
+
+.session-card .session-description p,
+.session-card .session-title-and-description-in-english p,
+.session-detail .session-description p,
+.session-detail .session-title-and-description-in-english p {
+  font-size: .9375rem;
 }
 
 .session-card.session-programmatic {
@@ -620,15 +636,4 @@ p {
     padding-left: 30px;
     padding-right: 30px;
   }
-}
-
-/* *****
-  blue 
-***** */
-.page-caption h3::before {
-  border-color: #362FC1;
-}
-
-.label {
-  background: #362FC1;
 }

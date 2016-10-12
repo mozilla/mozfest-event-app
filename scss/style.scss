@@ -309,9 +309,18 @@ p {
 .session-detail {
   .meta {
     font-weight: 300;
+    font-size: .9375rem;
   }
   h4 {
     margin-right: 2.5rem;
+  }
+  .session-description,
+  .session-title-and-description-in-english {
+    color: $text-dark-grey;
+    margin-top: 1.5rem;
+    p {
+      font-size: .9375rem;
+    }
   }
 }
 
@@ -600,21 +609,4 @@ p {
     padding-left: 30px;
     padding-right: 30px;
   }
-}
-
-
-
-
-
-
-/* *****
-  blue 
-***** */
- 
-.page-caption h3::before {
-  border-color: $blue;
-}
-
-.label {
-  background: $blue;
 }
