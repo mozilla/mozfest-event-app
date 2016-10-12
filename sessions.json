@@ -4,7 +4,7 @@
             "additional language": "", 
             "category": "", 
             "day": "Friday", 
-            "description": "", 
+            "description": "Kick off your MozFest at this interactive Science Fair. Here, you can preview many of the projects that people will be working on over the weekend. Reconnect with old acqaintences and make some new friends and this social gathering.", 
             "end": "8:00pm", 
             "facilitators": {
                 "1": {
@@ -43,7 +43,7 @@
             "additional language": "", 
             "category": "", 
             "day": "Saturday", 
-            "description": "", 
+            "description": "Welcome to MozFest. Mark Surman, Executive Director the Mozilla Foundation will get us started with some brief opening remarks followed by a 'How to MozFest' tutorial by Gunner.", 
             "end": "9:20am", 
             "facilitators": {
                 "1": {
@@ -82,7 +82,7 @@
             "additional language": "", 
             "category": "", 
             "day": "Saturday", 
-            "description": "", 
+            "description": "Hot lunch is served on the Ground Floor, Floor 4 and Floor 6.", 
             "end": "2:00pm", 
             "facilitators": {
                 "1": {
@@ -121,7 +121,7 @@
             "additional language": "", 
             "category": "", 
             "day": "Saturday", 
-            "description": "", 
+            "description": "An immersive and interactive experience hosted by Anagram. Prepare to be engaged in a physical, playful and poetic way; you will not leave in quite the same state as you arrived.", 
             "end": "1:20am", 
             "facilitators": {
                 "1": {
@@ -160,7 +160,7 @@
             "additional language": "", 
             "category": "", 
             "day": "Sunday", 
-            "description": "", 
+            "description": "Ease into Day 2 with breakfast on Floor 4. There will be plenty of hot coffee, and the time is yours for writing, hacking or connecting with new friends.", 
             "end": "10:45am", 
             "facilitators": {
                 "1": {
@@ -199,7 +199,7 @@
             "additional language": "", 
             "category": "", 
             "day": "Sunday", 
-            "description": "", 
+            "description": "Hot lunch is served on the Ground Floor, Floor 4 and Floor 6.", 
             "end": "2:30pm", 
             "facilitators": {
                 "1": {
@@ -238,7 +238,7 @@
             "additional language": "", 
             "category": "", 
             "day": "Sunday", 
-            "description": "", 
+            "description": "Celebrate what we achieved together at the Demo Party! This energetic closer is a festival favourite, and a great way to see just how much we can accomplish when we come together to imagine, build and protect the open web.", 
             "end": "8:00pm", 
             "facilitators": {
                 "1": {
@@ -6505,7 +6505,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "12:30pm", 
-            "tags": [], 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
             "timeblock": "sat-12-30pm--saturday-12-30-", 
             "title": "Flag-o-ra-ma"
         }, 
@@ -6883,7 +6885,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "10:00am", 
-            "tags": [], 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
             "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Reform EU Copyright: What's Wrong With It, and What You Can Do"
         }, 
@@ -7353,7 +7357,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
-            "tags": [], 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
             "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Hack and Remix the Web with Web Extensions"
         }, 
@@ -7472,7 +7478,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": [], 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
             "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Failing Forward"
         }, 
@@ -7978,8 +7986,9 @@
         {
             "additional language": "", 
             "category": "Journalism", 
+            "day": "Sunday", 
             "description": "Interested in filing a public records request or FOI (Freedom of Information) request and don't know where to get started? It's never to late to learn!\nIn this workshop, we'll cover the basics of public records requests and why knowing how to craft a good letter can help you get closer to getting the data you're looking for. And I'll help you one-on-one to write and send off your first FOI request! If you have a certain dataset or record that you're looking for, we'll make sure we tailor the request for specific information. If you don't have data you're looking for, I'll help you think through some datasets you could request.\nThis workshop is for anyone who is interested in data and learning about FOI.\nNote: This session will be mostly focused on American, Canadian, South American and European record requests as that's what I know most about, but I'm always happy to learn new laws, so stop by if you're interested in requesting information from your country and we'll figure it out.", 
-            "duration": "", 
+            "end": "1:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Knight-Mozilla OpenNews, Correct!v", 
@@ -8005,28 +8014,30 @@
             "id": "831", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - Executive Suite", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "12:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-12-15pm--sunday-12-15-", 
             "title": "Come write your first FOIA request!"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
-            "description": "Les contaremos la experimentación de Chequeado -en alianza con Full Fact- en post de la automatización del proceso de chequeo de datos en medios cuyo lenguaje sea español o inglés. Para esto, estamos desarrollando herramientas que permitan encontrar frases chequeables de manera automática en distintos soportes (medios online, TV, radio y publicaciones oficiales).  Tanto en esta etapa como en los pasos siguientes (búsqueda del dato, producción del chequeo y calificación) utilizamos tecnología basada en el análisis del lenguaje natural.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "Joint session, with representatives from international journalism organizations Chequeado and Africa Check.\n\nWe plan to tell the experience from “Chequeado” in alliance with Full fact, a tool that automatize the process of check the data in media outlets write in English or Spanish. For this we are developing tools that allow find automatically phrases in different media(online, TV, radio, and official publications). Both in this stage like in the next (data search, data qualification and data check) we use technology based on natural language analysis. \n\nAfricaCheck.org is the continent's leading fact-checking website. Based in South Africa, our team of journalists and researchers spend hours working with data sources to prepare reports. They are also now regularly contacted by journalists asking for help in finding \"reliable\" data on a wide range of topics. We built a simple tool, on our site, to set out data sources we think useful (not always reliable) and explain pros & cons, but want to share ideas - with both journalists/researchers and UX specialists - about how best to develop this to meet journalists needs.", 
+            "end": "12:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Chequeado", 
-                    "name": "Laura Zommer", 
-                    "twitter": "@lauzommer"
+                    "name": "Mariano Falcón", 
+                    "twitter": ""
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "Africa Check", 
+                    "name": "Peter Cunliffe-Jones", 
+                    "twitter": "@pcunliffejones"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -8035,25 +8046,27 @@
                 }
             }, 
             "facilitators_names": [
-                "Laura Zommer", 
-                "", 
+                "Mariano Falcón", 
+                "Peter Cunliffe-Jones", 
                 ""
             ], 
             "id": "813", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - 804", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:15am", 
             "tags": [], 
-            "timeblock": "", 
-            "title": "Qué hacemos para automatizar el proceso (o parte) del chequeo de datos?"
+            "timeblock": "sat-11-15am--saturday-11-15-", 
+            "title": "Getting it right: Automating Fact Checking and Data Searches in South America and Africa"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
-            "description": "We will explore how JumpStart is using different media formats (games, infographics, factographs, interactive data-visualizations, radio, and animation) to discuss data-rich stories about gender bias in education, employment, and even at birth. We will show how a broad, multifaceted, and creative approach to data journalism can reach larger audiences.", 
-            "duration": "", 
+            "day": "Sunday", 
+            "description": "Joint session, with representatives from international journalism organizations El Universal Data and JumpStart Georgia.\n\nWe will describe the difficulties in obtaining open data about the Disappeared in Mexico, and talk about the Disappeared images and Ignored Absences project as a case study, discussing how it was conducted and what we found.\n\nWe will explore how JumpStart is using different media formats (games, infographics, factographs, interactive data-visualizations, radio, and animation) to discuss data-rich stories about gender bias in education, employment, and even at birth. We will show how a broad, multifaceted, and creative approach to data journalism can reach larger audiences.", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "JumpStart Georgia", 
@@ -8061,9 +8074,9 @@
                     "twitter": "@brrttwrks"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "El Universal Data", 
+                    "name": "Lilia Saúl", 
+                    "twitter": "@liliasaul"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -8073,29 +8086,31 @@
             }, 
             "facilitators_names": [
                 "Eric Barrett", 
-                "", 
+                "Lilia Saúl", 
                 ""
             ], 
             "id": "804", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - Boardroom", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:00am", 
             "tags": [], 
-            "timeblock": "", 
-            "title": "Stories of Gender Bias in Georgia: Education, Employment, and Birth"
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "Missing Women and Missing Pay: How Mexico and Georgia are Closing the Gender Gap by Closing the Data Gap"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
-            "description": "Knowing the difficulties in obtaining Information in open data revealing the problems that exist around the\nDisappeared in Mexico.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "Overwhelmingly, women who are in the public eye, and those whose jobs require them to maintain a public profile are subject to the most vicious forms of harassment. In fact, 95% of aggressive behaviour, harassment, abusive language and denigrating images in online spaces are aimed at women -- making this a gendered issue. This session is highly interactive, and the goal is for participants to come out with strategies that allow them to be effective allies for vulnerable female journalists.", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "El Universal Data", 
-                    "name": "Lilia Saúl", 
-                    "twitter": "@liliasaul"
+                    "affiliated org": "sana.maliko@gmail.com", 
+                    "name": "Sana Malik", 
+                    "twitter": "@Sanomaly"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -8109,25 +8124,27 @@
                 }
             }, 
             "facilitators_names": [
-                "Lilia Saúl", 
+                "Sana Malik", 
                 "", 
                 ""
             ], 
             "id": "803", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - Boardroom", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": [], 
-            "timeblock": "", 
-            "title": "Human Rights and Gender Gap"
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
+            "title": "Breaking the chains: Reconfiguring the cycle of online violence against female journalists"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
+            "day": "Saturday", 
             "description": "How much free air time did Donald Trump get in 2016?\nWhat was the most repeated segment of the first presidential debate?\nHow often did Toyota air their ad for their new Prius?\nThis session will be about tools that allow people to ask these questions, and questions of their own.\nParticipants will learn to search and interact with broadcast television using the Internet Archive's corpus of fingerprinted TV programs.  More specifically, folks will learn how to use open source audio fingerprinting and caption extraction tools to design and build applications that have the ability to know what exactly has been happening on TV and generate datasets based on the resulting audio and text analysis.", 
-            "duration": "", 
+            "end": "11:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "The Internet Archive", 
@@ -8153,18 +8170,20 @@
             "id": "743", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - 804", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Searchable Broadcasts (TV for Robotic Overlords)"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
+            "day": "Saturday", 
             "description": "Install, improve our open source software and be part of our community in making journalism and people's lives more closely intertwined.", 
-            "duration": "", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla Foundation", 
@@ -8190,18 +8209,20 @@
             "id": "737", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - Executive Suite", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Journalism is for Everyone"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
+            "day": "Saturday", 
             "description": "The Los Angeles Times product team would like to share its home-grown CMS and liveblog tools with attendees, with a focus on how creating user-friendly storytelling tools can improve the lives of journalists and ultimately the readers' experience.  We'll share how we started down this road, the problems we've faced along the way and how our story can apply to other newsrooms, both big and small.", 
-            "duration": "", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Los Angeles Times", 
@@ -8227,18 +8248,20 @@
             "id": "733", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - Boardroom", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "User experience inside and out of the newsroom"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
+            "day": "Sunday", 
             "description": "We will talk about how different kinds of storytellers and data showers use storyboarding and mood boarding techniques to organize and sketch their stories. And then have the group storyboard and moodboard their own stories.", 
-            "duration": "", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Reveal, The Center for Investigative Reporting", 
@@ -8264,20 +8287,22 @@
             "id": "727", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - 805", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:00am", 
             "tags": [
                 "Storytelling"
             ], 
-            "timeblock": "", 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Get on board: Story- and mood boarding your stories"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
+            "day": "Saturday", 
             "description": "Brokering relationships between organizations and individuals to foster fruitful collaborations. Doing great work in media today often means you're doing it with others. Playing with new formats, working with disparate disciplines,  finding new ways to sustain interdisciplinary work, and creating stories with wide-ranging impact require the work of a network of individuals with varying goals and skills. How do you reconcile their disparate political motivations and organizational constraints?", 
-            "duration": "", 
+            "end": "11:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "The Brown Institute for Media Innovation at Columbia Journalism School and Stanford Engineering", 
@@ -8303,18 +8328,20 @@
             "id": "724", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - 805", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "The Edge of Journalism: Bringing Outsiders In And Making Collaborations Work"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
+            "day": "Sunday", 
             "description": "We'll set up a number of activities to experience the very latest immersive stories. We'll discuss what works, what doesn't and how we could improve these experiences. We'll talk about demographics, user bases and what's possible and how.\nIn the second half of the session we'll take some time to build our own 360 video and binaural audio of the Mozilla Festival and publish it online for people to experience.", 
-            "duration": "", 
+            "end": "4:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Trint", 
@@ -8340,20 +8367,22 @@
             "id": "686", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - 804", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [
                 "Storytelling"
             ], 
-            "timeblock": "", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "How we can use 360 Video, Binaural Audio, VR and Pokemon Go to tell new stories"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
+            "day": "Sunday", 
             "description": "Every day, more and more data is created. Journalists, analysts, and data visualizers turn that data into stories and insights. But before you can make use of any data, you need to know if it’s reliable. Is it weird? Is it clean? Can you use it to write or make a graphic?\nDataProofer is a prototype Electron desktop app and command-line spreadsheet linter funded in-part by the Knight Foundation. It was built for people who want to get into data, but don't necessarily know what to do when they encounter a problem.\nGet to know how you can use DataProofer and add tests so other users can benefit from your experiences.  If you don't write code, you can still help us by providing written solutions to data problems faced by students, academics, analysts. We want to hear from you.", 
-            "duration": "", 
+            "end": "4:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "DataProofer", 
@@ -8379,18 +8408,20 @@
             "id": "677", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - Boardroom", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Build a Better Data Linter with DataProofer"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
+            "day": "Saturday", 
             "description": "Coding in a newsroom is awesome, but it can also be hard work. Whether you're cleaning and analysing data or creating an intricate graphic, programming requires intense focus and can often leave you feeling drained. What's more, there's always the temptation to stay a little longer and make your project that much better. So how can we counteract those pressures? We're going to present a solution that provides both a much-needed break from technical work, and inspiration for future projects! (a riff on Physics for Poets: https://www.amazon.com/Physics-Poets-Robert-March/dp/0072472170)", 
-            "duration": "", 
+            "end": "1:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Financial Times", 
@@ -8400,7 +8431,7 @@
                 "2": {
                     "affiliated org": "Knight-Mozilla OpenNews, Los Angeles Times", 
                     "name": "Christine Zhang", 
-                    "twitter": ""
+                    "twitter": "@christinezhang"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -8416,18 +8447,20 @@
             "id": "654", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - 805", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "12:30pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-12-30pm--saturday-12-30-", 
             "title": "Poetry for programmers: How arts and culture will save your life and improve your code"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
+            "day": "Sunday", 
             "description": "Readers are increasingly interacting with news content from a variety of locations, environments and levels of ability. As a result, news organizations need to think about creating platforms and stories that readers can access in as many ways as possible. Using examples from live theater, sports and education, this session will discuss best practices for web accessibility, graphics, closed captioning, and social media and facilitate a discussion about what news organizations are doing and how we can improve as an industry.", 
-            "duration": "", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Financial Times", 
@@ -8453,18 +8486,20 @@
             "id": "643", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - Boardroom", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "What can theater, sports and education teach us about accessibility in journalism?"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
+            "day": "Saturday", 
             "description": "Participants will learn to identify and measure the potential consequences of granting smartphone apps different permissions - especially in the light rapid strides in data science that allows us to predict user behavior better and better from more and more innocuous but ubiquitous data.\nThey will learn how to measure such risks, and how to talk objectively about differing degrees of user preference for privacy.", 
-            "duration": "", 
+            "end": "12:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Ford-Mozilla OpenWeb Fellow", 
@@ -8490,18 +8525,20 @@
             "id": "616", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - Executive Suite", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:15am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Measuring privacy risk and implied consent in app permissions"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
+            "day": "Sunday", 
             "description": "Data Driven Journalism is one piece in the larger picture of attaining data literacy in society.  This session will look at the various roles of various institutions in order for citizens can understand, interact and even collect data that can be used to  improve their communities.", 
-            "duration": "", 
+            "end": "4:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "FabRiders", 
@@ -8527,18 +8564,20 @@
             "id": "614", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - Executive Suite", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Creating Data Literacy: connecting the dots between Journalism, Government, Civil Society and Academia"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
+            "day": "Saturday", 
             "description": "In this session the attendees will learn how to enrich stories with VR experiences without the help of developers using open source tools based on web standards. This experiences can be distributed as websites or embed as widgets and are ready for headsets like the Oculus Rift and the Google Cardboard. The presented tools includes MozVR A-Frame and GuriVR (gurivr.com), developed as part of my Knight-Mozilla fellowship.", 
-            "duration": "", 
+            "end": "11:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Knight-Mozilla OpenNews, Coral Project", 
@@ -8564,18 +8603,20 @@
             "id": "568", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - Boardroom", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "WebVR for the rest of us"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
+            "day": "Sunday", 
             "description": "Workflow is one of the less-understood and more intangible things about a newsroom. Sure, reporters know who to send their stories to, but when the newsroom starts to grow or transform, the workflow starts to look crazier and crazier. And when a transformation of the newsroom is attempted, the workflow is one of the things that can make or break it.\nThis session will look at workflow in newsrooms, ways it can be first understood and then how it can be improved. We'll try a couple of exercises to make the abstract topic of newsroom workflow more real, as well as to look at various tools that can help the process move better, including the tool our team has made, Superdesk.", 
-            "duration": "", 
+            "end": "4:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Sourcefabric", 
@@ -8601,18 +8642,20 @@
             "id": "540", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - 805", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Reverse-engineering newsroom workflow"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
+            "day": "Sunday", 
             "description": "Imagine you’ve spent months, maybe even a few years putting together hugely important data sets. Now, you have to figure out how to enthuse your audiences with that data. The solution? Build a news app!\nBut this last crucial step needs as much care and effort as your data gathering. News apps need to go beyond merely dumping large data sets into a searchable tool and help audiences find themselves and their personal stories in the data.\nBut how do we design engaging news apps that tell the stories of you and me? We will present, discuss and gather techniques and technologies for data personalization in this session.", 
-            "duration": "", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "BuzzFeed Open Lab", 
@@ -8638,20 +8681,22 @@
             "id": "532", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - 804", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:00am", 
             "tags": [
                 "Storytelling"
             ], 
-            "timeblock": "", 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "News apps: how to make your audience care about your data"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
+            "day": "Saturday", 
             "description": "For many news organizations, a lot of time and money goes into creating long form interactive stories and web documentaries. Sadly, in many cases these projects fail to capture the imagination and attention of readers beyond the first scroll.\nDuring this session we'll guide participants through the following key phases of longform storytelling:\n1. Pitching\n2. Storyboarding\n3. Design\n5. Development\n5. Measuring success", 
-            "duration": "", 
+            "end": "11:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Al Jazeera", 
@@ -8677,18 +8722,20 @@
             "id": "489", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - Executive Suite", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Web docs and longforms - Al Jazeera's approach"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
+            "day": "Saturday", 
             "description": "Talking with machines can be as natural as having conversation from a twitter account that unveils histories from a home census dataset (https://twitter.com/habitantesar ) to a newspaper that answers questions about dollar, weather or traffic (http://www.ambito.com/838436-informate-con-el-bot-de-ambitocom ).\nNow, we can give a new access to our stories creating bots that opens the conversation with the information that we have in our projects.\nJoin this this workshop  to will see some working examples, understand different types of platform and get the tools to start your own project.", 
-            "duration": "", 
+            "end": "4:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Genosha", 
@@ -8714,18 +8761,20 @@
             "id": "447", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - 805", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "To Bot or Not to Bot"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
+            "day": "Sunday", 
             "description": "What does scraping actually mean? Why would I need databases and what the heck is MongoDB? What's the difference between SQL and SQLite? And can I truncate my y-axis or will the data vis community kill me?\nEven if you've worked with data for years, you might have simple questions like that. And now it's too late to ask. Waaaay too late. Nobody can ever know that you still don't know what Pandas is. Or why people would use PostgreSQL.\nIf you feel this way: Fear not! Let's finally demystify these things. During this session, we will all (anonymously) submit questions and we will all answer them immediately. Because self-taught as many of us are, we have gaps in our knowledge and skills that other people can fill. And we all can fill other people's knowledge gaps. This workshop is for data lovers of any kind; beginner or expert.", 
-            "duration": "", 
+            "end": "1:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Knight-Mozilla OpenNews, NPR", 
@@ -8751,18 +8800,20 @@
             "id": "382", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - 805", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "12:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-12-15pm--sunday-12-15-", 
             "title": "Let's ask all our embarrassing data questions"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
+            "day": "Saturday", 
             "description": "This session is about helping journalists to tackle their real concerns with communications security and surveillance.  Our participants - journalists, media activists, and people interested in these topics - will learn about how to secure their communications. Learning about information security can feel overwhelming to the uninitiated; framing how to think about responding to specific threats can empower participants. We will first cover how to think about digital security productively by discussing threat modeling, and learn how to use four different tools for securing communications and conducting research anonymously.", 
-            "duration": "", 
+            "end": "12:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Knight-Mozilla OpenNews, Coral Project", 
@@ -8788,18 +8839,20 @@
             "id": "370", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - 805", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:15am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Off the Record: Introduction to Encrypted Communications for Journalists"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
+            "day": "Saturday", 
             "description": "Alaveteli is a powerful open source platform for making public Freedom of Information requests to public sector bodies, in use by over 9 million people each year in over 20 countries. In the UK, Alaveteli powers WhatDoTheyKnow.com, which has helped users make over 340,000 FOI requests and published the responses online in a permanent archive.\nOver the next 18 months, mySociety, the charity behind Alaveteli and WhatDoTheyKnow, is building Alaveteli Professional, a toolset for journalists, campaigners, activists – and anyone who uses Freedom of Information in their work. We’re looking for journalists to help us understand the challenges they face around using FOI, so that we can build the most useful possible toolkit for making and managing FOI requests. We’ll showcase our in-progress alpha service and will be aiming to recruit new users for our public beta that will be in development until April 2017.", 
-            "duration": "", 
+            "end": "4:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "mySociety", 
@@ -8825,18 +8878,20 @@
             "id": "345", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - Boardroom", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Alaveteli Professional - an FOI toolkit for journalists"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
+            "day": "Saturday", 
             "description": "Using some of the videos from the Whistle Blowers Interview Archive, we’ll take an hands on approach to explore key concepts, ideas and techniques to identify narrative points, test out story ideas, and craft a compelling story. This workshop focusses on the underlying evergreen storytelling principles that transcend the medium, so no knowledge of video editing required, just curiosity towards story telling principles and techniques.", 
-            "duration": "", 
+            "end": "4:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Knight-Mozilla OpenNews, Vox", 
@@ -8862,23 +8917,64 @@
             "id": "284", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - 804", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "How to craft compelling stories out of video interviews? -Hands on Workshop"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
-            "description": "www.AfricaCheck.org is the continent's leading fact-checking website. Based in South Africa, our team of journalists and researchers spend hours working with data sources to prepare reports. They are also now regularly contacted by journalists asking for help in finding \"reliable\" data on a wide range of topics. We built a simple tool, on our site, to set out data sources we think useful (not always reliable) and explain pros & cons, but want to share ideas - with both journalists/researchers and UX specialists - about how best to develop this to meet journalists needs.\nI want ideas about : what sort of information the group thinks people want - how we should set it out - how to make it most easily searchable - how to manage such a database with limited resources - and how we can point out the strengths and weaknesses we see in it as researchers.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "A panel of participants from the DG7 group of international broadcasters will present tips and insights into delivering online content into China, against one of the world’s most stringent content filtering systems, the Great Firewall. Coming from different editorial backgrounds, the panel will provide advice about the best possible means they have been using in addition to speaking about the technical and editorial challenges they encountered.”", 
+            "end": "1:30pm", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "Africa Check", 
-                    "name": "Peter Cunliffe-Jones", 
-                    "twitter": "@pcunliffejones"
+                    "affiliated org": "BBC", 
+                    "name": "Abdallah al-Salmi", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "BBC", 
+                    "name": "Julian Cable", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Abdallah al-Salmi", 
+                "Julian Cable", 
+                ""
+            ], 
+            "id": "796", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 8 - Executive Suite", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "12:30pm", 
+            "tags": [], 
+            "timeblock": "sat-12-30pm--saturday-12-30-", 
+            "title": "Delivering news into China – Insights"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Journalism", 
+            "day": "Sunday", 
+            "description": "Facilitated by Sarah Marshall, Cassie Werber, Jeremy Walker, Federica Cherubini, Joanna Geary, Peter MacRobert\n\nCalling hacks! Calling hackers! Hacks/Hackers London invites you to discuss five big themes from the junction of journalism and tech. We hope to see people who are new to Hacks/Hackers as well as familiar faces from the Hacks/Hackers family. So join us for a curated conversation. What is Hacks/Hackers? A grassroots organisation of journalists and technologists who come together to rethink the future of news.", 
+            "end": "12:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -8892,19 +8988,137 @@
                 }
             }, 
             "facilitators_names": [
-                "Peter Cunliffe-Jones", 
+                "", 
                 "", 
                 ""
             ], 
-            "id": "796", 
+            "id": "", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 8 - Executive Suite", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:00am", 
             "tags": [], 
-            "timeblock": "", 
-            "title": "Helping African journalists find 'reliable' data sources"
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "5 big topics for Hacks (journalists) and Hackers (technologists) in 2016"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Journalism", 
+            "day": "Saturday", 
+            "description": "Bring your questions to this set of open sessions on the Journalism floor. Office hours are a chance to ask for one-on-one feedback, get help installing software, and dig into topical conversations with experts in the field. Including:\n\n* Privacy & Security (Martin Shelton, Matthew Mitchell, Mike Tigas)", 
+            "end": "1:45pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 8 - 805", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sat-1pm--saturday-13-00-", 
+            "title": "Office hours: Privacy/Security"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Journalism", 
+            "day": "Sunday", 
+            "description": "Bring your questions to this set of open sessions on the Journalism floor. Office hours are a chance to ask for one-on-one feedback, get help installing software, and dig into topical conversations with experts in the field. Including:\n\n* Snowball, a WordPress tool for building immersive feature articles (Meen Chul Kim)", 
+            "end": "1:45pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 8 - 805", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sun-1pm--sunday-13-00-", 
+            "title": "Office hours: Snowball"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Journalism", 
+            "day": "Saturday", 
+            "description": "", 
+            "end": "5:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 8 - 805", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "4:30pm", 
+            "tags": [], 
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
+            "title": "Lightning talks"
         }, 
         {
             "additional language": "Italian", 
