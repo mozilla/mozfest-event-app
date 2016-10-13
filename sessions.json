@@ -1544,7 +1544,7 @@
             "title": "Let's Encrypt - Someone could listen"
         }, 
         {
-            "additional language": "Lithuanian", 
+            "additional language": "Lithuanian, English", 
             "category": "Demystify the web", 
             "day": "Sunday", 
             "description": "Crowd2Map Tanzania is a crowdsourced mapping project that was born a year ago at MozFest! We set out to map the blank canvas of Tanzania using mobile apps (for locals on the ground), open data (of schools&medical facilities) and satellite mapping on OpenStreetMap (for volunteers around the world). The project has since seen major successes, including thousands of schools mapped, hundreds of objects&villages that were only known to locals identified etc. Currently, we are rushing to map the region of Mara, where female genital mutilation (FGM) is prevalent, before the cutting season starts in December. Mugumu Safe House is already using our maps to \"reach places they have never reached before\" and save more girls from the life threatening practice. Our goal for this session is to demonstrate how mapping can help achieve SDGs in developing countries, and illustrate how easy it is to contribute by doing mapping online.", 
@@ -1578,7 +1578,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "12:15pm", 
-            "tags": [], 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
             "timeblock": "sun-12-15pm--sunday-12-15-", 
             "title": "Towards sustainable development: crowdsourced mapping to end FGM in Tanzania"
         }, 
