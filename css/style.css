@@ -147,7 +147,8 @@ input {
   padding: 5px;
 }
 
-p {
+p,
+li {
   font-size: 1rem;
   line-height: 1.4;
 }
@@ -336,10 +337,32 @@ p {
 }
 
 .session-card .session-description p,
+.session-card .session-description li,
 .session-card .session-title-and-description-in-english p,
+.session-card .session-title-and-description-in-english li,
 .session-detail .session-description p,
-.session-detail .session-title-and-description-in-english p {
+.session-detail .session-description li,
+.session-detail .session-title-and-description-in-english p,
+.session-detail .session-title-and-description-in-english li {
   font-size: .9375rem;
+}
+
+.session-card .session-description ul,
+.session-card .session-description ol,
+.session-card .session-title-and-description-in-english ul,
+.session-card .session-title-and-description-in-english ol,
+.session-detail .session-description ul,
+.session-detail .session-description ol,
+.session-detail .session-title-and-description-in-english ul,
+.session-detail .session-title-and-description-in-english ol {
+  margin-left: 2rem;
+}
+
+.session-card .session-description li,
+.session-card .session-title-and-description-in-english li,
+.session-detail .session-description li,
+.session-detail .session-title-and-description-in-english li {
+  margin: 0;
 }
 
 .session-card.session-programmatic {

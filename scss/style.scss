@@ -140,7 +140,8 @@ input {
   padding: 5px;
 }
 
-p {
+p,
+li {
   font-size: 1rem;
   line-height: 1.4;
 }
@@ -318,8 +319,16 @@ p {
   .session-title-and-description-in-english {
     color: $text-dark-grey;
     margin-top: 1.5rem;
-    p {
+    p,
+    li {
       font-size: .9375rem;
+    }
+    ul,
+    ol {
+      margin-left: 2rem;
+    }
+    li {
+      margin: 0;
     }
   }
 }
