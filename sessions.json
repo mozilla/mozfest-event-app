@@ -276,8 +276,9 @@
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Saturday", 
             "description": "This will be run as a drop in activity over a period of time (suggest 2hours) which can be repeated through the festival to make it available and a project which can evolve.", 
-            "duration": "", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "U Can Too", 
@@ -303,23 +304,64 @@
             "id": "18", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
-            "title": "The Reactor or Fort U-Telling (to fit in with the Funhouse theme?)"
+            "timeblock": "sat-10am--saturday-10-00-", 
+            "title": "The Reactor"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Sunday", 
+            "description": "This will be run as a drop in activity over a period of time (suggest 2hours) which can be repeated through the festival to make it available and a project which can evolve.", 
+            "end": "5:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "U Can Too", 
+                    "name": "Su Adams", 
+                    "twitter": "@SuAdamsEdIT"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Su Adams", 
+                "", 
+                ""
+            ], 
+            "id": "18", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 7 - 702", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "The Reactor"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Demystify the web", 
+            "day": "Saturday", 
             "description": "Entertain people by getting them immersed in an interactive video called 'Who Is Terror' as well as inspire them to use coding and technology to enhance creative projects.", 
-            "duration": "", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
                     "name": "Yasmin Curren", 
-                    "twitter": "YagmanX"
+                    "twitter": "@YagmanX"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -340,18 +382,59 @@
             "id": "34", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 706", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Interactive Video 'Who Is Terror?' | Creative Coding"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Sunday", 
+            "description": "Entertain people by getting them immersed in an interactive video called 'Who Is Terror' as well as inspire them to use coding and technology to enhance creative projects.", 
+            "end": "5:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "Yasmin Curren", 
+                    "twitter": "@YagmanX"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Yasmin Curren", 
+                "", 
+                ""
+            ], 
+            "id": "34", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 7 - 706", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "Interactive Video 'Who Is Terror?' | Creative Coding"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Demystify the web", 
+            "day": "Sunday", 
             "description": "Every month we host a live curriculum workshop with community members and friends to talk about themes and create curriculum: https://learning.mozilla.org/community/curriculum-workshop We want to host a live show during Mozfest that is a mix of showcasing what curriculum people are building while at the event and some live curriculum development on the spot with attendees. So people will learn and make curriculum in a fun way which connects both attendees and external viewers.", 
-            "duration": "", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla Foundation", 
@@ -377,18 +460,20 @@
             "id": "43", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 703", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Mozfest Curriculum Workshop"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Saturday", 
             "description": "Building on a Mozilla-sponsored challenge from the [SPARK! youth hackathon](http://spark.stab.org/), this session will teach attendees how to create and share Minecraft adventure maps that help #teachtheweb. Using in-game command blocks programmed with JSON, participants will design and create scenarios and gameplay mechanics that turn their Minecraft worlds into games that teach about Mozilla’s key values and issues such as digital inclusion, privacy, web literacy, decentralization, openness, and innovation. You can see past examples of work done for this Fight for the Open Web! challenge in [this blogpost](https://blog.webmaker.org/open-world-open-web).", 
-            "duration": "", 
+            "end": "11:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla Foundation", 
@@ -414,20 +499,22 @@
             "id": "66", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 703", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [
                 "Storytelling"
             ], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Fight for the Open Web! Using Minecraft for Internet Activism"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Sunday", 
             "description": "Participants in this highly interactive workshop will play through three offline games that teach the web. These games are some of the emerging “greatest hits” from the Mozilla Foundation’s face-to-face web literacy trainings. The group will pause after each game for a brief design critique and discussion about localizing the game for participants’ home communities.\nAttendees will play\n- [What If The Had the Web?](https://d157rqmxrxj6ey.cloudfront.net/chadsansing/33444/#overview) - a storytelling game about finding local and personal relevance for web literacy.\n- The Paper Airplane Game ([see slide 34](https://docs.google.com/presentation/d/1X7YahG-tvCSm8n-A794DSj-2EI6dQY20OrRqhjaEJjk/edit#slide=id.p)) (with thanks to Kylie Peppler and Rafi Santo) - a role-playing game about the advantages of working open and pursuing innovation.\n- [Werewolf-in-the-Middle](https://d157rqmxrxj6ey.cloudfront.net/chadsansing/33444/#overview) - a social, hidden-information game about the importance of encryption to online privacy.", 
-            "duration": "", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla Foundation", 
@@ -453,30 +540,32 @@
             "id": "67", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:00am", 
             "tags": [
                 "Advocacy & Web Literacy"
             ], 
-            "timeblock": "", 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Offline Games for the Open Web"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Saturday", 
             "description": "DreamYard and Parsons School of Design are rethinking what a digital portfolio can be. For three years, the Learning Portfolio Project has been using free and open tools to help young people tell their own learning stories. Learning portfolios are online, multimedia collections of young people’s work, including finished pieces, reflections on and documentation of process, research and examples of other’s work that inspires them. We are sharing the Learning Portfolio approach with as many schools and organizations as we can to hack, remix, and adapt it to their local context and demystify portfolio development for young webmakers. Join us to learn more about the Learning Portfolio approach and help us think of the tools and resources that can be shared worldwide to make portfolios possible for all young people.", 
-            "duration": "", 
+            "end": "4:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "DreamYard", 
                     "name": "Hillary Kolos", 
-                    "twitter": ""
+                    "twitter": "@ludditeatheart"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "DreamYard Preparatory High School", 
+                    "name": "Rudy Blanco", 
+                    "twitter": "@RudyBlancs"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -486,34 +575,36 @@
             }, 
             "facilitators_names": [
                 "Hillary Kolos", 
-                "", 
+                "Rudy Blanco", 
                 ""
             ], 
             "id": "126", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 703", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Moving Portfolios Forward: Designing Tools and Supports to Make Portfolio Development More Accessible"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Sunday", 
             "description": "We'll tear apart the traditional \"amoral\" CS curriculum for high school students, which focuses on technical skills without a consideration of the ethical dilemmas presented through the creation of those tools.  Participants will develop course offerings which will invite & entice nontraditional students (journalists, activists, artists, etc.) into the CS program. Our current working outline includes courses such as Google vs. Oracle (learning Java while developing an understanding of the open source software ecosystem), Margin of Error (exploring pattern recognition, machine learning, and artificial intelligence and how seemingly small margin of errors have real-world impact when applied to modern machine/drone warfare), Echo Breakdown (privacy, security, systems, and the internet of things),  and the Snowden Files (developing data structures, data collection, and the potential misuse of seemingly innocuous data).", 
-            "duration": "", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Ethical Culture Fieldston School", 
                     "name": "Jeannie Crowley", 
-                    "twitter": "jeannieccrowley"
+                    "twitter": "@jeannieccrowley"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "The Browning School", 
+                    "name": "Saber Khan", 
+                    "twitter": "@ed_saber"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -523,26 +614,28 @@
             }, 
             "facilitators_names": [
                 "Jeannie Crowley", 
-                "", 
+                "Saber Khan", 
                 ""
             ], 
             "id": "152", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:00am", 
             "tags": [
                 "The Future of the Web"
             ], 
-            "timeblock": "", 
-            "title": "Fostering Ethical Innovation by Hacking the High School CS Curriculum"
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": " Build an open source ethical CS program"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Sunday", 
             "description": "The internet has become a crucial part of everyday life, but millions of people still lack the skills and resources to access it. I want to introduce solutions for communities with low/no connectivity to learn basic web skills.\nFor MozFest, I propose a session to share several offline activities through which we can teach and learn Web Literacy. Since this is a participatory workshop, participants can create their own unique activities as we progress. We will discuss how much impact tools like this can have on a community and why offline learning is so important. Some examples of activities include:\n1. Learning Web Mechanics with simple card sheets and markers\n2. 'A Strong Wind Blows': a chair game which makes participants wonder about Web\n3. A brief example of 'Web Mechanics Speed Dating'.\n4. Using Slides and video captures to explain the basics of Internet (working of web browser etc).", 
-            "duration": "", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -551,8 +644,8 @@
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "name": "Mayur Patil", 
+                    "twitter": "@yomanpatil"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -562,24 +655,26 @@
             }, 
             "facilitators_names": [
                 "Vishal Chavan", 
-                "", 
+                "Mayur Patil", 
                 ""
             ], 
             "id": "189", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-4-30pm--sunday-16-30-", 
             "title": "Teach The Web, without the Web"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
-            "description": "My idea is a small area installation that allows people to enter  and feel the tension between our vanity and the need for privacy.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "An installation of selfies that recalls the tension between vanity and our need for privacy", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla", 
@@ -605,20 +700,61 @@
             "id": "190", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 706", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [
                 "The Future of the Web"
             ], 
-            "timeblock": "", 
-            "title": "Privacy Trumps Vanity Trumps Privacy"
+            "timeblock": "sat-10am--saturday-10-00-", 
+            "title": "Vanity Trumps Privacy Trumps Vanity"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Sunday", 
+            "description": "An installation of selfies that recalls the tension between vanity and our need for privacy", 
+            "end": "5:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Mozilla", 
+                    "name": "Kevin Fann", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Kevin Fann", 
+                "", 
+                ""
+            ], 
+            "id": "190", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 7 - 706", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "Vanity Trumps Privacy Trumps Vanity"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Demystify the web", 
+            "day": "Saturday", 
             "description": "We recognize that very few societal issues affecting women have been tackled. This session will focus on handing women from all over the globe that will be in the room, the opportunity to use the web to tackle some of those issues  and to come up with one or more solutions to them.", 
-            "duration": "", 
+            "end": "1:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Jamlab", 
@@ -644,20 +780,22 @@
             "id": "201", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "12:30pm", 
             "tags": [
                 "Storytelling"
             ], 
-            "timeblock": "", 
+            "timeblock": "sat-12-30pm--saturday-12-30-", 
             "title": "My Safe Space : The Woman's Tale."
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Sunday", 
             "description": "Do you play games? How about MAKING GAMES for a couple of hours?\nIn this practical workshop you will learn how to hack analog games (think Monopoly) to explore Web Literacy.\nBy the end, you will have a playable prototype of your new game, and a workshop idea to use in your classroom!", 
-            "duration": "", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Ravensbourne", 
@@ -683,20 +821,22 @@
             "id": "219", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": [
                 "Advocacy & Web Literacy"
             ], 
-            "timeblock": "", 
+            "timeblock": "sun-4-30pm--sunday-16-30-", 
             "title": "Hacking games to teach Web Literacy"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Sunday", 
             "description": "Nature, in Code is a tutorial on how to learn JavaScript by learning about the forces that shape our natural world (evolution, ecology, etc.).\nWritten at Stanford, it has now been turned into a free open online course at EPFL. All code examples are open on natureincode.com, and a book is also available.\nIn this session, I will show a few examples from Nature, In Code that demonstrate the power of the web to teach fundamental basic science. My goals are to convince that JavaScript and the browser are major learning tools even for areas outside of computer science, and to teach people a few examples of how they can leverage the power of the web to develop seemingly complex simulations that run in every browser using open technologies. I also have the goal to show that coding can be taught by using nature as a guiding process.", 
-            "duration": "", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "EPFL", 
@@ -722,18 +862,20 @@
             "id": "245", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Nature, in Code - learning JavaScript to reason about our world in code"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Saturday", 
             "description": "Our session will introduce Peer 2 Peer University’s experiments building tools and designing methodologies to broaden access to adults with low digital literacy. Through Learning Circles, P2PU has partnered with libraries, public parks, museums, and community colleges around the world to run online courses as in-person study groups. Meeting once a week for 6-8 weeks, Learning Circles are designed to support digital literacy and academic mindsets, in addition to learning course content. We’ve found this work to be remarkably successful in both engaging new audiences for online learning and for invigorating community spaces as informal learning hubs. The primary goal of the workshop will to share our tools and brainstorm new ideas/interventions that can extend the potential of online learning to new audiences.", 
-            "duration": "", 
+            "end": "11:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "P2PU", 
@@ -741,8 +883,8 @@
                     "twitter": "@p2pu"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "P2PU", 
+                    "name": "Dirk Uys", 
                     "twitter": ""
                 }, 
                 "3": {
@@ -753,24 +895,26 @@
             }, 
             "facilitators_names": [
                 "Grif Peterson", 
-                "", 
+                "Dirk Uys", 
                 ""
             ], 
             "id": "254", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Online learning, offline: Taking MOOCs face-to-face"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Sunday", 
             "description": "This session will focus on Mozilla Clubs and it’s growing network of global community members.\nMozilla Clubs are a unique and personal way to teach the Web in local communities. They are made up of technologists, thinkers and builders working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the digital world.\nSession participants will get an introduction to club structure, curriculum, community, partnerships, outcomes and goals. They will participate in a 30 minute hands-on activity to explore the club model in small groups so they may learn how to apply it in their local environments.\nBy the end of the session participants will have a basic understanding of the Mozilla Clubs model, it’s relationship to the larger Mozilla mission and how they and/or their communities can get involved.", 
-            "duration": "", 
+            "end": "1:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla", 
@@ -796,18 +940,20 @@
             "id": "260", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "12:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-12-15pm--sunday-12-15-", 
             "title": "Mozilla Clubs: A local, interest-based model for learning"
         }, 
         {
-            "additional language": "", 
+            "additional language": "english", 
             "category": "Demystify the web", 
-            "description": "How do we ensure that  those that are already disconnected don't all farther behind as technology and internet advance? Teaching Community Technology offers an exclusive look at The Detroit Community Technology Projects new handbook that shares community rooted teaching methods, making technology education more and relevant. This 100+  page handbook will take you through the history of popular education while offering  a step by step guide in developing community technology workshops and curricula. In this session participants will have a chance to use the hand book  to create a short workshop that reflects the community technology and popular education methods. If you get excited by sharing your knowledge and skills with non-techies and want to refine your skills,  this session is for you!", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "How do we ensure that those that are already disconnected don't all farther behind as technology and internet advance? Teaching Community Technology offers an exclusive look at The Detroit Community Technology Project's new handbook that shares community rooted teaching methods, making technology education more and relevant. This 100+  page handbook will take you through the history of popular education while offering a step by step guide in developing community rooted technology workshops and curricula. In this session each participant will recive this limited addtion hand book, and use it to create a short workshop e community technology and popular education methods. If you are conserned about the digital divide, get excited by idea of sharing your knowledge and skills with non-techies and want to learn or refine your teaching skills, this session is for you!", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Detroit Community Technology Project", 
@@ -833,18 +979,20 @@
             "id": "316", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 703", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Teaching Community Technology"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Sunday", 
             "description": "Computer science (CS) is a hot topic in education these days and for good reason. Technology is changing everything - the way we work, govern, communicate and educate, yet too few students are exposed to the foundational concepts behind technology or get hands-on experience creating tech. The capacity, tools and resources needed by every school to integrate CS concepts are limited. At St. Anne’s-Belfield School (STAB), we began integrating CS across our K-12 curriculum in 2014. Being part of the Mozilla Learning Network has been critical to our success. We’ll share our approach of introducing CS concepts while tackling stereotypical fears associated with coding that students and teachers often face. We want to dialog with other educators, students and parents on their experience of CS - the good, the bad & the ugly. Then we want to brainstorm steps that can be taken to bridge this critical gap in education.", 
-            "duration": "", 
+            "end": "4:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "St. Anne's-Belfield School", 
@@ -870,18 +1018,20 @@
             "id": "341", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Computer science meets the classroom"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Saturday", 
             "description": "The open leadership camp is a new type of executive (un)education developed by the MIT Media Lab and Mozilla. It will help senior leaders in the public sector and civil society bring open strategies and technologies into their organizations. We are planning a first face-to-face camp in early 2017, and will also develop an online version. All of the curriculum will be openly available and (hopefully) useful for many other groups as well. In this session, we want to talk about the syllabus, discuss different formats for bringing the course online, and explore other strategies to propagate and reach more people.", 
-            "duration": "", 
+            "end": "12:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "MIT Media Lab", 
@@ -907,18 +1057,20 @@
             "id": "373", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:15am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Open Leadership Camp - Planning workshop"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Sunday", 
             "description": "In this session, we will introduce participants to the concepts and technologies behind making multiplayer games on the the web. Participants will make and play their own version of a multiplayer version of the game \"Snake\".\nThis session aims to improve participants' web literacy in the areas of coding and connecting and to decentralize control over who gets to create multi-player and multi-user experiences online", 
-            "duration": "", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla Foundation", 
@@ -944,18 +1096,20 @@
             "id": "376", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 703", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Multiplayer Web Games: Build your own!"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
-            "description": "We live in a world that’s connected more than ever, but the next generation of web users is often not learning in that context. This session seeks to provide a space where participants will explore and unpack the following question: What’s the value add of the web for learning? Is it just another new “thing” that educators need to teach and students need to learn.\nIn the session, participants will get an introduction to the web literacy map and why web literacy matters as a foundational skill for learning. The session will be interactive and participants will be asked to crowdsource their own knowledge of the web and tag the web literacy map with corresponding resources for educators. For example, a participant would review the skill \"participate,\" and brainstorm a resource like Mozilla's Etherpad, which could correspond with the skills \"participate\" and \"share.\" These resources would be compiled.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "What’s the benefit in using the web for learning? Is it just another new “thing” that educators need to teach and students need to learn. Participants will get an introduction to the web literacy map and why web literacy matters as a foundational skill for learning. \nThe session will be interactive and ask participants to crowdsource their own knowledge of the web and tag corresponding resources to the web literacy map. For example, a participant would review the skill \"participate,\" and brainstorm a resource like Mozilla's Etherpad, which could correspond with the skills \"participate\" and \"share.\" These resources will be compiled and shared out.  ", 
+            "end": "1:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Hive Chicago Fund for Connected Learning", 
@@ -963,9 +1117,9 @@
                     "twitter": "@jafs31"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "Mozilla Foundation", 
+                    "name": "Robert Friedman", 
+                    "twitter": "@omnignorant"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -975,26 +1129,28 @@
             }, 
             "facilitators_names": [
                 "Sana Jafri", 
-                "", 
+                "Robert Friedman", 
                 ""
             ], 
             "id": "389", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "12:30pm", 
             "tags": [
                 "Advocacy & Web Literacy"
             ], 
-            "timeblock": "", 
+            "timeblock": "sat-12-30pm--saturday-12-30-", 
             "title": "Learning in a connected world: Why web literacy, why now?"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Saturday", 
             "description": "This activity will teach teens or whomever else may be interested  how to code using our 3D light cubes such as these: https://www.youtube.com/watch?v=6mXM-oGggrM\nWe aim to inspire coding beginners into the world of programming by making programming exciting, sparking their imagination and keeping them engaged.\nPeople will learn the fundamentals of coding by addressing our programmable light cubes and controlling them to produce various animations.\nEver since the rise of the internet and the early dot com boom, the web has slowly risen to the centre piece in connecting the civilised world. As programming is at the core of understanding how the web works and contributing to its ubiquity, I strongly believe that learning coding skills is no longer just a \"good to have\", it is a necessity. Hacking light will start participants on this journey!", 
-            "duration": "", 
+            "end": "1:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "CodeSwift", 
@@ -1020,18 +1176,20 @@
             "id": "398", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Hacking Light"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Sunday", 
             "description": "The participants will be able to access new information about being responsible in using the internet and interacting with their fellow internet citizens. Discussing this session will allow people to be more aware of the potential dangers faced by internet users. It is therefore vital to have an enough knowledge of responsible internet use by discussing it and doing some different kind of activities through role play and stuffs to protect internet users from the dangers of the Internet. This forum aims to raise awareness to dangers like cyber-bullying and fraudulent activities encountered in the everyday use of the web. This will aid the participants in making the right choices in the future and enable them to become more sensitive.", 
-            "duration": "", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "AMA Mozilla Club", 
@@ -1057,18 +1215,20 @@
             "id": "403", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Reponsible Use of Internet and Ethics"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Saturday", 
             "description": "Today’s learners should be active participants,  whose beliefs, creativity, curiosity, and self interests are at the forefront and are seen as vital attributes in the learning process. Today’s learners require engagement in the process that invokes a sense of importance and understanding. Web literacy skills are foundational to learning, like reading and mathematics, and to get the true benefit of all these skills require the learner to apply them to what is personally important.  During Fab Lab, teachers and students become facilitators, students guide their learning; questioning and challenging ideas, documenting and communicating the experience are the true indicators of what learning has occurred.  Our experiences reflect Mozilla’s web literacy map and continues to grow in that direction as we offer more opportunities and as our understanding continues to evolve regarding what tomorrow requires of global citizens.", 
-            "duration": "", 
+            "end": "4:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "St. Anne's-Belfield School", 
@@ -1094,23 +1254,25 @@
             "id": "414", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "FAB Lab - Teaching web literacy skills through student choice"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Sunday", 
             "description": "This session will demystify the process of contributing to open source by guiding participants through selecting a project, getting it running locally, fixing an issue, and submitting a pull request. For many developers, particularly those just starting out or who come from an underrepresented background, contributing to open source can seem an opaque and risky process. This session will show them that it is possible for people of all skill levels to make meaningful contributions to real projects.", 
-            "duration": "", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "8th Light", 
                     "name": "Nicole McCabe", 
-                    "twitter": ""
+                    "twitter": "@nicole_a_tesla"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -1131,20 +1293,22 @@
             "id": "420", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 703", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:00am", 
             "tags": [
                 "Digital Inclusion"
             ], 
-            "timeblock": "", 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "First Time Open Source Contributor Workshop"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Saturday", 
             "description": "This session will explore possibilities in using web literacy as a tool to welcome newcomers and/or refugees to a new city/country and to integrate themselves, drawing on our experience working with Syrian newcomer/refugee youth in Waterloo Region.\nWe will share some of the goals and work accomplished thus far in a pilot project we are running this fall to teach digital and web literacy skills to youth in the Syrian newcomer community, and work together with participants to build a set of learning content that takes into account the needs of newcomers, that could be used in further expansion of the project and/or in other cities and countries.", 
-            "duration": "", 
+            "end": "12:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Hive Waterloo Region", 
@@ -1170,20 +1334,22 @@
             "id": "495", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:15am", 
             "tags": [
                 "Digital Inclusion"
             ], 
-            "timeblock": "", 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "<Open Hearts> <Open Hands> <Open Web>"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Saturday", 
             "description": "Overview of #a11yhacks - Accessibility Dojo's for the Visually Impaired", 
-            "duration": "", 
+            "end": "4:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "CoderDojo", 
@@ -1209,29 +1375,31 @@
             "id": "520", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": [
                 "Digital Inclusion"
             ], 
-            "timeblock": "", 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "#a11yhacks -  Accessibilty Dojo's"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
-            "description": "The overall goal of the session is to educate users about online identities, tracking and related tools. We will also conduct a study with attendees trialing the Firefox Containers feature to present manage their online identities to publicise and gain user feedback on the prototype.\nParticipants will:\n* Gain a basic understanding for how websites keep track of users\n* Understand how identity impacts their browsing experience\n* Learn what steps they can take as a user to keep identities separate\n* Experiment with the new Firefox Containers feature to browse the web with different identities\nMozilla will gain:\n* a better understanding of how people approach identity on the web\n* valuable feedback for the design of the containers feature", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "The overall goal of the session is to educate users about online identities, tracking and related tools. We will also conduct a study with attendees trialing the Firefox Containers feature to manage their online identities and gain user feedback on the prototype.\nParticipants will:\n* Gain a basic understanding for how websites keep track of users\n* Understand how identity impacts their browsing experience\n* Learn what steps they can take as a user to keep identities separate\n* Experiment with the new Firefox Containers feature to browse the web with different identities\nMozilla will gain:\n* a better understanding of how people approach identity on the web\n* valuable feedback for the design of the containers feature", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla", 
-                    "name": "Stephanie Ouillon arroway", 
+                    "name": "Stephanie Ouillon", 
                     "twitter": ""
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "Mozilla", 
+                    "name": "Jonathan Kingston", 
                     "twitter": ""
                 }, 
                 "3": {
@@ -1241,27 +1409,29 @@
                 }
             }, 
             "facilitators_names": [
-                "Stephanie Ouillon arroway", 
-                "", 
+                "Stephanie Ouillon", 
+                "Jonathan Kingston", 
                 ""
             ], 
             "id": "525", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": [
                 "Storytelling"
             ], 
-            "timeblock": "", 
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Who does the web think you are? Masking your identity on the web."
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Sunday", 
             "description": "We all use the web daily, but what can we think back to a time where it was all new to us, what confused us, what still confuses us? What if you added the challenge of low literacy into the mix? This is an issue for the millions of people around the world who have yet to experience the Internet revolution first hand and often face multiple barriers to inclusion.\nHow can we lower the barriers for people coming online for the first time by using design to make interfaces intuitive without having to understand the jargon? Can thinking about the way we design for this audience make a better and more accessible web for everyone?", 
-            "duration": "", 
+            "end": "4:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Tinder Foundation", 
@@ -1287,18 +1457,20 @@
             "id": "575", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "The challenges of building the web for non digital natives"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Sunday", 
             "description": "This session introduces the possibilities of modern web applications and how to create your own. With recent browsers on desktop and mobile, the web now fulfils the kind of experiences that people expect and desire from apps, such as homescreen icons and even push notifications. Best of all, people can just visit a URL and have an app that works offline. If you have a basic knowledge of HTML, CSS and some JavaScript, we will help you with the rest, so you can push your websites and web apps to the next level.", 
-            "duration": "", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Samsung", 
@@ -1306,36 +1478,38 @@
                     "twitter": "poshaughnessy"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "Samsung", 
+                    "name": "Ada Rose Edwards", 
+                    "twitter": "lady_ada_king"
                 }, 
                 "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "Samsung", 
+                    "name": "Diego González", 
+                    "twitter": "diekus"
                 }
             }, 
             "facilitators_names": [
                 "Peter O'Shaughnessy", 
-                "", 
-                ""
+                "Ada Rose Edwards", 
+                "Diego González"
             ], 
             "id": "596", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 703", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-4-30pm--sunday-16-30-", 
             "title": "What’s a “Progressive Web App” and How Do I Make One?"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Saturday", 
             "description": "* The session will teach attendees about the privacy principle Encryption: “Communication over a network, unless strongly encrypted, is never just between two parties”.\n* The attendees will learn how intermediary devices, and the services that provide them, are involved in transmitting information from point A to point B on the Internet.\n* The attendees will learn about Encryption through a group activity and will be able to understand its importance.", 
-            "duration": "", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla", 
@@ -1361,18 +1535,20 @@
             "id": "606", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Let's Encrypt - Someone could listen"
         }, 
         {
-            "additional language": "", 
+            "additional language": "Lithuanian", 
             "category": "Demystify the web", 
+            "day": "Sunday", 
             "description": "Crowd2Map Tanzania is a crowdsourced mapping project that was born a year ago at MozFest! We set out to map the blank canvas of Tanzania using mobile apps (for locals on the ground), open data (of schools&medical facilities) and satellite mapping on OpenStreetMap (for volunteers around the world). The project has since seen major successes, including thousands of schools mapped, hundreds of objects&villages that were only known to locals identified etc. Currently, we are rushing to map the region of Mara, where female genital mutilation (FGM) is prevalent, before the cutting season starts in December. Mugumu Safe House is already using our maps to \"reach places they have never reached before\" and save more girls from the life threatening practice. Our goal for this session is to demonstrate how mapping can help achieve SDGs in developing countries, and illustrate how easy it is to contribute by doing mapping online.", 
-            "duration": "", 
+            "end": "1:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Tanzanian Development Trust", 
@@ -1398,18 +1574,20 @@
             "id": "609", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 703", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "12:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-12-15pm--sunday-12-15-", 
             "title": "Towards sustainable development: crowdsourced mapping to end FGM in Tanzania"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Saturday", 
             "description": "We’ll learn about web literacy skills in the context of library staff as we practice remixing, revising, and evaluating and composing information in an online context in a fun and interactive session.", 
-            "duration": "", 
+            "end": "1:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -1435,28 +1613,30 @@
             "id": "627", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 703", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "12:30pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-12-30pm--saturday-12-30-", 
             "title": "Remix your own Historical Narratives-- Web Literacy Skills for Librarians"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
-            "description": "Short description:\n* Create a board game that illustrates the challenges of first-time smartphones users. Think of monopoly or other plateau games, and illustrate things like:\n* Visiting a certain number of web pages per day on a data-budget\n* Face network connectivity difficulties\n* Deal with a lack of money while participating in the mobile economy\n*e.g. You might not be able to buy data, because maybe you also need to pay your school fees.\nHow is it participatory? What does your audience do?\nDepending on number of people, form 1 or more groups\nDiscuss the given case studies and design challenges\nMake a game together!", 
-            "duration": "", 
+            "day": "Sunday", 
+            "description": "Let's create a board game together that would help illustrates the challenges of being connected. Can a board game help the players develop their empathy and relate to others? Can it help them identify with other communities? Can it help build a more inclusive web? \n\nThink of monopoly or other plateau games, and illustrate things like:\n* Visiting a certain number of web pages per day on a data-budget\n* Face network connectivity difficulties\n* Deal with a lack of money while participating in the mobile economy\n* Browse topics written in a language you don't understand\n* Stubble upon content that is not respectful and inclusive \n\nThe goal for this session is to create the mechanisms of the games and eventually make enough progress to plan it's production. ", 
+            "end": "4:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla", 
                     "name": "Laura de Reynal", 
-                    "twitter": ""
+                    "twitter": "@Lau_nk"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "Mozilla ", 
+                    "name": "Bobby Richter ", 
+                    "twitter": "@secretrobotron"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -1466,24 +1646,26 @@
             }, 
             "facilitators_names": [
                 "Laura de Reynal", 
-                "", 
+                "Bobby Richter ", 
                 ""
             ], 
             "id": "672", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 703", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Let's create a board game for empathy"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
-            "description": "We are building a world-class engagement platform offering tools to push forward municipal broadband in communities across Canada. And at MozFest, we want to share this platform, and the importance of municipal broadband, with the world. Pioneering cities and towns have taken it upon themselves to close the digital divide by ensuring affordable, city-wide Internet access through municipal broadband networks. Our platform will build on the successes of these often disparate and isolated communities, and kickstart a new mass movement for municipal broadband initiatives that can be replicated anywhere. In the U.S. alone, over 100 communities have pledged to develop their own fibre, highlighting the role municipal networks can play in galvanizing the digital divide. Participants will receive a preview of our engagement platform to empower not just individuals, but entire communities, to organize in distributed, local groups, and address the digital deficits their cities and towns face.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "We are building a world-class engagement platform offering tools to push forward municipal broadband in communities across Canada. We want to share this platform, and the importance of municipal broadband, with the world. Pioneering cities and towns have taken it upon themselves to close the digital divide by ensuring affordable, city-wide Internet access through municipal broadband networks. Our platform will build on the successes of these often disparate and isolated communities, and kickstart a new mass movement for municipal broadband initiatives that can be replicated anywhere. In the U.S. alone, over 100 communities have pledged to develop their own fibre, highlighting the role municipal networks can play in galvanizing the digital divide. Participants will receive a preview of our engagement platform to empower not just individuals, but entire communities, to organize in distributed, local groups, and address the digital deficits their cities and towns face.", 
+            "end": "11:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "OpenMedia", 
@@ -1509,20 +1691,22 @@
             "id": "675", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [
                 "The Future of the Web"
             ], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Crowdsourcing the Next Gigabit Cities: An Engagement Platform for Municipal Broadband"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Saturday", 
             "description": "In this workshop, participants will collaborate on the design and development of a digital roadmapping tool to enhance the brokering capacities of educators and mentors including Hive members, Mozilla Clubs captains, and regional coordinators.\nThis tool builds off a prototype digital roadmap (DR) that was part of the inaugural CITYExpeditions, a youth pathways building program designed by members of the Mozilla Hive NYC Learning Network (The Knowledge House and CITYPathways). After each field trip to various locations in the city (e.g., science museums, technology-oriented organizations), youth documented their visit by dropping a pin on a map and reflecting on the experience via blog posts and photos. This engagement, in addition to helping young people gain familiarity with building personal pathways, represented a powerful way to begin to shape their digital world, increase digital inclusion, build web literacy, and engage with issues of online privacy and security .", 
-            "duration": "", 
+            "end": "12:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "The Knowledge House", 
@@ -1548,30 +1732,32 @@
             "id": "691", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 703", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:15am", 
             "tags": [
                 "The Future of the Web"
             ], 
-            "timeblock": "", 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "From Broken to Brokering: Designing Digital Roadmaps to Connect Dots for Youth in Our Cities"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Saturday", 
             "description": "One of the great detriments to the inclusion of more minorities in technology has been a lack of access. Makerspaces provide that possibility. This movement is finally being recognized as a tool for student success and a pathway to connected learning. Making provides the ability to take practical knowledge and create personally relevant projects while engaging learners, but the connection to the classroom and home life is still lacking. Maker MOB aims to reach families unfamiliar with the maker movement to create a community of makers, specifically those underrepresented in the STEM fields using students and Chicago institutions to lead STEM activities at neighborhood events. We believe that bringing these activities to families, where they are at, will create new communities of makers. Session participants will be introduced to the Maker MOB while learning how to replicate within their own communities and build the perceived value of making.", 
-            "duration": "", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "NEIU's Center for College Access and Success", 
                     "name": "C. Meghan Hausman", 
-                    "twitter": "#MakerMOB (@cmeghausman)"
+                    "twitter": "@cmeghausman"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "Adler Planetarium", 
+                    "name": "Nathalie Rayter", 
+                    "twitter": "@nathalie_bfr"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -1581,27 +1767,29 @@
             }, 
             "facilitators_names": [
                 "C. Meghan Hausman", 
-                "", 
+                "Nathalie Rayter", 
                 ""
             ], 
             "id": "707", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 703", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Maker MOB: Bringing STEM Making Activities to Community Events"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Saturday", 
             "description": "My session will teach people how the basic web works through a walled community garden analogy. People will then discuss and create a web system of their own that reflects on how the web can tackle privacy, decentralization, and inclusion.", 
-            "duration": "", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "", 
+                    "affiliated org": "Loyola University Chicago", 
                     "name": "Marina Malone", 
                     "twitter": ""
                 }, 
@@ -1624,23 +1812,25 @@
             "id": "709", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 703", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
-            "title": "The Web Garden: Planting the Seeds of Knowledge About the Web (WIP, more garden puns maybe)"
+            "timeblock": "sat-10am--saturday-10-00-", 
+            "title": "The Web Garden: Planting the Seeds of Knowledge About the Web"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
-            "description": "Inspired by the Digital Skills Observatory project, a community shows us how creativity and innovation are affected by people’s stories about their relationships with technology and society, and how these stories can fuel movements. Participants get to learn empathy, to become better listeners and to engage with one another making them better story tellers as they adjust to their audience.", 
-            "duration": "", 
+            "day": "Sunday", 
+            "description": "My session will teach people how the basic web works through a walled community garden analogy. People will then discuss and create a web system of their own that reflects on how the web can tackle privacy, decentralization, and inclusion.", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "Mozilla (contributor)", 
-                    "name": "Walter Obadha", 
-                    "twitter": "@walterobadha"
+                    "affiliated org": "Loyola University Chicago", 
+                    "name": "Marina Malone", 
+                    "twitter": ""
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -1654,25 +1844,66 @@
                 }
             }, 
             "facilitators_names": [
-                "Walter Obadha", 
+                "Marina Malone", 
                 "", 
+                ""
+            ], 
+            "id": "709", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 7 - 703", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "The Web Garden: Planting the Seeds of Knowledge About the Web"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Demystify the web", 
+            "day": "Saturday", 
+            "description": "Inspired by the Digital Skills Observatory project, a community shows us how creativity and innovation are affected by people’s stories about their relationships with technology and society, and how these stories can fuel movements. Participants get to learn empathy, to become better listeners and to engage with one another making them better story tellers as they adjust to their audience.", 
+            "end": "5:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Mozilla (contributor)", 
+                    "name": "Walter Obadha", 
+                    "twitter": "@walterobadha"
+                }, 
+                "2": {
+                    "affiliated org": "Mozilla (contributor)", 
+                    "name": "Alex Wafula", 
+                    "twitter": "@xelawafs"
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Walter Obadha", 
+                "Alex Wafula", 
                 ""
             ], 
             "id": "712", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Fireplace"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Sunday", 
             "description": "This workshop will focus on identifying tools, developing frameworks, and creating learning activities for teens to read, write, and participate in teen-led, open-source inquiry projects. Mozilla’s Web Literacy Framework, Science Lab’s Working in the Open Workshop and Open Research Accelerator, “Open Leadership Training Series” (in development), and other resources provide tools that can be forked and remixed to create resources for teens and adult allies to launch their own open projects. The focus will be on participatory projects that do *not* involve a lot of code (if any), encompassing a range of fields from science to social justice to art. Session participants will ground their work using select Mozilla Web Literacy “Write” and “Participate” competencies including “Compose”, “Revise”, “Share”,  “Contribute”, “Open Practice”, and “Connect”. The goal is to lay the foundation for the further development of accessible resources for any teen to create, discover, and contribute to open-source inquiry projects.", 
-            "duration": "", 
+            "end": "1:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Chicago Academy of Sciences / Peggy Notebaert Nature Museum", 
@@ -1698,18 +1929,20 @@
             "id": "713", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "12:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-12-15pm--sunday-12-15-", 
             "title": "Teen Leadership, Open-Source Inquiry, and Working in the Open"
         }, 
         {
             "additional language": "", 
             "category": "Demystify the web", 
+            "day": "Saturday", 
             "description": "Content on the internet has become freer, cheaper, and faster, with a seemingly endless amount of content clogging our brains and inboxes. This content is passed around on a variety of platforms, but what does it mean for open licensing, transparency, and the commons when most things feel free to users even if they aren't open? What does it mean to share the latest viral photo, video, or GIF when you want to work in the open? Why does the distinction between free and open matter?\nThis interactive session will help participants question how and what they share on the Web and why content that's free is not necessarily open. After exploring these issues, participants will dream up a new technology or platform they would utilize or create to make creativity thrive in the open on the Web we want.", 
-            "duration": "", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Creative Commons", 
@@ -1735,12 +1968,52 @@
             "id": "714", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 7 - 702", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Why choose open when you can choose free?: A discussion of some of the issues surrounding free content on the Web"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Demystify the web", 
+            "day": "Sunday", 
+            "description": "We’ll be hacking on our new “What is the good of a gig?” curriculum on Sunday morning October 30th in the “Open Circle” section of the Demystify the Web Space, and we welcome you to drop in and give us feedback about this new workshop while it is in its early stages of development. ", 
+            "end": "12:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Mozilla", 
+                    "name": "Janice Wait", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Janice Wait", 
+                "", 
+                ""
+            ], 
+            "id": "", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 7 - 703", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "What Good Can Gigabit Networks Do? Curriculum Hack"
         }, 
         {
             "additional language": "", 
@@ -6775,7 +7048,7 @@
                 "1": {
                     "affiliated org": "Mozilla", 
                     "name": "Guillermo Huerta", 
-                    "twitter": ""
+                    "twitter": "@ghuerta09"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -6814,12 +7087,12 @@
                 "1": {
                     "affiliated org": "Mozilla | Connected Devices", 
                     "name": "Katie Caldwell", 
-                    "twitter": ""
+                    "twitter": "@kc_coffeekid"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "Mozilla | Connected Devices", 
+                    "name": "Elizabeth Hunt", 
+                    "twitter": "@ezoehunt"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -6829,7 +7102,7 @@
             }, 
             "facilitators_names": [
                 "Katie Caldwell", 
-                "", 
+                "Elizabeth Hunt", 
                 ""
             ], 
             "id": "812", 
