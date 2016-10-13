@@ -268,8 +268,6 @@ function Schedule(CUSTOM_CONFIG) {
     // pass in a subset of sessions manually,
     // or fall back to schedule.sessionList
     var sessionList = sessionList || schedule.sessionList;
-
-    console.log("sessionList.length = ", sessionList.length);
     schedule.generateListOfTimeblocks(schedule.timeblocks);
 
     _.each(sessionList, function(v, k) {
@@ -453,8 +451,6 @@ function Schedule(CUSTOM_CONFIG) {
   // that contain the string `filterValue`. This is a substring comparison
   // based on slugified versions of key and value, e.g. "my-great-tag"
   schedule.getFilteredSessions = function(filterKey, filterValue) {
-    console.log("filterd key & value = ", filterKey, filterValue );
-
     schedule.filterKey = filterKey || schedule.filterKey;
     schedule.filterValue = filterValue || schedule.filterValue;
 
@@ -513,7 +509,6 @@ function Schedule(CUSTOM_CONFIG) {
 
   // based on the value of chosenTab, render the proper session list
   schedule.loadChosenTab = function() {
-    console.log("= loadChosenTab =", schedule.chosenTab);
     // clear currently highlighted tab/page link
     // and make sure the selected tab is lit
     schedule.clearHighlightedPage();
