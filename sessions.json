@@ -433,7 +433,7 @@
             "additional language": "", 
             "category": "Demystify the web", 
             "day": "Sunday", 
-            "description": "Every month we host a live curriculum workshop with community members and friends to talk about themes and create curriculum: https://learning.mozilla.org/community/curriculum-workshop We want to host a live show during Mozfest that is a mix of showcasing what curriculum people are building while at the event and some live curriculum development on the spot with attendees. So people will learn and make curriculum in a fun way which connects both attendees and external viewers.", 
+            "description": "Join co-hosts Amira Dhalla and Chad Sansing live from London as they talk with guests from around the world about all the learning and making going on at at the festival. Members of the Mozilla Clubs network will appear on the webcast, as well, to share their MozFest experiences throughout the network.", 
             "end": "5:30pm", 
             "facilitators": {
                 "1": {
@@ -5606,13 +5606,14 @@
         {
             "additional language": "", 
             "category": "Dilemmas in connected spaces", 
-            "description": "Brief window into an IoT Design Sprint week organised by Mozilla and University of Dundee. This development included the collaboration of many institutions (Universities, Creative Studios, Tech Studios) and explored the idea of IoT and its potential impact working with local communities in Scotland. The overall research, concept creation and prototype is explored and shown in the video. The video will show a navigation of the book created by Tommy, having a step-by-step inclusion in the documentation of the Design Sprint week; overlayered with some transparency we will project the Luca's video of the same event. This will allow a different engagement with the piece and experience.", 
-            "duration": "60", 
+            "day": "Saturday", 
+            "description": "The time is right to not only ask what is possible for IoT, but what is responsible. We're learning how to embed internet stewardship in the making of meaningful connected things. We're looking at issues like privacy & security, decentralization and open innovation in IoT. Join  professionals working in the field alongside local communities to produce research, prototypes and best practices that demonstrate how Mozilla's principles can be implemented in connected products. This activity is on-going throughout Mozfest. ", 
+            "end": "11:00am", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "Unviversity of Dundee and University Arts London", 
-                    "name": "Tommy + Luca M. Perman + Damiani", 
-                    "twitter": ""
+                    "affiliated org": "Mozilla", 
+                    "name": "Mozilla's Open IoT Studio", 
+                    "twitter": "@openiotstudio"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -5626,7 +5627,7 @@
                 }
             }, 
             "facilitators_names": [
-                "Tommy + Luca M. Perman + Damiani", 
+                "Mozilla's Open IoT Studio", 
                 "", 
                 ""
             ], 
@@ -5636,9 +5637,10 @@
             "location": "Floor 6 - 606", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
-            "title": "Design Sprint - IoT"
+            "timeblock": "sat-10am--saturday-10-00-", 
+            "title": "Collaborative Making with the Open IoT Studio"
         }, 
         {
             "additional language": "", 
@@ -6072,13 +6074,13 @@
             "duration": "60", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "Independent", 
-                    "name": "Akshay Roongta", 
-                    "twitter": "@akshayroongta"
+                    "affiliated org": "The Monks of The Dark Temple", 
+                    "name": "The Head Of The Monks of The Dark Temple. ", 
+                    "twitter": ""
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "e", 
                     "twitter": ""
                 }, 
                 "3": {
@@ -6088,8 +6090,8 @@
                 }
             }, 
             "facilitators_names": [
-                "Akshay Roongta", 
-                "", 
+                "The Head Of The Monks of The Dark Temple. ", 
+                "e", 
                 ""
             ], 
             "id": "454", 
@@ -6224,8 +6226,9 @@
         {
             "additional language": "", 
             "category": "Dilemmas in connected spaces", 
+            "day": "Sunday", 
             "description": "Have you ever chatted with a device?\nConversational User interfaces are becoming incredibly popular. without the need of installing new custom apps are letting user access all sort of services.\nTelegram has released a powerful set of API to develop bot. And we have been experimenting with it since the very beginning.\nAt some point we develop an Arduino Library to host telegram bot on tiny Arduino devices. Allowing users to chat with their weather Arduino projects to get sensor data and or remotely control devices.\nJoin the workshop to develop your first chat bot that interact with the physical world.", 
-            "duration": "60", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Officine Arduino", 
@@ -6254,8 +6257,9 @@
             "location": "Floor 6 - 606", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Telegram bot meets Arduino"
         }, 
         {
@@ -6805,7 +6809,8 @@
             "programmatic": false, 
             "start": "10:00am", 
             "tags": [
-                "The Future of the Web"
+                "The Future of the Web", 
+                "Digital Inclusion"
             ], 
             "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Town and Country"
@@ -6813,13 +6818,13 @@
         {
             "additional language": "", 
             "category": "Dilemmas in connected spaces", 
-            "description": "[placeholder as we develop the session with Michelle & Dietrich]", 
+            "description": "IoT will significantly amplify the security and privacy challenges we currently face. One reason for this is because IoT brings computing power much closer to us physically and more pervasive. There are already examples of how this physical proximity and digital control of physical resources can result in life-threatening scenarios, such as a car being hacked or a pacemaker compromised.\n\nIoT also collects more and different data than previous eras of the internet. This includes our physical location, appearance, and even emotional state.\n\nAs we build meaningful connected things, we must ensure that these objects don’t compromise people’s agency. People must be able to understand and control their digital lives. And control depends on context. We want to understand how designing for specific contexts can inform privacy best practices broadly. \n\n", 
             "duration": "60", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "", 
+                    "affiliated org": "Simply Secure ", 
                     "name": "Ame Elliott", 
-                    "twitter": ""
+                    "twitter": "@ameellio"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -6845,7 +6850,7 @@
             "programmatic": false, 
             "tags": [], 
             "timeblock": "", 
-            "title": "IoT UX & Security"
+            "title": "IoT Security Research"
         }, 
         {
             "additional language": "", 
@@ -6891,43 +6896,6 @@
         {
             "additional language": "", 
             "category": "Dilemmas in connected spaces", 
-            "description": "The session title refers to a paper engineering prototype – a fold-up paper panda in a science notebook that uses a micro servo to control the motion of its head in response to data from sensors reading the air quality levels in Shenzen, China. The Coughing Panda is a demonstration project that showcases how we use can work with data to create simple paper-based projects and visualizations using low-cost materials and components (LEDs, batteries, microcontrollers, sensors, copper tape, wifi and BLE dev boards). Part of a larger initiative, Open Data/Open Minds, we’ll talk about working with data feeds, figuratively concentrating a fire hose of data into an actionable IV drip, so information of all kinds can be purposefully and delightfully integrated into personal projects that combine scientific inquiry, systems thinking, design principles, literacy, community engagement, and STEM- and STEAM-based learning.", 
-            "duration": "60", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Manylabs.org", 
-                    "name": "David Cole", 
-                    "twitter": "@dmcole_"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "David Cole", 
-                "", 
-                ""
-            ], 
-            "id": "664", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 6 - 606", 
-            "notes url": "", 
-            "programmatic": false, 
-            "tags": [], 
-            "timeblock": "", 
-            "title": "The Coughing Panda – Craft, Code, Community and Open Data"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Dilemmas in connected spaces", 
             "day": "Saturday", 
             "description": "We take directions from our phones. On the web, helpful algorithms suggest what we should buy, where we should eat, who we should be friends with, which news articles are worth our time. In the wider world, they have been trading in the stock market, advising on prison sentences, and even deciding which Hollywood films should be made.\nThis session will explore our relationships with algorithms, as servants, advisors and scapegoats. We'll explore the need for careful design and transparency, as well as the need to retain some control.", 
             "end": "5:30pm", 
@@ -6963,43 +6931,6 @@
             "tags": [], 
             "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "My best friend's a flowchart"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Dilemmas in connected spaces", 
-            "description": "This workshop is to demo, interact and design clothes that are  props of characters costumes  from fairy tales. The collection of props aims to encourage interaction among participants, body movement and creativity, all issues identified from tools used in participatory design processes.\nThe interaction occurs from code sent to the LilyPad microcontroller that controls the pattern of LEDs stimulating children's creativity by encouraging the association of unusual elements like dragon's tail with butterfly wings or princess crown with hook and pirate belt. More unusual the combination is more bright will be the LED light. Once participants make combinations, the LEDs light up and shine in various patterns. With this,  children are encouraged to think of characters that do not yet exist and create new narratives new worlds and narratives.", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Mozilla Brazil Community", 
-                    "name": "Adriano Cupello", 
-                    "twitter": "@londrix"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Adriano Cupello", 
-                "", 
-                ""
-            ], 
-            "id": "729", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 6 - 606", 
-            "notes url": "", 
-            "programmatic": false, 
-            "tags": [], 
-            "timeblock": "", 
-            "title": "Crazy Connected Costumes"
         }, 
         {
             "additional language": "", 
@@ -7160,7 +7091,7 @@
             "category": "Dilemmas in Connected Spaces", 
             "day": "Sunday", 
             "description": "This is a facilitated small space, designed to look like part of a living room, which uses Design Fiction props to get people to think about what they want from the TV of the future. We use attractive objects (fake packaging, instructions), printouts (hopefully in the form of glossy magazines), and a video to describe possible directions for TV. These are designed to make the future objects feel real, so people can make informed decisions about tradeoffs between privacy and convenience, and filtered content and the difficulties of choice. We may have some semi-working physical devices too.", 
-            "end": "12:00pm", 
+            "end": "1:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "BBC R&D", 
@@ -7197,8 +7128,9 @@
         {
             "additional language": "", 
             "category": "Dilemmas in Connected Spaces", 
+            "day": "Sunday", 
             "description": "The social, political and economic environment for living in the UK has changed dramatically for many over that year. The #brexit vote, conflict across Europe and a US election taking place a few days after the festival make this the perfect opportunity to sit down with a cup of tea, in the format of a traditional ‘salon’ (or the living room) and talk, debate, create a snapshot of the times. ", 
-            "duration": "", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "The Good home", 
@@ -7227,10 +7159,9 @@
             "location": "Floor 6 - 602", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": [
-                "Digital Inclusion"
-            ], 
-            "timeblock": "", 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Living in the UK post Brexit"
         }, 
         {
@@ -7317,7 +7248,7 @@
             "additional language": "", 
             "category": "Dilemmas in Connected Spaces", 
             "day": "Saturday", 
-            "description": "Interview (in person or via Skype) about art & migration, with James Bridle and/or Fiona Romeo (TBC)\nHow does migration and Brexit shape art, how can art explore complex issues like migration and Brexit?\nThis is for anyone with an interest in art and/or politics and migration.\n", 
+            "description": "Interview (in person or via Skype) about art & migration, with TBC guests\nHow does migration and Brexit shape art, how can art explore complex issues like migration and Brexit?\nThis is for anyone with an interest in art and/or politics and migration.\n", 
             "end": "3:00pm", 
             "facilitators": {
                 "1": {
@@ -7348,7 +7279,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": [], 
+            "tags": [
+                "Digital Inclusion"
+            ], 
             "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Framing migration"
         }, 
@@ -7433,8 +7366,9 @@
         {
             "additional language": "", 
             "category": "Dilemmas in Connected Spaces", 
+            "day": "Saturday", 
             "description": "\"Papers, please!\" is an award winning serious game by Lucas Pope set in a fictional 1980s Eastern Bloc country. It explores the absurdities that shape migration experiences, and the hidden agendas and dilemmas that influence decision making at border control. The game will be available for self-directed play throughout the weekend.\n\nPlaying this game makes you think about the decision making and ethical dilemmas that a border guard might face while deciding about the fate of migrations. We recommend playing this in small groups of 2-3.\n\nThis is a game for all ages, but we recommend having an adult in the group to provide some context and explanations.", 
-            "duration": "", 
+            "end": "1:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "The Good home", 
@@ -7463,15 +7397,17 @@
             "location": "Floor 6 - 602", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "PAPERS, PLEASE"
         }, 
         {
             "additional language": "", 
             "category": "Dilemmas in Connected Spaces", 
+            "day": "Saturday", 
             "description": "Pegmodular is a kit which allows low-income, transient homemakers the opportunity to live with interesting, adaptable and affordable furniture.\nThis exhibit explores low-cost, flexible furniture and furthermore shows that even the youngest among us have valuable contributions to make to this conversation: The artist is only 16 years old.", 
-            "duration": "", 
+            "end": "1:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Student", 
@@ -7500,15 +7436,17 @@
             "location": "Floor 6 - 602", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Pegmodular"
         }, 
         {
             "additional language": "", 
             "category": "Dilemmas in Connected Spaces", 
+            "day": "Saturday", 
             "description": "Cloud Index is a series of simulations: a weather forecast for possible futures. The simulations depict proposed cloud structures which correspond to measured electoral scenarios. These are dreams of the weather, hallucinated by machines. If we wish to change the future, we must change the weather. First: a binary choice. To leave, or to remain. Cloud Index is commissioned by Serpentine Galleries.\n\nFor Technologists, citizens, anyone with an interest in politics as well as the shaping powers of technology.", 
-            "duration": "", 
+            "end": "1:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Serpentine Galleries", 
@@ -7537,15 +7475,17 @@
             "location": "Floor 6 - 602", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Cloud Index"
         }, 
         {
             "additional language": "", 
             "category": "Dilemmas in Connected Spaces", 
+            "day": "Saturday", 
             "description": "A physical brick that helps you manage your home data and your city services to connect to you in a better way.\n\nYour home has a deep shadow of data, it is not just the physical materials that make the walls, floors, ceiling, the pipes and wires that provide the services, there is information on the construction, how it sits in the physical landscape, where it sits in the legal landscape. A whole lot of information goes into a home and a whole lot more just keeps coming out of it. Data Brick explores how we can navigate and control this kind of data in the future.", 
-            "duration": "", 
+            "end": "1:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Central Saint Martins", 
@@ -7574,15 +7514,17 @@
             "location": "Floor 6 - 602", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Data Brick"
         }, 
         {
             "additional language": "", 
             "category": "Dilemmas in Connected Spaces", 
+            "day": "Saturday", 
             "description": "Teleport Machine allows migrants to switch their IP addresses to a location of their choice, enabling them to connect to local online content in their home countries, like connecting to the BBC from abroad. Teleport Machines is part of a Privacy Machines, a family of experimental devices that explore better and easier way of controlling privacy levels in a connected home. Created in a collaboration with Mozilla Open IoT Studio. Collaborators also include Vladan Joler and Rachel Uwa.\n\nTeleport Machine helps explore what it means to live abroad through banal, day-to-day interactions like trying to watch the newscasts and pop culture you grew up with.", 
-            "duration": "", 
+            "end": "1:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "The waving cat", 
@@ -7611,8 +7553,9 @@
             "location": "Floor 6 - 602", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Teleport Machine (Privacy Machines Part III)"
         }, 
         {
@@ -7692,6 +7635,240 @@
             "tags": [], 
             "timeblock": "fri-science-fair--friday-18-00-", 
             "title": "Databox"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
+            "day": "Sunday", 
+            "description": "\"Papers, please!\" is an award winning serious game by Lucas Pope set in a fictional 1980s Eastern Bloc country. It explores the absurdities that shape migration experiences, and the hidden agendas and dilemmas that influence decision making at border control. The game will be available for self-directed play throughout the weekend.\n\nPlaying this game makes you think about the decision making and ethical dilemmas that a border guard might face while deciding about the fate of migrations. We recommend playing this in small groups of 2-3.\n\nThis is a game for all ages, but we recommend having an adult in the group to provide some context and explanations.", 
+            "end": "2:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "The Good home", 
+                    "name": "Alexandra Deschamps-Sonsino", 
+                    "twitter": "@goodhomeproject"
+                }, 
+                "2": {
+                    "affiliated org": "The waving cat", 
+                    "name": "Peter Bihr", 
+                    "twitter": "@peterbihr"
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Alexandra Deschamps-Sonsino", 
+                "Peter Bihr", 
+                ""
+            ], 
+            "id": "957", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 602", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "PAPERS, PLEASE"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
+            "day": "Sunday", 
+            "description": "Pegmodular is a kit which allows low-income, transient homemakers the opportunity to live with interesting, adaptable and affordable furniture.\nThis exhibit explores low-cost, flexible furniture and furthermore shows that even the youngest among us have valuable contributions to make to this conversation: The artist is only 16 years old.", 
+            "end": "2:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Student", 
+                    "name": "Jude Thomas", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Jude Thomas", 
+                "", 
+                ""
+            ], 
+            "id": "958", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 602", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "Pegmodular"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
+            "day": "Sunday", 
+            "description": "Cloud Index is a series of simulations: a weather forecast for possible futures. The simulations depict proposed cloud structures which correspond to measured electoral scenarios. These are dreams of the weather, hallucinated by machines. If we wish to change the future, we must change the weather. First: a binary choice. To leave, or to remain. Cloud Index is commissioned by Serpentine Galleries.\n\nFor Technologists, citizens, anyone with an interest in politics as well as the shaping powers of technology.", 
+            "end": "2:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Serpentine Galleries", 
+                    "name": "James Bridle", 
+                    "twitter": "@jamesbridle"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "James Bridle", 
+                "", 
+                ""
+            ], 
+            "id": "959", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 602", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "Cloud Index"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
+            "day": "Sunday", 
+            "description": "A physical brick that helps you manage your home data and your city services to connect to you in a better way.\n\nYour home has a deep shadow of data, it is not just the physical materials that make the walls, floors, ceiling, the pipes and wires that provide the services, there is information on the construction, how it sits in the physical landscape, where it sits in the legal landscape. A whole lot of information goes into a home and a whole lot more just keeps coming out of it. Data Brick explores how we can navigate and control this kind of data in the future.", 
+            "end": "2:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Central Saint Martins", 
+                    "name": "Mark Simpkins", 
+                    "twitter": "@marksimpkins"
+                }, 
+                "2": {
+                    "affiliated org": "The Good home", 
+                    "name": "Alexandra Deschamps-Sonsino", 
+                    "twitter": "@goodhomeproject"
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Mark Simpkins", 
+                "Alexandra Deschamps-Sonsino", 
+                ""
+            ], 
+            "id": "960", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 602", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "Data Brick"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
+            "day": "Sunday", 
+            "description": "Teleport Machine allows migrants to switch their IP addresses to a location of their choice, enabling them to connect to local online content in their home countries, like connecting to the BBC from abroad. Teleport Machines is part of a Privacy Machines, a family of experimental devices that explore better and easier way of controlling privacy levels in a connected home. Created in a collaboration with Mozilla Open IoT Studio. Collaborators also include Vladan Joler and Rachel Uwa.\n\nTeleport Machine helps explore what it means to live abroad through banal, day-to-day interactions like trying to watch the newscasts and pop culture you grew up with.", 
+            "end": "2:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "The waving cat", 
+                    "name": "Peter Bihr", 
+                    "twitter": "@peterbihr"
+                }, 
+                "2": {
+                    "affiliated org": "University of Dundee", 
+                    "name": "Martin Skelly", 
+                    "twitter": "@martin_skelly"
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Peter Bihr", 
+                "Martin Skelly", 
+                ""
+            ], 
+            "id": "961", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 602", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "Teleport Machine (Privacy Machines Part III)"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Saturday", 
+            "description": "This is a quiet hack following the previous hack a Databox session - www.databoxproject.uk - Introducing the Databox platform to the Mozilla community and provide participants with the opportunity to get their hands on this novel privacy-preserving platform. This hands on session will exploit data provided by Internet of Things devices deployed around the Mozilla Festival.", 
+            "end": "6:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "University of Nottingham", 
+                    "name": "Tom Lodge", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Tom Lodge", 
+                "", 
+                ""
+            ], 
+            "id": "1172", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 601", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "4:30pm", 
+            "tags": [], 
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
+            "title": "Databox: Hack an App (hack on)"
         }, 
         {
             "additional language": "English, French", 
@@ -10688,7 +10865,7 @@
             "category": "Localisation", 
             "day": "Sunday", 
             "description": "Discover the importance of a glossary for the translations with the example of WordPress Polyglots team.\nGlotDict (a browser extension) change the way to see the translation and the review process in the WordPress Polyglots community around the world.", 
-            "end": "1:40pm", 
+            "end": "1:45pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -10714,7 +10891,7 @@
             "id": "8", 
             "localized description": "\nScopriamo l'importanza del glossario per le traduzioni con l'esempio del WordPress Polyglots team. GlotDict (una estensione per il browser) ha cambiato il modo di vedere le traduzioni e le revisioni nelle WordPress Polygots community in tutto il mondo.", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 607", 
             "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
@@ -10729,7 +10906,7 @@
             "category": "Localisation", 
             "day": "Saturday", 
             "description": "One of the simplest ways to contribute to open source for people with technical knowledge is to translate. If Mozilla products are in a language that most people in your community can't understand, then __Mozilla needs you__ to help them with your translations.\nThis session is intended to teach non-techies how to quickly start translating Mozilla products using Pootle translation platform.", 
-            "end": "11:15am", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Translate House", 
@@ -10755,7 +10932,7 @@
             "id": "23", 
             "localized description": "Traducir es una de las maneras más fáciles que las personas sin\nconocimientos técnicos tienen para contribuír al código abierto. Si\nlos productos de Mozilla están en un idioma que la gente de su\ncomunidad local tiene dificultad para comprender, entonces __Mozilla\nle necesita__ para ayudarles con sus traducciones.\n\nEsta sesión está pensada para enseñarle a las personas no-técnicas", 
             "localized title": "Traduzca Mozilla a su idioma", 
-            "location": "", 
+            "location": "Floor 6 - 607", 
             "notes url": "", 
             "programmatic": false, 
             "start": "11:15am", 
@@ -10770,7 +10947,7 @@
             "category": "Localisation", 
             "day": "Sunday", 
             "description": "In a planet with seven billion human beings localization is the key to get to all of them. On this chat basics of localization will be explained, and some of its subtleties will be revealed, because it is not only translating. Questions will be answered and doubts will be gladly solved.", 
-            "end": "2:40pm", 
+            "end": "2:45pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Translate House", 
@@ -10796,7 +10973,7 @@
             "id": "24", 
             "localized description": "En un planeta con siete mil millones de seres humanos la localización\nes la clave para llegar a todos ellos. En esta charla se explicarán\nlos conceptos básicos de la localización, así como algunas de sus\nsutilezas ya que la localización no es sólo traducir. Asimismo también\nse responderá con agrado cualquier pregunta o duda sobre la\nlocalización.", 
             "localized title": "Localización: llegar a todos los rincones del planeta", 
-            "location": "", 
+            "location": "Floor 6 - 601", 
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
@@ -10807,11 +10984,11 @@
             "title": "Localization: Going global"
         }, 
         {
-            "additional language": "Spanish", 
+            "additional language": "Spanish, English", 
             "category": "Localisation", 
             "day": "Saturday", 
             "description": "The difference between high quality translations and bad ones is that the latter ones usually confuse readers, thus rendering the translation a worthless endeavor. But if you don't want to lose your and others time you can start making good translations now. We will teach you how to do so by using a style guide, terminology, translation memories, machine translation, automatic checkers and so on, and how incremental translations help you translate faster.", 
-            "end": "2:00pm", 
+            "end": "2:45pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Translate House", 
@@ -10837,7 +11014,7 @@
             "id": "30", 
             "localized description": "La diferencia entre traducciones de alta calidad y traducciones de\nbaja calidad es que estas últimas con frecuencia confunden a los\nlectores, lo que en resumen convierte en inútil el esfuerzo de\ntradución. Pero si no dese perder su tiempo y el de otras personas\npuede comenzar a realizar traducciones de buena calidad ahora mismo.\nLe enseñaremos a hacerlo mediante la utilización de guía de estilo,\nterminología, memorias de traducción, traducción automática,\ncomprobaciones automáticas y otras ayudas, y le mostraremos cómo las\ntraducciones incrementales le ayudarán a traducir más rápido.", 
             "localized title": "Realizar traducciones de alta calidad más rápido y fácil", 
-            "location": "", 
+            "location": "Floor 6 - 607", 
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
@@ -10852,7 +11029,7 @@
             "category": "Localisation", 
             "day": "Saturday", 
             "description": "What is Unicode? What is its relationship to Emoji? What's the history of ASCII?\nThree years ago I wanted to type a symbol which didn’t exist. We all know there has been an explosion in the number of characters and emoji within Unicode. But how do those characters get in there? What’s the process for getting new symbols in? Is it even possible for a normal person to do this?\nThe forthcoming release of Unicode 9.0 contains 4 (and a half) new symbols - ⏻ ⏼ ⏽ ⭘ ⏾. Can’t see them? Upgrade your system :-) or install the font from http://unicodepowersymbol.com/\nThis is the THRILLING story (no really!) about where Unicode comes from. Why it exists. How you can change it. And the Poo Emoji. Always the Poo Emoji.\nIn short - learn how to create new symbols & emoji for Unicode.", 
-            "end": "12:00pm", 
+            "end": "1:45pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -10878,12 +11055,12 @@
             "id": "83", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 607", 
             "notes url": "", 
             "programmatic": false, 
-            "start": "11:15am", 
+            "start": "1:00pm", 
             "tags": [], 
-            "timeblock": "sat-11-15am--saturday-11-15-", 
+            "timeblock": "sat-1pm--saturday-13-00-", 
             "title": "Getting New Characters and Emoji into Unicode"
         }, 
         {
@@ -10891,7 +11068,7 @@
             "category": "Localisation", 
             "day": "Sunday", 
             "description": "HTML to PDF tools connect the open web to the publishing supply chain, supporting original writing, research and journalism with revenue. In this workshop, you'll learn to use open source tools which will help you produce good-looking print and screen PDFs from HTML in complex human languages including Arabic, Chinese and Vietnamese. The workshop will be in English, and of course you'll be able to use these skills for making PDF in European languages too.", 
-            "end": "11:00am", 
+            "end": "11:45am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Booktype GmbH", 
@@ -10917,7 +11094,7 @@
             "id": "141", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 607", 
             "notes url": "", 
             "programmatic": false, 
             "start": "11:00am", 
@@ -10928,8 +11105,9 @@
         {
             "additional language": "", 
             "category": "Localisation", 
+            "day": "Saturday", 
             "description": "Electronic Augmentative and Alternative Communication (AAC) systems enable indi- viduals with severe speech impairment to verbally communicate their needs, often using Text-to-Speech technology as their “Voices”. Such devices are designed to give communication impaired people greater independence and improved opportunities of social integration.\nHowever, these devices represent an extreme of the privacy spectrum. When all of your utterances of ‘scaffolded’ and interpreted by care staff and when your speech device contains your thoughts, things you wanted to say but never got the chance, and all of the words you’ve said, there is a very real sense that you have no personal privacy at all.\nOur session will explore these issues thought the design of a privacy iconography management for users that are pre-literate – a group of symbols that denote terms around personal data.", 
-            "duration": "", 
+            "end": "5:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "eQuality Time", 
@@ -10955,18 +11133,20 @@
             "id": "180", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 607", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Designing for the limit case of personal privacy: when your voice is in the machine"
         }, 
         {
             "additional language": "Spanish, English", 
             "category": "Localisation", 
+            "day": "Sunday", 
             "description": "Discover how Evernote uses Open Source tools to localize their wide-range of products.", 
-            "duration": "", 
+            "end": "2:45pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Evernote", 
@@ -10992,20 +11172,22 @@
             "id": "240", 
             "localized description": "Descrubre cómo Evernote utiliza herramientas de código abierto para localizar su gama de productos.", 
             "localized title": "Localización en Evernote usando soluciones de código abierto", 
-            "location": "", 
+            "location": "Floor 6 - 607", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [
                 "Multi-lingual MozFest"
             ], 
-            "timeblock": "", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Localization at Evernote using Open Source solutions"
         }, 
         {
             "additional language": "", 
             "category": "Localisation", 
+            "day": "Saturday", 
             "description": "The world speaks English, why bother with anything else?  Oh wait except on a lot of mobile phones.  Oh yes and except in China and India. In fact there are quite a lot of people who don’t speak English.\nDoes your organisation or message resonate with a non-English speaking world.  Then why are you only doing this in English?\nWe’re focusing here not on the tools that could help you achieve this, but the strategic dimensions you need to take into consideration as you roll out your solutions.", 
-            "duration": "", 
+            "end": "5:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Translate", 
@@ -11031,18 +11213,20 @@
             "id": "262", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 601", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Getting your message to a bigger audience: strategic reasons to localise"
         }, 
         {
             "additional language": "", 
             "category": "Localisation", 
+            "day": "Sunday", 
             "description": "There are a number of things you can do to make localisation easy or to make it hard.  Sadly most programmers learn that their very excellent idea is really dumb after bumping heads and frustrating localisers.\nWe’ll explore the things that developers can do right so that it’s a joy to localise their product.", 
-            "duration": "", 
+            "end": "4:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Translate", 
@@ -11068,18 +11252,20 @@
             "id": "263", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 601", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Some of my best friends are localisers"
         }, 
         {
             "additional language": "", 
             "category": "Localisation", 
+            "day": "Saturday", 
             "description": "So you’re localising, you have engaged a commercial localisation company and you need to tell them what they need to do.  What will you tell them?  You have some eager volunteers who are ripping through the translations, they’re passionate and dedicated, the feedback from the community is a bit lacklustre.  What could you have told them that would have helped?\nThe localisation brief helps make sure your localisers are on track with the way your localisation needs to get done.", 
-            "duration": "", 
+            "end": "10:45am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Translate", 
@@ -11105,18 +11291,19 @@
             "id": "264", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 607", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Localisation brief"
         }, 
         {
             "additional language": "", 
             "category": "Localisation", 
             "description": "Someone said that you should write a book about it.  If only you had the time.  Well we can’t help you make time.  But we will help you make the most of opportunities to self publish.\nWhile many people focus on ebooks, there is still an great need and demand for regular books.  Printing your own regular book can be exorbitant following traditional models, but print on demand books can make it easy to eliminate many of these upfront expenses.\nThere are an amazing number of options.  Most have very easy interfaces. Yet the task still seems to be very daunting.  We’ll try to reduce the pain.", 
-            "duration": "", 
+            "duration": "45", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Translate", 
@@ -11142,7 +11329,7 @@
             "id": "265", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 607", 
             "notes url": "", 
             "programmatic": false, 
             "tags": [], 
@@ -11152,8 +11339,9 @@
         {
             "additional language": "", 
             "category": "Localisation", 
+            "day": "Saturday", 
             "description": "Get a better understanding of the challenges and opportunities that come through multilingualism. How communities can take advantage of the opportunities to reinvigorate their languages and cultures through technology and how organisations and governments can improve their services through a better understanding of how to support multilingualism .", 
-            "duration": "", 
+            "end": "1:45pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -11179,18 +11367,20 @@
             "id": "331", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 601", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "1:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-1pm--saturday-13-00-", 
             "title": "Multilingualism is Good for You!"
         }, 
         {
-            "additional language": "French, English", 
+            "additional language": "", 
             "category": "Localisation", 
+            "day": "Sunday", 
             "description": "Localizers need to translate terms as part of the localization process. But how do you do that if the terms aren't established in your language? In this session we will look at how to coin new terms, how to choose between conflicting terms, and how to build up vocabularies to help you translate and localize. No previous experience will be needed.", 
-            "duration": "", 
+            "end": "1:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Bangor University", 
@@ -11214,22 +11404,24 @@
                 ""
             ], 
             "id": "333", 
-            "localized description": "Les personnes parlant français sont les bienvenues à cette présentation.", 
+            "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 607", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "12:15pm", 
             "tags": [
                 "Multi-lingual MozFest"
             ], 
-            "timeblock": "", 
+            "timeblock": "sun-12-15pm--sunday-12-15-", 
             "title": "Developing terms in your own language"
         }, 
         {
             "additional language": "", 
             "category": "Localisation", 
+            "day": "Sunday", 
             "description": "Style Guides are useful tool for software localizers as they help with consistency of translating style and terminology. The session with work towards creating an outline of a style guide.", 
-            "duration": "", 
+            "end": "11:45am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -11255,18 +11447,20 @@
             "id": "334", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 607", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Creating a Style Guide"
         }, 
         {
             "additional language": "", 
             "category": "Localisation", 
+            "day": "Saturday", 
             "description": "Language communities under threat of digital extinction are often the same ones who suffer from poverty, discrimination and other forms of social and economic exclusion.  Empowering such communities to help themselves is important in all spheres of action, but can this extend to enabling them to localize software in their own language? This will be an open discussion when all participants will be encouraged to share their thoughts and insights.", 
-            "duration": "", 
+            "end": "4:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Bangor University", 
@@ -11292,11 +11486,12 @@
             "id": "337", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 601", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Empowerment through localization?"
         }, 
         {
@@ -11304,7 +11499,7 @@
             "category": "Localisation", 
             "day": "Saturday", 
             "description": "We will be hosting a live connection between 5 spaces and allow\nparticipation in multiple languages.\n\nGet connected to 5 community spaces in Asia and London. This session is\na how to practical lesson to show the possibility of inter-connected and\ndistributed next generation Festival. Participants will feel and\nexperience global inter-connected Mozilla community at the Mozfest by\nsharing their thoughts and ideas in Fireside chat.\n\nThe environment for this session can be used to hold other sessions\nconnecting anywhere on the earth for remote participation to MozFest.\nTaking inclusive to the next level by running our session with remote\nparticipation.", 
-            "end": "10:00am", 
+            "end": "10:45am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla Japan", 
@@ -11330,7 +11525,7 @@
             "id": "394", 
             "localized description": "このセッションでは、3つの遠隔参加拠点を生中継で繋ぎ、参加者は複数の言語で参加することができます。\n\nロンドン、とアジアの4つのコミュニティスペースが接続されます。このセッションは、分散し相互接続された次世代のフェスティバルに向けた実践的なレッスンです。参加者は、グローバルで相互に繋がったMozillaのコミュニティをMozFestの会場での議論に参加することで体験できます。\n\nこのセッションで使われる環境は、世界のどこからでもMozFestに参加するために利用できます。遠隔から参加する参加者と一緒に私たちのセッションを行うことで、次のレベルに進みましょう。\n", 
             "localized title": "グローバルコミュニティへの遠隔参加", 
-            "location": "", 
+            "location": "Floor 6 - 607", 
             "notes url": "http://ja.mozillafactory.org/post/151421168498/mozilla-festival", 
             "programmatic": false, 
             "start": "10:00am", 
@@ -11343,8 +11538,9 @@
         {
             "additional language": "French, English", 
             "category": "Localisation", 
+            "day": "Saturday", 
             "description": "This session will be an interactive introduction to software and website localization (any of them). People will learn translation basics and how to avoid the common mistakes.", 
-            "duration": "", 
+            "end": "10:45am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -11353,7 +11549,7 @@
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Alizée Aubertin", 
                     "twitter": ""
                 }, 
                 "3": {
@@ -11364,26 +11560,28 @@
             }, 
             "facilitators_names": [
                 "Theo Chevalier", 
-                "", 
+                "Alizée Aubertin", 
                 ""
             ], 
             "id": "434", 
-            "localized description": "Cette séance se déroulera sous la forme d’une présentation interactive de la traduction de logiciels et de sites web (de tout type). Les participants découvriront les bases de la traduction et apprendront à éviter les erreurs les plus courantes.\n\n Les personnes parlant français sont les bienvenues à cette présentation.", 
+            "localized description": "Cette séance se déroulera sous la forme d’une présentation interactive de la traduction de logiciels et de sites web (de tout type). Les participants découvriront les bases de la traduction et apprendront à éviter les erreurs les plus courantes.\n\n", 
             "localized title": "\nPrésentation interactive des défis auxquels les traducteurs doivent faire face", 
-            "location": "", 
+            "location": "Floor 6 - 601", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [
                 "Multi-lingual MozFest"
             ], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Playful introduction to localization challenges"
         }, 
         {
             "additional language": "", 
             "category": "Localisation", 
+            "day": "Sunday", 
             "description": "This session will explore how creatives from the global south can leverage the use of digital technology as alternative spaces for promotion of artistic, cultural and free expression.", 
-            "duration": "", 
+            "end": "2:45pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Hivos", 
@@ -11409,18 +11607,20 @@
             "id": "542", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 607", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Leveraging digital technology to enhance artistic and cultural expression in East Africa"
         }, 
         {
             "additional language": "", 
             "category": "Localisation", 
+            "day": "Sunday", 
             "description": "Is a monolingual English only web the end goal, the end result?  Is this an inevitable outcome? Should we be preventing this from happening.  Are there advantages to a dominant language.\nWe’ll be discussing, this and many questions around language on the Internet.", 
-            "duration": "", 
+            "end": "5:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Translate", 
@@ -11446,18 +11646,20 @@
             "id": "549", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 601", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-4-30pm--sunday-16-30-", 
             "title": "This house believes that everyone will use English by 2030. Will it happen? Does it matter?"
         }, 
         {
             "additional language": "", 
             "category": "Localisation", 
+            "day": "Saturday", 
             "description": "We’ve seen Continuous Integration - where machines are building and testing your software all the time, Continuous Deployment - where you are frequently and automatically pushing your software out to users.\nContinuous localisation would be the process of continuously updating the content that should be translated and continually delivering it to end users.\nWe’ll look at the pros and cons, the dos and don’ts of this process.", 
-            "duration": "", 
+            "end": "2:45pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Translate", 
@@ -11483,18 +11685,20 @@
             "id": "550", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 607", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Continuous localisation: possible or desirable"
         }, 
         {
             "additional language": "", 
             "category": "Localisation", 
+            "day": "Saturday", 
             "description": "Wikimedia is a global movement and Wikipedia, the most well known and well used of the Wikimedia projects, exists within nearly 300 languages. However while the encyclopedia strives for a neutral point of view, this is inhibited by systemic bias created by the shared social and cultural characteristics of the majority of editors. In this session participants will learn about Wikimedia UK's commitment to ensuring that the Wikimedia projects reflect our diverse society and are free from systemic bias, and will contribute their own ideas about how we can create a Web that’s truly inclusive of all languages and societies.", 
-            "duration": "", 
+            "end": "2:45pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Wikimedia UK", 
@@ -11520,18 +11724,20 @@
             "id": "611", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 601", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Diversity and equality in the Wikimedia projects"
         }, 
         {
             "additional language": "", 
             "category": "Localisation", 
+            "day": "Sunday", 
             "description": "My session will allow the audience to see the progress that young Africans are making especially through the use of technology to better their lives and the lives of their communities", 
-            "duration": "", 
+            "end": "1:45pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Geekulcha", 
@@ -11557,11 +11763,12 @@
             "id": "641", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 601", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "1:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-1pm--sunday-13-00-", 
             "title": "How young Africans are embracing technology to enhance their lives"
         }, 
         {
@@ -11595,7 +11802,7 @@
             "id": "651", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 607", 
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
@@ -11606,8 +11813,9 @@
         {
             "additional language": "French, English", 
             "category": "Localisation", 
+            "day": "Sunday", 
             "description": "We produce a lot of curriculum, and no matter what already exist, we always need to remix it to adapt it to our audience.\nHow can we set up our work to be easily remixable?\nHow can we publish work in an inspiring way for others?\nWhat are the dos and don't of curriculum remixing and creation?", 
-            "duration": "", 
+            "end": "5:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla", 
@@ -11631,22 +11839,24 @@
                 ""
             ], 
             "id": "682", 
-            "localized description": "Les personnes parlant français sont les bienvenues à cette présentation.", 
+            "localized description": "\n", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 607", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": [
                 "Multi-lingual MozFest"
             ], 
-            "timeblock": "", 
+            "timeblock": "sun-4-30pm--sunday-16-30-", 
             "title": "Curriculum remix party ? Crowdsourcing best practises"
         }, 
         {
             "additional language": "", 
             "category": "Localisation", 
+            "day": "Sunday", 
             "description": "This session will introduce the concept of Makepedia, demonstrate the ‘proof-of-concept’ platform being used for a pilot project on local manufacture of products needed for development in Kenya and Ghana, and solicit feedback on ideas for a longer term platform. We will also discuss ideas for engaging individuals and communities who could contribute product designs and manufacturing tests to the platform.", 
-            "duration": "", 
+            "end": "4:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Makernet", 
@@ -11672,57 +11882,20 @@
             "id": "692", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 607", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Makepedia: an open source platform for making and makers aimed at international development & humanitarian relief"
-        }, 
-        {
-            "additional language": "Spanish, English", 
-            "category": "Localisation", 
-            "description": "Las personas van a conocer sobre una nueva forma en la que estamos empoderar y construyendo una Web abierta e inclusiva. Construyendo comunidades encargadas de  localizar Firefox en sus lenguas nativas.", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Mozilla Bolivia", 
-                    "name": "Victor Hugo Acosta Ortega", 
-                    "twitter": "@nex23"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Victor Hugo Acosta Ortega", 
-                "", 
-                ""
-            ], 
-            "id": "703", 
-            "localized description": "Las personas van a conocer sobre una nueva forma en la que estamos empoderar y construyendo una Web abierta e inclusiva. Construyendo comunidades encargadas de localizar Firefox en sus lenguas nativas.", 
-            "localized title": "Mozilla Nativo, localización en lenguas nativas de latinoamérica", 
-            "location": "", 
-            "notes url": "", 
-            "programmatic": false, 
-            "tags": [
-                "Multi-lingual MozFest"
-            ], 
-            "timeblock": "", 
-            "title": "Mozilla Nativo, localización en lenguas nativas de latinoamérica"
         }, 
         {
             "additional language": "French, English", 
             "category": "Localisation", 
+            "day": "Sunday", 
             "description": "We will demo https://transvision.mozfr.org/ , the l10n QA tool used across Mozilla and provided by the Mozilla French-speaking community. As one of the Transvision developers, I will also be able to hack on a new feature if participants are interested.", 
-            "duration": "", 
+            "end": "4:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -11731,8 +11904,8 @@
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "name": "Alizée Aubertin", 
+                    "twitter": "alizee.aubertin@gmail.com"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -11742,26 +11915,28 @@
             }, 
             "facilitators_names": [
                 "Théo Chevalier", 
-                "", 
+                "Alizée Aubertin", 
                 ""
             ], 
             "id": "704", 
-            "localized description": "Nous réaliserons une démonstration de https://transvision.mozfr.org/ , l’outil de contrôle qualité des traductions utilisé par Mozilla, initialement conçu par la communauté Mozilla francophone. En tant que l’un des développeurs de Transvision, je pourrai également coder quelque chose en direct si les participants le souhaitent.\n\n Les personnes parlant français sont les bienvenues à cette présentation.", 
+            "localized description": "Nous réaliserons une démonstration de https://transvision.mozfr.org/ , l’outil de contrôle qualité des traductions utilisé par Mozilla, initialement conçu par la communauté Mozilla francophone. En tant que l’un des développeurs de Transvision, je pourrai également coder quelque chose en direct si les participants le souhaitent.\n", 
             "localized title": "Contrôle qualité des traductions grâce à Transvision", 
-            "location": "", 
+            "location": "Floor 6 - 607", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": [
                 "Multi-lingual MozFest"
             ], 
-            "timeblock": "", 
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Localization quality assurance with Transvision"
         }, 
         {
             "additional language": "", 
             "category": "Localisation", 
+            "day": "Saturday", 
             "description": "This session is to help non-English speaker people to have a better experience at Mozfest\nAs we all know, Mozilla is a great community and care a lot about diversity and inclusiveness. But when we talk about events and global announcements, it’s all about English language. Even this application must be in English.\nI have a question to you to think while you read this project:\nHow do we change this?\nLast year I’ve been to Mozfest and I felt really sad that my Brazilian community fellows, non-English speakers, are not able to participate in such great event.\nBut if they could?\nSo I started to think of my project for this year. I had this idea to create a team of volunteers social language helpers.", 
-            "duration": "", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla Brasil Community", 
@@ -11787,18 +11962,20 @@
             "id": "706", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 607", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:15am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Social Language Helper"
         }, 
         {
             "additional language": "Spanish, English", 
             "category": "Localisation", 
+            "day": "Saturday", 
             "description": "Internet Radio offers people a platform to curate their media, voice their values and amplify communities. In this session we want  people to understand the current context of Internet Radio as a tool for information dissemination, cultural advocacy and the local and global implications. Facilitators will also discuss strategies for bridging digital internet practices with terrestrial practices, cultures & communities. Participants will learn the basic tools/software/equipment needs for DIY Internet Radio and participate in a live radio broadcast of the session. Additionally, participants and facilitators will address the economical challenges of internet radio and brainstorm new possibilities together.", 
-            "duration": "", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -11822,22 +11999,24 @@
                 ""
             ], 
             "id": "742", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
+            "localized description": "La radio por Internet ofrece a las personas una plataforma para hacer su propia curaduría en medios de comunicación, expresar sus valores y amplificar comunidades. En esta sesión queremos que la gente entienda el contexto actual de la radio por Internet como una herramienta para la difusión de información, la promoción cultural y las implicaciones locales y globales. Además, los facilitadores discutirán estrategias para vincular las prácticas digitales por Internet con las prácticas terrestres, las culturas y las comunidades. Los participantes aprenderán las herramientas básicas / software / equipo que se necesitan para desarrollar su propia radio por Internet (DIY) y participarán en una sesión de transmisión radial en vivo. Asimismo, los participantes y facilitadores abordarán los retos económicos de la radio por Internet y juntos generarán mediante una lluvia de ideas, nuevas posibilidades. ", 
+            "localized title": "Radio por Internet - amplificando y conectando a comunidades locales con escuchas globales", 
+            "location": "Floor 6 - 601", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:15am", 
             "tags": [
                 "Multi-lingual MozFest"
             ], 
-            "timeblock": "", 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Internet Radio - amplifying & connecting local communities to global listeners"
         }, 
         {
             "additional language": "", 
             "category": "Localisation", 
+            "day": "Saturday", 
             "description": "We'll share some insight from around the globe on how localizers want to work, and how to change Firefox to make that great", 
-            "duration": "", 
+            "end": "1:45pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "mozilla", 
@@ -11863,18 +12042,20 @@
             "id": "750", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 607", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "1:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-1pm--saturday-13-00-", 
             "title": "Learning about Localizers and Firefox"
         }, 
         {
             "additional language": "", 
             "category": "Localisation", 
+            "day": "Sunday", 
             "description": "L20n is a new localization system, code-name as Localization 2.0, or Localization Migration.\nIntroducing a new localization system into an ecosystem as big as Firefox is challenging. We'll talk about how to bring change to something this big and this old.", 
-            "duration": "", 
+            "end": "1:45pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "mozilla", 
@@ -11900,18 +12081,20 @@
             "id": "760", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 607", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "1:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-1pm--sunday-13-00-", 
             "title": "L20n and Firefox"
         }, 
         {
             "additional language": "Scotts Gaelic, English", 
             "category": "Localisation", 
+            "day": "Sunday", 
             "description": "We will demonstrate how groups of schoolchildren from a far-flung Atlantic island rim in the Outer Hebrides can 'become university students', through collaborating with a mainland University in interpreting and enacting their local history bilingually. We will  explore strategies which helped in preparing classroom research, drama, song, music and storytelling for the St Andrews' immersive digital app and installation. The children's engagement and involvement have been recognised as highly innovative by the 'dreaded' H.M.I.", 
-            "duration": "", 
+            "end": "5:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Comann Eachdraidh Uibhist a Tuath", 
@@ -11937,13 +12120,14 @@
             "id": "825", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 6 - 607", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": [
                 "Multi-lingual MozFest"
             ], 
-            "timeblock": "", 
+            "timeblock": "sun-4-30pm--sunday-16-30-", 
             "title": "Taigh-tasgaidh gun Bhallachan  (Museum without Walls)"
         }, 
         {
@@ -13651,8 +13835,9 @@
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "Participants will learn how they can teach a participatory-learning, project based course in open science and reproducible research at their home institutions, customised to the needs of their fields and their students.", 
-            "duration": "", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Michigan State University and Mozilla Science Lab", 
@@ -13690,18 +13875,19 @@
             "id": "95", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 9 - 902", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "The Open Science and Reproducible Research Course"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
             "description": "Artificial intelligence is the topic of the hour, every one is a part of it yet people are not aware how they are involved.\nFacebook, Google and various others of your favourite sites\n& companies are active contributors to it and making big business.\nThis session will cover the following:\n1. Evolution of man - machine interaction\n2. How are common people a part of it and how does it affect them in their day to day life.\n3. Mathematics and technology which is helping achieve this state of art technology.\n4. Demos and code showcase of digit and face recognition in jupyter notebook.\n5. Helping audience build their first machine learning model solving a real time probelm using open data", 
-            "duration": "", 
+            "duration": "30", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -13739,7 +13925,7 @@
             "id": "128", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 9 - 908", 
             "notes url": "", 
             "programmatic": false, 
             "tags": [], 
@@ -13750,7 +13936,7 @@
             "additional language": "", 
             "category": "Open science", 
             "description": "Many companies use geo-demographic segments to represent communities types when they are analyzing data or making decisions. Esri's tapestry or the Cameo categories being two of the mostly widely used. These community definitions can have huge impacts on government, business and urban planning. With there being such power in these closed, opaque classification schemes we have established The Open Segments project to act as a transparent, open source alternative which is maintained by many stake holders including practitioners, data scientists and representatives of the communities being described.\nIn this worksop I want to talk about how we generate these geo-demographic segments, how people are using them, our initial model for collaboration and contribution from the community and to solicit feedback about how we might do that better.", 
-            "duration": "", 
+            "duration": "60", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Carto", 
@@ -13788,7 +13974,7 @@
             "id": "139", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 9 - 902", 
             "notes url": "", 
             "programmatic": false, 
             "tags": [], 
@@ -13798,8 +13984,9 @@
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "Location data has the fairly unique ability to be easily joined with a large number of other datasets at the same location. The fact that we have a latitude and longitude, or region or even just an address for a piece of data allows us to easily bring every other dataset that co-occupies that space into relation with our own data. This makes it incredibly powerful for developing deeper insights in to that data. In addition, most processes in our world have a spatial component, birds flock, diseases spread and your neighbors effect you. Thinking spatially about how the world, applying spatial statistics and prediction methods helps us interpret\nour data better.\nIn this talk I will use a series of open source tools to show how you can easily join your spatial data with other datasets, use that to run spatial statistics models and machine learning based prediction.", 
-            "duration": "", 
+            "end": "12:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Carto", 
@@ -13837,11 +14024,12 @@
             "id": "140", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 9 - 902", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:15am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Thinking Spatially: How location intelligence can enhance your data and let you uncover new insights."
         }, 
         {
@@ -13945,8 +14133,9 @@
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "Practical session designed for specifically through R users to demonstrate the use of github for collaboration through Rstudio", 
-            "duration": "", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -13984,18 +14173,20 @@
             "id": "259", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 9 - 902", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "1:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-1pm--saturday-13-00-", 
             "title": "Collaborative github through Rstudio"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "This will be a sprint to convert a series of Python analysis scripts in the phageParser open source project to read and write to a database. The goal at the end of the sprint will be a database that can be queried in cool ways to give information about CRISPR systems in published microbial genomes.", 
-            "duration": "", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "University of Toronto", 
@@ -14033,11 +14224,12 @@
             "id": "272", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 9 - 903", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Hacking CRISPR - Code Sprint"
         }, 
         {
@@ -14388,8 +14580,9 @@
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "Our recent global survey on research practices indicates widespread support for Open Science among researchers across the globe. There are currently many Open Science tools and platforms available, and we want to explore to which degree researchers can and do employ these in a full Open Science workflow.\nDuring MozFest, we would like to do this together using the results of our survey, which not only asked about support for Open Science but also about active use of platforms, tools and websites for 17 research activities. This results in a body of information on the research practices of 20,663 respondents across disciplines, research roles, career stages and countries.\nThis sprint will be both on statistical analysis of survey results and technical appraisal of Open Science tools and platforms.", 
-            "duration": "", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Utrecht University Library", 
@@ -14427,11 +14620,12 @@
             "id": "338", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 9 - 902", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Real-life Open Science workflows: use and interoperability of research tools"
         }, 
         {
@@ -14584,8 +14778,9 @@
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "Scientific simulation tools created in the academy have a reputation for being organically developed and poorly maintained. While factors like matriculation, training, and experience contribute to the state and usability of the software, pieces of the process can be improved by infrastructure that helps enforce good software development practices and encourages the open exchange of ideas. In this learning lab, we will briefly survey available ways of publishing simulation tools on the internet and provide developers with hands on experience building and publishing simulation tools with graphical user interfaces using the HUBzero Platform.  Participants will become familiar with how to build powerful simulation tools that can take advantage of shared computing resources that are often out of the reach of normal desktop users, make their applications accessible to people around the world through the web browser, and use the platform to build a community around their science.", 
-            "duration": "", 
+            "end": "5:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "HUBzero, Purdue University", 
@@ -14623,11 +14818,12 @@
             "id": "415", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 9 - 903", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Build and Share a Scientific Simulation Tool"
         }, 
         {
@@ -14738,8 +14934,8 @@
             "facilitators": {
                 "1": {
                     "affiliated org": "miniReproducibility Project", 
-                    "name": "girija goyal", 
-                    "twitter": "@scimpact_org"
+                    "name": "Joe Akin", 
+                    "twitter": ""
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -14763,7 +14959,7 @@
                 }
             }, 
             "facilitators_names": [
-                "girija goyal", 
+                "Joe Akin", 
                 "", 
                 "", 
                 "", 
@@ -14782,12 +14978,13 @@
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Sunday", 
             "description": "We have created an open source chrome extension that allows users to collate and display figures for comparison and reproducibility. The extension communicates with a relational database to store the images and metadata which are then displayed on the platform website. We will identify discrete features to be incorporated in the current version by modifying the database or the Jquery based extension or the front-end. Participant will be able to pull a copy and work on it at the sprint or later. All participants will receive open badges. Further, if they are create a new feature for the project, they will be listed as contributors on our website. This project incubated at the open research accelerator at Mozfest 2015 and was awarded a Force11 fellowship in 2016. We are building a disruptive technology to improve reproducibility in scientific publications. Our work has been recognized by organizations using the dynamic web to change how scientists communicate.", 
-            "duration": "", 
+            "end": "1:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "miniReproducibility Project", 
-                    "name": "girija goyal", 
+                    "name": "Joe Akin", 
                     "twitter": "@scimpact_org"
                 }, 
                 "2": {
@@ -14812,7 +15009,7 @@
                 }
             }, 
             "facilitators_names": [
-                "girija goyal", 
+                "Joe Akin", 
                 "", 
                 "", 
                 "", 
@@ -14821,11 +15018,12 @@
             "id": "426", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 9 - 903", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "miniReproducibility Project: Open source Chrome extension, relational database and dynamic wiki portal-learn, create and be recognized for your contributions"
         }, 
         {
@@ -15321,8 +15519,9 @@
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "We want to create an online community where students, teachers and scientists can collaborate on Air Quality projects. Air quality in and around our schools is now a major concern (http://tinyurl.com/aq-schools-gov) . At the same time, affordable AQ technology has enabled schools to conduct their own air quality projects, and many schools  now offer AQ projects  in science programmes and as after-school activities. These projects present a golden opportunity to collect and analyse data about local conditions that would otherwise be lost. To ensure that the data collected will be useful, however, collaboration with scientists and technologists is essential (http://tinyurl.com/valid-data), The goal of this workshop will be to create an open online community in which students, guided by scientists, can contribute meaningfully to the scientific understanding of air quality. We wish to emphasise that this is a community initiative—without community support this won’t be possible.", 
-            "duration": "", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "ScienceMakers", 
@@ -15360,11 +15559,12 @@
             "id": "539", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 9 - 902", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "1:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-1pm--saturday-13-00-", 
             "title": "Open Air Quality Science for Schools and Citizens: an online community."
         }, 
         {
@@ -16012,7 +16212,7 @@
             "additional language": "", 
             "category": "Open science", 
             "description": "Genomic data discovery and access is difficult and time-consuming, a real hurdle for advances in cancer and genetic diseases research. Our ambition is to build Open Source, Node.js based tools, which integrate with modern web technologies. We want to provide smooth data access workflows to power health research and to maximise the research impact.\nParticipants will learn how to use Node.js to query and fetch data from the web, how to process it in a real-time and scalable way using Node.js Streams (similar to UNIX pipes). We will focus on genomic data repositories, but the knowledge on fetching data and building complex pipes using Streams is widely transferable. The participants will have the option, and will be incentivized, to publish the developed code as reusable Node.js modules under the Open Source community project Bionode.io. We will follow-up with these participants after the MozFest event.", 
-            "duration": "", 
+            "duration": "120", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Bionode.io (founder and maintainer) and Queen Mary University of London (PhD student at WurmLab)", 
@@ -16060,62 +16260,14 @@
         {
             "additional language": "", 
             "category": "Open science", 
-            "description": "We will introduce the group to two technologies being piloted through Mozilla Gigabit Community Fund grants in Chattanooga, Tennessee and enable participants to imagine how these technologies might work in their own communities - either by scaling out existing pilots, or reimagining uses for the infrastructure.\nThe 4K microscope, in partnership with USC and with the support of the Mozilla Gigabit Community Fund has put research grade advanced microscopy tools in the hands of high schoolers, increasing access to and engagement with substantive scientific inquiry.\nFor the second pilot, which builds off of a tourism-focused Nokia project using advanced broadband to display Tennessee Aquarium exhibits to city visitors, we wondered what would happen if we took that streaming content (currently of an alligator bayou) and piped it directly into K-8 classrooms. Working with teachers and biologists, we’re developing open-source curricular modules for use in learning spaces across our school district.", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "The Public Education Foundation - Chattanooga, TN", 
-                    "name": "Geoff Millener", 
-                    "twitter": "@gmillener"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "4": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "5": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Geoff Millener", 
-                "", 
-                "", 
-                "", 
-                ""
-            ], 
-            "id": "730", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
-            "notes url": "", 
-            "programmatic": false, 
-            "tags": [], 
-            "timeblock": "", 
-            "title": "Science in 4K: Using Advanced Broadband to Democratize Scientific Research, K-12 and Beyond"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Open science", 
+            "day": "Saturday", 
             "description": "We need help developing lesson plans that teachers can use to incorporate volunteer computing projects into the classroom. Specifically, researchers from CERN and software developers in Kansas City have launched the CERN + KC Gigabit Computing Challenge, using extensive gigabit networking in Kansas City to extend the volunteer compute resources used by LHC@Home to analyze Large Hadron Collider data. While there is an element of fun and virtuousness in simply donating extra compute power to the cause, we want to use this collaboration to develop lesson plans for in-school or out-of-school real-time learning. How can we use this processing power to activate citizen scientists? The intent is that these plans can be implemented as part of Mozilla’s Gigabit Community Fund projects in KC this fall.", 
-            "duration": "", 
+            "end": "11:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "KC Digital Drive", 
-                    "name": "Aaron Deacon", 
-                    "twitter": "aarondeacon"
+                    "name": "Laura Gilchrist", 
+                    "twitter": ""
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -16139,7 +16291,7 @@
                 }
             }, 
             "facilitators_names": [
-                "Aaron Deacon", 
+                "Laura Gilchrist", 
                 "", 
                 "", 
                 "", 
@@ -16151,15 +16303,17 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Gigabits, the Higgs boson, and citizen science"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "Hardware forms a vital part of the scientific experimental process and the current supply chain limits access and impedes creativity and customisation. Open Science Hardware addresses part of this problem through sharing open designs and a growing number of people around the world are developing fantastic projects - from open molecular biology tools and microscopes to cosmic ray detectors and geiger counters. These efforts need amplifying and a community is slowly emerging to drive the social change within institutions that will increase uptake.\nThe Gathering for Open Science Hardware (GOSH!) was a meeting at CERN in 2016 that brought together 50 researchers, developers, citizen scientists, designers, funders and more to seed just such a community and now we want to enable others to feed into creating an actionable roadmap for open science hardware to be launched and distributed at high-level to institutions and policy makers.", 
-            "duration": "", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "University of Cambridge", 
@@ -16197,11 +16351,12 @@
             "id": "751", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 9 - 902", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "GOSH! A roadmap for open science hardware"
         }, 
         {
@@ -16256,8 +16411,9 @@
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "Fathom Beyond is an ethical tourism project in Kenya. We are working with local people to build fun, educational, and environmentally friendly experiences for tourists.\nIn this session we wish to discuss our ideas and plan new ways to incorporate open science into the safari experience. Preliminary ideas have been focussed around the creation of open maps of rural areas, including mapping locations of plants and animals.\nThese data could contribute both to community mapping projects (Mapillary, Open Street Maps etc.), and could feed into research programmes informing population models, conservation strategies, and long term sampling projects.\nThe exact direction of the mozfest session will depend on the backgrounds of its participants.", 
-            "duration": "", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Fathom Beyond", 
@@ -16295,11 +16451,12 @@
             "id": "775", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 9 - 903", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "1:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-1pm--saturday-13-00-", 
             "title": "Science safaris in the Maasai Mara, Kenya"
         }, 
         {
@@ -16599,7 +16756,7 @@
         {
             "additional language": "", 
             "category": "Open science", 
-            "description": "For those participants in the Open Leadership Training Series, a helpdesk of sorts for any questions the Open Leadership group may have.", 
+            "description": "", 
             "duration": "", 
             "facilitators": {
                 "1": {
@@ -16643,7 +16800,7 @@
             "programmatic": false, 
             "tags": [], 
             "timeblock": "", 
-            "title": "Open Leadership Training Series Mentorship Office Hours"
+            "title": "Open Projects - hackathon & helpdesk!"
         }, 
         {
             "additional language": "", 
@@ -20362,8 +20519,9 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "day": "Saturday", 
             "description": "Participants will be learning how to use Inkscape (open source design program) to create a vector design which they will then be able to fabricate on the lasercutter using acrylic or plywood.", 
-            "duration": "", 
+            "end": "11:15am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -20392,8 +20550,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:15am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "LASERS - and what you can make with them."
         }, 
         {
