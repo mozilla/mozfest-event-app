@@ -75,31 +75,38 @@ function Schedule(CUSTOM_CONFIG) {
     // 2) _show (which gets a session list for a specific tab)
     switch(decodeURIComponent(pageType)) {
       case "_search":
+        schedule.trackEvent("Search", "Direct link or browser history");
         schedule.toggleSearchMode(true);
         break;
       case "_session":
         // get session details based on ID value from the URL
+        schedule.trackEvent("Session Detail", "Direct link or browser history", pageID);
         schedule.getSessionDetail(pageID);
         break;
       case "_show":
         // set chosenTab to ID value from URL, then get session list
+        schedule.trackEvent("Tab View", "Direct link or browser history", pageID);
         schedule.chosenTab = pageID;
         schedule.makeSchedule();
         break;
       case "_"+DISPLAY_NAME_FOR_CATEGORY.plural:
         // shows list of Categories and their description
+        schedule.trackEvent("Spaces Overview", "Direct link or browser history");
         schedule.displayCategoriesList();
         break;
        case "_"+DISPLAY_NAME_FOR_CATEGORY.singular:
         // show sessions in a Category based on the Category (or the equivalent custom label) slug in URL
+        schedule.trackEvent("Individual Space Detail", "Direct link or browser history", pageID);
         schedule.displaySessionsOfCategory(pageID);
         break;
       case "_"+DISPLAY_NAME_FOR_TAG.plural:
         // shows list of all Tags
+        schedule.trackEvent("Pathways Overview", "Direct link or browser history");
         schedule.displayTagsList();
         break;
       case "_"+DISPLAY_NAME_FOR_TAG.singular:
         // show sessions in a Tag based on the Tag(or the equivalent custom label) slug in URL
+        schedule.trackEvent("Individual Pathway Detail", "Direct link or browser history", pageID);
         schedule.displaySessionsOfTag(pageID);
         break;
     }
@@ -626,6 +633,10 @@ function Schedule(CUSTOM_CONFIG) {
     }).keyup(function() {
       $(this).change();
     });
+
+    $('#list-filter').blur(function() {
+      schedule.trackEvent("Search Term", "typed", $(this).val());
+    });
   }
 
   // showFavorites() handles display when someone chooses the "Favorites" tab
@@ -798,16 +809,20 @@ function Schedule(CUSTOM_CONFIG) {
     var id, tab;
 
     if ( !$(this).data("tab") ) { 
-      // when elem clicked isn't a tab control, e.g, it's the logo or the schedule link
+      // when elem clicked isn't a tab control, e.g, it's the logo or the schedule link on top nav
       // we bring users to the "favored" tab view instead
       // see schedule.getChosenTab()'s implementation for details
       id = null;
       schedule.chosenTab = null;
       schedule.getChosenTab();
       tab = schedule.chosenTab;
+
+      schedule.trackEvent("Default App Screen", "clicked");
     } else {
       id = $this.attr('id');
       tab = $this.data("tab");
+
+      schedule.trackEvent("Tab Control", "clicked", tab);
     }
 
     schedule.toggleSearchMode(false);
@@ -820,6 +835,7 @@ function Schedule(CUSTOM_CONFIG) {
     e.preventDefault();
 
     var category_slug = $(this).data("category");
+    schedule.trackEvent("Individual Space Detail", "clicked", category_slug);
     schedule.displaySessionsOfCategory(category_slug,true);
     window.scrollTo(0,0);
   }
@@ -828,6 +844,7 @@ function Schedule(CUSTOM_CONFIG) {
     e.preventDefault();
 
     var tag_slug = $(this).data("tag");
+    schedule.trackEvent("Individual Pathway Detail", "clicked", tag_slug);
     schedule.displaySessionsOfTag(tag_slug,true);
     window.scrollTo(0, 0);
   }
@@ -841,6 +858,7 @@ function Schedule(CUSTOM_CONFIG) {
     $("#search").on('click', function(e) {
       e.preventDefault();
 
+      schedule.trackEvent("Search", "clicked", "nav item");
       schedule.toggleSearchMode(true);
     });
 
@@ -853,6 +871,8 @@ function Schedule(CUSTOM_CONFIG) {
     // clicking on the [Categories] link on the nav bar displays the list of Categories
     schedule.$pageLinks.on('click', '#'+CATEGORY_NAV_LINK_ID, function(e) {
       e.preventDefault();
+
+      schedule.trackEvent("Spaces Overview", "clicked", "nav item");
       schedule.displayCategoriesList(true);
     });
 
@@ -860,6 +880,7 @@ function Schedule(CUSTOM_CONFIG) {
     schedule.$pageLinks.on('click', '#'+TAG_NAV_LINK_ID, function(e) {
       e.preventDefault();
 
+      schedule.trackEvent("Pathways Overview", "clicked", "nav item");
       schedule.displayTagsList(true);
     });
 
@@ -874,10 +895,10 @@ function Schedule(CUSTOM_CONFIG) {
     // clicking on the header in a session "card" opens session detail view
     schedule.$container.on('click', '.session-card h4 a', function(e) {
       e.preventDefault();
-      var clicked = $(this).parents('.session-card').data('session');
 
       // track interaction in Google Analytics
-      schedule.trackEvent('Session Detail Opened', clicked);
+      var clicked = $(this).parents('.session-card').data('session');
+      schedule.trackEvent("Session Detail", "clicked", clicked);
       // update the hash for proper routing
       schedule.getSessionDetail(clicked,true);
     });
@@ -947,11 +968,11 @@ function Schedule(CUSTOM_CONFIG) {
           if (clicked.hasClass('favorite-active')) {
             // if favorited, add the session ID to savedSessionIDs
             schedule.savedSessionIDs.push(sessionID);
-            schedule.trackEvent('Session Faved', sessionID);
+            schedule.trackEvent("Session Faved", "clicked", sessionID);
           } else {
             // otherwise, we have unfavorited, so remove the saved ID
             schedule.savedSessionIDs = _.without(schedule.savedSessionIDs, sessionID);
-            schedule.trackEvent('Session Unfaved', sessionID);
+            schedule.trackEvent("Session Unfaved", "clicked", sessionID);
             // if we're actually *on* the "Favorites" tab,
             // we need to remove this element from the page
             if (schedule.chosenTab == 'favorites') {
@@ -973,6 +994,19 @@ function Schedule(CUSTOM_CONFIG) {
         });
     });
 
+    schedule.$container.on("click", ".session-notes-url a", function(e) {
+      var sessionNumber = $(this).parents(".session-detail").data("session");
+
+      // don't use schedule.trackEvent() as it's not designed for tracking outbound links
+      ga('send', {
+        hitType: 'event',
+        eventCategory: "Notes Button",
+        eventAction: "clicked",
+        eventLabel: sessionNumber,
+        transport: "beacon"
+      });
+    });
+
     // this is a single-page app, but we need to support the back button
     window.onpopstate = function(event) {
       // if window.history isn't available, bail out
@@ -982,8 +1016,14 @@ function Schedule(CUSTOM_CONFIG) {
   }
 
   // utility function to track events in Google Analytics
-  schedule.trackEvent = function(action, label) {
-    // ga('send', 'event', 'Schedule App', action, label);
+  schedule.trackEvent = function(eventCategory, eventAction, eventLabel) {
+    // see https://developers.google.com/analytics/devguides/collection/analyticsjs/events
+    ga('send', {
+      hitType: 'event',
+      eventCategory: eventCategory,
+      eventAction: eventAction,
+      eventLabel: eventLabel
+    });
   }
 
   // utility function to pass into templates for nice typography
