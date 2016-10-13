@@ -604,6 +604,7 @@ function Schedule(CUSTOM_CONFIG) {
                || (v.facilitators_names.join(" ").toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                || (v.tags.join(",").toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                || (v.category.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
+               || (v["additional language"].toUpperCase().indexOf(filterVal.toUpperCase()) >= 0)
                || (v.description.toUpperCase().indexOf(filterVal.toUpperCase()) >= 0);
         });
         // get the IDs of the matching sessions ...
