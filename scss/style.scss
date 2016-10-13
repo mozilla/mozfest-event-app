@@ -119,6 +119,7 @@ h2 {
   font-size: 1.5rem;
   &.subhead {
     font-size: 1rem;
+    font-weight: 400;
   }
 }
 
@@ -206,7 +207,7 @@ li {
     color: $white;
     background: $light-purple;
     text-decoration: none;
-    border-right: 5px solid $white;
+    border-right: 5px solid $bg-white;
     text-transform: capitalize;
     &.active {
       background-color: $blue;

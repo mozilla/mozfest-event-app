@@ -127,6 +127,7 @@ h2 {
 
 h2.subhead {
   font-size: 1rem;
+  font-weight: 400;
 }
 
 h3 {
@@ -214,7 +215,7 @@ li {
   color: #fff;
   background: #998CEC;
   text-decoration: none;
-  border-right: 5px solid #fff;
+  border-right: 5px solid #F5F5F5;
   text-transform: capitalize;
 }
 
