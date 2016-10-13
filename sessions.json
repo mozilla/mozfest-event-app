@@ -340,7 +340,7 @@
                 "", 
                 ""
             ], 
-            "id": "18", 
+            "id": "19", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 7 - 702", 
@@ -418,7 +418,7 @@
                 "", 
                 ""
             ], 
-            "id": "34", 
+            "id": "37", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 7 - 706", 
@@ -738,7 +738,7 @@
                 "", 
                 ""
             ], 
-            "id": "190", 
+            "id": "192", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 7 - 706", 
@@ -1848,7 +1848,7 @@
                 "", 
                 ""
             ], 
-            "id": "709", 
+            "id": "710", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 7 - 703", 
@@ -6029,7 +6029,7 @@
             "title": "Steampunk with James Watt"
         }, 
         {
-            "additional language": "", 
+            "additional language": "Spanish", 
             "category": "Dilemmas in connected spaces", 
             "day": "Saturday", 
             "description": "The reality of innovation in 2016 is that the best ideas can come from anywhere.  This session will show that with encouragement , reassurance and a safe environment anyone can contribute to generating, selecting and refining great innovations.", 
@@ -6043,12 +6043,12 @@
                 "2": {
                     "affiliated org": "Be-novative", 
                     "name": "Katalin Zöldi", 
-                    "twitter": ""
+                    "twitter": "@benovative"
                 }, 
                 "3": {
                     "affiliated org": "Be-novative", 
                     "name": "Réka Boronkay ", 
-                    "twitter": ""
+                    "twitter": "@dr_byreka"
                 }
             }, 
             "facilitators_names": [
@@ -6407,7 +6407,7 @@
                 "", 
                 ""
             ], 
-            "id": "1512", 
+            "id": "1520", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 6 - 603", 
@@ -6760,7 +6760,7 @@
                 "", 
                 ""
             ], 
-            "id": "914", 
+            "id": "951", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 6 - 602", 
@@ -7625,7 +7625,7 @@
                 "", 
                 ""
             ], 
-            "id": "913", 
+            "id": "950", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 6 - 603", 
@@ -7869,6 +7869,123 @@
             "tags": [], 
             "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Databox: Hack an App (hack on)"
+        }, 
+        {
+            "additional language": " ", 
+            "category": "Dilemmas in Connected Spaces", 
+            "day": "Sunday", 
+            "description": "Activity - engaging citizen scientists and analytics experts:\nAttendees will be taught the basic principles of Human Centric Lighting and how the body’s organ functions are directly linked to the rise and fall of the sun. From NASA to horticulturists, light is increasingly recognised as a drug for living organisms. If used correctly, light can improve sleep as well as focus.\nExperiment with Smart Diffuser and experience the effects of the light:\nBased on research carried out in classrooms, offices and even on the International Space Station, attendees will be able to program a set of Quantum Dot enhanced lights (the Smart Diffuser TM) to shift colour temperature over a 10 minute period and find out the effect on their body. Nano-Lit will stream the data collected in real time to an online server to see if results are valuable and what they tell us about Human Centric Lighting.", 
+            "end": "2:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Nano-Lit Technologies", 
+                    "name": "Sarah Morgan", 
+                    "twitter": "@quantumdotsblog"
+                }, 
+                "2": {
+                    "affiliated org": "Nano-Lit Technologies", 
+                    "name": "Michael Karolyi", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Sarah Morgan", 
+                "Michael Karolyi", 
+                ""
+            ], 
+            "id": "2342", 
+            "localized description": "", 
+            "localized title": " ", 
+            "location": "Floor 6 - 604", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sun-1pm--sunday-13-00-", 
+            "title": "Is Light a Drug?"
+        }, 
+        {
+            "additional language": "Spanish", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Sunday", 
+            "description": "The reality of innovation in 2016 is that the best ideas can come from anywhere.  We will review ideas from Saturday.  Session open to everyone, not just participants from Saturday.", 
+            "end": "1:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "Michael Saunby", 
+                    "twitter": "@msaunby"
+                }, 
+                "2": {
+                    "affiliated org": "Be-novative", 
+                    "name": "Katalin Zöldi", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "Be-novative", 
+                    "name": "Réka Boronkay ", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Michael Saunby", 
+                "Katalin Zöldi", 
+                "Réka Boronkay "
+            ], 
+            "id": "2442", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 604", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "12:15pm", 
+            "tags": [], 
+            "timeblock": "sun-12-15pm--sunday-12-15-", 
+            "title": "Open Innovators - review"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Sunday", 
+            "description": "Toys began as homemade things, often made by children themselves to designs passed down through generations.  The growth of the maker community, the capacity of the Internet to share ideas and the delight of a successful make, 3D printing, and more, should enable a resurgence of delightful, quirky, cheap, amazing, personal, empowering, life changing TOYS!  Let's make some!", 
+            "end": "3:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "Michael Saunby", 
+                    "twitter": "@msaunby"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "Martha Sedgwick", 
+                    "twitter": "@Whyweexplore"
+                }, 
+                "3": {
+                    "affiliated org": "One Five West", 
+                    "name": "Anna Horton", 
+                    "twitter": "@onefivewest"
+                }
+            }, 
+            "facilitators_names": [
+                "Michael Saunby", 
+                "Martha Sedgwick", 
+                "Anna Horton"
+            ], 
+            "id": "2467", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 604", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "2:00pm", 
+            "tags": [], 
+            "timeblock": "sun-2pm--sunday-14-00-", 
+            "title": "Back to the - Future toys"
         }, 
         {
             "additional language": "English, French", 
@@ -8136,7 +8253,7 @@
                 "", 
                 ""
             ], 
-            "id": "249", 
+            "id": "2490", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 4 - Library", 
@@ -8612,7 +8729,7 @@
                 "", 
                 ""
             ], 
-            "id": "785", 
+            "id": "7850", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 4 - Library", 
@@ -8690,7 +8807,7 @@
                 "", 
                 ""
             ], 
-            "id": "806", 
+            "id": "8060", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 4 - Library", 
@@ -9082,7 +9199,7 @@
                 "", 
                 ""
             ], 
-            "id": "806", 
+            "id": "8061", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 4 - Library", 
@@ -9121,7 +9238,7 @@
                 "", 
                 ""
             ], 
-            "id": "806", 
+            "id": "8062", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 4 - Library", 
@@ -9160,7 +9277,7 @@
                 "", 
                 ""
             ], 
-            "id": "806", 
+            "id": "8063", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 4 - Library", 
@@ -9199,7 +9316,7 @@
                 "", 
                 ""
             ], 
-            "id": "353", 
+            "id": "3530", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 4 - Library", 
@@ -9238,7 +9355,7 @@
                 "", 
                 ""
             ], 
-            "id": "353", 
+            "id": "3531", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 4 - Library", 
@@ -9277,7 +9394,7 @@
                 "", 
                 ""
             ], 
-            "id": "353", 
+            "id": "3532", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 4 - Library", 
@@ -9316,7 +9433,7 @@
                 "", 
                 ""
             ], 
-            "id": "353", 
+            "id": "3533", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 4 - Library", 
@@ -9355,7 +9472,7 @@
                 "", 
                 ""
             ], 
-            "id": "785", 
+            "id": "7851", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 4 - Library", 
@@ -9394,7 +9511,7 @@
                 "", 
                 ""
             ], 
-            "id": "785", 
+            "id": "7852", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 4 - Library", 
@@ -9433,7 +9550,7 @@
                 "", 
                 ""
             ], 
-            "id": "785", 
+            "id": "7853", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 4 - Library", 
@@ -9472,7 +9589,7 @@
                 "", 
                 ""
             ], 
-            "id": "249", 
+            "id": "2491", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 4 - Library", 
@@ -9511,7 +9628,7 @@
                 "", 
                 ""
             ], 
-            "id": "249", 
+            "id": "2492", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 4 - Library", 
@@ -13886,8 +14003,9 @@
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Sunday", 
             "description": "Artificial intelligence is the topic of the hour, every one is a part of it yet people are not aware how they are involved.\nFacebook, Google and various others of your favourite sites\n& companies are active contributors to it and making big business.\nThis session will cover the following:\n1. Evolution of man - machine interaction\n2. How are common people a part of it and how does it affect them in their day to day life.\n3. Mathematics and technology which is helping achieve this state of art technology.\n4. Demos and code showcase of digit and face recognition in jupyter notebook.\n5. Helping audience build their first machine learning model solving a real time probelm using open data", 
-            "duration": "30", 
+            "end": "3:45pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -13928,15 +14046,17 @@
             "location": "Floor 9 - 908", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Demystifying Artificial Intelligence"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "Many companies use geo-demographic segments to represent communities types when they are analyzing data or making decisions. Esri's tapestry or the Cameo categories being two of the mostly widely used. These community definitions can have huge impacts on government, business and urban planning. With there being such power in these closed, opaque classification schemes we have established The Open Segments project to act as a transparent, open source alternative which is maintained by many stake holders including practitioners, data scientists and representatives of the communities being described.\nIn this worksop I want to talk about how we generate these geo-demographic segments, how people are using them, our initial model for collaboration and contribution from the community and to solicit feedback about how we might do that better.", 
-            "duration": "60", 
+            "end": "4:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Carto", 
@@ -13977,8 +14097,9 @@
             "location": "Floor 9 - 902", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "The Open Segments project: Taking back how we define our communities"
         }, 
         {
@@ -14035,8 +14156,9 @@
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Sunday", 
             "description": "crowdAI (www.crowdAI.org) is a not-for-profit platform for open data challenges. It has two goals: 1) to be the place for solving (big) data problems through open challenges; and 2) to be the place for learning about the techniques used to solve these problems.\nDeveloped by scientists and engineers at EPFL in Switzerland, crowdAI is open to participants from anywhere in the world. The platform is also open to host challenges from anyone else.\nOpen data challenges on the web give everyone around the world a shot at tackling difficult data problems. By providing their solutions openly, participants can rapidly learn the latest powerful techniques from each other. At this session, we will have three talks: 1) What is crowdAI, 2) A typical crowdAI challenge, and 3) Using crowdAI to run a plant disease diagnosis challenge. Thus, people will learn about the platform and how they can use it themselves.", 
-            "duration": "", 
+            "end": "1:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "EPFL", 
@@ -14074,18 +14196,20 @@
             "id": "243", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 9 - 908", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "1:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-1pm--sunday-13-00-", 
             "title": "CrowdAI - an open challenge platform for data science"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "This session gives participants a primer on networks, what they're useful for (including real world, scientific usecases), and how they make use of them on the web.  By the end of the session, participants will be able to start building webapps that include an interactive network component.", 
-            "duration": "", 
+            "end": "12:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "University of Toronto", 
@@ -14123,11 +14247,12 @@
             "id": "256", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 9 - 902", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:15am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Displaying interactive networks on the web"
         }, 
         {
@@ -15176,8 +15301,9 @@
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "Machine Learning is the soul of digital disruptions across the globe, often looked as a closed door black box (probably due to potential \"thought of complexity\").\n1) This session educates high school kids and attendees on foundations to mid advanced level of Machine Learning (ML).\n2) We first learn with real life day to day examples where ML unknowingly influence human life.\n3) Then we take up practical data sets, fire up small chunks of code (R || Python) to predict (forecast) something unknown.\n4) The code snippets will be simple and easily understandable with people even having non programming background.\n5) Attendees will be able to gain knowledge on ML, different segments of it, real life examples and how machines learn (practical programming).\n6) Depth of \"how to apply\" depends on the audience interest and to some extent the knowledge or comfort-ability with computers and logic.", 
-            "duration": "", 
+            "end": "2:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla Tech Speakers / TCS", 
@@ -15215,11 +15341,12 @@
             "id": "474", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 9 - 902", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "1:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-1pm--saturday-13-00-", 
             "title": "Machine Learning for Humans"
         }, 
         {
@@ -15768,8 +15895,9 @@
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "How can we tell if open source / open use scientific software is on the right track? What measures are good indicators for scientific software success?\nFor instance, is community size a key measure? If it's always rising does this mean the project is likely to succeed? Is code complexity overrated for scientific software? What does the state of practice in industry tell us?  What does social buzz tell us?  Is a heavily tweeted piece of software more likely to be successful? And how can we use this information to help developers adopt techniques that might lead to greater impact and success?\nThis session will help developers and users of scientific software understand what techniques they can use to help make their software  better and more successful, how to tell if they should make course corrections, and how to communicate software success (and failure) to their stakeholders.", 
-            "duration": "", 
+            "end": "11:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Software Sustainability Institute", 
@@ -15807,11 +15935,12 @@
             "id": "559", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 9 - 902", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "How successful is my (open use) scientific software?"
         }, 
         {
@@ -16013,8 +16142,9 @@
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "I will gather people and have them brainstorm about different problem statements that touch on citizen and government engagement in order to enhance public service delivery like education, healthcare, public health services. After the brainstorm each of these topics will highlight the different challenges  that need to be addressed or improved on. From the challenges, participants can organize categories while deciding which would be the best way to collect information from citizens regarding the specific issues. This will be a design brainstorming activity. The data collection could range from text messages, tweets and hashtags, facebook posts. The session will allow people to create to develop a paper prototype to illustrate how we can be able  to collect information from citizens based on Ushahidi and other emerging open sourced crowd mapping technologies.", 
-            "duration": "", 
+            "end": "11:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla Kenya", 
@@ -16052,11 +16182,12 @@
             "id": "639", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 9 - 902", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Using open sourced Crowd mapping to improve citizen and government engagement"
         }, 
         {
@@ -16265,7 +16396,7 @@
             "end": "11:00am", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "KC Digital Drive", 
+                    "affiliated org": "", 
                     "name": "Laura Gilchrist", 
                     "twitter": ""
                 }, 
@@ -16300,7 +16431,7 @@
             "id": "741", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 9 - 902", 
             "notes url": "", 
             "programmatic": false, 
             "start": "10:00am", 
@@ -16362,8 +16493,9 @@
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Sunday", 
             "description": "This session is to make people capable to manage their own garden or kitchen garden through connected devices using IoT technology. The plants are an awesome life form, they are the main source of biological energy to the mankind by transforming the simplest elements such as the water, carbon, nitrogen and sunlight into food. Despite the aparent simplicity to this process be efficent it needs several tweaks, if the soil where the plant lays is way beyond its field capacity and wilting point, or the plant is dieing or water  is being thrown away, if there is not enough sunlight  the plant can't reproduce and complete their life cycle. With this project you will be able to understand and manage this variables to take full control of your garden as seamless as possible through an connected device.", 
-            "duration": "", 
+            "end": "1:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "lab804", 
@@ -16401,11 +16533,12 @@
             "id": "753", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 9 - 903", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "11:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Go green with IoT"
         }, 
         {
@@ -16756,7 +16889,7 @@
         {
             "additional language": "", 
             "category": "Open science", 
-            "description": "", 
+            "description": "Are you looking for a hands-on project to contribute to? Do you have a project you want to test out with contributors? This is the session for you!\n\nBuilt around the Open Leadership Training Series (OLTS), this session features:\n\n1. breakout groups for several projects that have completed the training and are looking for contributors (you!), and\n2. a helpdesk for those interested in making their projects more contributor friendly\n\nSome of the featured projects you can contribute to in this session:\n* [OpenStudentBook : A little guide to fuel the Open movement in the universities](https://github.com/MozillaFoundation/mozfest-program-2016/issues/834) with [Edoardo Viola](https://github.com/edovio)\n* [Help Build Resources for the Mozilla Campus Clubs!](https://github.com/MozillaFoundation/mozfest-program-2016/issues/838) with [Faye Tandog](https://github.com/fayetandog)\n* [Let's teach, build and protect the Open Web in Universities](https://github.com/MozillaFoundation/mozfest-program-2016/issues/839) with [Christos Bacharakis](https://github.com/bacharakis)\n* [Apps for community empowerment!](https://github.com/MozillaFoundation/mozfest-program-2016/issues/669) with [Anderson Walworth](https://github.com/anderson29) and [Kristyn Sonnenberg](https://github.com/skristyn)", 
             "duration": "", 
             "facilitators": {
                 "1": {
@@ -16766,31 +16899,31 @@
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "name": "Edoardo Viola", 
+                    "twitter": "@edovio"
                 }, 
                 "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "Mozilla Philippines Community", 
+                    "name": "Faye Tandog", 
+                    "twitter": "@fayetandog"
                 }, 
                 "4": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "Mozilla", 
+                    "name": "Christos Bacharakis", 
+                    "twitter": "@bacharakis"
                 }, 
                 "5": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "Detroit Community Technology Project", 
+                    "name": "Anderson Walworth and Kristyn Sonnenberg", 
+                    "twitter": "@DetCommTech"
                 }
             }, 
             "facilitators_names": [
                 "Brian Bot", 
-                "", 
-                "", 
-                "", 
-                ""
+                "Christos Bacharakis", 
+                "Edoardo Viola", 
+                "Faye Tandog", 
+                "Anderson Walworth and Kristyn Sonnenberg"
             ], 
             "id": "822", 
             "localized description": "", 
@@ -16953,11 +17086,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "10:00am", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Open Badge Academy - Learning Happens Everywhere"
         }, 
@@ -17014,11 +17143,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Open Badge Academy - Learning Happens Everywhere"
         }, 
@@ -17075,11 +17200,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:00am", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Open Badge Academy - Learning Happens Everywhere"
         }, 
@@ -17136,11 +17257,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Open Badge Academy - Learning Happens Everywhere"
         }, 
@@ -17197,11 +17314,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "12:30pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sun-lunch--sunday-12-30-", 
             "title": "I did an epic fail, it felt awesome"
         }, 
@@ -17258,11 +17371,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sun-1pm--sunday-13-00-", 
             "title": "The formula for the sweet spot for nano credentials"
         }, 
@@ -17319,11 +17428,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Go2B - Badging for Intercultural Exchanges"
         }, 
@@ -17380,11 +17485,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Improving informal learning through Open Badges in the developing of Cities of Learning"
         }, 
@@ -17441,11 +17542,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "12:30pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sun-lunch--sunday-12-30-", 
             "title": "Organic Badge Growth - A Case Study"
         }, 
@@ -17495,18 +17592,14 @@
                 "", 
                 ""
             ], 
-            "id": "63", 
+            "id": "630", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 8 - 801", 
             "notes url": "", 
             "programmatic": false, 
             "start": "12:30pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sun-lunch--sunday-12-30-", 
             "title": "Creating a domino effect: what can we all do, however small, to make research more open and reproducible?"
         }, 
@@ -17563,11 +17656,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Siemens digital badges - sparking curiosity in STEM"
         }, 
@@ -17624,11 +17713,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Young Carers in Focus: Recognising youth advocacy through Open Badges"
         }, 
@@ -17685,11 +17770,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "12:30pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sun-lunch--sunday-12-30-", 
             "title": "Drilling into new potentials for Open Badges"
         }, 
@@ -17739,18 +17820,14 @@
                 "", 
                 ""
             ], 
-            "id": "63", 
+            "id": "631", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 8 - 801", 
             "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Changing cultures and breaking down silos with Open Badges"
         }, 
@@ -17807,11 +17884,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:00am", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Corona-Norco Unified School District - Case Study"
         }, 
@@ -17868,11 +17941,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-1pm--saturday-13-00-", 
             "title": "BadgeMaker – Prototyping Monsters!"
         }, 
@@ -17929,11 +17998,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Supporting serendipitious encounters with open badges"
         }, 
@@ -17990,11 +18055,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sun-1pm--sunday-13-00-", 
             "title": "Open Badges and professional regulation"
         }, 
@@ -18051,11 +18112,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Capturing learning cycles with Open Badges"
         }, 
@@ -18112,11 +18169,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Changing cultures and breaking down silos with Open Badges"
         }, 
@@ -18173,11 +18226,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-1pm--saturday-13-00-", 
             "title": "Badge Education"
         }, 
@@ -18234,11 +18283,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-1pm--saturday-13-00-", 
             "title": "NHS badges and unintended outcomes"
         }, 
@@ -18295,11 +18340,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Open Badges- a means for promoting and displaying digital soft skills for employability"
         }, 
@@ -18356,11 +18397,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "10:00am", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Join the European Open Badge Network!"
         }, 
@@ -18417,11 +18454,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Join the European Open Badge Network!"
         }, 
@@ -18533,11 +18566,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-1pm--saturday-13-00-", 
             "title": "Open Badges are quality!"
         }, 
@@ -18594,11 +18623,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "10:00am", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Open Badges Backpack Surgery"
         }, 
@@ -18655,11 +18680,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "How to Build a Hiring Process around Open Badges"
         }, 
@@ -18716,11 +18737,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sun-1pm--sunday-13-00-", 
             "title": "Building Open Badge Networks"
         }, 
@@ -18777,11 +18794,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Digital Champions: scaffolding adult digital and web literacies with badges"
         }, 
@@ -18838,11 +18851,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "12:30pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-12-30pm--saturday-12-30-", 
             "title": "Accrediting the role of IT Technicians in Education"
         }, 
@@ -18899,11 +18908,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "12:30pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-12-30pm--saturday-12-30-", 
             "title": "Competency-based Professional Development and Digital Badges"
         }, 
@@ -18960,11 +18965,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:15am", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "The Thinkasprint: the art of thinking sideways"
         }, 
@@ -19021,11 +19022,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Transformational Portfolios"
         }, 
@@ -19082,11 +19079,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:00am", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Architecture for Learning Pathways"
         }, 
@@ -19143,11 +19136,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:00am", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sun-11am--sunday-11-00-", 
             "title": "THE BIG BADGE THROW-DOWN"
         }, 
@@ -19204,11 +19193,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Beyond the Backpack: New approaches to storing, sharing and harvesting value from Open Badges"
         }, 
@@ -19265,11 +19250,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "An \"EPIC\" Approach to Connecting Youth & Business"
         }, 
@@ -19326,11 +19307,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "10:00am", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Open Badges Kickoff Roundtable"
         }, 
@@ -19387,11 +19364,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Cultivating Digital Pathways To The Creative Workforce"
         }, 
@@ -19448,11 +19421,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sun-1pm--sunday-13-00-", 
             "title": "Using Open Badges to Bridge the Gap Between Higher Ed and Employment"
         }, 
@@ -19509,11 +19478,7 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": [
-                "Advocacy & Web Literacy", 
-                "Digital Inclusion", 
-                "The Future of the Web"
-            ], 
+            "tags": [], 
             "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Digital Badges + ePortfolios = Learning Recognition Networks"
         }, 
