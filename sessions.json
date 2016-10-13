@@ -4019,7 +4019,7 @@
             "title": "DMLab Live"
         }, 
         {
-            "additional language": "Spanish", 
+            "additional language": "English, Spanish", 
             "category": "Digital arts and culture", 
             "day": "Saturday", 
             "description": "This session introduces WebVR and how to start developing virtual reality applications using the web browser. We’ll share some of the possibilities and develop a rapid prototype through simple markup, using A-Frame.", 
@@ -4260,7 +4260,7 @@
             "title": "Getting Medieval, Getting Manuscripts"
         }, 
         {
-            "additional language": "Spanish", 
+            "additional language": "English, Spanish", 
             "category": "Digital arts and culture", 
             "day": "Sunday", 
             "description": "The Learning Portfolio Builder is an online/hybrid platform that provides access to digital literacy and design skills for  students.\n\nI have been working with US highschool students who are passionate about art and design but struggle balancing their passion with their daily life; they have school, jobs, and sometimes kids of their own.\n\nCurrent traditional educational models don't support under served highschool students in terms of accessibility, cost of education, and schedule of programmes in relation to their personal lives and economic struggles.\n\nIn 2012, the National Endowment for the Arts study addressed the importance of Intensive Arts Education in relation to college access, persistance, and completion. We need a paradigm shift that transforms institutions' mindsets, and that allows students to adapt to new learning environments that prepare them for future job.\n\nThis session will allow participants to get a taste of a hybrid course, and produce a design piece, with a face-to-face component.", 
@@ -6417,8 +6417,9 @@
         {
             "additional language": "", 
             "category": "Dilemmas in connected spaces", 
-            "description": "[some details still TBD]\nOn Saturday October 29th designswarm (@iotwatch) and The Waving Cat (@peterbihr) are bringing their collaborative project The Good Home to the Mozilla Festival for a second year in a row to join the Dilemmas in Connected Spaces space.\nThe social, political and economic environment for living in the UK has changed dramatically for many over that year. The #brexit vote, conflict across Europe and a US election taking place a few days after the festival make this the perfect opportunity to sit down with a cup of tea, in the format of a traditional ‘salon’ (or the living room) and talk, debate, create a snapshot of the times.\nmore details at https://docs.google.com/document/d/1Lr3ZGBbBOXXFRhAfcCu2jBrKi_YzgsoQWO-vmiDRJVY/edit", 
-            "duration": "60", 
+            "day": "Saturday", 
+            "description": "The social, political and economic environment for living in the UK has changed dramatically for many over that year. The #brexit vote, conflict across Europe and a US election taking place a few days after the festival make this the perfect opportunity to sit down with a cup of tea, in the format of a traditional ‘salon’ (or the living room) and talk, debate, create a snapshot of the times.", 
+            "end": "1:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "The Good Home", 
@@ -6447,10 +6448,52 @@
             "location": "Floor 6 - 602", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [
                 "Digital Inclusion"
             ], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
+            "title": "Anybody Home?"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Saturday", 
+            "description": "The social, political and economic environment for living in the UK has changed dramatically for many over that year. The #brexit vote, conflict across Europe and a US election taking place a few days after the festival make this the perfect opportunity to sit down with a cup of tea, in the format of a traditional ‘salon’ (or the living room) and talk, debate, create a snapshot of the times.", 
+            "end": "4:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "The Good Home", 
+                    "name": "Peter Bihr", 
+                    "twitter": "@peterbihr"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Peter Bihr", 
+                "", 
+                ""
+            ], 
+            "id": "914", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 602", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [
+                "Digital Inclusion"
+            ], 
+            "timeblock": "sat-1pm--saturday-13-00-", 
             "title": "Anybody Home?"
         }, 
         {
@@ -6957,7 +7000,7 @@
             "title": "ThingsCon: Responsible IoT for Consumer Rights Orgs"
         }, 
         {
-            "additional language": "French, German", 
+            "additional language": "English, French, German", 
             "category": "Dilemmas in Connected Spaces", 
             "day": "Saturday", 
             "description": "Build flags that are a mashup of where attendees come from, showing that 'home', place of birth and origins aren't the same thing.\nWe'll be making new fiction flags that represent our current homes from paper.", 
@@ -6985,7 +7028,7 @@
                 ""
             ], 
             "id": "903", 
-            "localized description": "", 
+            "localized description": "Les personnes parlant français sont les bienvenues à cette présentation.", 
             "localized title": "", 
             "location": "Floor 6 - 602", 
             "notes url": "", 
@@ -7378,7 +7421,7 @@
             "title": "Databox"
         }, 
         {
-            "additional language": "French", 
+            "additional language": "English, French", 
             "category": "Fuel the movement", 
             "day": "Saturday", 
             "description": "Did you know making a meme technically isn't allowed in many parts of the EU? And that it’s illegal to share a picture of the Eiffel Tower light display at night? Did you know in some parts of the EU, teachers aren’t legally allowed to screen films or share teaching materials in the classroom? Think that’s absurd? So do we and we've assembled a panel of experts to talk about what's wrong and what you can do. Come hear from friends at Creative Commons, Communia, Copyright 4 Creativity, European Digital Rights, the International Federation of Library Associations, and Mozilla. This session will set the stage so you can stand up for copyright reform across Europe.", 
@@ -7406,7 +7449,7 @@
                 ""
             ], 
             "id": "72", 
-            "localized description": "", 
+            "localized description": " Les personnes parlant français sont les bienvenues à cette présentation.", 
             "localized title": "", 
             "location": "Floor 4 - Library", 
             "notes url": "", 
@@ -7508,7 +7551,7 @@
                 "1": {
                     "affiliated org": "Open Technology Institute", 
                     "name": "Georgia Bullen", 
-                    "twitter": "@gergiamoon"
+                    "twitter": "@georgiamoon"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -7852,7 +7895,7 @@
             "title": "How to Engage Activists in 2017"
         }, 
         {
-            "additional language": "Italian", 
+            "additional language": "English, Italian", 
             "category": "Fuel the movement", 
             "day": "Saturday", 
             "description": "WebExtensions let you hack and \"remix\" your web browser in many ways, such as alter content from any website, augment the toolbar, manage windows and tabs, intercept network requests, and much more. Join us for a hands on workshop where we will build our own WebExtensions after a quick introduction to the tools and concepts. WebExtensions are zipped folders comprised of HTML, CSS, and JavaScript. With today’s WebExtension API, it’s possible to create a single extension that will run in Firefox, Chrome, and Opera. No advanced knowledge of WebExtensions is required but experience building a standard web page is recommended.", 
@@ -7973,7 +8016,7 @@
             "title": "Hacking User Centred Design for Social Change"
         }, 
         {
-            "additional language": "Spanish", 
+            "additional language": "English, Spanish", 
             "category": "Fuel the movement", 
             "day": "Sunday", 
             "description": "How do you learn from your mistakes? Activists around the globe share similar struggles and we can learn from each others' mistakes. Conferences alway show the best of the best, but failures can be as important as successes. In this session we'll explore ways to constructively talk about and learn from failures. Come listen to others and share your learnings and the strategies to turn failure into success. Outcomes are to start sharing our failures in the open in order to keep an honest community and to stop making the same mistakes. ", 
@@ -9264,7 +9307,7 @@
             "title": "Come write your first FOIA request!"
         }, 
         {
-            "additional language": "", 
+            "additional language": "Spanish, English", 
             "category": "Journalism", 
             "day": "Saturday", 
             "description": "Joint session, with representatives from international journalism organizations Chequeado and Africa Check.\n\nWe plan to tell the experience from “Chequeado” in alliance with Full fact, a tool that automatize the process of check the data in media outlets write in English or Spanish. For this we are developing tools that allow find automatically phrases in different media(online, TV, radio, and official publications). Both in this stage like in the next (data search, data qualification and data check) we use technology based on natural language analysis. \n\nAfricaCheck.org is the continent's leading fact-checking website. Based in South Africa, our team of journalists and researchers spend hours working with data sources to prepare reports. They are also now regularly contacted by journalists asking for help in finding \"reliable\" data on a wide range of topics. We built a simple tool, on our site, to set out data sources we think useful (not always reliable) and explain pros & cons, but want to share ideas - with both journalists/researchers and UX specialists - about how best to develop this to meet journalists needs.", 
@@ -9298,12 +9341,14 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "11:15am", 
-            "tags": [], 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
             "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Getting it right: Automating Fact Checking and Data Searches in South America and Africa"
         }, 
         {
-            "additional language": "", 
+            "additional language": "Spanish, French, English", 
             "category": "Journalism", 
             "day": "Sunday", 
             "description": "Joint session, with representatives from international journalism organizations El Universal Data and JumpStart Georgia.\n\nWe will describe the difficulties in obtaining open data about the Disappeared in Mexico, and talk about the Disappeared images and Ignored Absences project as a case study, discussing how it was conducted and what we found.\n\nWe will explore how JumpStart is using different media formats (games, infographics, factographs, interactive data-visualizations, radio, and animation) to discuss data-rich stories about gender bias in education, employment, and even at birth. We will show how a broad, multifaceted, and creative approach to data journalism can reach larger audiences.", 
@@ -9331,13 +9376,15 @@
                 ""
             ], 
             "id": "804", 
-            "localized description": "", 
+            "localized description": " Les personnes parlant français sont les bienvenues à cette présentation.", 
             "localized title": "", 
             "location": "Floor 8 - Boardroom", 
             "notes url": "", 
             "programmatic": false, 
             "start": "11:00am", 
-            "tags": [], 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
             "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Missing Women and Missing Pay: How Mexico and Georgia are Closing the Gender Gap by Closing the Data Gap"
         }, 
@@ -9933,7 +9980,7 @@
             "title": "News apps: how to make your audience care about your data"
         }, 
         {
-            "additional language": "", 
+            "additional language": "English, Arabic", 
             "category": "Journalism", 
             "day": "Saturday", 
             "description": "For many news organizations, a lot of time and money goes into creating long form interactive stories and web documentaries. Sadly, in many cases these projects fail to capture the imagination and attention of readers beyond the first scroll.\nDuring this session we'll guide participants through the following key phases of longform storytelling:\n1. Pitching\n2. Storyboarding\n3. Design\n5. Development\n5. Measuring success", 
@@ -9967,7 +10014,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "10:00am", 
-            "tags": [], 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
             "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Web docs and longforms - Al Jazeera's approach"
         }, 
@@ -10362,7 +10411,7 @@
             "title": "Lightning talks"
         }, 
         {
-            "additional language": "Italian", 
+            "additional language": "Italian, English", 
             "category": "Localisation", 
             "day": "Sunday", 
             "description": "Discover the importance of a glossary for the translations with the example of WordPress Polyglots team.\nGlotDict (a browser extension) change the way to see the translation and the review process in the WordPress Polyglots community around the world.", 
@@ -10403,7 +10452,7 @@
             "title": "GlotDict and the glossary in WordPress"
         }, 
         {
-            "additional language": "Spanish", 
+            "additional language": "Spanish, English", 
             "category": "Localisation", 
             "day": "Saturday", 
             "description": "One of the simplest ways to contribute to open source for people with technical knowledge is to translate. If Mozilla products are in a language that most people in your community can't understand, then __Mozilla needs you__ to help them with your translations.\nThis session is intended to teach non-techies how to quickly start translating Mozilla products using Pootle translation platform.", 
@@ -10444,7 +10493,7 @@
             "title": "Translate Mozilla to your language"
         }, 
         {
-            "additional language": "Spanish", 
+            "additional language": "Spanish, English", 
             "category": "Localisation", 
             "day": "Sunday", 
             "description": "In a planet with seven billion human beings localization is the key to get to all of them. On this chat basics of localization will be explained, and some of its subtleties will be revealed, because it is not only translating. Questions will be answered and doubts will be gladly solved.", 
@@ -10641,7 +10690,7 @@
             "title": "Designing for the limit case of personal privacy: when your voice is in the machine"
         }, 
         {
-            "additional language": "Spanish", 
+            "additional language": "Spanish, English", 
             "category": "Localisation", 
             "description": "Discover how Evernote uses Open Source tools to localize their wide-range of products.", 
             "duration": "", 
@@ -10865,7 +10914,7 @@
             "title": "Multilingualism is Good for You!"
         }, 
         {
-            "additional language": "French", 
+            "additional language": "French, English", 
             "category": "Localisation", 
             "description": "Localizers need to translate terms as part of the localization process. But how do you do that if the terms aren't established in your language? In this session we will look at how to coin new terms, how to choose between conflicting terms, and how to build up vocabularies to help you translate and localize. No previous experience will be needed.", 
             "duration": "", 
@@ -10892,7 +10941,7 @@
                 ""
             ], 
             "id": "333", 
-            "localized description": "", 
+            "localized description": "Les personnes parlant français sont les bienvenues à cette présentation.", 
             "localized title": "", 
             "location": "", 
             "notes url": "", 
@@ -10978,7 +11027,7 @@
             "title": "Empowerment through localization?"
         }, 
         {
-            "additional language": "Japanese", 
+            "additional language": "Japanese, English", 
             "category": "Localisation", 
             "day": "Saturday", 
             "description": "We will be hosting a live connection between 5 spaces and allow\nparticipation in multiple languages.\n\nGet connected to 5 community spaces in Asia and London. This session is\na how to practical lesson to show the possibility of inter-connected and\ndistributed next generation Festival. Participants will feel and\nexperience global inter-connected Mozilla community at the Mozfest by\nsharing their thoughts and ideas in Fireside chat.\n\nThe environment for this session can be used to hold other sessions\nconnecting anywhere on the earth for remote participation to MozFest.\nTaking inclusive to the next level by running our session with remote\nparticipation.", 
@@ -11012,12 +11061,14 @@
             "notes url": "http://ja.mozillafactory.org/post/151421168498/mozilla-festival", 
             "programmatic": false, 
             "start": "10:00am", 
-            "tags": [], 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
             "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Connecting remotely to global communities"
         }, 
         {
-            "additional language": "French", 
+            "additional language": "French, English", 
             "category": "Localisation", 
             "description": "This session will be an interactive introduction to software and website localization (any of them). People will learn translation basics and how to avoid the common mistakes.", 
             "duration": "", 
@@ -11044,7 +11095,7 @@
                 ""
             ], 
             "id": "434", 
-            "localized description": "Cette séance se déroulera sous la forme d’une présentation interactive de la traduction de logiciels et de sites web (de tout type). Les participants découvriront les bases de la traduction et apprendront à éviter les erreurs les plus courantes.", 
+            "localized description": "Cette séance se déroulera sous la forme d’une présentation interactive de la traduction de logiciels et de sites web (de tout type). Les participants découvriront les bases de la traduction et apprendront à éviter les erreurs les plus courantes.\n\n Les personnes parlant français sont les bienvenues à cette présentation.", 
             "localized title": "\nPrésentation interactive des défis auxquels les traducteurs doivent faire face", 
             "location": "", 
             "notes url": "", 
@@ -11280,7 +11331,7 @@
             "title": "Making Digital Security Globally Accessible"
         }, 
         {
-            "additional language": "French", 
+            "additional language": "French, English", 
             "category": "Localisation", 
             "description": "We produce a lot of curriculum, and no matter what already exist, we always need to remix it to adapt it to our audience.\nHow can we set up our work to be easily remixable?\nHow can we publish work in an inspiring way for others?\nWhat are the dos and don't of curriculum remixing and creation?", 
             "duration": "", 
@@ -11307,7 +11358,7 @@
                 ""
             ], 
             "id": "682", 
-            "localized description": "", 
+            "localized description": "Les personnes parlant français sont les bienvenues à cette présentation.", 
             "localized title": "", 
             "location": "", 
             "notes url": "", 
@@ -11356,7 +11407,7 @@
             "title": "Makepedia: an open source platform for making and makers aimed at international development & humanitarian relief"
         }, 
         {
-            "additional language": "Spanish", 
+            "additional language": "Spanish, English", 
             "category": "Localisation", 
             "description": "Las personas van a conocer sobre una nueva forma en la que estamos empoderar y construyendo una Web abierta e inclusiva. Construyendo comunidades encargadas de  localizar Firefox en sus lenguas nativas.", 
             "duration": "", 
@@ -11395,7 +11446,7 @@
             "title": "Mozilla Nativo, localización en lenguas nativas de latinoamérica"
         }, 
         {
-            "additional language": "French", 
+            "additional language": "French, English", 
             "category": "Localisation", 
             "description": "We will demo https://transvision.mozfr.org/ , the l10n QA tool used across Mozilla and provided by the Mozilla French-speaking community. As one of the Transvision developers, I will also be able to hack on a new feature if participants are interested.", 
             "duration": "", 
@@ -11422,7 +11473,7 @@
                 ""
             ], 
             "id": "704", 
-            "localized description": "Nous réaliserons une démonstration de https://transvision.mozfr.org/ , l’outil de contrôle qualité des traductions utilisé par Mozilla, initialement conçu par la communauté Mozilla francophone. En tant que l’un des développeurs de Transvision, je pourrai également coder quelque chose en direct si les participants le souhaitent.", 
+            "localized description": "Nous réaliserons une démonstration de https://transvision.mozfr.org/ , l’outil de contrôle qualité des traductions utilisé par Mozilla, initialement conçu par la communauté Mozilla francophone. En tant que l’un des développeurs de Transvision, je pourrai également coder quelque chose en direct si les participants le souhaitent.\n\n Les personnes parlant français sont les bienvenues à cette présentation.", 
             "localized title": "Contrôle qualité des traductions grâce à Transvision", 
             "location": "", 
             "notes url": "", 
@@ -11471,7 +11522,7 @@
             "title": "Social Language Helper"
         }, 
         {
-            "additional language": "Spanish", 
+            "additional language": "Spanish, English", 
             "category": "Localisation", 
             "description": "Internet Radio offers people a platform to curate their media, voice their values and amplify communities. In this session we want  people to understand the current context of Internet Radio as a tool for information dissemination, cultural advocacy and the local and global implications. Facilitators will also discuss strategies for bridging digital internet practices with terrestrial practices, cultures & communities. Participants will learn the basic tools/software/equipment needs for DIY Internet Radio and participate in a live radio broadcast of the session. Additionally, participants and facilitators will address the economical challenges of internet radio and brainstorm new possibilities together.", 
             "duration": "", 
@@ -11584,7 +11635,7 @@
             "title": "L20n and Firefox"
         }, 
         {
-            "additional language": "Scotts Gaelic", 
+            "additional language": "Scotts Gaelic, English", 
             "category": "Localisation", 
             "description": "We will demonstrate how groups of schoolchildren from a far-flung Atlantic island rim in the Outer Hebrides can 'become university students', through collaborating with a mainland University in interpreting and enacting their local history bilingually. We will  explore strategies which helped in preparing classroom research, drama, song, music and storytelling for the St Andrews' immersive digital app and installation. The children's engagement and involvement have been recognised as highly innovative by the 'dreaded' H.M.I.", 
             "duration": "", 
@@ -11616,7 +11667,9 @@
             "location": "", 
             "notes url": "", 
             "programmatic": false, 
-            "tags": [], 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
             "timeblock": "", 
             "title": "Taigh-tasgaidh gun Bhallachan  (Museum without Walls)"
         }, 
