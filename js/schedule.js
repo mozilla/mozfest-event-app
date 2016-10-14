@@ -992,7 +992,7 @@ function Schedule(CUSTOM_CONFIG) {
     schedule.$container.on("click", ".session-notes-url a", function(e) {
       var sessionNumber = $(this).parents(".session-detail").data("session");
 
-      if (ga) { // ga doesn't exist if users have Do Not Track turned on
+      try { // ga doesn't exist if users have Do Not Track turned on
         // don't use schedule.trackEvent() as it's not designed for tracking outbound links
         ga('send', {
           hitType: 'event',
@@ -1001,7 +1001,7 @@ function Schedule(CUSTOM_CONFIG) {
           eventLabel: sessionNumber,
           transport: "beacon"
         });
-      }
+      } catch (e) {}
     });
 
     // this is a single-page app, but we need to support the back button
@@ -1015,14 +1015,14 @@ function Schedule(CUSTOM_CONFIG) {
   // utility function to track events in Google Analytics
   schedule.trackEvent = function(eventCategory, eventAction, eventLabel) {
     // see https://developers.google.com/analytics/devguides/collection/analyticsjs/events
-    if (ga) { // ga doesn't exist if users have Do Not Track turned on
+    try { // ga doesn't exist if users have Do Not Track turned on
       ga('send', {
         hitType: 'event',
         eventCategory: eventCategory,
         eventAction: eventAction,
         eventLabel: eventLabel
       });
-    }
+    } catch (e) {}
   }
 
   // utility function to pass into templates for nice typography
