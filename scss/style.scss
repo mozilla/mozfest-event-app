@@ -553,32 +553,44 @@ li {
 }
 
 .loading {
-  span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 0;
+  div {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: $text-dark-grey;
+    margin: 0 6px;
+    opacity: 0;
+    transform-origin: center center;
+
     animation-name: pulse;
-    animation-duration: 1.4s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-fill-mode: both;
-    font-size: 150%;
-
     &:nth-child(2) {
-      animation-delay: .2s;
+      animation-delay: .5s;
     }
-
-    span:nth-child(3) {
-      animation-delay: .4s;
+    &:nth-child(3) {
+      animation-delay: 1s;
     }
   }
 }
 
 @keyframes pulse {
   0% {
-    opacity: .2;
+    opacity: 0;
   }
-  20% {
+  25% {
     opacity: 1;
+    transform: scale(2);
   }
-  100% {
-    opacity: .2;
+  75% {
+    opacity: 0;
+    transform: scale(1);
   }
 }
 
@@ -599,5 +611,8 @@ li {
     width: auto;
     padding-left: 30px;
     padding-right: 30px;
+  }
+  .loading {
+    margin: 6rem 0;
   }
 }

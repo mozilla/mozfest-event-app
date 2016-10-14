@@ -581,49 +581,78 @@ li {
   clear: both;
 }
 
-.loading span {
+.loading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 4rem 0;
+}
+
+.loading div {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #48484A;
+  margin: 0 6px;
+  opacity: 0;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
   -webkit-animation-name: pulse;
           animation-name: pulse;
-  -webkit-animation-duration: 1.4s;
-          animation-duration: 1.4s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
-  font-size: 150%;
 }
 
-.loading span:nth-child(2) {
-  -webkit-animation-delay: .2s;
-          animation-delay: .2s;
+.loading div:nth-child(2) {
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
 }
 
-.loading span span:nth-child(3) {
-  -webkit-animation-delay: .4s;
-          animation-delay: .4s;
+.loading div:nth-child(3) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 @-webkit-keyframes pulse {
   0% {
-    opacity: .2;
+    opacity: 0;
   }
-  20% {
+  25% {
     opacity: 1;
+    -webkit-transform: scale(2);
+            transform: scale(2);
   }
-  100% {
-    opacity: .2;
+  75% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
 @keyframes pulse {
   0% {
-    opacity: .2;
+    opacity: 0;
   }
-  20% {
+  25% {
     opacity: 1;
+    -webkit-transform: scale(2);
+            transform: scale(2);
   }
-  100% {
-    opacity: .2;
+  75% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
@@ -645,5 +674,8 @@ li {
     width: auto;
     padding-left: 30px;
     padding-right: 30px;
+  }
+  .loading {
+    margin: 6rem 0;
   }
 }

@@ -28,6 +28,7 @@ function Schedule(CUSTOM_CONFIG) {
     schedule.$container = $('#schedule');
     schedule.$toggles = $('<ul>').appendTo('#schedule-controls');
     schedule.$pageLinks = $('#page-links');
+    schedule.$loadingNotice = $('<div class="loading"><div></div><div></div><div></div></div>');
     // if true, avoids using history.back(), which doesn't work offline
     schedule.offlineMode = false;
 
@@ -130,11 +131,15 @@ function Schedule(CUSTOM_CONFIG) {
       }
     } else {
       // if there's no session data yet, fetch from JSON
-      $.getJSON(schedule.pathToSessionsJson, function() {
-          // temporarily show loading text
-          $('.open-block').html('<span class="loading">LOADING SCHEDULE DATA <span>.</span><span>.</span><span>.</span></span>');
-        })
-        .done(function(results) {
+      $.ajax({
+        url: schedule.pathToSessionsJson,
+        dataType: "json",
+        beforeSend: function(){
+          schedule.$container.append(schedule.$loadingNotice);
+        },
+        success: function(results) {
+          schedule.$loadingNotice.remove();
+
           $('.open-block').text('OPEN');
           schedule.formatTimeblocks(results.timeblocks);
           schedule.sortSessionGroups(results.sessions);
@@ -143,7 +148,8 @@ function Schedule(CUSTOM_CONFIG) {
           if (callback) {
             callback();
           }
-        });
+        }
+      });
     }
   }
 
@@ -158,13 +164,20 @@ function Schedule(CUSTOM_CONFIG) {
       }
     } else {
       // if there's no Categoreis meta data yet, fetch from JSON
-      $.getJSON(schedule.pathToCategoriesJson)
-        .done(function(results) {
+      $.ajax({
+        url: schedule.pathToCategoriesJson,
+        dataType: "json",
+        beforeSend: function(){
+          schedule.$container.append(schedule.$loadingNotice);
+        },
+        success: function(results) {
+          schedule.$loadingNotice.remove();
           schedule.categoryMetaList = results;
           if (callback) {
             callback();
           }
-        });
+        }
+      });
     }
   }
 
@@ -179,13 +192,20 @@ function Schedule(CUSTOM_CONFIG) {
       }
     } else {
       // if there's no Tags meta data yet, fetch from JSON
-      $.getJSON(schedule.pathToTagsJson)
-        .done(function(results) {
+      $.ajax({
+        url: schedule.pathToTagsJson,
+        dataType: "json",
+        beforeSend: function(){
+          schedule.$container.append(schedule.$loadingNotice);
+        },
+        success: function(results) {
+          schedule.$loadingNotice.remove();
           schedule.tagMetaList = results;
           if (callback) {
             callback();
           }
-        });
+        }
+      });
     }
   }
 
