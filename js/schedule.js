@@ -391,17 +391,7 @@ function Schedule(CUSTOM_CONFIG) {
     var blocks = schedule.$container.find('.timeblock .sessions-container');
     blocks.prev('h3').addClass('timeblock-header').append('<i class="fa fa-chevron-circle-left"></i>');
     blocks.addClass('slider');
-    schedule.calculateBlockHeights(blocks);
-  }
-
-  // calculate and store block heights for animations
-  schedule.calculateBlockHeights = function(blocks) {
-    var blocks = blocks || schedule.$container.find('.timeblock');
-    _.each(blocks, function(b) {
-      var block = $(b);
-      var blockHeight = block.height()+'px';
-      block.attr('data-max-height', blockHeight).css('max-height', 0);
-    });
+    blocks.css("display", "none");
   }
   
   // add a set of tabs across the top of page as toggles that change display
@@ -936,9 +926,9 @@ function Schedule(CUSTOM_CONFIG) {
       targetBlock.toggleClass('expanded');
       
       if (targetBlock.hasClass('expanded')) {
-        targetBlock.css('max-height', targetBlock.data('max-height'));
+        targetBlock.slideDown();
       } else {
-        targetBlock.css('max-height', 0);
+        targetBlock.slideUp();
       }
     }
     
