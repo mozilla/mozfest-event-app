@@ -305,14 +305,12 @@ function Schedule(CUSTOM_CONFIG) {
     // run the callback after adding all available sessions.
     schedule.addBlockToggles();
 
-
-    // NOTE (TODO:FIXME: after MozFest 2016)
-    // below is specifically for 2016 MozFest (request came from https://github.com/mozilla/mozfest-event-app/issues/432)
-    // the id selectors hardcoded below are all based on 2016 schedule data (see "timeblocks" array in sessions.json)
-    // if the "key" of the first Friday block is no longer "fri-science-fair--friday-18-00-",
-    // we will have to adjust selectors used below 
+    // let's have Friday's first timeblock expanded by default
+    // (request came from https://github.com/mozilla/mozfest-event-app/issues/432)
     if ($("#show-friday").hasClass("active")) {
-      schedule.animateBlockToggle($("#fri-science-fair--friday-18-00- .sessions-container"));
+      var idOfFirstFridayBlock = schedule.timeblocks[0].key;
+      var $firstFridayBlock = $("#"+idOfFirstFridayBlock);
+      schedule.toggleTimeblock($firstFridayBlock);
     }
   }
 
@@ -854,6 +852,12 @@ function Schedule(CUSTOM_CONFIG) {
     window.scrollTo(0, 0);
   }
 
+  schedule.toggleTimeblock = function(timeblockContainer) {
+    timeblockContainer.find(".timeblock-header")
+                      .find('.fa').toggleClass('fa-chevron-circle-left fa-chevron-circle-down');
+    schedule.animateBlockToggle(timeblockContainer.find(".sessions-container"));
+  }
+
   // add the standard listeners for various user interactions
   schedule.addListeners = function() {
 
@@ -935,10 +939,8 @@ function Schedule(CUSTOM_CONFIG) {
 
     // toggle individual schedule blocks on header tap
     schedule.$container.on('click', '.timeblock-header', function(e) {
-      var clicked = $(this);
-      var targetBlock = clicked.next('.sessions-container');
-      schedule.animateBlockToggle(targetBlock);
-      clicked.find('.fa').toggleClass('fa-chevron-circle-left fa-chevron-circle-down')
+      var $timeblockContainer = $(this).parents(".timeblock");
+      schedule.toggleTimeblock($timeblockContainer);
     });
 
     // helper function for "toggle block" and "toggle all" controls
