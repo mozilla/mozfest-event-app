@@ -483,10 +483,6 @@ li {
   font-size: .875rem;
 }
 
-.session-ghost {
-  opacity: .4;
-}
-
 .open-block {
   cursor: default;
   pointer-events: none;
