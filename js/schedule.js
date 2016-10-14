@@ -284,6 +284,16 @@ function Schedule(CUSTOM_CONFIG) {
 
     // run the callback after adding all available sessions.
     schedule.addBlockToggles();
+
+
+    // NOTE (TODO:FIXME: after MozFest 2016)
+    // below is specifically for 2016 MozFest (request came from https://github.com/mozilla/mozfest-event-app/issues/432)
+    // the id selectors hardcoded below are all based on 2016 schedule data (see "timeblocks" array in sessions.json)
+    // if the "key" of the first Friday block is no longer "fri-science-fair--friday-18-00-",
+    // we will have to adjust selectors used below 
+    if ($("#show-friday").hasClass("active")) {
+      schedule.animateBlockToggle($("#fri-science-fair--friday-18-00- .sessions-container"));
+    }
   }
 
   // showSessionDetail() renders session data into the detail template,
