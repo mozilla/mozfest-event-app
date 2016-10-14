@@ -277,16 +277,6 @@ function Schedule(CUSTOM_CONFIG) {
       var templateData = schedule.makeSessionItemTemplateData(v);
       // render it in
       schedule.writeSession(targetBlock, templateData);
-
-      // for long sessions, which span both halves of a schedule block,
-      // add "ghost" version to the second half of the block
-      if (v.length == '2.5 hours') {
-        templateData.sessionID += '-ghost';
-        templateData.sessionClass += ' session-ghost';
-
-        var targetBlock = $('#'+v.timeblock.replace('-1','-2'));
-        schedule.writeSession(targetBlock, templateData);
-      }
     });
 
     // add "fav" star controls to all session items on the page
