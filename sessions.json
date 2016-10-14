@@ -949,7 +949,7 @@
             "title": "Mozilla Clubs: A local, interest-based model for learning"
         }, 
         {
-            "additional language": "english", 
+            "additional language": "", 
             "category": "Demystify the web", 
             "day": "Saturday", 
             "description": "How do we ensure that those that are already disconnected don't all farther behind as technology and internet advance? Teaching Community Technology offers an exclusive look at The Detroit Community Technology Project's new handbook that shares community rooted teaching methods, making technology education more and relevant. This 100+  page handbook will take you through the history of popular education while offering a step by step guide in developing community rooted technology workshops and curricula. In this session each participant will recive this limited addtion hand book, and use it to create a short workshop e community technology and popular education methods. If you are conserned about the digital divide, get excited by idea of sharing your knowledge and skills with non-techies and want to learn or refine your teaching skills, this session is for you!", 
@@ -2048,7 +2048,7 @@
             "id": "914", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 0 - Foyer", 
+            "location": "Floor 0 - Walker Space", 
             "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
@@ -2940,7 +2940,9 @@
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": [], 
+            "tags": [
+                "Advocacy & Web Literacy"
+            ], 
             "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Digital Literacy & Culture: On the Intersection of Art, Education, & Advocacy"
         }, 
