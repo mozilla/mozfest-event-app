@@ -1,9 +1,31 @@
 language: node_js
+branches:
+  only:
+  - master
+  - gh-pages
+script:
+- echo "Nothing to build, no tests to run"
+notifications:
+  irc: irc.mozilla.org#communityops
 deploy:
-  provider: s3
-  access_key_id: AKIAJ4C7PHDJ6ZSQYQ7A
-  secret_access_key:
-    secure: "B5usBi1/3eFO6WRpn7P9BElcxqclm2WYlhA440TcbgzQjpVrhqZEAFMRuhmgo+QjjuPKx7soSDhZdh021I8ER9x/75BzwzNym4GzAPC9IsTWbeB1wBRuKVck/Fl3I5x4LYB7P6AftGJTU/Bt/a7JAkKEa5uDMQCeg2Y/3v2SM3xrdx12/qjZdiD/10h9f2DT85iCCeW17FLGdFxqPduL49g933Nm8IFkgAUhFYvyAnhEx4UzuytpETKMxEJ+m0NBsPgWK6MbABV3RB5qayNJqZKxX0sMP8aAaWocyCNAto2QL9pfvVfvhUwHOTB7Uk4o+sutQlyLo+Ttk5CpgcnTfFhoRBsAbpHhFVWmUU80VDGdwJ6AreLxCMSZjV2ySyKV8Mm+qvxafd3aFoNmBfsazK1FYmzQHcVseLVz1Ssdssmh9d1s437iaHZj+JDTROqm0nuwVa4vn3ZCbp4Jt760HbgRlcROk9s1SXqIzDfNtpR4GiWW2FeCpUlOUfE6Ilad6Tmglwjnrdb2C2/FqTW/QNheoWW4jnRqoZl5kg7w9Yeg5cwf+yJRTLYHMBeNeMVef5sUZAC3jH4Nk0BW2cJ47+nXw/vGiy75eRotMsNXVbMyqHZVGuoQElY65JBAmOurlam38wIjPAEew+BXTp5gr3L1m8aH0nBbeDFokTA9Wig="
-  bucket: 2016-mozfest-app-staging
-  on:
-    branch: master
+  # Staging environment
+  - provider: s3
+    access_key_id: AKIAJ4C7PHDJ6ZSQYQ7A
+    secret_access_key:
+      secure: "B5usBi1/3eFO6WRpn7P9BElcxqclm2WYlhA440TcbgzQjpVrhqZEAFMRuhmgo+QjjuPKx7soSDhZdh021I8ER9x/75BzwzNym4GzAPC9IsTWbeB1wBRuKVck/Fl3I5x4LYB7P6AftGJTU/Bt/a7JAkKEa5uDMQCeg2Y/3v2SM3xrdx12/qjZdiD/10h9f2DT85iCCeW17FLGdFxqPduL49g933Nm8IFkgAUhFYvyAnhEx4UzuytpETKMxEJ+m0NBsPgWK6MbABV3RB5qayNJqZKxX0sMP8aAaWocyCNAto2QL9pfvVfvhUwHOTB7Uk4o+sutQlyLo+Ttk5CpgcnTfFhoRBsAbpHhFVWmUU80VDGdwJ6AreLxCMSZjV2ySyKV8Mm+qvxafd3aFoNmBfsazK1FYmzQHcVseLVz1Ssdssmh9d1s437iaHZj+JDTROqm0nuwVa4vn3ZCbp4Jt760HbgRlcROk9s1SXqIzDfNtpR4GiWW2FeCpUlOUfE6Ilad6Tmglwjnrdb2C2/FqTW/QNheoWW4jnRqoZl5kg7w9Yeg5cwf+yJRTLYHMBeNeMVef5sUZAC3jH4Nk0BW2cJ47+nXw/vGiy75eRotMsNXVbMyqHZVGuoQElY65JBAmOurlam38wIjPAEew+BXTp5gr3L1m8aH0nBbeDFokTA9Wig="
+    bucket: 2016-mozfest-app-staging
+    on:
+      repo: mozilla/mozfest-event-app
+      branch: master
+  # Production environment
+  - provider: s3
+    access_key_id: AKIAJPLHUYJHYHPM7HYQ
+    secret_access_key:
+      secure: "XYbdOcVLHs1RPU7URJ2IieN8W0C+5wexr3zupNBcjgHiZLIuT7KaYKW1q6SVnJ1475Vk303YIZnKOsuxBaVC/ZidaQnczHz86+1oCWR7d6kyZoswtaIo/z4mJ/jbQH9o9oLyuMcFC001Lz+4q5JMjbB5NtV0Db1vbLO00FArGfjm+ZF2j0UrItH9IcRjyWJPVOABzsikrtZ9rAAIgXleW6mvRRjAmbzxnYMflhbcX3BZMJvf8dKp2MuyImJVY83oHO9QdkEjiQ6XG7+d6cOAefSYRWU7VV1QPF2h7H7U9mewz7pCtM5bgxFyJx1wq+diQ1IJQRcmassyyu7XjkG7JxNJjfOeFQ36QLiRD7cD9nqAdi7aV8ybecgmlzXjAP013eWsz7hZX+yYlHBchQmVzDCnqZULWdTE4h6d2VWZzehqGNgWQNwQZyVZ39uwy3prsJ4OM++JK8Vf0QRszl4mtad6lLhvcXk49OyX0NQnW2EVz2vUgXcV1stQPakXm9kx0G7r+9nwsJ+b52UM6nz9zVsAnsrLMZ3VAe0sEm9SuWPvRwyBNIfGoiBLumSguueA+wyoKTTNu3BU0iXxBNbSk2f5bPjPG7fWiaRAvd8IVmGV0UPUIfSdqLw/n41G0BYiwBOryK+8fzacu0BSYHTvAPd8VV2alFfjVQc60ZzA/cM="
+    bucket: mozfest-schedule-production-s3bucket-te3i6be2idig
+    skip_cleanup: true
+    detect_encoding: true
+    on:
+      repo: mozilla/mozfest-event-app
+      branch: gh-pages
+
