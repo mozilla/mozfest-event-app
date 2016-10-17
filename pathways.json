@@ -1,38 +1,38 @@
 [
   {
-    "name": "Pathway number 1",
+    "name": "Storytelling",
     "description": [
-      "Pathway number 1's description description description description description description description description description description description "
+      "There are countless ways to tell a story, but how can you use web-native media to tell your story in new ways? Learn and share techniques for amplifying your voice and message on the web."
     ]
   },
   {
-    "name": "Pathway number 2",
+    "name": "The Future of the Web",
     "description": [
-      "Pathway number 2's description description description description description description description description description description description "
+      "Debate the ethics and philosophy of technology, and what it means to be a citizen on the web, by exploring how much control we have over our data and how we can use it for the greater good."
     ]
   },
   {
-    "name": "Pathway number 3",
+    "name": "AR, VR & Machine Learning",
     "description": [
-      "Pathway number 3's description description description description description description description description description description description "
+      "Who does technology belong to? Where are the boundaries between understood reality and algorithms? Explore the possibilities of machine learning, augmented reality and virtual reality."
     ]
   },
   {
-    "name": "Pathway number 4",
+    "name": "Digital Inclusion",
     "description": [
-      "Pathway number 4's description description description description description description description description description description description "
+      "Investigate the issues and blockers that young people, people with mixed abilities, people from different cultures and people who speak different languages face on today's web."
     ]
   },
   {
-    "name": "Pathway number 5",
+    "name": "Advocacy & Web Literacy",
     "description": [
-      "Pathway number 5's description description description description description description description description description description description "
+      "Sharpen your digital and web literacy skills so you can teach and credential other people who want to know how to live, learn, and work on the web."
     ]
   },
   {
-    "name": "Pathway number 6",
+    "name": "Multi-lingual MozFest",
     "description": [
-      "Pathway number 6's description description description description description description description description description description description "
+      "These multi-lingual sessions will help you connect with a global community working to make the web a more inclusive space for the millions of users who do not speak English."
     ]
   }
 ]
