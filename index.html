@@ -105,9 +105,9 @@
           <%- session.tags %>
         </div>
         <% } %>
-        <% if (showFacilitators && session.facilitators.length > 0) { %>
+        <% if (showFacilitators && session.facilitators[1].name) { %>
         <div class="session-facilitators item">
-          <%- smartypants(session.facilitators) %>
+          <%- session.facilitators_names.filter(function(name){return name.length > 0;}).join(", ") %>
         </div>
         <% } %>
         <% if (session['additional language']) { %>
@@ -153,9 +153,9 @@
               <a href="#_<%- customTagLabel %>-<%- slugify(tag) %>" class="tag" data-tag="<%- slugify(tag) %>"><%- cleanTag %></a><% }) %>
           </div>
           <% } %>
-          <% if (session.facilitators.length > 0) { %>
+          <% if (session.facilitators[1].name) { %>
           <div class="session-facilitators item">
-            <% for (index in session.facilitators) { %><% if (index > 1 && session.facilitators[index].name ) { %><br><% } %><% if (session.facilitators[index].twitter) { %> <a href="https://twitter.com/<%- session.facilitators[index].twitter %>"><%- session.facilitators[index].name %></a><% } else { %><%- session.facilitators[index].name %><% } %><% if (session.facilitators[index]['affiliated org']) { %>, <%- session.facilitators[index]['affiliated org'] %><% } %><% } %>
+            <% for (order in session.facilitators) { %><% if (order > 1 && session.facilitators[order].name ) { %><br><% } %><% if (session.facilitators[order].twitter) { %> <a href="https://twitter.com/<%- session.facilitators[order].twitter %>"><%- session.facilitators[order].name %></a><% } else { %><%- session.facilitators[order].name %><% } %><% if (session.facilitators[order]['affiliated org']) { %>, <%- session.facilitators[order]['affiliated org'] %><% } %><% } %>
           </div>
           <% } %>
           <% if (session['additional language']) { %>
