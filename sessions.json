@@ -9972,7 +9972,7 @@
             "id": "614", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 8 - Executive Suite", 
+            "location": "Floor 8 - 805", 
             "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
@@ -10050,7 +10050,7 @@
             "id": "540", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 8 - 805", 
+            "location": "Floor 8 - Executive Suite", 
             "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
@@ -10260,9 +10260,9 @@
         {
             "additional language": "", 
             "category": "Journalism", 
-            "day": "Saturday", 
+            "day": "Sunday", 
             "description": "Alaveteli is a powerful open source platform for making public Freedom of Information requests to public sector bodies, in use by over 9 million people each year in over 20 countries. In the UK, Alaveteli powers WhatDoTheyKnow.com, which has helped users make over 340,000 FOI requests and published the responses online in a permanent archive.\nOver the next 18 months, mySociety, the charity behind Alaveteli and WhatDoTheyKnow, is building Alaveteli Professional, a toolset for journalists, campaigners, activists – and anyone who uses Freedom of Information in their work. We’re looking for journalists to help us understand the challenges they face around using FOI, so that we can build the most useful possible toolkit for making and managing FOI requests. We’ll showcase our in-progress alpha service and will be aiming to recruit new users for our public beta that will be in development until April 2017.", 
-            "end": "4:15pm", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "mySociety", 
@@ -10288,12 +10288,12 @@
             "id": "345", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 8 - Boardroom", 
+            "location": "Floor 8 - 805", 
             "notes url": "", 
             "programmatic": false, 
-            "start": "3:15pm", 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "sat-3-15pm--saturday-15-15-", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Alaveteli Professional - an FOI toolkit for journalists"
         }, 
         {
@@ -10340,7 +10340,7 @@
             "category": "Journalism", 
             "day": "Saturday", 
             "description": "A panel of participants from the DG7 group of international broadcasters will present tips and insights into delivering online content into China, against one of the world’s most stringent content filtering systems, the Great Firewall. Coming from different editorial backgrounds, the panel will provide advice about the best possible means they have been using in addition to speaking about the technical and editorial challenges they encountered.”", 
-            "end": "1:30pm", 
+            "end": "4:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "BBC", 
@@ -10366,12 +10366,12 @@
             "id": "796", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 8 - Executive Suite", 
+            "location": "Floor 8 - Boardroom", 
             "notes url": "", 
             "programmatic": false, 
-            "start": "12:30pm", 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "sat-12-30pm--saturday-12-30-", 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Delivering news into China – Insights"
         }, 
         {
@@ -11232,8 +11232,8 @@
                 ""
             ], 
             "id": "434", 
-            "localized description": "Cette séance se déroulera sous la forme d’une présentation interactive de la traduction de logiciels et de sites web (de tout type). Les participants découvriront les bases de la traduction et apprendront à éviter les erreurs les plus courantes.", 
-            "localized title": "Présentation interactive des défis auxquels les traducteurs doivent faire face", 
+            "localized description": "Présentation interactive des défis auxquels les traducteurs doivent faire face\n\nCette séance se déroulera sous la forme d’une présentation interactive de la traduction de logiciels et de sites web (de tout type). Les participants découvriront les bases de la traduction et apprendront à éviter les erreurs les plus courantes.", 
+            "localized title": "", 
             "location": "Floor 6 - 601", 
             "notes url": "", 
             "programmatic": false, 
@@ -11587,8 +11587,8 @@
                 ""
             ], 
             "id": "704", 
-            "localized description": "Nous réaliserons une démonstration de https://transvision.mozfr.org/ , l’outil de contrôle qualité des traductions utilisé par Mozilla, initialement conçu par la communauté Mozilla francophone. En tant que l’un des développeurs de Transvision, je pourrai également coder quelque chose en direct si les participants le souhaitent.", 
-            "localized title": "Contrôle qualité des traductions grâce à Transvision", 
+            "localized description": "Contrôle qualité des traductions grâce à Transvision\n\nNous réaliserons une démonstration de https://transvision.mozfr.org/ , l’outil de contrôle qualité des traductions utilisé par Mozilla, initialement conçu par la communauté Mozilla francophone. En tant que l’un des développeurs de Transvision, je pourrai également coder quelque chose en direct si les participants le souhaitent.", 
+            "localized title": "", 
             "location": "Floor 6 - 607", 
             "notes url": "", 
             "programmatic": false, 
