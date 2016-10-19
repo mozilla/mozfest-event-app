@@ -239,7 +239,7 @@
             "category": "Demystify the web", 
             "day": "Saturday", 
             "description": "This will be run as a drop in activity over a period of time (suggest 2hours) which can be repeated through the festival to make it available and a project which can evolve.", 
-            "end": "5:30pm", 
+            "end": "3:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "U Can Too", 
@@ -268,9 +268,9 @@
             "location": "Floor 7 - 702", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-reactor", 
             "programmatic": false, 
-            "start": "10:00am", 
+            "start": "11:15am", 
             "tags": [], 
-            "timeblock": "sat-10am--saturday-10-00-", 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "The Reactor"
         }, 
         {
@@ -278,7 +278,7 @@
             "category": "Demystify the web", 
             "day": "Sunday", 
             "description": "This will be run as a drop in activity over a period of time (suggest 2hours) which can be repeated through the festival to make it available and a project which can evolve.", 
-            "end": "5:30pm", 
+            "end": "3:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "U Can Too", 
@@ -2316,65 +2316,6 @@
         {
             "additional language": "", 
             "category": "Digital arts and culture", 
-            "day": "Saturday", 
-            "description": "Participants will find out how 1623 theatre company created an online experience for audiences to engage with Shakespeare's play Troilus and Cressida, as part of the Royal Shakespeare Company's myShakespeare project, one of the digital elements of the London 2012 Cultural Olympiad. They will have the opportunity to interact with the project, offer their feedback on ways in which the project could be improved and start to think about how their arts practice could incorporate digital elements to engage new audiences.", 
-            "end": "4:15pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "1623 theatre company", 
-                    "name": "Ben Spiller", 
-                    "twitter": "@1623theatre"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "Jamie Brown", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "4": {
-                    "name": ""
-                }, 
-                "5": {
-                    "name": ""
-                }, 
-                "6": {
-                    "name": ""
-                }, 
-                "7": {
-                    "name": ""
-                }, 
-                "8": {
-                    "name": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Ben Spiller", 
-                "", 
-                "Jamie Brown", 
-                "", 
-                "", 
-                "", 
-                "", 
-                ""
-            ], 
-            "id": "77", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 1 - Mezzanine Room", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-shakespeare-in-the-digital-age", 
-            "programmatic": false, 
-            "start": "3:15pm", 
-            "tags": [], 
-            "timeblock": "sat-3-15pm--saturday-15-15-", 
-            "title": "Shakespeare in the Digital Age"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Digital arts and culture", 
             "day": "Sunday", 
             "description": "The Art of Vlogging (15 mins) suitable for everyone\nAgi K, an award winning young filmmaker and vlogger www.agik.co.uk will host a talk with demo and Q & A about Art’s role in vlogging futures.\nParticipants will have a Demo on how to use digital media inventively in vlogging. Learning a range of creative techniques. This will be followed by a discussion about:\n-How artists can use art to evolve vlogging genres?\n-How artists can use vlogging as a tool for sharing their work and reaching mass audiences?\n\n1,2,3, Vlog, Edit, Upload, suitable for ages 12 plus (90 mins) (30 participants)\nAgi K, young vlogger and filmmaker and Anita Kolaczynska, Arts Award Adviser, will facilitate a practical workshop on vlogging at live events.\n\nParticipants will learn how to use reportage and art techniques creatively to make an exciting, compelling vlog. They will watch a ‘how to’ example vlog, discuss and brainstorm in groups (with paper and sharpies) how to shoot engaging footage discussing elements like camera angles, speech, pace, visuals, humour. They will then have a vlogging race to go capture the essence of Mozfest shooting as much relevant footage as they can in 15 minutes. In pairs they will be shooting this footage in the style of 'dialogue vlog’ each pair commenting on different areas/aspects of Mozfest. Return to base to listen to a lightening talk about adding artistry through their editing of their footage. Then prepare to edit by making art to enhance their vlog with paper and sharpies), shoot this and any extra sound effects, titles, stills needed. Then use their editing phone apps to creatively edit their footage to create buzzing 50 second vlogs.\nUpload to Arts Award Voice. They will then be projected onto a screen to be watched by all. Everyone will be encouraged to tweet, comment and share, whilst watching.", 
             "end": "2:00pm", 
@@ -2437,18 +2378,18 @@
             "additional language": "", 
             "category": "Digital arts and culture", 
             "day": "Saturday", 
-            "description": "The Newsroom will enable Moz Fest visitors to engage with content generated by others during the Festival and also contribute their ideas and opinions to be shared online and offline. It will give them a chance to collaborate with Ravensbourne students studying both Web Media and Digital Advertising and Design. Hopefully they can learn from them about creating and distributing exciting mixed media content, as well as contributing ideas themselves to help the students. Content such as written interviews/videos/visuals will be collected from attendees and collated by the Web Media students into online and physical magazines. People will also be asked to help spread the word and contribute ideas for a promotional campaign, masterminded by the Digital Advertising and Design Students. The Newsroom will be a collaborative space open to all who wish to contribute to the project throughout the Festival. This is an all day event.", 
+            "description": "The Moz-Stand: get the buzz, is a one stop shop for all your MozFest updates. Keep on top of Festival highlights and news with this retro-newsstand inspired interactive booth. Stock up on MozFest souvenirs, with physical Snapchat filters, customised postcards and printed Festival newspaper, and don't miss a minute of social content with our live ticker tape updates! Also, make sure you're following ‘mfestival’ over the weekend to keep up to date with all the action.", 
             "end": "1:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Ravensbourne", 
-                    "name": "Ruth Nicholls", 
-                    "twitter": "@ruthnicholls"
+                    "name": "Nick Berreen", 
+                    "twitter": "@NickBerreen"
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "name": "Charleigh Tolley", 
+                    "twitter": "@charleighda"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -2472,9 +2413,9 @@
                 }
             }, 
             "facilitators_names": [
-                "Ruth Nicholls", 
+                "Nick Berreen", 
                 "", 
-                "", 
+                "Charleigh Tolley", 
                 "", 
                 "", 
                 "", 
@@ -2485,29 +2426,29 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 1 - Mezzanine Room", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-newsroom", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-moz-stand--get-the-buzz", 
             "programmatic": false, 
             "start": "10:00am", 
             "tags": [], 
             "timeblock": "sat-10am--saturday-10-00-", 
-            "title": "The Newsroom"
+            "title": "The Moz-Stand: Get the Buzz"
         }, 
         {
             "additional language": "", 
             "category": "Digital arts and culture", 
             "day": "Saturday", 
-            "description": "The Newsroom will enable Moz Fest visitors to engage with content generated by others during the Festival and also contribute their ideas and opinions to be shared online and offline. It will give them a chance to collaborate with Ravensbourne students studying both Web Media and Digital Advertising and Design. Hopefully they can learn from them about creating and distributing exciting mixed media content, as well as contributing ideas themselves to help the students. Content such as written interviews/videos/visuals will be collected from attendees and collated by the Web Media students into online and physical magazines. People will also be asked to help spread the word and contribute ideas for a promotional campaign, masterminded by the Digital Advertising and Design Students. The Newsroom will be a collaborative space open to all who wish to contribute to the project throughout the Festival. This is an all day event.", 
+            "description": "The Moz-Stand: get the buzz, is a one stop shop for all your MozFest updates. Keep on top of Festival highlights and news with this retro-newsstand inspired interactive booth. Stock up on MozFest souvenirs, with physical Snapchat filters, customised postcards and printed Festival newspaper, and don't miss a minute of social content with our live ticker tape updates! Also, make sure you're following ‘mfestival’ over the weekend to keep up to date with all the action.", 
             "end": "5:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Ravensbourne", 
-                    "name": "Ruth Nicholls", 
-                    "twitter": "@ruthnicholls"
+                    "name": "Nick Berreen", 
+                    "twitter": "@NickBerreen"
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "name": "Charleigh Tolley", 
+                    "twitter": "@charleighda"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -2531,9 +2472,9 @@
                 }
             }, 
             "facilitators_names": [
-                "Ruth Nicholls", 
+                "Nick Berreen", 
                 "", 
-                "", 
+                "Charleigh Tolley", 
                 "", 
                 "", 
                 "", 
@@ -2544,29 +2485,29 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 1 - Mezzanine Room", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-newsroom", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-moz-stand--get-the-buzz", 
             "programmatic": false, 
             "start": "2:00pm", 
             "tags": [], 
             "timeblock": "sat-2pm--saturday-14-00-", 
-            "title": "The Newsroom"
+            "title": "The Moz-Stand: Get the Buzz"
         }, 
         {
             "additional language": "", 
             "category": "Digital arts and culture", 
             "day": "Sunday", 
-            "description": "The Newsroom will enable Moz Fest visitors to engage with content generated by others during the Festival and also contribute their ideas and opinions to be shared online and offline. It will give them a chance to collaborate with Ravensbourne students studying both Web Media and Digital Advertising and Design. Hopefully they can learn from them about creating and distributing exciting mixed media content, as well as contributing ideas themselves to help the students. Content such as written interviews/videos/visuals will be collected from attendees and collated by the Web Media students into online and physical magazines. People will also be asked to help spread the word and contribute ideas for a promotional campaign, masterminded by the Digital Advertising and Design Students. The Newsroom will be a collaborative space open to all who wish to contribute to the project throughout the Festival. This is an all day event.", 
+            "description": "The Moz-Stand: get the buzz, is a one stop shop for all your MozFest updates. Keep on top of Festival highlights and news with this retro-newsstand inspired interactive booth. Stock up on MozFest souvenirs, with physical Snapchat filters, customised postcards and printed Festival newspaper, and don't miss a minute of social content with our live ticker tape updates! Also, make sure you're following ‘mfestival’ over the weekend to keep up to date with all the action.", 
             "end": "2:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Ravensbourne", 
-                    "name": "Ruth Nicholls", 
-                    "twitter": "@ruthnicholls"
+                    "name": "Nick Berreen", 
+                    "twitter": "@NickBerreen"
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "name": "Charleigh Tolley", 
+                    "twitter": "@charleighda"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -2590,9 +2531,9 @@
                 }
             }, 
             "facilitators_names": [
-                "Ruth Nicholls", 
+                "Nick Berreen", 
                 "", 
-                "", 
+                "Charleigh Tolley", 
                 "", 
                 "", 
                 "", 
@@ -2603,29 +2544,29 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 1 - Mezzanine Room", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-newsroom", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-moz-stand--get-the-buzz", 
             "programmatic": false, 
             "start": "11:00am", 
             "tags": [], 
             "timeblock": "sun-11am--sunday-11-00-", 
-            "title": "The Newsroom"
+            "title": "The Moz-Stand: Get the Buzz"
         }, 
         {
             "additional language": "", 
             "category": "Digital arts and culture", 
             "day": "Saturday", 
-            "description": "The Newsroom will enable Moz Fest visitors to engage with content generated by others during the Festival and also contribute their ideas and opinions to be shared online and offline. It will give them a chance to collaborate with Ravensbourne students studying both Web Media and Digital Advertising and Design. Hopefully they can learn from them about creating and distributing exciting mixed media content, as well as contributing ideas themselves to help the students. Content such as written interviews/videos/visuals will be collected from attendees and collated by the Web Media students into online and physical magazines. People will also be asked to help spread the word and contribute ideas for a promotional campaign, masterminded by the Digital Advertising and Design Students. The Newsroom will be a collaborative space open to all who wish to contribute to the project throughout the Festival. This is an all day event.", 
+            "description": "The Moz-Stand: get the buzz, is a one stop shop for all your MozFest updates. Keep on top of Festival highlights and news with this retro-newsstand inspired interactive booth. Stock up on MozFest souvenirs, with physical Snapchat filters, customised postcards and printed Festival newspaper, and don't miss a minute of social content with our live ticker tape updates! Also, make sure you're following ‘mfestival’ over the weekend to keep up to date with all the action.", 
             "end": "5:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Ravensbourne", 
-                    "name": "Ruth Nicholls", 
-                    "twitter": "@ruthnicholls"
+                    "name": "Nick Berreen", 
+                    "twitter": "@NickBerreen"
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "name": "Charleigh Tolley", 
+                    "twitter": "@charleighda"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -2649,9 +2590,9 @@
                 }
             }, 
             "facilitators_names": [
-                "Ruth Nicholls", 
+                "Nick Berreen", 
                 "", 
-                "", 
+                "Charleigh Tolley", 
                 "", 
                 "", 
                 "", 
@@ -2662,12 +2603,12 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 1 - Mezzanine Room", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-newsroom", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-moz-stand--get-the-buzz", 
             "programmatic": false, 
             "start": "2:00pm", 
             "tags": [], 
             "timeblock": "sat-2pm--saturday-14-00-", 
-            "title": "The Newsroom"
+            "title": "The Moz-Stand: Get the Buzz"
         }, 
         {
             "additional language": "", 
@@ -4283,7 +4224,7 @@
             "additional language": "", 
             "category": "Digital arts and culture", 
             "day": "Saturday", 
-            "description": "We will be making simple Twitter bots using GitHub, PythonAnywhere and the Twitter API (no coding experience necessary). To celebrate the bicentenary of the Brontë sisters, these simple bots will tweet in the words of Charlotte, Emily or Anne.\nWe will also imagine the perfect culture bot, brainstorming ideas for more sophisticated creations based on a brief consideration of existing culturebots on twitter. What attracts us most? Computational creativity or computational banality?", 
+            "description": "Bots are popping up all over the place: making art, fighting parking tickets or helping us learn a foreign language. In this session we'll look at some innovative bots and then make our own using GitHub, PythonAnywhere and the Twitter API (no coding experience necessary). To celebrate the bicentenary of the Brontë sisters these simple bots will tweet in the words of Charlotte, Emily or Anne. We will also imagine the perfect culture bot, brainstorming ideas for more sophisticated creations. Please set up a Twitter account before attending.", 
             "end": "12:15pm", 
             "facilitators": {
                 "1": {
@@ -4467,7 +4408,7 @@
             "facilitators": {
                 "1": {
                     "affiliated org": "Jake Berger", 
-                    "name": "Christophe Gueret", 
+                    "name": "Mo McRoberts", 
                     "twitter": "@RES_Project"
                 }, 
                 "2": {
@@ -4497,7 +4438,7 @@
                 }
             }, 
             "facilitators_names": [
-                "Christophe Gueret", 
+                "Mo McRoberts", 
                 "", 
                 "", 
                 "", 
@@ -4936,65 +4877,6 @@
             "start": "11:00am", 
             "tags": [], 
             "timeblock": "sun-11am--sunday-11-00-", 
-            "title": "Flags: When is code at its most creative?"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Digital Arts and Culture", 
-            "day": "Sunday", 
-            "description": "Engaging festival goers around their ideas of creative code, by making flags/banners. Participants will use a set of precut icons and letters to create messages, combining them with a special set of shapes that act as a code-like vocabulary. As these are produced over Saturday, they will get inched out across the atrium, italian clothes-line style. Participants can collect them on Sunday in the last hours of the festival.\n\nThis activity will take place throughout the festival", 
-            "end": "5:00pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "", 
-                    "name": "Simon Allen", 
-                    "twitter": "@entertheswarm"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "4": {
-                    "name": ""
-                }, 
-                "5": {
-                    "name": ""
-                }, 
-                "6": {
-                    "name": ""
-                }, 
-                "7": {
-                    "name": ""
-                }, 
-                "8": {
-                    "name": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Simon Allen", 
-                "", 
-                "", 
-                "", 
-                "", 
-                "", 
-                "", 
-                ""
-            ], 
-            "id": "425", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 1 - Mezzanine Room", 
-            "notes url": "https://www.entertheswarm.com", 
-            "programmatic": false, 
-            "start": "2:00pm", 
-            "tags": [], 
-            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Flags: When is code at its most creative?"
         }, 
         {
@@ -5741,9 +5623,9 @@
         }, 
         {
             "additional language": "", 
-            "category": "Dilemmas in connected spaces", 
+            "category": "Dilemmas in Connected Spaces", 
             "day": "Saturday", 
-            "description": "The University of Nottingham and BBC R&D are working together on user interaction methods to support trustworthy data transactions between users and service providers. The work builds on existing principles of usable privacy and transfers the learnings of current research in this field to scenarios associated with new media experiences.  It would focus on collaborating ethics, design and usability principles to result in practical solutions which help foster better user experience through enhanced trust.\nThe workshop would involve some fun activities where you would be able to play around with your data ( maybe even barter your data for something else ) and see the consequences of your shares. You will be able to see what kind of permissions you are giving other stakeholders with respect to your personal data and how you can help change the the current data exchange models.", 
+            "description": "The University of Nottingham and BBC R&D are working together on user interaction methods to support trustworthy data transactions between users and service providers. This workshop looks at this in the context of the connected home. Using scenarios, prompts and materials you will work together to build your own connected home and design your own control hub to interact with this connected ecosystem. The workshop focuses on negotiating challenges and coming up with practical solutions for interacting with these connected systems, helping to identify design principles that can help support trustworthy data interactions in connected homes of the future.", 
             "end": "1:30pm", 
             "facilitators": {
                 "1": {
@@ -5753,8 +5635,8 @@
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "name": "Rihanne Jones", 
+                    "twitter": "@ReeJo1"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -5764,19 +5646,19 @@
             }, 
             "facilitators_names": [
                 "Neelima Sailaja", 
-                "", 
+                "Rihanne Jones", 
                 ""
             ], 
             "id": "340", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 6 - 603", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-permission-uis---making-privacy-tangible", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-iot--usable-privacy-in-the-connected-home", 
             "programmatic": false, 
             "start": "12:30pm", 
             "tags": [], 
             "timeblock": "sat-12-30pm--saturday-12-30-", 
-            "title": "Permission UIs : Making Privacy Tangible"
+            "title": "IoT: Usable privacy in the connected home"
         }, 
         {
             "additional language": "", 
@@ -5810,12 +5692,12 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 6 - 604", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-is-light-a-drug-", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-is-light-a-supplement--", 
             "programmatic": false, 
             "start": "3:15pm", 
             "tags": [], 
             "timeblock": "sat-3-15pm--saturday-15-15-", 
-            "title": "Is Light a Drug?"
+            "title": "Is Light a Supplement?"
         }, 
         {
             "additional language": "", 
@@ -5894,7 +5776,7 @@
             "title": "Steampunk with James Watt"
         }, 
         {
-            "additional language": "Spanish", 
+            "additional language": "English/Spanish", 
             "category": "Dilemmas in connected spaces", 
             "day": "Saturday", 
             "description": "The reality of innovation in 2016 is that the best ideas can come from anywhere.  This session will show that with encouragement , reassurance and a safe environment anyone can contribute to generating, selecting and refining great innovations.", 
@@ -6839,7 +6721,7 @@
             "category": "Dilemmas in connected spaces", 
             "day": "Saturday", 
             "description": "With smart TVs coming down in price and more IoT processors having HDMI output it has become easy to get Web browsers on big screens.  We want to enable people to do this with their own home screens and participate in growing what the Web is capable of.", 
-            "end": "3:45pm", 
+            "end": "10:30am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla", 
@@ -6868,9 +6750,126 @@
             "location": "Floor 6 - 601", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-as-seen-on-tv--", 
             "programmatic": false, 
-            "start": "3:15pm", 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "sat-3-15pm--saturday-15-15-", 
+            "timeblock": "sat-10am--saturday-10-00-", 
+            "title": "As seen on TV!!"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Saturday", 
+            "description": "With smart TVs coming down in price and more IoT processors having HDMI output it has become easy to get Web browsers on big screens.  We want to enable people to do this with their own home screens and participate in growing what the Web is capable of.", 
+            "end": "1:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Mozilla", 
+                    "name": "Guillermo Huerta", 
+                    "twitter": "@ghuerta09"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Guillermo Huerta", 
+                "", 
+                ""
+            ], 
+            "id": "2471", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 601", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-as-seen-on-tv--", 
+            "programmatic": false, 
+            "start": "12:30pm", 
+            "tags": [], 
+            "timeblock": "sat-12-30pm--saturday-12-30-", 
+            "title": "As seen on TV!!"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Sunday", 
+            "description": "With smart TVs coming down in price and more IoT processors having HDMI output it has become easy to get Web browsers on big screens.  We want to enable people to do this with their own home screens and participate in growing what the Web is capable of.", 
+            "end": "11:30am", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Mozilla", 
+                    "name": "Guillermo Huerta", 
+                    "twitter": "@ghuerta09"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Guillermo Huerta", 
+                "", 
+                ""
+            ], 
+            "id": "2472", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 601", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-as-seen-on-tv--", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "As seen on TV!!"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Sunday", 
+            "description": "With smart TVs coming down in price and more IoT processors having HDMI output it has become easy to get Web browsers on big screens.  We want to enable people to do this with their own home screens and participate in growing what the Web is capable of.", 
+            "end": "1:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Mozilla", 
+                    "name": "Guillermo Huerta", 
+                    "twitter": "@ghuerta09"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Guillermo Huerta", 
+                "", 
+                ""
+            ], 
+            "id": "2473", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 601", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-as-seen-on-tv--", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sun-1pm--sunday-13-00-", 
             "title": "As seen on TV!!"
         }, 
         {
@@ -6917,7 +6916,7 @@
             "category": "Dilemmas in connected spaces", 
             "day": "Saturday", 
             "description": "Welcome, tired festival nomads!\n\nCome chill and hack quietly by the fire in the nomadic encampment. Lay back and work on a project that inspired you, or write up some thoughts you had during your festival experience, or just sit and enjoy the flickering lights of the digital artworks being projected from the fire.", 
-            "end": "10:00pm", 
+            "end": "1:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla", 
@@ -6949,6 +6948,123 @@
             "start": "10:00am", 
             "tags": [], 
             "timeblock": "sat-10am--saturday-10-00-", 
+            "title": "Nomad Tent Oasis"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Saturday", 
+            "description": "Welcome, tired festival nomads!\n\nCome chill and hack quietly by the fire in the nomadic encampment. Lay back and work on a project that inspired you, or write up some thoughts you had during your festival experience, or just sit and enjoy the flickering lights of the digital artworks being projected from the fire.", 
+            "end": "6:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Mozilla", 
+                    "name": "Dietrich Ayala", 
+                    "twitter": "@dietrich"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Dietrich Ayala", 
+                "", 
+                ""
+            ], 
+            "id": "2474", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 601", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-nomad-tent-oasis", 
+            "programmatic": false, 
+            "start": "12:30pm", 
+            "tags": [], 
+            "timeblock": "sat-12-30pm--saturday-12-30-", 
+            "title": "Nomad Tent Oasis"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Sunday", 
+            "description": "Welcome, tired festival nomads!\n\nCome chill and hack quietly by the fire in the nomadic encampment. Lay back and work on a project that inspired you, or write up some thoughts you had during your festival experience, or just sit and enjoy the flickering lights of the digital artworks being projected from the fire.", 
+            "end": "1:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Mozilla", 
+                    "name": "Dietrich Ayala", 
+                    "twitter": "@dietrich"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Dietrich Ayala", 
+                "", 
+                ""
+            ], 
+            "id": "2475", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 601", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-nomad-tent-oasis", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "Nomad Tent Oasis"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Sunday", 
+            "description": "Welcome, tired festival nomads!\n\nCome chill and hack quietly by the fire in the nomadic encampment. Lay back and work on a project that inspired you, or write up some thoughts you had during your festival experience, or just sit and enjoy the flickering lights of the digital artworks being projected from the fire.", 
+            "end": "6:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Mozilla", 
+                    "name": "Dietrich Ayala", 
+                    "twitter": "@dietrich"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Dietrich Ayala", 
+                "", 
+                ""
+            ], 
+            "id": "2476", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 601", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-nomad-tent-oasis", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sun-1pm--sunday-13-00-", 
             "title": "Nomad Tent Oasis"
         }, 
         {
@@ -7464,6 +7580,123 @@
         }, 
         {
             "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
+            "day": "Saturday", 
+            "description": "Put on the headset and let your creative spirit loose in an infinite and unconstrained space, expressing yourself visually with A-Painter, a virtual reality painting experience delivered through WebVR.", 
+            "end": "10:00am", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Mozilla", 
+                    "name": "Dietrich Ayala", 
+                    "twitter": "@dietrich"
+                }, 
+                "2": {
+                    "affiliated org": "Rice University", 
+                    "name": "Rabimba Karanjai", 
+                    "twitter": "@rabimba"
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Dietrich Ayala", 
+                "Rabimba Karanjai", 
+                ""
+            ], 
+            "id": "2468", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 601", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-painting-with-virtual-reality-and-a-painter", 
+            "programmatic": false, 
+            "start": "10:00am", 
+            "tags": [], 
+            "timeblock": "sat-10am--saturday-10-00-", 
+            "title": "Painting with Virtual Reality and A-Painter"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
+            "day": "Saturday", 
+            "description": "Put on the headset and let your creative spirit loose in an infinite and unconstrained space, expressing yourself visually with A-Painter, a virtual reality painting experience delivered through WebVR.", 
+            "end": "1:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Mozilla", 
+                    "name": "Dietrich Ayala", 
+                    "twitter": "@dietrich"
+                }, 
+                "2": {
+                    "affiliated org": "Rice University", 
+                    "name": "Rabimba Karanjai", 
+                    "twitter": "@rabimba"
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Dietrich Ayala", 
+                "Rabimba Karanjai", 
+                ""
+            ], 
+            "id": "2469", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 601", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-painting-with-virtual-reality-and-a-painter", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sat-1pm--saturday-13-00-", 
+            "title": "Painting with Virtual Reality and A-Painter"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
+            "day": "Sunday", 
+            "description": "Put on the headset and let your creative spirit loose in an infinite and unconstrained space, expressing yourself visually with A-Painter, a virtual reality painting experience delivered through WebVR.", 
+            "end": "11:00am", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Mozilla", 
+                    "name": "Dietrich Ayala", 
+                    "twitter": "@dietrich"
+                }, 
+                "2": {
+                    "affiliated org": "Rice University", 
+                    "name": "Rabimba Karanjai", 
+                    "twitter": "@rabimba"
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Dietrich Ayala", 
+                "Rabimba Karanjai", 
+                ""
+            ], 
+            "id": "2470", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 602", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-painting-with-virtual-reality-and-a-painter", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "Painting with Virtual Reality and A-Painter"
+        }, 
+        {
+            "additional language": "", 
             "category": "Dilemmas in connected spaces", 
             "day": "Friday", 
             "description": "The Databox - www.databoxproject.uk - provides a radical alternative to widespread data harvesting and data processing ‘in the cloud’. Instead data processing takes place ‘on the box’ and is limited to what is needed to deliver specific services. We introduce the Databox platform to the Mozilla community and provide participants with the opportunity to get their hands on this novel privacy-preserving platform.", 
@@ -7767,15 +8000,15 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 6 - 604", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-is-light-a-drug-", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-is-light-a-supplement--", 
             "programmatic": false, 
             "start": "1:00pm", 
             "tags": [], 
             "timeblock": "sun-1pm--sunday-13-00-", 
-            "title": "Is Light a Drug?"
+            "title": "Is Light a Supplement?"
         }, 
         {
-            "additional language": "Spanish", 
+            "additional language": "English/Spanish", 
             "category": "Dilemmas in connected spaces", 
             "day": "Sunday", 
             "description": "The reality of innovation in 2016 is that the best ideas can come from anywhere.  We will review ideas from Saturday.  Session open to everyone, not just participants from Saturday.", 
@@ -10559,7 +10792,7 @@
                 ""
             ], 
             "id": "8", 
-            "localized description": "Scopriamo l'importanza del glossario per le traduzioni con l'esempio del WordPress Polyglots team. GlotDict (una estensione per il browser) ha cambiato il modo di vedere le traduzioni e le revisioni nelle WordPress Polygots community in tutto il mondo.", 
+            "localized description": "Traduzca Mozilla a su idioma\n\nScopriamo l'importanza del glossario per le traduzioni con l'esempio del WordPress Polyglots team. GlotDict (una estensione per il browser) ha cambiato il modo di vedere le traduzioni e le revisioni nelle WordPress Polygots community in tutto il mondo.", 
             "localized title": "", 
             "location": "Floor 6 - 607", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-glotdict-and-the-glossary-in-wordpress", 
@@ -10601,7 +10834,7 @@
             ], 
             "id": "23", 
             "localized description": "Traducir es una de las maneras más fáciles que las personas sin\nconocimientos técnicos tienen para contribuír al código abierto. Si\nlos productos de Mozilla están en un idioma que la gente de su\ncomunidad local tiene dificultad para comprender, entonces __Mozilla\nle necesita__ para ayudarles con sus traducciones.\n\nEsta sesión está pensada para enseñarle a las personas no-técnicas", 
-            "localized title": "Traduzca Mozilla a su idioma", 
+            "localized title": "", 
             "location": "Floor 6 - 607", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-translate-mozilla-to-your-language", 
             "programmatic": false, 
@@ -10641,8 +10874,8 @@
                 ""
             ], 
             "id": "24", 
-            "localized description": "En un planeta con siete mil millones de seres humanos la localización\nes la clave para llegar a todos ellos. En esta charla se explicarán\nlos conceptos básicos de la localización, así como algunas de sus\nsutilezas ya que la localización no es sólo traducir. Asimismo también\nse responderá con agrado cualquier pregunta o duda sobre la\nlocalización.", 
-            "localized title": "Localización: llegar a todos los rincones del planeta", 
+            "localized description": "Localización: llegar a todos los rincones del planeta\n\nEn un planeta con siete mil millones de seres humanos la localización\nes la clave para llegar a todos ellos. En esta charla se explicarán\nlos conceptos básicos de la localización, así como algunas de sus\nsutilezas ya que la localización no es sólo traducir. Asimismo también\nse responderá con agrado cualquier pregunta o duda sobre la\nlocalización.", 
+            "localized title": "", 
             "location": "Floor 6 - 601", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-localization--going-global", 
             "programmatic": false, 
@@ -10682,8 +10915,8 @@
                 ""
             ], 
             "id": "30", 
-            "localized description": "La diferencia entre traducciones de alta calidad y traducciones de\nbaja calidad es que estas últimas con frecuencia confunden a los\nlectores, lo que en resumen convierte en inútil el esfuerzo de\ntradución. Pero si no dese perder su tiempo y el de otras personas\npuede comenzar a realizar traducciones de buena calidad ahora mismo.\nLe enseñaremos a hacerlo mediante la utilización de guía de estilo,\nterminología, memorias de traducción, traducción automática,\ncomprobaciones automáticas y otras ayudas, y le mostraremos cómo las\ntraducciones incrementales le ayudarán a traducir más rápido.", 
-            "localized title": "Realizar traducciones de alta calidad más rápido y fácil", 
+            "localized description": "Realizar traducciones de alta calidad más rápido y fácil\n\nLa diferencia entre traducciones de alta calidad y traducciones de\nbaja calidad es que estas últimas con frecuencia confunden a los\nlectores, lo que en resumen convierte en inútil el esfuerzo de\ntradución. Pero si no dese perder su tiempo y el de otras personas\npuede comenzar a realizar traducciones de buena calidad ahora mismo.\nLe enseñaremos a hacerlo mediante la utilización de guía de estilo,\nterminología, memorias de traducción, traducción automática,\ncomprobaciones automáticas y otras ayudas, y le mostraremos cómo las\ntraducciones incrementales le ayudarán a traducir más rápido.", 
+            "localized title": "", 
             "location": "Floor 6 - 607", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-making-high-quality-translations--faster-and-simpler", 
             "programmatic": false, 
@@ -10840,8 +11073,8 @@
                 ""
             ], 
             "id": "240", 
-            "localized description": "Nos adentraremos en el proceso de localización continua que una compañía del tamaño de Evernote mantiene satisfactoriamente en marcha. Para ello, conoceremos su parte interna así como las posibilidades que ofrece. La sesión está dirigada mayoritariamente a personas que quieran administrar proyectos de localización.", 
-            "localized title": "Localización continua en Evernote utilizando código abierto", 
+            "localized description": "Localización continua en Evernote utilizando código abierto\n\nNos adentraremos en el proceso de localización continua que una compañía del tamaño de Evernote mantiene satisfactoriamente en marcha. Para ello, conoceremos su parte interna así como las posibilidades que ofrece. La sesión está dirigada mayoritariamente a personas que quieran administrar proyectos de localización.", 
+            "localized title": "", 
             "location": "Floor 6 - 607", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-continuous-localization-at-evernote-using-open-source", 
             "programmatic": false, 
@@ -11191,8 +11424,8 @@
                 ""
             ], 
             "id": "394", 
-            "localized description": "このセッションでは、3つの遠隔参加拠点を生中継で繋ぎ、参加者は複数の言語で参加することができます。\n\nロンドン、とアジアの4つのコミュニティスペースが接続されます。このセッションは、分散し相互接続された次世代のフェスティバルに向けた実践的なレッスンです。参加者は、グローバルで相互に繋がったMozillaのコミュニティをMozFestの会場での議論に参加することで体験できます。\n\nこのセッションで使われる環境は、世界のどこからでもMozFestに参加するために利用できます。遠隔から参加する参加者と一緒に私たちのセッションを行うことで、次のレベルに進みましょう。", 
-            "localized title": "グローバルコミュニティへの遠隔参加", 
+            "localized description": "グローバルコミュニティへの遠隔参加\n\nこのセッションでは、3つの遠隔参加拠点を生中継で繋ぎ、参加者は複数の言語で参加することができます。\n\nロンドン、とアジアの4つのコミュニティスペースが接続されます。このセッションは、分散し相互接続された次世代のフェスティバルに向けた実践的なレッスンです。参加者は、グローバルで相互に繋がったMozillaのコミュニティをMozFestの会場での議論に参加することで体験できます。\n\nこのセッションで使われる環境は、世界のどこからでもMozFestに参加するために利用できます。遠隔から参加する参加者と一緒に私たちのセッションを行うことで、次のレベルに進みましょう。", 
+            "localized title": "", 
             "location": "Floor 6 - 607", 
             "notes url": "http://ja.mozillafactory.org/post/151421168498/mozilla-festival", 
             "programmatic": false, 
@@ -11667,8 +11900,8 @@
                 ""
             ], 
             "id": "742", 
-            "localized description": "La radio por Internet ofrece a las personas una plataforma para hacer su propia curaduría en medios de comunicación, expresar sus valores y amplificar comunidades. En esta sesión queremos que la gente entienda el contexto actual de la radio por Internet como una herramienta para la difusión de información, la promoción cultural y las implicaciones locales y globales. Además, los facilitadores discutirán estrategias para vincular las prácticas digitales por Internet con las prácticas terrestres, las culturas y las comunidades. Los participantes aprenderán las herramientas básicas / software / equipo que se necesitan para desarrollar su propia radio por Internet (DIY) y participarán en una sesión de transmisión radial en vivo. Asimismo, los participantes y facilitadores abordarán los retos económicos de la radio por Internet y juntos generarán mediante una lluvia de ideas, nuevas posibilidades.", 
-            "localized title": "Radio por Internet - amplificando y conectando a comunidades locales con escuchas globales", 
+            "localized description": "Radio por Internet - amplificando y conectando a comunidades locales con escuchas globales\n\nLa radio por Internet ofrece a las personas una plataforma para hacer su propia curaduría en medios de comunicación, expresar sus valores y amplificar comunidades. En esta sesión queremos que la gente entienda el contexto actual de la radio por Internet como una herramienta para la difusión de información, la promoción cultural y las implicaciones locales y globales. Además, los facilitadores discutirán estrategias para vincular las prácticas digitales por Internet con las prácticas terrestres, las culturas y las comunidades. Los participantes aprenderán las herramientas básicas / software / equipo que se necesitan para desarrollar su propia radio por Internet (DIY) y participarán en una sesión de transmisión radial en vivo. Asimismo, los participantes y facilitadores abordarán los retos económicos de la radio por Internet y juntos generarán mediante una lluvia de ideas, nuevas posibilidades.", 
+            "localized title": "", 
             "location": "Floor 6 - 601", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-internet-radio---amplifying---connecting-local-communities-to-global-listeners", 
             "programmatic": false, 
@@ -11799,6 +12032,48 @@
             "title": "Taigh-tasgaidh gun Bhallachan  (Museum without Walls)"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "", 
+            "additional language": "additional language if available.\notherwise leave this field blank", 
+            "category": "select from dropdown", 
+            "description": "separate paragraphs by line break (option-enter); supports markdown; in English", 
+            "end": "", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "affiliated org of this facilitator, if any.", 
+                    "name": "full name of facilitator", 
+                    "twitter": "Twitter handle of this facilitator, if any."
+                }, 
+                "2": {
+                    "affiliated org": "affiliated org of this facilitator, if any.", 
+                    "name": "full name of facilitator", 
+                    "twitter": "Twitter handle of this facilitator, if any."
+                }, 
+                "3": {
+                    "affiliated org": "affiliated org of this facilitator, if any.", 
+                    "name": "full name of facilitator", 
+                    "twitter": "Twitter handle of this facilitator, if any."
+                }
+            }, 
+            "facilitators_names": [
+                "full name of facilitator", 
+                "full name of facilitator", 
+                "full name of facilitator"
+            ], 
+            "localized description": "localized description if available.\notherwise leave this field blank", 
+            "localized title": "localized title if available.\notherwise leave this field blank", 
+            "location": "select from dropdown", 
+            "notes url": "please", 
+            "programmatic": false, 
+            "start": "", 
+            "tags": [
+                " Pathway 1", 
+                "Pathway 3"
+            ], 
+            "timeblock": "select-from-dropdown", 
+            "title": "session name (in English)"
+        }, 
+        {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "All artworks in the exhibit are available to view throughout the entire festival.", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "An allegory on the theatre of representation in the formation of the ego as an object between self and screen. The film considers the arrival of the new member of society in the form of both child and screen and asks where nonhuman actors are placed in relation to the moulding and interception of the process of being by human society and our expanding self-representational tool assemblage.", 
@@ -11825,7 +12100,6 @@
                 "", 
                 ""
             ], 
-            "id": "64", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -11836,6 +12110,7 @@
             "title": "in absence of body"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "When a tweet is deleted, it leaves behind a eighteen digit code, an imprint of a thought or feeling. That number could be considered a sequencer, a data string which when fed through an algorithm becomes a soundscape.\nCaptured from the live twitter stream, the audible output is dictated by what is being removed from the internet at that very moment in time to produce a very public creation of something intended to be obscured, undertaking a process of creation from the act of deletion, a process of revealing through the act of concealment as it algorithmically creates an almost musical score from digital debris.\nAs the machine plays back its composition at a low frequency, the audio can be felt as well as heard, reconfiguring the normally latent digital stream into an unescapable presence.", 
@@ -11862,7 +12137,6 @@
                 "", 
                 ""
             ], 
-            "id": "103", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -11873,6 +12147,7 @@
             "title": "Pardon the dust (09/03/2016, 13:44-13:47)"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "View the MozEx catalogue] (https://issuu.com/mozfest/docs/mozex).", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "With the US Presidential race underway in America, much of todays electoral campaigning is undertaken digitally on social media. Donald Trump, the Republican candidate, is frequently seen to stir up controversy through his often bewildering statements.\nsocial media electoral campaign to build a digital wall, a nod towards his proposed construction along the Mexico/US border.\nThe piece collects and converts images posted to social media in support of Trump, averaging each image's colour and placing a digital brick of this colour to a screen until the screen is full, whereby the resulting image is then uploaded to Twitter with hashtags used most often by Trump. The screen is then cleared and the process repeated. Each following full screen is uploaded along with all proceeding images in a batch, increasingly leaving an imprint on the Trump campaign.\nThe algorithm incorporates increasingly more versions of itself into its creations, essentially 'eating itself'.", 
@@ -11899,7 +12174,6 @@
                 "", 
                 ""
             ], 
-            "id": "105", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -11910,6 +12184,7 @@
             "title": "@t_r_u_m_p_i_n_g"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "111", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "Aesthetic experiments and expressions into new forms that poetry, protest, collective experience and spirituality might take on the internet. Inspired by the 'Alt Lit' movement and named after a podcast episode by internet artists Steve Roggenbuck. Poetry Was Never The Point celebrates poetry's ability to connect both its author and audience to a far wider spectrum of appreciation for nonconformity, nature, humanity, spirituality, positivity and critical thought.", 
@@ -11936,7 +12211,6 @@
                 "", 
                 ""
             ], 
-            "id": "111", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -11947,6 +12221,7 @@
             "title": "Poetry Was Never The Point"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "142", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "CO2GLE is a real-time, net-based installation that displays the amount of CO2 emitted on each second thanks to the global visits to Google.com.\nWhat is the material impact of communications through the Internet? I often ask this question to my friends and colleagues, and I rarely get a reply. Indeed, almost nobody recalls that the Internet is made up of interconnected physical infrastructures which consume natural resources. How can such an evident fact become so blurred in the social imagination? This project was created from an urge to highlight the invisible connection between actions and consequences when using digital communications technologies.", 
@@ -11973,7 +12248,6 @@
                 "", 
                 ""
             ], 
-            "id": "142", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -11984,6 +12258,7 @@
             "title": "CO2GLE"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "175", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "In My Shoes was developed through Project Cape, a unique project run within the BBC exploring Neurodiversity in the Workplace.  Neurodiversity is a relatively new term, representing hidden disabilities such as Autism Spectrum Condition, Dyslexia, Dyscalculia, Dyspraxia, Tourette's and learning disabilities.  This film takes the perspective of someone who is neurodiverse and allows the viewer to experience those physical and sensory challenges they would face in a typical day at work.  The film employs an innovative, gaming style to engage its audience in a creative way, to increase awareness of these often misunderstood and misrepresented conditions.", 
@@ -12010,7 +12285,6 @@
                 "", 
                 ""
             ], 
-            "id": "175", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12021,6 +12295,7 @@
             "title": "In My Shoes"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "177", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "\"In a real-life implementation of the Design Probe research method of Fiona Raby and Anthony Dunne, this artwork is a hands-on creative intervention that asks users to contribute directly and collaboratively as designers and thinkers. Exploring spatial imaginaries and digital making, it comes to life through on-site creations during the MozEx experience, evolving both digitally and physically.\nIt first exists as a hands-on “creation station”, an inviting space filled with colourful creative materials to use, from magazines to photographs, storybooks to markers. Participants are invited to answer two questions: (1) Think of a community you are a part of. Sketch them here. (2) If you could design a space for digital making* they feel comfortable using, what would it look like? What objects would it include?\nThe artwork then comes to life online through an evolving curatorial webpage that displays participant submissions publicly, their contents easily shared, viewed and remixed.", 
@@ -12047,7 +12322,6 @@
                 "", 
                 ""
             ], 
-            "id": "177", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12058,6 +12332,7 @@
             "title": "Digital Making Space-Hacker!"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "181", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "\"The “Forbidden Fruit Machine” is an interactive installation, which is based on Creative Commons licensed and public domain images and sounds found on the Web. The installation turns essentially a 16th century painting from the Dutch Rijksmuseum into a mechatronic video game. The painting depicts Eve and Adam in the Garden of Eden, being tempted by the serpent to eat the forbidden fruit. With a joystick and 3D printed plotter mechanism the spectator can take over the destiny of the apple and discover special effects hidden in the picture.\nThe installation promotes the exploration of open cultural online collections for artistic purposes beyond the screen. Open hardware is also embraced, as we have shared the documentation of the installation including 3D printing and Arduino files under an open license for anyone to build upon. \"", 
@@ -12084,7 +12359,6 @@
                 "", 
                 ""
             ], 
-            "id": "181", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12095,6 +12369,7 @@
             "title": "Forbidden Fruit Machine"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "182", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "“Across Portrait” is a photographic reportage realized with the crowdsourcing campaigns on the Microworker, Rapidworker and Amazon Mechanical Turk sites. The so-called workers who satisfied my requirements were invited to send me, for a paltry fee of $ 0.10, a photo of one of their x-ray of any part of their body. Sellers, all born in 1986 after the Chernobyl disaster in the areas affected by radioactive fallout, give me -the buyer- their “body”, in this case in the form of X-rays, as they did at the time with far worse consequences.", 
@@ -12121,7 +12396,6 @@
                 "", 
                 ""
             ], 
-            "id": "182", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12132,6 +12406,7 @@
             "title": "Across Portrait"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "183", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "A work considering the overutilization of technology and the screen in relation to the organisations that control and monitor the internet in order to facilitate the first world needs of the average consumer.", 
@@ -12158,7 +12433,6 @@
                 "", 
                 ""
             ], 
-            "id": "183", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12169,6 +12443,7 @@
             "title": "Utopian Realism"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "184", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "“Megacorp.” is a corporate conglomerate inspired by its equally powerful counterparts in science fiction. The artwork is based on a collection of fake websites scraped from internet by the artist duo KairUs. These companies exist only virtually and are used by cyber criminals for phishing attacks or to support scam stories. The “Megacorp.” exists therefore as an umbrella company for subsidiary companies that are 100% dummy cooperations. “Megacorp.” operates on a global scale and is constantly growing with firms represented in almost every branch of industry.The functions of “Megacorp.” are presented in the form of an interim report and company visuals. The archieved websites are locally available in the gallery to be browsed over a WiFi hotspot and on a computer kiosk allowing visitors to explore the current fake website repository.", 
@@ -12195,7 +12470,6 @@
                 "", 
                 ""
             ], 
-            "id": "184", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12206,6 +12480,7 @@
             "title": "Megacorp."
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "224", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "This is a bot on a road trip around the world.\nIt tweets pictures from the places it visits at regular intervals. The bot has no special regard for landmarks and photo-opportunities, it treats every place as equal.\nThe bot is currently learning how to feel the weather.", 
@@ -12232,7 +12507,6 @@
                 "", 
                 ""
             ], 
-            "id": "224", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12243,6 +12517,7 @@
             "title": "Somewhere Bot"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "347", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "Monotone reproduces the genesis of life as an organic character through fractal transformations emanating from random behaviour. The algorithmic work is made up of hundreds of thousands of fragile fractal texels in an iterated function system. The perceptible motion of the particles is similar to biomorphic and synthetic biological forms that connect to an unknown original universal matter and its procedural inception. They slowly and gently draw mesmerizing figures, according to stochastic rules. The result, hypnotic and mind-bending, is a brilliant example of the aesthetics of code. The sound composition uses digital signal processing to create shamanic rhythms of high intensity. The interconnected cells resemble processes in nature, from the origin of light to the creation of matter, in an unpredictable way, due to accidental movement. The work connects biology, maths and arts imitating universal shapes of life in morphogenic and creative processes.", 
@@ -12269,7 +12544,6 @@
                 "", 
                 ""
             ], 
-            "id": "347", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12280,6 +12554,7 @@
             "title": "Monotone"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "350", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "#emptyweb is an ongoing project in which I am collecting screenshots on my phone of web pages before the content has loaded. I find the simple graphic geometric blocks of colour are far more appealing to me than the often frivolous content they are designed to contain. My first child was born in 2013 and I was frequently looking at my phone at night while I tried to soothe my son back to sleep. My poor internet connection at home meant that web pages often took a long time to load and I became fascinated by the graphic structures that appeared before the content of a web page. I started to see it as a challenge to capture the #emptywebs before the content loaded and I released the similarity with this an conventional photography which often seeks to capture fleeting moments of beauty.", 
@@ -12306,7 +12581,6 @@
                 "", 
                 ""
             ], 
-            "id": "350", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12317,6 +12591,7 @@
             "title": "#emptyweb"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "355", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "\"Tania Kovat's 'TIDE' is a live animated digital artwork, produced by The Swarm, that shows the high tide as it travels around the British Isles. The Swarm has sourced data from almost 400 locations around the coast of the British Isles and created a dynamic map that blends in with Tania's analogue photographs of drying salt.\nThe map disappears into the background and only as the high tide moves the outline of the coast is revealed. The data points are transformed into a spatial map using a mathematical way of dividing an area into polygons called a Voronoi tessellation and then blurred to create a smooth transition between areas.\nThe sound track blends shipping chatter, wave sound recorded at Newlyn (from where the high tide is measured) and a dramatically slowed down naval hymn, to create an erie yet calming setting for contemplation about our relationship to the seas that surround us. \"", 
@@ -12343,7 +12618,6 @@
                 "", 
                 ""
             ], 
-            "id": "355", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12354,6 +12628,7 @@
             "title": "Tide"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "356", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "\"My work is a bound atlas of London, created in the style of a traditional A-Z, but using Google Maps as the imagery on the pages.\nEvery Londoner used to carry an A-Z.  Now they mostly lie dusty and dog-earred on bookshelves as a relic of a pre-smartphone world. I want to explore the impact of presenting the digital language of Google Maps in a predecessor format - a paper atlas. This new reincarnation will remind us, in a tongue in cheek way, to consider the objects and behaviours we unconsciously discard when they become technologically defunct or obsolete.\nTo accompany the piece, I would also create paper wall maps to hang around the space, printed in a traditional folded format and then opened and pinned up.\"", 
@@ -12380,7 +12655,6 @@
                 "", 
                 ""
             ], 
-            "id": "356", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12391,6 +12665,7 @@
             "title": "Forgotten Formats"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "357", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "Abstract Playground is a screen-based interactive designed alongside people with Learning Difficulties during a 5 week D-LAB / LEVEL Residency at the LEVEL Centre, Derbyshire. It presents users with a screen displaying a brightly coloured, abstract composition of geometric forms derived from details of Modernist buildings, and a physical custom-made controller. When users press buttons on the controller parts of the composition animate and play sounds, encouraging users to interact with the piece. Each animation and sound has a random element so pressing the same button over and over creates a slightly different result each time, promoting engagement over a long period of time. A second controller with larger buttons is available for people with less refined motor skills, allowing for the work to be used by a wide variety of users.", 
@@ -12417,7 +12692,6 @@
                 "", 
                 ""
             ], 
-            "id": "357", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12428,6 +12702,7 @@
             "title": "Abstract Playground"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "358", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "OOO is a pair of animated films I originally created to screen as part of Project OOO, a light and video installation inspired by the contemporary philosophical movement known as Object Oriented Ontology by myself and Matteo Mastrandrea. The two films are designed to be screened opposite each other. Everything in the Blue film is moving towards the viewer and everything in the yellow film is moving away, putting the viewer in the middle realm. The objects within the films combine the digital with the organic as each outline is created digitally but each texture inside is microscopic imagery of natural organisms.", 
@@ -12454,7 +12729,6 @@
                 "", 
                 ""
             ], 
-            "id": "358", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12465,6 +12739,7 @@
             "title": "OOO"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "383", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "It is a 4 feet by 8 feet art piece with many pictures of Kim Jon Un.  His mouth is a USB socket where viewers of the piece can place USB thumb drives to donate them to our effort to get western media into North Korea.", 
@@ -12491,7 +12766,6 @@
                 "", 
                 ""
             ], 
-            "id": "383", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12502,6 +12776,7 @@
             "title": "Shut Them Up With Your Flash Drive"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "399", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "With the introduction of 5G, flat fee mobile data subscriptions and global satellite, weather balloon and drones based internet access the number of access points to the internet seems to be diminishing. Multinationals such as AT&T, Vodafone, but also Google and Facebook are investing heavily in ways to be the only global (wireless) access point to the internet. Wireless frequencies are becoming the new 'oil' of our connected world. Multinationals are in bidding wars to get the most valuable frequencies. Nation states auction off their frequencies to the highest bidder. These frequencies are milk cows for states. But in the end the people pay for using these frequencies. Radio frequencies are from the people and should not be used as chickens that lay golden eggs.\nIn Treasure Bands we real-time show the hidden world of the most valuable radio frequencies in the direct environment via an interactive screen-based installation.", 
@@ -12528,7 +12803,6 @@
                 "", 
                 ""
             ], 
-            "id": "399", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12539,6 +12813,7 @@
             "title": "The Treasure Bands"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "410", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "In art and technology panel discussions are common. In these panels critics, experts and other relevant parties discuss their ideas and levy their reputations. Three light-sculptures in Autonomous Network Architecture show 3 chatbots who play the role of an artists/hacker (autonomy), the telco (network) and the architect/engineer (architecture). On the 3 light-sculptures the bots discuss the need for an autonomous network architecture, in which each bot focuses on their own specialty. The connection between the panels (bots) goes via a self developed open source autonomous communication network that uses Bluetooth Low Energy as infrastructure.\nEach bot reacts on each other via a custom build library. These reactions create an ever-changing script about the topics. These scripts imitate the unstable constellation of the current communication infrastructure. More and more of the data that runs through communication networks is automatically generated data (internet of things). Machines talking to machines. This installation recreates this on a small scale discussing current and important topics about dependencies on the current mass communication structures.", 
@@ -12565,7 +12840,6 @@
                 "", 
                 ""
             ], 
-            "id": "410", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12576,6 +12850,7 @@
             "title": "Autonomous Network Architecture: the discussions"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "418", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "I am a sculptor. I am drawn to create work that suggests  reinvention and escape by creating work with transformative use of materials. The materials I choose will add to the context of the work. Amongst the materials I have used are  100000 beer mats for 'Pub Crawl', 45000 balloons for 'Celebration of Reinvention', linoleum for 'Sometimes You Don't See', mirrored perspex for 'Invisible Boundaries', fluorescent perspex for 'PlaceMatters'.  I have been researching how digital techniques can be use to add further context and accessibility. This has opened up lots of additional areas such as littlebits, augmented reality and madmapping.\nwww.davidbooth.uk.com\nHas online life made the outdoors unfamiliar?", 
@@ -12602,7 +12877,6 @@
                 "", 
                 ""
             ], 
-            "id": "418", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12613,6 +12887,7 @@
             "title": "Need A Break"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "421", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "Sunny Day 4PM is a Twitter bot making ice cream illustrations!  Every day it queries its Twitter account for the most favourited images. From those it creates a new illustration. Learning day by day from your favourites! Creating our perfect ice cream.   The program uses a parameterised circle, rectangle and triangle. It learns and evolves their placement, size, rotation and color by using a genetic algorithm. Using basic shapes helps us study the relationship between the ice cream’s components: cone, scoop and chocolate flake. I’m interested in knowing how an ice cream makes you feel. What are its dynamics? How do colours and shapes form an ice cream?", 
@@ -12639,7 +12914,6 @@
                 "", 
                 ""
             ], 
-            "id": "421", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12650,6 +12924,7 @@
             "title": "Sunny Day, 4PM"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "431", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "Ichographs MdelP (Madonna del Prato) is a sound and picture artwork that explores the relationships between colors and frequencies. The famous painting of Raffaello is decomposed into 10,0000 cubic particles each carrying a frequency relevant to its color. As we move around, we hear the sound of all these colors/frequency generator particles fly in the space towards the canvas to compose the painting.\nIchographs is a method of creating soundscapes using visual stimulus and the color-frequency transformation. The painting is transformed into the audio domain and back to visual producing a contemporary amalgamation. As we pass through the various color/frequency layers, we investigate the connections between classical aesthetics and the digital practice, revealing a latent version of the old masterpiece. The final artwork is a contemporary amalgamation of the old painting and the modern abstraction methods, a harmonious dialog between the old and the new, the analog and the digital.", 
@@ -12676,7 +12951,6 @@
                 "", 
                 ""
             ], 
-            "id": "431", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12687,6 +12961,7 @@
             "title": "Ichographs MdelP"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "531", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "The project uses cutting edge Hubble / NASA images that are found using the web. These images are printed using the nineteenth century technique of photogravure.\nMy PhD research at the Royal College of Art is focused on how astronomical images are presented to the general public. Raw data is often edited by astronomers for general consumption without explanation. This project comments on the mediation of an image by astronomers, and considers how artists can reverse this process. How does the NASA/web image change when it is printed with alternative photography processes.\nI would like to curate a London Alternative Photography Collective talk alongside artist Almudena Romero, to discover how other artists use the web and new technologies in conjunction with antiquated processes.", 
@@ -12713,7 +12988,6 @@
                 "", 
                 ""
             ], 
-            "id": "531", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12724,6 +12998,7 @@
             "title": "Earth"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "578", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "The project self-expanded uses real time updates of #selfie pictures on Instagram from the online feed selfeed.com. The images are digitally projected onto expanded metal and printed with the nineteenth century technique of wet collodion  to inscribe into permanence and uniqueness these ephemeral images. The project reflects on the commodification of the self through technology development and the networked image.", 
@@ -12750,7 +13025,6 @@
                 "", 
                 ""
             ], 
-            "id": "578", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12761,6 +13035,7 @@
             "title": "Self-Expanded"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "581", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "Animated text. The text reverses so as  to spell its two terms: 'remote' 'a tower'.", 
@@ -12787,7 +13062,6 @@
                 "", 
                 ""
             ], 
-            "id": "581", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12798,6 +13072,7 @@
             "title": "remote-a-tower"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "590", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "A tutorial/essay video on how-to and why leave Facebook without deleting your account. The tutorial/essay provides a collection of JavaScript console hacks for downloading data/activity/memories not accessible through the Facebook interface as well as a means for removing all your activity without having to deactivate your account. It's a piece about digital agency and a critique on Facebook's problematic approach to social media.", 
@@ -12824,7 +13099,6 @@
                 "", 
                 ""
             ], 
-            "id": "590", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12835,6 +13109,7 @@
             "title": "How To / Why Leave Facebook"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "592", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "Dissipate is a series of work that explores a long-distance technology dependent relationship I was once in. My ex-boyfriend broke up with me over a WhatsApp conversation – given the circumstances, breaking up in person would have been impossible, and so it happened over a cyberspace of floating words instead. From a very normal honeymoon phase to a very wretched constantly arguing phase to a very dramatic end; the relationship went through many phases in the span of nine months, a journey that is portrayed in my book. There were many moments through the wretched phase though, where there was a constant anticipation on my end. I was always waiting for a reply and when it would come it would be long and sometimes short, heart-breaking words, leaving me with a kind of “bam!\" Similar to the anticipation of when heating something up in the microwave, I was constantly in anticipation waiting for a reply, and when I heard back it was gut-wrenching words that broke my heart. I put Polaroids I photographed in the microwave, but what I photographed did not matter, it was what happened to the Polaroid once popped into the microwave that did. Burnt and damaged they resembled me through the wretched phase of my relationship. Everything through this time felt surreal; technology really gives people a means to disappear and this series of work is my memento of that.", 
@@ -12861,7 +13136,6 @@
                 "", 
                 ""
             ], 
-            "id": "592", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12872,6 +13146,7 @@
             "title": "dissipate"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "593", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "\"the series and browser addon are still in development but will be launching very soon!!!\nHow To / Why Make Internet Art is a hypermedia series ( interactive video and Firefox addon ) that approaches basic web literacy ( HTML/CSS/JavaScript ) as a contemporary art form ( for makers, designers and creators ) The series positions the web platform as the ultimate artist studio/gallery, frames these technologies as environments rather than simply tools and stresses the importance of introducing a diversity of perspectives into the conversations shaping our digital/networked ecology.\n\"", 
@@ -12898,7 +13173,6 @@
                 "", 
                 ""
             ], 
-            "id": "593", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12909,6 +13183,7 @@
             "title": "How To / Why Make Internet Art"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "594", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "A 360 video of an interview with a farmer, about field colours and how they relate to the use of fertilisers. Exploring how our view of the countryside is shaped by the technology and farming practices employed in growing our food. The work as the moment is in a raw state and will be edited and enhanced with overlayed visuals to eventuate the story as it unfolds. Also including paper based documentation of the insights and opportunities that emerged from the research.", 
@@ -12935,7 +13210,6 @@
                 "", 
                 ""
             ], 
-            "id": "594", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12946,6 +13220,7 @@
             "title": "The colours of the countryside"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "628", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "This piece is a collection of 9273 photographs taken from Instagram, with the hashtag #selfie. It aims to create a selfie mirror, where the audience can engage and their image reflected through many other selfies, and thus, creates a new selfie. The purpose of the piece is to show a fragmented and fluid representation of the self, rather than a static and fixed one, such as a photograph.", 
@@ -12972,7 +13247,6 @@
                 "", 
                 ""
             ], 
-            "id": "628", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -12983,6 +13257,7 @@
             "title": "#u9273"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "635", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "What happens to privacy when tracking incorporates the intrinsic properties of a person?\nWe can't easily change the shape of our faces, and the subtle nuances in the way we type, touch, and swipe. Although some of these are learnt behaviours, the rapid reduction in the cost of computation has allowed sophisticated fingerprinting techniques to adapt as we change as individuals.\nAre we fighting against the inevitable? With each and every interaction we give away a few bits of information about us. It only takes a few bits to make a link and break our pseudonymity.\nYou Look Familiar uses facial recognition to create art and generate metadata. Every interaction changes what is visible on the screen. The observer is given a unique pseudonym that is shown at each interaction point along with the metadata.\nNo cookies needed.", 
@@ -13009,7 +13284,6 @@
                 "", 
                 ""
             ], 
-            "id": "635", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -13020,6 +13294,7 @@
             "title": "You Look Familiar"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "655", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "Short description:\n* A 24h art-exhibit, full of rich media and findings from the DSO research, displayed creatively for “maximum wow”.\n* Communicate in a lightweight, visually-stimulating manner.\n* People can take their time to read, observe.\n* It will be like a photo essay, but richer, and mixing media.\n* At the entrance to the maze, acquire a low-end smartphone similar to those used by first-time users in Kenya and gain an appreciation for their common line of thinking\n* Pick up, play with, and attempt [scripted] daily tasks with the smartphone on your journey through the maze, and illustrate, photograph, or otherwise record the experience\n* Post experiences throughout to gradually accumulate a “wall of discovery”", 
@@ -13046,7 +13321,6 @@
                 "", 
                 ""
             ], 
-            "id": "655", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -13057,6 +13331,7 @@
             "title": "Maze Exhibition from the Digital Skills Observatory"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "660", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "This is a series of drawings that relate to the work ‘Flown’ which has also been proposed in a separate submission. 'Flown' is a programmed light installation developed through drawing. These images show some of the process involved in its conceptual development and practical construction. They range from quickly drawn sketches to detailed works made over a number of months. The link to my website shows examples from the series and individual pieces can be selected according to the space/screen available. A number of them can also be shown as prints.", 
@@ -13083,7 +13358,6 @@
                 "", 
                 ""
             ], 
-            "id": "660", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -13094,6 +13368,7 @@
             "title": "Flown' - Drawings"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "687", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "Hi Jack is a web proxy that replaces all the images in a webpage with a fixed one. The proxy server acts as a man-in-the-middle in the communication between a HTTP server and the user’s browser, acting as a content adapter and filter for the informations delivered to the users.", 
@@ -13120,7 +13395,6 @@
                 "", 
                 ""
             ], 
-            "id": "687", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -13131,6 +13405,7 @@
             "title": "Hi Jack"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "694", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "Using an open online chatroom, four strangers that I've never talked to before, and will never talk to again, describe to me what they would make for an art exhibition.", 
@@ -13157,7 +13432,6 @@
                 "", 
                 ""
             ], 
-            "id": "694", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -13168,6 +13442,7 @@
             "title": "Virtual Strangers"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "696", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "\"In the piece I experiment with embodiment of cognition. I work with EEG data, creating a metaphorical journey into human’s mind and personality. I refer to Hayles’s posthumanism scenarios on the fate of embodiment in an information age and the cultural and technological construction of the cyborg, which imagines a triumphant transcendence of embodiment and 'privileges informational pattern over material instantiation' (Hayles, 1999).\nI further these ideas translating the recording of electrical activity along the scalp into a sculptural responsive surface, that reacts to a change of a human’s brain activity – you perform and transmit your own data live. The work uncovers the themes of mixed reality and augmentation relating to the body.\"", 
@@ -13194,7 +13469,6 @@
                 "", 
                 ""
             ], 
-            "id": "696", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -13205,6 +13479,7 @@
             "title": "Embodiment of cognition"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "721", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "Scans of analogue – for the most part instant – photographs of technology of the 1980s, arranged and presented on original 80s materials (clothes, blankets, towels,...). Two additional photographs, which are also part of the series and which were actually taken in the 1980s, depict two small children operating 80s technology.", 
@@ -13231,7 +13506,6 @@
                 "", 
                 ""
             ], 
-            "id": "721", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -13242,6 +13516,7 @@
             "title": "80s Child"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "779", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "A relationship is constructed from two different territories. Undersea Cable is a short film shot on mobile phones, which collects fragments of conversations from a period of eighteen months, had using Skype between two women; one in London, one in Rio de Janeiro. The audio provides an overlapping centre for the two protagonists’ cities, as they describe how they are transforming around them. As the camera journeys through the cities, the two women talk about their lives, families and politics in their different contexts. Images and voices converge in moments of temporary connection and disconnection, suggesting ways in which new technologies create new geographies and forms of intimacy.", 
@@ -13268,7 +13543,6 @@
                 "", 
                 ""
             ], 
-            "id": "779", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -13279,6 +13553,7 @@
             "title": "Undersea Cable (Cabo do Mar)"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "780", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "The internet was, at least initially, associated with a democratizing effect through providing “immediate access to and transparency of data” by reason of the virtual and distributed networks it has made possible.1 Many now regard that promise to have been undermined by commercialisation. Corporations have asserted intellectual property rights that considered to be inconsistent with a cultural environment in which the reconfiguration of both identities and objects is possible by reason of online digital technologies. This paper explores various areas of TM ClubCard as an example of intersection of commerce, law and technology for privacy and property.", 
@@ -13305,7 +13580,6 @@
                 "", 
                 ""
             ], 
-            "id": "780", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -13316,6 +13590,7 @@
             "title": "Are You Clean? Real-time Technologies and Identity, Property and Privacy."
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "789", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "- 5 performers will stand in 5 places around the conference venue/or in the city.\n- Each performer will be reading out loud live tweets from her phone with a certain hashtag that is somehow related to the event or its topics.\n- Between the tweets or when there are pictures, a simple musical instrument will play a note. (Shaker, triangle, etc.)\n- The spots can be some of these: courtyard, main hall, bathrooms, tube station, public square, a cafe/bar/restaurant nearby.\n- Hashtags can be: #mozfest16 #web #london #brexit #hillary #trump #kabul #baghdad #refugees #berlin #trending #breakingnews #poem #hyperlink\nWhat we need for it to happen is:\n1. 10-15 theatre actors with powerful voices (one freestyle rapper among them for the cafe)\n2. One simple musical instrument for each\n3. One mobile phone for each\n4. 10-15 tshirts with the intended hashtag on it", 
@@ -13342,7 +13617,6 @@
                 "", 
                 ""
             ], 
-            "id": "789", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -13353,6 +13627,7 @@
             "title": "Alerts in Flesh"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "792", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "The installation is designed to project a visualisation of the ways the world is being thought about onto the world itself; it is a mass-reflective augmented reality exhibit.\nUsing real-time searches of massive data sets derived from Twitter and Google search continuations, the project presents a number of continually developing series of strands of collective thought; the statistically most common responses to stimuli and connections between ideas are presented in the form of dynamic tree structure which unfolds.\nThe proposed installation for Mozfest would reflect the forward looking, networked-centric view of media and society and would use keywords taken from the festival’s public communication and themes, internet, open network, digital culture etc. to seed the initial Twitter searches. Responses to these starting points would then be used to seed the connected streams of (collective) consciousness that provide the material of the exhibit.", 
@@ -13379,7 +13654,6 @@
                 "", 
                 ""
             ], 
-            "id": "792", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -13390,6 +13664,7 @@
             "title": "Visualising Collective Thought: What we think about when we think about the Internet"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "793", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "Combination of case-studies and artistic practices around human rights. The video will incorporate five different projects: 3 photo-documentaries + 1 animation + 1 art campaign - these are developed internationally and with cross-language approach. Each project has a flow of participation, mix-media practice and reflection on the role of the web at different phases of production, exchange of thoughts, evolution of social impact and change. The piece aims to ask questions and connect to practical examples of hands-on activity in the field, both offline and online. Where are Human Rights? Can we see them? Do we know what they are? Is the web answering questions? Does Mix-Media open cross-action? And what about impact?", 
@@ -13416,7 +13691,6 @@
                 "", 
                 ""
             ], 
-            "id": "793", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -13427,6 +13701,7 @@
             "title": "Where Are Human Rights?"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "805", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "Archive Remix is is a continuation of the work developed during my residency at the University of Birmingham. The video and print pieces are made of of 3D scans of items from the archives of the University of  Birmingham's Research and Cultural Collections together with heavily distorted and glitched logos of corporate brands.", 
@@ -13453,7 +13728,6 @@
                 "", 
                 ""
             ], 
-            "id": "805", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -13464,6 +13738,7 @@
             "title": "Archive Remix"
         }, 
         {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "807", 
             "additional language": "", 
             "category": "MozEx", 
             "description": "Some of My Favourite Songs are a series of digital images which examine how data can be interpreted in various unconventional ways. The piece takes various mp3s and uses software written by myself using Pure Data that converts them from an mp3 into a jpg image. The output is very distorted and takes no consideration of factors such as amplitude, song structure, or pitch. Instead the mp3 is treated purely as data.", 
@@ -13490,7 +13765,6 @@
                 "", 
                 ""
             ], 
-            "id": "807", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
@@ -13499,6 +13773,474 @@
             "tags": [], 
             "timeblock": "", 
             "title": "Some of My Favourite Songs"
+        }, 
+        {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "1500", 
+            "additional language": "", 
+            "category": "MozEx", 
+            "day": "Saturday", 
+            "description": "Come play, and discover 20 interactive audio-visual artworks with MozEx's artists in residence. MozEx is a digital experience, curated by Tate, V&A and Mozilla. View the entire [MozEx catalogue] (https://issuu.com/mozfest/docs/mozex).", 
+            "end": "10:00am", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 3 - 310", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-mozex-interactive", 
+            "programmatic": false, 
+            "start": "10:00am", 
+            "tags": [], 
+            "timeblock": "sat-10am--saturday-10-00-", 
+            "title": "MozEx Interactive"
+        }, 
+        {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "1501", 
+            "additional language": "", 
+            "category": "MozEx", 
+            "day": "Saturday", 
+            "description": "Come play, and discover 20 interactive audio-visual artworks with MozEx's artists in residence. MozEx is a digital experience, curated by Tate, V&A and Mozilla. View the entire [MozEx catalogue] (https://issuu.com/mozfest/docs/mozex).", 
+            "end": "1:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 3 - 310", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-mozex-interactive", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sat-1pm--saturday-13-00-", 
+            "title": "MozEx Interactive"
+        }, 
+        {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "1502", 
+            "additional language": "", 
+            "category": "MozEx", 
+            "day": "Sunday", 
+            "description": "Come play, and discover 20 interactive audio-visual artworks with MozEx's artists in residence. MozEx is a digital experience, curated by Tate, V&A and Mozilla. View the entire [MozEx catalogue] (https://issuu.com/mozfest/docs/mozex).", 
+            "end": "11:00am", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 3 - 310", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-mozex-interactive", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "MozEx Interactive"
+        }, 
+        {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "1503", 
+            "additional language": "", 
+            "category": "MozEx", 
+            "day": "Sunday", 
+            "description": "Come play, and discover 20 interactive audio-visual artworks with MozEx's artists in residence. MozEx is a digital experience, curated by Tate, V&A and Mozilla. View the entire [MozEx catalogue] (https://issuu.com/mozfest/docs/mozex).", 
+            "end": "1:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 3 - 310", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-mozex-interactive", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sun-1pm--sunday-13-00-", 
+            "title": "MozEx Interactive"
+        }, 
+        {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "1504", 
+            "additional language": "", 
+            "category": "MozEx", 
+            "day": "Saturday", 
+            "description": "Come discover 20 physical artworks -- books, photographs, prints -- that are part of MozEx, a digital experience curated by Tate, V&A and Mozilla. View the entire [MozEx catalogue] (https://issuu.com/mozfest/docs/mozex).", 
+            "end": "12:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 7 - 706", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-mozex-physical", 
+            "programmatic": false, 
+            "start": "12:30pm", 
+            "tags": [], 
+            "timeblock": "sat-12-30pm--saturday-12-30-", 
+            "title": "MozEx Physical"
+        }, 
+        {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "1505", 
+            "additional language": "", 
+            "category": "MozEx", 
+            "day": "Saturday", 
+            "description": "Come discover 20 physical artworks -- books, photographs, prints -- that are part of MozEx, a digital experience curated by Tate, V&A and Mozilla. View the entire [MozEx catalogue] (https://issuu.com/mozfest/docs/mozex).", 
+            "end": "3:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 7 - 706", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-mozex-physical", 
+            "programmatic": false, 
+            "start": "3:15pm", 
+            "tags": [], 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
+            "title": "MozEx Physical"
+        }, 
+        {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "1506", 
+            "additional language": "", 
+            "category": "MozEx", 
+            "day": "Sunday", 
+            "description": "Come discover 20 physical artworks -- books, photographs, prints -- that are part of MozEx, a digital experience curated by Tate, V&A and Mozilla. View the entire [MozEx catalogue] (https://issuu.com/mozfest/docs/mozex).", 
+            "end": "12:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 7 - 706", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-mozex-physical", 
+            "programmatic": false, 
+            "start": "12:15pm", 
+            "tags": [], 
+            "timeblock": "sun-12-15pm--sunday-12-15-", 
+            "title": "MozEx Physical"
+        }, 
+        {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "1507", 
+            "additional language": "", 
+            "category": "MozEx", 
+            "day": "Sunday", 
+            "description": "Come discover 20 physical artworks -- books, photographs, prints -- that are part of MozEx, a digital experience curated by Tate, V&A and Mozilla. View the entire [MozEx catalogue] (https://issuu.com/mozfest/docs/mozex).", 
+            "end": "2:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 7 - 706", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-mozex-physical", 
+            "programmatic": false, 
+            "start": "2:00pm", 
+            "tags": [], 
+            "timeblock": "sun-2pm--sunday-14-00-", 
+            "title": "MozEx Physical"
+        }, 
+        {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "1508", 
+            "additional language": "", 
+            "category": "MozEx", 
+            "day": "Saturday", 
+            "description": "x", 
+            "end": "12:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 0 - Foyer", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-mozex", 
+            "programmatic": false, 
+            "start": "12:00pm", 
+            "tags": [], 
+            "timeblock": "sat-lunch--saturday-12-00-", 
+            "title": "MozEx"
+        }, 
+        {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "1509", 
+            "additional language": "", 
+            "category": "MozEx", 
+            "day": "Saturday", 
+            "description": "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking. \n\nAll artworks in the exhibit are available to view throughout the entire festival.\n\n[View the MozEx catalogue] (https://issuu.com/mozfest/docs/mozex).", 
+            "end": "4:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 0 - Foyer", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-mozex", 
+            "programmatic": false, 
+            "start": "4:30pm", 
+            "tags": [], 
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
+            "title": "MozEx"
+        }, 
+        {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "1530", 
+            "additional language": "", 
+            "category": "MozEx", 
+            "day": "Sunday", 
+            "description": "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking. \n\nAll artworks in the exhibit are available to view throughout the entire festival.\n\n[View the MozEx catalogue] (https://issuu.com/mozfest/docs/mozex).", 
+            "end": "12:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 0 - Foyer", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-mozex", 
+            "programmatic": false, 
+            "start": "12:30pm", 
+            "tags": [], 
+            "timeblock": "sun-lunch--sunday-12-30-", 
+            "title": "MozEx"
+        }, 
+        {
+            "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking.": "1531", 
+            "additional language": "", 
+            "category": "MozEx", 
+            "day": "Sunday", 
+            "description": "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking. \n\nAll artworks in the exhibit are available to view throughout the entire festival.\n\n[View the MozEx catalogue] (https://issuu.com/mozfest/docs/mozex).", 
+            "end": "4:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 0 - Foyer", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-mozex", 
+            "programmatic": false, 
+            "start": "4:30pm", 
+            "tags": [], 
+            "timeblock": "sun-4-30pm--sunday-16-30-", 
+            "title": "MozEx"
         }, 
         {
             "additional language": "", 
@@ -15146,7 +15888,7 @@
             "title": "Connecting the Dots: Network Analysis for Organisational Value"
         }, 
         {
-            "additional language": "", 
+            "additional language": "English, French, Hindi", 
             "category": "Open science", 
             "description": "\"PirateBox (https://piratebox.cc/) is a DIY anonymous offline file-sharing and communications system built with free software and inexpensive off-the-shelf hardware\". Initially the PirateBox was built to facilitate people in the same vicinity to anonymously communicate and exchange files. But now, PirateBox has been used by musicians to share their music, by teachers to distribute and collect digital materials from students, by conference organizers to distribute conference materials and to provide local wireless commenting during presentations and by geeks to securely share cryptographic keys.\nThe main goal of this session is to build your own offline Internet-in-abox using PirateBox installation on the Raspberry Pi and use it for any of its applications. Participants are free to show their creativity by building anything using multiple PirateBoxes.", 
             "duration": "", 
@@ -15190,7 +15932,9 @@
             "location": "", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-let-us-build-our-own-offline-internet", 
             "programmatic": false, 
-            "tags": [], 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
             "timeblock": "", 
             "title": "Let us build our own offline Internet"
         }, 
@@ -15845,7 +16589,7 @@
             "additional language": "", 
             "category": "Open science", 
             "description": "- Know more about what their dreams are, what they wanted to do\n- Know the knowledge and skills needed to make this dream come true\n- look for community / group / people with same goal and motivation\n- Be aware that it is better & easier if you find a team to encourage you, learn the skills and the knowledge required ( people with same & similar dreams \" In the MozFest event \"/ a learning group \" In the Internet : Massive Open Online Courses / In facebook : facebook Groups .. \"\n- Keep in mind that people without a dream, or couldn't make their dream came true they will try to destroy others' dreams\n- Manage the feedling of failing in protecting a dream ( something that we love )", 
-            "duration": "", 
+            "duration": "15", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Jasmine Hall - Coworking Space AND Mozilla Reps", 
@@ -15883,8 +16627,8 @@
             "id": "697", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-dreams-on-balloons", 
+            "location": "Floor 9 - 908", 
+            "notes url": "", 
             "programmatic": false, 
             "tags": [], 
             "timeblock": "", 
