@@ -1039,9 +1039,9 @@
                     "twitter": "@flukeout"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "Mozilla Foundation", 
+                    "name": "Pomax", 
+                    "twitter": "@TheRealPomax"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -1051,7 +1051,7 @@
             }, 
             "facilitators_names": [
                 "Luke Pacholski", 
-                "", 
+                "Pomax", 
                 ""
             ], 
             "id": "376", 
@@ -5315,6 +5315,45 @@
             "additional language": "", 
             "category": "Dilemmas in connected spaces", 
             "day": "Sunday", 
+            "description": "The Databox - www.databoxproject.uk - provides a radical alternative to widespread data harvesting and data processing ‘in the cloud’. Instead data processing takes place ‘on the box’ and is limited to what is needed to deliver specific services. We introduce the Databox platform to the Mozilla community and provide participants with the opportunity to get their hands on this novel privacy-preserving platform. This hands on session will exploit data provided by Internet of Things devices deployed around the Mozilla Festival. Participants will be provided with a brief overview of the Databox platform before being invited to build ‘apps’ that sit on the Databox. Exploiting a modified Node Red app-building environment, participants will discover how to make apps that respect the requirement of informed consent and allow individuals to exercise granular choice over data processing; choices which are translated into enforceable policies on the Databox and govern data access and use.", 
+            "end": "3:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "University of Nottingham", 
+                    "name": "Tom Lodge", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Tom Lodge", 
+                "", 
+                ""
+            ], 
+            "id": "1671", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 603", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-databox--hack-an-app", 
+            "programmatic": false, 
+            "start": "2:00pm", 
+            "tags": [], 
+            "timeblock": "sun-2pm--sunday-14-00-", 
+            "title": "Databox: Hack an App"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Sunday", 
             "description": "The complexity of the Internet of Things means that a growing number of tasks in the future smart home will have to be handed over to computational agents and autonomous systems. Automation is problematic however, creating risks to privacy and impacting trust. This proposal seeks to engage the Mozilla community in understanding the dilemmas that emerge when connected spaces become autonomous. Workshop participants will be introduced to a range of storyboards illustrating utopian and dystopian visions of a future autonomous home. By encouraging participants to reflect on these envisioned futures, our aim is to spark a discussion that will help uncover some of the critical challenges confronting autonomous systems and the kinds of interfaces that are needed by human beings to control these systems. In addition to making an engaging contribution to the Mozilla Festival, the results of the workshop will inform development of the Autonomous Internet of Things http://a-iot.org", 
             "end": "1:15pm", 
             "facilitators": {
@@ -6325,7 +6364,7 @@
             "additional language": "", 
             "category": "Dilemmas in connected spaces", 
             "day": "Sunday", 
-            "description": "We want to explore hybrid gifts through a workshop. Gifting digital media through a physical object.", 
+            "description": "A fun customisable, interactive advent calendar to use with the Christmas with Artcodes app. We would like to invite you to be the first in creating your very own interactive calendar in our one hour workshop session, where we will help you adapt and personalise your calendar to take home with you. \n\nThe calendar comes with 24 Artcode stickers you can put under any doors. When these stickers are scanned by the Christmas with Artcodes app on a smart phone or tablet they open a digital surprise. \n\nLearn how to draw your own Artcodes and how to connect your Artcodes to your own pictures, videos or music. A fun way of creating your own interactive art!", 
             "end": "12:00pm", 
             "facilitators": {
                 "1": {
@@ -14244,10 +14283,10 @@
         }, 
         {
             "additional language": "", 
-            "category": "Open science", 
+            "category": "Open Science", 
             "day": "Saturday", 
             "description": "Participants will learn how they can teach a participatory-learning, project based course in open science and reproducible research at their home institutions, customised to the needs of their fields and their students.", 
-            "end": "5:30pm", 
+            "end": "3:45pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Michigan State University and Mozilla Science Lab", 
@@ -14285,12 +14324,12 @@
             "id": "95", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 9 - 902", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-open-science-and-reproducible-research-course", 
+            "location": "Floor 9 - 908", 
+            "notes url": "", 
             "programmatic": false, 
-            "start": "4:30pm", 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "sat-4-30pm--saturday-16-30-", 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "The Open Science and Reproducible Research Course"
         }, 
         {
@@ -14552,7 +14591,7 @@
             "additional language": "", 
             "category": "Open science", 
             "day": "Saturday", 
-            "description": "Practical session designed for specifically through R users to demonstrate the use of github for collaboration through Rstudio", 
+            "description": "This practical session is designed for R users and aims to set beginners in version control up with some basic skills in using github through Rstudio to manage projects and collaborate online.\n\nThe first part of the session introduces version control and walks participants through installing all required software, setting up a github account, creating repositories, linking them to Rstudio projects and using them to manage workflows openly.\n\nThe rest of the session explores the use of github and Rstudio for collaboration by walking participants through forking and contributing to an existing github repository. Participants will learn how these technologies can be used to manage communications and contributions within a team. At the end of the session, the contributions of all participants will be collated and used to produce an overall team plot.\n\nThese very basic skills should form a good foundation for participants to start coordinating collaboration on their own projects and develop their skills further through practice. That's how I learnt!\n\nNB. Participants will get the most out of their session if they bring their own laptops.", 
             "end": "3:00pm", 
             "facilitators": {
                 "1": {
@@ -14591,13 +14630,13 @@
             "id": "259", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 9 - 902", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-collaborative-github-through-rstudio", 
+            "location": "Floor 9 - 903", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
             "tags": [], 
             "timeblock": "sat-1pm--saturday-13-00-", 
-            "title": "Collaborative github through Rstudio"
+            "title": "Collaboration through Github and Rstudio"
         }, 
         {
             "additional language": "", 
@@ -14651,10 +14690,11 @@
             "title": "Hacking CRISPR - Code Sprint"
         }, 
         {
-            "additional language": "", 
+            "additional language": "English, German", 
             "category": "Open science", 
-            "description": "Science projects often have the same problem - only people with the same background work on them. The goal of this session would be to show participants how to attract outsiders to their science projects.", 
-            "duration": "", 
+            "day": "Sunday", 
+            "description": "Science projects often have the same problem - only people with the same background work on them. The goal of this session is to discuss how to attract outsiders to their science projects.", 
+            "end": "5:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Chair of Information Systems I - Innovation & Value Creation @ Friedrich-Alexander University of Erlangen-Nuremberg", 
@@ -14692,33 +14732,37 @@
             "id": "283", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-science-support---how-to-get-outside-support-for-your-projects", 
+            "location": "Floor 9 - 908", 
+            "notes url": "", 
             "programmatic": false, 
-            "tags": [], 
-            "timeblock": "", 
+            "start": "4:30pm", 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
+            "timeblock": "sun-4-30pm--sunday-16-30-", 
             "title": "Science Support - How to get outside support for your projects"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "In a well established tradition of brining the international spirit of Geneva to Mozfest, We'll present a number of Open Science projects developed by summer students working at CERN, UN organizations like WHO and International NGOs like the Red Cross - all headquartered in Geneva. Examples include everything from a cosmic ray detector to measure cloud coverage to a sensor belt for helping blind people navigate. People will have a chance to learn how the technology behind each project works, and make their own prototype. The projects will be selected from the CERN Webfest - an annual Open Science hackathon launched five years ago by Citizen Cyberlab and currently  organized by CERN openlab with the support of the Mozilla Science Lab.", 
-            "duration": "", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Citizen Cyberlab", 
-                    "name": "Francois Grey", 
-                    "twitter": "@FrancoisGrey"
+                    "name": "Ipita Kaduwa Gamage Gihan Lakmal", 
+                    "twitter": ""
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "name": "Sharada Mohanty", 
+                    "twitter": "@MeMohanty"
                 }, 
                 "3": {
                     "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "name": "Rosy Mondardini", 
+                    "twitter": "@OpenSeventeen"
                 }, 
                 "4": {
                     "affiliated org": "", 
@@ -14732,76 +14776,29 @@
                 }
             }, 
             "facilitators_names": [
-                "Francois Grey", 
+                "Ipita Kaduwa Gamage Gihan Lakmal", 
                 "", 
-                "", 
-                "", 
+                "Sharada Mohanty", 
+                "Rosy Mondardini", 
                 ""
             ], 
             "id": "302", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-cern-webfest---from-fundamental-science-to-sustainable-development", 
+            "location": "Floor 9 - 902", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "CERN Webfest - from fundamental science to sustainable development"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
-            "description": "This activity will entail inviting participants to give a 3-5 minute open mic presentation describing how their use or others' use of open science best practices has been a positive experience and impacted their work or lives.  We will record these stories (with consent, of course) and make them available through an online portal so that others can watch and learn from these open science success stories.  These stories are intended to highlight the benefits of open science and the return on investment on following best practices.", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Mozilla Science Lab", 
-                    "name": "Stephanie Wrigh", 
-                    "twitter": "@shefw"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "4": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "5": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Stephanie Wrigh", 
-                "", 
-                "", 
-                "", 
-                ""
-            ], 
-            "id": "324", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-open-science--open-mic", 
-            "programmatic": false, 
-            "tags": [], 
-            "timeblock": "", 
-            "title": "Open Science, Open Mic"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Open science", 
+            "day": "Saturday", 
             "description": "This workshop provides a sandbox for participants to engage in the process of geographic data creation. Participants will learn to make new geographic datasets through drawing and geoprocessing on the web.", 
-            "duration": "", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla Science Lab", 
@@ -14809,9 +14806,9 @@
                     "twitter": "@leejoeyk"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "Mozilla Science Lab", 
+                    "name": "Aurelia Moser", 
+                    "twitter": "@auremoser"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -14832,27 +14829,29 @@
             "facilitators_names": [
                 "Joey Lee", 
                 "", 
-                "", 
+                "Aurelia Moser", 
                 "", 
                 ""
             ], 
             "id": "325", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-drawing-for-maps--creating-geometries-on-the-web", 
+            "location": "Floor 9 - 902", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [
                 "The Future of the Web"
             ], 
-            "timeblock": "", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Drawing for maps: creating GEOmetries on the web"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "The success of open science practices in human health research will depend our ability to navigate issues of privacy and sharing.  Join us to learn about some leading examples of people redesigning the biomedical enterprise to recognize the values and preferences of individual participants while also promoting data sharing, transparency, and reproducibility.", 
-            "duration": "", 
+            "end": "11:45am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Icahn Institute at Mount Sinai", 
@@ -14890,67 +14889,20 @@
             "id": "326", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-navigating-privacy-and-sharing-in-biomedical-research", 
+            "location": "Floor 9 - 908", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "11:15am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Navigating Privacy and Sharing in Biomedical Research"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
-            "description": "On the web, digital privacy and cyber secu often displaces concern for the protection of personal and physical security. With the increasing conflation of touchID fingerprint passwords and the bio-authentication with our technological applications and devices, it seems increasingly important to consider how the compromise of your bio-information could devastate more than a typical password leak or stolen credit card. Your personal privacy is more at risk now that biological information ties closely with online identity. How do you protect this information, how might you spoof your bio trail from leak, copy, or misuse by third parties, what approaches to protecting your dna and genomic data might we provide to this masses?", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Mozilla Science Lab", 
-                    "name": "Aurelia Moser", 
-                    "twitter": "@auremoser"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "4": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "5": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Aurelia Moser", 
-                "", 
-                "", 
-                "", 
-                ""
-            ], 
-            "id": "328", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-spoofing-bio-surveillance--practices-to-protect-your-bioprivacy", 
-            "programmatic": false, 
-            "tags": [], 
-            "timeblock": "", 
-            "title": "Spoofing Bio-Surveillance: Practices to protect your bioprivacy"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Open science", 
+            "day": "Sunday", 
             "description": "This session will demo the new Open Data Curriculum developed by the Mozilla Science Lab, including primers and instructor guides.  The demo will show people how what is in the curriculum and how it can be taken and customized for others to teach about open data best practices to a variety of audiences.", 
-            "duration": "", 
+            "end": "1:45pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla Foundation", 
@@ -14988,11 +14940,12 @@
             "id": "329", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-open-data-training-curriculum", 
+            "location": "Floor 9 - 908", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "1:30pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-1-30pm--sunday-13-30-", 
             "title": "Open Data Training Curriculum"
         }, 
         {
@@ -15000,7 +14953,7 @@
             "category": "Open science", 
             "day": "Saturday", 
             "description": "Our recent global survey on research practices indicates widespread support for Open Science among researchers across the globe. There are currently many Open Science tools and platforms available, and we want to explore to which degree researchers can and do employ these in a full Open Science workflow.\nDuring MozFest, we would like to do this together using the results of our survey, which not only asked about support for Open Science but also about active use of platforms, tools and websites for 17 research activities. This results in a body of information on the research practices of 20,663 respondents across disciplines, research roles, career stages and countries.\nThis sprint will be both on statistical analysis of survey results and technical appraisal of Open Science tools and platforms.", 
-            "end": "12:00pm", 
+            "end": "5:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Utrecht University Library", 
@@ -15008,9 +14961,9 @@
                     "twitter": "@MsPhelps"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "Utrecht University Library", 
+                    "name": "Jeroen Bosman", 
+                    "twitter": "@jeroenbosman"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -15031,26 +14984,27 @@
             "facilitators_names": [
                 "Bianca Kramer", 
                 "", 
-                "", 
+                "Jeroen Bosman", 
                 "", 
                 ""
             ], 
             "id": "338", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 9 - 902", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-real-life-open-science-workflows--use-and-interoperability-of-research-tools", 
+            "location": "Floor 9 - 903", 
+            "notes url": "", 
             "programmatic": false, 
-            "start": "10:00am", 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "sat-10am--saturday-10-00-", 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Real-life Open Science workflows: use and interoperability of research tools"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "Open Knowledge Maps premiered in an exciting session at MozFest 2015 - and this year we are returning with our biggest expansion yet. In this demo, we will show how you can visualize your topic of interest from a pool of over 35 million research papers. We will demonstrate how you can use knowledge maps not only to discover the literature that you need but also to improve your understanding of the structure of your research area. In short: we want to help you make your literature research more efficient and effective. Finally, we will show you how you can openly share the results of your discovery with others. Because sharing is caring - and the time you and others save on literature research can be used to collaborate.", 
-            "duration": "", 
+            "end": "10:45am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Open Knowledge Maps", 
@@ -15058,14 +15012,14 @@
                     "twitter": "OK_Maps"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "OK_Maps", 
+                    "name": "Christopher Kittel", 
+                    "twitter": "@chris_kittel"
                 }, 
                 "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "OK_Maps", 
+                    "name": "Maxi Schramm", 
+                    "twitter": "@OK_Maps"
                 }, 
                 "4": {
                     "affiliated org": "", 
@@ -15081,25 +15035,27 @@
             "facilitators_names": [
                 "Peter Kraker", 
                 "", 
-                "", 
-                "", 
+                "Christopher Kittel", 
+                "Maxi Schramm", 
                 ""
             ], 
             "id": "367", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-open-knowledge-maps---a-visual-interface-to-the-world-s-scientific-knowledge", 
+            "location": "Floor 9 - 908", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "10:30am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10-30am--saturday-10-30-", 
             "title": "Open Knowledge Maps - A Visual Interface to the World’s Scientific Knowledge"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Sunday", 
             "description": "Whether you are a student, a researcher or a science journalist, you know this situation: you need to get an overview of an unknown field of research - and you need it fast. In this session, you will learn how to approach this task using Open Knowledge Maps, a visual discovery tool. Together with other participants, you will be collaboratively exploring an unknown field in fast mode. You will learn strategies to answer general questions like “What are the hottest research topics within this field right now?” as well as specific ones such as “How effective are routine tests for Dengue fever?” in a short amount of time. We will also discuss how you can openly share your strategies and the outcomes of your discovery process with others - so that we can build on top of each other's knowledge.", 
-            "duration": "", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Open Knowledge Maps", 
@@ -15107,14 +15063,14 @@
                     "twitter": "PeterKraker"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "OK_Maps", 
+                    "name": "Christopher Kittel", 
+                    "twitter": "@chris_kittel"
                 }, 
                 "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "OK_Maps", 
+                    "name": "Maxi Schramm", 
+                    "twitter": "@OK_Maps"
                 }, 
                 "4": {
                     "affiliated org": "", 
@@ -15130,68 +15086,20 @@
             "facilitators_names": [
                 "Peter Kraker", 
                 "", 
-                "", 
-                "", 
+                "Christopher Kittel", 
+                "Maxi Schramm", 
                 ""
             ], 
             "id": "368", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-i-didn-t-know-i-could-know-so-much--the-open-science-way-to-do-literature-research", 
+            "location": "Floor 9 - 902", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "11:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "I didn’t know I could know so much! The open science way to do literature research"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Open science", 
-            "description": "My session will prompt people to think about accessibility from a human centered point of view. Open data could be even better utilized if it was formatted in easy to understand, use and access methods. The use of methods like interactive info-graphics and mobile phone friendly data may be some of the answers to promoting open data accessibility. This is especially true in developing countries where utilization of readily available data resources is poor.", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "", 
-                    "name": "Dennis Ndegwa", 
-                    "twitter": "@dendegwa"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "4": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "5": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Dennis Ndegwa", 
-                "", 
-                "", 
-                "", 
-                ""
-            ], 
-            "id": "397", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-how-to-make-open-data-more-open", 
-            "programmatic": false, 
-            "tags": [], 
-            "timeblock": "", 
-            "title": "How to make open data more open"
         }, 
         {
             "additional language": "", 
@@ -15247,8 +15155,9 @@
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Sunday", 
             "description": "Participants will build an online collaboratory to explore and evaluate existing web platforms and tools which facilitate building and growing an open scientific community.\nUsing the open source HUBzero platform as a catalyst, participants will explore applications developed around the unique needs of disparate scientific communities of various knowledge domains both large and small. In the session we will work together to create a rubric to evaluate features that facilitate scientific exploration, communication, and education.", 
-            "duration": "", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "HUBzero, Purdue University", 
@@ -15256,9 +15165,9 @@
                     "twitter": "@hubzeroplatform"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "HUBzero, Purdue University", 
+                    "name": "Alissa Nedossekina", 
+                    "twitter": "@snowwitje"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -15279,25 +15188,27 @@
             "facilitators_names": [
                 "Kevin Wojkovich", 
                 "", 
-                "", 
+                "Alissa Nedossekina", 
                 "", 
                 ""
             ], 
             "id": "416", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-building-open-scientific-communities--a-hands-on-dive-into-online-collaboration-tools", 
+            "location": "Floor 9 - 902", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "11:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Building Open Scientific Communities: a hands-on dive into online collaboration tools"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "A week before the EU referendum we scrambled to put together a map of all the EU funding in the UK, so people could see what was at stake in their area. We discovered that data-driven campaigning is easier than it looks, and will share our re-usable reporting recipe for local/national citizen data journalism.", 
-            "duration": "", 
+            "end": "10:30am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Startuple", 
@@ -15335,20 +15246,22 @@
             "id": "422", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-look-around-eu--fighting-brexit-with-data", 
+            "location": "Floor 9 - 908", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [
                 "The Future of the Web"
             ], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Look Around EU: Fighting Brexit with Data"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "We will demo miniReproducibility Project, a web application to collect, link and submit figures that test the same scientific finding. Scientific experiments are incremental and thus many published experiments may ask similar questions. Yet, there is a reproducibility crisis. Traditional publishing values novelty over reproducibility and forces a hierarchical story-like structure to the presentation of findings. Building one “paper” can take years but science happens every day! Built using open source tools and incubated in the 2015 open research accelerator at Mozfest, miniReproducibility allows users to submit their own data or any open access figure; annotate and display them non-hierarchically to visualize the experiments and methodologies side-by-side. This provides visibility to the data that is often buried in the middle of a paper. Submitters whether they be readers, publishers, and scientists build a user profile dedicated to methodology and reproducibility using open badges.", 
-            "duration": "", 
+            "end": "11:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "miniReproducibility Project", 
@@ -15386,11 +15299,12 @@
             "id": "424", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-minireproducibility-project--an-open-source-web-extension-and-portal-to-compare-scientific-figures-and-provide-visibility-for-trainees", 
+            "location": "Floor 9 - 908", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "10:45am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10-45am--saturday-10-45-", 
             "title": "miniReproducibility Project: An open source web extension and portal to compare scientific figures and provide visibility for trainees"
         }, 
         {
@@ -15447,57 +15361,9 @@
         {
             "additional language": "", 
             "category": "Open science", 
-            "description": "Our Session comprises of Introduction to Docker Engine, Machine and its application through making some cool hacks. Our main aim of this session is to \"Package Once Deploy Anywhere(PODA)\". Docker simplifies software delivery by making it easy to build and share images that contain your application’s entire environment or application operating system.", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Mozilla India", 
-                    "name": "Amit Kumar Jaiswal", 
-                    "twitter": "amit_gkp"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "4": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "5": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Amit Kumar Jaiswal", 
-                "", 
-                "", 
-                "", 
-                ""
-            ], 
-            "id": "438", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-refactor-applications-using-container-and-microservices", 
-            "programmatic": false, 
-            "tags": [], 
-            "timeblock": "", 
-            "title": "Refactor applications using Container and Microservices"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Open science", 
+            "day": "Sunday", 
             "description": "Although there are innumerable travel maps, books, and apps for places to see around the world, there are few such resources for scientist/nerd travelers. With *Nerdcator* we want to create an open data repository that collects such places in a crowdsourced manner, creating a global community of fellow scientist/nerds.\nWe will demonstrate a basic app that allows travelers to find nearby sites of special interest to scientists/nerds such as geological/botanical features, offbeat museums, graves of our scientific heroes, locations of historic/scientific events, and even research labs offering tours.\nWe want attendees to design the next iteration of the app, to refine the social and technological features that will enable Nerdcator to succeed where other such efforts (e.g., nerdydaytrips.com) have failed to take off. Participants can also test the app after festival hours with sites such as the Greenwich meridian line, the Cutty Sark clipper ship, or astronomer Frank Dyson's home.", 
-            "duration": "", 
+            "end": "4:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "openSNP", 
@@ -15505,9 +15371,9 @@
                     "twitter": "@gedankenstuecke"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "Mozilla Science Lab", 
+                    "name": "Aurelia Moser", 
+                    "twitter": "@auremoser"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -15528,29 +15394,30 @@
             "facilitators_names": [
                 "Bastian Greshake", 
                 "", 
-                "", 
+                "Aurelia Moser", 
                 "", 
                 ""
             ], 
             "id": "443", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-nerdcator---crowdsourced-maps-for-nerd-travellers", 
+            "location": "Floor 9 - 903", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Nerdcator - Crowdsourced maps for nerd travellers"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
-            "description": "The yin and yang of the session will be discussing the current capabilities of the open web, as it pertains to scientific discourse, and contrast that with the tools and technologies needed to bridge the gap between those available and an idealised version of the Giant Global Graph of Knowledge -- i.e. the G3K.\nAs a simplified example, using fairly common technologies and frameworks to establish a common frame of reference for discussion, consider what would be needed to integrate: 1) a reproducible interface (i.e. Jupyter Notebooks), 2) HPC processing power (i.e. AWS, IBM cluster services, etc.), 3) \"big\" data and/or Linked Open Data connectivity (i.e. the LOD cloud), 4) visual workflow or computation engines (i.e. Taverna, Kepler), and 5) the vocabularies and ontologies (i.e. semantic models) necessary to facilitate machine-aided scientific >b>discovery</b>?\nThis session is a platform to discuss a common vision of technologies supporting the advancement of science.", 
-            "duration": "", 
+            "description": "The yin and yang of the session will be discussing the current capabilities of the open web, as it pertains to scientific discourse, and contrast that with the tools and technologies needed to bridge the gap between those available and an idealised version of the Giant Global Graph of Knowledge -- i.e. the G3K.\n  \nAs a simplified example, using fairly common technologies and frameworks to establish a common frame of reference for discussion, consider what would be needed to integrate: 1) a reproducible interface (i.e. Jupyter Notebooks), 2) HPC processing power (i.e. AWS, IBM cluster services, etc.), 3) \"big\" data and/or Linked Open Data connectivity (i.e. the LOD cloud), 4) visual workflow or computation engines (i.e. Taverna, Kepler), and 5) the vocabularies and ontologies (i.e. semantic models) necessary to facilitate machine-aided scientific discovery?\n  \nThis session is a platform to discuss a common vision of technologies supporting the advancement of science.", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
-                    "name": "brandon whitehead", 
+                    "name": "Brandon Whitehead", 
                     "twitter": ""
                 }, 
                 "2": {
@@ -15575,7 +15442,7 @@
                 }
             }, 
             "facilitators_names": [
-                "brandon whitehead", 
+                "Brandon Whitehead", 
                 "", 
                 "", 
                 "", 
@@ -15584,11 +15451,12 @@
             "id": "459", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-feed-the-g-k--from-the-open-web-to-a-giant-global-graph-of-knowledge", 
+            "location": "Floor 9 - 908", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "11:30am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-11-30am--sum-11-30-", 
             "title": "Feed the G3K; from the open web to a Giant Global Graph of Knowledge"
         }, 
         {
@@ -15643,10 +15511,11 @@
             "title": "Machine Learning for Humans"
         }, 
         {
-            "additional language": "", 
+            "additional language": "English, French", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "We will present a short overview of Open Cosmics and what we have worked on during, in between and after MozSprints '15 and '16.", 
-            "duration": "", 
+            "end": "4:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "CERN", 
@@ -15684,18 +15553,22 @@
             "id": "479", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-open-cosmics--bringing-cosmic-ray-physics-to-everyone", 
+            "location": "Floor 9 - 908", 
+            "notes url": "", 
             "programmatic": false, 
-            "tags": [], 
-            "timeblock": "", 
+            "start": "4:00pm", 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
+            "timeblock": "sat-4pm---saturday-16-00-", 
             "title": "Open Cosmics: Bringing Cosmic-Ray Physics to Everyone"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
-            "description": "We're developing a platform - MammalWeb (www.MammalWeb.org @MammalWeb) - where communities & schools use motion sensing \"camera traps\" to photograph local wildlife, upload those images to the website for crowdsourced classification, and collaboratively explore the data. Our web infrastructure is designed to be generalised and deployable by other communities interested in monitoring their own wildlife. This is a break from traditional ecological research that's driven by a few \"scientists\", and really takes citizen science into the hands of \"ordinary\" citizens.\nWe hope to share our experience building this platform, but more importantly start a discussion on (1) effective crowdsourcing of classifying large image datasets, perhaps with the use of Open Badges; (2) how to better develop this web platform; (3) overcoming the high barrier to entry for using motion sensing camera traps - They are expensive and proprietary, and we hope to make an open source version with your help!", 
-            "duration": "", 
+            "day": "Sunday", 
+            "description": "We're developing a platform - MammalWeb (www.MammalWeb.org @MammalWeb) - where communities & schools use motion sensing \"camera traps\" to photograph local wildlife, upload those images to the website for crowdsourced classification, and collaboratively explore the data. Our web infrastructure is designed to be generalised and deployable by other communities interested in monitoring their own wildlife. \n\nThis is a break from traditional ecological research that's driven by a few \"scientists\", and really takes citizen science into the hands of \"ordinary\" citizens. We hope to share our experience building this platform, but more importantly start a discussion on (1) effective crowdsourcing of classifying large image datasets, perhaps with the use of Open Badges; (2) comparing different citizen science platforms; (3) what it means to be a citizen scientist; (4) and what we wish for these platforms so they can help us be better participating citizens.", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Durham University", 
@@ -15733,18 +15606,20 @@
             "id": "480", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-an-open-platform-for-citizen-science-wildlife-monitoring-with-diy-motion-sensing-cameras", 
+            "location": "Floor 9 - 902", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "An open platform for citizen science wildlife monitoring with DIY motion sensing cameras"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Sunday", 
             "description": "This session is about addressing the short-lived nature of collaborative open data and open web projects. The participants will:\n- Identify the properties of sustainable open data\n- Explain why the sustainability of open data is important\n- Explain the barriers to creating sustainable open data\n- Share experiences and formulate strategies in tackling these barriers", 
-            "duration": "", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Tirami Ltd", 
@@ -15782,11 +15657,12 @@
             "id": "491", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-let-s-construct-open-data-initiatives-that-last", 
+            "location": "Floor 9 - 902", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Let's Construct Open Data Initiatives that Last"
         }, 
         {
@@ -15841,8 +15717,9 @@
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "Participants will leave the session with an understanding of what network evaluation is, why organisations (both commercial and non-commercial) care about network evaluation, and different methodological approaches to collecting and processing data for network analysis.  Parts of the session will be suitable for people with little to no experience in network evaluation; other parts will be geared more towards people with an existing knowledge of these principles who are focused on learning from people with pragmatic experience in running programmes for network evaluation.", 
-            "duration": "", 
+            "end": "4:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "TES Global", 
@@ -15850,14 +15727,14 @@
                     "twitter": "@caitiewrites"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "TES Global", 
+                    "name": "Michael Shaw", 
+                    "twitter": "@mrmichaelshaw"
                 }, 
                 "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "Mozilla Leadership Network", 
+                    "name": "Arliss Collins", 
+                    "twitter": "@arlissc99"
                 }, 
                 "4": {
                     "affiliated org": "", 
@@ -15873,34 +15750,36 @@
             "facilitators_names": [
                 "Caitlin McDonald", 
                 "", 
-                "", 
-                "", 
+                "Michael Shaw", 
+                "Arliss Collins", 
                 ""
             ], 
             "id": "523", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-connecting-the-dots--network-analysis-for-organisational-value", 
+            "location": "Floor 9 - 902", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Connecting the Dots: Network Analysis for Organisational Value"
         }, 
         {
-            "additional language": "English, French, Hindi", 
+            "additional language": "", 
             "category": "Open science", 
-            "description": "\"PirateBox (https://piratebox.cc/) is a DIY anonymous offline file-sharing and communications system built with free software and inexpensive off-the-shelf hardware\". Initially the PirateBox was built to facilitate people in the same vicinity to anonymously communicate and exchange files. But now, PirateBox has been used by musicians to share their music, by teachers to distribute and collect digital materials from students, by conference organizers to distribute conference materials and to provide local wireless commenting during presentations and by geeks to securely share cryptographic keys.\nThe main goal of this session is to build your own offline Internet-in-abox using PirateBox installation on the Raspberry Pi and use it for any of its applications. Participants are free to show their creativity by building anything using multiple PirateBoxes.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "The main goal of this session is to build your own offline Internet-in-box using PirateBox installation on the Raspberry Pi to anonymously communicate and exchange files within the wifi range. Depending on the number of participants, we will hack these boxes to use it either for educational purposes, for building local resilience networks or for organizing our own 'in-house CryptoPary'. Participants are free to show their creativity by building anything and everything using PirateBoxes.", 
+            "end": "12:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Ford-Mozilla Open Web Fellow @ EDRi", 
-                    "name": "Siddharth Prakash (Rao) Rao", 
+                    "name": "Siddharth Rao, Ford-Mozilla OpenWeb Fellow", 
                     "twitter": "sidnext2none"
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Etienne Maynier, Ford-Mozilla OpenWeb Fellow", 
                     "twitter": ""
                 }, 
                 "3": {
@@ -15920,35 +15799,34 @@
                 }
             }, 
             "facilitators_names": [
-                "Siddharth Prakash (Rao) Rao", 
+                "Siddharth Rao, Ford-Mozilla OpenWeb Fellow", 
                 "", 
-                "", 
+                "Etienne Maynier, Ford-Mozilla OpenWeb Fellow", 
                 "", 
                 ""
             ], 
             "id": "528", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-let-us-build-our-own-offline-internet", 
+            "location": "Floor 9 - 902", 
+            "notes url": "", 
             "programmatic": false, 
-            "tags": [
-                "Multi-lingual MozFest"
-            ], 
-            "timeblock": "", 
+            "start": "11:15am", 
+            "tags": [], 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Let us build our own offline Internet"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
-            "day": "Saturday", 
-            "description": "We want to create an online community where students, teachers and scientists can collaborate on Air Quality projects. Air quality in and around our schools is now a major concern (http://tinyurl.com/aq-schools-gov) . At the same time, affordable AQ technology has enabled schools to conduct their own air quality projects, and many schools  now offer AQ projects  in science programmes and as after-school activities. These projects present a golden opportunity to collect and analyse data about local conditions that would otherwise be lost. To ensure that the data collected will be useful, however, collaboration with scientists and technologists is essential (http://tinyurl.com/valid-data), The goal of this workshop will be to create an open online community in which students, guided by scientists, can contribute meaningfully to the scientific understanding of air quality. We wish to emphasise that this is a community initiative—without community support this won’t be possible.", 
-            "end": "3:00pm", 
+            "day": "Sunday", 
+            "description": "In this session participants will learn how to statistically analyze and plot some experimental data from our lab. These data help define if a small molecule is a promising drug candidate. Participants will learn a little about the biochemistry of cancer drug design as well as complexities of real data and how to plot and analyze them using python tools.", 
+            "end": "2:00pm", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "ScienceMakers", 
-                    "name": "Brian Fuchs", 
-                    "twitter": "@bcf5"
+                    "affiliated org": "Memorial Sloan Kettering Cancer Center", 
+                    "name": "Sonya Hanson", 
+                    "twitter": "@sonyahans"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -15972,28 +15850,31 @@
                 }
             }, 
             "facilitators_names": [
-                "Brian Fuchs", 
+                "Sonya Hanson", 
                 "", 
                 "", 
                 "", 
                 ""
             ], 
-            "id": "539", 
+            "id": "988", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 9 - 902", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-open-air-quality-science-for-schools-and-citizens--an-online-community-", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
-            "tags": [], 
-            "timeblock": "sat-1pm--saturday-13-00-", 
-            "title": "Open Air Quality Science for Schools and Citizens: an online community."
+            "tags": [
+                "The Future of the Web"
+            ], 
+            "timeblock": "sun-1pm--sunday-13-00-", 
+            "title": "Open science in drug design: Analysis and visualization of an open experimental dataset of FDA approved cancer drugs"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "The beginning session will be introduction about my community's idea, to built a Operating System designed for programmer (especially for beginner) called TeaLinux OS, you can get more information detail about it, here : tealinuxos.org\nImagine that programmer can just code without thinking about any confuse of development environment. Such as installing tools, compiler, setup configuration, etc. That can be a barrier to learn to code.\nIntroduction will cover the background why we making it, why it important, what we do for it and how it can help many developer / programmer.\nThen, i will give a DVD / participant, so they can try it with live boot mode (without install) or try after the event.\nWe will explore each feature of TeaLinux.\nThe next part is discussion, how this idea can be better, with brainstorming technic using post it. We will discuss each idea and conclude.", 
-            "duration": "", 
+            "end": "2:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Doscom - Dinus Open Source Community", 
@@ -16031,18 +15912,20 @@
             "id": "546", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-tea---linux---developer-friendly-os", 
+            "location": "Floor 9 - 908", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Tea + Linux = Developer Friendly OS"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "The session will demonstrate how we use technologies like Jupyter to analyse terrabytes of data in the web browser.\nWe will allow people to use our open source cloud based big-data platform which contains masses of weather data and interactive tools to process and visualise it.", 
-            "duration": "", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Met Office Informatics Lab", 
@@ -16051,13 +15934,13 @@
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "name": "Niall Robinson", 
+                    "twitter": "@niallhrobinson"
                 }, 
                 "3": {
                     "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "name": "Ian Gentry", 
+                    "twitter": "@ian-g, ian"
                 }, 
                 "4": {
                     "affiliated org": "", 
@@ -16073,25 +15956,27 @@
             "facilitators_names": [
                 "Jacob Tomlinson", 
                 "", 
-                "", 
-                "", 
+                "Niall Robinson", 
+                "Ian Gentry", 
                 ""
             ], 
             "id": "547", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-processing-environmental-big-data-in-the-browser-for-science--", 
+            "location": "Floor 9 - 902", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Processing environmental big-data in the browser for Science!!"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "This would primarily be a discussion on how we can create diverse communities that span multiple academic disciplines. We would brainstorm with a group why this is beneficial, and talk about some concrete ways that this can be helped along, as well as what can get in the way of this ideal.", 
-            "duration": "", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "University of Toronto", 
@@ -16100,17 +15985,17 @@
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "name": "Lina Tran", 
+                    "twitter": "@Lmntran"
                 }, 
                 "3": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Lindsay Coome", 
                     "twitter": ""
                 }, 
                 "4": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Luke Johnston", 
                     "twitter": ""
                 }, 
                 "5": {
@@ -16121,19 +16006,20 @@
             }, 
             "facilitators_names": [
                 "Madeleine Bonsma", 
-                "", 
-                "", 
-                "", 
+                "Luke Johnston", 
+                "Lina Tran", 
+                "Lindsay Coome", 
                 ""
             ], 
             "id": "552", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-study-groups---crossing-the-boundaries-of-discipline", 
+            "location": "Floor 9 - 908", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "2:30pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-2-30pm--saturday-14-30-", 
             "title": "Study Groups - Crossing the Boundaries of Discipline"
         }, 
         {
@@ -16241,8 +16127,9 @@
         {
             "additional language": "", 
             "category": "Open science", 
-            "description": "WeCureALZ* is a game that will, for the first time ever, allow anyone to fight Alzheimer's directly - through citizen science. Researchers at Cornell University have found promising leads in slowing down or preventing Alzheimer's, but due to the data analysis step, it could take decades before we arrive at an actual treatment target. To overcome this, we have created a game that will allow everyone to become \"Stall Catchers\" and hunt for clogged blood vessels in realtime brain blood flow movies. With the help of citizen scientists, we could arrive at promising treatment targets in just a few years, all the while learning about and fighting a disease that in one way or another affects everyone. The goal of this session is to demonstrate the game & start building the first ever community of #citsci4alz.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "EyesOnALZ is the first ever initiative that applies citizen science to the analysis of Alzheimer's research data. The project is developing two online games that will crowdsource the data acquired at Cornell University, where promising leads in slowing down and preventing Alzheimer's have recently been found. Since the data analysis is extremely time-consuming, it could take decades before the researchers arrive at actual treatment targets - but with volunteers' help we could speed up this process by orders of magnitude.\n\nStall Catchers is the first of two EyesOnALZ games, and is already available online. In Stall Catchers participants view movies of live mouse brains and try to \"catch\" stalls - clogged blood vessels. By playing the game, participants will help to answer research questions leading up to potential Alzheimer's treatments, thus directly fighting a disease that in one way or another affects everyone.\n\nThe goal of this session is to demonstrate the game & start building the first ever community of #citsci4alz.", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Human Computation Institute", 
@@ -16250,8 +16137,8 @@
                     "twitter": "seplute"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "PenguinGalaxy", 
+                    "name": "Alice Sheppard", 
                     "twitter": ""
                 }, 
                 "3": {
@@ -16273,25 +16160,27 @@
             "facilitators_names": [
                 "Egle Marija Ramanauskaite", 
                 "", 
-                "", 
+                "Alice Sheppard", 
                 "", 
                 ""
             ], 
             "id": "565", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-fighting-alzheimer-s-with-citizen-science", 
+            "location": "Floor 9 - 908", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "11:45am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-11-45am--saturday-11-45-", 
             "title": "Fighting Alzheimer's with citizen science"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Sunday", 
             "description": "Sharing research artifacts along with publications or at the end of research projects is gradually becoming a must for open science.\nWe have developed a supporting open-source technology (Collective Knowledge or CK for short) to share artifacts as reusable Python components with JSON API via GitHub; quickly prototype experimental workflows from such components as LEGO™ (such as multi-objective autotuning); automate, crowdsource and reproduce experiments; expose them to predictive analytics (scikit-learn, R, DNN), and enable interactive articles.\nAt this session, we will give researchers a high-level overview of CK capabilities including how to organize, share and reuse their artifacts and experimental workflows. We will also demonstrate various real CK-based experimental scenarios (such as collaboratively benchmarking and tuning Deep Neural Network algorithms and crowdsourcing compiler optimizations),  already used by leading universities and research laboratories, Fortune50 companies, and computer systems' conferences (for artifact evaluation).\nMore information is available at:\n* http://cknowledge.org/repo\n* http://cTuning.org/ae", 
-            "duration": "", 
+            "end": "2:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "cTuning foundation (non-profit research organization)", 
@@ -16329,18 +16218,20 @@
             "id": "569", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-collective-knowledge--an-open-research-sdk-to-share--evaluate-and-reuse-artifacts", 
+            "location": "Floor 9 - 902", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "1:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-1pm--sunday-13-00-", 
             "title": "Collective Knowledge: an open research SDK to share, evaluate and reuse artifacts"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Sunday", 
             "description": "Who gets to do sci comms? Do communicators need science degrees? Do scientists need a masters in communication studies? This chat seeks to demystify science communication for anyone interested in trying it out. We’ll discuss how you can break into scientific communications, what are ways to start doing it, and whether you need a university degree in science to tell others about cutting edge findings? (Hint: you don't!) And, yes, we’ll provide some hints and tips on how you can overcome that pesky imposter syndrome! This session is for beginning and advanced “sci commers” looking to help each other through the crazy world of writing about cool and exciting research around the world.", 
-            "duration": "", 
+            "end": "11:30am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -16378,18 +16269,20 @@
             "id": "572", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-imposter-syndrome--do-you-need-a-science-degree-to-communicate-science-", 
+            "location": "Floor 9 - 908", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "11:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Imposter Syndrome: Do you need a science degree to communicate science?"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "This session is looking at the different problems research in different fields and making the data found be open to others. This particular session aims to allow participants to get together and discuss all of the various benefits and problems associated with keeping research data open, looking at the idea of Quantum Computing and all of its possible ramifications as an example for discussion to spring board from.", 
-            "duration": "", 
+            "end": "5:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -16427,11 +16320,12 @@
             "id": "597", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-quantum-computing--a-discussion-on-keeping-the-future-of-computing-open", 
+            "location": "Floor 9 - 908", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Quantum Computing: A discussion on keeping the future of Computing Open"
         }, 
         {
@@ -16486,10 +16380,11 @@
             "title": "Using open sourced Crowd mapping to improve citizen and government engagement"
         }, 
         {
-            "additional language": "", 
-            "category": "Open science", 
+            "additional language": "Spanish, English", 
+            "category": "Open Science", 
+            "day": "Saturday", 
             "description": "Recent trends in computing have brought \"big data\", \"analytics\" and \"visualization\" into popular use. Behind the buzzwords are simple truths about how we understand out shared world. Together we will cut through the noise to learn:\n- what data analysis has in common with writing an email or drawing a birthday card\n- why maps resonate more than charts, and charts more than tables\n- how to conduct a data analysis with tools at your fingertips today\n- why you are an excellent mathematician\nYou will leave with a clear idea of:\n- which few data subjects you should care about\n- the many data subjects you can safely ignore\n- how to leverage freely available software and data\n- how to approach using data analysis to understand problems important to you", 
-            "duration": "", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -16527,20 +16422,23 @@
             "id": "645", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-data--from--what--why--and-how--to--you--here--and-now-", 
+            "location": "Floor 9 - 902", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [
-                "The Future of the Web"
+                "The Future of the Web", 
+                "Multi-lingual MozFest"
             ], 
-            "timeblock": "", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Data: from \"What, Why, and How\" to \"You, Here, and Now\""
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Sunday", 
             "description": "This session will be dedicated to mapping and connecting grassroots- and community-led citizen science projects. Led and inspired by leads from successful initiatives and grassroots organisations, attendees will be able to share and discuss challenges they have faced with their initiatives (e.g. funding, lack of time, etc.), engage in roundtable discussions to address them, and build the foundations for a network to support each other going forward.", 
-            "duration": "", 
+            "end": "2:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Science Hack Day Berlin", 
@@ -16549,7 +16447,7 @@
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Cindy Regalado", 
                     "twitter": ""
                 }, 
                 "3": {
@@ -16571,25 +16469,27 @@
             "facilitators_names": [
                 "Lucy Patterson", 
                 "", 
-                "", 
+                "Cindy Regalado", 
                 "", 
                 ""
             ], 
             "id": "681", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-networking-science--citizens----grassroots", 
+            "location": "Floor 9 - 903", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "12:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-12-15pm--sunday-12-15-", 
             "title": "Networking science, citizens, & grassroots"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "- Know more about what their dreams are, what they wanted to do\n- Know the knowledge and skills needed to make this dream come true\n- look for community / group / people with same goal and motivation\n- Be aware that it is better & easier if you find a team to encourage you, learn the skills and the knowledge required ( people with same & similar dreams \" In the MozFest event \"/ a learning group \" In the Internet : Massive Open Online Courses / In facebook : facebook Groups .. \"\n- Keep in mind that people without a dream, or couldn't make their dream came true they will try to destroy others' dreams\n- Manage the feedling of failing in protecting a dream ( something that we love )", 
-            "duration": "15", 
+            "end": "2:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Jasmine Hall - Coworking Space AND Mozilla Reps", 
@@ -16630,15 +16530,17 @@
             "location": "Floor 9 - 908", 
             "notes url": "", 
             "programmatic": false, 
+            "start": "1:45pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-1-45pm--saturday-13-45-", 
             "title": "Dreams on balloons"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Sunday", 
             "description": "Genomic data discovery and access is difficult and time-consuming, a real hurdle for advances in cancer and genetic diseases research. Our ambition is to build Open Source, Node.js based tools, which integrate with modern web technologies. We want to provide smooth data access workflows to power health research and to maximise the research impact.\nParticipants will learn how to use Node.js to query and fetch data from the web, how to process it in a real-time and scalable way using Node.js Streams (similar to UNIX pipes). We will focus on genomic data repositories, but the knowledge on fetching data and building complex pipes using Streams is widely transferable. The participants will have the option, and will be incentivized, to publish the developed code as reusable Node.js modules under the Open Source community project Bionode.io. We will follow-up with these participants after the MozFest event.", 
-            "duration": "120", 
+            "end": "1:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Bionode.io (founder and maintainer) and Queen Mary University of London (PhD student at WurmLab)", 
@@ -16646,18 +16548,18 @@
                     "twitter": "@bmpvieira and @bionode"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "Queen Mary University of London", 
+                    "name": "Adrian Lärkeryd", 
                     "twitter": ""
                 }, 
                 "3": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "Repositive.io", 
+                    "name": "Charlotte Whicher", 
                     "twitter": ""
                 }, 
                 "4": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "Repositive.io", 
+                    "name": "Ruben Paz", 
                     "twitter": ""
                 }, 
                 "5": {
@@ -16668,19 +16570,20 @@
             }, 
             "facilitators_names": [
                 "Bruno Vieira", 
-                "", 
-                "", 
-                "", 
+                "Ruben Paz", 
+                "Adrian Lärkeryd", 
+                "Charlotte Whicher", 
                 ""
             ], 
             "id": "711", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-crawling-the-web-for-genomic-data-with-node-js-streams-and-bionode-io", 
+            "location": "Floor 9 - 903", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "11:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Crawling the web for genomic data with Node.js Streams and Bionode.io"
         }, 
         {
@@ -16696,8 +16599,8 @@
                     "twitter": ""
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "University of Kansas Medical Center", 
+                    "name": "Anurag Patel", 
                     "twitter": ""
                 }, 
                 "3": {
@@ -16719,7 +16622,7 @@
             "facilitators_names": [
                 "Laura Gilchrist", 
                 "", 
-                "", 
+                "Anurag Patel", 
                 "", 
                 ""
             ], 
@@ -16727,7 +16630,7 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 9 - 902", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-gigabits--the-higgs-boson--and-citizen-science", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "10:00am", 
             "tags": [], 
@@ -16777,8 +16680,8 @@
             "id": "751", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 9 - 902", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-gosh--a-roadmap-for-open-science-hardware", 
+            "location": "Floor 9 - 903", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "10:00am", 
             "tags": [], 
@@ -16793,19 +16696,19 @@
             "end": "1:00pm", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "lab804", 
+                    "affiliated org": "", 
                     "name": "João Trevizoli Esteves", 
-                    "twitter": ""
+                    "twitter": "@lab804"
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "name": "Murilo Ijanc", 
+                    "twitter": "@murilobsd"
                 }, 
                 "3": {
                     "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "name": "Adriano Cupello", 
+                    "twitter": "@londrix"
                 }, 
                 "4": {
                     "affiliated org": "", 
@@ -16821,15 +16724,15 @@
             "facilitators_names": [
                 "João Trevizoli Esteves", 
                 "", 
-                "", 
-                "", 
+                "Murilo Ijanc", 
+                "Adriano Cupello", 
                 ""
             ], 
             "id": "753", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 9 - 903", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-go-green-with-iot", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "11:00am", 
             "tags": [], 
@@ -16879,8 +16782,8 @@
             "id": "775", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 9 - 903", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-science-safaris-in-the-maasai-mara--kenya", 
+            "location": "Floor 9 - 902", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
             "tags": [], 
@@ -16890,12 +16793,13 @@
         {
             "additional language": "", 
             "category": "Open science", 
-            "description": "this is a group led session aimed to leverage all the knowledge and brain power flowing during the weekend, aiming to be the starting ground of something that will continue to take shape beyond the fest, we will be focusing on how to produce tools and products that can help solve global issues from education in refugee camps to women entrepreneurship", 
-            "duration": "", 
+            "day": "Sunday", 
+            "description": "This is a group led session, we will introduce you to the world of open source and how this benefits the community, coming up with problems that are affecting the world right now and coming up with solutions to tackle them, these will be updated in real time at the session on the open innovation lab website created as an outcome of this session.", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "explore science", 
-                    "name": "shwetal shah", 
+                    "name": "Shwetal Shah", 
                     "twitter": "@exploscience"
                 }, 
                 "2": {
@@ -16920,7 +16824,7 @@
                 }
             }, 
             "facilitators_names": [
-                "shwetal shah", 
+                "Shwetal Shah", 
                 "", 
                 "", 
                 "", 
@@ -16929,18 +16833,20 @@
             "id": "791", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-innovation-ideas-hub", 
+            "location": "Floor 9 - 908", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "5:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-5pm--sunday-17-00-", 
             "title": "Innovation ideas hub"
         }, 
         {
-            "additional language": "", 
+            "additional language": "English, Spanish", 
             "category": "Open science", 
+            "day": "Sunday", 
             "description": "Our Hack Brexit workshop will give participants the opportunity to contribute to an existing open source accelerator programme to create tech solutions to drive dialog, unity and positive action beyond Brexit.  Organized in collaboration with Code First: Girls, ThoughtWorks and WeRockTech, this project started life as a weekend hackathon on 23-4 July 2016. During the weekend we built ten open source projects, and started an accelerator programme for two of these projects.\nWe would like to bring together both technical and non-technical attendees to continue to work on these projects during the workshop. You can see more about the projects here (http://hackbrexit.org/). For technical attendees there are very interesting data sets and technologies to work with, and for non technical attendees this is a great chance to learn more about basic web development and contribute to the projects in a variety of ways (e.g. research, data gathering etc).", 
-            "duration": "", 
+            "end": "4:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Code First: Girls", 
@@ -16949,12 +16855,12 @@
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "name": "Nina McNamara", 
+                    "twitter": "@NinaMcNamara"
                 }, 
                 "3": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Kylie Castellaw", 
                     "twitter": ""
                 }, 
                 "4": {
@@ -16971,74 +16877,29 @@
             "facilitators_names": [
                 "Charlotte Fereday", 
                 "", 
-                "", 
-                "", 
+                "Nina McNamara", 
+                "Kylie Castellaw", 
                 ""
             ], 
             "id": "795", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-hack-brexit-workshop", 
+            "location": "Floor 9 - 903", 
+            "notes url": "", 
             "programmatic": false, 
-            "tags": [], 
-            "timeblock": "", 
+            "start": "2:00pm", 
+            "tags": [
+                "Multi-lingual MozFest"
+            ], 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Hack Brexit Workshop"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
-            "description": "We will walk through an overview of what kind of data Mozilla collects, constraints like our privacy policy and what the data is used for.\nFrom there, we look for ideas or proposals of what kind of public data or reports could serve broader groups.", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Mozilla", 
-                    "name": "Georg Fritzsche", 
-                    "twitter": "@georgfritzsche"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "4": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "5": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Georg Fritzsche", 
-                "", 
-                "", 
-                "", 
-                ""
-            ], 
-            "id": "811", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-how-can-we-mozillas-data-to-solve-others-problems-", 
-            "programmatic": false, 
-            "tags": [], 
-            "timeblock": "", 
-            "title": "How can we Mozillas data to solve others problems?"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Open science", 
+            "day": "Saturday", 
             "description": "A lightning talk on:\n- The current state of quantum computing\n- A basic overview of how QC works\n- The predicted future of QC and how it will impact our everyday lives\n- How you can learn QC at home", 
-            "duration": "", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -17076,18 +16937,20 @@
             "id": "816", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-quantum-computing---the-next-step", 
+            "location": "Floor 9 - 908", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "5:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-5-15pm--saturday-17-15-", 
             "title": "Quantum computing - the next step"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "A talk on how the next step in the human evolutionary path may involve digital enhancements.\nA philosophical talk about the ethics of biohacking, genetic engineering.", 
-            "duration": "", 
+            "end": "1:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -17125,18 +16988,20 @@
             "id": "817", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-digital-evolution--our-destiny-", 
+            "location": "Floor 9 - 908", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "1:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-1pm--saturday-13-00-", 
             "title": "Digital evolution. Our destiny?"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Sunday", 
             "description": "Your first challenge was understanding the problem. Now you have an idea of how to develop a solution, but how do you get access to the resources you need to build, install, and share the software? Large companies have the money to build their own infrastructure. In this fireside chat style session, we'll discuss the best practices that the rest of us can follow. We want to hear your success stories and learn from your failures of trying to deploy or share a simulation tool or data with others.", 
-            "duration": "", 
+            "end": "2:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "HUBzero, Purdue University", 
@@ -17144,9 +17009,9 @@
                     "twitter": "@hubzeroplatform"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "HUBzero, Purdue University", 
+                    "name": "Alissa Nedossekina", 
+                    "twitter": "@snowwitje"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -17167,25 +17032,27 @@
             "facilitators_names": [
                 "Derrick Kearney", 
                 "", 
-                "", 
+                "Alissa Nedossekina", 
                 "", 
                 ""
             ], 
             "id": "820", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-sos--tips-for-deploying-scientific-online-simulations-and-data", 
+            "location": "Floor 9 - 908", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "SOS: Tips For Deploying Scientific Online Simulations and Data"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
+            "day": "Saturday", 
             "description": "Are you looking for a hands-on project to contribute to? Do you have a project you want to test out with contributors? This is the session for you!\n\nBuilt around the Open Leadership Training Series (OLTS), this session features:\n\n1. breakout groups for several projects that have completed the training and are looking for contributors (you!), and\n2. a helpdesk for those interested in making their projects more contributor friendly\n\nSome of the featured projects you can contribute to in this session:\n* [OpenStudentBook : A little guide to fuel the Open movement in the universities](https://github.com/MozillaFoundation/mozfest-program-2016/issues/834) with [Edoardo Viola](https://github.com/edovio)\n* [Help Build Resources for the Mozilla Campus Clubs!](https://github.com/MozillaFoundation/mozfest-program-2016/issues/838) with [Faye Tandog](https://github.com/fayetandog)\n* [Let's teach, build and protect the Open Web in Universities](https://github.com/MozillaFoundation/mozfest-program-2016/issues/839) with [Christos Bacharakis](https://github.com/bacharakis)\n* [Apps for community empowerment!](https://github.com/MozillaFoundation/mozfest-program-2016/issues/669) with [Anderson Walworth](https://github.com/anderson29) and [Kristyn Sonnenberg](https://github.com/skristyn)", 
-            "duration": "", 
+            "end": "5:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Sage Bionetworks", 
@@ -17223,18 +17090,19 @@
             "id": "822", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-open-projects---hackathon---helpdesk-", 
+            "location": "Floor 9 - 907", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Open Projects - hackathon & helpdesk!"
         }, 
         {
             "additional language": "", 
             "category": "Open Science", 
             "description": "The goal of the session is to provide an environment to discuss the use of citations pertaining to software in the research community. We are working on a suite of tools in collaboration with Mozilla Science to assist researchers in citing software and to drive the implementation of the ideas outlined in Force 11’s software citation principles https://www.force11.org/software-citation-principles", 
-            "duration": "", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "The Rochester Institute of Technology", 
@@ -17272,18 +17140,20 @@
             "id": "842", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-roundtable-on-software-citation-in-the-research-community", 
+            "location": "Floor 9 - 908", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "2:30pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-2-30pm--sun-14-30-", 
             "title": "Roundtable on Software Citation in the Research Community"
         }, 
         {
             "additional language": "", 
             "category": "Open Science", 
+            "day": "Saturday", 
             "description": "Exploring the use of digital badges for crediting contributors to scholarly papers for their work. As the research environment becomes more digital, we want to test how we can use this medium to help bring transparency and credit for individuals in the publication process. In this session we will implement PaperBadger on your personal site or your journal.\nThis work is a collaboration with publishers BioMed Central (BMC), Ubiquity Press (UP) and the Public Library of Science (PLoS); the biomedical research foundation, The Wellcome Trust; the software and technology firm Digital Science; the registry of unique researcher identifiers, ORCID; and the Mozilla Science Lab.", 
-            "duration": "", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla", 
@@ -17321,12 +17191,166 @@
             "id": "860", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-paper-badger--contributorship-badges-for-science", 
+            "location": "Floor 9 - 903", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "1:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-1pm--saturday-13-00-", 
             "title": "Paper Badger: Contributorship Badges for Science"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Open science", 
+            "day": "Sunday", 
+            "description": "Are you looking for a hands-on project to contribute to? Do you have a project you want to test out with contributors? This is the session for you!\n\nBuilt around the Open Leadership Training Series (OLTS), this session features:\n\n1. breakout groups for several projects that have completed the training and are looking for contributors (you!), and\n2. a helpdesk for those interested in making their projects more contributor friendly\n\nSome of the featured projects you can contribute to in this session:\n* [OpenStudentBook : A little guide to fuel the Open movement in the universities](https://github.com/MozillaFoundation/mozfest-program-2016/issues/834) with [Edoardo Viola](https://github.com/edovio)\n* [Help Build Resources for the Mozilla Campus Clubs!](https://github.com/MozillaFoundation/mozfest-program-2016/issues/838) with [Faye Tandog](https://github.com/fayetandog)\n* [Let's teach, build and protect the Open Web in Universities](https://github.com/MozillaFoundation/mozfest-program-2016/issues/839) with [Christos Bacharakis](https://github.com/bacharakis)\n* [Apps for community empowerment!](https://github.com/MozillaFoundation/mozfest-program-2016/issues/669) with [Anderson Walworth](https://github.com/anderson29) and [Kristyn Sonnenberg](https://github.com/skristyn)", 
+            "end": "5:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Sage Bionetworks", 
+                    "name": "Brian Bot", 
+                    "twitter": "@BrianMBot"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "Edoardo Viola", 
+                    "twitter": "@edovio"
+                }, 
+                "3": {
+                    "affiliated org": "Mozilla Philippines Community", 
+                    "name": "Faye Tandog", 
+                    "twitter": "@fayetandog"
+                }, 
+                "4": {
+                    "affiliated org": "Mozilla", 
+                    "name": "Christos Bacharakis", 
+                    "twitter": "@bacharakis"
+                }, 
+                "5": {
+                    "affiliated org": "Detroit Community Technology Project", 
+                    "name": "Anderson Walworth and Kristyn Sonnenberg", 
+                    "twitter": "@DetCommTech"
+                }
+            }, 
+            "facilitators_names": [
+                "Brian Bot", 
+                "Christos Bacharakis", 
+                "Edoardo Viola", 
+                "Faye Tandog", 
+                "Anderson Walworth and Kristyn Sonnenberg"
+            ], 
+            "id": "1550", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 9 - 907", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "3:15pm", 
+            "tags": [], 
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
+            "title": "Open Projects - hackathon & helpdesk!"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Open science", 
+            "day": "Saturday", 
+            "description": "", 
+            "end": "1:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Sage Bionetworks", 
+                    "name": "Brian Bot", 
+                    "twitter": "@BrianMBot"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "Edoardo Viola", 
+                    "twitter": "@edovio"
+                }, 
+                "3": {
+                    "affiliated org": "Mozilla Philippines Community", 
+                    "name": "Faye Tandog", 
+                    "twitter": "@fayetandog"
+                }, 
+                "4": {
+                    "affiliated org": "Mozilla", 
+                    "name": "Christos Bacharakis", 
+                    "twitter": "@bacharakis"
+                }, 
+                "5": {
+                    "affiliated org": "Detroit Community Technology Project", 
+                    "name": "Anderson Walworth and Kristyn Sonnenberg", 
+                    "twitter": "@DetCommTech"
+                }
+            }, 
+            "facilitators_names": [
+                "Brian Bot", 
+                "Christos Bacharakis", 
+                "Edoardo Viola", 
+                "Faye Tandog", 
+                "Anderson Walworth and Kristyn Sonnenberg"
+            ], 
+            "id": "1551", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 9 - 907", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "11:15am", 
+            "tags": [], 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
+            "title": "Office Hours"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Open science", 
+            "day": "Sunday", 
+            "description": "", 
+            "end": "2:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Sage Bionetworks", 
+                    "name": "Brian Bot", 
+                    "twitter": "@BrianMBot"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "Edoardo Viola", 
+                    "twitter": "@edovio"
+                }, 
+                "3": {
+                    "affiliated org": "Mozilla Philippines Community", 
+                    "name": "Faye Tandog", 
+                    "twitter": "@fayetandog"
+                }, 
+                "4": {
+                    "affiliated org": "Mozilla", 
+                    "name": "Christos Bacharakis", 
+                    "twitter": "@bacharakis"
+                }, 
+                "5": {
+                    "affiliated org": "Detroit Community Technology Project", 
+                    "name": "Anderson Walworth and Kristyn Sonnenberg", 
+                    "twitter": "@DetCommTech"
+                }
+            }, 
+            "facilitators_names": [
+                "Brian Bot", 
+                "Christos Bacharakis", 
+                "Edoardo Viola", 
+                "Faye Tandog", 
+                "Anderson Walworth and Kristyn Sonnenberg"
+            ], 
+            "id": "1552", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 9 - 907", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "12:15pm", 
+            "tags": [], 
+            "timeblock": "sun-12-15pm--sunday-12-15-", 
+            "title": "Office Hours"
         }, 
         {
             "additional language": "", 
@@ -19921,7 +19945,7 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 2 - 211", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-github-s-patchwork", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "11:15am", 
             "tags": [], 
@@ -19960,7 +19984,7 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 2 - 211", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-rocket-rumble", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "12:30pm", 
             "tags": [], 
@@ -20192,43 +20216,6 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
-            "description": "An introduction to book binding. Making booklets and experiencing how books are constructed", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "", 
-                    "name": "Marie Taylor", 
-                    "twitter": ""
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Marie Taylor", 
-                "", 
-                ""
-            ], 
-            "id": "187", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-book-binding-basics", 
-            "programmatic": false, 
-            "tags": [], 
-            "timeblock": "", 
-            "title": "Book binding basics"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Youth zone", 
             "description": "In the last years, disciplines like journalism and video games have been invaded by two technological concepts: Virtual Reality and Augmented Reality.  AR features have become concrete in games which use the real world as a field of game.\nBut, How can we prototype faster? Aframe.io started to show the world that VR is not far from anyone. The challenge here is more creative than technical. Like PokemonGo, the importance lays in the story which later has been prototyped. We are willing to show concrete examples and play with tools to understand how this technology sets the pace for the telepresence, immersion and understanding of situations.\n1) Understand the basics of AR\n2) Demystify the AR technology, and gain experience on how to create and design tools.\n3) Produce experiences based on meaningful stories throug full reality Storyboard.\n4) Get hands on and build an experience you will bring home.", 
             "duration": "", 
             "facilitators": {
@@ -20332,7 +20319,7 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 2 - 209", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-code-in-space", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "11:15am", 
             "tags": [], 
@@ -20371,7 +20358,7 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 2 - 211", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-hacking-minecraft-with-raspberry-pi", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "10:00am", 
             "tags": [], 
@@ -20410,12 +20397,49 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 2 - 209", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-physical-computing-with-scratch-on-the-raspberry-pi", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
             "tags": [], 
             "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Physical Computing with Scratch on the Raspberry Pi"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "description": "This open session will allow people to show up and learn about Raspberry Pi from the Raspberry Pi Foundation team, Raspberry Pi Certified Educators and Community Jam Makers and see some of the projects that are possible to complete using Raspberry Pi. All are welcome!", 
+            "duration": "", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Raspberry Pi Foundation", 
+                    "name": "Helen Drury", 
+                    "twitter": "@Raspberry_Pi"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Helen Drury", 
+                "", 
+                ""
+            ], 
+            "id": "218", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "", 
+            "notes url": "", 
+            "programmatic": false, 
+            "tags": [], 
+            "timeblock": "", 
+            "title": "Raspberry Jam"
         }, 
         {
             "additional language": "", 
@@ -20568,13 +20592,13 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
-            "description": "Participants will create 3D scenes using a game engine called UNITY (used for creating PS4 and XBOX ONE games), transform themelves into a supernatural being with costumes and facepaints, transport their characters into the scene using 3D scanning, and then explore the whole island through an Augmented Reality APP on an iPAD (similar to Pokemon GO!), while other participants create a digital soundscape for each participant's magic island experience.", 
+            "description": "It would allow them to use the BBC micro:bit in combination with a Raspberry Pi & Minecraft Pi Edition to fly interactive Star Wars craft inside a virtual Minecraft world, controlled in the real world by the micro:bit.", 
             "duration": "", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "1623 theatre company", 
-                    "name": "Ben Spiller", 
-                    "twitter": "@1623theatre"
+                    "affiliated org": "", 
+                    "name": "Joe Glancy", 
+                    "twitter": "@c0d3st0rm"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -20588,19 +20612,19 @@
                 }
             }, 
             "facilitators_names": [
-                "Ben Spiller", 
+                "Joe Glancy", 
                 "", 
                 ""
             ], 
-            "id": "294", 
+            "id": "277", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-magic-island", 
+            "notes url": "", 
             "programmatic": false, 
             "tags": [], 
             "timeblock": "", 
-            "title": "Magic Island"
+            "title": "Minecraft Pi and the physical world"
         }, 
         {
             "additional language": "", 
@@ -20782,7 +20806,7 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 2 - 211", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-robot-hacking-with-the-crumble", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
             "tags": [], 
@@ -20792,8 +20816,9 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
-            "description": "*suitable for all ages, including young beginners*\nParticipants will be hand drawing a design, and using inkscape to convert this into a laserable design. They can then fabricate their design on the lasercutter using acrylic or plywood.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "Participants will be learning how to use Inkscape (open source design program) to create a vector design which they will then be able to fabricate on the lasercutter using acrylic or plywood.", 
+            "end": "11:15am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -20816,15 +20841,55 @@
                 "", 
                 ""
             ], 
-            "id": "484", 
+            "id": "483", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-lasers---and-how-you-can-use-them-to-bring-your-drawings-to-life", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "11:15am", 
             "tags": [], 
-            "timeblock": "", 
-            "title": "LASERS - and how you can use them to bring your drawings to life"
+            "timeblock": "sat-11-15am--saturday-11-15-", 
+            "title": "LASERS - and what you can make with them."
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Saturday", 
+            "description": "The aim of the workshop is to have attendees write a program that will, in conjunction with a capacative button, build castles in the Raspberry Pi version of Minecraft, via its Python API. This brings the together the virtual and real worlds, serving as a taster for the API's (and python as a whole) capability and scope.", 
+            "end": "1:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "Joseph Thomas", 
+                    "twitter": "@jthomascoop"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Joseph Thomas", 
+                "", 
+                ""
+            ], 
+            "id": "487", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 209", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "12:30pm", 
+            "tags": [], 
+            "timeblock": "sat-12-30pm--saturday-12-30-", 
+            "title": "Castles, code and capacitive buttons : Building castles in Minecraft with the touch of a button"
         }, 
         {
             "additional language": "", 
@@ -20979,13 +21044,14 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
-            "description": "The Museum of London has produced a Minecraft experience by recreating the City of London in 1666. The Museum of London has worked with some of the world’s best Minecraft professionals to create these maps, combining our knowledge and collections with their creative minds to bring history to life. In the session we will discuss some of the thinking behind the project, what it has been like to enter into the unfamiliar world of Minecraft and why it is such a powerful platform to use for digital engagement and learning.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "Make your world in Minecraft Pi Edition. Choose anywhere in England and build it into Minecraft using LIDAR data. The whole nation has been scanned with \"Lasers\" and anyone can use the data. So using open source javascript we developed at school you can build real terrain and buildings in glorious blocks. Then modify it to make it more realistic or see where might flood in a storm or redesign your school. You should be able to take a copy of your creation (if you bring a USB stick) and we will show you how to install the code on your Pi.", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "Museum of London", 
-                    "name": "Josh Blair", 
-                    "twitter": "@josh__blair"
+                    "affiliated org": "UTC Sheffield", 
+                    "name": "Lauren Hopkins", 
+                    "twitter": "@UTCSheffield"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -20999,19 +21065,20 @@
                 }
             }, 
             "facilitators_names": [
-                "Josh Blair", 
+                "Lauren Hopkins", 
                 "", 
                 ""
             ], 
-            "id": "601", 
+            "id": "608", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-great-fire-------using-minecraft-to", 
+            "location": "Floor 2 - 211", 
+            "notes url": "", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
-            "title": "The Great Fire 1666, using Minecraft to"
+            "timeblock": "sat-2pm--saturday-14-00-", 
+            "title": "Build the Real World in Minecraft on Raspberry Pi"
         }, 
         {
             "additional language": "", 
@@ -21092,6 +21159,43 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "description": "We will be running a workshop to teach people how to create Raspberry Pi Robots using the GPIO zero library.", 
+            "duration": "", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Southend Raspberry Jam", 
+                    "name": "Isreal Genius", 
+                    "twitter": "@Isreal_Genius"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Isreal Genius", 
+                "", 
+                ""
+            ], 
+            "id": "680", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "", 
+            "notes url": "", 
+            "programmatic": false, 
+            "tags": [], 
+            "timeblock": "", 
+            "title": "Raspberry Pi Robots"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
             "description": "This is a simple discussion style workshop very similar to what was held last year between Tom Farrow and myself. This year however we will be looking more into the concept of data permanence and how it can affect future opportunities and hence why it maybe important to be careful about what you put onto the internet. This session also aims for the participants to leave with the required skills to then go to their peers to hopefully explain to them why this is an important topic, possibly encouraging them to host such discussions at home or maybe at school.", 
             "duration": "", 
             "facilitators": {
@@ -21129,13 +21233,13 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
-            "description": "In this hands-on workshop attendees use an 11x17, 3-fold template to explore and document their ideas and ambitions for the open web. The template is organized in six panels: five for ideation, one for a circuit that’s used to illuminate the ideas in two of the panels using LEDs. Exercises, panel to panel, include the use of sticky notes, abstraction laddering for “why” and “how,” an importance/difficulty matrix, a storyboard, a section for next steps, and a space for review from peers. Participants use a 3v battery, copper tape and low-profile LED circuit stickers from Chibitronics – solderless, peel-and-stick electronics modules for crafting circuits – to introduce illumination as a design element in the activity.", 
+            "description": "During the session children will understand the importance of clear instructions when programming. They will learn how to make a simple robot and program it to move.", 
             "duration": "", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "Nexmap.org", 
-                    "name": "David Cole", 
-                    "twitter": "@dmcole_"
+                    "affiliated org": "Latymer Prep School / 3BM", 
+                    "name": "Nicholas Hughes", 
+                    "twitter": "duck_star"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -21149,25 +21253,63 @@
                 }
             }, 
             "facilitators_names": [
-                "David Cole", 
+                "Nicholas Hughes", 
                 "", 
                 ""
             ], 
-            "id": "640", 
+            "id": "755", 
             "localized description": "", 
             "localized title": "", 
             "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-how-might-we-scrapbook-mozfest----a-lo-fi-paper-circuitry-physical-computing-workshop", 
+            "notes url": "", 
             "programmatic": false, 
             "tags": [], 
             "timeblock": "", 
-            "title": "How might we scrapbook MozFest? - a Lo-Fi Paper Circuitry Physical Computing Workshop"
+            "title": "Creating Crumble Robots"
         }, 
         {
             "additional language": "", 
             "category": "Youth zone", 
-            "description": "Redridge youth club will present and lead a session on Web literacy .", 
+            "description": "Children to be introduced to physical commuting where they will learn how to use GPIO pins on a Raspberry Pi to make LEDs flash.", 
             "duration": "", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Latymer Prep School / 3BM", 
+                    "name": "Nicholas Hughes", 
+                    "twitter": "duck_star"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Nicholas Hughes", 
+                "", 
+                ""
+            ], 
+            "id": "756", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "", 
+            "notes url": "", 
+            "programmatic": false, 
+            "tags": [], 
+            "timeblock": "", 
+            "title": "GPIO and Physical Computing."
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Sunday", 
+            "description": "Children at Redbridge Libraries are presenting their latest projects using Raspberry Pi computers and the BBC Micro:bits. Come and learn from them how they built a robot and created a guessing game and a fruit/dough keyboard. Redbridge Libraries are the place where children 8 to 12 years old learn coding every Saturday morning since 2015. Since last September they have been working on building a Raspberry Pi robot and a guessing game and fruit/dough keyboard using the BBC Micro:bit. Come to this session to see: the Raspberry Pi Robobutler in action and find out the challenges of building it. Children will be talking about the hardware and software needed and you will have the opportunity to have a go at operating the robot· the BBC Micro:bit guessing game which was built using Javascript – see if you can beat it by guessing the correct number the fruit/dough keyboard that uses the BBC Micro:bit to produce sounds as programmed by the children", 
+            "end": "2:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Redbridge Library", 
@@ -21193,12 +21335,13 @@
             "id": "749", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-redbridge-library-youth-club", 
+            "location": "Floor 2 - 212", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-battle-bots-at-redbridge-libraries", 
             "programmatic": false, 
+            "start": "12:15pm", 
             "tags": [], 
-            "timeblock": "", 
-            "title": "Redbridge library youth club"
+            "timeblock": "sun-12-15pm--sunday-12-15-", 
+            "title": "The Battle Bots at Redbridge Libraries"
         }, 
         {
             "additional language": "", 
@@ -21269,7 +21412,7 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 2 - 211", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-displaying-images-and-animations-on-the-sense-hat", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
             "tags": [], 
@@ -21308,7 +21451,7 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 2 - 209", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-ceed-universe---gamified-learning-on-a-rasperry-pi", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "11:00am", 
             "tags": [], 
@@ -21347,7 +21490,7 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 2 - 209", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-scratch-ing-the-surface-of-gpio-pins-on-raspberry-pi", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "10:00am", 
             "tags": [], 
@@ -21357,9 +21500,8 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
-            "day": "Saturday", 
-            "description": "Designed to introduce complete beginners to some simple concepts in Python such as variables, users will use the GPIOzero library to turn on traffic lights on the Raspberry Pi.", 
-            "end": "5:30pm", 
+            "description": "Join the Pi-Top team as they show you how to create a simple LED circuit using a breadboard and then control it using Scratch. Learn how to wire up buttons and use them to control the Scratch-Cat to create a simple game! Suitable for complete beginners.", 
+            "duration": "", 
             "facilitators": {
                 "1": {
                     "affiliated org": "pi-top", 
@@ -21382,16 +21524,15 @@
                 "", 
                 ""
             ], 
-            "id": "764", 
+            "id": "765", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 2 - 211", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-physical-computing-with-very-basic-python", 
+            "location": "", 
+            "notes url": "", 
             "programmatic": false, 
-            "start": "4:30pm", 
             "tags": [], 
-            "timeblock": "sat-4-30pm--saturday-16-30-", 
-            "title": "Physical Computing with very basic Python"
+            "timeblock": "", 
+            "title": "Breadboard Basics - Circuit Building Fun!"
         }, 
         {
             "additional language": "", 
@@ -21425,7 +21566,7 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 2 - 209", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-minecraft-mayhem", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
             "tags": [], 
@@ -21509,6 +21650,43 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "description": "Workshop will explain to attendees the benefits of operating your internet traffic within a VPN and how to use a Raspberry Pi on your home network to create your own! We'll link our Pis to the network, install the right libraries and software and set up a VPN on the spot! No more unencrypted internet traffic at Starbucks!", 
+            "duration": "", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "HackLab", 
+                    "name": "Mark Calleja", 
+                    "twitter": "@__MisterC__  ,  @HacklabUK"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Mark Calleja", 
+                "", 
+                ""
+            ], 
+            "id": "794", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "", 
+            "notes url": "", 
+            "programmatic": false, 
+            "tags": [], 
+            "timeblock": "", 
+            "title": "RPi VPN: Using the Raspberry Pi to create a Virtual Private Network"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
             "day": "Sunday", 
             "description": "Beginners workshop in scratch where the attendee can learn basic scratch commands and learn how to hack turtle graphics making shapes of different colours and sizes . Introduction to  the explorerhat Pro and control the whole thing with fruit or tinfoil buttons and allow their creative juices flow.", 
             "end": "1:15pm", 
@@ -21538,7 +21716,7 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 2 - 211", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-beginners-guide-to-scratching-maths-with-things-from-your-kitchen", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "12:15pm", 
             "tags": [], 
@@ -21614,7 +21792,7 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 2 - 211", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-raspberry-pi-burping-jelly-babies", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
             "tags": [], 
@@ -21653,7 +21831,7 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 2 - 211", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-automatic-twitter-photo-booth-with-the-raspberry-pi", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
             "tags": [], 
@@ -21692,7 +21870,7 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 2 - 211", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-edublocks--minecraft-hackoween-with-edublocks", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "11:00am", 
             "tags": [], 
@@ -21731,7 +21909,7 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 2 - 209", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-spooktacular-sounds-with-sonic-pi", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
             "tags": [], 
@@ -21770,12 +21948,49 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 2 - 211", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-raspberry-pirate-radio-", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
             "tags": [], 
             "timeblock": "sat-4-30pm--saturday-16-30-", 
-            "title": "Raspberry PIrate Radio!"
+            "title": "Raspberry Pirate Radio!"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "description": "Students will hack motorised Nerf rocketlaunchers using a Raspberry Pi and Scratch!", 
+            "duration": "", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "HackLab", 
+                    "name": "Libby Wright", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Libby Wright", 
+                "", 
+                ""
+            ], 
+            "id": "837", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "", 
+            "notes url": "", 
+            "programmatic": false, 
+            "tags": [], 
+            "timeblock": "", 
+            "title": "Raspberry Pi Rocket Launcher"
         }, 
         {
             "additional language": "", 
@@ -21809,7 +22024,7 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 2 - 209", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-castles--code-and-capacitive-buttons---building-castles-in-minecraft-with-the-touch-of-a-button", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "12:15pm", 
             "tags": [], 
@@ -21819,9 +22034,9 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
-            "day": "Saturday", 
+            "day": "Sunday", 
             "description": "Last year the Raspberry Pi Foundation joined forces with the UK Space Agency, ESA and the UK Space Trade Association to run a competition called Astro Pi that gave school-age students in the UK the chance to devise computer science experiments for British ESA Astronaut Tim Peake to run aboard the ISS. Project lead, Dave Honess, will discuss the Astro Pi Mission in more detail and run a hands-on coding Raspberry Pi workshop demonstrating how participants can be involved.", 
-            "end": "12:15pm", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Raspberry Pi Foundation", 
@@ -21848,17 +22063,17 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 2 - 209", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-code-in-space", 
+            "notes url": "", 
             "programmatic": false, 
-            "start": "11:15am", 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "sat-11-15am--saturday-11-15-", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Code in Space"
         }, 
         {
             "additional language": "", 
             "category": "Youth zone", 
-            "day": "Saturday", 
+            "day": "Sunday", 
             "description": "This activity will allow people to make their own music with Sonic Pi. As MozFest is being held near to Halloween, they will be encouraged to create music with a spooky theme. This workshop will cover the basics of Sonic Pi, including live loops, and as the software is free, participants will be able to continue with their music or new pieces, at home if they wish. We will cover the importance of learning to code, and how coding music is one of the most fun ways to program your own projects.", 
             "end": "4:15pm", 
             "facilitators": {
@@ -21887,18 +22102,18 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 2 - 209", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-spooktacular-sounds-with-sonic-pi", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "sat-3-15pm--saturday-15-15-", 
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Spooktacular Sounds with Sonic Pi"
         }, 
         {
             "additional language": "", 
             "category": "Youth zone", 
             "day": "Saturday", 
-            "description": "*Suitable for all ages, including young beginners (with parental supervision)*\nParticipants will be drawing a design by hand, and using inkscape to convert this into a laserable design. They can then fabricate their design on the lasercutter using plywood.", 
+            "description": "*Suitable for all ages, including young beginners (with parental supervision)*     \nParticipants will be drawing a design by hand, and using Inkscape (an open source design program) to convert this into a laserable design. They can then fabricate their design on the lasercutter using plywood.", 
             "end": "3:00pm", 
             "facilitators": {
                 "1": {
@@ -21926,7 +22141,7 @@
             "localized description": "", 
             "localized title": "", 
             "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-lasers--bringing-drawings-to-life-", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
             "tags": [], 
@@ -21937,7 +22152,7 @@
             "additional language": "", 
             "category": "Youth zone", 
             "day": "Sunday", 
-            "description": "*Suitable for all ages, including young beginners (with parental supervision)*\nParticipants will be drawing a design by hand, and using inkscape to convert this into a laserable design. They can then fabricate their design on the lasercutter using plywood.", 
+            "description": "*Suitable for all ages, including young beginners (with parental supervision)*     \nParticipants will be drawing a design by hand, and using Inkscape (an open source design program) to convert this into a laserable design. They can then fabricate their design on the lasercutter using plywood.", 
             "end": "3:00pm", 
             "facilitators": {
                 "1": {
@@ -21965,7 +22180,7 @@
             "localized description": "", 
             "localized title": "", 
             "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-lasers--bringing-drawings-to-life-", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
             "tags": [], 
@@ -21976,7 +22191,7 @@
             "additional language": "", 
             "category": "Youth zone", 
             "day": "Saturday", 
-            "description": "Participants will be learning how to use Inkscape (an open source design program) to create a jewellery / keyring design (or something else if they'd like) which they will then be able to fabricate on the lasercutter using acrylic or plywood. They can then finish it off by attaching a chain, keyring or badge.\n**This session is strictly limited to 12 participants, so please arrive early to guarantee a space.**", 
+            "description": "Participants will be learning how to use Inkscape (an open source design program) to create a jewellery / keyring design (or something else if they'd like) which they will then be able to fabricate on the lasercutter using acrylic or plywood. They can then finish it off by attaching a chain, keyring or badge.    \n**This session is strictly limited to 12 participants, so please arrive early to guarantee a space.**", 
             "end": "12:15pm", 
             "facilitators": {
                 "1": {
@@ -22004,7 +22219,7 @@
             "localized description": "", 
             "localized title": "", 
             "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-lasers--create-your-own-jewellery---keyring-using-a-laser-cutter", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "11:15am", 
             "tags": [], 
@@ -22015,7 +22230,7 @@
             "additional language": "", 
             "category": "Youth zone", 
             "day": "Saturday", 
-            "description": "Participants will be learning how to use Inkscape (an open source design program) to create a jewellery / keyring design (or something else if they'd like) which they will then be able to fabricate on the lasercutter using acrylic or plywood. They can then finish it off by attaching a chain, keyring or badge.\n**This session is strictly limited to 12 participants, so please arrive early to guarantee a space.**", 
+            "description": "Participants will be learning how to use Inkscape (an open source design program) to create a jewellery / keyring design (or something else if they'd like) which they will then be able to fabricate on the lasercutter using acrylic or plywood. They can then finish it off by attaching a chain, keyring or badge.    \n**This session is strictly limited to 12 participants, so please arrive early to guarantee a space.**", 
             "end": "5:30pm", 
             "facilitators": {
                 "1": {
@@ -22043,7 +22258,7 @@
             "localized description": "", 
             "localized title": "", 
             "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-lasers--create-your-own-jewellery---keyring-using-a-laser-cutter", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
             "tags": [], 
@@ -22054,7 +22269,7 @@
             "additional language": "", 
             "category": "Youth zone", 
             "day": "Sunday", 
-            "description": "Participants will be learning how to use Inkscape (an open source design program) to create a jewellery / keyring design (or something else if they'd like) which they will then be able to fabricate on the lasercutter using acrylic or plywood. They can then finish it off by attaching a chain, keyring or badge.\n**This session is strictly limited to 12 participants, so please arrive early to guarantee a space.**", 
+            "description": "Participants will be learning how to use Inkscape (an open source design program) to create a jewellery / keyring design (or something else if they'd like) which they will then be able to fabricate on the lasercutter using acrylic or plywood. They can then finish it off by attaching a chain, keyring or badge.    \n**This session is strictly limited to 12 participants, so please arrive early to guarantee a space.**", 
             "end": "1:15pm", 
             "facilitators": {
                 "1": {
@@ -22082,7 +22297,7 @@
             "localized description": "", 
             "localized title": "", 
             "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-lasers--create-your-own-jewellery---keyring-using-a-laser-cutter", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "12:15pm", 
             "tags": [], 
@@ -22093,7 +22308,7 @@
             "additional language": "", 
             "category": "Youth zone", 
             "day": "Sunday", 
-            "description": "Participants will be learning how to use Inkscape (an open source design program) to create a jewellery / keyring design (or something else if they'd like) which they will then be able to fabricate on the lasercutter using acrylic or plywood. They can then finish it off by attaching a chain, keyring or badge.\n**This session is strictly limited to 12 participants, so please arrive early to guarantee a space.**", 
+            "description": "Participants will be learning how to use Inkscape (an open source design program) to create a jewellery / keyring design (or something else if they'd like) which they will then be able to fabricate on the lasercutter using acrylic or plywood. They can then finish it off by attaching a chain, keyring or badge.    \n**This session is strictly limited to 12 participants, so please arrive early to guarantee a space.**", 
             "end": "5:30pm", 
             "facilitators": {
                 "1": {
@@ -22121,12 +22336,517 @@
             "localized description": "", 
             "localized title": "", 
             "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-lasers--create-your-own-jewellery---keyring-using-a-laser-cutter", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
             "tags": [], 
             "timeblock": "sun-4-30pm--sunday-16-30-", 
             "title": "LASERS! Create your own jewellery / keyring using a laser cutter"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth Zone", 
+            "day": "Sunday", 
+            "description": "Protect yourself with knowledge! Thought hacking was for the hard core, well you’re definitely wrong. We'll be using Kali Linux to hack into Wi-Fi.      \nIn this session, I hope you’ll gain a better understanding of how in this day and age InfoSec is becoming easier and easier, so easy in fact that an end user would understand it. With the program that will we use, it will show how the most complicated of hacks can be simplified into a few points and mouse clicks.", 
+            "end": "5:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "5007", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 209", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "4:30pm", 
+            "tags": [], 
+            "timeblock": "sun-4-30pm--sunday-16-30-", 
+            "title": "Wi-Fi Penetration with Kali Linux"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Sunday", 
+            "description": "Virtual reality Art with Tilt Brush and the HTC Vive headset, come experience this frankly amazingly immersive tool that is akin to the feeling you get when creating in Minecraft - Suitable from age 6+ come create and explore this virtual paining and sculpture studio - Book slots of 10 mins - First come first serve if you miss your turn you must rebook.", 
+            "end": "2:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "EPIK (Encouraging programing in kids)", 
+                    "name": "Sabrina Lindridge", 
+                    "twitter": "@dorineFlies"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Sabrina Lindridge", 
+                "", 
+                ""
+            ], 
+            "id": "35000", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 213", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-htc-vive-tilt-brush--minecraft-for-artists-", 
+            "programmatic": false, 
+            "start": "12:30pm", 
+            "tags": [], 
+            "timeblock": "sun-lunch--sunday-12-30-", 
+            "title": "HTC Vive tilt brush; Minecraft for Artists."
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Sunday", 
+            "description": "Ohbot is a robot head that is constructed and programmed by children. It has seven motors to provide a range of realistic movement. Ohbot is provided as a kit and comes with full instructions so that it can be built by children aged 7 and older.", 
+            "end": "5:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "OhBot", 
+                    "name": "Mat OhBot", 
+                    "twitter": "@ohbotrobot"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Mat OhBot", 
+                "", 
+                ""
+            ], 
+            "id": "61000", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "200", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-getting-to-grips-with-ohbot", 
+            "programmatic": false, 
+            "start": "3:15pm", 
+            "tags": [], 
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
+            "title": "Getting to grips with OhBot"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Sunday", 
+            "description": "Moz is your robot guide and best friend in your quest to unlock the secrets of virtual reality before it’s too late. Capture real life prizes as you learn to navigate the cartesian coordinate system, build spaceships and use the power of physics to conquer any challenge. All this using the HTC Vive VR headset", 
+            "end": "5:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "Ann-Caryn Cleveland", 
+                    "twitter": "anncaryn"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Ann-Caryn Cleveland", 
+                "", 
+                ""
+            ], 
+            "id": "6030", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 213", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-magnificent-adventures-of-moz---me-in-virtual-reality", 
+            "programmatic": false, 
+            "start": "3:15pm", 
+            "tags": [], 
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
+            "title": "The Magnificent Adventures of Moz & Me in Virtual Reality"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Saturday", 
+            "description": "Through the power of Virtual reality, I will guide visitors on a tour of our solar system. From the moons of Jupiter, to the dust in our Oort cloud.\nVisitors will be immersed in space, needing nothing more than a Smartphone (not provided) and google cardboard headset (provided).\nThe grand tour will consist of visiting every major object in our solar system, and finishing with a quick overview of our galaxy, and the relatively infinite universe beyond. Set to relaxing music, this educational experience will amaze, wow and educate the audience. Along with the hundreds of facts, millions of planets, and trillions of stars, I hope this workshop will inspire more young children to learn about space.", 
+            "end": "2:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "Cathryn Dunicliff", 
+                    "twitter": "@meowter_space"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Cathryn Dunicliff", 
+                "", 
+                ""
+            ], 
+            "id": "81400", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 212", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-grand-tour---experience-our-solar-system-in-vr", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sat-1pm--saturday-13-00-", 
+            "title": "The Grand Tour - experience our solar system in VR"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "description": "APC and its partners have re-released its popular resource, a simple first-aid for human rights defenders who have found themselves on the receiving end of a hack, DDoS, or severe trolling. The latest edition is even more usable: mobile responsive and on a standalone platform. It's also now in Urdu, Hindi, French and Spanish, in addition to the original English. Participants will be coerced into a gameshow format as a way to share expertise and cluelessness alike in figuring out exactly what to do once you've been pwned.", 
+            "duration": "60", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Association for Progressive Communications", 
+                    "name": "Mallory Knodel", 
+                    "twitter": "@chaoticfree"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Mallory Knodel", 
+                "", 
+                ""
+            ], 
+            "id": "3910", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-an-exceedingly-practical-digital-security-first-aid-kit-for-after-you-ve-been-pwned", 
+            "programmatic": false, 
+            "tags": [], 
+            "timeblock": "", 
+            "title": "An exceedingly practical digital security first-aid kit for after you've been pwned"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Saturday", 
+            "description": "Protect yourself with knowledge! Thought hacking was for the hard core, well you’re definitely", 
+            "end": "1:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "Seth Duffet", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Seth Duffet", 
+                "", 
+                ""
+            ], 
+            "id": "859", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-wi-fi-penetration-with-kali-linux", 
+            "programmatic": false, 
+            "start": "12:30pm", 
+            "tags": [], 
+            "timeblock": "sat-12-30pm--saturday-12-30-", 
+            "title": "Wi-Fi Penetration with Kali Linux"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Sunday", 
+            "description": "Come take part in a Google made virtual journey with upto 30 people", 
+            "end": "12:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "861", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 212", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-google-vr-tour", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "Google VR tour"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Sunday", 
+            "description": "Come take part in a Google made virtual journey with upto 30 people", 
+            "end": "4:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "86100", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 212", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-google-vr-tour", 
+            "programmatic": false, 
+            "start": "3:15pm", 
+            "tags": [], 
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
+            "title": "Google VR tour"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Sunday", 
+            "description": "A space provided to regain focus and calm; paper, pens and tracing light boxes provided - parents MUST stay with their child at all time and keep the door open.", 
+            "end": "11:00am", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "862", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 206", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-quiet--time-out--room-for-parents-and-their-children", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "Quiet \"Time out\" room for parents and their children"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Sunday", 
+            "description": "A space provided to regain focus and calm; paper, pens and tracing light boxes provided - parents MUST stay with their child at all time and keep the door open.", 
+            "end": "12:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "862", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 206", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-quiet--time-out--room-for-parents-and-their-children", 
+            "programmatic": false, 
+            "start": "12:15pm", 
+            "tags": [], 
+            "timeblock": "sun-12-15pm--sunday-12-15-", 
+            "title": "Quiet \"Time out\" room for parents and their children"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Sunday", 
+            "description": "A space provided to regain focus and calm; paper, pens and tracing light boxes provided - parents MUST stay with their child at all time and keep the door open.", 
+            "end": "1:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "862", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 206", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-quiet--time-out--room-for-parents-and-their-children", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sun-1pm--sunday-13-00-", 
+            "title": "Quiet \"Time out\" room for parents and their children"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Sunday", 
+            "description": "A space provided to regain focus and calm; paper, pens and tracing light boxes provided - parents MUST stay with their child at all time and keep the door open.", 
+            "end": "3:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "862", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 206", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-quiet--time-out--room-for-parents-and-their-children", 
+            "programmatic": false, 
+            "start": "3:15pm", 
+            "tags": [], 
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
+            "title": "Quiet \"Time out\" room for parents and their children"
         }
     ], 
     "timeblocks": [
