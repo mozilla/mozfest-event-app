@@ -204,7 +204,7 @@
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
-                    "name": "...", 
+                    "name": "", 
                     "twitter": ""
                 }, 
                 "2": {
@@ -219,7 +219,7 @@
                 }
             }, 
             "facilitators_names": [
-                "...", 
+                "", 
                 "", 
                 ""
             ], 
