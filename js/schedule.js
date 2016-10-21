@@ -254,7 +254,7 @@ function Schedule(CUSTOM_CONFIG) {
     // add session information to the page
     targetBlock.append(template(templateData));
   }
-  
+
   // remove all placeholder "Open" blocks on page
   schedule.clearOpenBlocks = function() {
     var openBlocks = schedule.$container.find('.open-block').parent();
@@ -321,13 +321,7 @@ function Schedule(CUSTOM_CONFIG) {
     // run the callback after adding all available sessions.
     schedule.addBlockToggles();
 
-    // let's have Friday's first timeblock expanded by default
-    // (request came from https://github.com/mozilla/mozfest-event-app/issues/432)
-    if ($("#show-friday").hasClass("active")) {
-      var idOfFirstFridayBlock = schedule.timeblocks[0].key;
-      var $firstFridayBlock = $("#"+idOfFirstFridayBlock);
-      schedule.toggleTimeblock($firstFridayBlock);
-    }
+    schedule.openPreviousTimeblocks();
   }
 
   // showSessionDetail() renders session data into the detail template,
@@ -355,7 +349,7 @@ function Schedule(CUSTOM_CONFIG) {
       schedule.$container.html(schedule.sessionDetailTemplate(templateData));
       // allowing faving from detail page too
       schedule.addStars('.session-detail');
-      
+
       $("#"+SCHEDULE_NAV_LINK_ID).addClass("active");
     } else {
       // if no matching ID found, just make a full session list
@@ -376,7 +370,6 @@ function Schedule(CUSTOM_CONFIG) {
   schedule.getSessionDetail = function(sessionID,updateHash) {
     // store sessionID in case we need it later
     schedule.sessionID = sessionID;
-
     schedule.setBodyClass("detail-view");
 
     if (updateHash) {
@@ -421,7 +414,7 @@ function Schedule(CUSTOM_CONFIG) {
       })
     }
   }
-  
+
   // add icons for collapsible timeblocks
   schedule.addBlockToggles = function() {
     var blocks = schedule.$container.find('.timeblock .sessions-container');
@@ -429,7 +422,21 @@ function Schedule(CUSTOM_CONFIG) {
     blocks.addClass('slider');
     blocks.css("display", "none");
   }
-  
+
+  schedule.openPreviousTimeblocks = function() {
+    //Check localstorage for open timeblocks from past sessions
+
+    //let's have Friday's first timeblock expanded by default
+    //(request came from https://github.com/mozilla/mozfest-event-app/issues/432)
+    if(Modernizr.localstorage){
+      var openTimeblocks = JSON.parse(localStorage.getItem('timeblock-states')) || [schedule.timeblocks[0].key];
+      //open every item in openSessions
+      _.each(openTimeblocks, function(timeblock, index) {
+        schedule.toggleTimeblock($('#'+timeblock));
+      });
+    }
+  }
+
   // add a set of tabs across the top of page as toggles that change display
   schedule.addToggles = function() {
     if (Modernizr.localstorage) {
@@ -899,7 +906,16 @@ function Schedule(CUSTOM_CONFIG) {
   schedule.toggleTimeblock = function(timeblockContainer) {
     timeblockContainer.find(".timeblock-header")
                       .find('.fa').toggleClass('fa-chevron-circle-left fa-chevron-circle-down');
-    schedule.animateBlockToggle(timeblockContainer.find(".sessions-container"));
+    var isOpen = schedule.animateBlockToggle(timeblockContainer.find(".sessions-container"));
+    var openTimeblocks = JSON.parse(localStorage.getItem('timeblock-states')) || [] ;
+    var timeblockID = timeblockContainer['0'].id;
+    var index = openTimeblocks.indexOf(timeblockID);
+    if(isOpen && index === -1){
+      openTimeblocks.push(timeblockID);
+    } else if (!isOpen && index > -1) {
+        openTimeblocks.splice(index, 1);
+    }
+    localStorage.setItem('timeblock-states', JSON.stringify(openTimeblocks));
   }
 
   // add the standard listeners for various user interactions
@@ -991,14 +1007,15 @@ function Schedule(CUSTOM_CONFIG) {
     // helper function for "toggle block" and "toggle all" controls
     schedule.animateBlockToggle = function(targetBlock) {
       targetBlock.toggleClass('expanded');
-      
       if (targetBlock.hasClass('expanded')) {
         targetBlock.slideDown();
+        return true;
       } else {
         targetBlock.slideUp();
+        return false;
       }
     }
-    
+
     // tap stars to favorite/unfavorite via localstorage
     schedule.$container.on('click', '.favorite', function(e) {
       e.preventDefault();
