@@ -61,7 +61,7 @@ function Schedule(CUSTOM_CONFIG) {
     // if there's a hash, someone is loading a specific session or tab
     if (!window.location.hash) {
       // if no hash, just load the base schedule
-      schedule.makeSchedule();
+      schedule.loadChosenTab();
     } else {
       // otherwise determine relevant detail page and call route()
       var hashArray = window.location.hash.substring(1).split(/-(.+)?/);
@@ -88,7 +88,7 @@ function Schedule(CUSTOM_CONFIG) {
         // set chosenTab to ID value from URL, then get session list
         schedule.trackEvent("Tab View", "Direct link or browser history", pageID);
         schedule.chosenTab = pageID;
-        schedule.makeSchedule();
+        schedule.loadChosenTab();
         break;
       case "_"+DISPLAY_NAME_FOR_CATEGORY.plural:
         // shows list of Categories and their description
@@ -111,11 +111,6 @@ function Schedule(CUSTOM_CONFIG) {
         schedule.displaySessionsOfTag(pageID);
         break;
     }
-  }
-
-  // call makeSchedule() to display the selected list of sessions
-  schedule.makeSchedule = function() {
-    schedule.loadChosenTab();
   }
 
   // loadSessions() gets session data and sorts it for display. Checks
@@ -343,7 +338,7 @@ function Schedule(CUSTOM_CONFIG) {
       $("#"+SCHEDULE_NAV_LINK_ID).addClass("active");
     } else {
       // if no matching ID found, just make a full session list
-      schedule.makeSchedule();
+      schedule.loadChosenTab();
     }
   }
 
@@ -925,7 +920,7 @@ function Schedule(CUSTOM_CONFIG) {
         // otherwise update hash and clear view manually
         schedule.updateHash('show-'+schedule.chosenTab);
         schedule.clearSessionDetail();
-        schedule.makeSchedule();
+        schedule.loadChosenTab();
       }
     });
 
