@@ -75,7 +75,7 @@
   {
     "name": "MozEx",
     "description": [
-      "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through Web literacy, digital inclusion and accessibility, privacy, policy, and hacking."
+      "MozEx is an art exhibition with a 21st-century twist. Curated by the digital learning teams at both the Tate and the V&A, this space showcases dynamic digital artwork that spans many disciplines and media. Created by both individual practitioners and cross-disciplinary collaborations, the exhibit will explore the value of art to society through web literacy, digital inclusion and accessibility, privacy, policy, and hacking. <a href='https://issuu.com/mozfest/docs/mozex'>View the MozEx catalogue</a>."
     ],
     "iconSrc": "img/space/mozEx.svg",
     "iconWidth": "36"
