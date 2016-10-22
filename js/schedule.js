@@ -130,7 +130,7 @@ function Schedule(CUSTOM_CONFIG) {
         schedule.displaySessionsOfTag(pageID);
         break;
       default:
-        console.log("default");
+        schedule.loadDefaultView();
     }
   }
 
