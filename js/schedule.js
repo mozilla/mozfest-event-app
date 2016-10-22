@@ -327,7 +327,8 @@ function Schedule(CUSTOM_CONFIG) {
 
     // add "fav" star controls to all session items on the page
     schedule.addStars('.session-card');
-    }
+    schedule.loadScrollState(window.location.hash);
+  }
 
   // showSessionDetail() renders session data into the detail template,
   // including full session description, etc.
@@ -369,10 +370,26 @@ function Schedule(CUSTOM_CONFIG) {
     $('#session-detail-wrapper').remove();
   }
 
+  schedule.saveScrollState = function(page, scrollY) {
+    var scrollStates = JSON.parse(localStorage.getItem('scrollStates')) || {};
+    scrollStates[page] = scrollY;
+    localStorage.scrollStates = JSON.stringify(scrollStates);
+  }
+
+  schedule.loadScrollState = function(page) {
+    if(schedule.previous === window.location.hash){
+      var scrollStates = JSON.parse(localStorage.getItem('scrollStates')) || {};
+      if(scrollStates[page]){
+        window.scroll(0,scrollStates[page]);
+      }
+    }
+  }
+
   // call getSessionDetail() when you have a sessionID value, but you
   // can't be sure that the app has loaded session data. E.g. initial
   // pageload goes directly to a session detail view
   schedule.getSessionDetail = function(sessionID,updateHash) {
+    schedule.saveScrollState(window.location.hash, window.scrollY);
     // store sessionID in case we need it later
     schedule.sessionID = sessionID;
     schedule.setBodyClass("detail-view");
@@ -388,13 +405,14 @@ function Schedule(CUSTOM_CONFIG) {
       // otherwise fetch data and pass showSessionDetail() as callback
       schedule.loadSessions(schedule.showSessionDetail);
     }
+    window.scroll(0,0);
   }
 
   // this is a single-page app, and updateHash() helps track state
   schedule.updateHash = function(value) {
     var baseURL = window.location.href.replace(window.location.hash, '');
     var newURL = (!!value) ? baseURL + "#_" + value : baseURL;
-
+    schedule.previous = window.location.hash;
     window.history.pushState(value, "", newURL);
     // make sure we *have* a window.history before we try to manipulate it
     window.history.ready = true;
