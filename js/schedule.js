@@ -29,8 +29,16 @@ function Schedule(CUSTOM_CONFIG) {
     schedule.$toggles = $('<ul>').appendTo('#schedule-controls');
     schedule.$pageLinks = $('#page-links');
     schedule.$loadingNotice = $('<div class="loading"><div></div><div></div><div></div></div>');
+    
     // if true, avoids using history.back(), which doesn't work offline
     schedule.offlineMode = false;
+    
+    // this will tell us whether app is loaded at the event or outside of the event timeframe (pre- and post-)
+    schedule.eventIsCurrentlyOngoing = false;
+
+    // 
+    schedule.chosenTab = null;
+    schedule.favoredDayTab = null;
 
     // TODO: determine list of unique tab names and dates
     // after loadSessions() gets actual session data
@@ -60,12 +68,23 @@ function Schedule(CUSTOM_CONFIG) {
   schedule.load = function() {
     // if there's a hash, someone is loading a specific session or tab
     if (!window.location.hash) {
-      // if no hash, just load the base schedule
-      schedule.loadChosenTab();
+      // if no hash, just load the default view
+      schedule.loadDefaultView();
     } else {
       // otherwise determine relevant detail page and call route()
       var hashArray = window.location.hash.substring(1).split(/-(.+)?/);
       schedule.route(hashArray[0], hashArray[1]);
+    }
+  }
+
+  schedule.loadDefaultView = function() {
+    if (schedule.eventIsCurrentlyOngoing) {
+      schedule.loadChosenTab({
+        loadFavoredDayTab: true,
+        hashToUpdateTo: 'show-' + schedule.favoredDayTab
+      });
+    } else {
+      schedule.displayCategoriesList();
     }
   }
 
@@ -110,6 +129,8 @@ function Schedule(CUSTOM_CONFIG) {
         schedule.trackEvent("Individual Pathway Detail", "Direct link or browser history", pageID);
         schedule.displaySessionsOfTag(pageID);
         break;
+      default:
+        schedule.loadDefaultView();
     }
   }
 
@@ -338,7 +359,9 @@ function Schedule(CUSTOM_CONFIG) {
       $("#"+SCHEDULE_NAV_LINK_ID).addClass("active");
     } else {
       // if no matching ID found, just make a full session list
-      schedule.loadChosenTab();
+      schedule.loadChosenTab({
+        hashToUpdateTo: 'show-' + schedule.favoredDayTab
+      });
     }
   }
 
@@ -434,19 +457,25 @@ function Schedule(CUSTOM_CONFIG) {
   // getChosenTab() sets value of chosenTab if none exists, likely because
   // the app is just being loaded. Show "today's" tab if possible
   schedule.getChosenTab = function() {
+    var favoredDayTabName;
+
     if (!schedule.chosenTab) {
       var today = new Date().toDateString();
-      var favoredTab = _.find(schedule.tabList, function(i) {
+      var matchedDayTab = _.find(schedule.tabList, function(i) {
         return (!i.tabDate) ? false : i.tabDate.toDateString() == today
-      })
+      });
 
-      if (favoredTab) {
+      if (matchedDayTab) {
         // if we can match today's date, show it by default
-        schedule.chosenTab = favoredTab.name.toLowerCase();
+        favoredDayTabName = matchedDayTab.name.toLowerCase();
+        schedule.eventIsCurrentlyOngoing = true;
       } else {
         // otherwise show contents of first tab in the list
-        schedule.chosenTab = schedule.tabList[0].name.toLowerCase();
+        favoredDayTabName = schedule.tabList[0].name.toLowerCase();
+        schedule.eventIsCurrentlyOngoing = false;
       }
+      schedule.favoredDayTab = favoredDayTabName;
+      schedule.chosenTab = favoredDayTabName;
     }
   }
 
@@ -510,15 +539,30 @@ function Schedule(CUSTOM_CONFIG) {
     }
   }
 
-  // based on the value of chosenTab, render the proper session list
-  schedule.loadChosenTab = function() {
+  // render the proper tab based on the options
+  schedule.loadChosenTab = function(options) {
+    var tabName = schedule.chosenTab;
+    var options = options || {};
+    options = {
+      loadFavoredDayTab: options.loadFavoredDayTab || false,
+      hashToUpdateTo: options.hashToUpdateTo || null
+    };
+
+    if (options.loadFavoredDayTab) {
+      tabName = schedule.favoredDayTab;
+    }
+
+    if (options.hashToUpdateTo) {
+      schedule.updateHash(options.hashToUpdateTo);
+    }
+
     // clear currently highlighted tab/page link
     // and make sure the selected tab is lit
     schedule.clearHighlightedPage();
-    $('#show-'+schedule.chosenTab).addClass('active');
+    $('#show-'+tabName).addClass('active');
     schedule.setBodyClass("day-view");
 
-    if (schedule.chosenTab == 'favorites') {
+    if (tabName == 'favorites') {
       // "favorites" class changes display of session items
       schedule.$container.removeClass().addClass('favorites');
       if (schedule.savedSessionList) {
@@ -531,12 +575,12 @@ function Schedule(CUSTOM_CONFIG) {
     } else {
       // handle standard tabs like "Thursday" or "Friday"
       schedule.$container.html(schedule.sessionListTemplate);
-      $('#'+schedule.chosenTab).show();
+      $('#'+tabName).show();
       schedule.addCaptionOverline();
       // TODO (for the data processor service): make sure "day" in sessions.json are all lowercase
-      var capitalizedDayValue = schedule.chosenTab.charAt(0).toUpperCase() + schedule.chosenTab.slice(1);
+      var capitalizedDayValue = tabName.charAt(0).toUpperCase() + tabName.slice(1);
       schedule.getFilteredSessions("day", capitalizedDayValue);
-      $('#show-'+schedule.chosenTab).addClass('active');
+      $('#show-'+tabName).addClass('active');
     }
   }
 
@@ -803,31 +847,36 @@ function Schedule(CUSTOM_CONFIG) {
   schedule.tabControlClickHandler = function(e) {
     if (e) e.preventDefault();
 
-    var $this = $(this);
     var id, tab;
 
     if ( !$(this).data("tab") ) { 
-      // when elem clicked isn't a tab control, e.g, it's the logo or the schedule link on top nav
-      // we bring users to the "favored" tab view instead
-      // see schedule.getChosenTab()'s implementation for details
-      id = null;
-      schedule.chosenTab = null;
-      schedule.getChosenTab();
-      tab = schedule.chosenTab;
+      // when elem clicked isn't a tab control, e.g., the schedule link on top nav
+      // we bring users to the "favored" day tab view instead
+      tab = schedule.favoredDayTab;
+      id = "show-" + tab;
 
       schedule.trackEvent("Default App Screen", "clicked");
     } else {
-      id = $this.attr('id');
-      tab = $this.data("tab");
+      tab = $(this).data("tab");
+      id = $(this).attr('id');
 
       schedule.trackEvent("Tab Control", "clicked", tab);
     }
 
     schedule.toggleSearchMode(false);
-    schedule.updateHash(id);
     schedule.chosenTab = tab;
-    schedule.loadChosenTab();
+    schedule.loadChosenTab({
+      hashToUpdateTo: id
+    });
   };
+
+  schedule.logoClickHandler = function(e) {
+    if (e) e.preventDefault();
+
+    schedule.toggleSearchMode(false);
+    schedule.updateHash("show-" + schedule.favoredDayTab);
+    schedule.loadDefaultView();
+  }
 
   schedule.categoryItemClickHandler = function(e) {
     e.preventDefault();
@@ -866,8 +915,8 @@ function Schedule(CUSTOM_CONFIG) {
       schedule.toggleSearchMode(true);
     });
 
-    // clicking on the logo displays the first Day tab
-    $(".logo").on('click', schedule.tabControlClickHandler);
+    // clicking on the logo displays the default view
+    $(".logo").on('click', schedule.logoClickHandler);
 
     // clicking on the Schedule link on the nav bar displays the first Day tab
     schedule.$pageLinks.on('click', '#'+SCHEDULE_NAV_LINK_ID, schedule.tabControlClickHandler);
@@ -918,9 +967,10 @@ function Schedule(CUSTOM_CONFIG) {
         window.history.back();
       } else {
         // otherwise update hash and clear view manually
-        schedule.updateHash('show-'+schedule.chosenTab);
         schedule.clearSessionDetail();
-        schedule.loadChosenTab();
+        schedule.loadChosenTab({
+          hashToUpdateTo: 'show-'+schedule.chosenTab
+        });
       }
     });
 
