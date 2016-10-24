@@ -2395,6 +2395,67 @@
             "additional language": "", 
             "category": "Digital arts and culture", 
             "day": "Sunday", 
+            "description": "EK Theater will present a workshop of “Niobe,” a piece from the company’s repertoire, based on a story from Ovid’s Metamorphoses. In this video game puppetry piece, Apollo is re-imagined as a sniper in Halo: Reach, and the performance uses two system-linked Xbox 360 consoles. The workshop will be led by director Eddie Kim and several volunteers from the Mozilla community.\n\nAfter demonstrations of scenes from “Niobe,” workshop participants will be introduced to the company’s video game puppetry techniques and be given opportunities to perform in scenes.\n\nIn addition to demonstrating the relevance of classics in this digital age, EK Theater hopes to inspire others to tell their own stories using video games with this workshop.\nNote: the workshop will use the video game Halo: Reach, a first-person shooter game", 
+            "end": "4:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "ek theater", 
+                    "name": "Edward Kim", 
+                    "twitter": "@EKTheater"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "Shaun Smith", 
+                    "twitter": ""
+                }, 
+                "4": {
+                    "name": "Ailsa Abraham"
+                }, 
+                "5": {
+                    "name": "Stanyo Zhelev"
+                }, 
+                "6": {
+                    "name": "Daniel Delargy"
+                }, 
+                "7": {
+                    "name": "Jenine Carron"
+                }, 
+                "8": {
+                    "name": "Alan Stewart"
+                }
+            }, 
+            "facilitators_names": [
+                "Edward Kim", 
+                "Ailsa Abraham", 
+                "", 
+                "Shaun Smith", 
+                "Stanyo Zhelev", 
+                "Daniel Delargy", 
+                "Jenine Carron", 
+                "Alan Stewart"
+            ], 
+            "id": "877", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 1 - Mezzanine Room", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-video-game-puppetry-workshop-with-ek", 
+            "programmatic": false, 
+            "start": "3:15pm", 
+            "tags": [
+                "Storytelling"
+            ], 
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
+            "title": "Video Game Puppetry Workshop with EK Theater"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Digital arts and culture", 
+            "day": "Sunday", 
             "description": "The Art of Vlogging (15 mins) suitable for everyone\nAgi K, an award winning young filmmaker and vlogger www.agik.co.uk will host a talk with demo and Q & A about Art’s role in vlogging futures.\nParticipants will have a Demo on how to use digital media inventively in vlogging. Learning a range of creative techniques. This will be followed by a discussion about:\n-How artists can use art to evolve vlogging genres?\n-How artists can use vlogging as a tool for sharing their work and reaching mass audiences?\n\n1,2,3, Vlog, Edit, Upload, suitable for ages 12 plus (90 mins) (30 participants)\nAgi K, young vlogger and filmmaker and Anita Kolaczynska, Arts Award Adviser, will facilitate a practical workshop on vlogging at live events.\n\nParticipants will learn how to use reportage and art techniques creatively to make an exciting, compelling vlog. They will watch a ‘how to’ example vlog, discuss and brainstorm in groups (with paper and sharpies) how to shoot engaging footage discussing elements like camera angles, speech, pace, visuals, humour. They will then have a vlogging race to go capture the essence of Mozfest shooting as much relevant footage as they can in 15 minutes. In pairs they will be shooting this footage in the style of 'dialogue vlog’ each pair commenting on different areas/aspects of Mozfest. Return to base to listen to a lightening talk about adding artistry through their editing of their footage. Then prepare to edit by making art to enhance their vlog with paper and sharpies), shoot this and any extra sound effects, titles, stills needed. Then use their editing phone apps to creatively edit their footage to create buzzing 50 second vlogs.\nUpload to Arts Award Voice. They will then be projected onto a screen to be watched by all. Everyone will be encouraged to tweet, comment and share, whilst watching.", 
             "end": "2:00pm", 
             "facilitators": {
@@ -2632,7 +2693,7 @@
         {
             "additional language": "", 
             "category": "Digital arts and culture", 
-            "day": "Saturday", 
+            "day": "Sunday", 
             "description": "The Moz-Stand: get the buzz, is a one stop shop for all your MozFest updates. Keep on top of Festival highlights and news with this retro-newsstand inspired interactive booth. Stock up on MozFest souvenirs, with physical Snapchat filters, customised postcards and printed Festival newspaper, and don't miss a minute of social content with our live ticker tape updates! Also, make sure you're following ‘mfestival’ over the weekend to keep up to date with all the action.", 
             "end": "5:00pm", 
             "facilitators": {
@@ -2685,7 +2746,7 @@
             "programmatic": false, 
             "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "sat-2pm--saturday-14-00-", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "The Moz-Stand: Get the Buzz"
         }, 
         {
@@ -3401,65 +3462,6 @@
             "tags": [], 
             "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Unleash the Creator in You!"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Digital arts and culture", 
-            "day": "Sunday", 
-            "description": "A 15 minute video about the rise of people making their own iPhone games, either as a job; a hobby; or as a creative outlet. This will include information about how to start learning, and examples of work from people who have started games in the last 12 months.", 
-            "end": "11:15am", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Innov8 On Sheppey's Creative Coding Course", 
-                    "name": "Matthew Heaney", 
-                    "twitter": ""
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "4": {
-                    "name": ""
-                }, 
-                "5": {
-                    "name": ""
-                }, 
-                "6": {
-                    "name": ""
-                }, 
-                "7": {
-                    "name": ""
-                }, 
-                "8": {
-                    "name": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Matthew Heaney", 
-                "", 
-                "", 
-                "", 
-                "", 
-                "", 
-                "", 
-                ""
-            ], 
-            "id": "419", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 1 - Mezzanine Room", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-creative-coding---creating-your-own-i", 
-            "programmatic": false, 
-            "start": "11:00am", 
-            "tags": [], 
-            "timeblock": "sun-11am--sunday-11-00-", 
-            "title": "Creative Coding - Creating your own iPhone games"
         }, 
         {
             "additional language": "", 
@@ -4421,7 +4423,7 @@
             "category": "Digital arts and culture", 
             "day": "Sunday", 
             "description": "The Learning Portfolio Builder is an online/hybrid platform that provides access to digital literacy and design skills for  students.\n\nI have been working with US highschool students who are passionate about art and design but struggle balancing their passion with their daily life; they have school, jobs, and sometimes kids of their own.\n\nCurrent traditional educational models don't support under served highschool students in terms of accessibility, cost of education, and schedule of programmes in relation to their personal lives and economic struggles.\n\nIn 2012, the National Endowment for the Arts study addressed the importance of Intensive Arts Education in relation to college access, persistance, and completion. We need a paradigm shift that transforms institutions' mindsets, and that allows students to adapt to new learning environments that prepare them for future job.\n\nThis session will allow participants to get a taste of a hybrid course, and produce a design piece, with a face-to-face component.", 
-            "end": "1:45pm", 
+            "end": "12:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Parsons, The New School for Design", 
@@ -4470,11 +4472,11 @@
             "location": "Floor 1 - Mezzanine Room", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-learning-portfolio-builder", 
             "programmatic": false, 
-            "start": "12:15pm", 
+            "start": "11:00am", 
             "tags": [
                 "Multi-lingual MozFest"
             ], 
-            "timeblock": "sun-12-15pm--sunday-12-15-", 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Learning Portfolio Builder"
         }, 
         {
@@ -9234,29 +9236,29 @@
             "additional language": "", 
             "category": "Fuel the movement", 
             "day": "Saturday", 
-            "description": "Do you understand your rights? Digital media can obfuscate copyright understanding. The intangibility of exchanging images, videos, audio clips and data in the form of vines, ebooks, music streaming and so on means that it can be hard for consumers to know their rights in regard to intellectual property. This is often exploited by organisations who rely on intellectual property as part of their business model. An important part of copyright reform is not only a reassessment of the legal rights of consumers, but also a reassessment of how rights are communicated and how consumers are made tangibly aware of their rights in their interactions.", 
+            "description": "Do you understand your rights? Digital media can obfuscate copyright understanding. The intangibility of exchanging images, videos, audio clips and data in the form of vines, ebooks, music streaming and so on means that it can be hard for consumers to know their rights in regard to intellectual property. This is often exploited by organisations who rely on intellectual property as part of their business model. An important part of copyright reform is not only a reassessment of the legal rights of consumers, but also a reassessment of how rights are communicated and how consumers are made tangibly aware of their rights in their interactions.\n\nAdditional Facilitators:\nJustin Pickard - Strange Telemetry", 
             "end": "4:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Strange Telemetry", 
-                    "name": "Tobias Revell", 
+                    "name": "Georgina Voss", 
                     "twitter": ""
                 }, 
                 "2": {
                     "affiliated org": "Projects by IF", 
-                    "name": "Marine Schepens", 
+                    "name": "Ian Hutchinson", 
                     "twitter": ""
                 }, 
                 "3": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "Strange Telemetry", 
+                    "name": "Maisie Bowes", 
                     "twitter": ""
                 }
             }, 
             "facilitators_names": [
-                "Tobias Revell", 
-                "Marine Schepens", 
-                ""
+                "Georgina Voss", 
+                "Ian Hutchinson", 
+                "Maisie Bowes"
             ], 
             "id": "821", 
             "localized description": "", 
@@ -10938,14 +10940,14 @@
                 }, 
                 "3": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Maël Estevez", 
                     "twitter": ""
                 }
             }, 
             "facilitators_names": [
                 "Louise Crow", 
                 "Mark Cridge", 
-                ""
+                "Maël Estevez"
             ], 
             "id": "345", 
             "localized description": "", 
@@ -11001,7 +11003,7 @@
             "additional language": "", 
             "category": "Journalism", 
             "day": "Saturday", 
-            "description": "A panel of participants from the DG7 group of international broadcasters will present tips and insights into delivering online content into China, against one of the world’s most stringent content filtering systems, the Great Firewall. Coming from different editorial backgrounds, the panel will provide advice about the best possible means they have been using in addition to speaking about the technical and editorial challenges they encountered.”", 
+            "description": "A panel of participants from the DG7 group of international broadcasters will present tips and insights into delivering online content into China, against one of the world’s most stringent content filtering systems, the Great Firewall. Coming from different editorial backgrounds, the panel will provide advice about the best possible means they have been using in addition to speaking about the technical and editorial challenges they encountered.”\n\nAdditional Facilitators:\nJing Zhang, Voice Of America\nFrank Ip, BBC World Service", 
             "end": "4:15pm", 
             "facilitators": {
                 "1": {
@@ -11015,15 +11017,15 @@
                     "twitter": ""
                 }, 
                 "3": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "Radio Free Asia", 
+                    "name": "Laura Huang", 
                     "twitter": ""
                 }
             }, 
             "facilitators_names": [
                 "Abdallah al-Salmi", 
                 "Julian Cable", 
-                ""
+                "Laura Huang"
             ], 
             "id": "796", 
             "localized description": "", 
@@ -11079,7 +11081,7 @@
             "additional language": "", 
             "category": "Journalism", 
             "day": "Saturday", 
-            "description": "Bring your questions to this set of open sessions on the Journalism floor. Office hours are a chance to ask for one-on-one feedback, get help installing software, and dig into topical conversations with experts in the field. Including:\n\n* Privacy & Security (Martin Shelton, Matthew Mitchell, Mike Tigas)", 
+            "description": "Bring your questions to this set of open sessions on the Journalism floor. Office hours are a chance to ask for one-on-one feedback, get help installing software, and dig into topical conversations with experts in the field. Including:\n\n* Privacy & Security (Martin Shelton, Matthew Mitchell, Mike Tigas)\n* Working with video interviews (Pietro Passarelli)", 
             "end": "1:45pm", 
             "facilitators": {
                 "1": {
@@ -11107,18 +11109,18 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 8 - 805", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-office-hours--privacy-security", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-office-hours--privacy-security--video", 
             "programmatic": false, 
             "start": "1:00pm", 
             "tags": [], 
             "timeblock": "sat-1pm--saturday-13-00-", 
-            "title": "Office hours: Privacy/Security"
+            "title": "Office hours: Privacy/Security, Video Interviews"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
             "day": "Sunday", 
-            "description": "Bring your questions to this set of open sessions on the Journalism floor. Office hours are a chance to ask for one-on-one feedback, get help installing software, and dig into topical conversations with experts in the field. Including:\n\n* Snowball, a WordPress tool for building immersive feature articles (Meen Chul Kim)", 
+            "description": "Bring your questions to this set of open sessions on the Journalism floor. Office hours are a chance to ask for one-on-one feedback, get help installing software, and dig into topical conversations with experts in the field. Including:\n\n* Snowball, a WordPress tool for building immersive feature articles (Meen Chul Kim)\n* Virtual reality (Dan Zajdband", 
             "end": "1:45pm", 
             "facilitators": {
                 "1": {
@@ -11146,12 +11148,12 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 8 - 805", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-office-hours--snowball", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-office-hours--virtual-reality--snowba", 
             "programmatic": false, 
             "start": "1:00pm", 
             "tags": [], 
             "timeblock": "sun-1pm--sunday-13-00-", 
-            "title": "Office hours: Snowball"
+            "title": "Office hours: Virtual Reality, Snowbal"
         }, 
         {
             "additional language": "", 
@@ -18242,7 +18244,7 @@
             "additional language": "", 
             "category": "Open badges", 
             "day": "Saturday", 
-            "description": "We're planning two key activities at Mozfest to support the transition of the Open Badges standard to IMS, an Open Badges Roundtable to kickoff the day on Saturday and an action-oriented Open Badges focused 12-minute TED-style talk. The theme is stewarding Open Badges to become a global standard and the new potential this will bring for all those working in the field.\nStructure/Questions:\nWhat were the drivers behind the launching the Open Badges project?\nWhat do you see as the main achievements?\nWhat challenge to you see ahead?\nAs we look forwards what are your aspirations for the standard?\nHow can people contribute to the effort?", 
+            "description": "As the adoption of Open Badges continues to grow worldwide, this fireside chat focuses on how we can steward Open Badges towards becoming a global standard and the increased impact this could bring to learners and those working in the field. Join the conversation and hear from the organisations helping to lead this next evolution in Open Badges.", 
             "end": "10:45am", 
             "facilitators": {
                 "1": {
@@ -18288,12 +18290,12 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 8 - 801", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-open-badges-kickoff-roundtable", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-open-badges--towards-a-global-standar", 
             "programmatic": false, 
             "start": "10:00am", 
             "tags": [], 
             "timeblock": "sat-10am--saturday-10-00-", 
-            "title": "Open Badges Kickoff Roundtable"
+            "title": "Open Badges, towards a global standard."
         }, 
         {
             "additional language": "", 
@@ -18526,8 +18528,9 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "day": "Sunday", 
             "description": "Create a city in Minecraft and work with the team to bring it to life! In this session, participants will work together to create anything they want in our \"MozFest City\" and then have it brought to life with fun animations and interactivity. At the end of the session, everyone will present their creation to the rest of the participants and we'll play some competitive games in our newly created world.", 
-            "duration": "", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -18553,11 +18556,12 @@
             "id": "6", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 205", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-bringing-minecraft-to-life", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-4-30pm--sunday-16-30-", 
             "title": "Bringing Minecraft To Life"
         }, 
         {
@@ -18641,8 +18645,9 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
-            "description": "People will get an opportunity to use the Vive after the demo to make a drawing which will get posted on social media so they can later have it printed for themselves", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "Virtual reality Art with Tilt Brush and the HTC Vive headset, come experience this frankly amazingly immersive tool that is akin to the feeling you get when creating in Minecraft - Suitable from age 6+ come create and explore this virtual paining and sculpture studio - Book slots of 10 mins - First come first serve if you miss your turn you must rebook.", 
+            "end": "11:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "EPIK (Encouraging programing in kids)", 
@@ -18668,18 +18673,20 @@
             "id": "35", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 213", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-htc-vive-tilt-brush--minecraft-for-ar", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "HTC Vive tilt brush; Minecraft for Artists."
         }, 
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "day": "Saturday", 
             "description": "Ohbot is a robot head that is constructed and programmed by children. It has seven motors to provide a range of realistic movement. Ohbot is provided as a kit and comes with full instructions so that it can be built by children aged 7 and older.", 
-            "duration": "", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "OhBot", 
@@ -18705,18 +18712,20 @@
             "id": "61", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Open plan area", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-getting-to-grips-with-ohbot", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Getting to grips with OhBot"
         }, 
         {
             "additional language": "", 
             "category": "Youth zone", 
-            "description": "The PSG methodology has been used for several years at San Michele kindergarten in Fabriano , Italy, starting with Mauro Gaspari, a chess player and computer scientist, and Maria Beatrice Rapaccini, a high school math teacher.\nhttps://scacchi012.wordpress.com/2014/06/20/chessandcomputerscience/\nhttp://www.tcs.uni-luebeck.de/sonderseiten/cmsc/program/\nhttps://drive.google.com/file/d/0B9Ffp4L2qw15NWluQkNWMHdreFE/view?usp=sharing", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "The dissertation is concerned with the development of algorithmic and computational thinking using psychomotor activities on a giant chessboard (PSG).\nThe PSG methodology has been used for several years at San Michele kindergarten in Fabriano ,starting with Mauro Gaspari, a chess player and computer scientist. The aim of the workshop is not teaching children how to play chess, but to let them approach the world of chess with the same curiosity they have when listening to a fairy tale, trying to enter it gradually, until they become part of it\nThe psychomotor practice is a fundamental element for a healthy development of the child, which is favoured by sense-motor play in which “the pleasure of acting enhances the pleasure of thinking”(B. Aucouturier). Furthermore, from last studies on neurosciences, it has been confirmed how psychomotor activity favours learning, speech development and abstract thinking, thus enhancing creativity and social abilities in children.", 
+            "end": "11:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Tabaka Boys' High School", 
@@ -18742,18 +18751,20 @@
             "id": "153", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 206", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-playing-with-the-king--introducing-pr", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Playing with the King: Introducing Primary Students to Computational Thinking with a Giant Chess Board."
         }, 
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "day": "Saturday", 
             "description": "Let’s attract your inner Zombie (Yes, we are using the Z-word)…\nSet in a world overrun by the undead, we challenge you to identify your survival team in this immersive, strategy-based game.  What strengths and characteristics would you choose to give you the best chance of surviving the apocalypse.", 
-            "duration": "", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "BBC", 
@@ -18779,18 +18790,20 @@
             "id": "161", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 212", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-working-dead", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "The Working Dead"
         }, 
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "day": "Saturday", 
             "description": "ND DAZE is an immersive 360 virtual reality experience based on an individual’s sensory and psychological experience of being neurodiverse.  An evolutionary development from a previous 2D film (In my Shoes), the application of technical advances in Virtual Reality filming, Binaural audio and post production enabled the BBC’s Project Cape team to realise this fully immersive experience with a twist; one that is not designed to reflect the real world for the purposes of greater immersion, but to replace an expected experience of the real world with that of another alternative reality. The film is designed to highlight how a Neurodivergent individual interacts with their environment and how that environment subsequently interacts with them.", 
-            "duration": "", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "BBC", 
@@ -18816,18 +18829,20 @@
             "id": "176", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 213", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-nd-daze", 
             "programmatic": false, 
+            "start": "4:30pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "ND Daze"
         }, 
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "day": "Saturday", 
             "description": "Overview of art&tech workshops, covering coding, webdesign, online curation, 3D making, audio art developments, robot making, animation. The videos are created as online resources for learning and digital making, opening mainly to young audiences.", 
-            "duration": "", 
+            "end": "10:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Tate", 
@@ -18853,18 +18868,20 @@
             "id": "186", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 200", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-tate-kids---digital-makers", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Tate Kids - Digital Makers"
         }, 
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "day": "Sunday", 
             "description": "In the last years, disciplines like journalism and video games have been invaded by two technological concepts: Virtual Reality and Augmented Reality.  AR features have become concrete in games which use the real world as a field of game.\nBut, How can we prototype faster? Aframe.io started to show the world that VR is not far from anyone. The challenge here is more creative than technical. Like PokemonGo, the importance lays in the story which later has been prototyped. We are willing to show concrete examples and play with tools to understand how this technology sets the pace for the telepresence, immersion and understanding of situations.\n1) Understand the basics of AR\n2) Demystify the AR technology, and gain experience on how to create and design tools.\n3) Produce experiences based on meaningful stories throug full reality Storyboard.\n4) Get hands on and build an experience you will bring home.", 
-            "duration": "", 
+            "end": "1:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Huma", 
@@ -18890,18 +18907,20 @@
             "id": "198", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 213", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-shaping-reality-for-ar-storytelling", 
             "programmatic": false, 
+            "start": "12:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-12-15pm--sunday-12-15-", 
             "title": "Shaping Reality for AR Storytelling, from the idea to the prototype."
         }, 
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "day": "Sunday", 
             "description": "\"If you can't explain it to a six year old, you don't understand it yourself\" ~ Albert Einstein\nCroydon library code club children will help us re-imagine libraries and their role in the 21st century.\nLearn about citizen tech.\nLearn how to make your own virtual reality viewer.\nLearn how to make and share your own virtual reality content.\nShare ideas about libraries and their role in our future.", 
-            "duration": "", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "CCS Libraries and inspireNshare", 
@@ -18927,11 +18946,12 @@
             "id": "206", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 200", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-make-vr-----libraries----st-century-l", 
             "programmatic": false, 
+            "start": "1:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-1pm--sunday-13-00-", 
             "title": "MAKE:VR ... Libraries: 21st century literacies and citizen tech"
         }, 
         {
@@ -19052,8 +19072,9 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "day": "Saturday", 
             "description": "Some people just play computer games, but the real thrill comes from making your own. Using BBC micro:bit and and a visual programming language, will have you making and playing your own game in less than 60 minutes.\nIn this session we will build 2 projects using a BBC Micro:bit device. The first project will be to create a name badge and the 2nd will be to create a small game where two micro bits sync to play a game of Rock Paper Scissors.\nWe will introduce students to programming using a block editor at https://codethemicrobit.com more advanced student can convert this code into TypeScript.", 
-            "duration": "", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Microsoft", 
@@ -19079,18 +19100,59 @@
             "id": "236", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 205", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-building-with-the-bbc-micro-bit", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Building with the BBC Micro:bit"
         }, 
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "day": "Sunday", 
+            "description": "Some people just play computer games, but the real thrill comes from making your own. Using BBC micro:bit and and a visual programming language, will have you making and playing your own game in less than 60 minutes.\nIn this session we will build 2 projects using a BBC Micro:bit device. The first project will be to create a name badge and the 2nd will be to create a small game where two micro bits sync to play a game of Rock Paper Scissors.\nWe will introduce students to programming using a block editor at https://codethemicrobit.com more advanced student can convert this code into TypeScript.", 
+            "end": "2:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Microsoft", 
+                    "name": "Martin Beeby", 
+                    "twitter": "@thebeebs"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Martin Beeby", 
+                "", 
+                ""
+            ], 
+            "id": "228", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 205", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-building-with-the-bbc-micro-bit", 
+            "programmatic": false, 
+            "start": "12:15pm", 
+            "tags": [], 
+            "timeblock": "sun-12-15pm--sunday-12-15-", 
+            "title": "Building with the BBC Micro:bit"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Saturday", 
             "description": "This session is a workshop that teaches participants to code a simple reaction game on an Arduino. It also teaches the fundamentals of wiring up a breadboard with an LED and a push button.\nIf possible and time permits, we would like to offer a digital badge for this session. We might need some help with this.", 
-            "duration": "", 
+            "end": "1:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Ada, the National College for Digital Skills", 
@@ -19116,18 +19178,20 @@
             "id": "241", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 212", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-making-an-arduino-reaction-game-using", 
             "programmatic": false, 
+            "start": "11:15am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Making an Arduino Reaction game using a Raspberry Pi"
         }, 
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "day": "Saturday", 
             "description": "Escalate, formerly Scalescape, is an online resource designed to help musicians learn scales. Our session would be an interactive demonstration and test of our website, and hopefully, the launch of a new piece of Escalate software. Currently, Escalate has limited features, allowing users to listen to audio recordings of scales on different instruments, allowing the user to see the scale notation and having a backing track from a popular song that allows users to improvise with the new scale, but at MozFest, we hope to launch several new Escalate features.", 
-            "duration": "", 
+            "end": "12:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -19153,18 +19217,20 @@
             "id": "250", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 205", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-escalate", 
             "programmatic": false, 
+            "start": "11:15am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Escalate"
         }, 
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "day": "Sunday", 
             "description": "This session will give people the opportunity to create their own interactive fiction (similar to choose your own adventure books, but in a digital form). They'll learn what interactive fiction is and find out about different free tools they can use to create their own interactive fiction and how to share it with others.", 
-            "duration": "", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Surrey Libraries", 
@@ -19190,55 +19256,20 @@
             "id": "270", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 205", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-get-interactive-with-fiction", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Get Interactive With Fiction"
         }, 
         {
             "additional language": "", 
             "category": "Youth zone", 
-            "description": "It would allow them to use the BBC micro:bit in combination with a Raspberry Pi & Minecraft Pi Edition to fly interactive Star Wars craft inside a virtual Minecraft world, controlled in the real world by the micro:bit.", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "", 
-                    "name": "Joe Glancy", 
-                    "twitter": "@c0d3st0rm"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Joe Glancy", 
-                "", 
-                ""
-            ], 
-            "id": "277", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-minecraft-pi-and-the-physical-world", 
-            "programmatic": false, 
-            "tags": [], 
-            "timeblock": "", 
-            "title": "Minecraft Pi and the physical world"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Youth zone", 
+            "day": "Saturday", 
             "description": "Show people how hackers can steel their data in a demonstration and advice people how to protect their devices and show people what precautions to take. With an activity to encourage logical thinking in problem solving.", 
-            "duration": "", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -19264,18 +19295,20 @@
             "id": "310", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 206", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-think-before-you-click--protect-your", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Think before you Click: Protect your Data"
         }, 
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "day": "Saturday", 
             "description": "Off Grid is a videogame about data privacy, where you, the player, have to collect and manipulate the personal data of the other characters around you in order to complete your mission. People will be able to learn about the network and data vulnerabilities of 'connected spaces' through one of the main mechanics - hacking into IoT enabled devices that exist in all the levels - to collect data or change the behaviors of guards and other characters.", 
-            "duration": "", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Semaeopus", 
@@ -19301,18 +19334,20 @@
             "id": "335", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 205", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-off-grid---a-game-where-data-is-your", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Off Grid - a game where data is your most powerful weapon"
         }, 
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "day": "Saturday", 
             "description": "Know the immense possibilities associated with Virtual Reality and know the products that have been built or under process .\nLearn to create the best VR environment for the next world and embrace the world with a VR vision .\nExperience the best possibilities in development/career/invention/entrepreneurship that can take place as a virtual reality enthusiast.\nLive the virtual life and experience why this tech is going to be the next biggest thing in the century.\nKnow the best way to contribute towards it and demystify the myths related to the technology.", 
-            "duration": "", 
+            "end": "4:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -19338,18 +19373,20 @@
             "id": "400", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 205", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-virtual-living-exploring-possibilitie", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Virtual Living-Exploring Possibilities in VR"
         }, 
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "day": "Sunday", 
             "description": "Here I will demo them a way to integrate and use Augmented Reality in web applications with virtual reality demons and apps. A quick way in javascript which allows you to use your same old android with Google Cardboard and now have Augmented Reality and interaction with WebVR secenes", 
-            "duration": "", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla / RICE University", 
@@ -19375,11 +19412,12 @@
             "id": "472", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 205", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-build-on-webvr-and-touch-to-interact", 
             "programmatic": false, 
+            "start": "11:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Build on WebVR and touch to interact! Come Augmented Reality for the web!"
         }, 
         {
@@ -19500,8 +19538,9 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "day": "Sunday", 
             "description": "Virtual Reality (VR) appears poised to affect the field of modern education, however, creating user-generated VR experiences requires expertise with graphic design, 3D modeling, video editing, and programming skills is too complex for most elementary and middle school teachers and students to take on. In order to make VR storytelling more accessible, we have created SocialVR: a browser-based interactive design tool that allows non-technical users aged 8+ to create personalized VR experiences. Using a simple browser, phone, and low-cost camera, individuals who otherwise would not have access to VR technology are equipped to build personalized immersive experiences using 360 photos and videos, text, and audio. Using these media primitives, users can create customized stories, games, and learning resources. During the demo and lightning talk, we will share several examples and demonstrate how to make a personalized VR experience. We will also build an example on site.", 
-            "duration": "", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Carnegie Mellon University, ArtFab", 
@@ -19527,18 +19566,20 @@
             "id": "496", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 213", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-socialvr--virtual-reality-storytellin", 
             "programmatic": false, 
+            "start": "11:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "SocialVR: Virtual Reality Storytelling for Youth and Non-Technical Adults"
         }, 
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "day": "Sunday", 
             "description": "This session will allow participants to learn basic commands in the programming language “C” and allow them to implement it in order to accomplish the following tasks:\n1)\tBlink- In this activity participants will learn how to program an LED to blink at different speeds and intervals.\n2)\tButton- Learning how to program a button to turn on a light. This allows them to develop skills learnt in the previous task\n3)\tMagic 8 ball:  This is a fun context based task which allows participants to program servos. In this exercise, we will create our version of the magic 8 ball.", 
-            "duration": "", 
+            "end": "4:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "St. Philomena's Catholic High School for Girls", 
@@ -19564,18 +19605,20 @@
             "id": "499", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 212", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-arduino--an-introduction-into-program", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Arduino: an introduction into programing and robotics"
         }, 
         {
             "additional language": "", 
             "category": "Youth zone", 
-            "description": "Virtual Reality offers makers the chance to build new cutting edge experiences that no one has seen before.  This hands-on workshop will supercharge your creation toolbox with Mozilla A-frame — the framework for building incredible experiences on the web in VR.  Attendees will have the opportunity to learn about VR technology, storytelling, sound design, character/environment design, and animation to bring their own powerful world-changing ideas to life in a matter of hours.", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "Moz is your robot guide and best friend in your quest to unlock the secrets of virtual reality before it’s too late. Capture real life prizes as you learn to navigate the cartesian coordinate system, build spaceships and use the power of physics to conquer any challenge. All this using the HTC Vive VR headset", 
+            "end": "4:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -19601,12 +19644,52 @@
             "id": "603", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-hands-on-workshop-for-building-webvr", 
+            "location": "Floor 2 - 213", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-magnificent-adventures-of-moz---m", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
-            "title": "Hands on Workshop for building WebVR experiences with Aframe"
+            "timeblock": "sat-2pm--saturday-14-00-", 
+            "title": "The Magnificent Adventures of Moz & Me in Virtual Reality"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Sunday", 
+            "description": "The Museum of London has produced a Minecraft experience by recreating the City of London in 1666. The Museum of London has worked with some of the world’s best Minecraft professionals to create these maps, combining our knowledge and collections with their creative minds to bring history to life. In the session we will discuss some of the thinking behind the project, what it has been like to enter into the unfamiliar world of Minecraft and why it is such a powerful platform to use for digital engagement and learning.", 
+            "end": "4:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Museum of London", 
+                    "name": "Josh Blair", 
+                    "twitter": "@josh__blair"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Josh Blair", 
+                "", 
+                ""
+            ], 
+            "id": "601", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 205", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-great-fire-------using-minecraft", 
+            "programmatic": false, 
+            "start": "3:15pm", 
+            "tags": [], 
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
+            "title": "The Great Fire 1666, using Minecraft to"
         }, 
         {
             "additional language": "", 
@@ -19650,45 +19733,8 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
-            "description": "We will be running a workshop to teach people how to create Raspberry Pi Robots using the GPIO zero library.", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Southend Raspberry Jam", 
-                    "name": "Isreal Genius", 
-                    "twitter": "@Isreal_Genius"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Isreal Genius", 
-                "", 
-                ""
-            ], 
-            "id": "680", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-raspberry-pi-robots", 
-            "programmatic": false, 
-            "tags": [], 
-            "timeblock": "", 
-            "title": "Raspberry Pi Robots"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Youth zone", 
             "description": "This is a simple discussion style workshop very similar to what was held last year between Tom Farrow and myself. This year however we will be looking more into the concept of data permanence and how it can affect future opportunities and hence why it maybe important to be careful about what you put onto the internet. This session also aims for the participants to leave with the required skills to then go to their peers to hopefully explain to them why this is an important topic, possibly encouraging them to host such discussions at home or maybe at school.", 
-            "duration": "", 
+            "end": "5:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -19714,86 +19760,13 @@
             "id": "613", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 206", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-data-permanence--how-can-it-affect-yo", 
             "programmatic": false, 
+            "start": "4:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-15-15-16-15", 
             "title": "Data Permanence: How can it affect your future"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Youth zone", 
-            "description": "During the session children will understand the importance of clear instructions when programming. They will learn how to make a simple robot and program it to move.", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Latymer Prep School / 3BM", 
-                    "name": "Nicholas Hughes", 
-                    "twitter": "duck_star"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Nicholas Hughes", 
-                "", 
-                ""
-            ], 
-            "id": "755", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-creating-crumble-robots", 
-            "programmatic": false, 
-            "tags": [], 
-            "timeblock": "", 
-            "title": "Creating Crumble Robots"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Youth zone", 
-            "description": "Children to be introduced to physical commuting where they will learn how to use GPIO pins on a Raspberry Pi to make LEDs flash.", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Latymer Prep School / 3BM", 
-                    "name": "Nicholas Hughes", 
-                    "twitter": "duck_star"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Nicholas Hughes", 
-                "", 
-                ""
-            ], 
-            "id": "756", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-gpio-and-physical-computing", 
-            "programmatic": false, 
-            "tags": [], 
-            "timeblock": "", 
-            "title": "GPIO and Physical Computing."
         }, 
         {
             "additional language": "", 
@@ -19837,8 +19810,9 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
-            "description": "In this hands-on workshop attendees will learn to create interactive posters with circuitry on paper and make them come to life with Arduino programming!\nWe will be using circuit stickers to build expressive circuitry on paper and introduce a new programmable microcontroller clip for the code. We will be using an online browser-based Arduino programming platform and participants can program the clips with their laptops, tablets or even cell phones.\nOur goal is to introduce beginner circuit builders and programmers to the magic of creating technology through arts and crafts.  Participants will get to have fun designing, building and coding electronics while making unique and expressive works of art!\nFor an example of programmed paper circuitry artwork, check out this interactive painting:\nhttp://technolojie.com/pu-gong-ying-tu-dandelion-painting/", 
-            "duration": "", 
+            "day": "Saturday", 
+            "description": "Join us for paper crafting with circuitry!  We will make light-up \ninteractive posters and bring them to life with code.  No experience \nwith code or circuitry is necessary-- everyone is welcome!In this hands-on workshop attendees will learn to create interactive posters with circuitry on paper and make them come to life with Arduino programming!\nWe will be using circuit stickers to build expressive circuitry on paper and introduce a new programmable microcontroller clip for the code. We will be using an online browser-based Arduino programming platform and participants can program the clips with their laptops, tablets or even cell phones.\nOur goal is to introduce beginner circuit builders and programmers to the magic of creating technology through arts and crafts.  Participants will get to have fun designing, building and coding electronics while making unique and expressive works of art!\nFor an example of programmed paper circuitry artwork, check out this interactive painting:\nhttp://technolojie.com/pu-gong-ying-tu-dandelion-painting/", 
+            "end": "2:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "chibitronics.com", 
@@ -19864,11 +19838,51 @@
             "id": "752", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 200", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-programmable-posters-with-paper-circu", 
             "programmatic": false, 
+            "start": "12:30pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-12-30pm--saturday-12-30-", 
+            "title": "Programmable Posters with Paper Circuitry"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Sunday", 
+            "description": "Join us for paper crafting with circuitry!  We will make light-up \ninteractive posters and bring them to life with code.  No experience \nwith code or circuitry is necessary-- everyone is welcome!In this hands-on workshop attendees will learn to create interactive posters with circuitry on paper and make them come to life with Arduino programming!\nWe will be using circuit stickers to build expressive circuitry on paper and introduce a new programmable microcontroller clip for the code. We will be using an online browser-based Arduino programming platform and participants can program the clips with their laptops, tablets or even cell phones.\nOur goal is to introduce beginner circuit builders and programmers to the magic of creating technology through arts and crafts.  Participants will get to have fun designing, building and coding electronics while making unique and expressive works of art!\nFor an example of programmed paper circuitry artwork, check out this interactive painting:\nhttp://technolojie.com/pu-gong-ying-tu-dandelion-painting/", 
+            "end": "1:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "chibitronics.com", 
+                    "name": "Jie Qi", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Jie Qi", 
+                "", 
+                ""
+            ], 
+            "id": "7520", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 200", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-programmable-posters-with-paper-circu", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Programmable Posters with Paper Circuitry"
         }, 
         {
@@ -20067,8 +20081,9 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "day": "Sunday", 
             "description": "A demonstration/talk/workshop on the Butterfly Machine, an invention using software and the Kinect sensor bar to turn a piece of visual art into an interactive musical experience.\nThe concept:\nA composer writes short musical ideas based on their interpretation of sections of, or figures depicted in, an artwork, and associate each with their position using a piece of software to create a project which can be loaded into the machine. A visitor to a gallery or similar, encountering the artwork with the machine installed, is invited to place their hands 'into' the painting, triggering an interactive and unique musical response based on the composer's ideas, and manipulated in real time by the position and motion of their hands.\nA prototype of the machine was demonstrated for the first time at the Langton Festival of Music and Health this July, and will be further developed by the time of MozFest.", 
-            "duration": "", 
+            "end": "11:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -20094,18 +20109,20 @@
             "id": "783", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 200", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-butterfly-machine--using-technolo", 
             "programmatic": false, 
+            "start": "11:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "The Butterfly Machine: Using technology to interpret art through music"
         }, 
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "day": "Saturday", 
             "description": "The Tiles for Tales project explores links between the craft of story telling and technology. It shows how physical computing activities can be incorporated into collaborative activities and support story telling activities by young people.  Each tile represents a character or scene, and the tiles can then be used in similar way to story stones (or story dice), to narrate a tale, with each tile being controlled via scripts in ScratchX.", 
-            "duration": "", 
+            "end": "4:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Technology Volunteers, University of Warwick", 
@@ -20131,49 +20148,13 @@
             "id": "787", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 200", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-tiles-for-tales", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Tiles for Tales"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Youth zone", 
-            "description": "Workshop will explain to attendees the benefits of operating your internet traffic within a VPN and how to use a Raspberry Pi on your home network to create your own! We'll link our Pis to the network, install the right libraries and software and set up a VPN on the spot! No more unencrypted internet traffic at Starbucks!", 
-            "duration": "", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "HackLab", 
-                    "name": "Mark Calleja", 
-                    "twitter": "@__MisterC__  ,  @HacklabUK"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Mark Calleja", 
-                "", 
-                ""
-            ], 
-            "id": "794", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-rpi-vpn--using-the-raspberry-pi-to-cr", 
-            "programmatic": false, 
-            "tags": [], 
-            "timeblock": "", 
-            "title": "RPi VPN: Using the Raspberry Pi to create a Virtual Private Network"
         }, 
         {
             "additional language": "", 
@@ -20217,8 +20198,9 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "day": "Saturday", 
             "description": "Through the power of Virtual reality, I will guide visitors on a tour of our solar system. From the moons of Jupiter, to the dust in our Oort cloud.\nVisitors will be immersed in space, needing nothing more than a Smartphone (not provided) and google cardboard headset (provided).\nThe grand tour will consist of visiting every major object in our solar system, and finishing with a quick overview of our galaxy, and the relatively infinite universe beyond. Set to relaxing music, this educational experience will amaze, wow and educate the audience. Along with the hundreds of facts, millions of planets, and trillions of stars, I hope this workshop will inspire more young children to learn about space.", 
-            "duration": "", 
+            "end": "11:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -20244,11 +20226,12 @@
             "id": "814", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 212", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-grand-tour---experience-our-solar", 
             "programmatic": false, 
+            "start": "10:00am", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "The Grand Tour - experience our solar system in VR"
         }, 
         {
@@ -20837,9 +20820,9 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
-            "day": "Sunday", 
+            "day": "Saturday", 
             "description": "Virtual reality Art with Tilt Brush and the HTC Vive headset, come experience this frankly amazingly immersive tool that is akin to the feeling you get when creating in Minecraft - Suitable from age 6+ come create and explore this virtual paining and sculpture studio - Book slots of 10 mins - First come first serve if you miss your turn you must rebook.", 
-            "end": "2:30pm", 
+            "end": "12:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "EPIK (Encouraging programing in kids)", 
@@ -20868,9 +20851,87 @@
             "location": "Floor 2 - 213", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-htc-vive-tilt-brush--minecraft-for-ar", 
             "programmatic": false, 
+            "start": "11:15am", 
+            "tags": [], 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
+            "title": "HTC Vive tilt brush; Minecraft for Artists."
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Saturday", 
+            "description": "Virtual reality Art with Tilt Brush and the HTC Vive headset, come experience this frankly amazingly immersive tool that is akin to the feeling you get when creating in Minecraft - Suitable from age 6+ come create and explore this virtual paining and sculpture studio - Book slots of 10 mins - First come first serve if you miss your turn you must rebook.", 
+            "end": "1:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "EPIK (Encouraging programing in kids)", 
+                    "name": "Sabrina Lindridge", 
+                    "twitter": "@dorineFlies"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Sabrina Lindridge", 
+                "", 
+                ""
+            ], 
+            "id": "35001", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 213", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-htc-vive-tilt-brush--minecraft-for-ar", 
+            "programmatic": false, 
             "start": "12:30pm", 
             "tags": [], 
-            "timeblock": "sun-lunch--sunday-12-30-", 
+            "timeblock": "sat-12-30pm--saturday-12-30-", 
+            "title": "HTC Vive tilt brush; Minecraft for Artists."
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Saturday", 
+            "description": "Virtual reality Art with Tilt Brush and the HTC Vive headset, come experience this frankly amazingly immersive tool that is akin to the feeling you get when creating in Minecraft - Suitable from age 6+ come create and explore this virtual paining and sculpture studio - Book slots of 10 mins - First come first serve if you miss your turn you must rebook.", 
+            "end": "2:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "EPIK (Encouraging programing in kids)", 
+                    "name": "Sabrina Lindridge", 
+                    "twitter": "@dorineFlies"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Sabrina Lindridge", 
+                "", 
+                ""
+            ], 
+            "id": "35002", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 213", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-htc-vive-tilt-brush--minecraft-for-ar", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sat-1pm--saturday-13-00-", 
             "title": "HTC Vive tilt brush; Minecraft for Artists."
         }, 
         {
@@ -20904,7 +20965,7 @@
             "id": "61000", 
             "localized description": "", 
             "localized title": "", 
-            "location": "200", 
+            "location": "Floor 2 - 200", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-getting-to-grips-with-ohbot", 
             "programmatic": false, 
             "start": "3:15pm", 
@@ -20993,8 +21054,9 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "day": "Saturday", 
             "description": "APC and its partners have re-released its popular resource, a simple first-aid for human rights defenders who have found themselves on the receiving end of a hack, DDoS, or severe trolling. The latest edition is even more usable: mobile responsive and on a standalone platform. It's also now in Urdu, Hindi, French and Spanish, in addition to the original English. Participants will be coerced into a gameshow format as a way to share expertise and cluelessness alike in figuring out exactly what to do once you've been pwned.", 
-            "duration": "60", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Association for Progressive Communications", 
@@ -21020,11 +21082,12 @@
             "id": "3910", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 2 - 206", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-an-exceedingly-practical-digital-secu", 
             "programmatic": false, 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "An exceedingly practical digital security first-aid kit for after you've been pwned"
         }, 
         {
@@ -21211,7 +21274,7 @@
                 "", 
                 ""
             ], 
-            "id": "862", 
+            "id": "1324", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 2 - 206", 
@@ -21250,7 +21313,7 @@
                 "", 
                 ""
             ], 
-            "id": "862", 
+            "id": "1325", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 2 - 206", 
@@ -21289,7 +21352,7 @@
                 "", 
                 ""
             ], 
-            "id": "862", 
+            "id": "1337", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 2 - 206", 
@@ -21298,6 +21361,162 @@
             "start": "3:15pm", 
             "tags": [], 
             "timeblock": "sun-3-15pm--sunday-15-15-", 
+            "title": "Quiet \"Time out\" room for parents and their children"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Saturday", 
+            "description": "Through the power of Virtual reality, I will guide visitors on a tour of our solar system. From the moons of Jupiter, to the dust in our Oort cloud.\nVisitors will be immersed in space, needing nothing more than a Smartphone (not provided) and google cardboard headset (provided).\nThe grand tour will consist of visiting every major object in our solar system, and finishing with a quick overview of our galaxy, and the relatively infinite universe beyond. Set to relaxing music, this educational experience will amaze, wow and educate the audience. Along with the hundreds of facts, millions of planets, and trillions of stars, I hope this workshop will inspire more young children to learn about space.", 
+            "end": "4:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "Cathryn Dunicliff", 
+                    "twitter": "@meowter_space"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Cathryn Dunicliff", 
+                "", 
+                ""
+            ], 
+            "id": "81400", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 212", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-grand-tour---experience-our-solar", 
+            "programmatic": false, 
+            "start": "3:15pm", 
+            "tags": [], 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
+            "title": "The Grand Tour - experience our solar system in VR"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Saturday", 
+            "description": "APC and its partners have re-released its popular resource, a simple first-aid for human rights defenders who have found themselves on the receiving end of a hack, DDoS, or severe trolling. The latest edition is even more usable: mobile responsive and on a standalone platform. It's also now in Urdu, Hindi, French and Spanish, in addition to the original English. Participants will be coerced into a gameshow format as a way to share expertise and cluelessness alike in figuring out exactly what to do once you've been pwned.", 
+            "end": "3:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Association for Progressive Communications", 
+                    "name": "Mallory Knodel", 
+                    "twitter": "@chaoticfree"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Mallory Knodel", 
+                "", 
+                ""
+            ], 
+            "id": "3910", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 206", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-an-exceedingly-practical-digital-secu", 
+            "programmatic": false, 
+            "start": "2:00pm", 
+            "tags": [], 
+            "timeblock": "sat-2pm--saturday-14-00-", 
+            "title": "An exceedingly practical digital security first-aid kit for after you've been pwned"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Saturday", 
+            "description": "Protect yourself with knowledge! Thought hacking was for the hard core, well you’re definitely", 
+            "end": "1:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "Seth Duffet", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Seth Duffet", 
+                "", 
+                ""
+            ], 
+            "id": "859", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 205", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-wi-fi-penetration-with-kali-linux", 
+            "programmatic": false, 
+            "start": "12:30pm", 
+            "tags": [], 
+            "timeblock": "sat-12-30pm--saturday-12-30-", 
+            "title": "Wi-Fi Penetration with Kali Linux"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Sunday", 
+            "description": "A space provided to regain focus and calm; paper, pens and tracing light boxes provided - parents MUST stay with their child at all time and keep the door open.", 
+            "end": "11:00am", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "862", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 206", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-quiet--time-out--room-for-parents-and", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Quiet \"Time out\" room for parents and their children"
         }
     ], 
