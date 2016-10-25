@@ -481,9 +481,9 @@
                     "twitter": "@chadsansing"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "St. Anne's-Belfield School", 
+                    "name": "Zach Minster", 
+                    "twitter": "@HeroicZach"
                 }, 
                 "3": {
                     "affiliated org": "", 
@@ -493,7 +493,7 @@
             }, 
             "facilitators_names": [
                 "Chad Sansing", 
-                "", 
+                "Zach Minster", 
                 ""
             ], 
             "id": "66", 
@@ -902,12 +902,12 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 7 - 702", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-online-learning--offline--taking-mooc", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-p-pu---online-learning-face-to-face", 
             "programmatic": false, 
             "start": "10:00am", 
             "tags": [], 
             "timeblock": "sat-10am--saturday-10-00-", 
-            "title": "Online learning, offline: Taking MOOCs face-to-face"
+            "title": "P2PU - Online learning face to face"
         }, 
         {
             "additional language": "", 
@@ -991,7 +991,7 @@
             "additional language": "", 
             "category": "Demystify the web", 
             "day": "Sunday", 
-            "description": "Computer science (CS) is a hot topic in education these days and for good reason. Technology is changing everything - the way we work, govern, communicate and educate, yet too few students are exposed to the foundational concepts behind technology or get hands-on experience creating tech. The capacity, tools and resources needed by every school to integrate CS concepts are limited. At St. Anne’s-Belfield School (STAB), we began integrating CS across our K-12 curriculum in 2014. Being part of the Mozilla Learning Network has been critical to our success. We’ll share our approach of introducing CS concepts while tackling stereotypical fears associated with coding that students and teachers often face. We want to dialog with other educators, students and parents on their experience of CS - the good, the bad & the ugly. Then we want to brainstorm steps that can be taken to bridge this critical gap in education.", 
+            "description": "Technology is changing everything - the way we work, govern, communicate and educate, yet too few students are exposed to the foundational concepts behind technology or get hands-on experience creating tech. The capacity, tools and resources needed by every school to integrate CS concepts are limited.\n \nKim Wilkens & Zach Minster will share their story of integrating CS across the K-12 curriculum at St. Anne’s-Belfield School where being part of the Mozilla Learning Network has been critical to their success. Ann Marie Carrothers will share her story of creating Coding Core, an open-source lesson plan tool that empowers schools to implement CS coursework that goes beyond the #hourofcode while being easily understood by teachers and parents with no tech or CS background.\n \nDuring this session, we are especially interested in learning from other educators, students and parents about their experience of CS - the good, the bad & the ugly, so we can brainstorm steps that can help us all bridge this critical gap in education.", 
             "end": "4:15pm", 
             "facilitators": {
                 "1": {
@@ -1000,20 +1000,20 @@
                     "twitter": "@kimxtom"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "St. Anne's-Belfield School", 
+                    "name": "Zach Minster", 
+                    "twitter": "@heroiczach"
                 }, 
                 "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "Hive Chicago Learning Network", 
+                    "name": "Ann Marie Carrothers", 
+                    "twitter": "@AnnCarrothers"
                 }
             }, 
             "facilitators_names": [
                 "Kim Wilkens", 
-                "", 
-                ""
+                "Zach Minster", 
+                "Ann Marie Carrothers"
             ], 
             "id": "341", 
             "localized description": "", 
@@ -1592,8 +1592,8 @@
             "end": "1:30pm", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "", 
-                    "name": "Iris Bond Gill", 
+                    "affiliated org": "Davis Erin Anderson", 
+                    "name": "Nate Hill", 
                     "twitter": ""
                 }, 
                 "2": {
@@ -1603,14 +1603,14 @@
                 }, 
                 "3": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Matthew Kopel", 
                     "twitter": ""
                 }
             }, 
             "facilitators_names": [
-                "Iris Bond Gill", 
+                "Nate Hill", 
                 "", 
-                ""
+                "Matthew Kopel"
             ], 
             "id": "627", 
             "localized description": "", 
@@ -1893,12 +1893,12 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 7 - 702", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-fireplace", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-fireplace---gather-around-everyone--i", 
             "programmatic": false, 
             "start": "4:30pm", 
             "tags": [], 
             "timeblock": "sat-4-30pm--saturday-16-30-", 
-            "title": "Fireplace"
+            "title": "Fireplace - Gather around everyone, it's story time!"
         }, 
         {
             "additional language": "", 
@@ -7429,7 +7429,7 @@
             "category": "Dilemmas in Connected Spaces", 
             "day": "Saturday", 
             "description": "Exhibition opening of all the things made throughout the day at the Good Home space.\nWe'll give a little introduction to the Good Home and the exhibitions on display and close the day with some drinks.\nFor anyone interested in better living in the 21 century, connected homes, migratory living, technologists, designers.", 
-            "end": "7:00pm", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "The Good home", 
@@ -7458,9 +7458,9 @@
             "location": "Floor 6 - 602", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-closing-drinks---exhibition", 
             "programmatic": false, 
-            "start": "6:00pm", 
+            "start": "4:30pm", 
             "tags": [], 
-            "timeblock": "sat-evening-activities--saturday-18-00-", 
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Closing drinks & exhibition"
         }, 
         {
@@ -8053,7 +8053,7 @@
             "category": "Dilemmas in connected spaces", 
             "day": "Saturday", 
             "description": "This is a quiet hack following the previous hack a Databox session - www.databoxproject.uk - Introducing the Databox platform to the Mozilla community and provide participants with the opportunity to get their hands on this novel privacy-preserving platform. This hands on session will exploit data provided by Internet of Things devices deployed around the Mozilla Festival.", 
-            "end": "6:30pm", 
+            "end": "8:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "University of Nottingham", 
@@ -8085,6 +8085,45 @@
             "start": "4:30pm", 
             "tags": [], 
             "timeblock": "sat-4-30pm--saturday-16-30-", 
+            "title": "Databox: Hack an App (hack on)"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Sunday", 
+            "description": "This is a quiet hack following the previous hack a Databox session - www.databoxproject.uk - Introducing the Databox platform to the Mozilla community and provide participants with the opportunity to get their hands on this novel privacy-preserving platform. This hands on session will exploit data provided by Internet of Things devices deployed around the Mozilla Festival.", 
+            "end": "5:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "University of Nottingham", 
+                    "name": "Tom Lodge", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Tom Lodge", 
+                "", 
+                ""
+            ], 
+            "id": "1173", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 601", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-databox--hack-an-app--hack-on", 
+            "programmatic": false, 
+            "start": "2:00pm", 
+            "tags": [], 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Databox: Hack an App (hack on)"
         }, 
         {
@@ -11081,29 +11120,29 @@
             "additional language": "", 
             "category": "Journalism", 
             "day": "Saturday", 
-            "description": "Bring your questions to this set of open sessions on the Journalism floor. Office hours are a chance to ask for one-on-one feedback, get help installing software, and dig into topical conversations with experts in the field. Including:\n\n* Privacy & Security (Martin Shelton, Matthew Mitchell, Mike Tigas)\n* Working with video interviews (Pietro Passarelli)", 
+            "description": "Bring your questions to this open session on the Journalism floor. Meet Martin, Matthew, and Mike to ask for one-on-one feedback, get help installing software, and dig into topical conversations with experts on privacy & security.", 
             "end": "1:45pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Meet Martin", 
                     "twitter": ""
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Matthew Mitchell", 
                     "twitter": ""
                 }, 
                 "3": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Mike Tigas", 
                     "twitter": ""
                 }
             }, 
             "facilitators_names": [
-                "", 
-                "", 
-                ""
+                "Meet Martin", 
+                "Matthew Mitchell", 
+                "Mike Tigas"
             ], 
             "id": "801", 
             "localized description": "", 
@@ -11120,12 +11159,12 @@
             "additional language": "", 
             "category": "Journalism", 
             "day": "Sunday", 
-            "description": "Bring your questions to this set of open sessions on the Journalism floor. Office hours are a chance to ask for one-on-one feedback, get help installing software, and dig into topical conversations with experts in the field. Including:\n\n* Snowball, a WordPress tool for building immersive feature articles (Meen Chul Kim)\n* Virtual reality (Dan Zajdband", 
+            "description": "Bring your questions to this open session on the Journalism floor. Meet Pietro to ask for one-on-one feedback, get help installing software, and dig into topical conversations with an expert on video storytelling.", 
             "end": "1:45pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Pietro Passarelli", 
                     "twitter": ""
                 }, 
                 "2": {
@@ -11140,7 +11179,7 @@
                 }
             }, 
             "facilitators_names": [
-                "", 
+                "Pietro Passarelli", 
                 "", 
                 ""
             ], 
@@ -11193,6 +11232,162 @@
             "tags": [], 
             "timeblock": "sat-4-30pm--saturday-16-30-", 
             "title": "Lightning talks"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Journalism", 
+            "day": "Sunday", 
+            "description": "This session is aimed at journalists, journalism students, and bloggers interested in making modern longform web articles such as ones featured by https://medium.com/. We introduce Snowball, an open source WordPress plugin we have developed, and facilitate activities aimed at learning how to use Snowball to create expressive, interactive web articles. No coding experience is required, while Snowball offers opportunities for further customization with just a dash of HTML and CSS. We encourage to bring your own laptops with WordPress installed. If you are not very familiar with WordPress or installing WordPress on your laptop, please contact me at { meenchul.kim.drexel@gmail.com } to be registered as a test user.", 
+            "end": "4:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "Meen Chul Kim", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Meen Chul Kim", 
+                "", 
+                ""
+            ], 
+            "id": "1995", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 8 - Boardroom", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-title--storytelling-on-the-web-with-s", 
+            "programmatic": false, 
+            "start": "4:30pm", 
+            "tags": [], 
+            "timeblock": "sun-4-30pm--sunday-16-30-", 
+            "title": "Title: Storytelling on the web with Snowball, a WordPress plugin for building immersive feature articles"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Journalism", 
+            "day": "Saturday", 
+            "description": "Bring your questions to this open session on the Journalism floor. Meet Lisa to ask for one-on-one feedback, get help installing software, and dig into topical conversations with an expert on data visualization.", 
+            "end": "1:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "Lisa Charlotte Rost", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Lisa Charlotte Rost", 
+                "", 
+                ""
+            ], 
+            "id": "1996", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 8 - 805", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-office-hours--data-visualization", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sat-1pm--saturday-13-00-", 
+            "title": "Office Hours: Data visualization"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Journalism", 
+            "day": "Sunday", 
+            "description": "Bring your questions to this open session on the Journalism floor. Meet Dan to ask for one-on-one feedback, get help installing software, and dig into topical conversations with an expert on VR and storytelling.", 
+            "end": "1:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "Dan Zadjband", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Dan Zadjband", 
+                "", 
+                ""
+            ], 
+            "id": "1997", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 8 - 805", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-office-hours--vr-storytelling", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sun-1pm--sunday-13-00-", 
+            "title": "Office Hours: VR storytelling"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Journalism", 
+            "day": "Sunday", 
+            "description": "Bring your questions to this open session on the Journalism floor. Meet the Goldsmiths University team working on a website called \"Newsroom Tools,\" which grew out of a hack event hosted by BBC News Labs. It's a repository of useful tools for journalists, with the ability for the users to review and give feedback on tools, add new tools they have developed and it also integrates with GitHub repositories for updates.\n\nAdditional Facilitators:\nAlli Shultes", 
+            "end": "1:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "Miranda McLachlan", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "Andrew Freeman", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "Nevo Segal", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Miranda McLachlan", 
+                "Andrew Freeman", 
+                "Nevo Segal"
+            ], 
+            "id": "1998", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 8 - 805", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-office-hours---newsroom-tools---a-rep", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sun-1pm--sunday-13-00-", 
+            "title": "Office Hours: \"Newsroom Tools,\" a repository of useful tools for journalists"
         }, 
         {
             "additional language": "Italian, English", 
@@ -13148,12 +13343,12 @@
                 }, 
                 "2": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "Sean Carroll", 
                     "twitter": ""
                 }, 
                 "3": {
                     "affiliated org": "", 
-                    "name": "", 
+                    "name": "S.P. Mohanty", 
                     "twitter": ""
                 }, 
                 "4": {
@@ -13170,15 +13365,15 @@
             "facilitators_names": [
                 "Marcel Salathé", 
                 "", 
-                "", 
-                "", 
+                "Sean Carroll", 
+                "S.P. Mohanty", 
                 ""
             ], 
             "id": "243", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 9 - 908", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-crowdai---an-open-challenge-platform", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
             "tags": [], 
@@ -13395,27 +13590,27 @@
             "additional language": "", 
             "category": "Open science", 
             "day": "Saturday", 
-            "description": "In a well established tradition of brining the international spirit of Geneva to Mozfest, We'll present a number of Open Science projects developed by summer students working at CERN, UN organizations like WHO and International NGOs like the Red Cross - all headquartered in Geneva. Examples include everything from a cosmic ray detector to measure cloud coverage to a sensor belt for helping blind people navigate. People will have a chance to learn how the technology behind each project works, and make their own prototype. The projects will be selected from the CERN Webfest - an annual Open Science hackathon launched five years ago by Citizen Cyberlab and currently  organized by CERN openlab with the support of the Mozilla Science Lab.", 
+            "description": "In a well established tradition of bringing the international spirit of Geneva to Mozfest, We’ll present some Open Science projects, inspired by Pokemon Go. These projects were developed by summer students working at CERN, the United Nations and the University of Geneva, who competed in the annual CERN Summer Student Webfest - an annual Open Science hackathon launched five years ago with the support of the Mozilla Science Lab. One of the projects is called Particle Go, and the other SDG Hunter (inspired by the UN’s Sustainable Development Goals, or SDGs). They are both at the demo stage, and we will introduce you to the concept and status of each project, and invite you to help us make these games more fun, more educational and more useful for tackling sustainable development – in the spirit of Open Science", 
             "end": "5:30pm", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "Citizen Cyberlab", 
-                    "name": "Ipita Kaduwa Gamage Gihan Lakmal", 
-                    "twitter": ""
-                }, 
-                "2": {
-                    "affiliated org": "", 
+                    "affiliated org": "EPFL", 
                     "name": "Sharada Mohanty", 
                     "twitter": "@MeMohanty"
                 }, 
-                "3": {
-                    "affiliated org": "", 
+                "2": {
+                    "affiliated org": "Citizen Cyberlab", 
                     "name": "Rosy Mondardini", 
                     "twitter": "@OpenSeventeen"
                 }, 
+                "3": {
+                    "affiliated org": "Scifabric", 
+                    "name": "James Doherty", 
+                    "twitter": ""
+                }, 
                 "4": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "CERN", 
+                    "name": "Nefeli Kousi", 
                     "twitter": ""
                 }, 
                 "5": {
@@ -13425,17 +13620,17 @@
                 }
             }, 
             "facilitators_names": [
-                "Ipita Kaduwa Gamage Gihan Lakmal", 
-                "", 
                 "Sharada Mohanty", 
+                "Nefeli Kousi", 
                 "Rosy Mondardini", 
+                "James Doherty", 
                 ""
             ], 
             "id": "302", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 9 - 902", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-cern-webfest---from-fundamental-scien", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "4:30pm", 
             "tags": [], 
@@ -13549,9 +13744,8 @@
         {
             "additional language": "", 
             "category": "Open science", 
-            "day": "Sunday", 
             "description": "This session will demo the new Open Data Curriculum developed by the Mozilla Science Lab, including primers and instructor guides.  The demo will show people how what is in the curriculum and how it can be taken and customized for others to teach about open data best practices to a variety of audiences.", 
-            "end": "1:45pm", 
+            "duration": "15", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Mozilla Foundation", 
@@ -13592,9 +13786,8 @@
             "location": "Floor 9 - 908", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-open-data-training-curriculum", 
             "programmatic": false, 
-            "start": "1:30pm", 
             "tags": [], 
-            "timeblock": "sun-1-30pm--sunday-13-30-", 
+            "timeblock": "", 
             "title": "Open Data Training Curriculum"
         }, 
         {
@@ -13651,9 +13844,8 @@
         {
             "additional language": "", 
             "category": "Open science", 
-            "day": "Saturday", 
             "description": "Open Knowledge Maps premiered in an exciting session at MozFest 2015 - and this year we are returning with our biggest expansion yet. In this demo, we will show how you can visualize your topic of interest from a pool of over 35 million research papers. We will demonstrate how you can use knowledge maps not only to discover the literature that you need but also to improve your understanding of the structure of your research area. In short: we want to help you make your literature research more efficient and effective. Finally, we will show you how you can openly share the results of your discovery with others. Because sharing is caring - and the time you and others save on literature research can be used to collaborate.", 
-            "end": "10:45am", 
+            "duration": "15", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Open Knowledge Maps", 
@@ -13694,9 +13886,8 @@
             "location": "Floor 9 - 908", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-open-knowledge-maps---a-visual-interf", 
             "programmatic": false, 
-            "start": "10:30am", 
             "tags": [], 
-            "timeblock": "sat-10-30am--saturday-10-30-", 
+            "timeblock": "", 
             "title": "Open Knowledge Maps - A Visual Interface to the World’s Scientific Knowledge"
         }, 
         {
@@ -14026,13 +14217,13 @@
                 }, 
                 "3": {
                     "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "name": "Sujai Kumar", 
+                    "twitter": "sujaik"
                 }, 
                 "4": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "Human Computation Institute", 
+                    "name": "Eglė Marija Ramanauskaitė", 
+                    "twitter": "Seplute"
                 }, 
                 "5": {
                     "affiliated org": "", 
@@ -14042,16 +14233,16 @@
             }, 
             "facilitators_names": [
                 "Bastian Greshake", 
-                "", 
+                "Eglė Marija Ramanauskaitė", 
                 "Aurelia Moser", 
-                "", 
+                "Sujai Kumar", 
                 ""
             ], 
             "id": "443", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 9 - 903", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-nerdcator---crowdsourced-maps-for-ner", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
             "tags": [], 
@@ -14417,9 +14608,9 @@
         {
             "additional language": "", 
             "category": "Open science", 
-            "day": "Saturday", 
+            "day": "Sunday", 
             "description": "The main goal of this session is to build your own offline Internet-in-box using PirateBox installation on the Raspberry Pi to anonymously communicate and exchange files within the wifi range. Depending on the number of participants, we will hack these boxes to use it either for educational purposes, for building local resilience networks or for organizing our own 'in-house CryptoPary'. Participants are free to show their creativity by building anything and everything using PirateBoxes.", 
-            "end": "12:15pm", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Ford-Mozilla Open Web Fellow @ EDRi", 
@@ -14458,11 +14649,11 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 9 - 902", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-let-us-build-our-own-offline-internet", 
+            "notes url": "", 
             "programmatic": false, 
-            "start": "11:15am", 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "sat-11-15am--saturday-11-15-", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Let us build our own offline Internet"
         }, 
         {
@@ -14833,8 +15024,8 @@
             "facilitators": {
                 "1": {
                     "affiliated org": "cTuning foundation (non-profit research organization)", 
-                    "name": "Grigori Fursin", 
-                    "twitter": "grigori_fursin"
+                    "name": "Anton Lokhmotov", 
+                    "twitter": "@lokhmotov"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -14858,7 +15049,7 @@
                 }
             }, 
             "facilitators_names": [
-                "Grigori Fursin", 
+                "Anton Lokhmotov", 
                 "", 
                 "", 
                 "", 
@@ -14868,7 +15059,7 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 9 - 902", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-collective-knowledge--an-open-researc", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "1:00pm", 
             "tags": [], 
@@ -15085,60 +15276,8 @@
         {
             "additional language": "", 
             "category": "Open science", 
-            "day": "Sunday", 
-            "description": "This session will be dedicated to mapping and connecting grassroots- and community-led citizen science projects. Led and inspired by leads from successful initiatives and grassroots organisations, attendees will be able to share and discuss challenges they have faced with their initiatives (e.g. funding, lack of time, etc.), engage in roundtable discussions to address them, and build the foundations for a network to support each other going forward.", 
-            "end": "2:15pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Science Hack Day Berlin", 
-                    "name": "Lucy Patterson", 
-                    "twitter": "@lu_cyP"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "Cindy Regalado", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "4": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "5": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Lucy Patterson", 
-                "", 
-                "Cindy Regalado", 
-                "", 
-                ""
-            ], 
-            "id": "681", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 9 - 903", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-networking-science--citizens----grass", 
-            "programmatic": false, 
-            "start": "12:15pm", 
-            "tags": [], 
-            "timeblock": "sun-12-15pm--sunday-12-15-", 
-            "title": "Networking science, citizens, & grassroots"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Open science", 
-            "day": "Saturday", 
             "description": "- Know more about what their dreams are, what they wanted to do\n- Know the knowledge and skills needed to make this dream come true\n- look for community / group / people with same goal and motivation\n- Be aware that it is better & easier if you find a team to encourage you, learn the skills and the knowledge required ( people with same & similar dreams \" In the MozFest event \"/ a learning group \" In the Internet : Massive Open Online Courses / In facebook : facebook Groups .. \"\n- Keep in mind that people without a dream, or couldn't make their dream came true they will try to destroy others' dreams\n- Manage the feedling of failing in protecting a dream ( something that we love )", 
-            "end": "2:00pm", 
+            "duration": "", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Jasmine Hall - Coworking Space AND Mozilla Reps", 
@@ -15179,9 +15318,8 @@
             "location": "Floor 9 - 908", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-dreams-on-balloons", 
             "programmatic": false, 
-            "start": "1:45pm", 
             "tags": [], 
-            "timeblock": "sat-1-45pm--saturday-13-45-", 
+            "timeblock": "", 
             "title": "Dreams on balloons"
         }, 
         {
@@ -15442,9 +15580,8 @@
         {
             "additional language": "", 
             "category": "Open science", 
-            "day": "Sunday", 
             "description": "This is a group led session, we will introduce you to the world of open source and how this benefits the community, coming up with problems that are affecting the world right now and coming up with solutions to tackle them, these will be updated in real time at the session on the open innovation lab website created as an outcome of this session.", 
-            "end": "5:30pm", 
+            "duration": "30", 
             "facilitators": {
                 "1": {
                     "affiliated org": "explore science", 
@@ -15483,15 +15620,14 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 9 - 908", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-innovation-ideas-hub", 
+            "notes url": "", 
             "programmatic": false, 
-            "start": "5:00pm", 
             "tags": [], 
-            "timeblock": "sun-5pm--sunday-17-00-", 
+            "timeblock": "", 
             "title": "Innovation ideas hub"
         }, 
         {
-            "additional language": "Spanish, English", 
+            "additional language": "", 
             "category": "Open science", 
             "day": "Sunday", 
             "description": "Our Hack Brexit workshop will give participants the opportunity to contribute to an existing open source accelerator programme to create tech solutions to drive dialog, unity and positive action beyond Brexit.  Organized in collaboration with Code First: Girls, ThoughtWorks and WeRockTech, this project started life as a weekend hackathon on 23-4 July 2016. During the weekend we built ten open source projects, and started an accelerator programme for two of these projects.\nWe would like to bring together both technical and non-technical attendees to continue to work on these projects during the workshop. You can see more about the projects here (http://hackbrexit.org/). For technical attendees there are very interesting data sets and technologies to work with, and for non technical attendees this is a great chance to learn more about basic web development and contribute to the projects in a variety of ways (e.g. research, data gathering etc).", 
@@ -15503,12 +15639,12 @@
                     "twitter": "@charlottebrf"
                 }, 
                 "2": {
-                    "affiliated org": "", 
+                    "affiliated org": "ThoughtWorks", 
                     "name": "Nina McNamara", 
                     "twitter": "@NinaMcNamara"
                 }, 
                 "3": {
-                    "affiliated org": "", 
+                    "affiliated org": "ThoughtWorks", 
                     "name": "Kylie Castellaw", 
                     "twitter": ""
                 }, 
@@ -15534,21 +15670,18 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 9 - 903", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-hack-brexit-workshop", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": [
-                "Multi-lingual MozFest"
-            ], 
+            "tags": [], 
             "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Hack Brexit Workshop"
         }, 
         {
             "additional language": "", 
             "category": "Open science", 
-            "day": "Saturday", 
             "description": "A lightning talk on:\n- The current state of quantum computing\n- A basic overview of how QC works\n- The predicted future of QC and how it will impact our everyday lives\n- How you can learn QC at home", 
-            "end": "5:30pm", 
+            "duration": "15", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -15589,9 +15722,8 @@
             "location": "Floor 9 - 908", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-quantum-computing---the-next-step", 
             "programmatic": false, 
-            "start": "5:15pm", 
             "tags": [], 
-            "timeblock": "sat-5-15pm--saturday-17-15-", 
+            "timeblock": "", 
             "title": "Quantum computing - the next step"
         }, 
         {
@@ -15700,58 +15832,58 @@
             "additional language": "", 
             "category": "Open science", 
             "day": "Saturday", 
-            "description": "Are you looking for a hands-on project to contribute to? Do you have a project you want to test out with contributors? This is the session for you!\n\nBuilt around the Open Leadership Training Series (OLTS), this session features:\n\n1. breakout groups for several projects that have completed the training and are looking for contributors (you!), and\n2. a helpdesk for those interested in making their projects more contributor friendly\n\nSome of the featured projects you can contribute to in this session:\n* [OpenStudentBook : A little guide to fuel the Open movement in the universities](https://github.com/MozillaFoundation/mozfest-program-2016/issues/834) with [Edoardo Viola](https://github.com/edovio)\n* [Help Build Resources for the Mozilla Campus Clubs!](https://github.com/MozillaFoundation/mozfest-program-2016/issues/838) with [Faye Tandog](https://github.com/fayetandog)\n* [Let's teach, build and protect the Open Web in Universities](https://github.com/MozillaFoundation/mozfest-program-2016/issues/839) with [Christos Bacharakis](https://github.com/bacharakis)\n* [Apps for community empowerment!](https://github.com/MozillaFoundation/mozfest-program-2016/issues/669) with [Anderson Walworth](https://github.com/anderson29) and [Kristyn Sonnenberg](https://github.com/skristyn)", 
+            "description": "Are you looking for a hands-on project to contribute to? Do you have a project you want to test out with contributors? This is the session for you!\n\nBuilt around the Open Leadership Training Series (OLTS), this session features breakout groups for several projects that have completed the training and are looking for contributors (you!)\n\nSome of the featured projects you can contribute to in this session:\n* [OpenStudentBook : A little guide to fuel the Open movement in the universities](https://github.com/MozillaFoundation/mozfest-program-2016/issues/834) with [Edoardo Viola](https://github.com/edovio)\n* [Help Build Resources for the Mozilla Campus Clubs!](https://github.com/MozillaFoundation/mozfest-program-2016/issues/838) with [Faye Tandog](https://github.com/fayetandog)\n* [Let's teach, build and protect the Open Web in Universities](https://github.com/MozillaFoundation/mozfest-program-2016/issues/839) with [Christos Bacharakis](https://github.com/bacharakis)", 
             "end": "5:15pm", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "Sage Bionetworks", 
-                    "name": "Brian Bot", 
-                    "twitter": "@BrianMBot"
-                }, 
-                "2": {
                     "affiliated org": "", 
                     "name": "Edoardo Viola", 
                     "twitter": "@edovio"
                 }, 
-                "3": {
+                "2": {
                     "affiliated org": "Mozilla Philippines Community", 
                     "name": "Faye Tandog", 
                     "twitter": "@fayetandog"
                 }, 
-                "4": {
+                "3": {
                     "affiliated org": "Mozilla", 
                     "name": "Christos Bacharakis", 
                     "twitter": "@bacharakis"
                 }, 
+                "4": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
                 "5": {
-                    "affiliated org": "Detroit Community Technology Project", 
-                    "name": "Anderson Walworth and Kristyn Sonnenberg", 
-                    "twitter": "@DetCommTech"
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
                 }
             }, 
             "facilitators_names": [
-                "Brian Bot", 
-                "Christos Bacharakis", 
                 "Edoardo Viola", 
+                "", 
                 "Faye Tandog", 
-                "Anderson Walworth and Kristyn Sonnenberg"
+                "Christos Bacharakis", 
+                ""
             ], 
             "id": "822", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 9 - 907", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-open-projects---hackathon---helpdesk", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-open-projects---hackathon--campus-cam", 
             "programmatic": false, 
             "start": "3:15pm", 
             "tags": [], 
             "timeblock": "sat-3-15pm--saturday-15-15-", 
-            "title": "Open Projects - hackathon & helpdesk!"
+            "title": "Open Projects - hackathon: campus campaign edition!"
         }, 
         {
             "additional language": "", 
             "category": "Open Science", 
             "description": "The goal of the session is to provide an environment to discuss the use of citations pertaining to software in the research community. We are working on a suite of tools in collaboration with Mozilla Science to assist researchers in citing software and to drive the implementation of the ideas outlined in Force 11’s software citation principles https://www.force11.org/software-citation-principles", 
-            "end": "3:00pm", 
+            "duration": "30", 
             "facilitators": {
                 "1": {
                     "affiliated org": "The Rochester Institute of Technology", 
@@ -15792,9 +15924,8 @@
             "location": "Floor 9 - 908", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-roundtable-on-software-citation-in-th", 
             "programmatic": false, 
-            "start": "2:30pm", 
             "tags": [], 
-            "timeblock": "sun-2-30pm--sun-14-30-", 
+            "timeblock": "", 
             "title": "Roundtable on Software Citation in the Research Community"
         }, 
         {
@@ -16000,6 +16131,261 @@
             "tags": [], 
             "timeblock": "sun-12-15pm--sunday-12-15-", 
             "title": "Office Hours"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Open science", 
+            "day": "Sunday", 
+            "description": "Are you looking for a hands-on project to contribute to? Do you have a project you want to test out with contributors? This is the session for you!\n\nBuilt around the Open Leadership Training Series (OLTS), this session features breakout groups for several projects that have completed the training and are looking for contributors (you!)\n\nSome of the featured projects you can contribute to in this session:\n* [Apps for community empowerment!](https://github.com/MozillaFoundation/mozfest-program-2016/issues/669) with [Anderson Walworth](https://github.com/anderson29) and [Kristyn Sonnenberg](https://github.com/skristyn)", 
+            "end": "3:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Detroit Community Technology Project", 
+                    "name": "Anderson Walworth", 
+                    "twitter": "@DetCommTech"
+                }, 
+                "2": {
+                    "affiliated org": "Detroit Community Technology Project", 
+                    "name": "Kristyn Sonnenberg", 
+                    "twitter": "@DetCommTech"
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "4": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "5": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Anderson Walworth", 
+                "", 
+                "Kristyn Sonnenberg", 
+                "", 
+                ""
+            ], 
+            "id": "1553", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 9 - 907", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-open-projects---hackathon--apps-for-c", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sun-1pm--sunday-13-00-", 
+            "title": "Open Projects - hackathon: apps for community empowerment!"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Open science", 
+            "day": "Saturday", 
+            "description": "Are you looking for a hands-on project to contribute to? Do you have a project you want to test out with contributors? Did you find your sticker match? This is the session for you!\n\nBuilt around the Open Leadership Training Series (OLTS), this session features a helpdesk for those interested in making their projects more contributor friendly and info in interesting projects they can contribute to.\n\nWe're also hosting the sticker match raffle! Bring your matches here!", 
+            "end": "12:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Sage Bionetworks", 
+                    "name": "Brian Bot", 
+                    "twitter": "@BrianMBot"
+                }, 
+                "2": {
+                    "affiliated org": "Mozilla Foundation", 
+                    "name": "Abigail Cabunoc Mayes", 
+                    "twitter": "@abbycabs"
+                }, 
+                "3": {
+                    "affiliated org": "Mozilla Foundation", 
+                    "name": "Ryan Warsaw", 
+                    "twitter": ""
+                }, 
+                "4": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "5": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Brian Bot", 
+                "", 
+                "Abigail Cabunoc Mayes", 
+                "Ryan Warsaw", 
+                ""
+            ], 
+            "id": "1554", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 9 - 907", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-open-leadership-zone---sticker-match", 
+            "programmatic": false, 
+            "start": "10:00am", 
+            "tags": [], 
+            "timeblock": "sat-10am--saturday-10-00-", 
+            "title": "Open Leadership Zone (+Sticker Match!)"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Open science", 
+            "day": "Saturday", 
+            "description": "Are you looking for a hands-on project to contribute to? Do you have a project you want to test out with contributors? Did you find your sticker match? This is the session for you!\n\nBuilt around the Open Leadership Training Series (OLTS), this session features a helpdesk for those interested in making their projects more contributor friendly and info in interesting projects they can contribute to.\n\nWe're also hosting the sticker match raffle! Bring your matches here!", 
+            "end": "5:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Sage Bionetworks", 
+                    "name": "Brian Bot", 
+                    "twitter": "@BrianMBot"
+                }, 
+                "2": {
+                    "affiliated org": "Mozilla Foundation", 
+                    "name": "Abigail Cabunoc Mayes", 
+                    "twitter": "@abbycabs"
+                }, 
+                "3": {
+                    "affiliated org": "Mozilla Foundation", 
+                    "name": "Ryan Warsaw", 
+                    "twitter": ""
+                }, 
+                "4": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "5": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Brian Bot", 
+                "", 
+                "Abigail Cabunoc Mayes", 
+                "Ryan Warsaw", 
+                ""
+            ], 
+            "id": "1555", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 9 - 907", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-open-leadership-zone---sticker-match", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sat-1pm--saturday-13-00-", 
+            "title": "Open Leadership Zone (+Sticker Match!)"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Open science", 
+            "day": "Sunday", 
+            "description": "Are you looking for a hands-on project to contribute to? Do you have a project you want to test out with contributors? Did you find your sticker match? This is the session for you!\n\nBuilt around the Open Leadership Training Series (OLTS), this session features a helpdesk for those interested in making their projects more contributor friendly and info in interesting projects they can contribute to.\n\nWe're also hosting the sticker match raffle! Bring your matches here!", 
+            "end": "12:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Sage Bionetworks", 
+                    "name": "Brian Bot", 
+                    "twitter": "@BrianMBot"
+                }, 
+                "2": {
+                    "affiliated org": "Mozilla Foundation", 
+                    "name": "Abigail Cabunoc Mayes", 
+                    "twitter": "@abbycabs"
+                }, 
+                "3": {
+                    "affiliated org": "Mozilla Foundation", 
+                    "name": "Ryan Warsaw", 
+                    "twitter": ""
+                }, 
+                "4": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "5": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Brian Bot", 
+                "", 
+                "Abigail Cabunoc Mayes", 
+                "Ryan Warsaw", 
+                ""
+            ], 
+            "id": "1556", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 9 - 907", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-open-leadership-zone---sticker-match", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "Open Leadership Zone (+Sticker Match!)"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Open science", 
+            "day": "Sunday", 
+            "description": "Are you looking for a hands-on project to contribute to? Do you have a project you want to test out with contributors? Did you find your sticker match? This is the session for you!\n\nBuilt around the Open Leadership Training Series (OLTS), this session features a helpdesk for those interested in making their projects more contributor friendly and info in interesting projects they can contribute to.\n\nWe're also hosting the sticker match raffle! Bring your matches here!", 
+            "end": "5:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Sage Bionetworks", 
+                    "name": "Brian Bot", 
+                    "twitter": "@BrianMBot"
+                }, 
+                "2": {
+                    "affiliated org": "Mozilla Foundation", 
+                    "name": "Abigail Cabunoc Mayes", 
+                    "twitter": "@abbycabs"
+                }, 
+                "3": {
+                    "affiliated org": "Mozilla Foundation", 
+                    "name": "Ryan Warsaw", 
+                    "twitter": ""
+                }, 
+                "4": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "5": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Brian Bot", 
+                "", 
+                "Abigail Cabunoc Mayes", 
+                "Ryan Warsaw", 
+                ""
+            ], 
+            "id": "1557", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 9 - 907", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-open-leadership-zone---sticker-match", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sun-1pm--sunday-13-00-", 
+            "title": "Open Leadership Zone (+Sticker Match!)"
         }, 
         {
             "additional language": "", 
@@ -18472,8 +18858,8 @@
             "additional language": "", 
             "category": "Open Badges", 
             "day": "Saturday", 
-            "description": "Coventry University share their Open Badges journey", 
-            "end": "", 
+            "description": "Coventry University (DMLL) talk about the current Open Badges situation at Coventry University, what we want to do moving forwards and some of the issues and pitfalls we’re facing (including how we're overcoming these!)", 
+            "end": "11:30am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Coventry University - DMLL", 
@@ -18520,9 +18906,9 @@
             "location": "Floor 8 - 801", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-coventry-university---dmll", 
             "programmatic": false, 
-            "start": "", 
+            "start": "11:15am", 
             "tags": [], 
-            "timeblock": "saturday-11.15am", 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Coventry University - DMLL"
         }, 
         {
