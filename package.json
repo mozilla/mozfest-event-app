@@ -26,7 +26,9 @@
   "homepage": "https://github.com/mozilla/mozfest-event-app#readme",
   "dependencies": {
     "autoprefixer": "^6.5.0",
-    "postcss": "^5.2.4"
+    "node-sass": "^3.10.1",
+    "postcss": "^5.2.4",
+    "postcss-cli": "^2.6.0"
   },
   "devDependencies": {
     "chokidar": "^1.6.0",
