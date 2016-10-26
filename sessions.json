@@ -19226,45 +19226,6 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
-            "day": "Saturday", 
-            "description": "Overview of art&tech workshops, covering coding, webdesign, online curation, 3D making, audio art developments, robot making, animation. The videos are created as online resources for learning and digital making, opening mainly to young audiences.", 
-            "end": "10:00am", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Tate", 
-                    "name": "Kat + Luca Box + Damiani", 
-                    "twitter": ""
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Kat + Luca Box + Damiani", 
-                "", 
-                ""
-            ], 
-            "id": "186", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 2 - 200", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-tate-kids---digital-makers", 
-            "programmatic": false, 
-            "start": "10:00am", 
-            "tags": [], 
-            "timeblock": "sat-10am--saturday-10-00-", 
-            "title": "Tate Kids - Digital Makers"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Youth zone", 
             "day": "Sunday", 
             "description": "In the last years, disciplines like journalism and video games have been invaded by two technological concepts: Virtual Reality and Augmented Reality.  AR features have become concrete in games which use the real world as a field of game.\nBut, How can we prototype faster? Aframe.io started to show the world that VR is not far from anyone. The challenge here is more creative than technical. Like PokemonGo, the importance lays in the story which later has been prototyped. We are willing to show concrete examples and play with tools to understand how this technology sets the pace for the telepresence, immersion and understanding of situations.\n1) Understand the basics of AR\n2) Demystify the AR technology, and gain experience on how to create and design tools.\n3) Produce experiences based on meaningful stories throug full reality Storyboard.\n4) Get hands on and build an experience you will bring home.", 
             "end": "1:15pm", 
