@@ -5082,162 +5082,6 @@
         {
             "additional language": "", 
             "category": "Dilemmas in connected spaces", 
-            "day": "Saturday", 
-            "description": "The artwork depicts a constant and evolving view of the urban landscape and its inhabitants contstantly migtatting rom one point to the next.. The observed real time surveillance society is re worked into a series of grids. The artwork is an online networkd panoptic vision which collects live CCTV feeds from 200 cameras in USA in real time and reworks these video streams into multi-layered visual structures. The channels are always on, and therefore, the work is always changing. The work comprises of multiple grids that generate real time patterns using live images from all over USA.", 
-            "end": "1:30pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "", 
-                    "name": "Stanza .", 
-                    "twitter": ""
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Stanza .", 
-                "", 
-                ""
-            ], 
-            "id": "109", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 6 - 606", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-supervigilantia", 
-            "programmatic": false, 
-            "start": "10:00am", 
-            "tags": [], 
-            "timeblock": "sat-10am--saturday-10-00-", 
-            "title": "Supervigilantia"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Dilemmas in connected spaces", 
-            "day": "Saturday", 
-            "description": "The artwork depicts a constant and evolving view of the urban landscape and its inhabitants contstantly migtatting rom one point to the next.. The observed real time surveillance society is re worked into a series of grids. The artwork is an online networkd panoptic vision which collects live CCTV feeds from 200 cameras in USA in real time and reworks these video streams into multi-layered visual structures. The channels are always on, and therefore, the work is always changing. The work comprises of multiple grids that generate real time patterns using live images from all over USA.", 
-            "end": "4:30pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "", 
-                    "name": "Stanza .", 
-                    "twitter": ""
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Stanza .", 
-                "", 
-                ""
-            ], 
-            "id": "1109", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 6 - 606", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-supervigilantia", 
-            "programmatic": false, 
-            "start": "1:00pm", 
-            "tags": [], 
-            "timeblock": "sat-1pm--saturday-13-00-", 
-            "title": "Supervigilantia"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Dilemmas in connected spaces", 
-            "day": "Sunday", 
-            "description": "The artwork depicts a constant and evolving view of the urban landscape and its inhabitants contstantly migtatting rom one point to the next.. The observed real time surveillance society is re worked into a series of grids. The artwork is an online networkd panoptic vision which collects live CCTV feeds from 200 cameras in USA in real time and reworks these video streams into multi-layered visual structures. The channels are always on, and therefore, the work is always changing. The work comprises of multiple grids that generate real time patterns using live images from all over USA.", 
-            "end": "2:30pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "", 
-                    "name": "Stanza .", 
-                    "twitter": ""
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Stanza .", 
-                "", 
-                ""
-            ], 
-            "id": "1110", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 6 - 606", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-supervigilantia", 
-            "programmatic": false, 
-            "start": "11:00am", 
-            "tags": [], 
-            "timeblock": "sun-11am--sunday-11-00-", 
-            "title": "Supervigilantia"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Dilemmas in connected spaces", 
-            "day": "Sunday", 
-            "description": "The artwork depicts a constant and evolving view of the urban landscape and its inhabitants contstantly migtatting rom one point to the next.. The observed real time surveillance society is re worked into a series of grids. The artwork is an online networkd panoptic vision which collects live CCTV feeds from 200 cameras in USA in real time and reworks these video streams into multi-layered visual structures. The channels are always on, and therefore, the work is always changing. The work comprises of multiple grids that generate real time patterns using live images from all over USA.", 
-            "end": "5:30pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "", 
-                    "name": "Stanza .", 
-                    "twitter": ""
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Stanza .", 
-                "", 
-                ""
-            ], 
-            "id": "1111", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 6 - 606", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-supervigilantia", 
-            "programmatic": false, 
-            "start": "2:00pm", 
-            "tags": [], 
-            "timeblock": "sun-2pm--sunday-14-00-", 
-            "title": "Supervigilantia"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Dilemmas in connected spaces", 
             "description": "The Museum of Technorealism seeks to both reenact and rearticulate the original principles of the 1998 Technorealism movement through specific artefacts drawn from the tides of technological transformation. Technorealism asks that we think more critically about the role that technology plays in human evolution and everyday life. Integral to this perspective is an understanding that the current waves of technological transformation are actually a continuation of tides of change that have taken place throughout history.", 
             "duration": "", 
             "facilitators": {
@@ -6131,84 +5975,6 @@
         {
             "additional language": "", 
             "category": "Dilemmas in connected spaces", 
-            "day": "Saturday", 
-            "description": "Imagine decorating your world with beautiful interactive patterns. Artcodes makes this possible!\n\nArtcodes is a new technology that allows users to interact with all manner of decorative imagery and patterns. As part of collaborative research between both designers and computer scientists at the University of Nottingham, funded by Horizon Digital Economy Research and the RCUK, we have developed a new interaction technology that relies upon drawing and creativity to drive it.\n\nWith artcodes you can: scan decorative patterns to trigger digital content, make existing patterns point at your content and learn how to draw your own interactive patterns.", 
-            "end": "1:30pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "University of Nottingham", 
-                    "name": "Emily-Clare Thorn", 
-                    "twitter": "@artcodes_lab @HorizonDER"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Emily-Clare Thorn", 
-                "", 
-                ""
-            ], 
-            "id": "510", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 6 - 603", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-interactive-wallpaper", 
-            "programmatic": false, 
-            "start": "10:00am", 
-            "tags": [], 
-            "timeblock": "sat-10am--saturday-10-00-", 
-            "title": "Interactive Wallpaper"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Dilemmas in connected spaces", 
-            "day": "Saturday", 
-            "description": "Imagine decorating your world with beautiful interactive patterns. Artcodes makes this possible!\n\nArtcodes is a new technology that allows users to interact with all manner of decorative imagery and patterns. As part of collaborative research between both designers and computer scientists at the University of Nottingham, funded by Horizon Digital Economy Research and the RCUK, we have developed a new interaction technology that relies upon drawing and creativity to drive it.\n\nWith artcodes you can: scan decorative patterns to trigger digital content, make existing patterns point at your content and learn how to draw your own interactive patterns.", 
-            "end": "4:30pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "University of Nottingham", 
-                    "name": "Emily-Clare Thorn", 
-                    "twitter": "@artcodes_lab @HorizonDER"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Emily-Clare Thorn", 
-                "", 
-                ""
-            ], 
-            "id": "1510", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 6 - 603", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-interactive-wallpaper", 
-            "programmatic": false, 
-            "start": "1:00pm", 
-            "tags": [], 
-            "timeblock": "sat-1pm--saturday-13-00-", 
-            "title": "Interactive Wallpaper"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Dilemmas in connected spaces", 
             "day": "Sunday", 
             "description": "Imagine decorating your world with beautiful interactive patterns. Artcodes makes this possible!\n\nArtcodes is a new technology that allows users to interact with all manner of decorative imagery and patterns. As part of collaborative research between both designers and computer scientists at the University of Nottingham, funded by Horizon Digital Economy Research and the RCUK, we have developed a new interaction technology that relies upon drawing and creativity to drive it.\n\nWith artcodes you can: scan decorative patterns to trigger digital content, make existing patterns point at your content and learn how to draw your own interactive patterns.", 
             "end": "2:30pm", 
@@ -6243,45 +6009,6 @@
             "start": "11:00am", 
             "tags": [], 
             "timeblock": "sun-11am--sunday-11-00-", 
-            "title": "Interactive Wallpaper"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Dilemmas in connected spaces", 
-            "day": "Sunday", 
-            "description": "Imagine decorating your world with beautiful interactive patterns. Artcodes makes this possible!\n\nArtcodes is a new technology that allows users to interact with all manner of decorative imagery and patterns. As part of collaborative research between both designers and computer scientists at the University of Nottingham, funded by Horizon Digital Economy Research and the RCUK, we have developed a new interaction technology that relies upon drawing and creativity to drive it.\n\nWith artcodes you can: scan decorative patterns to trigger digital content, make existing patterns point at your content and learn how to draw your own interactive patterns.", 
-            "end": "4:30pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "University of Nottingham", 
-                    "name": "Emily-Clare Thorn", 
-                    "twitter": "@artcodes_lab @HorizonDER"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Emily-Clare Thorn", 
-                "", 
-                ""
-            ], 
-            "id": "1520", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 6 - 603", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-interactive-wallpaper", 
-            "programmatic": false, 
-            "start": "1:00pm", 
-            "tags": [], 
-            "timeblock": "sun-1pm--sunday-13-00-", 
             "title": "Interactive Wallpaper"
         }, 
         {
@@ -9190,45 +8917,6 @@
             "tags": [], 
             "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Discovering Local Content: What tech tools can we build?"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Fuel the movement", 
-            "day": "Saturday", 
-            "description": "What Revolution? is the first in a series of images challenging the ideas of celebrity and idols. The 1960 photograph of Che Guevara by Alberto Korda has been endlessly mutated, transformed, and morphed. It can be found advertising anything from belts and “hip and cool” t-shirts to health insurance. It is tacked onto political movements without much consideration of the history behind it. One has to ask if his image is still the symbol for change and revolution that it was fifty years ago, when it was furiously distributed throughout Europe by Jim Fitzpatrick in protest of the conditions of Guevera’s murder.", 
-            "end": "10:00am", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "", 
-                    "name": "Antonio Roberts", 
-                    "twitter": "hellocatfood"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Antonio Roberts", 
-                "", 
-                ""
-            ], 
-            "id": "8060", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 4 - Library", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-what-revolution---art---mozex", 
-            "programmatic": false, 
-            "start": "10:00am", 
-            "tags": [], 
-            "timeblock": "sat-10am--saturday-10-00-", 
-            "title": "What Revolution? (ART - MozEx)"
         }, 
         {
             "additional language": "", 
@@ -13127,6 +12815,45 @@
         }, 
         {
             "additional language": "", 
+            "category": "", 
+            "day": "Saturday", 
+            "description": "", 
+            "end": "12:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "1532", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-doubleme---holoportal", 
+            "programmatic": false, 
+            "start": "11:15am", 
+            "tags": [], 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
+            "title": "DoubleMe & HoloPortal"
+        }, 
+        {
+            "additional language": "", 
             "category": "Open Science", 
             "day": "Saturday", 
             "description": "Participants will learn how they can teach a participatory-learning, project based course in open science and reproducible research at their home institutions, customised to the needs of their fields and their students.", 
@@ -14657,10 +14384,10 @@
             "title": "Let us build our own offline Internet"
         }, 
         {
-            "additional language": "", 
+            "additional language": "French, English", 
             "category": "Open science", 
             "day": "Sunday", 
-            "description": "In this session participants will learn how to statistically analyze and plot some experimental data from our lab. These data help define if a small molecule is a promising drug candidate. Participants will learn a little about the biochemistry of cancer drug design as well as complexities of real data and how to plot and analyze them using python tools.", 
+            "description": "In this session participants will learn how to statistically analyze and plot some experimental data from our lab. These data help define if a small molecule is a promising drug candidate. Participants will learn a little about the biochemistry of cancer drug design as well as complexities of real data and how to plot and analyze them using python tools.\n\nI can answer questions in French.", 
             "end": "2:00pm", 
             "facilitators": {
                 "1": {
@@ -14704,7 +14431,8 @@
             "programmatic": false, 
             "start": "1:00pm", 
             "tags": [
-                "The Future of the Web"
+                "The Future of the Web", 
+                "Multi-lingual MozFest"
             ], 
             "timeblock": "sun-1pm--sunday-13-00-", 
             "title": "Open science in drug design: Analysis and visualization of an open experimental dataset of FDA approved cancer drugs"
