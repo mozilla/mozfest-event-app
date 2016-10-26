@@ -12817,13 +12817,13 @@
             "additional language": "", 
             "category": "", 
             "day": "Saturday", 
-            "description": "", 
+            "description": "Visit DoubleMe holographic 3D capture studio and experience holographic virtual doubles on Microsoft Hololens", 
             "end": "12:15pm", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
+                    "affiliated org": "DoubleMe", 
+                    "name": "James Marks", 
+                    "twitter": "@jamesemarks"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -12837,16 +12837,16 @@
                 }
             }, 
             "facilitators_names": [
-                "", 
+                "James Marks", 
                 "", 
                 ""
             ], 
             "id": "1532", 
             "localized description": "", 
             "localized title": "", 
-            "location": "", 
+            "location": "Floor 0 - Foyer", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-doubleme---holoportal", 
-            "programmatic": false, 
+            "programmatic": true, 
             "start": "11:15am", 
             "tags": [], 
             "timeblock": "sat-11-15am--saturday-11-15-", 
