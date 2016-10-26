@@ -371,13 +371,15 @@ function Schedule(CUSTOM_CONFIG) {
   }
 
   schedule.saveScrollState = function(page, scrollY) {
-    var scrollStates = JSON.parse(localStorage.getItem('scrollStates')) || {};
-    scrollStates[page] = scrollY;
-    localStorage.scrollStates = JSON.stringify(scrollStates);
+    if(Modernizr.localstorage){
+      var scrollStates = JSON.parse(localStorage.getItem('scrollStates')) || {};
+      scrollStates[page] = scrollY;
+      localStorage.scrollStates = JSON.stringify(scrollStates);
+    }
   }
 
   schedule.loadScrollState = function(page) {
-    if(schedule.previous === window.location.hash){
+    if(schedule.previous === window.location.hash && Modernizr.localstorage){
       var scrollStates = JSON.parse(localStorage.getItem('scrollStates')) || {};
       if(scrollStates[page]){
         window.scroll(0,scrollStates[page]);
@@ -920,7 +922,9 @@ function Schedule(CUSTOM_CONFIG) {
     } else if (!timeblockIsOpen && index > -1) {
         openTimeblocks.splice(index, 1);
     }
-    localStorage['timeblock-states'] = JSON.stringify(openTimeblocks);
+    if(Modernizr.localstorage){
+      localStorage['timeblock-states'] = JSON.stringify(openTimeblocks);
+    }
   }
 
   schedule.shouldTimeblockBeOpen = function(timeblockContainerId) {
