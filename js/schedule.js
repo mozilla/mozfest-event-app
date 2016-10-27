@@ -914,7 +914,7 @@ function Schedule(CUSTOM_CONFIG) {
     timeblockContainer.find('.sessions-container').slideToggle();
 
     var timeblockIsOpen = timeblockContainer.hasClass('expanded');
-    var openTimeblocks = JSON.parse(localStorage.getItem('timeblock-states')) || [] ;
+    var openTimeblocks = Modernizr.localstorage ? JSON.parse(localStorage.getItem('timeblock-states')) || [] : [];
     var timeblockID = timeblockContainer['0'].id;
     var index = openTimeblocks.indexOf(timeblockID);
     if(timeblockIsOpen && index === -1){
@@ -928,7 +928,11 @@ function Schedule(CUSTOM_CONFIG) {
   }
 
   schedule.shouldTimeblockBeOpen = function(timeblockContainerId) {
-    var openTimeblocks = JSON.parse(localStorage.getItem('timeblock-states')) || [schedule.timeblocks[0].key] ;
+    var defaultTimeblocks = [schedule.timeblocks[0].key]
+    var openTimeblocks;
+    
+    openTimeblocks = Modernizr.localstorage ? JSON.parse(localStorage.getItem('timeblock-states')) || defaultTimeblocks : defaultTimeblocks;
+
     if(openTimeblocks.indexOf(timeblockContainerId) > -1){
       return true;
     }
