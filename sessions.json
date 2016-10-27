@@ -21295,9 +21295,9 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
-            "day": "Sunday", 
+            "day": "Friday", 
             "description": "Ohbot is a robot head that is constructed and programmed by children. It has seven motors to provide a range of realistic movement. Ohbot is provided as a kit and comes with full instructions so that it can be built by children aged 7 and older.", 
-            "end": "5:15pm", 
+            "end": "6:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "OhBot", 
@@ -21323,52 +21323,13 @@
             "id": "61000", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 2 - 200", 
+            "location": "", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-getting-to-grips-with-ohbot", 
             "programmatic": false, 
-            "start": "3:15pm", 
+            "start": "6:00pm", 
             "tags": [], 
-            "timeblock": "sun-3-15pm--sunday-15-15-", 
+            "timeblock": "fri-science-fair--friday-18-00-", 
             "title": "Getting to grips with OhBot"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Youth zone", 
-            "day": "Saturday", 
-            "description": "Through the power of Virtual reality, I will guide visitors on a tour of our solar system. From the moons of Jupiter, to the dust in our Oort cloud.\nVisitors will be immersed in space, needing nothing more than a Smartphone (not provided) and google cardboard headset (provided).\nThe grand tour will consist of visiting every major object in our solar system, and finishing with a quick overview of our galaxy, and the relatively infinite universe beyond. Set to relaxing music, this educational experience will amaze, wow and educate the audience. Along with the hundreds of facts, millions of planets, and trillions of stars, I hope this workshop will inspire more young children to learn about space.", 
-            "end": "2:00pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "", 
-                    "name": "Cathryn Dunicliff", 
-                    "twitter": "@meowter_space"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Cathryn Dunicliff", 
-                "", 
-                ""
-            ], 
-            "id": "81400", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 2 - 212", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-grand-tour---experience-our-solar", 
-            "programmatic": false, 
-            "start": "1:00pm", 
-            "tags": [], 
-            "timeblock": "sat-1pm--saturday-13-00-", 
-            "title": "The Grand Tour - experience our solar system in VR"
         }, 
         {
             "additional language": "", 
@@ -21408,45 +21369,6 @@
             "tags": [], 
             "timeblock": "sat-12-30pm--saturday-12-30-", 
             "title": "Wi-Fi Penetration with Kali Linux"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Youth zone", 
-            "day": "Sunday", 
-            "description": "Come take part in a Google made virtual journey with upto 30 people", 
-            "end": "4:15pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "", 
-                "", 
-                ""
-            ], 
-            "id": "86100", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 2 - 212", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-google-vr-tour", 
-            "programmatic": false, 
-            "start": "3:15pm", 
-            "tags": [], 
-            "timeblock": "sun-3-15pm--sunday-15-15-", 
-            "title": "Google VR tour"
         }, 
         {
             "additional language": "", 
@@ -21720,6 +21642,47 @@
             "tags": [], 
             "timeblock": "sun-demos--sunday-18-00-", 
             "title": "Programmable Posters with Paper Circuitry"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Friday", 
+            "description": "Through the power of Virtual reality, I will guide visitors on a tour of our solar system. From the moons of Jupiter, to the dust in our Oort cloud.\nVisitors will be immersed in space, needing nothing more than a Smartphone (not provided) and google cardboard headset (provided).\nThe grand tour will consist of visiting every major object in our solar system, and finishing with a quick overview of our galaxy, and the relatively infinite universe beyond. Set to relaxing music, this educational experience will amaze, wow and educate the audience. Along with the hundreds of facts, millions of planets, and trillions of stars, I hope this workshop will inspire more young children to learn about space.", 
+            "end": "6:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "Cathryn Dunicliff", 
+                    "twitter": "@meowter_space"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Cathryn Dunicliff", 
+                "", 
+                ""
+            ], 
+            "id": "814001", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-grand-tour---experience-our-solar-system-in-vr", 
+            "programmatic": false, 
+            "start": "6:00pm", 
+            "tags": [
+                "AR, VR & Machine Learning"
+            ], 
+            "timeblock": "fri-science-fair--friday-18-00-", 
+            "title": "The Grand Tour - experience our solar system in VR"
         }
     ], 
     "timeblocks": [
