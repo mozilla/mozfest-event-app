@@ -5239,45 +5239,6 @@
             "additional language": "", 
             "category": "Dilemmas in connected spaces", 
             "day": "Sunday", 
-            "description": "The Databox - www.databoxproject.uk - provides a radical alternative to widespread data harvesting and data processing ‘in the cloud’. Instead data processing takes place ‘on the box’ and is limited to what is needed to deliver specific services. We introduce the Databox platform to the Mozilla community and provide participants with the opportunity to get their hands on this novel privacy-preserving platform. This hands on session will exploit data provided by Internet of Things devices deployed around the Mozilla Festival. Participants will be provided with a brief overview of the Databox platform before being invited to build ‘apps’ that sit on the Databox. Exploiting a modified Node Red app-building environment, participants will discover how to make apps that respect the requirement of informed consent and allow individuals to exercise granular choice over data processing; choices which are translated into enforceable policies on the Databox and govern data access and use.", 
-            "end": "3:00pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "University of Nottingham", 
-                    "name": "Tom Lodge", 
-                    "twitter": ""
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Tom Lodge", 
-                "", 
-                ""
-            ], 
-            "id": "1671", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 6 - 603", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-databox--hack-an-app", 
-            "programmatic": false, 
-            "start": "2:00pm", 
-            "tags": [], 
-            "timeblock": "sun-2pm--sunday-14-00-", 
-            "title": "Databox: Hack an App"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Dilemmas in connected spaces", 
-            "day": "Sunday", 
             "description": "The complexity of the Internet of Things means that a growing number of tasks in the future smart home will have to be handed over to computational agents and autonomous systems. Automation is problematic however, creating risks to privacy and impacting trust. This proposal seeks to engage the Mozilla community in understanding the dilemmas that emerge when connected spaces become autonomous. Workshop participants will be introduced to a range of storyboards illustrating utopian and dystopian visions of a future autonomous home. By encouraging participants to reflect on these envisioned futures, our aim is to spark a discussion that will help uncover some of the critical challenges confronting autonomous systems and the kinds of interfaces that are needed by human beings to control these systems. In addition to making an engaging contribution to the Mozilla Festival, the results of the workshop will inform development of the Autonomous Internet of Things http://a-iot.org", 
             "end": "1:15pm", 
             "facilitators": {
@@ -6955,9 +6916,9 @@
         {
             "additional language": "", 
             "category": "Dilemmas in Connected Spaces", 
-            "day": "Sunday", 
+            "day": "Saturday", 
             "description": "The social, political and economic environment for living in the UK has changed dramatically for many over that year. The #brexit vote, conflict across Europe and a US election taking place a few days after the festival make this the perfect opportunity to sit down with a cup of tea, in the format of a traditional ‘salon’ (or the living room) and talk, debate, create a snapshot of the times.", 
-            "end": "12:00pm", 
+            "end": "12:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "The Good home", 
@@ -6986,9 +6947,9 @@
             "location": "Floor 6 - 602", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-living-in-the-uk-post-brexit", 
             "programmatic": false, 
-            "start": "11:00am", 
+            "start": "11:15am", 
             "tags": [], 
-            "timeblock": "sun-11am--sunday-11-00-", 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Living in the UK post Brexit"
         }, 
         {
@@ -7845,7 +7806,7 @@
             "id": "1173", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 6 - 601", 
+            "location": "Floor 6 - 602", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-databox--hack-an-app--hack-on", 
             "programmatic": false, 
             "start": "2:00pm", 
