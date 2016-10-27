@@ -19135,7 +19135,9 @@
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-htc-vive-tilt-brush--minecraft-for-ar", 
             "programmatic": false, 
             "start": "10:00am", 
-            "tags": [], 
+            "tags": [
+                "AR, VR & Machine Learning"
+            ], 
             "timeblock": "sat-10am--saturday-10-00-", 
             "title": "HTC Vive tilt brush; Minecraft for Artists."
         }, 
@@ -19330,7 +19332,9 @@
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-shaping-reality-for-ar-storytelling", 
             "programmatic": false, 
             "start": "12:15pm", 
-            "tags": [], 
+            "tags": [
+                "AR, VR & Machine Learning"
+            ], 
             "timeblock": "sun-12-15pm--sunday-12-15-", 
             "title": "Shaping Reality for AR Storytelling, from the idea to the prototype."
         }, 
@@ -19369,7 +19373,9 @@
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-make-vr-----libraries----st-century-l", 
             "programmatic": false, 
             "start": "1:00pm", 
-            "tags": [], 
+            "tags": [
+                "AR, VR & Machine Learning"
+            ], 
             "timeblock": "sun-1pm--sunday-13-00-", 
             "title": "MAKE:VR ... Libraries: 21st century literacies and citizen tech"
         }, 
@@ -19796,7 +19802,9 @@
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-virtual-living-exploring-possibilitie", 
             "programmatic": false, 
             "start": "3:15pm", 
-            "tags": [], 
+            "tags": [
+                "AR, VR & Machine Learning"
+            ], 
             "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Virtual Living-Exploring Possibilities in VR"
         }, 
@@ -19835,7 +19843,9 @@
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-build-on-webvr-and-touch-to-interact", 
             "programmatic": false, 
             "start": "11:00am", 
-            "tags": [], 
+            "tags": [
+                "AR, VR & Machine Learning"
+            ], 
             "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Build on WebVR and touch to interact! Come Augmented Reality for the web!"
         }, 
@@ -19958,7 +19968,7 @@
             "additional language": "", 
             "category": "Youth zone", 
             "day": "Sunday", 
-            "description": "Virtual Reality (VR) appears poised to affect the field of modern education, however, creating user-generated VR experiences requires expertise with graphic design, 3D modeling, video editing, and programming skills is too complex for most elementary and middle school teachers and students to take on. In order to make VR storytelling more accessible, we have created SocialVR: a browser-based interactive design tool that allows non-technical users aged 8+ to create personalized VR experiences. Using a simple browser, phone, and low-cost camera, individuals who otherwise would not have access to VR technology are equipped to build personalized immersive experiences using 360 photos and videos, text, and audio. Using these media primitives, users can create customized stories, games, and learning resources. During the demo and lightning talk, we will share several examples and demonstrate how to make a personalized VR experience. We will also build an example on site.", 
+            "description": "SocialVR is an easy-to-use browser-based tool for \ncreating virtual reality (VR) stories for non-technical users and youth.\n In SocialVR you can combine 360-photos with interactive media hotspots \nthat speak, show you additional images, or teleport you to different \nplaces. Check out some of the experiences we have built and then build \nyour own personalized VR story with photos we have taken around the city\n and at MozFest! \nVirtual Reality (VR) appears poised to affect the field of modern education, however, creating user-generated VR experiences requires expertise with graphic design, 3D modeling, video editing, and programming skills is too complex for most elementary and middle school teachers and students to take on. In order to make VR storytelling more accessible, we have created SocialVR: a browser-based interactive design tool that allows non-technical users aged 8+ to create personalized VR experiences. Using a simple browser, phone, and low-cost camera, individuals who otherwise would not have access to VR technology are equipped to build personalized immersive experiences using 360 photos and videos, text, and audio. Using these media primitives, users can create customized stories, games, and learning resources. During the demo and lightning talk, we will share several examples and demonstrate how to make a personalized VR experience. We will also build an example on site.", 
             "end": "12:00pm", 
             "facilitators": {
                 "1": {
@@ -19989,7 +19999,9 @@
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-socialvr--virtual-reality-storytellin", 
             "programmatic": false, 
             "start": "11:00am", 
-            "tags": [], 
+            "tags": [
+                "AR, VR & Machine Learning"
+            ], 
             "timeblock": "sun-11am--sunday-11-00-", 
             "title": "SocialVR: Virtual Reality Storytelling for Youth and Non-Technical Adults"
         }, 
@@ -20067,7 +20079,9 @@
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-magnificent-adventures-of-moz---m", 
             "programmatic": false, 
             "start": "2:00pm", 
-            "tags": [], 
+            "tags": [
+                "AR, VR & Machine Learning"
+            ], 
             "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "The Magnificent Adventures of Moz & Me in Virtual Reality"
         }, 
@@ -20152,8 +20166,9 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
+            "day": "Saturday", 
             "description": "This is a simple discussion style workshop very similar to what was held last year between Tom Farrow and myself. This year however we will be looking more into the concept of data permanence and how it can affect future opportunities and hence why it maybe important to be careful about what you put onto the internet. This session also aims for the participants to leave with the required skills to then go to their peers to hopefully explain to them why this is an important topic, possibly encouraging them to host such discussions at home or maybe at school.", 
-            "end": "5:15pm", 
+            "end": "4:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -20182,9 +20197,9 @@
             "location": "Floor 2 - 206", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-data-permanence--how-can-it-affect-yo", 
             "programmatic": false, 
-            "start": "4:15pm", 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "sat-15-15-16-15", 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Data Permanence: How can it affect your future"
         }, 
         {
@@ -20579,6 +20594,45 @@
             "additional language": "", 
             "category": "Youth zone", 
             "day": "Sunday", 
+            "description": "The Tiles for Tales project explores links between the craft of story telling and technology. It shows how physical computing activities can be incorporated into collaborative activities and support story telling activities by young people.  Each tile represents a character or scene, and the tiles can then be used in similar way to story stones (or story dice), to narrate a tale, with each tile being controlled via scripts in ScratchX.", 
+            "end": "6:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Technology Volunteers, University of Warwick", 
+                    "name": "Margaret Low", 
+                    "twitter": "@techvolunteers"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Margaret Low", 
+                "", 
+                ""
+            ], 
+            "id": "2007", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-tiles-for-tales", 
+            "programmatic": false, 
+            "start": "6:00pm", 
+            "tags": [], 
+            "timeblock": "sun-demos--sunday-18-00-", 
+            "title": "Tiles for Tales"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Sunday", 
             "description": "Beginners workshop in scratch where the attendee can learn basic scratch commands and learn how to hack turtle graphics making shapes of different colours and sizes . Introduction to  the explorerhat Pro and control the whole thing with fruit or tinfoil buttons and allow their creative juices flow.", 
             "end": "1:15pm", 
             "facilitators": {
@@ -20649,7 +20703,9 @@
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-grand-tour---experience-our-solar", 
             "programmatic": false, 
             "start": "10:00am", 
-            "tags": [], 
+            "tags": [
+                "AR, VR & Machine Learning"
+            ], 
             "timeblock": "sat-10am--saturday-10-00-", 
             "title": "The Grand Tour - experience our solar system in VR"
         }, 
@@ -21239,123 +21295,6 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
-            "day": "Saturday", 
-            "description": "Virtual reality Art with Tilt Brush and the HTC Vive headset, come experience this frankly amazingly immersive tool that is akin to the feeling you get when creating in Minecraft - Suitable from age 6+ come create and explore this virtual paining and sculpture studio - Book slots of 10 mins - First come first serve if you miss your turn you must rebook.", 
-            "end": "12:15pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "EPIK (Encouraging programing in kids)", 
-                    "name": "Sabrina Lindridge", 
-                    "twitter": "@dorineFlies"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Sabrina Lindridge", 
-                "", 
-                ""
-            ], 
-            "id": "35000", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 2 - 213", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-htc-vive-tilt-brush--minecraft-for-ar", 
-            "programmatic": false, 
-            "start": "11:15am", 
-            "tags": [], 
-            "timeblock": "sat-11-15am--saturday-11-15-", 
-            "title": "HTC Vive tilt brush; Minecraft for Artists."
-        }, 
-        {
-            "additional language": "", 
-            "category": "Youth zone", 
-            "day": "Saturday", 
-            "description": "Virtual reality Art with Tilt Brush and the HTC Vive headset, come experience this frankly amazingly immersive tool that is akin to the feeling you get when creating in Minecraft - Suitable from age 6+ come create and explore this virtual paining and sculpture studio - Book slots of 10 mins - First come first serve if you miss your turn you must rebook.", 
-            "end": "1:00pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "EPIK (Encouraging programing in kids)", 
-                    "name": "Sabrina Lindridge", 
-                    "twitter": "@dorineFlies"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Sabrina Lindridge", 
-                "", 
-                ""
-            ], 
-            "id": "35001", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 2 - 213", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-htc-vive-tilt-brush--minecraft-for-ar", 
-            "programmatic": false, 
-            "start": "12:30pm", 
-            "tags": [], 
-            "timeblock": "sat-12-30pm--saturday-12-30-", 
-            "title": "HTC Vive tilt brush; Minecraft for Artists."
-        }, 
-        {
-            "additional language": "", 
-            "category": "Youth zone", 
-            "day": "Saturday", 
-            "description": "Virtual reality Art with Tilt Brush and the HTC Vive headset, come experience this frankly amazingly immersive tool that is akin to the feeling you get when creating in Minecraft - Suitable from age 6+ come create and explore this virtual paining and sculpture studio - Book slots of 10 mins - First come first serve if you miss your turn you must rebook.", 
-            "end": "2:00pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "EPIK (Encouraging programing in kids)", 
-                    "name": "Sabrina Lindridge", 
-                    "twitter": "@dorineFlies"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Sabrina Lindridge", 
-                "", 
-                ""
-            ], 
-            "id": "35002", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 2 - 213", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-htc-vive-tilt-brush--minecraft-for-ar", 
-            "programmatic": false, 
-            "start": "1:00pm", 
-            "tags": [], 
-            "timeblock": "sat-1pm--saturday-13-00-", 
-            "title": "HTC Vive tilt brush; Minecraft for Artists."
-        }, 
-        {
-            "additional language": "", 
-            "category": "Youth zone", 
             "day": "Sunday", 
             "description": "Ohbot is a robot head that is constructed and programmed by children. It has seven motors to provide a range of realistic movement. Ohbot is provided as a kit and comes with full instructions so that it can be built by children aged 7 and older.", 
             "end": "5:15pm", 
@@ -21395,45 +21334,6 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
-            "day": "Sunday", 
-            "description": "Moz is your robot guide and best friend in your quest to unlock the secrets of virtual reality before it’s too late. Capture real life prizes as you learn to navigate the cartesian coordinate system, build spaceships and use the power of physics to conquer any challenge. All this using the HTC Vive VR headset", 
-            "end": "5:15pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "", 
-                    "name": "Ann-Caryn Cleveland", 
-                    "twitter": "anncaryn"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Ann-Caryn Cleveland", 
-                "", 
-                ""
-            ], 
-            "id": "6030", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 2 - 213", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-magnificent-adventures-of-moz---m", 
-            "programmatic": false, 
-            "start": "3:15pm", 
-            "tags": [], 
-            "timeblock": "sun-3-15pm--sunday-15-15-", 
-            "title": "The Magnificent Adventures of Moz & Me in Virtual Reality"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Youth zone", 
             "day": "Saturday", 
             "description": "Through the power of Virtual reality, I will guide visitors on a tour of our solar system. From the moons of Jupiter, to the dust in our Oort cloud.\nVisitors will be immersed in space, needing nothing more than a Smartphone (not provided) and google cardboard headset (provided).\nThe grand tour will consist of visiting every major object in our solar system, and finishing with a quick overview of our galaxy, and the relatively infinite universe beyond. Set to relaxing music, this educational experience will amaze, wow and educate the audience. Along with the hundreds of facts, millions of planets, and trillions of stars, I hope this workshop will inspire more young children to learn about space.", 
             "end": "2:00pm", 
@@ -21469,45 +21369,6 @@
             "tags": [], 
             "timeblock": "sat-1pm--saturday-13-00-", 
             "title": "The Grand Tour - experience our solar system in VR"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Youth zone", 
-            "day": "Saturday", 
-            "description": "APC and its partners have re-released its popular resource, a simple first-aid for human rights defenders who have found themselves on the receiving end of a hack, DDoS, or severe trolling. The latest edition is even more usable: mobile responsive and on a standalone platform. It's also now in Urdu, Hindi, French and Spanish, in addition to the original English. Participants will be coerced into a gameshow format as a way to share expertise and cluelessness alike in figuring out exactly what to do once you've been pwned.", 
-            "end": "3:00pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Association for Progressive Communications", 
-                    "name": "Mallory Knodel", 
-                    "twitter": "@chaoticfree"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Mallory Knodel", 
-                "", 
-                ""
-            ], 
-            "id": "3910", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 2 - 206", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-an-exceedingly-practical-digital-secu", 
-            "programmatic": false, 
-            "start": "2:00pm", 
-            "tags": [], 
-            "timeblock": "sat-2pm--saturday-14-00-", 
-            "title": "An exceedingly practical digital security first-aid kit for after you've been pwned"
         }, 
         {
             "additional language": "", 
@@ -21553,45 +21414,6 @@
             "category": "Youth zone", 
             "day": "Sunday", 
             "description": "Come take part in a Google made virtual journey with upto 30 people", 
-            "end": "12:00pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "", 
-                "", 
-                ""
-            ], 
-            "id": "861", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 2 - 212", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-google-vr-tour", 
-            "programmatic": false, 
-            "start": "11:00am", 
-            "tags": [], 
-            "timeblock": "sun-11am--sunday-11-00-", 
-            "title": "Google VR tour"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Youth zone", 
-            "day": "Sunday", 
-            "description": "Come take part in a Google made virtual journey with upto 30 people", 
             "end": "4:15pm", 
             "facilitators": {
                 "1": {
@@ -21625,45 +21447,6 @@
             "tags": [], 
             "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "Google VR tour"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Youth zone", 
-            "day": "Sunday", 
-            "description": "A space provided to regain focus and calm; paper, pens and tracing light boxes provided - parents MUST stay with their child at all time and keep the door open.", 
-            "end": "11:00am", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "", 
-                "", 
-                ""
-            ], 
-            "id": "862", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 2 - 206", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-quiet--time-out--room-for-parents-and", 
-            "programmatic": false, 
-            "start": "11:00am", 
-            "tags": [], 
-            "timeblock": "sun-11am--sunday-11-00-", 
-            "title": "Quiet \"Time out\" room for parents and their children"
         }, 
         {
             "additional language": "", 
@@ -21863,13 +21646,13 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
-            "day": "Saturday", 
-            "description": "Protect yourself with knowledge! Thought hacking was for the hard core, well you’re definitely", 
-            "end": "1:30pm", 
+            "day": "Friday", 
+            "description": "Join us for paper crafting with circuitry!  We will make light-up \ninteractive posters and bring them to life with code.  No experience \nwith code or circuitry is necessary-- everyone is welcome!In this hands-on workshop attendees will learn to create interactive posters with circuitry on paper and make them come to life with Arduino programming!\nWe will be using circuit stickers to build expressive circuitry on paper and introduce a new programmable microcontroller clip for the code. We will be using an online browser-based Arduino programming platform and participants can program the clips with their laptops, tablets or even cell phones.\nOur goal is to introduce beginner circuit builders and programmers to the magic of creating technology through arts and crafts.  Participants will get to have fun designing, building and coding electronics while making unique and expressive works of art!\nFor an example of programmed paper circuitry artwork, check out this interactive painting:\nhttp://technolojie.com/pu-gong-ying-tu-dandelion-painting/", 
+            "end": "6:00pm", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "", 
-                    "name": "Seth Duffet", 
+                    "affiliated org": "chibitronics.com", 
+                    "name": "Jie Qi", 
                     "twitter": ""
                 }, 
                 "2": {
@@ -21884,31 +21667,31 @@
                 }
             }, 
             "facilitators_names": [
-                "Seth Duffet", 
+                "Jie Qi", 
                 "", 
                 ""
             ], 
-            "id": "859", 
+            "id": "7521", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 2 - 205", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-wi-fi-penetration-with-kali-linux", 
+            "location": "", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-programmable-posters-with-paper-circu", 
             "programmatic": false, 
-            "start": "12:30pm", 
+            "start": "6:00pm", 
             "tags": [], 
-            "timeblock": "sat-12-30pm--saturday-12-30-", 
-            "title": "Wi-Fi Penetration with Kali Linux"
+            "timeblock": "fri-science-fair--friday-18-00-", 
+            "title": "Programmable Posters with Paper Circuitry"
         }, 
         {
             "additional language": "", 
             "category": "Youth zone", 
             "day": "Sunday", 
-            "description": "A space provided to regain focus and calm; paper, pens and tracing light boxes provided - parents MUST stay with their child at all time and keep the door open.", 
-            "end": "11:00am", 
+            "description": "Join us for paper crafting with circuitry!  We will make light-up \ninteractive posters and bring them to life with code.  No experience \nwith code or circuitry is necessary-- everyone is welcome!In this hands-on workshop attendees will learn to create interactive posters with circuitry on paper and make them come to life with Arduino programming!\nWe will be using circuit stickers to build expressive circuitry on paper and introduce a new programmable microcontroller clip for the code. We will be using an online browser-based Arduino programming platform and participants can program the clips with their laptops, tablets or even cell phones.\nOur goal is to introduce beginner circuit builders and programmers to the magic of creating technology through arts and crafts.  Participants will get to have fun designing, building and coding electronics while making unique and expressive works of art!\nFor an example of programmed paper circuitry artwork, check out this interactive painting:\nhttp://technolojie.com/pu-gong-ying-tu-dandelion-painting/", 
+            "end": "6:00pm", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "chibitronics.com", 
+                    "name": "Jie Qi", 
                     "twitter": ""
                 }, 
                 "2": {
@@ -21923,20 +21706,20 @@
                 }
             }, 
             "facilitators_names": [
-                "", 
+                "Jie Qi", 
                 "", 
                 ""
             ], 
-            "id": "862", 
+            "id": "75210", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 2 - 206", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-quiet--time-out--room-for-parents-and", 
+            "location": "", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-programmable-posters-with-paper-circu", 
             "programmatic": false, 
-            "start": "11:00am", 
+            "start": "6:00pm", 
             "tags": [], 
-            "timeblock": "sun-11am--sunday-11-00-", 
-            "title": "Quiet \"Time out\" room for parents and their children"
+            "timeblock": "sun-demos--sunday-18-00-", 
+            "title": "Programmable Posters with Paper Circuitry"
         }
     ], 
     "timeblocks": [
