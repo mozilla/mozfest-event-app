@@ -254,7 +254,7 @@ function Schedule(CUSTOM_CONFIG) {
     // add session information to the page
     targetBlock.append(template(templateData));
   }
-  
+
   // remove all placeholder "Open" blocks on page
   schedule.clearOpenBlocks = function() {
     var openBlocks = schedule.$container.find('.open-block').parent();
@@ -267,15 +267,25 @@ function Schedule(CUSTOM_CONFIG) {
     _.each(timeblocks,function(timeblock,i) {
       // TODO: can probably use template for this
       // schedule block header
-      var header = $("<h3><span>"+timeblock['timeblock name']+"</span></h3>");
+      var header = $("<h3 class='timeblock-header'><span>"+timeblock['timeblock name']+"</span></h3>");
+      var toggleIcon = $("<i class='fa fa-chevron-circle-left'></i>");
       // container
       var timeblockContainer = $("<div></div>")
                                 .attr("id", timeblock.key)
                                 .attr("class", "timeblock");
-      var sessionsContainer = $("<div></div>").attr("class", "sessions-container")
-                                              .html("<div class='open-block'>OPEN</div>");
-      timeblockContainer.append(header)
+      var sessionsContainer = $("<div></div>").attr("class", "sessions-container slider")
+                                              .html("<div class='open-block'>OPEN</div>")
+                                              .css('display', 'none');
+
+      if(schedule.shouldTimeblockBeOpen(timeblock.key)){
+        timeblockContainer.addClass('expanded');
+        sessionsContainer.css('display','block');
+        toggleIcon.removeClass('fa-chevron-circle-left').addClass('fa-chevron-circle-down');
+      }
+
+      timeblockContainer.append(header.append(toggleIcon))
                         .append(sessionsContainer);
+
       schedule.$container.find(".schedule-tab").append(timeblockContainer);
     });
   }
@@ -317,17 +327,7 @@ function Schedule(CUSTOM_CONFIG) {
 
     // add "fav" star controls to all session items on the page
     schedule.addStars('.session-card');
-
-    // run the callback after adding all available sessions.
-    schedule.addBlockToggles();
-
-    // let's have Friday's first timeblock expanded by default
-    // (request came from https://github.com/mozilla/mozfest-event-app/issues/432)
-    if ($("#show-friday").hasClass("active")) {
-      var idOfFirstFridayBlock = schedule.timeblocks[0].key;
-      var $firstFridayBlock = $("#"+idOfFirstFridayBlock);
-      schedule.toggleTimeblock($firstFridayBlock);
-    }
+    schedule.loadScrollState(window.location.hash);
   }
 
   // showSessionDetail() renders session data into the detail template,
@@ -355,7 +355,7 @@ function Schedule(CUSTOM_CONFIG) {
       schedule.$container.html(schedule.sessionDetailTemplate(templateData));
       // allowing faving from detail page too
       schedule.addStars('.session-detail');
-      
+
       $("#"+SCHEDULE_NAV_LINK_ID).addClass("active");
     } else {
       // if no matching ID found, just make a full session list
@@ -370,13 +370,30 @@ function Schedule(CUSTOM_CONFIG) {
     $('#session-detail-wrapper').remove();
   }
 
+  schedule.saveScrollState = function(page, scrollY) {
+    if(Modernizr.localstorage){
+      var scrollStates = JSON.parse(localStorage.getItem('scrollStates')) || {};
+      scrollStates[page] = scrollY;
+      localStorage.scrollStates = JSON.stringify(scrollStates);
+    }
+  }
+
+  schedule.loadScrollState = function(page) {
+    if(schedule.previous === window.location.hash && Modernizr.localstorage){
+      var scrollStates = JSON.parse(localStorage.getItem('scrollStates')) || {};
+      if(scrollStates[page]){
+        window.scroll(0,scrollStates[page]);
+      }
+    }
+  }
+
   // call getSessionDetail() when you have a sessionID value, but you
   // can't be sure that the app has loaded session data. E.g. initial
   // pageload goes directly to a session detail view
   schedule.getSessionDetail = function(sessionID,updateHash) {
+    schedule.saveScrollState(window.location.hash, window.scrollY);
     // store sessionID in case we need it later
     schedule.sessionID = sessionID;
-
     schedule.setBodyClass("detail-view");
 
     if (updateHash) {
@@ -390,13 +407,14 @@ function Schedule(CUSTOM_CONFIG) {
       // otherwise fetch data and pass showSessionDetail() as callback
       schedule.loadSessions(schedule.showSessionDetail);
     }
+    window.scroll(0,0);
   }
 
   // this is a single-page app, and updateHash() helps track state
   schedule.updateHash = function(value) {
     var baseURL = window.location.href.replace(window.location.hash, '');
     var newURL = (!!value) ? baseURL + "#_" + value : baseURL;
-
+    schedule.previous = window.location.hash;
     window.history.pushState(value, "", newURL);
     // make sure we *have* a window.history before we try to manipulate it
     window.history.ready = true;
@@ -421,15 +439,7 @@ function Schedule(CUSTOM_CONFIG) {
       })
     }
   }
-  
-  // add icons for collapsible timeblocks
-  schedule.addBlockToggles = function() {
-    var blocks = schedule.$container.find('.timeblock .sessions-container');
-    blocks.prev('h3').addClass('timeblock-header').append('<i class="fa fa-chevron-circle-left"></i>');
-    blocks.addClass('slider');
-    blocks.css("display", "none");
-  }
-  
+
   // add a set of tabs across the top of page as toggles that change display
   schedule.addToggles = function() {
     if (Modernizr.localstorage) {
@@ -896,10 +906,37 @@ function Schedule(CUSTOM_CONFIG) {
     window.scrollTo(0, 0);
   }
 
+  //Manages state of timeblocks and stores that in localStorage
   schedule.toggleTimeblock = function(timeblockContainer) {
-    timeblockContainer.find(".timeblock-header")
+    timeblockContainer.toggleClass('expanded')
+                      .find(".timeblock-header")
                       .find('.fa').toggleClass('fa-chevron-circle-left fa-chevron-circle-down');
-    schedule.animateBlockToggle(timeblockContainer.find(".sessions-container"));
+    timeblockContainer.find('.sessions-container').slideToggle();
+
+    var timeblockIsOpen = timeblockContainer.hasClass('expanded');
+    var openTimeblocks = Modernizr.localstorage ? JSON.parse(localStorage.getItem('timeblock-states')) || [] : [];
+    var timeblockID = timeblockContainer['0'].id;
+    var index = openTimeblocks.indexOf(timeblockID);
+    if(timeblockIsOpen && index === -1){
+      openTimeblocks.push(timeblockID);
+    } else if (!timeblockIsOpen && index > -1) {
+        openTimeblocks.splice(index, 1);
+    }
+    if(Modernizr.localstorage){
+      localStorage['timeblock-states'] = JSON.stringify(openTimeblocks);
+    }
+  }
+
+  schedule.shouldTimeblockBeOpen = function(timeblockContainerId) {
+    var defaultTimeblocks = [schedule.timeblocks[0].key]
+    var openTimeblocks;
+    
+    openTimeblocks = Modernizr.localstorage ? JSON.parse(localStorage.getItem('timeblock-states')) || defaultTimeblocks : defaultTimeblocks;
+
+    if(openTimeblocks.indexOf(timeblockContainerId) > -1){
+      return true;
+    }
+    return false;
   }
 
   // add the standard listeners for various user interactions
@@ -988,17 +1025,6 @@ function Schedule(CUSTOM_CONFIG) {
       schedule.toggleTimeblock($timeblockContainer);
     });
 
-    // helper function for "toggle block" and "toggle all" controls
-    schedule.animateBlockToggle = function(targetBlock) {
-      targetBlock.toggleClass('expanded');
-      
-      if (targetBlock.hasClass('expanded')) {
-        targetBlock.slideDown();
-      } else {
-        targetBlock.slideUp();
-      }
-    }
-    
     // tap stars to favorite/unfavorite via localstorage
     schedule.$container.on('click', '.favorite', function(e) {
       e.preventDefault();
