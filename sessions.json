@@ -7494,7 +7494,7 @@
             "id": "2470", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 6 - 602", 
+            "location": "Floor 6 - 601", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-painting-with-virtual-reality-and-a-p", 
             "programmatic": false, 
             "start": "11:00am", 
@@ -7741,7 +7741,7 @@
             "category": "Dilemmas in connected spaces", 
             "day": "Saturday", 
             "description": "This is a quiet hack following the previous hack a Databox session - www.databoxproject.uk - Introducing the Databox platform to the Mozilla community and provide participants with the opportunity to get their hands on this novel privacy-preserving platform. This hands on session will exploit data provided by Internet of Things devices deployed around the Mozilla Festival.", 
-            "end": "8:00pm", 
+            "end": "6:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "University of Nottingham", 
