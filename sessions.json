@@ -14586,7 +14586,7 @@
             "category": "Open science", 
             "day": "Saturday", 
             "description": "This would primarily be a discussion on how we can create diverse communities that span multiple academic disciplines. We would brainstorm with a group why this is beneficial, and talk about some concrete ways that this can be helped along, as well as what can get in the way of this ideal.", 
-            "end": "3:00pm", 
+            "end": "2:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "University of Toronto", 
@@ -14627,10 +14627,10 @@
             "location": "Floor 9 - 908", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-study-groups---crossing-the-boundarie", 
             "programmatic": false, 
-            "start": "2:30pm", 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "sat-2-30pm--saturday-14-30-", 
-            "title": "Study Groups - Crossing the Boundaries of Discipline"
+            "timeblock": "sat-2pm--saturday-14-00-", 
+            "title": "Study Groups - Crossing the Boundaries of Discipline\nNote: This session begins at 2:30pm"
         }, 
         {
             "additional language": "", 
@@ -14990,10 +14990,10 @@
             "title": "Using open sourced Crowd mapping to improve citizen and government engagement"
         }, 
         {
-            "additional language": "Spanish, English", 
-            "category": "Open Science", 
+            "additional language": "", 
+            "category": "Open science", 
             "day": "Saturday", 
-            "description": "Recent trends in computing have brought \"big data\", \"analytics\" and \"visualization\" into popular use. Behind the buzzwords are simple truths about how we understand out shared world. Together we will cut through the noise to learn:\n- what data analysis has in common with writing an email or drawing a birthday card\n- why maps resonate more than charts, and charts more than tables\n- how to conduct a data analysis with tools at your fingertips today\n- why you are an excellent mathematician\nYou will leave with a clear idea of:\n- which few data subjects you should care about\n- the many data subjects you can safely ignore\n- how to leverage freely available software and data\n- how to approach using data analysis to understand problems important to you", 
+            "description": "Recent trends in computing have brought \"big data\", \"analytics\" and \"visualization\" into popular use. Behind the buzzwords are simple truths about how we understand out shared world. Together we will cut through the noise to learn:\n- what data analysis has in common with writing an email or drawing a birthday card\n- why maps resonate more than charts, and charts more than tables\n- how to conduct a data analysis with tools at your fingertips today\n- why you are an excellent mathematician\n\nYou will leave with a clear idea of:\n- which few data subjects you should care about\n- the many data subjects you can safely ignore\n- how to leverage freely available software and data\n- how to approach using data analysis to understand problems important to you", 
             "end": "3:00pm", 
             "facilitators": {
                 "1": {
@@ -15033,12 +15033,11 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 9 - 902", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-data--from--what--why--and-how--to--y", 
+            "notes url": "", 
             "programmatic": false, 
             "start": "2:00pm", 
             "tags": [
-                "The Future of the Web", 
-                "Multi-lingual MozFest"
+                "The Future of the Web"
             ], 
             "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Data: from \"What, Why, and How\" to \"You, Here, and Now\""
@@ -15811,108 +15810,6 @@
         {
             "additional language": "", 
             "category": "Open science", 
-            "day": "Saturday", 
-            "description": "", 
-            "end": "1:15pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Sage Bionetworks", 
-                    "name": "Brian Bot", 
-                    "twitter": "@BrianMBot"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "Edoardo Viola", 
-                    "twitter": "@edovio"
-                }, 
-                "3": {
-                    "affiliated org": "Mozilla Philippines Community", 
-                    "name": "Faye Tandog", 
-                    "twitter": "@fayetandog"
-                }, 
-                "4": {
-                    "affiliated org": "Mozilla", 
-                    "name": "Christos Bacharakis", 
-                    "twitter": "@bacharakis"
-                }, 
-                "5": {
-                    "affiliated org": "Detroit Community Technology Project", 
-                    "name": "Anderson Walworth and Kristyn Sonnenberg", 
-                    "twitter": "@DetCommTech"
-                }
-            }, 
-            "facilitators_names": [
-                "Brian Bot", 
-                "Christos Bacharakis", 
-                "Edoardo Viola", 
-                "Faye Tandog", 
-                "Anderson Walworth and Kristyn Sonnenberg"
-            ], 
-            "id": "1551", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 9 - 907", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-office-hours", 
-            "programmatic": false, 
-            "start": "11:15am", 
-            "tags": [], 
-            "timeblock": "sat-11-15am--saturday-11-15-", 
-            "title": "Office Hours"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Open science", 
-            "day": "Sunday", 
-            "description": "", 
-            "end": "2:15pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Sage Bionetworks", 
-                    "name": "Brian Bot", 
-                    "twitter": "@BrianMBot"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "Edoardo Viola", 
-                    "twitter": "@edovio"
-                }, 
-                "3": {
-                    "affiliated org": "Mozilla Philippines Community", 
-                    "name": "Faye Tandog", 
-                    "twitter": "@fayetandog"
-                }, 
-                "4": {
-                    "affiliated org": "Mozilla", 
-                    "name": "Christos Bacharakis", 
-                    "twitter": "@bacharakis"
-                }, 
-                "5": {
-                    "affiliated org": "Detroit Community Technology Project", 
-                    "name": "Anderson Walworth and Kristyn Sonnenberg", 
-                    "twitter": "@DetCommTech"
-                }
-            }, 
-            "facilitators_names": [
-                "Brian Bot", 
-                "Christos Bacharakis", 
-                "Edoardo Viola", 
-                "Faye Tandog", 
-                "Anderson Walworth and Kristyn Sonnenberg"
-            ], 
-            "id": "1552", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 9 - 907", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-office-hours", 
-            "programmatic": false, 
-            "start": "12:15pm", 
-            "tags": [], 
-            "timeblock": "sun-12-15pm--sunday-12-15-", 
-            "title": "Office Hours"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Open science", 
             "day": "Sunday", 
             "description": "Are you looking for a hands-on project to contribute to? Do you have a project you want to test out with contributors? This is the session for you!\n\nBuilt around the Open Leadership Training Series (OLTS), this session features breakout groups for several projects that have completed the training and are looking for contributors (you!)\n\nSome of the featured projects you can contribute to in this session:\n* [Apps for community empowerment!](https://github.com/MozillaFoundation/mozfest-program-2016/issues/669) with [Anderson Walworth](https://github.com/anderson29) and [Kristyn Sonnenberg](https://github.com/skristyn)", 
             "end": "3:00pm", 
@@ -16213,7 +16110,7 @@
             "programmatic": false, 
             "start": "1:00pm", 
             "tags": [], 
-            "timeblock": "sun-1-00pm--sunday-13-00-", 
+            "timeblock": "sun-1pm--sunday-13-00-", 
             "title": "Open Projects - hackathon: apps for community empowerment!"
         }, 
         {
@@ -16264,7 +16161,7 @@
             "programmatic": false, 
             "start": "10:00am", 
             "tags": [], 
-            "timeblock": "sat-10-00am--saturday-10-00-", 
+            "timeblock": "sat-10am--saturday-10-00-", 
             "title": "Open Leadership Zone (+Sticker Match!)"
         }, 
         {
@@ -16315,7 +16212,7 @@
             "programmatic": false, 
             "start": "1:00pm", 
             "tags": [], 
-            "timeblock": "sat-1-00pm--saturday-13-00-", 
+            "timeblock": "sat-1pm--saturday-13-00-", 
             "title": "Open Leadership Zone (+Sticker Match!)"
         }, 
         {
@@ -16366,7 +16263,7 @@
             "programmatic": false, 
             "start": "11:00am", 
             "tags": [], 
-            "timeblock": "sun-11-00am--sunday-11-00-", 
+            "timeblock": "sun-11am--sunday-11-00-", 
             "title": "Open Leadership Zone (+Sticker Match!)"
         }, 
         {
@@ -16417,8 +16314,59 @@
             "programmatic": false, 
             "start": "1:00pm", 
             "tags": [], 
-            "timeblock": "sun-1-00pm--sunday-13-00-", 
+            "timeblock": "sun-1pm--sunday-13-00-", 
             "title": "Open Leadership Zone (+Sticker Match!)"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Open science", 
+            "day": "Saturday", 
+            "description": "EyesOnALZ is the first ever initiative that applies citizen science to the analysis of Alzheimer's research data. The project is developing two online games that will crowdsource the data acquired at Cornell University, where promising leads in slowing down and preventing Alzheimer's have recently been found. Since the data analysis is extremely time-consuming, it could take decades before the researchers arrive at actual treatment targets - but with volunteers' help we could speed up this process by orders of magnitude.\n\nStall Catchers is the first of two EyesOnALZ games, and is already available online. In Stall Catchers participants view movies of live mouse brains and try to \"catch\" stalls - clogged blood vessels. By playing the game, participants will help to answer research questions leading up to potential Alzheimer's treatments, thus directly fighting a disease that in one way or another affects everyone.\n\nThe goal of this session is to demonstrate the game & start building the first ever community of #citsci4alz.", 
+            "end": "11:30am", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Human Computation Institute", 
+                    "name": "Egle Marija Ramanauskaite", 
+                    "twitter": "seplute"
+                }, 
+                "2": {
+                    "affiliated org": "PenguinGalaxy", 
+                    "name": "Alice Sheppard", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "4": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "5": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Egle Marija Ramanauskaite", 
+                "", 
+                "Alice Sheppard", 
+                "", 
+                ""
+            ], 
+            "id": "565", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 9 - 908", 
+            "notes url": "", 
+            "programmatic": false, 
+            "start": "11:15am", 
+            "tags": [], 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
+            "title": "Fighting Alzheimer's with citizen science - DEMO\n(Note: This session starts at 11:45AM)"
         }, 
         {
             "additional language": "", 
@@ -18617,7 +18565,7 @@
                 "2": {
                     "affiliated org": "University of Kansas - Center for Public Partnerships and Research", 
                     "name": "Amanda Davis", 
-                    "twitter": ""
+                    "twitter": "@Amanda66044"
                 }, 
                 "3": {
                     "affiliated org": "", 
