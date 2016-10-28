@@ -3231,7 +3231,7 @@
             "additional language": "", 
             "category": "Digital arts and culture", 
             "day": "Saturday", 
-            "description": "In a piece of music, musical fragments must come in a coherent series if the music is to make sense. Mozart (260th year this year) devised a clever game in the 18th century by throwing dice to make apparently “random” choices from a grid of musical examples. Thus an appropriate example is always selected. Whether or not the dice player understands to the process, s/he will always produce a coherent piece. Using a coded process the “player” can create a piece with even less prior musical knowledge.\n\nThe digital form of the game allows the participant much more flexibility to examine patterns as between music and coding. With a minimum of formal musical knowledge, the participant can gain insights into patterns and how they work.", 
+            "description": "In a piece of music, musical fragments must come in a coherent series if the music is to make sense. Mozart (260th year this year) devised a clever game in the 18th century by throwing dice to make apparently “random” choices from a grid of musical examples. Thus an appropriate example is always selected. Whether or not the dice player understands to the process, s/he will always produce a coherent piece. Using a coded process the “player” can create a piece with even less prior musical knowledge.\n\nThe digital form of the game allows the participant much more flexibility to examine patterns as between music and coding. With a minimum of formal musical knowledge, the participant can gain insights into patterns and how they work.\n\nBe prepared!\nPlease down load the link https://drive.google.com/drive/folders/0Bz__LQ1ATjtWZjdrbjlRYlRxVEU?usp=sharing\nYou’ll need this for maximum participation to compose your own unique piece of music!", 
             "end": "5:30pm", 
             "facilitators": {
                 "1": {
@@ -4964,7 +4964,7 @@
             "category": "Digital Arts and Culture", 
             "day": "Sunday", 
             "description": "People will learn basic skills to form a concept for a website/webapp by using InDesign.\n\nI will show how to use InDesign in the designing process considering responsiveness and creating a nice and appealing interface.\n\nPlease donwload a trial version of InDesign (if not installed yet):\n\nhttps://creative.adobe.com/products/download/indesign", 
-            "end": "11:00am", 
+            "end": "12:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -5802,13 +5802,14 @@
         {
             "additional language": "", 
             "category": "Dilemmas in connected spaces", 
+            "day": "Saturday", 
             "description": "The session builds on the conception of the ‘Code of the Dark Temple’ <darktemple.net> at the UnBox Caravan in Feb, 2016 in India. In a nutshell, the ‘code’ is a manifesto that encodes certain principles for the ‘right to disconnect’ in an evermore connected world. One of the lines of inquiry taken forward from that manifesto was to write a set of stories that envisioned the embracing of these principles in a near future. The session at MozFest would present some of this initial work, and guide the participants in the workshop to contribute more stories and creative methods of representation.", 
-            "duration": "60", 
+            "end": "4:15pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "The Monks of The Dark Temple", 
-                    "name": "The Head Of The Monks of The Dark Temple. ", 
-                    "twitter": ""
+                    "name": "Vladan Joler, Monk of The Dark Temple. ", 
+                    "twitter": "@TheCreaturesLab"
                 }, 
                 "2": {
                     "affiliated org": "", 
@@ -5822,7 +5823,7 @@
                 }
             }, 
             "facilitators_names": [
-                "The Head Of The Monks of The Dark Temple. ", 
+                "Vladan Joler, Monk of The Dark Temple. ", 
                 "e", 
                 ""
             ], 
@@ -5832,8 +5833,9 @@
             "location": "Floor 6 - 606", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-writing-a-future-history-for-the-code", 
             "programmatic": false, 
+            "start": "3:15pm", 
             "tags": [], 
-            "timeblock": "", 
+            "timeblock": "sat-3-15pm--saturday-15-15-", 
             "title": "Writing a future history for the Code of the Dark Temple"
         }, 
         {
@@ -6270,11 +6272,12 @@
         {
             "additional language": "", 
             "category": "Dilemmas in connected spaces", 
+            "day": "Sunday", 
             "description": "Imagine a city full of rental bikes. These retrofit rentals are super cheap, can be located online and above all: self sufficient. Wait what? Yes: these bikes make their own money. Nobody owns them.\nThis radical new approach of agency in products stems from the work of Simone Rebaudengo (automato.farm). Now The Incredible Machine and Automato.farm are collaborating to develop a first practical application in the form of a self-letting bicycles.\nWe need your input, ideas and knowledge to move ahead with this concept.", 
-            "duration": "60", 
+            "end": "1:15pm", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "The incredible machine", 
+                    "affiliated org": "Just Things Foundation", 
                     "name": "Marcel Schouwenaar", 
                     "twitter": "@theincmac"
                 }, 
@@ -6300,10 +6303,11 @@
             "location": "Floor 6 - 606", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-infect-the-smart-city-with-not-so-dum", 
             "programmatic": false, 
+            "start": "12:15pm", 
             "tags": [
                 "AR, VR & Machine Learning"
             ], 
-            "timeblock": "", 
+            "timeblock": "sun-12-15pm--sunday-12-15-", 
             "title": "Infect the smart city with not so dumb bikes"
         }, 
         {
@@ -6433,8 +6437,9 @@
         {
             "additional language": "", 
             "category": "Dilemmas in connected spaces", 
+            "day": "Sunday", 
             "description": "IoT will significantly amplify the security and privacy challenges we currently face. One reason for this is because IoT brings computing power much closer to us physically and more pervasive. There are already examples of how this physical proximity and digital control of physical resources can result in life-threatening scenarios, such as a car being hacked or a pacemaker compromised.\n\nIoT also collects more and different data than previous eras of the internet. This includes our physical location, appearance, and even emotional state.\n\nAs we build meaningful connected things, we must ensure that these objects don’t compromise people’s agency. People must be able to understand and control their digital lives. And control depends on context. We want to understand how designing for specific contexts can inform privacy best practices broadly.", 
-            "duration": "60", 
+            "end": "2:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Simply Secure ", 
@@ -6461,11 +6466,12 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 6 - 606", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-iot-security-research", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-trust-in-iot--an-insights-toolkit-for", 
             "programmatic": false, 
+            "start": "1:00pm", 
             "tags": [], 
-            "timeblock": "", 
-            "title": "IoT Security Research"
+            "timeblock": "sun-1pm--sunday-13-00-", 
+            "title": "Trust in IoT: An Insights Toolkit for designers"
         }, 
         {
             "additional language": "", 
@@ -18905,6 +18911,63 @@
             "tags": [], 
             "timeblock": "sat-11-15am--saturday-11-15-", 
             "title": "Coventry University - DMLL"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Open Badges", 
+            "day": "Saturday", 
+            "description": "The eNABLE Community of digital humanitarians around the world makes 3 D printed prosthetics and gives them away. We share open source design files, curriculum, mentoring and events train people and nurture innovation. To let this meritocracy self govern and grow, we need the power of Open Badges. Join us and save the world!", 
+            "end": "12:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "enablingthefuture.org", 
+                    "name": "Maria Esquela", 
+                    "twitter": "@MariaEsquela"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "4": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "5": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "6": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Maria Esquela", 
+                "", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "1234", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 8 - 801", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-how-open-badges-can-save-the-world", 
+            "programmatic": false, 
+            "start": "11:15am", 
+            "tags": [], 
+            "timeblock": "sat-11-15am--saturday-11-15-", 
+            "title": "How open badges can save the world!!"
         }, 
         {
             "additional language": "", 
