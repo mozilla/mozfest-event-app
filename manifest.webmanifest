@@ -1,0 +1,34 @@
+{
+  "name": "MozFest 2016 Schedule",
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "orientation": "portrait-primary",
+  "short_name": "MozFest '16",
+  "description": "The schedule for Mozilla Festival 2016",
+  "icons":[
+    {
+      "src":"img/favicon/favicon.png",
+      "sizes":"32x32"
+    },
+    {
+      "sizes":"128x128",
+      "src": "img/favicon/favicon-128x128@2x.png",
+      "density": 2
+    },
+    {
+      "sizes":"76x76",
+      "src": "img/favicon/apple-touch-icon-76x76@2x.png",
+      "density":2
+    },
+    {
+      "sizes":"120x120",
+      "src": "img/favicon/apple-touch-icon-120x120@2x.png",
+      "density": 2
+    },
+    {
+      "sizes":"152x152",
+      "src": "img/favicon/apple-touch-icon-152x152@2x.png",
+      "density": 2
+    }
+  ]
+}
