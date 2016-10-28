@@ -9770,7 +9770,7 @@
             "id": "831", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 8 - Executive Suite", 
+            "location": "Floor 8 - Executive Suite]", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-come-write-your-first-foia-request", 
             "programmatic": false, 
             "start": "12:15pm", 
@@ -10376,7 +10376,7 @@
             "category": "Journalism", 
             "day": "Saturday", 
             "description": "Workflow is one of the less-understood and more intangible things about a newsroom. Sure, reporters know who to send their stories to, but when the newsroom starts to grow or transform, the workflow starts to look crazier and crazier. And when a transformation of the newsroom is attempted, the workflow is one of the things that can make or break it.\nThis session will look at workflow in newsrooms, ways it can be first understood and then how it can be improved. We'll try a couple of exercises to make the abstract topic of newsroom workflow more real, as well as to look at various tools that can help the process move better, including the tool our team has made, Superdesk.", 
-            "end": "12:00pm", 
+            "end": "11:00am", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Sourcefabric", 
@@ -10676,7 +10676,7 @@
                 "Niels Ladefoged", 
                 ""
             ], 
-            "id": "284", 
+            "id": "English", 
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 8 - 804", 
@@ -10718,7 +10718,7 @@
             "id": "796", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 8 - Boardroom", 
+            "location": "Floor 8 - 805", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-delivering-news-into-china---insights", 
             "programmatic": false, 
             "start": "3:15pm", 
@@ -10847,7 +10847,7 @@
             "additional language": "", 
             "category": "Journalism", 
             "day": "Saturday", 
-            "description": "", 
+            "description": "Close out your first day at MozFest with these short, energizing talks focused on ideas from across \n\n* How the first computer came to be (Nicola Hughes, OpenNews 2012)\n* How to protect your personal information in your daily life through threat modeling (Etienne Maynier, Open Web 2016)\n* Understanding your brain using open-source technology (Teon Brooks, Mozilla Science Lab 2016)\n* The crazy, fascinating history of ankle monitors (Drew Wilson, Open Web 2015)\n* Let's build a Global Advocacy Database (Sid Rao, Mozilla Science Lab 2016)\n* The open revolution in science and why it needs you (Danielle Robinson, Mozilla Science Lab 2016)\n* Bionode.io - \"modular and universal bioinformatics\" (Bruno Miguel Pereira Vieira, Mozilla Science Lab 2016)\n* How to make your life easier with 5 spreadsheets (Sandhya Kambhampati, OpenNews 2016)\n* What Harry Potter taught me about journalism (Christine Zhang, OpenNews 2016)", 
             "end": "5:30pm", 
             "facilitators": {
                 "1": {
@@ -10875,19 +10875,19 @@
             "localized description": "", 
             "localized title": "", 
             "location": "Floor 8 - 805", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-lightning-talks", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-lightning-talks---one-hour--three-fel", 
             "programmatic": false, 
             "start": "4:30pm", 
             "tags": [], 
             "timeblock": "sat-4-30pm--saturday-16-30-", 
-            "title": "Lightning talks"
+            "title": "Lightning talks - One hour, three fellowships, nine ideas"
         }, 
         {
             "additional language": "", 
             "category": "Journalism", 
             "day": "Sunday", 
             "description": "This session is aimed at journalists, journalism students, and bloggers interested in making modern longform web articles such as ones featured by https://medium.com/. We introduce Snowball, an open source WordPress plugin we have developed, and facilitate activities aimed at learning how to use Snowball to create expressive, interactive web articles. No coding experience is required, while Snowball offers opportunities for further customization with just a dash of HTML and CSS. We encourage to bring your own laptops with WordPress installed. If you are not very familiar with WordPress or installing WordPress on your laptop, please contact me at { meenchul.kim.drexel@gmail.com } to be registered as a test user.", 
-            "end": "4:30pm", 
+            "end": "5:30pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -18141,7 +18141,7 @@
             "id": "349", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 1 - 101", 
+            "location": "Floor 8 - 801", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-digital-champions--scaffolding-adult", 
             "programmatic": false, 
             "start": "3:15pm", 
