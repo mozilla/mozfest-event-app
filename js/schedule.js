@@ -80,8 +80,7 @@ function Schedule(CUSTOM_CONFIG) {
   schedule.loadDefaultView = function() {
     if (schedule.eventIsCurrentlyOngoing) {
       schedule.loadChosenTab({
-        loadFavoredDayTab: true,
-        hashToUpdateTo: 'show-' + schedule.favoredDayTab
+        loadFavoredDayTab: true
       });
     } else {
       schedule.displayCategoriesList();
