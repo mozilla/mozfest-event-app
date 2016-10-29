@@ -10276,7 +10276,7 @@
             "id": "654", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 8 - 805", 
+            "location": "Floor 8 - 804", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-poetry-for-programmers--how-arts-and", 
             "programmatic": false, 
             "start": "12:30pm", 
@@ -10631,7 +10631,7 @@
             "id": "382", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 8 - 805", 
+            "location": "Floor 8 - 804", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-let-s-ask-all-our-embarrassing-data-q", 
             "programmatic": false, 
             "start": "12:15pm", 
@@ -19838,9 +19838,9 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
-            "day": "Sunday", 
+            "day": "Saturday", 
             "description": "You will get to build a robot using a Crumble controller. When constructed you will write some code to get it moving, then add a ultrasonic sensor and race your robot, while try to get them as close as possible to the finishing wall without hitting it.", 
-            "end": "5:30pm", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "South London Raspberry Jam", 
@@ -19869,9 +19869,9 @@
             "location": "Floor 2 - 211", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-robot-hacking-with-the-crumble", 
             "programmatic": false, 
-            "start": "4:30pm", 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "sun-4-30pm--sunday-16-30-", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "Robot hacking with the Crumble"
         }, 
         {
@@ -19954,17 +19954,17 @@
             "additional language": "", 
             "category": "Youth zone", 
             "day": "Sunday", 
-            "description": "SocialVR is an easy-to-use browser-based tool for \ncreating virtual reality (VR) stories for non-technical users and youth.\n In SocialVR you can combine 360-photos with interactive media hotspots \nthat speak, show you additional images, or teleport you to different \nplaces. Check out some of the experiences we have built and then build \nyour own personalized VR story with photos we have taken around the city\n and at MozFest! \nVirtual Reality (VR) appears poised to affect the field of modern education, however, creating user-generated VR experiences requires expertise with graphic design, 3D modeling, video editing, and programming skills is too complex for most elementary and middle school teachers and students to take on. In order to make VR storytelling more accessible, we have created SocialVR: a browser-based interactive design tool that allows non-technical users aged 8+ to create personalized VR experiences. Using a simple browser, phone, and low-cost camera, individuals who otherwise would not have access to VR technology are equipped to build personalized immersive experiences using 360 photos and videos, text, and audio. Using these media primitives, users can create customized stories, games, and learning resources. During the demo and lightning talk, we will share several examples and demonstrate how to make a personalized VR experience. We will also build an example on site.", 
+            "description": "SocialVR is an easy-to-use browser-based tool for \ncreating virtual reality (VR) stories for non-technical users and youth.\n In SocialVR you can combine 360-photos with interactive media hotspots \nthat speak, show you additional images, or teleport you to different \nplaces. Check out some of the experiences we have built and then build \nyour own personalized VR story with photos we have taken around the city\n and at MozFest!", 
             "end": "12:00pm", 
             "facilitators": {
                 "1": {
-                    "affiliated org": "Carnegie Mellon University, ArtFab", 
+                    "affiliated org": "IRL Labs", 
                     "name": "Aparna Wilder", 
-                    "twitter": "@IRL Laboratories"
+                    "twitter": "@IRLaboratories"
                 }, 
                 "2": {
-                    "affiliated org": "", 
-                    "name": "", 
+                    "affiliated org": "Carnegie Mellon University", 
+                    "name": "Ben Scott", 
                     "twitter": ""
                 }, 
                 "3": {
@@ -19975,7 +19975,7 @@
             }, 
             "facilitators_names": [
                 "Aparna Wilder", 
-                "", 
+                "Ben Scott", 
                 ""
             ], 
             "id": "496", 
@@ -20109,45 +20109,6 @@
             "tags": [], 
             "timeblock": "sun-3-15pm--sunday-15-15-", 
             "title": "The Great Fire 1666, using Minecraft to"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Youth zone", 
-            "day": "Saturday", 
-            "description": "Make your world in Minecraft Pi Edition. Choose anywhere in England and build it into Minecraft using LIDAR data. The whole nation has been scanned with \"Lasers\" and anyone can use the data. So using open source javascript we developed at school you can build real terrain and buildings in glorious blocks. Then modify it to make it more realistic or see where might flood in a storm or redesign your school. You should be able to take a copy of your creation (if you bring a USB stick) and we will show you how to install the code on your Pi.", 
-            "end": "3:00pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "UTC Sheffield", 
-                    "name": "Lauren Hopkins", 
-                    "twitter": "@UTCSheffield"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Lauren Hopkins", 
-                "", 
-                ""
-            ], 
-            "id": "608", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 2 - 211", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-build-the-real-world-in-minecraft-on", 
-            "programmatic": false, 
-            "start": "2:00pm", 
-            "tags": [], 
-            "timeblock": "sat-2pm--saturday-14-00-", 
-            "title": "Build the Real World in Minecraft on Raspberry Pi"
         }, 
         {
             "additional language": "", 
@@ -20738,7 +20699,7 @@
             "additional language": "", 
             "category": "Youth zone", 
             "day": "Sunday", 
-            "description": "This is a workshop revolving around using the Raspberry Pi with a PIR (Passive Infra-Red) sensor, connected to the Raspberry Pi’s GPIO. When the PIR, detects motion, it will trigger a photo to be taken with the Raspberry Pi Camera Module. Then the Pi with upload the photo along with a pre-set message to the participant’s Twitter account, using the twitter API implementation for Python.", 
+            "description": "![Images](https://vlee.me.uk/assets/images/Hello.JPG) Come along and turn a Raspberry Pi into an automatic tweeting machine! Learn how to use a PIR sensor through the Raspberry Pi's GPIO pins. Upload a real-time photo from the Raspberry Pi's camera module with a matching pre-set message. Use our demo twitter account and all of this using Python with the twitter API! Come and learn how to: - Use the Raspberry Pi's GPIO as an input - Use the Camera Module - Use If Statements and While Loops - Spam Twitter with your great automatic tweets! - And so much more!", 
             "end": "3:00pm", 
             "facilitators": {
                 "1": {
@@ -21515,45 +21476,6 @@
         {
             "additional language": "", 
             "category": "Youth zone", 
-            "day": "Saturday", 
-            "description": "APC and its partners have re-released its popular resource, a simple first-aid for human rights defenders who have found themselves on the receiving end of a hack, DDoS, or severe trolling. The latest edition is even more usable: mobile responsive and on a standalone platform. It's also now in Urdu, Hindi, French and Spanish, in addition to the original English. Participants will be coerced into a gameshow format as a way to share expertise and cluelessness alike in figuring out exactly what to do once you've been pwned.", 
-            "end": "3:00pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Association for Progressive Communications", 
-                    "name": "Mallory Knodel", 
-                    "twitter": "@chaoticfree"
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Mallory Knodel", 
-                "", 
-                ""
-            ], 
-            "id": "3910", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 2 - 206", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-an-exceedingly-practical-digital-secu", 
-            "programmatic": false, 
-            "start": "2:00pm", 
-            "tags": [], 
-            "timeblock": "sat-2pm--saturday-14-00-", 
-            "title": "An exceedingly practical digital security first-aid kit for after you've been pwned"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Youth zone", 
             "day": "Friday", 
             "description": "Join us for paper crafting with circuitry!  We will make light-up \ninteractive posters and bring them to life with code.  No experience \nwith code or circuitry is necessary-- everyone is welcome!In this hands-on workshop attendees will learn to create interactive posters with circuitry on paper and make them come to life with Arduino programming!\nWe will be using circuit stickers to build expressive circuitry on paper and introduce a new programmable microcontroller clip for the code. We will be using an online browser-based Arduino programming platform and participants can program the clips with their laptops, tablets or even cell phones.\nOur goal is to introduce beginner circuit builders and programmers to the magic of creating technology through arts and crafts.  Participants will get to have fun designing, building and coding electronics while making unique and expressive works of art!\nFor an example of programmed paper circuitry artwork, check out this interactive painting:\nhttp://technolojie.com/pu-gong-ying-tu-dandelion-painting/", 
             "end": "6:00pm", 
@@ -21669,6 +21591,123 @@
             ], 
             "timeblock": "fri-science-fair--friday-18-00-", 
             "title": "The Grand Tour - experience our solar system in VR"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth Zone", 
+            "day": "Sunday", 
+            "description": "Field trips to virtually anywhere, from Machu Picchu to Antarctica to the International Space Station - **where will you take your class**? \nThis school year, Expeditions teams will visit selected schools around the UK. Be one of the first to experience **Google Expeditions here at Mozfest** and then take it to your school.\n**All VR equipment is provided to take part in this session", 
+            "end": "11:00am", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "72462", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 212", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-google-expeditions", 
+            "programmatic": false, 
+            "start": "11:00am", 
+            "tags": [], 
+            "timeblock": "sun-11am--sunday-11-00-", 
+            "title": "Google Expeditions"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth Zone", 
+            "day": "Sunday", 
+            "description": "Field trips to virtually anywhere, from Machu Picchu to Antarctica to the International Space Station - **where will you take your class**? \nThis school year, Expeditions teams will visit selected schools around the UK. Be one of the first to experience **Google Expeditions here at Mozfest** and then take it to your school.", 
+            "end": "3:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "", 
+                "", 
+                ""
+            ], 
+            "id": "72463", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 212", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-google-expeditions", 
+            "programmatic": false, 
+            "start": "3:15pm", 
+            "tags": [], 
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
+            "title": "Google Expeditions"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth Zone", 
+            "day": "Saturday", 
+            "description": "Break out of the screen and control the outside world with Scratch and the Raspberry Pi! Interaction with physical objects brings a whole new dimension to computing. This is a hands on workshop where you will learn how to connect LEDs, buttons, motors and sensors to the Pi and control them using Scratch. With these basic skills you will be able to build everything from robots to parent detectors.", 
+            "end": "5:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "Helen Drury", 
+                    "twitter": "@Codeclub"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Helen Drury", 
+                "", 
+                ""
+            ], 
+            "id": "5101", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 209", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-physical-computing-with-scratch-on-th", 
+            "programmatic": false, 
+            "start": "4:30pm", 
+            "tags": [], 
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
+            "title": "Physical computing with Scratch on the Raspberry Pi"
         }
     ], 
     "timeblocks": [
