@@ -9657,7 +9657,7 @@
             "category": "Fuel The Movement", 
             "day": "Saturday", 
             "description": "There are hundreds of mass and digital surveillance companies popping up around the world. This relatively unregulated cottage industry is booming, while we have our rights eroded. We want to get everyday people talking about it, so we're hosting a massive wikipedia edit-a-thon. Come meet veteran wikipedia editors, Mozilla Open Web Fellows, and experts in the field. Help us create articles and link to news stories containing information about IMSI catchers, Modem Sniffers, Malware, and encryption downgrading technologies. We need people to translate pages, update articles, link to citations and references, and disseminate this knowledge to journalists. We need help with file formats and copy writing, scripting, and media activism.", 
-            "end": "1:00pm", 
+            "end": "2:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "", 
@@ -9683,12 +9683,12 @@
             "id": "539", 
             "localized description": "", 
             "localized title": "", 
-            "location": "Floor 4 - Library", 
+            "location": "Floor 6 - 603", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-all-eyes-on-surveillance", 
             "programmatic": false, 
-            "start": "1:00pm", 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "sat-1pm--saturday-13-00-", 
+            "timeblock": "sat-2pm--saturday-14-00-", 
             "title": "All Eyes on Surveillance"
         }, 
         {
