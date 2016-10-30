@@ -7693,7 +7693,7 @@
             "category": "Dilemmas in Connected Spaces", 
             "day": "Sunday", 
             "description": "A physical brick that helps you manage your home data and your city services to connect to you in a better way.\n\nYour home has a deep shadow of data, it is not just the physical materials that make the walls, floors, ceiling, the pipes and wires that provide the services, there is information on the construction, how it sits in the physical landscape, where it sits in the legal landscape. A whole lot of information goes into a home and a whole lot more just keeps coming out of it. Data Brick explores how we can navigate and control this kind of data in the future.", 
-            "end": "2:30pm", 
+            "end": "3:00pm", 
             "facilitators": {
                 "1": {
                     "affiliated org": "Central Saint Martins", 
@@ -7722,9 +7722,9 @@
             "location": "Floor 6 - 602", 
             "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-data-brick", 
             "programmatic": false, 
-            "start": "11:00am", 
+            "start": "2:00pm", 
             "tags": [], 
-            "timeblock": "sun-11am--sunday-11-00-", 
+            "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Data Brick"
         }, 
         {
