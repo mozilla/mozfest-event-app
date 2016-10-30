@@ -7848,6 +7848,45 @@
             "additional language": "", 
             "category": "Dilemmas in Connected Spaces", 
             "day": "Sunday", 
+            "description": "90% of IoT is being manufactured in Shenzhen. Come to our electronics market to learn more about what you can hack, build and ship in this unique, open ecosystem.", 
+            "end": "4:15pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Shenzhen Open Innovation Lab", 
+                    "name": "David Li", 
+                    "twitter": "@taweili "
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "David Li", 
+                "", 
+                ""
+            ], 
+            "id": "10100", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 606", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-shenzhen-open-hardware-market", 
+            "programmatic": false, 
+            "start": "3:15pm", 
+            "tags": [], 
+            "timeblock": "sun-3-15pm--sunday-15-15-", 
+            "title": "Shenzhen Open Hardware Market"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
+            "day": "Sunday", 
             "description": "How can locally relevant and locally produced IoT contribute to more resilient systems? Currently, several large corporate players are shaping IoT. Their power is quite centralised, even though they compete against each other. Centralised power means there is a single point of failure. And it means that individual agency is limited, especially at the edges of a network.\n\nFor this reason, we are committed to making meaningful things in local contexts. Open innovation at the edges can shift centralised power, leading to products that are locally relevant and adapted. We are particularly interested in exploring the contexts of decentralization that can empower communities to be more resilient through making locally relevant IoT.", 
             "end": "2:00pm", 
             "facilitators": {
