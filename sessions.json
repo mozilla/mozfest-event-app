@@ -7847,6 +7847,201 @@
         {
             "additional language": "", 
             "category": "Dilemmas in Connected Spaces", 
+            "day": "Saturday", 
+            "description": "IoT will significantly amplify the security and privacy challenges we currently face. Let's identify gaps in knowledge about UX + privacy among practitioners creating meaningful connected things. This sessions using an interact card kit to prioritize areas of interest, and identify ways to to support the developer community to consider trust issues in IoT.", 
+            "end": "2:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Simply Secure", 
+                    "name": "Ame Elliott", 
+                    "twitter": "@ameellio"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Ame Elliott", 
+                "", 
+                ""
+            ], 
+            "id": "210105", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 606", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-trust-in-iot--an-insights-toolkit-for", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sat-1pm--saturday-13-00-", 
+            "title": "Trust in IoT: An Insights Toolkit for developers"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
+            "day": "Saturday", 
+            "description": "What are the professional practices and templates we should use to foster open IoT? This session will begin to scope what resources exist, where there might be gaps, and how we can develop this workbench in the open so that more practitioners can benefit from and contribute to new and dilerate ways of making responsible IoT.", 
+            "end": "3:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Mozilla's Open IoT Studio", 
+                    "name": "Martin Skelly", 
+                    "twitter": "@martin_skelly "
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Martin Skelly", 
+                "", 
+                ""
+            ], 
+            "id": "120104", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 606", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-open-iot-workbench-i", 
+            "programmatic": false, 
+            "start": "2:00pm", 
+            "tags": [], 
+            "timeblock": "sat-2pm--saturday-14-00-", 
+            "title": "Open ioT Workbench I"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
+            "day": "Saturday", 
+            "description": "How can locally relevant and locally produced IoT contribute to more resilient systems? Currently, several large corporate players are shaping IoT. Their power is quite centralised, even though they compete against each other. Centralised power means there is a single point of failure. And it means that individual agency is limited, especially at the edges of a network.\n\nFor this reason, we are committed to making meaningful things in local contexts. Open innovation at the edges can shift centralised power, leading to products that are locally relevant and adapted. We are particularly interested in exploring the contexts of decentralization that can empower communities to be more resilient through making locally relevant IoT.", 
+            "end": "5:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "Rachel Rayns", 
+                    "twitter": "@RachelRayns "
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Rachel Rayns", 
+                "", 
+                ""
+            ], 
+            "id": "20103", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 606", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-decentralisation-and-community-resili", 
+            "programmatic": false, 
+            "start": "4:30pm", 
+            "tags": [], 
+            "timeblock": "sat-4-30pm--saturday-16-30-", 
+            "title": "Decentralisation and community resilience"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
+            "day": "Sunday", 
+            "description": "Continued: What are the professional practices and templates we should use to foster open IoT? This session will begin to scope what resources exist, where there might be gaps, and how we can develop this workbench in the open so that more practitioners can benefit from and contribute to new and dilerate ways of making responsible IoT.", 
+            "end": "3:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Mozilla's Open IoT Studio", 
+                    "name": "Martin Skelly", 
+                    "twitter": "@martin_skelly "
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Martin Skelly", 
+                "", 
+                ""
+            ], 
+            "id": "10102", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 606", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-open-iot-workbench-ii", 
+            "programmatic": false, 
+            "start": "2:00pm", 
+            "tags": [], 
+            "timeblock": "sun-2pm--sunday-14-00-", 
+            "title": "Open ioT Workbench II"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in connected spaces", 
+            "day": "Sunday", 
+            "description": "Let's reflect on the weekend and discuss what we can do next as a network. The time is right to not only ask what is possible for IoT, but what is responsible. We're learning how to embed internet health in the making of meaningful connected things. We're looking at issues like privacy & security, decentralization and open innovation in IoT. Join IoT professionals working in the field alongside local communities to produce research, prototypes and best practices that demonstrate how Mozilla's principles can be implemented in connected products.", 
+            "end": "5:30pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Mozilla", 
+                    "name": "Mozilla's Open IoT Studio", 
+                    "twitter": "@openiotstudio"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Mozilla's Open IoT Studio", 
+                "", 
+                ""
+            ], 
+            "id": "10101", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 606", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-where-next-for-the-open-iot-studio", 
+            "programmatic": false, 
+            "start": "4:30pm", 
+            "tags": [], 
+            "timeblock": "sun-4-30pm--sunday-16-30-", 
+            "title": "Where next for the Open IoT Studio!"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
             "day": "Sunday", 
             "description": "90% of IoT is being manufactured in Shenzhen. Come to our electronics market to learn more about what you can hack, build and ship in this unique, open ecosystem.", 
             "end": "4:15pm", 
