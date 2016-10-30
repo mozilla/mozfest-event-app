@@ -5375,123 +5375,6 @@
         {
             "additional language": "", 
             "category": "Dilemmas in connected spaces", 
-            "day": "Saturday", 
-            "description": "This installation shows the double-edged and irreversible process of personalization, represented by popcorn and using the layout of the Mozfest event space to span four floors. Corn begins at the top of the third floor as multicolored (dyed) kernels that enter a funnel. The funnel leads through ductwork to the second floor and appears to enter one of three TVs, which play random video footage tinted in red, green, or blue. Tubing connects the three TVs to a fourth TV on the second floor, which plays full-color streamed footage and social media posts from the Mozfest event. Popcorn drops from the first floor to the ground floor through a tapered clear-plastic hopper, ending at a table with a regular-sized popcorn tub that fills with popcorn.", 
-            "end": "1:30pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Mozilla", 
-                    "name": "Kevin Fann", 
-                    "twitter": ""
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Kevin Fann", 
-                "", 
-                ""
-            ], 
-            "id": "191", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 6 - 606", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-funnel", 
-            "programmatic": false, 
-            "start": "10:00am", 
-            "tags": [], 
-            "timeblock": "sat-10am--saturday-10-00-", 
-            "title": "The Funnel"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Dilemmas in connected spaces", 
-            "day": "Sunday", 
-            "description": "This installation shows the double-edged and irreversible process of personalization, represented by popcorn and using the layout of the Mozfest event space to span four floors. Corn begins at the top of the third floor as multicolored (dyed) kernels that enter a funnel. The funnel leads through ductwork to the second floor and appears to enter one of three TVs, which play random video footage tinted in red, green, or blue. Tubing connects the three TVs to a fourth TV on the second floor, which plays full-color streamed footage and social media posts from the Mozfest event. Popcorn drops from the first floor to the ground floor through a tapered clear-plastic hopper, ending at a table with a regular-sized popcorn tub that fills with popcorn.", 
-            "end": "2:30pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Mozilla", 
-                    "name": "Kevin Fann", 
-                    "twitter": ""
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Kevin Fann", 
-                "", 
-                ""
-            ], 
-            "id": "1192", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 6 - 606", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-funnel", 
-            "programmatic": false, 
-            "start": "11:00am", 
-            "tags": [], 
-            "timeblock": "sun-11am--sunday-11-00-", 
-            "title": "The Funnel"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Dilemmas in connected spaces", 
-            "day": "Sunday", 
-            "description": "This installation shows the double-edged and irreversible process of personalization, represented by popcorn and using the layout of the Mozfest event space to span four floors. Corn begins at the top of the third floor as multicolored (dyed) kernels that enter a funnel. The funnel leads through ductwork to the second floor and appears to enter one of three TVs, which play random video footage tinted in red, green, or blue. Tubing connects the three TVs to a fourth TV on the second floor, which plays full-color streamed footage and social media posts from the Mozfest event. Popcorn drops from the first floor to the ground floor through a tapered clear-plastic hopper, ending at a table with a regular-sized popcorn tub that fills with popcorn.", 
-            "end": "4:30pm", 
-            "facilitators": {
-                "1": {
-                    "affiliated org": "Mozilla", 
-                    "name": "Kevin Fann", 
-                    "twitter": ""
-                }, 
-                "2": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }, 
-                "3": {
-                    "affiliated org": "", 
-                    "name": "", 
-                    "twitter": ""
-                }
-            }, 
-            "facilitators_names": [
-                "Kevin Fann", 
-                "", 
-                ""
-            ], 
-            "id": "1193", 
-            "localized description": "", 
-            "localized title": "", 
-            "location": "Floor 6 - 606", 
-            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-the-funnel", 
-            "programmatic": false, 
-            "start": "1:00pm", 
-            "tags": [], 
-            "timeblock": "sun-1pm--sunday-13-00-", 
-            "title": "The Funnel"
-        }, 
-        {
-            "additional language": "", 
-            "category": "Dilemmas in connected spaces", 
             "description": "Learn about low power wide area networks like The Things Network and how we build the network together with more than 200 communities world wide. They will make a thing, connected to the network", 
             "duration": "60", 
             "facilitators": {
@@ -7960,6 +7843,45 @@
             "tags": [], 
             "timeblock": "sun-2pm--sunday-14-00-", 
             "title": "Back to the - Future toys"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Dilemmas in Connected Spaces", 
+            "day": "Sunday", 
+            "description": "How can locally relevant and locally produced IoT contribute to more resilient systems? Currently, several large corporate players are shaping IoT. Their power is quite centralised, even though they compete against each other. Centralised power means there is a single point of failure. And it means that individual agency is limited, especially at the edges of a network.\n\nFor this reason, we are committed to making meaningful things in local contexts. Open innovation at the edges can shift centralised power, leading to products that are locally relevant and adapted. We are particularly interested in exploring the contexts of decentralization that can empower communities to be more resilient through making locally relevant IoT.", 
+            "end": "2:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "", 
+                    "name": "Rachel Rayns", 
+                    "twitter": "@RachelRayns "
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Rachel Rayns", 
+                "", 
+                ""
+            ], 
+            "id": "4444", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 6 - 606", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-decentralisation-and-community-resili", 
+            "programmatic": false, 
+            "start": "1:00pm", 
+            "tags": [], 
+            "timeblock": "sun-1pm--sunday-13-00-", 
+            "title": "Decentralisation and community resilience"
         }, 
         {
             "additional language": "French, English", 
@@ -22019,6 +21941,45 @@
             "tags": [], 
             "timeblock": "sat-12-30pm--saturday-12-30-", 
             "title": "Wi-Fi Penetration with Kali Linux"
+        }, 
+        {
+            "additional language": "", 
+            "category": "Youth zone", 
+            "day": "Sunday", 
+            "description": "![Images](https://vlee.me.uk/assets/images/header2com.JPG)    \nCome along and turn a Raspberry Pi into an automatic tweeting machine! Learn how to use a PIR sensor through the Raspberry Pi's GPIO pins. Upload a real-time photo from the Raspberry Pi's camera module with a matching pre-set message. Use our demo twitter account and all of this using Python with the twitter API! Come and learn how to:     \n- Use the Raspberry Pi's GPIO as an input    \n- Use the Camera Module    \n- Use If Statements and While Loops    \n- Spam Twitter with your great automatic tweets!    \n- And so much more!", 
+            "end": "3:00pm", 
+            "facilitators": {
+                "1": {
+                    "affiliated org": "Northern Ireland Raspberry Jam", 
+                    "name": "Vincent Lee", 
+                    "twitter": "@vlee888"
+                }, 
+                "2": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }, 
+                "3": {
+                    "affiliated org": "", 
+                    "name": "", 
+                    "twitter": ""
+                }
+            }, 
+            "facilitators_names": [
+                "Vincent Lee", 
+                "", 
+                ""
+            ], 
+            "id": "832", 
+            "localized description": "", 
+            "localized title": "", 
+            "location": "Floor 2 - 211", 
+            "notes url": "https://public.etherpad-mozilla.org/p/mozfest-2016-automatic-twitter-photo-booth-with-th", 
+            "programmatic": false, 
+            "start": "2:00pm", 
+            "tags": [], 
+            "timeblock": "sun-2pm--sunday-14-00-", 
+            "title": "Automatic Twitter photo booth with the Raspberry Pi"
         }
     ], 
     "timeblocks": [
